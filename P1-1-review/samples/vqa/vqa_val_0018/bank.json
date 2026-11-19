@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "64632a083e69ca94a2fcac32b8a999387cba8ea13c7a8a80222921f4bd24624b",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "25dc1e360276dce0bf7873d829bdc8d68edb86cba67205c02b1f5b5eb5510f3e",
+      "notes": "All source prompts identify baseball umpires in black; all target prompts identify baseball players in black. The question asks their role, so role contrast is clear.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0018/source/000.png",
+        "index": 0,
+        "prompt": "Two baseball umpires in black uniforms stand behind home plate during a sunny afternoon game, observing the batter from a low angle.",
+        "prompt_sha256": "3a55bda9782f961f32c78311c6ffb80fbd2ae6d04481acccc08bcabe41cbbc3b",
+        "reference_id": "vqa__vqa_val_0018__source__000",
+        "role": "source",
+        "seed": 994888053232949148
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/001.png",
+        "index": 1,
+        "prompt": "A medium shot of two baseball umpires in black uniforms positioned near first base on a grassy field under bright daylight.",
+        "prompt_sha256": "bf38380ec2d89ca594584beb192508b3552595f52c6fb77650daa99f2856b147",
+        "reference_id": "vqa__vqa_val_0018__source__001",
+        "role": "source",
+        "seed": 945864888799740711
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/002.png",
+        "index": 2,
+        "prompt": "Daytime baseball game with men in black umpire uniforms standing near the pitcher's mound, viewed from the dugout.",
+        "prompt_sha256": "36c9801ea27f64f17c10d42001bf2290b1b1f93ec82b0e2226a189d572b48632",
+        "reference_id": "vqa__vqa_val_0018__source__002",
+        "role": "source",
+        "seed": 1008955345990828623
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/003.png",
+        "index": 3,
+        "prompt": "Nighttime baseball game featuring men in black umpire uniforms positioned in the dugout, captured in medium framing.",
+        "prompt_sha256": "c7d0936ebd1032002bb7b5a0a4298eea928c892899da876f300a3f5fe00795dd",
+        "reference_id": "vqa__vqa_val_0018__source__003",
+        "role": "source",
+        "seed": 495914214361142371
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/004.png",
+        "index": 4,
+        "prompt": "Photorealistic baseball umpire in a black uniform standing behind home plate, facing the camera with a mask on.",
+        "prompt_sha256": "6b3aaff5486c2f4310434ace0431774a84c9bc2e11572fa18e30d1bd590f50d0",
+        "reference_id": "vqa__vqa_val_0018__source__004",
+        "role": "source",
+        "seed": 157446924842901226
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/005.png",
+        "index": 5,
+        "prompt": "Medium shot of a baseball umpire in a black uniform positioned near first base, holding a mask.",
+        "prompt_sha256": "fdd52d80c452a1f6eb8938d1cf48c54a360494640b01a0dff8cd3c453413778b",
+        "reference_id": "vqa__vqa_val_0018__source__005",
+        "role": "source",
+        "seed": 454042990333771228
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/006.png",
+        "index": 6,
+        "prompt": "Medium view of a baseball game with a man in a black umpire uniform positioned near the first base bag.",
+        "prompt_sha256": "36b02bf6a794a2c23b112aad52488d24effea8a81729f9f8d9eb59bb3018ed28",
+        "reference_id": "vqa__vqa_val_0018__source__006",
+        "role": "source",
+        "seed": 893277409606903029
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/007.png",
+        "index": 7,
+        "prompt": "Two baseball umpires in black uniforms standing behind the catcher at home plate during a daytime game.",
+        "prompt_sha256": "8ed8fe5f3815358eccedefb3b177a5928c13af8e088d278fd2fb36bf053d7f5f",
+        "reference_id": "vqa__vqa_val_0018__source__007",
+        "role": "source",
+        "seed": 194587233215197606
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/008.png",
+        "index": 8,
+        "prompt": "A baseball umpire in a black uniform stands behind home plate, watching the pitcher during a sunny afternoon game.",
+        "prompt_sha256": "e0dfe106c10e6467142c9bced61d3f8778e62d86140590437bab5c0f03ffe8fc",
+        "reference_id": "vqa__vqa_val_0018__source__008",
+        "role": "source",
+        "seed": 709365206063780490
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/009.png",
+        "index": 9,
+        "prompt": "Two baseball umpires in black uniforms are positioned near second base, observing the play on a clear day.",
+        "prompt_sha256": "6c0e9d11036ca8950bedb1cc14ddcc963960448d500f27fad6b657ae0e9b7b1d",
+        "reference_id": "vqa__vqa_val_0018__source__009",
+        "role": "source",
+        "seed": 821317431972412547
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/010.png",
+        "index": 10,
+        "prompt": "A baseball umpire in a black uniform stands behind the catcher at home plate, observing the pitch during a sunny afternoon game.",
+        "prompt_sha256": "f4b6a6799ddb07f60f6a7266ece8c500b3eb38caf8b390ca23376a3ca24a8280",
+        "reference_id": "vqa__vqa_val_0018__source__010",
+        "role": "source",
+        "seed": 65445206637919938
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/011.png",
+        "index": 11,
+        "prompt": "Medium shot of a baseball umpire wearing black standing near the pitcher's mound, with the infield grass and bases visible in the background.",
+        "prompt_sha256": "87d25538a517946fcfe43b6becd26bbd3e8f06a9ddd0288e23d2a42511d35b63",
+        "reference_id": "vqa__vqa_val_0018__source__011",
+        "role": "source",
+        "seed": 534518744638943369
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/012.png",
+        "index": 12,
+        "prompt": "A baseball umpire in a black uniform stands behind home plate during a daytime game, facing the pitcher's mound with a catcher crouched in front.",
+        "prompt_sha256": "d23a5ad502ddb8fd6c6f95e5f020d50949a1a15c54ca94514c2f67fc8bd82cb0",
+        "reference_id": "vqa__vqa_val_0018__source__012",
+        "role": "source",
+        "seed": 936050481274407459
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/013.png",
+        "index": 13,
+        "prompt": "A baseball umpire in a black uniform is positioned near second base on a sunny field, observing the play from a medium distance.",
+        "prompt_sha256": "8d63d508aa2e23150c0a7a066e6632106bd266465016cf12021ad61f827d3459",
+        "reference_id": "vqa__vqa_val_0018__source__013",
+        "role": "source",
+        "seed": 350976761414170123
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/014.png",
+        "index": 14,
+        "prompt": "A baseball umpire in a black uniform stands at second base during a daytime game, observing the play from a low angle.",
+        "prompt_sha256": "2a54fdc9d0da42dd61b1e52697ae1300bd284ee25585e30d29eb07d0bb5d4dbe",
+        "reference_id": "vqa__vqa_val_0018__source__014",
+        "role": "source",
+        "seed": 636950810301880460
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/015.png",
+        "index": 15,
+        "prompt": "Medium shot of a baseball umpire wearing black near the pitcher's mound, with the stadium crowd visible in the background.",
+        "prompt_sha256": "231cc898fe1566d0e5578becccedff21de347749ab5d55eb0048b0d4c1d4d89b",
+        "reference_id": "vqa__vqa_val_0018__source__015",
+        "role": "source",
+        "seed": 846461496372136020
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/016.png",
+        "index": 16,
+        "prompt": "Two baseball umpires in black uniforms stand side-by-side near the on-deck circle, observing the game from a low camera angle.",
+        "prompt_sha256": "aae1bf9fdd28f4cf579eaa55eb063768c60bad01d1eb63c6cb35af0cca58191f",
+        "reference_id": "vqa__vqa_val_0018__source__016",
+        "role": "source",
+        "seed": 543146835709126220
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/017.png",
+        "index": 17,
+        "prompt": "A baseball umpire in a black uniform crouches behind home plate, watching the pitcher throw during a sunny afternoon game.",
+        "prompt_sha256": "c2c33c6744b571673dd13e7e9129535477a23d5bc44a1010dcc3e2c8f3aa16c5",
+        "reference_id": "vqa__vqa_val_0018__source__017",
+        "role": "source",
+        "seed": 129109542110772208
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/018.png",
+        "index": 18,
+        "prompt": "Daytime baseball game with an umpire in a black uniform standing at the on-deck circle, viewed from a low angle.",
+        "prompt_sha256": "9cefeed5db9e13b7efc7e6e12d74bc13f95b218aac763bcb955a56f568f79f45",
+        "reference_id": "vqa__vqa_val_0018__source__018",
+        "role": "source",
+        "seed": 839803952035039378
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/source/019.png",
+        "index": 19,
+        "prompt": "Medium shot of a baseball field showing an umpire in black standing near the third base coach's box.",
+        "prompt_sha256": "494b476d6144a4bca45f6a3c74740deaa89e3928380f2b91008acff0497d6862",
+        "reference_id": "vqa__vqa_val_0018__source__019",
+        "role": "source",
+        "seed": 1049319623073062719
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/000.png",
+        "index": 0,
+        "prompt": "Two baseball players in black uniforms stand behind home plate during a sunny afternoon game, observing the batter from a low angle.",
+        "prompt_sha256": "f9817ab76a35cfd12bc0441be5d84c1240bf6a45fe9353c0a88b6bd590933065",
+        "reference_id": "vqa__vqa_val_0018__target__000",
+        "role": "target",
+        "seed": 160299681599333473
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/001.png",
+        "index": 1,
+        "prompt": "A medium shot of two baseball players in black uniforms positioned near first base on a grassy field under bright daylight.",
+        "prompt_sha256": "0acbfc50a246829580e52e9dcf3d9e5a1d7e4161957d4fc46a7fd419845f5b52",
+        "reference_id": "vqa__vqa_val_0018__target__001",
+        "role": "target",
+        "seed": 814637221330737952
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/002.png",
+        "index": 2,
+        "prompt": "Daytime baseball game with men in black player uniforms standing near the pitcher's mound, viewed from the dugout.",
+        "prompt_sha256": "409f83a85369dc83e6ae7cdeb64f2aade67441d9dd0db173ac00b2f8ef069496",
+        "reference_id": "vqa__vqa_val_0018__target__002",
+        "role": "target",
+        "seed": 621342298170186293
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/003.png",
+        "index": 3,
+        "prompt": "Nighttime baseball game featuring men in black player uniforms positioned in the dugout, captured in medium framing.",
+        "prompt_sha256": "69f2be41b68d683109a4d8761b08e9e2e6d502d51aff7e2c988fbb1b4a82ad96",
+        "reference_id": "vqa__vqa_val_0018__target__003",
+        "role": "target",
+        "seed": 411108401283544261
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/004.png",
+        "index": 4,
+        "prompt": "Photorealistic baseball player in a black uniform standing behind home plate, facing the camera with a batting helmet on.",
+        "prompt_sha256": "22b631f73d8fe9d2d4f4bfd16d43f076054aa3f6d7d2f923d807b67ac3aaa030",
+        "reference_id": "vqa__vqa_val_0018__target__004",
+        "role": "target",
+        "seed": 531888825298943771
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/005.png",
+        "index": 5,
+        "prompt": "Medium shot of a baseball player in a black uniform positioned near first base, holding a batting helmet.",
+        "prompt_sha256": "8cfaf7f03d36c9b697d076de673468985fddfa51662de22107fd09102ab9df02",
+        "reference_id": "vqa__vqa_val_0018__target__005",
+        "role": "target",
+        "seed": 247354600516356272
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/006.png",
+        "index": 6,
+        "prompt": "Medium view of a baseball game with a player in a black team uniform positioned near the first base bag.",
+        "prompt_sha256": "b7c396fc41cf71d7277b00c647cf57f14f4a42c3fe1cd5257ff25eb1eabff519",
+        "reference_id": "vqa__vqa_val_0018__target__006",
+        "role": "target",
+        "seed": 1020115792397207154
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/007.png",
+        "index": 7,
+        "prompt": "Two baseball players in black uniforms standing behind the catcher at home plate during a daytime game.",
+        "prompt_sha256": "b7b7870e58db81396029712b2f6345ecf8fd65e90d1516c6057b874ab75ee5a0",
+        "reference_id": "vqa__vqa_val_0018__target__007",
+        "role": "target",
+        "seed": 263684774986614991
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/008.png",
+        "index": 8,
+        "prompt": "A baseball player in a black uniform stands behind home plate, watching the pitcher during a sunny afternoon game.",
+        "prompt_sha256": "8acd7fd22ee88d47dc99ebd76d57156ab53ef78ba8e2067fce797221c33f48e3",
+        "reference_id": "vqa__vqa_val_0018__target__008",
+        "role": "target",
+        "seed": 988414290028783250
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/009.png",
+        "index": 9,
+        "prompt": "Two baseball players in black uniforms are positioned near second base, observing the play on a clear day.",
+        "prompt_sha256": "93a437aac379ef9ca11df63c087d5ff57f16753e4b16a8a013d472789bae17de",
+        "reference_id": "vqa__vqa_val_0018__target__009",
+        "role": "target",
+        "seed": 587354783613942003
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/010.png",
+        "index": 10,
+        "prompt": "A baseball player in a black uniform stands behind the catcher at home plate, watching the pitch during a sunny afternoon game.",
+        "prompt_sha256": "8d837fbe338a29dcdd8fcab7e13378fa6795150d3dc123ebb0e38e6927d478ba",
+        "reference_id": "vqa__vqa_val_0018__target__010",
+        "role": "target",
+        "seed": 212931058962871156
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/011.png",
+        "index": 11,
+        "prompt": "Medium shot of a baseball player wearing black standing near the pitcher's mound, with the infield grass and bases visible in the background.",
+        "prompt_sha256": "89dd43be60ee31de3c808309ceacc12992f2ef46b97ab5a9b974f8b202a1ad58",
+        "reference_id": "vqa__vqa_val_0018__target__011",
+        "role": "target",
+        "seed": 483073632847829040
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/012.png",
+        "index": 12,
+        "prompt": "A baseball player in a black uniform stands in the batter's box during a daytime game, facing the pitcher with a catcher crouched behind.",
+        "prompt_sha256": "6e1584548ec9d01b684cfef07f57fb0e6a6f6a9e1e997c13334300f4f139af88",
+        "reference_id": "vqa__vqa_val_0018__target__012",
+        "role": "target",
+        "seed": 863573108434007528
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/013.png",
+        "index": 13,
+        "prompt": "A baseball player in a black uniform is positioned near second base on a sunny field, ready to field a ground ball from a medium distance.",
+        "prompt_sha256": "8f47cedbdb0fbd922b8246fe027d694b1fcab5a2a9bcc7eae5dccaffc5438f8c",
+        "reference_id": "vqa__vqa_val_0018__target__013",
+        "role": "target",
+        "seed": 1091355027243900406
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/014.png",
+        "index": 14,
+        "prompt": "A baseball player in a black uniform stands at second base during a daytime game, watching the play from a low angle.",
+        "prompt_sha256": "d3d09718dd8734a3773ba607aa2bbb131e0e060f42289c2dc0d29102d87936d3",
+        "reference_id": "vqa__vqa_val_0018__target__014",
+        "role": "target",
+        "seed": 664785613635618314
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/015.png",
+        "index": 15,
+        "prompt": "Medium shot of a baseball player wearing black near the pitcher's mound, with the stadium crowd visible in the background.",
+        "prompt_sha256": "51e96357655e6f25f2a4206cbbf0c974092f2d4365635375ae42458c9bbe74a4",
+        "reference_id": "vqa__vqa_val_0018__target__015",
+        "role": "target",
+        "seed": 871951837658196169
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/016.png",
+        "index": 16,
+        "prompt": "Two baseball players in black uniforms stand side-by-side near the on-deck circle, observing the game from a low camera angle.",
+        "prompt_sha256": "61eb4ecbb66ece62cf9d72dce79a443f4b22f2f0655d3f4842e31e0e4334ce73",
+        "reference_id": "vqa__vqa_val_0018__target__016",
+        "role": "target",
+        "seed": 732780671153496807
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/017.png",
+        "index": 17,
+        "prompt": "A baseball player in a black uniform crouches behind home plate, watching the pitcher throw during a sunny afternoon game.",
+        "prompt_sha256": "74fbffc52ef9906286f2a16729696fbd110e21f6b10b5052c6fd45fc079d8d4f",
+        "reference_id": "vqa__vqa_val_0018__target__017",
+        "role": "target",
+        "seed": 508306293250018407
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/018.png",
+        "index": 18,
+        "prompt": "Daytime baseball game with a player in a black uniform standing at the on-deck circle, viewed from a low angle.",
+        "prompt_sha256": "9beb8c2cbff2b07b588f857a8c099e136718bea2ce404c141ab5a2b36ea95009",
+        "reference_id": "vqa__vqa_val_0018__target__018",
+        "role": "target",
+        "seed": 663427916598989922
+      },
+      {
+        "image": "samples/vqa/vqa_val_0018/target/019.png",
+        "index": 19,
+        "prompt": "Medium shot of a baseball field showing a player in black standing near the third base coach's box.",
+        "prompt_sha256": "14192fd1ee164dacbb5444d2b5aefa0777537a9a1c5e1e8aaac2a8b6b3e91445",
+        "reference_id": "vqa__vqa_val_0018__target__019",
+        "role": "target",
+        "seed": 1100132914360560995
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000357.jpg",
+    "original_image_sha256": "ea2f67b99f654ffd8527bf47e878e30d53790977220e503419d1ce3d5b540b97",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "64632a083e69ca94a2fcac32b8a999387cba8ea13c7a8a80222921f4bd24624b",
+    "sample_id": "vqa_val_0018",
+    "shard": 122,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "Who are the men in black?",
+      "source_answer": "umpires",
+      "source_answers": [
+        "umpire",
+        "umpires",
+        "umpires",
+        "referees",
+        "umpires",
+        "umpires",
+        "umpire",
+        "umpires",
+        "umpires",
+        "umpires"
+      ],
+      "target_answer": "players"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0018__source__000": {
+      "job_sha256": "d767262dd47c0ace21e3d2026bc294d4a887f415ff3aeb601092c62bb3fd58ba",
+      "sha256": "e9399e31b6404a44416c7b47bf3484c328875ae3bba853444e8b8c944949c9a0",
+      "bytes": 152843,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:03.806062+00:00"
+    },
+    "vqa__vqa_val_0018__source__001": {
+      "job_sha256": "ed72550946beafb3fedf91aff452730751ea39c90e869bce50c70861f9ad6618",
+      "sha256": "8073998b3f023863badb9c64933efa6e550cbca1b2a73bf2815f5e44c82a4b2f",
+      "bytes": 160001,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:03.848026+00:00"
+    },
+    "vqa__vqa_val_0018__source__002": {
+      "job_sha256": "8a9388c60be7abbc45012938c6ae5ed488b8e3d4894f20d9d24d8ead610562b4",
+      "sha256": "8d1d00a0ab6bc1ee208f1b30b26c65f84a8e8b57379451cb6da9e46ac1881a73",
+      "bytes": 152178,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:03.892706+00:00"
+    },
+    "vqa__vqa_val_0018__source__003": {
+      "job_sha256": "f7bd31cc5fd998ad035e40533399e7008ee54185c54c7163e9b19c840d7d75f9",
+      "sha256": "69d762f024f372729eb0423260186d81f3db1ced47a9134da0ae2d3a8432853f",
+      "bytes": 152246,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:03.940862+00:00"
+    },
+    "vqa__vqa_val_0018__source__004": {
+      "job_sha256": "7adf1d6cf1b64704f4e9a30370299db26f8dbdd153bcc6ddca0ef44da9ee408a",
+      "sha256": "592062a09aaf75bf99dd084da7bcee291b4aa14c8ec805fd0aef44051852fb14",
+      "bytes": 131926,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:03.984136+00:00"
+    },
+    "vqa__vqa_val_0018__source__005": {
+      "job_sha256": "6f29272f14e8fba8880d9429c0e02affb65f9de173d6ea23e1ad33d205328337",
+      "sha256": "2f2dbd488aa61e72ec565eb41d4749a7ce6619503463d294f5172cc1ecdef173",
+      "bytes": 136227,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.026562+00:00"
+    },
+    "vqa__vqa_val_0018__source__006": {
+      "job_sha256": "b7f482beb1e0dbd6bfae84e8e8a1120499ba7444c606578ead217d078d57be65",
+      "sha256": "f77da42544b2d9245fbb541a6570faba8424cd817b7de31fb1d657d52b236a1d",
+      "bytes": 130620,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.066474+00:00"
+    },
+    "vqa__vqa_val_0018__source__007": {
+      "job_sha256": "fe10208378c62d063e307e1d2923e2984d745adc87253e35f1b4b3e26991d891",
+      "sha256": "4d5057088ed218a75c25aced04679e39c7b72776503b8ea0b56147af8b6a57eb",
+      "bytes": 160000,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.106150+00:00"
+    },
+    "vqa__vqa_val_0018__source__008": {
+      "job_sha256": "f7fa1521166b7980a114164a6cedb40abe8eab24d538c6635a0bea10dac83551",
+      "sha256": "e3b49546ebb7b29a4df57c22b9145a6f2c2e331cb45b3b0cbf281987bac418de",
+      "bytes": 152675,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.145709+00:00"
+    },
+    "vqa__vqa_val_0018__source__009": {
+      "job_sha256": "819fba29e394d2cbc6358097e20cd6a80539cb59e54958ab70ed4398282ad511",
+      "sha256": "272a46037e98b56d9f61c16a5b96a7c4203524002a9bcc5e86415607cafa4947",
+      "bytes": 138771,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.191493+00:00"
+    },
+    "vqa__vqa_val_0018__source__010": {
+      "job_sha256": "ccacd277ed9d8e5b444f68d643ab2d108fc31770d916fafee8f48e80cdd5dcbe",
+      "sha256": "a7031cd656de601cac1ab0be842fe3e99f6e7a94c78d521c0ea12f5e8dd7ac6f",
+      "bytes": 160493,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.237566+00:00"
+    },
+    "vqa__vqa_val_0018__source__011": {
+      "job_sha256": "739236736ac79ccaa10a7c5fe3fd5c047c7d47bad3d2558d641c0b64ea28dca0",
+      "sha256": "7136d9ae5d9d9025b958bfa61feca7042f48265c5be35c04b95959aef3362bf4",
+      "bytes": 140180,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.274198+00:00"
+    },
+    "vqa__vqa_val_0018__source__012": {
+      "job_sha256": "7ac9ef4af9f36c8aa4a0abe0dc2daebb4c0f776e89a8478cba2267c0ae151382",
+      "sha256": "78bd0a89597e101956ba446363c4f82ea0607c35997e1dd958afaf5d5217cdb4",
+      "bytes": 159562,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.319961+00:00"
+    },
+    "vqa__vqa_val_0018__source__013": {
+      "job_sha256": "8a603e934278ddfc807b4ee769203c24aa2c8472b874252c58374785f5e5fa28",
+      "sha256": "0855959a94694194a866dd471bdcfedbd3b55d286ce1439669905e78e3643d57",
+      "bytes": 153349,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.372678+00:00"
+    },
+    "vqa__vqa_val_0018__source__014": {
+      "job_sha256": "c6f707ed0fb0881d831df2dd7ecbba18b5f8293817bf4e58a9e20fbaea5d1659",
+      "sha256": "4c948de6f97d54f37d6b4e24603fb7d9fb33dd0b50a462c3aacc4336fe45d52d",
+      "bytes": 138322,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.415629+00:00"
+    },
+    "vqa__vqa_val_0018__source__015": {
+      "job_sha256": "ebc9ea5319413782b65b67810947c7677a96887b65f1c2b0c344cc479861505c",
+      "sha256": "577548baf89f67e13b906976d04d6ed07853188f4df0cd34cebd82b472904ba5",
+      "bytes": 151012,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.459821+00:00"
+    },
+    "vqa__vqa_val_0018__source__016": {
+      "job_sha256": "e2d7760edd8c0db997cc6fffe17393cd4a8f79ad5b8fdbbee4711df78ac73aa9",
+      "sha256": "64e430b4988897cb2cf15f154a6ef56e50c6816c46eb049f784bb88363f214ec",
+      "bytes": 146749,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.500744+00:00"
+    },
+    "vqa__vqa_val_0018__source__017": {
+      "job_sha256": "addde46f15b7c83ed8b7f8a77ad08411183a9cb4a74e4972c97fe692e2ec2711",
+      "sha256": "d7eb0f899536a6f171dc29a103fb42514108171215f84e1dc3bc96251b8433a9",
+      "bytes": 154842,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.549324+00:00"
+    },
+    "vqa__vqa_val_0018__source__018": {
+      "job_sha256": "eb896ff357836df6ab447ff5fbcc3913439e8a6b82ffa6e41075f9a04e9a4b9c",
+      "sha256": "05972ccae6a4ca4a6d44aaa920397e043d22462c4f2046e3b8bc296ee3b9d721",
+      "bytes": 144729,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.592183+00:00"
+    },
+    "vqa__vqa_val_0018__source__019": {
+      "job_sha256": "4569da3459376e79993622361938d261139947a9e0a7127efaadb5200b7913b8",
+      "sha256": "cb6e13df9013b2cb0c606022137ac6d0b68d2151aeae83573374864a2f9a0be1",
+      "bytes": 145416,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.629372+00:00"
+    },
+    "vqa__vqa_val_0018__target__000": {
+      "job_sha256": "0ffacaa1649ff8a23da24696aa96186e216d315ca408a849e01138b4a7db8a69",
+      "sha256": "6584da74f28b1b658ff5e72126ef16b45e5d9de0d0bb2d1333a5d38330d2be79",
+      "bytes": 143763,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.673785+00:00"
+    },
+    "vqa__vqa_val_0018__target__001": {
+      "job_sha256": "9fe4e5d1f64e372581dc4fb439ec03f6131b2ee1a797448374c56baa5f6314f5",
+      "sha256": "c97373b513d67cede7718751d1935a9903e7554834069556fb40667b25d86a4e",
+      "bytes": 163170,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.717349+00:00"
+    },
+    "vqa__vqa_val_0018__target__002": {
+      "job_sha256": "21e4ab0328a1a6071311df9319f06c48afa27daf213b5aaff403bdbc1b0323e1",
+      "sha256": "6a41e3d0aed56653235947df4c3fec076a62bb5f936e900f16a74a68bd7c86fc",
+      "bytes": 160438,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.756133+00:00"
+    },
+    "vqa__vqa_val_0018__target__003": {
+      "job_sha256": "121b09903e9b95c2d51d5c4bf819486491ef7e9fe5a7be4f0d2a1160ca7d00d9",
+      "sha256": "69720f88bb905423396322340b264a1292113e8b1d40f7c29f66cd5c955c999a",
+      "bytes": 146395,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.792379+00:00"
+    },
+    "vqa__vqa_val_0018__target__004": {
+      "job_sha256": "09a11d06bdc9a9acd01fb4c14a4171e53ac5cc0fef138813313f03c2720ec2bb",
+      "sha256": "e6717cfd537c7ede6fd184a43767b6f3c398e08bfa08980e30be0bd8dc85e7d2",
+      "bytes": 142344,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.829583+00:00"
+    },
+    "vqa__vqa_val_0018__target__005": {
+      "job_sha256": "58875a23ca97b9e3d32a8cb4423fcc8df4ca26cc8ae5ccd577f0debbb9c35fbc",
+      "sha256": "8f486ab8e14ec98584268ac40a654be2549da224771f473c9042b1905c80967d",
+      "bytes": 131889,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.873282+00:00"
+    },
+    "vqa__vqa_val_0018__target__006": {
+      "job_sha256": "6845859f813b717020111432878056ab9c6149bf409213b4531531f3987b1bbe",
+      "sha256": "175fd5287c1b1b1c0d33bf1f3098ecb19b1b1fa3d19bd337a044e14e2ac1def6",
+      "bytes": 141328,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.914869+00:00"
+    },
+    "vqa__vqa_val_0018__target__007": {
+      "job_sha256": "c100c52d728a255b4546ba2672adbf9eec104a83b7772cae99c48179797c3eb2",
+      "sha256": "cfba70206189a9149d2a4b047ad4fcbf419bc25e4b34714859da0e90f96f73e3",
+      "bytes": 152482,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.953321+00:00"
+    },
+    "vqa__vqa_val_0018__target__008": {
+      "job_sha256": "f3686eb5a140ffa75d32eaebeeefcb44dbdd621cd6302b0fab979e4e423950d3",
+      "sha256": "766d416b28c8ea40cef13a3060b9f0ef2c1cd49a9d639b63025685ff126005ee",
+      "bytes": 143381,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:04.993122+00:00"
+    },
+    "vqa__vqa_val_0018__target__009": {
+      "job_sha256": "76cf86386642fb89a724d13d0ae25b51e72d53cd5f1030b492708528377599c6",
+      "sha256": "aaeedf7605bd963b7a44d68b291ec2eef151f7c0bf96b3a8503d868a326694c9",
+      "bytes": 143878,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.035865+00:00"
+    },
+    "vqa__vqa_val_0018__target__010": {
+      "job_sha256": "a37448d378a7bb625dfe3bbdf91ce6c84e9a83a7d09691070190f03b93ca4195",
+      "sha256": "391796464505d2cb7bda8c30d18a2edf61e969040f9c3e0e71cc36c083fd5bd6",
+      "bytes": 145574,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.086389+00:00"
+    },
+    "vqa__vqa_val_0018__target__011": {
+      "job_sha256": "2fb0678123101de7568c77dc77f9a1163d02773aa5da321c253ecf5fab7de8ac",
+      "sha256": "671f587dad6dfb214ff50591c53213b74acb2be9e8ee02066af66f03f8e7d93e",
+      "bytes": 139268,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.134734+00:00"
+    },
+    "vqa__vqa_val_0018__target__012": {
+      "job_sha256": "ace16b687f56a77de6a88e64c42a9060c48eae3f14e2f4d01171a076324f7a7a",
+      "sha256": "dccf4b7344d49a902cd5274837908de54885ccad724ba86fb5f5bb62d7c3af75",
+      "bytes": 150022,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.181493+00:00"
+    },
+    "vqa__vqa_val_0018__target__013": {
+      "job_sha256": "0d95d3126426ba5ab3d85e69000b8e96d5d06ea128912dd90ed1cb3dd077e7d6",
+      "sha256": "6b4d818b23d2f072957b80defded8167b28265ef334e85dda542f5e5849cb6eb",
+      "bytes": 144201,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.219353+00:00"
+    },
+    "vqa__vqa_val_0018__target__014": {
+      "job_sha256": "ea2265a35d7cd0c63d6bc8b602297e64cb325a61e3b8f8572798082c788dd70d",
+      "sha256": "ed54ec937d10967ec4d1a3ff763aa7ecbae44f98af445b7b8b94006ddd6906f8",
+      "bytes": 123230,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.260646+00:00"
+    },
+    "vqa__vqa_val_0018__target__015": {
+      "job_sha256": "35345a4a18449e6d37fee4d47414fb634538df675860d3bc772f0b0f19426922",
+      "sha256": "ad50df0819bcfcf5f2e85664eb7bdc7f8e3f0dac669acf88073d5b7539865e9c",
+      "bytes": 150228,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.304813+00:00"
+    },
+    "vqa__vqa_val_0018__target__016": {
+      "job_sha256": "8b8b56d8b036374bd0bae88d5c3bce4713f60028d98de42d8edb353839c2ddfb",
+      "sha256": "efb1e4766b2c59654adfb0ac3968dc8c79c989b50eb07c725cf33c31c988256c",
+      "bytes": 150759,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.347850+00:00"
+    },
+    "vqa__vqa_val_0018__target__017": {
+      "job_sha256": "63e155f506f884218ac598635422b8604a490547b596a8b13a08471a9b31a6f5",
+      "sha256": "2c88f3dbfff1c8851b9d415c470b18abefad5c67a77c2a47ddd42e815d70c706",
+      "bytes": 154655,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.391564+00:00"
+    },
+    "vqa__vqa_val_0018__target__018": {
+      "job_sha256": "d0bad92ada3e2802eb7fa529bb2b0f79e89582fb5de83066bd2623844eac3cac",
+      "sha256": "e5fa3c7dfb9f1a3deda81c8445907fe69d77b97d4faa377d31713be58190a67f",
+      "bytes": 138973,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.444520+00:00"
+    },
+    "vqa__vqa_val_0018__target__019": {
+      "job_sha256": "46e45e735290643826e7ce30f512f4968ea4b0bf735d3a1dd1e3080bccab5a58",
+      "sha256": "b01a8a9b633a00a05b1c29e1dd3d631fadf3b312fa096fd7a0097ac68b6b5f80",
+      "bytes": 145468,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.70992877613753,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:05.482750+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:24:05.482771+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

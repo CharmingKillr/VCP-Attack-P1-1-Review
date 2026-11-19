@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "d210464c236e97312c82e0b7a7160fea04644b4c69a44ed040aa923dcfea9439",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "5b80aeebb02482223c7e641a5f5e68b9b922216cb06fb66939ae3643e7a4faf4",
+      "notes": "Source bank explicitly describes ordinary static rock and climbers, supporting contradiction of the rock-beast claim. Original target bank copied those assertions (static/inanimate/lifeless), so it was contradiction-like rather than neutral. Replaced all 20 targets with partially occluded/ambiguous climbing scenes that do not assert the rock is inert and do not depict the beast/eating event.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/000.png",
+        "index": 0,
+        "prompt": "Two hikers in red jackets scale a gray granite cliff, their bodies pressed against the static stone surface.",
+        "prompt_sha256": "e283afeafe09632f8679f5775cf0b059a425ae896537512c856fb0260d95ebfd",
+        "reference_id": "ve__snli_ve_test_0005__source__000",
+        "role": "source",
+        "seed": 105097541553147753
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/001.png",
+        "index": 1,
+        "prompt": "A climber in a blue helmet reaches for a hold on a vertical rock face, feet planted firmly on the unyielding rock.",
+        "prompt_sha256": "7a157871a05b75a4e87d2384cb9cf7c87379be31a9e5ff9a79e6819f5b0f78a9",
+        "reference_id": "ve__snli_ve_test_0005__source__001",
+        "role": "source",
+        "seed": 958319481357699461
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of three people bouldering on a low sandstone formation, hands gripping the rough, inanimate texture.",
+        "prompt_sha256": "084caef638f8dc1b87de120d937390d55a3e97936300e4cb69400d7623bb3988",
+        "reference_id": "ve__snli_ve_test_0005__source__002",
+        "role": "source",
+        "seed": 207446117771208717
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of a steep limestone wall with four climbers spread out, the massive rock standing still and solid.",
+        "prompt_sha256": "bdd17896b60f28766925d1a626e63daeae600aa7ce0a3156638d45c7062022aa",
+        "reference_id": "ve__snli_ve_test_0005__source__003",
+        "role": "source",
+        "seed": 595662599530539375
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/004.png",
+        "index": 4,
+        "prompt": "A candid shot of a woman in a green shirt pulling herself up a rocky outcrop, the stone remaining inert.",
+        "prompt_sha256": "4aea0466d969c295d75dcacc59a1960f6537efe03a192a96d065f88aed2687b5",
+        "reference_id": "ve__snli_ve_test_0005__source__004",
+        "role": "source",
+        "seed": 371252087851321897
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/005.png",
+        "index": 5,
+        "prompt": "A man in a black t-shirt climbs a textured rock wall, his fingers digging into the hard, lifeless surface.",
+        "prompt_sha256": "10e145c667f736efdf8ae3387a16644d5be5883a48d2bee65769d3d579535771",
+        "reference_id": "ve__snli_ve_test_0005__source__005",
+        "role": "source",
+        "seed": 822867175681332506
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/006.png",
+        "index": 6,
+        "prompt": "Side angle of a climber on a rugged cliff face, the rock providing a static, non-living support structure.",
+        "prompt_sha256": "faddce122c61fd9225b609359f4078bd2ffd15577af234f16c47f60b0b9a1681",
+        "reference_id": "ve__snli_ve_test_0005__source__006",
+        "role": "source",
+        "seed": 248858640969454405
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/007.png",
+        "index": 7,
+        "prompt": "Sunlight illuminates a group climbing a pale rock face, highlighting the stillness and solidity of the stone.",
+        "prompt_sha256": "b43d0f0753f6d7631831bc47f8ce6c1cf259f61d06c842644b333e96609dc8eb",
+        "reference_id": "ve__snli_ve_test_0005__source__007",
+        "role": "source",
+        "seed": 122162144456609772
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/008.png",
+        "index": 8,
+        "prompt": "Close-up of a climber's hands gripping a rock ledge, the surface appearing cold, hard, and completely inanimate.",
+        "prompt_sha256": "1acb5bb0dff35a64c95abab2667e1316d7da66a33a4d05c7f71d8988fd55a4c6",
+        "reference_id": "ve__snli_ve_test_0005__source__008",
+        "role": "source",
+        "seed": 283593970218580165
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/009.png",
+        "index": 9,
+        "prompt": "A pair of climbers ascend a natural cliff, the rock wall serving as a fixed, non-biological obstacle.",
+        "prompt_sha256": "c381776ca4600e3e2246fa1598c4fe9900f631843322dcf99c95218accb608ff",
+        "reference_id": "ve__snli_ve_test_0005__source__009",
+        "role": "source",
+        "seed": 1034041413137193596
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/010.png",
+        "index": 10,
+        "prompt": "A young boy in a yellow shirt climbs a small rock pile, his weight supported by the unmoving stone.",
+        "prompt_sha256": "c846316387f7b5d8145dc791775a1dd4edd6683071b2fa84ae1d11d114614224",
+        "reference_id": "ve__snli_ve_test_0005__source__010",
+        "role": "source",
+        "seed": 1118026985922625398
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/011.png",
+        "index": 11,
+        "prompt": "Low angle view looking up at a climber on a towering rock pillar, the stone appearing massive and static.",
+        "prompt_sha256": "f4ebe60a22db9fe57dddb21be62c8593f6ef32ef86e6ee329ce7b04ba5aafae5",
+        "reference_id": "ve__snli_ve_test_0005__source__011",
+        "role": "source",
+        "seed": 57546681551971363
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/012.png",
+        "index": 12,
+        "prompt": "Medium shot of a couple bouldering on a flat rock slab, their hands pressing against the unchanging surface.",
+        "prompt_sha256": "407c0b7449bdb93968cbdcff9ac92852d3aa36036c198fd8bd26cbb05a66158c",
+        "reference_id": "ve__snli_ve_test_0005__source__012",
+        "role": "source",
+        "seed": 143754621039397861
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/013.png",
+        "index": 13,
+        "prompt": "Wide shot of a rocky canyon wall with multiple climbers, the entire rock face remaining a solid object.",
+        "prompt_sha256": "e338df18048b502b97129da88231a2026916bb38c581cbf0f905dfe03452ed7e",
+        "reference_id": "ve__snli_ve_test_0005__source__013",
+        "role": "source",
+        "seed": 848661647626304544
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/014.png",
+        "index": 14,
+        "prompt": "A candid moment of a climber resting on a rock ledge, the stone beneath them showing no sign of life.",
+        "prompt_sha256": "9ef0a93a5a0896c968bfcb3b6a7f5f5b0cdceb78950a90959f4c16b3f9c42235",
+        "reference_id": "ve__snli_ve_test_0005__source__014",
+        "role": "source",
+        "seed": 871017567166762503
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/015.png",
+        "index": 15,
+        "prompt": "A climber in a purple hoodie scales a rough rock face, the texture of the stone appearing dry and lifeless.",
+        "prompt_sha256": "15bf2ea4338be009c79d4d6e1d70f8db93e78cf3ba1521a64acc480535d1ea94",
+        "reference_id": "ve__snli_ve_test_0005__source__015",
+        "role": "source",
+        "seed": 1108354715554319030
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/016.png",
+        "index": 16,
+        "prompt": "Side view of a climber on a steep rock incline, the rock surface providing a static, non-organic grip.",
+        "prompt_sha256": "236561ebbedab06d88ad39ecc2f3bdb30272b895279c401f83abc09bc69f5553",
+        "reference_id": "ve__snli_ve_test_0005__source__016",
+        "role": "source",
+        "seed": 356932112024398840
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/017.png",
+        "index": 17,
+        "prompt": "Overcast lighting on a rock climbing scene, the gray stone appearing cold, hard, and entirely inanimate.",
+        "prompt_sha256": "d7408873940426fe550042d99a15ecfabd8ec2dfcb9917e1e7504cd899b80e19",
+        "reference_id": "ve__snli_ve_test_0005__source__017",
+        "role": "source",
+        "seed": 76655903886855791
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/018.png",
+        "index": 18,
+        "prompt": "Slightly zoomed-in view of a climber's feet on a rock toe-hold, the stone surface showing no movement.",
+        "prompt_sha256": "6a20b1f7dce84bf05f039d83e90a5b199090e3bfd3e576a7699ea30208051b3a",
+        "reference_id": "ve__snli_ve_test_0005__source__018",
+        "role": "source",
+        "seed": 504495187966468726
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/source/019.png",
+        "index": 19,
+        "prompt": "A group of friends climbing a backyard rock wall, the artificial rock remaining a fixed, non-living structure.",
+        "prompt_sha256": "76e2db5fa438b5fa55dc73764ae47e82cc7890ee9acfd343b38fecf6a9aba0de",
+        "reference_id": "ve__snli_ve_test_0005__source__019",
+        "role": "source",
+        "seed": 847685585377101455
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/000.png",
+        "index": 0,
+        "prompt": "A climber in a blue helmet is partly hidden behind a large foreground rock on a cliff; a rope runs up the face, but most of the scene is cropped.",
+        "prompt_sha256": "24676065ce5804c01b935afca7b0dd14fa91e926227eaf25f5b9ee9e5be8ee71",
+        "reference_id": "ve__snli_ve_test_0005__target__000",
+        "role": "target",
+        "seed": 848659353145097261
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/001.png",
+        "index": 1,
+        "prompt": "Several climbers appear only in fragments around a broad sandstone outcrop, with ropes and hands visible along the edge.",
+        "prompt_sha256": "c75586ac52ed3ad8749ec3709f9bb29e3f7b112e1a4b332c8f300900408f7d3a",
+        "reference_id": "ve__snli_ve_test_0005__target__001",
+        "role": "target",
+        "seed": 60967763712937505
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/002.png",
+        "index": 2,
+        "prompt": "A steep limestone formation fills the image while a few climbers are partly obscured along the route; the full group is outside the crop.",
+        "prompt_sha256": "bdaedb8db93ab9b1c13b73c6defbd00fe559372e372d84ef3197392cd76d48f0",
+        "reference_id": "ve__snli_ve_test_0005__target__002",
+        "role": "target",
+        "seed": 481931350671939943
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/003.png",
+        "index": 3,
+        "prompt": "A woman in green is seen through a narrow gap between foreground rocks while climbing; the surrounding action is not fully visible.",
+        "prompt_sha256": "ef02326b4f54dfc4776655a74f27da0ee82bb855580f4ab29a6e7dba9c7f2fec",
+        "reference_id": "ve__snli_ve_test_0005__target__003",
+        "role": "target",
+        "seed": 714805720581166176
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/004.png",
+        "index": 4,
+        "prompt": "A man in a black shirt is partly concealed by the edge of a boulder as he climbs, with only the upper section of the rock face framed.",
+        "prompt_sha256": "feed5f1fbd4047e607f78de9087607cd13d66bc88acb5d6b62da5e9b0f4704b1",
+        "reference_id": "ve__snli_ve_test_0005__target__004",
+        "role": "target",
+        "seed": 303986599747929048
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/005.png",
+        "index": 5,
+        "prompt": "A climber appears small behind a jagged cliff projection, rope extending upward; the camera captures only part of the route.",
+        "prompt_sha256": "a52d61101526956a7c9bc8a001f4b7e9f7143a1737d09e9338877f509aaa99db",
+        "reference_id": "ve__snli_ve_test_0005__target__005",
+        "role": "target",
+        "seed": 760596912065949618
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/006.png",
+        "index": 6,
+        "prompt": "Sunlit rock formations overlap in the foreground while several distant climbers are only partly visible on the trail.",
+        "prompt_sha256": "a46c7012605001170b5077c224d290621cd9f70722915276cb22ea7eedfb2041",
+        "reference_id": "ve__snli_ve_test_0005__target__006",
+        "role": "target",
+        "seed": 64825909150922602
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/007.png",
+        "index": 7,
+        "prompt": "Close-up of hands and a rope at a rocky ledge, with the climber’s body hidden beyond the edge of the frame.",
+        "prompt_sha256": "aed8f9c5c81a1c47e6e5326da6a79ba7fcfcec2d4c9ecabd5c46064d3ec58e8a",
+        "reference_id": "ve__snli_ve_test_0005__target__007",
+        "role": "target",
+        "seed": 544069628295573950
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/008.png",
+        "index": 8,
+        "prompt": "Two climbers are partly hidden behind a natural cliff corner; the image centers on the rock passage and climbing ropes.",
+        "prompt_sha256": "b428b61d872ddf3f787f775120f7f5045868cb1ddeecfca1aa349f9c15260d22",
+        "reference_id": "ve__snli_ve_test_0005__target__008",
+        "role": "target",
+        "seed": 885295605946485807
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/009.png",
+        "index": 9,
+        "prompt": "A group moves along a granite face, but the foreground outcrop obscures part of the climbers and their surroundings.",
+        "prompt_sha256": "0ee5114f681a91ff64ae8b758f14c2f0f6f74936bcb03af8d03d118a4f5d17b1",
+        "reference_id": "ve__snli_ve_test_0005__target__009",
+        "role": "target",
+        "seed": 762220797429952327
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/010.png",
+        "index": 10,
+        "prompt": "A man in red is partially visible at the bottom edge holding a rope; climbers higher on the route are blocked by a rock column.",
+        "prompt_sha256": "5e5fdccf114ba261655574e02e2b4a711f84e35832badf56a4f266cf2de57cbf",
+        "reference_id": "ve__snli_ve_test_0005__target__010",
+        "role": "target",
+        "seed": 931916428930330305
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/011.png",
+        "index": 11,
+        "prompt": "A rock pillar fills the foreground; silhouettes of climbers and a red-shirted belayer are only partly visible around it.",
+        "prompt_sha256": "b63ba10b1617ce339c245a44b3b8a11617ba37140a02384eed08498efe739def",
+        "reference_id": "ve__snli_ve_test_0005__target__011",
+        "role": "target",
+        "seed": 1014244878234777297
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/012.png",
+        "index": 12,
+        "prompt": "A couple of climbers appears behind an uneven rock ridge while another figure is mostly outside the frame.",
+        "prompt_sha256": "ed4c9677b7c19c9194d22939beb2e9730ea1174de8a1343e286839a4f337224d",
+        "reference_id": "ve__snli_ve_test_0005__target__012",
+        "role": "target",
+        "seed": 1125106457245907285
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/013.png",
+        "index": 13,
+        "prompt": "A rocky canyon fills the frame with climbing ropes passing behind a projecting rock face; only parts of climbers are visible.",
+        "prompt_sha256": "383ecfe3a980e1035c61391a69a74016a63ffe6afc0a0f4e3175b8ac5b55f88b",
+        "reference_id": "ve__snli_ve_test_0005__target__013",
+        "role": "target",
+        "seed": 551930303570688721
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/014.png",
+        "index": 14,
+        "prompt": "A person rests near a ledge, partly hidden by a foreground rock, with another climber blurred farther along the route.",
+        "prompt_sha256": "95f8337654ac3522478718b23044e6659430f85b0eb6196268e5046d67c438f8",
+        "reference_id": "ve__snli_ve_test_0005__target__014",
+        "role": "target",
+        "seed": 821165848393602804
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/015.png",
+        "index": 15,
+        "prompt": "A climber in purple appears in partial view on the far side of a large rock outcrop; only part of the figure and rope are visible.",
+        "prompt_sha256": "c102f1c951f787503359e61f37ca9199ab323c2438bc04302390ad23f3281250",
+        "reference_id": "ve__snli_ve_test_0005__target__015",
+        "role": "target",
+        "seed": 82318819788997764
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/016.png",
+        "index": 16,
+        "prompt": "A steep rock incline and dangling rope dominate the image, with climbers mostly blocked by the ridge.",
+        "prompt_sha256": "9a4942e03920ba34492d04bad025e711198cd262e0f11cca599bd5968e75a8a3",
+        "reference_id": "ve__snli_ve_test_0005__target__016",
+        "role": "target",
+        "seed": 509401030338390048
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/017.png",
+        "index": 17,
+        "prompt": "Overcast light falls on a rocky climbing route; a few people are visible only through gaps between boulders.",
+        "prompt_sha256": "70334b08e806c33172bd0ea91f98aa6480b0dad59ae9b76061e2dfb30ddcb05a",
+        "reference_id": "ve__snli_ve_test_0005__target__017",
+        "role": "target",
+        "seed": 200079515265600127
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/018.png",
+        "index": 18,
+        "prompt": "Close crop of a rock foothold and climbing shoe, with the climber and the rest of the route outside the visible frame.",
+        "prompt_sha256": "bc105796c4ddce4a62299a93123a60548a3cd9690d044bac17924ab2013d378c",
+        "reference_id": "ve__snli_ve_test_0005__target__018",
+        "role": "target",
+        "seed": 580165432140663236
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0005/target/019.png",
+        "index": 19,
+        "prompt": "A backyard artificial climbing wall fills the image; only hands and ropes of people near the edge are visible.",
+        "prompt_sha256": "c0ca0583cdbbfe971f664c2b40dcb6b885dd25594b67c8aeefe917cfe6131f4f",
+        "reference_id": "ve__snli_ve_test_0005__target__019",
+        "role": "target",
+        "seed": 541760611598632541
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1016887272.jpg",
+    "original_image_sha256": "e0a41cf1dbc693d7623001f964566568d804a3f0d733cfa653c7c9af7bed6460",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "d210464c236e97312c82e0b7a7160fea04644b4c69a44ed040aa923dcfea9439",
+    "sample_id": "snli_ve_test_0005",
+    "shard": 5,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "The rock turned into a beast and ate the people.",
+      "premise_caption": "Several climbers in a row are climbing the rock while the man in red watches and holds the line.",
+      "source_label": "contradiction",
+      "target_label": "neutral"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0005__source__000": {
+      "job_sha256": "86e9cc9dd5b1dcb1cccd543cb55bb4683b7ae359d9ce96e9bd0d6176c0936b0d",
+      "sha256": "9422603dee8430886bf8e9ede607d27f425d795e714ef77e1ad53fa4f53a9617",
+      "bytes": 192710,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:21.848712+00:00"
+    },
+    "ve__snli_ve_test_0005__source__001": {
+      "job_sha256": "bfd9c5528cda9b8816248ee90a173ee1bc1bdeb8b6770610188e89594c0e3136",
+      "sha256": "67af4e65481ab5bf2f28346d9b775fd7ea1dae9957981c482be01fb73e8e3fca",
+      "bytes": 177472,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:21.889073+00:00"
+    },
+    "ve__snli_ve_test_0005__source__002": {
+      "job_sha256": "9182635f8ad0b6fbed9497155d3b42ecd5d6dd0e9c171ebf39b8bcfd87c812dc",
+      "sha256": "bc6b8adb86d1bd45e8dc4b99e0039e1215dffb56df8383468f675d0b9dd14fce",
+      "bytes": 191966,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:21.936070+00:00"
+    },
+    "ve__snli_ve_test_0005__source__003": {
+      "job_sha256": "45f28fb8efa723eee03bdbc57d4d3d40081f4a7742774a06be0401d10159cecd",
+      "sha256": "3814ffed578eb56f70aa60a8f222bcf133a72759fb6c31f3b7087d72b3006acb",
+      "bytes": 190998,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:21.981383+00:00"
+    },
+    "ve__snli_ve_test_0005__source__004": {
+      "job_sha256": "9de1d400b5ab4d2dccf72dc05e870ceac20c3cd1cf8980a33cf967128fef6d1b",
+      "sha256": "4cfade50bac40cb8f0c341bc1162473ebcf05e2d96d17065f04133b3e6ac7bdd",
+      "bytes": 185267,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.022592+00:00"
+    },
+    "ve__snli_ve_test_0005__source__005": {
+      "job_sha256": "caa1851429035db28e19e665b0b3d5253a82e2b3cdf89b3d6bea94623566967e",
+      "sha256": "a3ea4e941ac26c3f5520230bbef290b4d3dfc16e18f7a639cf3979a6320f73d2",
+      "bytes": 193282,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.065787+00:00"
+    },
+    "ve__snli_ve_test_0005__source__006": {
+      "job_sha256": "87e31136b2e5b9976ccb43eabc9bb9fb067b66a6d9257888ae9d85901fab0171",
+      "sha256": "89e621df40c833c5dfc6d2f3407408d9b0c2c97ca4eeb490c75ecc04c642332f",
+      "bytes": 189147,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.110665+00:00"
+    },
+    "ve__snli_ve_test_0005__source__007": {
+      "job_sha256": "c3d32589512c0598d244180d7358e9c0e5682c252101062fcc42921709677182",
+      "sha256": "755de55c0f014278515ef49e29183c6b76a771cc0e802daf2f1e586b1a8bde0c",
+      "bytes": 186135,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.155277+00:00"
+    },
+    "ve__snli_ve_test_0005__source__008": {
+      "job_sha256": "7abc858be6cda17b8a273ff79ca268df0bb60da1e0db8ba16bf09fb18b4bbc6c",
+      "sha256": "6639ce1ff81793a13aff0fbb3d766c99b469ea0a08b4acab5a1cdf39323a36a5",
+      "bytes": 174068,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.197814+00:00"
+    },
+    "ve__snli_ve_test_0005__source__009": {
+      "job_sha256": "beeceaf68e36c609930e99eef742d2f8469e4e346ec8c5aa1fd798dd71a48372",
+      "sha256": "b58aa7de22d045992ebfddb305b3d444414df9e9070e04d53d80b93750232268",
+      "bytes": 196367,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.273072+00:00"
+    },
+    "ve__snli_ve_test_0005__source__010": {
+      "job_sha256": "3c5314ac84c1a991799c3e5fc44098dd49c799a9a7afd5953c1a4543ddce5cba",
+      "sha256": "5b65709e329a6432344fc372591d6897b1dfee01885ad0e0a3c353e535a9b954",
+      "bytes": 166797,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.318892+00:00"
+    },
+    "ve__snli_ve_test_0005__source__011": {
+      "job_sha256": "e3241f724bf10fd5eb37daa93da6cff45764a2d65e5c379dcdb577b237fc1644",
+      "sha256": "f05cc9d8a4114b0ec3d2fdebb5d3a725d0e691b53880d6c611a975f7620ed5a6",
+      "bytes": 150259,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.362892+00:00"
+    },
+    "ve__snli_ve_test_0005__source__012": {
+      "job_sha256": "26a9cefcf7bfac35a5cbf21ee25ffe9e9c94cd072f53a6ec8174377d140ae4a1",
+      "sha256": "8a4efccd868d5c2d62b42948db32ea92d568ede8b33c974b679b3fe2d544bac5",
+      "bytes": 181818,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.406905+00:00"
+    },
+    "ve__snli_ve_test_0005__source__013": {
+      "job_sha256": "e90da1f85cfadb88dd33ec36176e5f2b2800251c89d988dcdc3542c4e728449e",
+      "sha256": "ff12bb604bdabba350e8431403482b26ec6f823a784bdb60d65e834b839131c6",
+      "bytes": 194361,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.451362+00:00"
+    },
+    "ve__snli_ve_test_0005__source__014": {
+      "job_sha256": "a2fd4d8c11e6344c5c1b41049bdf90dfe0463841d5595e2c344392962695c9aa",
+      "sha256": "e7483a3b02c722f9ab9fa44d12b2bd04249d9506db80ac10a13d76cd72088bff",
+      "bytes": 195026,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.496788+00:00"
+    },
+    "ve__snli_ve_test_0005__source__015": {
+      "job_sha256": "0ee42cdd11b0abcf17e5c2eeb8d647af65898eb479a69230af5eb1f15d58c103",
+      "sha256": "fe2dadd2a88d396915d44d948f005c6ec96318f253bda1eebae2fc26e2969070",
+      "bytes": 192337,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.535639+00:00"
+    },
+    "ve__snli_ve_test_0005__source__016": {
+      "job_sha256": "67ebd5b2d5a28603339c6643eca3aed1bfc25c57840e603a6757b996c99e36bd",
+      "sha256": "bb5727f19845beb4f893af2edf7e81797f4045841a9825b831e114a712037087",
+      "bytes": 195884,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.581554+00:00"
+    },
+    "ve__snli_ve_test_0005__source__017": {
+      "job_sha256": "1ad0b93a05021ca5603a384ebc0ec86e16b651df6a41158f16a3d6a41e61c7db",
+      "sha256": "2f87eb3b14af332899a0a9e2ed785606c11b7fe6dd7fa789e45ece70db5d1b23",
+      "bytes": 181908,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.647406+00:00"
+    },
+    "ve__snli_ve_test_0005__source__018": {
+      "job_sha256": "22d74288e0d740d6527898e0ab32990a4df639c9d265493fd3b2bea5aaebc2f7",
+      "sha256": "d1968bf16400093d72151937b5eef439432f77c3e034ece4998fa289f3d8c1bb",
+      "bytes": 170097,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.689907+00:00"
+    },
+    "ve__snli_ve_test_0005__source__019": {
+      "job_sha256": "044ce62e0c5f00ba3bfe248b4341fa909e5707a897ec457652f3b692ee6e1ae7",
+      "sha256": "467696af70077dec39b2908cc64373f1bf64bd0ce6dbc86f9cae67f65335e279",
+      "bytes": 187068,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.727674+00:00"
+    },
+    "ve__snli_ve_test_0005__target__000": {
+      "job_sha256": "9fbe74eaab2bac98bcdc5a82e71ddbcdf7718ae1f0e18e5444b6c0fb0ceb63b6",
+      "sha256": "2fb18bfaf04492254b6b826af4154df00cdd5f39db5102dc08ecb4014fac13a0",
+      "bytes": 197031,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.780152+00:00"
+    },
+    "ve__snli_ve_test_0005__target__001": {
+      "job_sha256": "b918f76bcba35b867bc03289cc1c8bf6bd1a0d12724965c27552049e15e8dc33",
+      "sha256": "2a98e96b6d8cfc46dd1d6af68481bc7867135bb13274d0669bbbca85e25fc807",
+      "bytes": 176264,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.831187+00:00"
+    },
+    "ve__snli_ve_test_0005__target__002": {
+      "job_sha256": "abd8d89c28f4a04771590b47a21203e174290a390a792c69b6b07482d7fd90ba",
+      "sha256": "996a1a5f19d4aec53a9a993b8824312cf10a0816558a8e487425c03a1071c3c8",
+      "bytes": 198963,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.881701+00:00"
+    },
+    "ve__snli_ve_test_0005__target__003": {
+      "job_sha256": "bedd7e99e00904e350c652126b9cc231b3c46a578600cfa1c17d6270ee841414",
+      "sha256": "a90fecff6a2a843941d832daebc70db6eab29936a24f0c5a55f3532b23388513",
+      "bytes": 197248,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.929096+00:00"
+    },
+    "ve__snli_ve_test_0005__target__004": {
+      "job_sha256": "810cb03572a9910890ef6c2825bd0711452987680e88a5ca055131db11d677e6",
+      "sha256": "f5d2aabe514f92e8dc853ac8807c075575a2248d6f54c2be5f69186e1e02fc83",
+      "bytes": 187359,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:22.976959+00:00"
+    },
+    "ve__snli_ve_test_0005__target__005": {
+      "job_sha256": "af0b6d98e42946f8d5cbddd4a9c81de11cc5a291193d6ad87343bf9b41e368d0",
+      "sha256": "844b60aa05cd9a561732c5f14f636ce9a50d1e7c77c93a558e8936e73aceb890",
+      "bytes": 131894,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.018348+00:00"
+    },
+    "ve__snli_ve_test_0005__target__006": {
+      "job_sha256": "9b8e65cdebf5039d1a6faec830c52e3af4c90bd8752f0106c970f1915fdf596d",
+      "sha256": "43721d2260dc77cbeb5a388fe076e717453e3db1865ed8f7d9966c2255ce4104",
+      "bytes": 184578,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.060954+00:00"
+    },
+    "ve__snli_ve_test_0005__target__007": {
+      "job_sha256": "1b86df5b73ec1b0ad420a3a3b2f63f6aaca35944c259db2aa38ee1d4b8327236",
+      "sha256": "844c6eadecd06bfa062d5867a3028a65576893017feafcf1a3e958fd06052a71",
+      "bytes": 169576,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.105587+00:00"
+    },
+    "ve__snli_ve_test_0005__target__008": {
+      "job_sha256": "5c40fedf90a946f2b538c38e680536d4d377f2ccaf21fd5b08483d3cd1739406",
+      "sha256": "c6dc67f65ced398178ec66813196d0896bb26d371639a3fd4a7c8ff78cf8d6b1",
+      "bytes": 190552,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.152540+00:00"
+    },
+    "ve__snli_ve_test_0005__target__009": {
+      "job_sha256": "791724f8fde602fe8465834b53f7a25fac587e0ff69a557eb61638a87c6061c2",
+      "sha256": "5420eaec35aae505017fb379617a264422721fe9e9e26308e6912f3a6dcf5067",
+      "bytes": 185123,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.203651+00:00"
+    },
+    "ve__snli_ve_test_0005__target__010": {
+      "job_sha256": "b5d422299696d16ce5e20ea0556cd7892e1fc26daab53f83cb7b88e8efef4edd",
+      "sha256": "9e4f435c13f7c84b89adb5ddf6c2da37d9b1db92294e21d78df7a01251515878",
+      "bytes": 173648,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.275004+00:00"
+    },
+    "ve__snli_ve_test_0005__target__011": {
+      "job_sha256": "6e8378c0e66c53e04d2d06354271b25b12bcbcba15ba722fb2713479862312d9",
+      "sha256": "a041269699c86e1834bba796af8a6be3cff6d903fa6b89124fc4381fe2347ec3",
+      "bytes": 180737,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.336059+00:00"
+    },
+    "ve__snli_ve_test_0005__target__012": {
+      "job_sha256": "45ec34777af7a6148c80bc385b0f1d62d0c75270e7cb216194745c5ab1de6884",
+      "sha256": "f2acaab821263b0f2ba3d6538d397f925f46fcb32fd0ed60772aa919aa35f7b1",
+      "bytes": 160047,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.379575+00:00"
+    },
+    "ve__snli_ve_test_0005__target__013": {
+      "job_sha256": "dad32fdb9f905eff27741076035926f21b78b06ae359d19f47d00bfc20e245f4",
+      "sha256": "597bb54706f1a65cf9948e0887e9aea0e1fa96f50e96d03600c95251246f9e0d",
+      "bytes": 183846,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.425434+00:00"
+    },
+    "ve__snli_ve_test_0005__target__014": {
+      "job_sha256": "61baba6dff538bf17baacca89ddc16d2005eab918fc15068ad4d984119edb4f8",
+      "sha256": "a3defdd8488e0c0dd299c16efa1532b8effa106429e2cfaa6d42579583478b98",
+      "bytes": 173795,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.474281+00:00"
+    },
+    "ve__snli_ve_test_0005__target__015": {
+      "job_sha256": "b906299b01b1695b656328e63bac7874b21a617e850ee3c9badf3bd078fa202c",
+      "sha256": "2bec5870d124a17c36a06c3e0586041ee883af0d8b0b8acf4685fe82b3be9e20",
+      "bytes": 185073,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.518542+00:00"
+    },
+    "ve__snli_ve_test_0005__target__016": {
+      "job_sha256": "c653053f2896c580d9ba803b2ce89a99cb5e8eb36e09da73efe1f5abb0851656",
+      "sha256": "19378edc4ade4b70e58b69e8d5386cb0e89b817cab8a70d1c39c70d7991ae8b3",
+      "bytes": 164432,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.562956+00:00"
+    },
+    "ve__snli_ve_test_0005__target__017": {
+      "job_sha256": "501023db622fce72a9f71d05daa5b8f35caa6f5db27ff15a0ee4740ecb4308b6",
+      "sha256": "92ecda697217d240e6a20c1f4b9be05acc6d83cbfb0efde0d8ecbb0b7398566a",
+      "bytes": 172155,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.600792+00:00"
+    },
+    "ve__snli_ve_test_0005__target__018": {
+      "job_sha256": "af20b8a44bbe2c950e05702a22da719cb91726256711d67a5fa6548a52fb452a",
+      "sha256": "f9be378b176232d49f5c18ea5cb603d8b7e3437397e2179644cd4e97b3faa6ec",
+      "bytes": 164821,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.643978+00:00"
+    },
+    "ve__snli_ve_test_0005__target__019": {
+      "job_sha256": "4bee6104ac1c87879c7b6ddeae15f9a51741e561f41400bac165d1d9e1a8319e",
+      "sha256": "fc1fe4e969bbae0fb7996bfa27bfdc3b8f12c3f406f2e3b324e126d0bbce8ebb",
+      "bytes": 174957,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 26.87171835359186,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:23.692762+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:05:23.692781+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

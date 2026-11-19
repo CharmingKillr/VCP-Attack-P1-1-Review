@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "73d3fdc317d92235a190ab9a38fed0142c04360677305700833e5b1d834e4e19",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "470b64b6c63cb5440f77c43fc4db9bfee3aef65fcaa07a877f2c2b89cb8ef347",
+      "notes": "All source prompts specify a bottle labeled Cupcake and all target prompts Wood, matching the brand field. Exact label rendering is a downstream image-generation risk. Data warning: Cupcake has only 3/10 source votes (other responses vary), so the source answer has weak consensus; I did not change the task label during prompt screening.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_WITH_DATA_WARNING",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0013/source/000.png",
+        "index": 0,
+        "prompt": "A wine bottle labeled 'Cupcake' stands on a glass patio table with a filled glass nearby.",
+        "prompt_sha256": "9cdfb61c2d50323b0607a70684b0f2325a5c441906fdb4fedc1ed8b3221f6a4c",
+        "reference_id": "vqa__vqa_val_0013__source__000",
+        "role": "source",
+        "seed": 63977852311133713
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a 'Cupcake' wine bottle and glass on a wooden dining table indoors.",
+        "prompt_sha256": "b303f5183c6b1b7bf9511c301c66366ee77acd5b230f6e7f583e154aa9655603",
+        "reference_id": "vqa__vqa_val_0013__source__001",
+        "role": "source",
+        "seed": 499879617285544433
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a 'Cupcake' wine bottle label and glass on a stone garden table.",
+        "prompt_sha256": "8c258b84bc89d3923f3331ca7483412144e2487a11947ee0d6f885fc67882c42",
+        "reference_id": "vqa__vqa_val_0013__source__002",
+        "role": "source",
+        "seed": 393693041490009614
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/003.png",
+        "index": 3,
+        "prompt": "A 'Cupcake' wine bottle tilted slightly on a metal balcony table with a glass beside it.",
+        "prompt_sha256": "bc6e33964521779637fbd42f5211b4423308f310db998813a99bbc2d6add9811",
+        "reference_id": "vqa__vqa_val_0013__source__003",
+        "role": "source",
+        "seed": 102850227269675937
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a 'Cupcake' wine bottle and glass on a glass patio table.",
+        "prompt_sha256": "48fbf78b722fc87d0e60d650c9798dd455a70c4877b46bbc3621679ab9c2b56f",
+        "reference_id": "vqa__vqa_val_0013__source__004",
+        "role": "source",
+        "seed": 744152730980386885
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/005.png",
+        "index": 5,
+        "prompt": "Wide crop showing a 'Cupcake' wine bottle and glass on a wooden table with chairs in background.",
+        "prompt_sha256": "d3554bd24d7c9540896950d59731cd269c97cb248b29e25d61c8cc5ee21700d1",
+        "reference_id": "vqa__vqa_val_0013__source__005",
+        "role": "source",
+        "seed": 243892828171698815
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/006.png",
+        "index": 6,
+        "prompt": "Side angle view of a 'Cupcake' wine bottle and glass on a stone table in a garden.",
+        "prompt_sha256": "e5d65ef2db648a57fea489645c15b6a9e7d421d15cc3e27bc465f30924330925",
+        "reference_id": "vqa__vqa_val_0013__source__006",
+        "role": "source",
+        "seed": 684602140251187681
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/007.png",
+        "index": 7,
+        "prompt": "A 'Cupcake' wine bottle on a metal balcony table with a potted plant in the background.",
+        "prompt_sha256": "d3c79629b0839c00e5c7602ed23b45b50cf7cb18b2d2bfc45389a9ab9f616c49",
+        "reference_id": "vqa__vqa_val_0013__source__007",
+        "role": "source",
+        "seed": 267031012491388792
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a 'Cupcake' wine bottle and glass on a glass patio table with natural light.",
+        "prompt_sha256": "4e8c54c9fbaf978181c793c3145b54de874bd8921e614fc5fea33a9beb4790ac",
+        "reference_id": "vqa__vqa_val_0013__source__008",
+        "role": "source",
+        "seed": 1005406533289826262
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/009.png",
+        "index": 9,
+        "prompt": "Another 'Cupcake' wine bottle on a wooden dining table with a simple indoor background.",
+        "prompt_sha256": "59f920a5b24af14b49a53de7df3b6304f787ea01118592106846f938c51b8595",
+        "reference_id": "vqa__vqa_val_0013__source__009",
+        "role": "source",
+        "seed": 443584381549409280
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/010.png",
+        "index": 10,
+        "prompt": "Slightly elevated view of a 'Cupcake' wine bottle and glass on a stone garden table.",
+        "prompt_sha256": "03dee8ef9986d3c767d8bd0a9f344b5d41b6953c71ee6cf6ed72273e8db5ed8f",
+        "reference_id": "vqa__vqa_val_0013__source__010",
+        "role": "source",
+        "seed": 875368164764585168
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/011.png",
+        "index": 11,
+        "prompt": "Natural medium framing of a 'Cupcake' wine bottle and glass on a metal balcony table.",
+        "prompt_sha256": "3d9c150d89ee025ea6ce0328810cd7060afc3d0238ca283e7a76f19a7a3b3a79",
+        "reference_id": "vqa__vqa_val_0013__source__011",
+        "role": "source",
+        "seed": 409124268107984475
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/012.png",
+        "index": 12,
+        "prompt": "Closer view of a 'Cupcake' wine bottle label and glass on a glass patio table.",
+        "prompt_sha256": "ab5d66ffe215187e1989a2392159f9cdf0aa19b4b04f84a5986f13229d27b4b3",
+        "reference_id": "vqa__vqa_val_0013__source__012",
+        "role": "source",
+        "seed": 945394905926440142
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/013.png",
+        "index": 13,
+        "prompt": "A 'Cupcake' wine bottle standing upright on a wooden table with a glass half-filled.",
+        "prompt_sha256": "a72b89a5a13dcb6a807088bab79086e3f3b86ec0b3256b92ece5adabdde0add1",
+        "reference_id": "vqa__vqa_val_0013__source__013",
+        "role": "source",
+        "seed": 352395057665024558
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/014.png",
+        "index": 14,
+        "prompt": "Soft indoor lighting on a 'Cupcake' wine bottle and glass on a stone table.",
+        "prompt_sha256": "8cdc68357bf90e3f15c41951f2f175646165ad50850920a6179f3c5e4abbf933",
+        "reference_id": "vqa__vqa_val_0013__source__014",
+        "role": "source",
+        "seed": 443260898034796415
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/015.png",
+        "index": 15,
+        "prompt": "Wider crop of a 'Cupcake' wine bottle and glass on a metal balcony table with railing visible.",
+        "prompt_sha256": "0ba5a2afc591bb0c06938302b4bbb84262b8205b798f3c222e1d9b069899fcc8",
+        "reference_id": "vqa__vqa_val_0013__source__015",
+        "role": "source",
+        "seed": 739678706166372130
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of a 'Cupcake' wine bottle and glass on a glass patio table.",
+        "prompt_sha256": "9a6b457a55f1efa18be43a926523b4465b711ae256e3f4168df14d9e10ac5b28",
+        "reference_id": "vqa__vqa_val_0013__source__016",
+        "role": "source",
+        "seed": 1120281743228281448
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/017.png",
+        "index": 17,
+        "prompt": "A 'Cupcake' wine bottle on a wooden table with a small vase in the background.",
+        "prompt_sha256": "d67d438f5096e676bb5fe0cc02cff0038c652d4c4104941153df31c2327c7a33",
+        "reference_id": "vqa__vqa_val_0013__source__017",
+        "role": "source",
+        "seed": 463247103908763077
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/018.png",
+        "index": 18,
+        "prompt": "Candid composition of a 'Cupcake' wine bottle and glass on a stone garden table.",
+        "prompt_sha256": "eaa39b7d31ed383606a5777012eb69d206a7da08ab3a33ddc09ebb100d96ee21",
+        "reference_id": "vqa__vqa_val_0013__source__018",
+        "role": "source",
+        "seed": 960590580692231640
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/source/019.png",
+        "index": 19,
+        "prompt": "Ordinary 'Cupcake' wine bottle on a metal balcony table with a glass and outdoor scenery.",
+        "prompt_sha256": "f195127354eacc597af3a9d7250394e20b0494413546489c59a146223beabbc2",
+        "reference_id": "vqa__vqa_val_0013__source__019",
+        "role": "source",
+        "seed": 950807722135128065
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/000.png",
+        "index": 0,
+        "prompt": "A wine bottle labeled 'Wood' stands on a glass patio table with a filled glass nearby.",
+        "prompt_sha256": "f2cf4a6919ac8641ca509eb8fa848bedd3c5410eff52b50b95c6e9f57d771b2e",
+        "reference_id": "vqa__vqa_val_0013__target__000",
+        "role": "target",
+        "seed": 195608934062851205
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a 'Wood' wine bottle and glass on a wooden dining table indoors.",
+        "prompt_sha256": "34173955f4fe515e598042203062cb165f34d3a95bf6b42a49c679bec1103b63",
+        "reference_id": "vqa__vqa_val_0013__target__001",
+        "role": "target",
+        "seed": 673852052303183763
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a 'Wood' wine bottle label and glass on a stone garden table.",
+        "prompt_sha256": "e5b9eb6150ea4be5c0b59ed97166a86d695ae672da05f391b1ac91981b720f4c",
+        "reference_id": "vqa__vqa_val_0013__target__002",
+        "role": "target",
+        "seed": 460492978097734705
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/003.png",
+        "index": 3,
+        "prompt": "A 'Wood' wine bottle tilted slightly on a metal balcony table with a glass beside it.",
+        "prompt_sha256": "6e16a8c4433f4916f3e7ef0ba6b6f26ce0b9759801255394bffd4ee3f0eac8a7",
+        "reference_id": "vqa__vqa_val_0013__target__003",
+        "role": "target",
+        "seed": 180144016841845420
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a 'Wood' wine bottle and glass on a glass patio table.",
+        "prompt_sha256": "16185798342891bfa1b318d662d11e3847e2e03261bb4701b0d8d8037ec9c5bd",
+        "reference_id": "vqa__vqa_val_0013__target__004",
+        "role": "target",
+        "seed": 1015678685247062870
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/005.png",
+        "index": 5,
+        "prompt": "Wide crop showing a 'Wood' wine bottle and glass on a wooden table with chairs in background.",
+        "prompt_sha256": "e6287e027c3ca884ff7adbbc842a3d8d7495f4fdc6e85d00309f7b893054a953",
+        "reference_id": "vqa__vqa_val_0013__target__005",
+        "role": "target",
+        "seed": 970789088334516001
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/006.png",
+        "index": 6,
+        "prompt": "Side angle view of a 'Wood' wine bottle and glass on a stone table in a garden.",
+        "prompt_sha256": "33ee88cda69743d7db089b027fe6756c3528453b789c2afa474abe1cb1d1c3cb",
+        "reference_id": "vqa__vqa_val_0013__target__006",
+        "role": "target",
+        "seed": 925773969272257811
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/007.png",
+        "index": 7,
+        "prompt": "A 'Wood' wine bottle on a metal balcony table with a potted plant in the background.",
+        "prompt_sha256": "572e9fad0e31a0d66482bc506ad8724bed791dad6ce90f67d71dd45b8f8daec1",
+        "reference_id": "vqa__vqa_val_0013__target__007",
+        "role": "target",
+        "seed": 569725523158127499
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a 'Wood' wine bottle and glass on a glass patio table with natural light.",
+        "prompt_sha256": "c46365119f991069f12c55b01f392de31c39f3dcbb435cec1da0da6752e231f2",
+        "reference_id": "vqa__vqa_val_0013__target__008",
+        "role": "target",
+        "seed": 104804634189172522
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/009.png",
+        "index": 9,
+        "prompt": "Another 'Wood' wine bottle on a wooden dining table with a simple indoor background.",
+        "prompt_sha256": "18cf17cefa06fb679adb931f7c85e0cc53bab0ec4104d1826ddc73ae2daa8f44",
+        "reference_id": "vqa__vqa_val_0013__target__009",
+        "role": "target",
+        "seed": 310539213590919189
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/010.png",
+        "index": 10,
+        "prompt": "Slightly elevated view of a 'Wood' wine bottle and glass on a stone garden table.",
+        "prompt_sha256": "a53fae4d43a7321de8b2dccb357cc0f7ca1d17e3db48e36af81cda4cdb2e6fcd",
+        "reference_id": "vqa__vqa_val_0013__target__010",
+        "role": "target",
+        "seed": 374231022432666996
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/011.png",
+        "index": 11,
+        "prompt": "Natural medium framing of a 'Wood' wine bottle and glass on a metal balcony table.",
+        "prompt_sha256": "67e709722600c1aeb1d897995b240e4d0cb34eebd938798cccf9e2fc45f2d66c",
+        "reference_id": "vqa__vqa_val_0013__target__011",
+        "role": "target",
+        "seed": 351801581041294016
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/012.png",
+        "index": 12,
+        "prompt": "Closer view of a 'Wood' wine bottle label and glass on a glass patio table.",
+        "prompt_sha256": "236313a6c8646b50aec79901ea169f491d5e355568ccc518dfec14e707cb8d27",
+        "reference_id": "vqa__vqa_val_0013__target__012",
+        "role": "target",
+        "seed": 203082630690385243
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/013.png",
+        "index": 13,
+        "prompt": "A 'Wood' wine bottle standing upright on a wooden table with a glass half-filled.",
+        "prompt_sha256": "fe5ce59756a4277c92f2c5c781342568b21a3df17495de8bd79f18a462735dd4",
+        "reference_id": "vqa__vqa_val_0013__target__013",
+        "role": "target",
+        "seed": 278320010529066947
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/014.png",
+        "index": 14,
+        "prompt": "Soft indoor lighting on a 'Wood' wine bottle and glass on a stone table.",
+        "prompt_sha256": "f6567c8232da8aaaa04daebccd69345513d36207c70bee07cd7d2c353561d398",
+        "reference_id": "vqa__vqa_val_0013__target__014",
+        "role": "target",
+        "seed": 635060991767698024
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/015.png",
+        "index": 15,
+        "prompt": "Wider crop of a 'Wood' wine bottle and glass on a metal balcony table with railing visible.",
+        "prompt_sha256": "ba6743ed586497ffbb420994c005ea24237c29f10178c3191019ebc5747aa0b4",
+        "reference_id": "vqa__vqa_val_0013__target__015",
+        "role": "target",
+        "seed": 368630397246911566
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of a 'Wood' wine bottle and glass on a glass patio table.",
+        "prompt_sha256": "00429d66894afb928f2760ace2233d0a06597b464e0540831f5df69dceae2abe",
+        "reference_id": "vqa__vqa_val_0013__target__016",
+        "role": "target",
+        "seed": 655095337704222993
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/017.png",
+        "index": 17,
+        "prompt": "A 'Wood' wine bottle on a wooden table with a small vase in the background.",
+        "prompt_sha256": "8aaed921af3b9a64666d588aa3b1f60401a473e0672c072fca72823221d97a0f",
+        "reference_id": "vqa__vqa_val_0013__target__017",
+        "role": "target",
+        "seed": 1102295809112829018
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/018.png",
+        "index": 18,
+        "prompt": "Candid composition of a 'Wood' wine bottle and glass on a stone garden table.",
+        "prompt_sha256": "ab1803b8a500847892390123f5263e3cb851a202b31b2f23715fb109d67188f4",
+        "reference_id": "vqa__vqa_val_0013__target__018",
+        "role": "target",
+        "seed": 302119528044093050
+      },
+      {
+        "image": "samples/vqa/vqa_val_0013/target/019.png",
+        "index": 19,
+        "prompt": "Ordinary 'Wood' wine bottle on a metal balcony table with a glass and outdoor scenery.",
+        "prompt_sha256": "3e3fce36cbd57953e5444f95c53f6abeac3887283b9c329041b1fecf1b2e5761",
+        "reference_id": "vqa__vqa_val_0013__target__019",
+        "role": "target",
+        "seed": 21593379303064532
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000283.jpg",
+    "original_image_sha256": "fc0cbe5ab7757e743b1ec729bb5c05922ea718fd77802e19cf45adaecd9cddd4",
+    "prompt_review_status": "assistant_review_pass_with_data_warning",
+    "sample_fingerprint": "73d3fdc317d92235a190ab9a38fed0142c04360677305700833e5b1d834e4e19",
+    "sample_id": "vqa_val_0013",
+    "shard": 117,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What is the brand of wine?",
+      "source_answer": "cupcake",
+      "source_answers": [
+        "caputo",
+        "cupcake",
+        "cyprus",
+        "cabernet",
+        "cupcake",
+        "capri",
+        "captain s",
+        "crystal",
+        "cryah",
+        "cupcake"
+      ],
+      "target_answer": "wood"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0013__source__000": {
+      "job_sha256": "6d29c2b4af951f3eaec64c76a423c641476571f920661d4c9b898dc996b51a32",
+      "sha256": "1a3556c3c985ce7fabc4323bfd151ee32f2971eb15b73da0b83c65aa4702a016",
+      "bytes": 142237,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.022176+00:00"
+    },
+    "vqa__vqa_val_0013__source__001": {
+      "job_sha256": "7487b2b2a9848660bc13695439de25bbc47e122086e9f73c786df858ea92b6b8",
+      "sha256": "3c719b718cf7aff3fed9135804bc9f662635a5844ac1ad6ac8bce02213a0054e",
+      "bytes": 126248,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.067368+00:00"
+    },
+    "vqa__vqa_val_0013__source__002": {
+      "job_sha256": "710ae71cb3330a920157173538a7301fdb0f1ee37b06374fd185c6416ccac503",
+      "sha256": "8b96de7bdb74c0999336b0a0ae2ab7d09880200e40031288f269a767b2e98ffb",
+      "bytes": 141533,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.110223+00:00"
+    },
+    "vqa__vqa_val_0013__source__003": {
+      "job_sha256": "f47b35c0d2596c09f81bf7a45139c26754b5a61db20f52529d794080cd62c33c",
+      "sha256": "0de1475ef330468f14bb4cbe88434e1e923aac627e69dd93486e002b468994bb",
+      "bytes": 154713,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.153159+00:00"
+    },
+    "vqa__vqa_val_0013__source__004": {
+      "job_sha256": "06073ace6b1ea3fac8e5469e926bf047829883adc564d41d7d67903e910228c7",
+      "sha256": "e8a937c1d37b249dd9800116bb5a46c43baf419cbbf5e14e059fdd1beb0fab03",
+      "bytes": 142949,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.195410+00:00"
+    },
+    "vqa__vqa_val_0013__source__005": {
+      "job_sha256": "c7c4c519c0a10138500c437a9d5dad78d7374ce24453750c844b8d0abd362576",
+      "sha256": "cc95483b25c838c5cdb85bafbe276ef2b64fda299e6c72aba86a0139a7a2292f",
+      "bytes": 110496,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.237685+00:00"
+    },
+    "vqa__vqa_val_0013__source__006": {
+      "job_sha256": "58165ec02e8fdb19854a575df17936f52ac4cffb52b31e7ed8756ba3cf5dc38d",
+      "sha256": "e13c1f4d2ea45bb0128434de361c4c66677525b985c2a9742ca0923b39d678cd",
+      "bytes": 142205,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.281022+00:00"
+    },
+    "vqa__vqa_val_0013__source__007": {
+      "job_sha256": "73bbcd1a1de5dcb0d4c74e88a6c811a08342921652986609bc5b4a6f9044852a",
+      "sha256": "b26963a37b6db91579083513aded65f552ae28fe5232545b8289114fb8823e50",
+      "bytes": 154138,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.322230+00:00"
+    },
+    "vqa__vqa_val_0013__source__008": {
+      "job_sha256": "ccaa840a4f17a791c69ee1d1972e394869a7dcc2283289a08c0ad44b9ca3d3c2",
+      "sha256": "a30027355d4dd0807d0d2db981650a5a4bd825a30afab83a9da08cf931944c9f",
+      "bytes": 147469,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.360431+00:00"
+    },
+    "vqa__vqa_val_0013__source__009": {
+      "job_sha256": "f458df13d7aa9b2796ed8e7822314ac2695bddbcf0542baeb1aad56e0b5f238a",
+      "sha256": "eac6848b1dc5d3f7e42d00d72befd62b34582f0d2b87ca4ba74c7ef5349d893c",
+      "bytes": 113295,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.398339+00:00"
+    },
+    "vqa__vqa_val_0013__source__010": {
+      "job_sha256": "4c8f45f69007623628d8bc130673013e6fad9213104be1bd84d824cf6a331b78",
+      "sha256": "cd3912b152638fe31aa519bfe464145214ab9eb758a99f4d29120bb0b34a7777",
+      "bytes": 143212,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.442192+00:00"
+    },
+    "vqa__vqa_val_0013__source__011": {
+      "job_sha256": "fe24f50975727027e7b8d3f8d40f714d432bc7c69afa21f6ffe83b597eac168f",
+      "sha256": "dc318a30aec234a26745764403184b58f8e910346e421b3c38ecec96c0a0cdf7",
+      "bytes": 138289,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.486233+00:00"
+    },
+    "vqa__vqa_val_0013__source__012": {
+      "job_sha256": "6acf0449c2c517fd9b82c033426f90260d0f6997a4f18e68761cf2389b384bfc",
+      "sha256": "09bb3d092fc1d76bf183edd368b73d981f2334f6e9d697995c01f39c06651c05",
+      "bytes": 152746,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.526895+00:00"
+    },
+    "vqa__vqa_val_0013__source__013": {
+      "job_sha256": "8dc857efbcd92c40c524e193f2b4a850344e49f26029edcd953e47f96f28220d",
+      "sha256": "7e9033bc33d8a39757b7c063407efe78052f544025c5018dbb1a9d900b810877",
+      "bytes": 111735,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.567234+00:00"
+    },
+    "vqa__vqa_val_0013__source__014": {
+      "job_sha256": "281b6e2e737ace7f058385fb430251eab07966dd8e7cc80d022201a580062893",
+      "sha256": "a99cc422c5d65337a2e36738ff0bc838ddf3bea342f6a08109627b8bb93ac008",
+      "bytes": 118704,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.606111+00:00"
+    },
+    "vqa__vqa_val_0013__source__015": {
+      "job_sha256": "dfefea0ad3f79796a85ae0164e0c1cfb82f375100654cc92f600df349617b56a",
+      "sha256": "34671a24ff97c7feee96066a59c4ad161e636e7bafe6b637d5fff135473507f2",
+      "bytes": 141810,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.650495+00:00"
+    },
+    "vqa__vqa_val_0013__source__016": {
+      "job_sha256": "4a3fc70fc69150bddf859a88ee6036f347a00b6fbd9f6c5434c23f2f12bfd1b6",
+      "sha256": "04987a464baffa6df49d2751a476a75a55d9fba53a3683b50f8e36a54a4a3bea",
+      "bytes": 144582,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.690070+00:00"
+    },
+    "vqa__vqa_val_0013__source__017": {
+      "job_sha256": "084387fac7b9a0dc20494a65ef86a27976022c74f2040704506cae1e62dd9765",
+      "sha256": "e1b3010b2ca3c1d33e32787e779ca04472185ea2b4f4a31ff44df5287f78df81",
+      "bytes": 104943,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.732141+00:00"
+    },
+    "vqa__vqa_val_0013__source__018": {
+      "job_sha256": "77329f511b3229b164974160904354ef069fb3e36d0f8ec4b18c54e4f25b94e2",
+      "sha256": "af9c54481b8a996b79b5bed384f600d3e9378e08e6e8fbbf9cdf8e441f37daa1",
+      "bytes": 133863,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.779363+00:00"
+    },
+    "vqa__vqa_val_0013__source__019": {
+      "job_sha256": "bcf0e598ed1bc82d7c30e116adab97ecb212be0f9ff8c2515ace078d6c9ed3a4",
+      "sha256": "5d9f31d9c0d405fa809b0e4231177570cfa3a9f31df659dc6eff401e17e83424",
+      "bytes": 128205,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.814205+00:00"
+    },
+    "vqa__vqa_val_0013__target__000": {
+      "job_sha256": "f940251383ba6e21a4dbbfd1e39b38827c6dfe7342ce0d0c82db36fc726cd88e",
+      "sha256": "b3420b50884367e6dfe2d201d2f4eb671a5e5c64bb0db150e2dfb47a703e3f0f",
+      "bytes": 138968,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.866630+00:00"
+    },
+    "vqa__vqa_val_0013__target__001": {
+      "job_sha256": "ad6b198241b3ecca7ea343688324fde1ea9c4d3342e39c048d54c4185b4af139",
+      "sha256": "3e3540ddc6b81ed322d4ba94558c40375aff80177116eceb7d011111e46eedc7",
+      "bytes": 115490,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.904247+00:00"
+    },
+    "vqa__vqa_val_0013__target__002": {
+      "job_sha256": "e63872e079a465f7457b7340e8124940a2667bda1c518a12d3380f1af64106d1",
+      "sha256": "ca2597c578937a87005faeaf4ff4248697f24956c4a065b71004807cc936b989",
+      "bytes": 139254,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.941353+00:00"
+    },
+    "vqa__vqa_val_0013__target__003": {
+      "job_sha256": "269563c2a2fbc8e56cb6176527fdf328dd759fecfe181c234a7321a6213af3cd",
+      "sha256": "d51ecf04664444370a5c650d73a44e9845ab6452ab3bda37dc052ead314bf6a2",
+      "bytes": 147084,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:54.982649+00:00"
+    },
+    "vqa__vqa_val_0013__target__004": {
+      "job_sha256": "7f1de3eba2051988f1e0de51afcc09658651fda52fc742469e104197937b73df",
+      "sha256": "582756f4bda3554849a6875990e5cdef925b0a54f70b1d800461376e5931cef8",
+      "bytes": 131765,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.026323+00:00"
+    },
+    "vqa__vqa_val_0013__target__005": {
+      "job_sha256": "a7bcc4ae86dd3590771d50ac225bfd39f278a3ebf42153c980ca2bef9ee5c785",
+      "sha256": "ed50535f0c27eda1a574ce86088999677384c5529c4a21e7c463ac454575a8b6",
+      "bytes": 110235,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.070060+00:00"
+    },
+    "vqa__vqa_val_0013__target__006": {
+      "job_sha256": "93e840ba2cd0d704224a438712f375229efeda822bd9c2e27567551f5ad1b52f",
+      "sha256": "c829acd03c2d85833cb47649eba0cf88061ad409d061f898fd702ecb3fd03531",
+      "bytes": 131226,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.117265+00:00"
+    },
+    "vqa__vqa_val_0013__target__007": {
+      "job_sha256": "099bd2af08a6158d187aa06d66760e48051748bd943e307ee101916dd8e6cdaa",
+      "sha256": "64e1e2eb34908035568e4156c9dc8b94a1328c0f6d4385177b3c8701776b2caf",
+      "bytes": 150333,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.159031+00:00"
+    },
+    "vqa__vqa_val_0013__target__008": {
+      "job_sha256": "f47532e563bef5c1e26fd82fa71069d4294972ecd245dffe9d7152f289ed5202",
+      "sha256": "dd9edefcd6ac3bdb1bab57fee7023380af2819d485c4075e788781ff9211bada",
+      "bytes": 142403,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.198172+00:00"
+    },
+    "vqa__vqa_val_0013__target__009": {
+      "job_sha256": "49ad6246721354ed5d4aacab56bfb3bfbd3992723d2be281345dca62782a4375",
+      "sha256": "9916d1d289e100d270badc958822c74fd2d71b3a1be60200808d8791a25ab475",
+      "bytes": 102813,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.237725+00:00"
+    },
+    "vqa__vqa_val_0013__target__010": {
+      "job_sha256": "e91f9add62dd124c82da3bb08a66fc3ff23b64a6fc8dcf1a79d93fc835a01851",
+      "sha256": "1abcbefcce36416a6050d1ff10353e1fa267bd9c95d57652e216bd78eacdc8f1",
+      "bytes": 141540,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.281057+00:00"
+    },
+    "vqa__vqa_val_0013__target__011": {
+      "job_sha256": "392ab92ba868b2c8d130014b97405f18941459108ae40fba91365ec369c1f4ef",
+      "sha256": "dfec6bdeae8aae5c15d1ea5aee10fb58505db13b7a4d915675a342d0fc373300",
+      "bytes": 135789,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.337662+00:00"
+    },
+    "vqa__vqa_val_0013__target__012": {
+      "job_sha256": "7a205b5b073e7d6969d59ac8fd92dd6ab597079c4414a94904de675075fb08b7",
+      "sha256": "7d5f23be74ae8d6782f60ae79720012f50400f77c096b138c82813070c55a662",
+      "bytes": 148281,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.384012+00:00"
+    },
+    "vqa__vqa_val_0013__target__013": {
+      "job_sha256": "589309c95c270cd13a7b2159a74262b2de54d92b914bc2a3e61b872104914b06",
+      "sha256": "622e2d5088fd88baaea7808ab1faebb1f3b0fdbeb2ed22161b68689f57639955",
+      "bytes": 108720,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.459185+00:00"
+    },
+    "vqa__vqa_val_0013__target__014": {
+      "job_sha256": "4a8f072bf5755bec1e7bb82c7adc66c4f1046007a96cfa50ada092ac34d87322",
+      "sha256": "63880ef8b3611413e1969f8247ac654553805251a188ac6c454c55bb944c2cdc",
+      "bytes": 109476,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.503111+00:00"
+    },
+    "vqa__vqa_val_0013__target__015": {
+      "job_sha256": "316e9777ab43958923739426320e2ebd4aec1ade50884640faf092464e7294f5",
+      "sha256": "d97e6ff11de96fc2a5e5d5175a451c157bdd04906cd0101b1f09d6736492c816",
+      "bytes": 131045,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.545555+00:00"
+    },
+    "vqa__vqa_val_0013__target__016": {
+      "job_sha256": "d9846d4b9a2e2c45dba0ffa4472da720f7663f2d34897ba8b39af7212e9429fd",
+      "sha256": "96622de543f8c2ffeb1bfc0066d246b92c2d5c21f8913a140af61a66659cf53c",
+      "bytes": 149267,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.584463+00:00"
+    },
+    "vqa__vqa_val_0013__target__017": {
+      "job_sha256": "7129d5099b74ac50bccd7fcfdd7a459f566f348748d51b660dbf4761f124bf62",
+      "sha256": "f2be55c2b5a59a8a0377bb9fb1f9010c95b8f99de790a197a64827c154d8e0d1",
+      "bytes": 109221,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.625629+00:00"
+    },
+    "vqa__vqa_val_0013__target__018": {
+      "job_sha256": "d5b525df5d8e75de79d5d9fcd7a7b4150bd9806223f767716a7e1452653ff2f6",
+      "sha256": "06b95232654724d8a79e50401609b78e6c9db4471d49bb58f5535616f6bbb2a0",
+      "bytes": 137091,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.667483+00:00"
+    },
+    "vqa__vqa_val_0013__target__019": {
+      "job_sha256": "d8505361f9340d32e5425b4c16d8a0e14f07b9fbb372b3247ead187985a6c8c2",
+      "sha256": "622c2532fa74d1a13a360870b8996a7c05555d7c066d1c89a04a031d786a103a",
+      "bytes": 133691,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 26.985858197323978,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:55.717120+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:16:55.717138+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "c81e1308aa6fc12378706c7f650b7a720f82556c05019206eda6f02b6352ef9c",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "b268b097962a85610f6392dcf9c1d67a5880d30fdc96d8d7e1c2b576ae3dc073",
+      "notes": "Original neutral source explicitly said without blowing, contradicting the hypothesis. Rewrote source prompts to show the girl carrying wand/solution in a park without resolving whether she blows; target explicitly shows blowing.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/000.png",
+        "index": 0,
+        "prompt": "A young girl in a floral dress walks through a sunlit meadow holding a bubble wand and a bottle of bubble solution.",
+        "prompt_sha256": "d6b94cab3ddfc8d915ca59221ccc1129ff05d6b1456f79e4c856366b44ee5989",
+        "reference_id": "ve__snli_ve_test_0010__source__000",
+        "role": "source",
+        "seed": 974305403753718856
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/001.png",
+        "index": 1,
+        "prompt": "A young girl sits on a picnic blanket in a park with a bubble wand and solution bottle in her hands.",
+        "prompt_sha256": "2cef1e3aed1cf36189025693a7c9cf8cb1a77a420efdd359f7de163835e819e2",
+        "reference_id": "ve__snli_ve_test_0010__source__001",
+        "role": "source",
+        "seed": 759356031186307704
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/002.png",
+        "index": 2,
+        "prompt": "A girl in a floral dress stands on a garden path, carrying a bubble wand and its small bottle.",
+        "prompt_sha256": "7b10f47367e0c558621a1849ab035acf7906431f34512498f901387afc66796a",
+        "reference_id": "ve__snli_ve_test_0010__source__002",
+        "role": "source",
+        "seed": 376964493335773076
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/003.png",
+        "index": 3,
+        "prompt": "A young girl pauses beside a wooden fence in a backyard park area, holding bubble solution and a wand.",
+        "prompt_sha256": "e6299dea39f2bf82c502e84c5e275e33ab2e0d93810e2eff58f99896baf3872c",
+        "reference_id": "ve__snli_ve_test_0010__source__003",
+        "role": "source",
+        "seed": 153113900186151683
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/004.png",
+        "index": 4,
+        "prompt": "A girl stands in a grassy field with a bubble wand and bottle, looking down toward the equipment.",
+        "prompt_sha256": "cf3ebe4f0ba5780ee4a903fb4bd4d4e8f3bcd0254ca24905de5ff5d33f5e55a5",
+        "reference_id": "ve__snli_ve_test_0010__source__004",
+        "role": "source",
+        "seed": 402180470988872478
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/005.png",
+        "index": 5,
+        "prompt": "A young girl walks across a meadow carrying a bubble wand and a bottle of soap solution.",
+        "prompt_sha256": "3615b45b1eb50a920d2cdbba2c9f8615bba6135daf246bc814ee87b2688a83fd",
+        "reference_id": "ve__snli_ve_test_0010__source__005",
+        "role": "source",
+        "seed": 330967072759669605
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/006.png",
+        "index": 6,
+        "prompt": "A girl in a blue floral dress stands in a park with a bubble wand in one hand and solution in the other.",
+        "prompt_sha256": "9e824e384f8a343f957b0df100c8fff5ebafdd4c33003268331336725227d5ea",
+        "reference_id": "ve__snli_ve_test_0010__source__006",
+        "role": "source",
+        "seed": 297662695867116572
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/007.png",
+        "index": 7,
+        "prompt": "Close view of a girl in a pink floral dress holding a bubble wand and bottle in an open meadow.",
+        "prompt_sha256": "c6d5e6115c1a43f163d0c5e0c09ba5eb7e4f81f6053fa915b05446206a2962ef",
+        "reference_id": "ve__snli_ve_test_0010__source__007",
+        "role": "source",
+        "seed": 538720016168200031
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/008.png",
+        "index": 8,
+        "prompt": "A girl in a yellow floral dress stands in a grassy field with a bubble wand and solution bottle near her face.",
+        "prompt_sha256": "cc1cd30e1f33b601cda4f766b5a66034a375242b1d1f5c217b66d1dbb9acb117",
+        "reference_id": "ve__snli_ve_test_0010__source__008",
+        "role": "source",
+        "seed": 551246683372091388
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/009.png",
+        "index": 9,
+        "prompt": "Wide view of a girl in a red floral dress crossing a large grassy park while carrying bubble-blowing supplies.",
+        "prompt_sha256": "6a030e02064c15cbe94baf5da21b04c8dced3cbe6e89cd1f67947514121049e4",
+        "reference_id": "ve__snli_ve_test_0010__source__009",
+        "role": "source",
+        "seed": 93239440150451013
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/010.png",
+        "index": 10,
+        "prompt": "A girl in a purple floral dress stands in a park holding a wand and bottle, with trees and grass around her.",
+        "prompt_sha256": "829f64053845c9d1bf60f95ee95b455794536a05f02f9969ed476a722f93e345",
+        "reference_id": "ve__snli_ve_test_0010__source__010",
+        "role": "source",
+        "seed": 193855492745909682
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/011.png",
+        "index": 11,
+        "prompt": "A girl in a green floral dress and straw hat carries a bubble wand and solution bottle across a field.",
+        "prompt_sha256": "c6c139bd84e5addb77b33972c3d0eba2a9ed79c7284fcd5b3f192a6a267fbc3c",
+        "reference_id": "ve__snli_ve_test_0010__source__011",
+        "role": "source",
+        "seed": 480228421793477309
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/012.png",
+        "index": 12,
+        "prompt": "Side view of a girl in a white floral dress holding a bubble wand and bottle near a grassy park path.",
+        "prompt_sha256": "81031230dfd6c3eec36870000bc432d92b29b27a416d38cb022eb69341419a81",
+        "reference_id": "ve__snli_ve_test_0010__source__012",
+        "role": "source",
+        "seed": 749683961519320293
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/013.png",
+        "index": 13,
+        "prompt": "A girl in a blue floral dress stands in a grassy field at sunset with a wand and bottle of bubble solution.",
+        "prompt_sha256": "d72768bc25e3411ddb56adda8c31616fbdf91e046a8fba12c08f2ef68d2f4291",
+        "reference_id": "ve__snli_ve_test_0010__source__013",
+        "role": "source",
+        "seed": 181235953548928447
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/014.png",
+        "index": 14,
+        "prompt": "A young girl with braided hair in a peach floral dress walks on a lawn carrying bubble-blowing supplies.",
+        "prompt_sha256": "1007454f41a13a15940789c657efe2006c19ecdf2880474ea2c64950be2e72bd",
+        "reference_id": "ve__snli_ve_test_0010__source__014",
+        "role": "source",
+        "seed": 834285675948005622
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/015.png",
+        "index": 15,
+        "prompt": "A girl in a lavender floral dress crouches on a park lawn with a bubble wand and solution bottle in her hands.",
+        "prompt_sha256": "12493baaf3e72f1bf56812f18bcb1bc07ff36128c70fd106ccabcc1b6d2c1894",
+        "reference_id": "ve__snli_ve_test_0010__source__015",
+        "role": "source",
+        "seed": 642236380430533986
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/016.png",
+        "index": 16,
+        "prompt": "Medium view of a girl in a soft blue floral dress standing in a field with a wand and bottle.",
+        "prompt_sha256": "50614ba788073dd3ee15096f86db5a4c2bb33c5ba9db5cee08eacc59c6c37c31",
+        "reference_id": "ve__snli_ve_test_0010__source__016",
+        "role": "source",
+        "seed": 836444308056147168
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/017.png",
+        "index": 17,
+        "prompt": "A girl in a pale pink floral dress stands in an open grassy area holding a bubble wand and its solution.",
+        "prompt_sha256": "9df23352f7aa80a43e63177db40bbd1227f7e4d2e6ad65daab6c8af714f01610",
+        "reference_id": "ve__snli_ve_test_0010__source__017",
+        "role": "source",
+        "seed": 204226500439156205
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/018.png",
+        "index": 18,
+        "prompt": "A girl in a mint floral dress pauses on a park path with bubble solution and a wand near a bush.",
+        "prompt_sha256": "d40b8c17704f25dce2b972442d44f71d26c1d93935097398159e0ee518252435",
+        "reference_id": "ve__snli_ve_test_0010__source__018",
+        "role": "source",
+        "seed": 548633140858393501
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/source/019.png",
+        "index": 19,
+        "prompt": "A girl in a coral floral dress stands in a field with a small toy, a bubble wand, and solution bottle.",
+        "prompt_sha256": "36fed8079b9c3ad4480785e37db131bec0fce90b50cfca7e0f048840c7908634",
+        "reference_id": "ve__snli_ve_test_0010__source__019",
+        "role": "source",
+        "seed": 897068778082441498
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/000.png",
+        "index": 0,
+        "prompt": "A young girl in a floral dress stands in a sunlit meadow, holding a bubble wand to her pursed lips, actively blowing bubbles.",
+        "prompt_sha256": "16ea9a896267d63b96c696dd9a0c856f0fadfe05c3e2324e486bbc9ce8785fb2",
+        "reference_id": "ve__snli_ve_test_0010__target__000",
+        "role": "target",
+        "seed": 1089355001828750632
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/001.png",
+        "index": 1,
+        "prompt": "A young girl in a floral dress sits on a picnic blanket in a park, holding a bubble wand to her mouth, blowing bubbles.",
+        "prompt_sha256": "3195813ec215248e1ffd363599332f1d61f0a1eac7b55e475802a7a5fd2a0c70",
+        "reference_id": "ve__snli_ve_test_0010__target__001",
+        "role": "target",
+        "seed": 170947731978032214
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/002.png",
+        "index": 2,
+        "prompt": "A young girl in a floral dress walks along a garden path, holding a bubble wand to her lips, blowing bubbles.",
+        "prompt_sha256": "bdd803086ae99dc234b30f62d79575ae466651349550618b74364a87c842948f",
+        "reference_id": "ve__snli_ve_test_0010__target__002",
+        "role": "target",
+        "seed": 956071247285738632
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/003.png",
+        "index": 3,
+        "prompt": "A young girl in a floral dress stands near a wooden fence in a backyard, holding a bubble wand to her mouth, blowing bubbles.",
+        "prompt_sha256": "6ac2e5cce8cc09fe200f07434e0723002113d44bfc63179c8cdd4de4ef122e0f",
+        "reference_id": "ve__snli_ve_test_0010__target__003",
+        "role": "target",
+        "seed": 395252100298202050
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/004.png",
+        "index": 4,
+        "prompt": "A young girl in a floral dress stands in a grassy field, holding a bubble wand to her pursed lips, blowing bubbles.",
+        "prompt_sha256": "47c9bb0afa1bfbfdde336cc56173e4d4447172b2f36429df9704f3aa59c3e54e",
+        "reference_id": "ve__snli_ve_test_0010__target__004",
+        "role": "target",
+        "seed": 398832089797618208
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/005.png",
+        "index": 5,
+        "prompt": "A young girl in a floral dress stands in a sunlit meadow, holding a bubble wand to her mouth, blowing bubbles.",
+        "prompt_sha256": "c84f5945b592c6de5b20285e21dcd419d44ceb3a74f762d17113846953ad3a84",
+        "reference_id": "ve__snli_ve_test_0010__target__005",
+        "role": "target",
+        "seed": 956008159652023567
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/006.png",
+        "index": 6,
+        "prompt": "A girl in a blue floral dress holds a bubble wand to her pursed lips in a grassy field, blowing bubbles.",
+        "prompt_sha256": "faaeb4d2b2913a70df399eb2a64391cae90249666b983b08709438c31f8b9dfa",
+        "reference_id": "ve__snli_ve_test_0010__target__006",
+        "role": "target",
+        "seed": 1076580674546004855
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/007.png",
+        "index": 7,
+        "prompt": "Close-up of a girl in a pink floral dress holding a bubble wand to her mouth in a meadow, blowing bubbles.",
+        "prompt_sha256": "d1266e14f82487f4360bcf6ff1c95ea7d6edb75fe836e3f66043bf0d18d5c671",
+        "reference_id": "ve__snli_ve_test_0010__target__007",
+        "role": "target",
+        "seed": 690197906865487182
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/008.png",
+        "index": 8,
+        "prompt": "Medium shot of a girl in a yellow floral dress standing in a grassy field, holding a bubble wand to her lips, blowing.",
+        "prompt_sha256": "0a7d26fb929ddec018c9825306f2daf35a8cd648f8c2eb7f450456a90002e1d6",
+        "reference_id": "ve__snli_ve_test_0010__target__008",
+        "role": "target",
+        "seed": 274217547595311039
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/009.png",
+        "index": 9,
+        "prompt": "Wide view of a girl in a red floral dress in a large grassy field, holding a bubble wand to her mouth, blowing.",
+        "prompt_sha256": "1b386aad6d0049fc41a8399b206b7cd546b725ecce47c2bdea4c6cb7222defb0",
+        "reference_id": "ve__snli_ve_test_0010__target__009",
+        "role": "target",
+        "seed": 1140780244414326283
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/010.png",
+        "index": 10,
+        "prompt": "Candid shot of a girl in a purple floral dress in a park, holding a bubble wand to her lips, blowing bubbles.",
+        "prompt_sha256": "07d9bc5d929002d90fdc141baf48ed911cbc203c5fe0f33f885cc28c13fd411a",
+        "reference_id": "ve__snli_ve_test_0010__target__010",
+        "role": "target",
+        "seed": 1015407098830335171
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/011.png",
+        "index": 11,
+        "prompt": "Girl in a green floral dress with a straw hat holding a bubble wand to her mouth in a grassy field, blowing.",
+        "prompt_sha256": "9e82a182f300fe19b604ef94f3caedd142e7d9581b19bce395b1c0fc85ab91bf",
+        "reference_id": "ve__snli_ve_test_0010__target__011",
+        "role": "target",
+        "seed": 348589826871681892
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/012.png",
+        "index": 12,
+        "prompt": "Side angle of a girl in a white floral dress in a grassy field, holding a bubble wand to her lips, blowing bubbles.",
+        "prompt_sha256": "841fd8ab3c823fdb8c757b2656f7bb3736d80afaf0772035a6daaf6e31250475",
+        "reference_id": "ve__snli_ve_test_0010__target__012",
+        "role": "target",
+        "seed": 253296920527952015
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/013.png",
+        "index": 13,
+        "prompt": "Girl in a blue floral dress in a grassy field at sunset, holding a bubble wand to her mouth, blowing bubbles.",
+        "prompt_sha256": "2b3138078ccd6f6685adede071d628c4fcb7899fcc6fa7d8d060b9c9a56b7e27",
+        "reference_id": "ve__snli_ve_test_0010__target__013",
+        "role": "target",
+        "seed": 659141925529465375
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/014.png",
+        "index": 14,
+        "prompt": "A young girl with braided hair in a peach floral dress stands on a grassy lawn, holding a bubble wand to her lips, blowing.",
+        "prompt_sha256": "97e057ae7b496bf3af7722e3a063f4c1b290d87dfd676220beb4a13c57b57ac0",
+        "reference_id": "ve__snli_ve_test_0010__target__014",
+        "role": "target",
+        "seed": 699308746064952516
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/015.png",
+        "index": 15,
+        "prompt": "A girl in a lavender floral dress crouches on a park lawn, holding a bubble wand to her mouth, blowing bubbles.",
+        "prompt_sha256": "5a7816eaf594ca22b91f3789aa12128330ac66c49a4785cab702876f7ad0380f",
+        "reference_id": "ve__snli_ve_test_0010__target__015",
+        "role": "target",
+        "seed": 179755913453333860
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/016.png",
+        "index": 16,
+        "prompt": "A medium shot of a girl in a soft blue floral dress standing in a grassy field, holding a bubble wand to her lips, blowing.",
+        "prompt_sha256": "f73d3b37c0ab31465a353c03e1e601d8f4a09b5d0e5b8d0fd2a736eef86408af",
+        "reference_id": "ve__snli_ve_test_0010__target__016",
+        "role": "target",
+        "seed": 56830321820004882
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/017.png",
+        "index": 17,
+        "prompt": "A wide view of a girl in a pale pink floral dress standing in a large open grassy area, holding a bubble wand to her mouth, blowing.",
+        "prompt_sha256": "03917a263a1410f34e2526c17e8544656c9a6fdded374090009ca70fe78f4556",
+        "reference_id": "ve__snli_ve_test_0010__target__017",
+        "role": "target",
+        "seed": 637246019329367923
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/018.png",
+        "index": 18,
+        "prompt": "A candid shot of a girl in a mint floral dress standing on a park path, holding a bubble wand to her lips, blowing.",
+        "prompt_sha256": "dc309e4ec46adc9bb7f9f8e737912abe3e3decd46b9a7fd054ff1cf9e529c2b4",
+        "reference_id": "ve__snli_ve_test_0010__target__018",
+        "role": "target",
+        "seed": 872393458572226874
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0010/target/019.png",
+        "index": 19,
+        "prompt": "A girl in a coral floral dress stands on a grassy field, holding a bubble wand to her pursed lips, blowing bubbles.",
+        "prompt_sha256": "ef351c5e56f7a49e511bc6c6943293dc423842b3b4b931fa43036470d66f8c23",
+        "reference_id": "ve__snli_ve_test_0010__target__019",
+        "role": "target",
+        "seed": 148888440593825267
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1097710887.jpg",
+    "original_image_sha256": "83124596c250b4c7368f8a4bd4f0a93be6eed4659ee830e91f1be7a07049173a",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "c81e1308aa6fc12378706c7f650b7a720f82556c05019206eda6f02b6352ef9c",
+    "sample_id": "snli_ve_test_0010",
+    "shard": 10,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "A young girl is blowing bubbles in the park",
+      "premise_caption": "A very young girl playing with a bubble-blowing wand, holding a bottle of bubble solution and walking through a park or field.",
+      "source_label": "neutral",
+      "target_label": "entailment"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0010__source__000": {
+      "job_sha256": "3c8dc31e5e30627f8c156ddc9e58568ce18750f744c7aa72292fcd22eefc060b",
+      "sha256": "c977afdc25c2b5918d2a8a7b996c4d6353638fb7f2afede8cfd1b1a66876fbec",
+      "bytes": 176434,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.282321+00:00"
+    },
+    "ve__snli_ve_test_0010__source__001": {
+      "job_sha256": "0dc566dac0afd19e87b1b681c62efcd531f366c189910389a8075afe116599af",
+      "sha256": "4f9baaf4ff35d6015d3c2a2c22e451d361691745edae38231e5c1eac7afb0a3b",
+      "bytes": 152401,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.333614+00:00"
+    },
+    "ve__snli_ve_test_0010__source__002": {
+      "job_sha256": "6fe90b4b853ef68fc6748da88f205d905a3443496e6fb9188ef4c0679f6bc6f9",
+      "sha256": "badd8d9f8e07ff25f7b8a671505c83d8502b82a0db0e138bc6fa0f7519fd847c",
+      "bytes": 163705,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.374866+00:00"
+    },
+    "ve__snli_ve_test_0010__source__003": {
+      "job_sha256": "fe789fb35673328b74a2200b824a18fbb2bc52e1372286d73b3c8ea8f9dd1356",
+      "sha256": "81876f2895c65846f358c765a59dc8e0351dbdd66268d496c0575ae84615ee49",
+      "bytes": 161098,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.417327+00:00"
+    },
+    "ve__snli_ve_test_0010__source__004": {
+      "job_sha256": "edfb5afc35a8bdf3fdc260be14d9230a44a57fbb3411d75413d6b7a5bb194ade",
+      "sha256": "3531ea4b43accc0665ee48dffb303ee55ab8e92a9f5e0b7ba5c1725e66663c04",
+      "bytes": 165365,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.454382+00:00"
+    },
+    "ve__snli_ve_test_0010__source__005": {
+      "job_sha256": "5f96f60a0a4f7c3e3f866932ca78d181f248706e89cac268ab1194a521f46f7c",
+      "sha256": "7f5367c8ff001d0c7a0a44766aa6de1a071b95eaa45371d1f0af11eb07cc03c1",
+      "bytes": 151356,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.504761+00:00"
+    },
+    "ve__snli_ve_test_0010__source__006": {
+      "job_sha256": "b73a4e186bcae2092363efd89a29007987a19b6b1cd9858f7dfc11f8bd97b2d4",
+      "sha256": "9336c06fc22c88fa1fe2fe20061fdaa2b481af2234a5b508f2804f372af6e58c",
+      "bytes": 158405,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.541058+00:00"
+    },
+    "ve__snli_ve_test_0010__source__007": {
+      "job_sha256": "8dcee1a6f22ff17a5fcb55ab7cd9c0fd5051aa422feace73f0eaa8dcbaf7a112",
+      "sha256": "dddbf6038585df31648f57bdd1be43fe0f3dee38c2ad626be4b4ea7c39914936",
+      "bytes": 157764,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.583915+00:00"
+    },
+    "ve__snli_ve_test_0010__source__008": {
+      "job_sha256": "014bb60bf248b837d67576c83feb8af82f026d0b8c59017265c71febcea8cd92",
+      "sha256": "15f3296d456b7d1451e21167c443c781acc91ad5d9c18bdad74389eaf2015639",
+      "bytes": 146605,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.620179+00:00"
+    },
+    "ve__snli_ve_test_0010__source__009": {
+      "job_sha256": "8226e92b8aeb725ee1acf105c908d8f7209bc120b001652dad28837d626fb0c0",
+      "sha256": "4abef752bd8232fbb53b5650449ddfd1bc50475dd1a6c765999af9a4688165e2",
+      "bytes": 172714,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.663472+00:00"
+    },
+    "ve__snli_ve_test_0010__source__010": {
+      "job_sha256": "fe8752beb2af9a74da2c582ac4dfb442e77b245d2f263c7124689ec9fe619676",
+      "sha256": "2b0fe223d2b2f811a005b24612bbc776a7403794ddc3677b91640f17ad2c8f51",
+      "bytes": 156337,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.705706+00:00"
+    },
+    "ve__snli_ve_test_0010__source__011": {
+      "job_sha256": "955abeffa817776304ef0171c2cf1b166327eeaa9d7c68086a22e87152f5be2e",
+      "sha256": "25fc4d68843ab614f2c1da34df63f1e926b302a8fd6f97a0abb83cb4ee328e25",
+      "bytes": 163493,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.747918+00:00"
+    },
+    "ve__snli_ve_test_0010__source__012": {
+      "job_sha256": "a2bc3658dcfa40182e7575041b4a87b36be1e5a3a03533ee3c38b600db4ea74f",
+      "sha256": "ec27f3fd0973ff7c7a9655911f2024b551b9721e7b9001431e40ce9472b3e744",
+      "bytes": 152822,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.789201+00:00"
+    },
+    "ve__snli_ve_test_0010__source__013": {
+      "job_sha256": "6491992dadb5d50670d19612ee7567eff4b36a1dcf94c08bf3fbebab31b3b61e",
+      "sha256": "0c1544f23139998d2474d6706eedd133aba7337908d04abb77cbf5eac59c9e00",
+      "bytes": 132519,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.838567+00:00"
+    },
+    "ve__snli_ve_test_0010__source__014": {
+      "job_sha256": "3429ba5b104b5c9cdd155ba3e59932693f66b18587e4a4d32e647ce0fe34f054",
+      "sha256": "a86cd3db69b5334ab097d23f87f1bdd6fd537cbab97eca0a7de27a22919b4871",
+      "bytes": 154695,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.886330+00:00"
+    },
+    "ve__snli_ve_test_0010__source__015": {
+      "job_sha256": "98431f22fa25ec71beaba4b65a3dfb548a292dfea4d475e54a1a2be251b09860",
+      "sha256": "403cbdfca9dbb4b9fa76b8e85abb0050ef0d6cdc828022f1ceb31c336c630c42",
+      "bytes": 152853,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.928221+00:00"
+    },
+    "ve__snli_ve_test_0010__source__016": {
+      "job_sha256": "9b31ab3133d51ee9e6f9c76a7c3bbd0854c122f76dfb7a817b41309a8fcc14a8",
+      "sha256": "17c96a01359944ca2a10628576daa883c6f5ae66a57130387e65f0e88c27ef7c",
+      "bytes": 140942,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:56.969268+00:00"
+    },
+    "ve__snli_ve_test_0010__source__017": {
+      "job_sha256": "0364f7312185142b0c958f5f790d97361f15fdaf1df91b20d50c7acdb12544dc",
+      "sha256": "2214c34d8b397eb3a94392718e67fe43f6226456c6341fc3aad2395d55b416f7",
+      "bytes": 147422,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.006100+00:00"
+    },
+    "ve__snli_ve_test_0010__source__018": {
+      "job_sha256": "0c033b1ed133ac6f6cf45b30c3d46c80af7b9e3192e03cf9f38bfa5c083edbb5",
+      "sha256": "bb2c56093837e04c26183dfa265305938d522a77131c3d13462e8e8e0baa6430",
+      "bytes": 185637,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.054511+00:00"
+    },
+    "ve__snli_ve_test_0010__source__019": {
+      "job_sha256": "b58458b71cc35e06dac661f3fc9dcccb1b5cac36aa5d525ba880bba693be71a1",
+      "sha256": "83df1b62573c0d514e5e2f568126401eec1224c2f787bbd611e4a894f293ce72",
+      "bytes": 152799,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.098524+00:00"
+    },
+    "ve__snli_ve_test_0010__target__000": {
+      "job_sha256": "b736f0050ddeff0d957b2e7029fb45c3a5be09694e03c726f7d19dad61a18462",
+      "sha256": "e4fbfc768e7d552d9959f1aad8806c1bc543a631ea336e8cb7fe7f311bac999d",
+      "bytes": 140727,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.154835+00:00"
+    },
+    "ve__snli_ve_test_0010__target__001": {
+      "job_sha256": "8692dbb79013f8c4d2292d643dfe35698fcb0910ad40f04b61ce8dc52699d17f",
+      "sha256": "19ddeed17eee98309186103568b4cbeebe983bf4eb1ff4ac6e43a64eac70c4c8",
+      "bytes": 154991,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.197883+00:00"
+    },
+    "ve__snli_ve_test_0010__target__002": {
+      "job_sha256": "f1efac9941cc2f2b24b6bea59bae0400e24568b1266527532ed60f228d1d3611",
+      "sha256": "b49f94bc6f32c3bfa6b46acf74a04d46995cf49fd7d2fbb4fb1049cf3658ec16",
+      "bytes": 175373,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.240523+00:00"
+    },
+    "ve__snli_ve_test_0010__target__003": {
+      "job_sha256": "276ca2b94ec9c2cf7b4f071a880322735af719ee16b13f27deac6c7fe8f5a21a",
+      "sha256": "bb2eecb7e52d668d194355caed0844cf4d08efff67c516c6877a88041ec21509",
+      "bytes": 157131,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.281343+00:00"
+    },
+    "ve__snli_ve_test_0010__target__004": {
+      "job_sha256": "546092712ce5078e1e073b624cb4ca388407d8bef8dec1da5e4b3d99689baebf",
+      "sha256": "0b416263d921cb82015fbeeb2ca49d9922bce7da318ff40f72e60b6be397dde0",
+      "bytes": 144689,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.326264+00:00"
+    },
+    "ve__snli_ve_test_0010__target__005": {
+      "job_sha256": "0b919ecdcdcb6c24328ed39abf2e76ec27549600fdcb8c9322a774e14f5d28a9",
+      "sha256": "527bb308b4120bfe46839830b7002c10c7e19c3416aeadff293f14b3cff06c66",
+      "bytes": 154156,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.367831+00:00"
+    },
+    "ve__snli_ve_test_0010__target__006": {
+      "job_sha256": "d183414ee50f19a46da3db978fabde8bb9d44a2bcf0b1b19cfe3e77b567ad103",
+      "sha256": "8ffb7840cd77160c74cc5d80dc305bb4e1ff471af996fe4978b742ce51006a0e",
+      "bytes": 147643,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.409551+00:00"
+    },
+    "ve__snli_ve_test_0010__target__007": {
+      "job_sha256": "5f4d54dcb1ce5f4e1cce92bd100e3e4955b211185255964e65079d92119d67ec",
+      "sha256": "284c236cb6ffd1be74d13570846b6df566b84817e598f9df764b9a45b0d72e6f",
+      "bytes": 154784,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.452637+00:00"
+    },
+    "ve__snli_ve_test_0010__target__008": {
+      "job_sha256": "3b55a9e1bc2b636de56814531b7c0c4f9ed105f645fa24a81b4c4ae9c4c23c28",
+      "sha256": "91aea8fc96fab132d0bcff75f8e9b955447cd7b863824c261a5d8395a9ee8ea9",
+      "bytes": 145842,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.499984+00:00"
+    },
+    "ve__snli_ve_test_0010__target__009": {
+      "job_sha256": "7f9a992b89e7f5561c77ddf7ff59d674ec937227750b1d7278afe6d3056cf213",
+      "sha256": "ce04eedfd63355d0339a9ac17bf8b02b2e7e325c34f3a126f23dad97e89fd661",
+      "bytes": 155640,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.543638+00:00"
+    },
+    "ve__snli_ve_test_0010__target__010": {
+      "job_sha256": "289567d67f1147c93b9ce6a08a06b3317a6cdfa6455fc31007ea8ce53a214f7e",
+      "sha256": "142fab45029add19f44770f119d315a076e4fa6f932ac19478d20a8eea22e8b6",
+      "bytes": 157266,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.585655+00:00"
+    },
+    "ve__snli_ve_test_0010__target__011": {
+      "job_sha256": "69298a3d7ad8bd7e5102d1444071b7056657ddcb7ea570e5d95c1ac357236dc5",
+      "sha256": "7b3f5c44ad58aea260d2d1399a1f87135aeec7c42affc4f2ef8573126525146e",
+      "bytes": 165736,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.625514+00:00"
+    },
+    "ve__snli_ve_test_0010__target__012": {
+      "job_sha256": "d7b72c8a2732f3bbf61eb6d341a52a1683ea3abcf2a4a21398e2031407f6b5a3",
+      "sha256": "7713a556758be60a5c199923d6c1dbc8f4ac4e4caf8412e60470641f3fa92ea1",
+      "bytes": 142182,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.665683+00:00"
+    },
+    "ve__snli_ve_test_0010__target__013": {
+      "job_sha256": "c9d2a9d7d91568955aa8b8787971756ad30b63f22fea5b78f52c5dff41f4636f",
+      "sha256": "49d80f9bfc69b22603d9140547a56be8c20e842ccaada8dd6b1248490e753973",
+      "bytes": 133909,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.707016+00:00"
+    },
+    "ve__snli_ve_test_0010__target__014": {
+      "job_sha256": "2665d60918bf3d9413c05d56e9dc4df1925fc5bbce2e38968df748d67c2f509d",
+      "sha256": "5cb810bf95daafb7adbf6bb85968d83459ff2bd6aaa2617bfc60ddd5ffc76362",
+      "bytes": 141806,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.751110+00:00"
+    },
+    "ve__snli_ve_test_0010__target__015": {
+      "job_sha256": "568c38527406d65b4a381ba0c0e68c6c956337006ac0e4fef1307b884b650877",
+      "sha256": "10c9d31e74765174c4614b2ece00f7ebcdf15cc8ab25c4f7d1f8a79405fcd5c3",
+      "bytes": 156231,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.785975+00:00"
+    },
+    "ve__snli_ve_test_0010__target__016": {
+      "job_sha256": "670c49be08212fe7577c86866aa13220e25c2abfc823744d76073124bf672171",
+      "sha256": "36de1f030fe2a290d336211a926a7739c866046630421369c4ee919c556284a7",
+      "bytes": 134283,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.836417+00:00"
+    },
+    "ve__snli_ve_test_0010__target__017": {
+      "job_sha256": "baeeb19a4719daf68a6e16ffa76d8155c8ecc855523b5bb7346812a18a1add36",
+      "sha256": "25765d62f6da1e8f2fdf7904b9d3356cd1fd9043d55a0588acd42a87bb5fe855",
+      "bytes": 145503,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.877665+00:00"
+    },
+    "ve__snli_ve_test_0010__target__018": {
+      "job_sha256": "1f8642a967c090e908486794a88b5a92bdab921432d7f2c1df0d19030c0eb962",
+      "sha256": "4003edffb40dcf5783fa95469054418b3977c9f67b6d021ed54c5fcf243e45fb",
+      "bytes": 140246,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.919523+00:00"
+    },
+    "ve__snli_ve_test_0010__target__019": {
+      "job_sha256": "2e050eef46500785d105400533c0aaad123794f57ecfe716fac3cc48757e1baa",
+      "sha256": "03c92af35b9cc58e615aeb270a5cea54336bb2a519dd02b57e91d81d3984e50c",
+      "bytes": 147211,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.21532883774489,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:32:57.963236+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:32:57.963252+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

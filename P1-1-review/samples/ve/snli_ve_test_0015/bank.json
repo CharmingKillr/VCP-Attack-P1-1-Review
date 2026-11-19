@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "84dfdf67b54c89f3f3df1aae482fd54a663c0aedf66577e2e4dc978636959d6a",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "18eba61f1c56d48b8af971a9390ccb06ef6fd62519551bb7e14a96598627f6b8",
+      "notes": "Source prompts clearly place the woman outdoors; target prompts place her indoors. Clarified three covered arcade/passage/stall prompts as enclosed interior spaces so they no longer read as outdoor covered markets.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/000.png",
+        "index": 0,
+        "prompt": "A woman in a conical hat sells loaves from a basket on a sunny city sidewalk, with a taxi visible in the background.",
+        "prompt_sha256": "89f0d0e757ff994b3022b6b2e091245a2d3b03230423380d065cd3e6202bd65a",
+        "reference_id": "ve__snli_ve_test_0015__source__000",
+        "role": "source",
+        "seed": 486959462788331961
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/001.png",
+        "index": 1,
+        "prompt": "Close-up of a woman wearing a straw hat holding up a bread roll, standing on a paved street with open sky above.",
+        "prompt_sha256": "907dde9a3503280b5058809c83eb94ba85b09474838f6b9c540700b4aa91bed8",
+        "reference_id": "ve__snli_ve_test_0015__source__001",
+        "role": "source",
+        "seed": 666413817785204814
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a woman in a conical hat arranging bread in a basket, positioned on a street corner with a clear blue sky.",
+        "prompt_sha256": "4dfc5cb087cba04bc459f478ec5f27a5add2913f9f55d55aa29f2f3e928ff062",
+        "reference_id": "ve__snli_ve_test_0015__source__002",
+        "role": "source",
+        "seed": 272093103703782553
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of a woman selling bread from a cart on a busy street, with visible road markings and distant buildings under an open sky.",
+        "prompt_sha256": "59ba987e49b471dbe86ecd1f5f457ea5dfc5741cb68efbe6fafc712f765342e4",
+        "reference_id": "ve__snli_ve_test_0015__source__003",
+        "role": "source",
+        "seed": 436487567113886696
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/004.png",
+        "index": 4,
+        "prompt": "Candid photo of a woman in a conical hat handing bread to a customer on a sidewalk, with a parked car and open air behind her.",
+        "prompt_sha256": "88a47b6b4be351d2ebff93a0ea944d6c237fe2ce0ef631e4cf1d0881aa934a41",
+        "reference_id": "ve__snli_ve_test_0015__source__004",
+        "role": "source",
+        "seed": 421463315427310463
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/005.png",
+        "index": 5,
+        "prompt": "A woman in a patterned conical hat sells sliced bread on a street, with a visible storefront sign and clear daylight illuminating the scene.",
+        "prompt_sha256": "a32d1137b66a874315bf30bceeb35624d11a68d49fa2c45a9d15a60654d3fca2",
+        "reference_id": "ve__snli_ve_test_0015__source__005",
+        "role": "source",
+        "seed": 565120497589515003
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/006.png",
+        "index": 6,
+        "prompt": "Side profile of a woman in a conical hat tending to her bread basket on a sidewalk, with a street lamp and open sky in the background.",
+        "prompt_sha256": "6a463a62d9724c8b31467a5bf71651e01eab691e3c423ee3d36853da10e22ac3",
+        "reference_id": "ve__snli_ve_test_0015__source__006",
+        "role": "source",
+        "seed": 363669351625992293
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/007.png",
+        "index": 7,
+        "prompt": "A woman in a conical hat sells bread on a street during golden hour, with warm sunlight highlighting the outdoor setting and open sky.",
+        "prompt_sha256": "e31102361c25e0fa50e296c5df2e8b69837aec4d4c8e8f4fbb9c7f19f94b82fb",
+        "reference_id": "ve__snli_ve_test_0015__source__007",
+        "role": "source",
+        "seed": 1105133580870597219
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/008.png",
+        "index": 8,
+        "prompt": "Slightly zoomed-in view of a woman in a conical hat holding bread, standing on a street with a visible crosswalk and clear weather.",
+        "prompt_sha256": "d5afe354c325e328469265ace1156d464344961751378fc4cbb73b2e84643cf4",
+        "reference_id": "ve__snli_ve_test_0015__source__008",
+        "role": "source",
+        "seed": 750928108433405271
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/009.png",
+        "index": 9,
+        "prompt": "A woman in a simple conical hat sells bread on a sidewalk, with a bicycle parked nearby and an open sky indicating an outdoor location.",
+        "prompt_sha256": "ab0cb6470c1fe0f6dc895c1130116132efd13805b2c919d5f22c2d79b10d9bc7",
+        "reference_id": "ve__snli_ve_test_0015__source__009",
+        "role": "source",
+        "seed": 50204497902150043
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/010.png",
+        "index": 10,
+        "prompt": "Another woman in a conical hat sells fresh bread on a street corner, with a visible traffic light and open sky confirming the outdoor setting.",
+        "prompt_sha256": "4260f7724d9dd5b0af0c0b8796d6ab939eeb0023efca415fdf09028f26b8c19c",
+        "reference_id": "ve__snli_ve_test_0015__source__010",
+        "role": "source",
+        "seed": 444267467852009825
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/011.png",
+        "index": 11,
+        "prompt": "Overhead angle of a woman in a conical hat arranging bread in a basket on a street, with pavement texture and open sky visible.",
+        "prompt_sha256": "fdcdfd9e2f7e819d0e9892a5c40d5d674f3d5037ea65085841a3ed8b52043b88",
+        "reference_id": "ve__snli_ve_test_0015__source__011",
+        "role": "source",
+        "seed": 646701122208203425
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/012.png",
+        "index": 12,
+        "prompt": "Medium shot of a woman in a conical hat selling bread, with a visible street sign and clear sky in the background, emphasizing the outdoor context.",
+        "prompt_sha256": "dd4932f8bc36d8e468457f3825a1856bc9b806b8040e546fccbcb624cb237cb7",
+        "reference_id": "ve__snli_ve_test_0015__source__012",
+        "role": "source",
+        "seed": 415224072483589888
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/013.png",
+        "index": 13,
+        "prompt": "Wide angle of a woman in a conical hat selling bread on a street, with pedestrians and open sky visible in the distance.",
+        "prompt_sha256": "247d34c443718a88453ba76b4e96f9a67e49706bdbfbac089065a3ae8cc13d57",
+        "reference_id": "ve__snli_ve_test_0015__source__013",
+        "role": "source",
+        "seed": 559751752838894946
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/014.png",
+        "index": 14,
+        "prompt": "Candid shot of a woman in a conical hat smiling while selling bread on a sidewalk, with a clear sky and street elements in the background.",
+        "prompt_sha256": "7c7dc9dbe095ccafcbe37ec0a5db94d129e359883a82033e956fbe4906b88525",
+        "reference_id": "ve__snli_ve_test_0015__source__014",
+        "role": "source",
+        "seed": 935818354269394562
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/015.png",
+        "index": 15,
+        "prompt": "A woman in a conical hat sells bread on a street, with a visible shop window and open sky, indicating an outdoor market setting.",
+        "prompt_sha256": "0b0ff9787f54ff73aea53b4266b82fa3849b0f49219c8190e3287a5b8a54cb1c",
+        "reference_id": "ve__snli_ve_test_0015__source__015",
+        "role": "source",
+        "seed": 576405732805030292
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/016.png",
+        "index": 16,
+        "prompt": "Side view of a woman in a conical hat selling bread on a street, with a visible road and open sky, confirming the outdoor location.",
+        "prompt_sha256": "b034228dc186bb47e953735e5c25a3bd013e2d1522f6892bb1eb3f4513f37979",
+        "reference_id": "ve__snli_ve_test_0015__source__016",
+        "role": "source",
+        "seed": 119900946622472343
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/017.png",
+        "index": 17,
+        "prompt": "A woman in a conical hat sells bread on a street under bright midday sun, with a clear sky and street furniture visible.",
+        "prompt_sha256": "0e0bb89af0c7338cd41b84afb4e1d4f1d4ddcaac1659768bca7ec939d307b855",
+        "reference_id": "ve__snli_ve_test_0015__source__017",
+        "role": "source",
+        "seed": 498035395332397833
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/018.png",
+        "index": 18,
+        "prompt": "Slightly wider view of a woman in a conical hat selling bread on a street, with a visible taxi and open sky in the background.",
+        "prompt_sha256": "e23def4f9cb384c1cc91577dd6592364242e754962e612d0ff5e4278e8459255",
+        "reference_id": "ve__snli_ve_test_0015__source__018",
+        "role": "source",
+        "seed": 502419993888331366
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/source/019.png",
+        "index": 19,
+        "prompt": "A woman in a conical hat sells bread on a street, with a visible crosswalk and open sky, clearly indicating an outdoor urban environment.",
+        "prompt_sha256": "cabb5fa1a046c221c3b84c5e776f563111f47cdceffc9743e671096c3dcd4894",
+        "reference_id": "ve__snli_ve_test_0015__source__019",
+        "role": "source",
+        "seed": 428670669952064307
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/000.png",
+        "index": 0,
+        "prompt": "A woman in a conical hat sells loaves from a basket inside a market stall, with a visible ceiling and wall behind her.",
+        "prompt_sha256": "7776b35493bc403f30c32db7a7b76808b81ba3c5fee8e1aaf5451037e703d310",
+        "reference_id": "ve__snli_ve_test_0015__target__000",
+        "role": "target",
+        "seed": 448821508907713509
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/001.png",
+        "index": 1,
+        "prompt": "Close-up of a woman wearing a straw hat holding up a bread roll, standing under a tiled ceiling with indoor lighting.",
+        "prompt_sha256": "0fbfc91c90314cd524b8be15419647d8bdf86134ee9fbfdeecdd9da886e8f2a3",
+        "reference_id": "ve__snli_ve_test_0015__target__001",
+        "role": "target",
+        "seed": 851829199471412536
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a woman in a conical hat arranging bread in a basket, positioned in a shop interior with visible walls.",
+        "prompt_sha256": "3fd0e96a9964554c4a30d39c2b72d449ad86816435b713d71b8a4fae19e72f73",
+        "reference_id": "ve__snli_ve_test_0015__target__002",
+        "role": "target",
+        "seed": 956352116199008102
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/003.png",
+        "index": 3,
+        "prompt": "Inside an enclosed market hall, a woman in a conical hat sells bread from a cart beneath a solid ceiling and between interior walls.",
+        "prompt_sha256": "4d8dbaf8c7d85411bedf3ba8b4df00ae2e92d531956b96443f0dcdcda93ea546",
+        "reference_id": "ve__snli_ve_test_0015__target__003",
+        "role": "target",
+        "seed": 1036650984758063045
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/004.png",
+        "index": 4,
+        "prompt": "A woman in a patterned conical hat sells sliced bread in a shop, with a visible interior wall and hanging light fixture.",
+        "prompt_sha256": "956d76778889affe3e47e6f4281a6cc857d097de4f15d87a3363610a9cfde602",
+        "reference_id": "ve__snli_ve_test_0015__target__004",
+        "role": "target",
+        "seed": 271448082445119209
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/005.png",
+        "index": 5,
+        "prompt": "Side profile of a woman in a conical hat tending to her bread basket in a room, with a window frame and curtain visible.",
+        "prompt_sha256": "30b7d11833d38be882f09efc9ba52b8f1881b97a6b835855c09905bd32915a32",
+        "reference_id": "ve__snli_ve_test_0015__target__005",
+        "role": "target",
+        "seed": 492292767864574715
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/006.png",
+        "index": 6,
+        "prompt": "A woman in a conical hat sells bread in a market hall during the day, with fluorescent lighting and a concrete ceiling.",
+        "prompt_sha256": "babdc9a026737b27a5bb3589fad0af3fe7fe7a655de64b6b391a8bc81d9b1f44",
+        "reference_id": "ve__snli_ve_test_0015__target__006",
+        "role": "target",
+        "seed": 852035384517928143
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/007.png",
+        "index": 7,
+        "prompt": "Slightly zoomed-in view of a woman in a conical hat holding bread, standing in a corridor with a visible door and wall.",
+        "prompt_sha256": "18a2eec214d41eb6d6595197c849b13cfbe4ea6e37cdc2d8a25c5f0ec468cbe1",
+        "reference_id": "ve__snli_ve_test_0015__target__007",
+        "role": "target",
+        "seed": 1091320389142587060
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/008.png",
+        "index": 8,
+        "prompt": "A woman in a simple conical hat sells bread in a basement shop, with a low ceiling and exposed brick walls.",
+        "prompt_sha256": "8aa1d8182ba44e005e996868bc944b8a6efdcf22352edb6508b2ba421365fd68",
+        "reference_id": "ve__snli_ve_test_0015__target__008",
+        "role": "target",
+        "seed": 145899699738907271
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/009.png",
+        "index": 9,
+        "prompt": "Another woman in a conical hat sells fresh bread in a food court, with a visible service counter and indoor tiles.",
+        "prompt_sha256": "c7a9cb83e7f13bedb771c38deeec40f7299db91f7fe7ad01480cfa051d978a8e",
+        "reference_id": "ve__snli_ve_test_0015__target__009",
+        "role": "target",
+        "seed": 1014574618178757567
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/010.png",
+        "index": 10,
+        "prompt": "Overhead angle of a woman in a conical hat arranging bread in a basket in a room, with a ceiling fan visible above.",
+        "prompt_sha256": "ba4c13e10f7140905bb1728c9ff4d9bbbb0cd9d245cafb1ef0c02c667722657e",
+        "reference_id": "ve__snli_ve_test_0015__target__010",
+        "role": "target",
+        "seed": 996997880754335269
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/011.png",
+        "index": 11,
+        "prompt": "Medium shot of a woman in a conical hat selling bread, with a visible interior sign and solid wall in the background.",
+        "prompt_sha256": "63be450a660bd34b8d916bb19efc11187d42ccf2e7ce8d1f2d4024db952ed900",
+        "reference_id": "ve__snli_ve_test_0015__target__011",
+        "role": "target",
+        "seed": 869062567932864329
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/012.png",
+        "index": 12,
+        "prompt": "Wide angle of a woman in a conical hat selling bread in a large hall, with other stalls and a high ceiling visible.",
+        "prompt_sha256": "5b31f411c671ba1922ea49cb0c359db51b94d6b15f7853a86a4603de93b01263",
+        "reference_id": "ve__snli_ve_test_0015__target__012",
+        "role": "target",
+        "seed": 580003614733999514
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/013.png",
+        "index": 13,
+        "prompt": "Candid shot of a woman in a conical hat smiling while selling bread in a shop, with a visible shelf and wall behind.",
+        "prompt_sha256": "d44b5d7324d2e9dec5d215f9e26d5a25eabe8b1624946b61605b595e8cc3f33f",
+        "reference_id": "ve__snli_ve_test_0015__target__013",
+        "role": "target",
+        "seed": 499311282480022770
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/014.png",
+        "index": 14,
+        "prompt": "A woman in a conical hat sells bread in a grocery store, with a visible checkout counter and interior lighting.",
+        "prompt_sha256": "a6d2dbfd8dae7772108d7ea67038a0f243617a364235c3a93489126ea5ac9305",
+        "reference_id": "ve__snli_ve_test_0015__target__014",
+        "role": "target",
+        "seed": 458835596595283737
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/015.png",
+        "index": 15,
+        "prompt": "A woman in a conical hat sells bread inside an enclosed passageway with a roof, interior walls, and artificial lights; no open street or sky is visible.",
+        "prompt_sha256": "fb873894f732e547b0ebf4ce3c31cbc9c682934fc4464af49343d828791b1573",
+        "reference_id": "ve__snli_ve_test_0015__target__015",
+        "role": "target",
+        "seed": 606505051397853961
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/016.png",
+        "index": 16,
+        "prompt": "A woman in a conical hat sells bread in a room under bright artificial light, with a visible ceiling and window frame.",
+        "prompt_sha256": "8de1270ace4cf2c9a61ffd14d25da50b4d394239ae81898c70c410f066bd2ce0",
+        "reference_id": "ve__snli_ve_test_0015__target__016",
+        "role": "target",
+        "seed": 847259450387485495
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/017.png",
+        "index": 17,
+        "prompt": "An indoor market stall with a woman in a conical hat selling bread beneath a ceiling, with the enclosed room walls visible.",
+        "prompt_sha256": "20fb731903a91b810e3a92886a3526496118ef1c547d9e0658129e3af7c9fd9b",
+        "reference_id": "ve__snli_ve_test_0015__target__017",
+        "role": "target",
+        "seed": 803199374852197545
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/018.png",
+        "index": 18,
+        "prompt": "A woman in a conical hat sells bread in a shop, with a visible interior floor and solid walls, clearly indicating an indoor environment.",
+        "prompt_sha256": "427a58496a81975d4dc25391849b2ae193c94561d6873b31cfa3dd058b33c5c4",
+        "reference_id": "ve__snli_ve_test_0015__target__018",
+        "role": "target",
+        "seed": 726773981825360314
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0015/target/019.png",
+        "index": 19,
+        "prompt": "A woman in a conical hat sells bread from a basket in a hallway, with a visible doorframe and interior wall behind her.",
+        "prompt_sha256": "f59498cb1f2d3e2c2f267789c0ea9739c4726b84133a9542306de0d099bbbd4d",
+        "reference_id": "ve__snli_ve_test_0015__target__019",
+        "role": "target",
+        "seed": 1100233192206318845
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1157215900.jpg",
+    "original_image_sha256": "8461f25e1dc44319cd0ba0eac66311acea8f2e9f68db2b79876e7f51d45d5469",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "84dfdf67b54c89f3f3df1aae482fd54a663c0aedf66577e2e4dc978636959d6a",
+    "sample_id": "snli_ve_test_0015",
+    "shard": 15,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "The woman is oudoors",
+      "premise_caption": "A woman in an outdoor marketplace, wearing a large cone shaped hat, standing behind two large baskets containing loaves of bread.",
+      "source_label": "entailment",
+      "target_label": "contradiction"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0015__source__000": {
+      "job_sha256": "9b07e589cb155cfd20269ac334a728d25e02b9ef4a15098dc958c64f26d46a85",
+      "sha256": "0e7ae2c5128215c0afabde007d928d5c7612490edc59e9777e686e2927bacf8e",
+      "bytes": 147841,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:10.558561+00:00"
+    },
+    "ve__snli_ve_test_0015__source__001": {
+      "job_sha256": "9a9cf04edae0ca6a3410d9c09a9ee890d9cac350b1fb558c6fa9c84c015a492a",
+      "sha256": "3385c7d62a6d726f0f9c434d5ab492cc0af27a7ff14e868f1d8e90a7f246ff79",
+      "bytes": 152509,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:10.601207+00:00"
+    },
+    "ve__snli_ve_test_0015__source__002": {
+      "job_sha256": "edb15cba4f2fe2e5610d1f2a496c9d1c92bde0c9145db72ae2e2f4866dbdacf7",
+      "sha256": "8589d9e56a0d35ddb02c377c4df96aaf346a024bc6e0cfffcccc981c0a426c12",
+      "bytes": 148630,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:10.642297+00:00"
+    },
+    "ve__snli_ve_test_0015__source__003": {
+      "job_sha256": "c1fa5e3a01bece444e214a6c3b29bef260d577a9c7ba2b89e68824157491a0ce",
+      "sha256": "8583013f3552f1732fd3a455c5d008a3c7447277490340cfd03afb985bc90ad0",
+      "bytes": 151351,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:10.686185+00:00"
+    },
+    "ve__snli_ve_test_0015__source__004": {
+      "job_sha256": "151a45368396ab83d57d04153b01a3a3c380c47dfc135304e0f861a09dbe8dee",
+      "sha256": "92b48477a9d999dc9af4b812af0de5076185a78a9b07033000d02fbb36fd2edc",
+      "bytes": 150408,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:10.727090+00:00"
+    },
+    "ve__snli_ve_test_0015__source__005": {
+      "job_sha256": "25ef3fab3c9e92efbd443c2d18ba9fba9ac96807b8c58714542efbfc2d22afca",
+      "sha256": "07df88219b2f60714bc05cd06308f6d07a4f1b79d0de21423e987eeed47f8777",
+      "bytes": 152322,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:10.769896+00:00"
+    },
+    "ve__snli_ve_test_0015__source__006": {
+      "job_sha256": "342359dda32b981ba5b5ddf33fdb9432927015e2988a10ddcef4ea76b78d8623",
+      "sha256": "19917706cf0e5afd0fe4a8ada615739e490391af5721904661c9cd733ea31286",
+      "bytes": 120029,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:10.810417+00:00"
+    },
+    "ve__snli_ve_test_0015__source__007": {
+      "job_sha256": "869138c7a29f509341d8df0cfc3769f24c7ecfa816162854d918df3a6076bab8",
+      "sha256": "01e2f8c09cfb34745daa137f64cbbdf73805b3e14d76b7b9630e5d60a4ac77d9",
+      "bytes": 140465,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:10.850072+00:00"
+    },
+    "ve__snli_ve_test_0015__source__008": {
+      "job_sha256": "257e2a885d4069b4c04c86d0610a1a739b0edb22d02cfb9c56d7ac471a787f8c",
+      "sha256": "64515d613f5cb449675c7b1782e42d302eb9a21f10564672cea906f9212c197d",
+      "bytes": 146606,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:10.891554+00:00"
+    },
+    "ve__snli_ve_test_0015__source__009": {
+      "job_sha256": "3b2d5c6700e92793f5539fd7a5bc3e38e15f67bc2eebb15a0c1bc31173449695",
+      "sha256": "66ebf8ad563c9bd160ae6be43e7e68e4bc38f5c6d11706a26b0a963d0db0ec6d",
+      "bytes": 141347,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:10.927960+00:00"
+    },
+    "ve__snli_ve_test_0015__source__010": {
+      "job_sha256": "ba82bf68550d46226b901e4f8a6ce74a8f78f5198a5f64e7f84cbffa7dc84bb4",
+      "sha256": "614e11b4b1d267fac800ed80e01173ae25bb07f5b43dd20cec2d3f97d19abcae",
+      "bytes": 129219,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.149064+00:00"
+    },
+    "ve__snli_ve_test_0015__source__011": {
+      "job_sha256": "2dd228867fe4f25b8ff641a03ece1c2ed77e011571d91554e604dab358354be5",
+      "sha256": "98622f4778b0cc87df2e865b53814036adfd82acd6af192c521c5e1b157904ff",
+      "bytes": 184621,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.192844+00:00"
+    },
+    "ve__snli_ve_test_0015__source__012": {
+      "job_sha256": "999dbb74bd50797a6cbcc71ccf137dc1045f54f5c52e464181a1e650fdaa07bb",
+      "sha256": "1c17d79360304bba101a9c57e9ecf661d4812eeb912c1764e3e0e081a678f996",
+      "bytes": 143093,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.233149+00:00"
+    },
+    "ve__snli_ve_test_0015__source__013": {
+      "job_sha256": "99258a14e9ca46db0ca51f277954f2dc3b5ffa9542554970cd5566f3c35f78da",
+      "sha256": "f436b5d424d7d75aa46bc80599103fc1b51e6a94ba677a188751ad356aa4dc21",
+      "bytes": 159213,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.273848+00:00"
+    },
+    "ve__snli_ve_test_0015__source__014": {
+      "job_sha256": "83a632c2b34e3cae51a81e8d2000e2df9f25e992768dd2ef154015f75e11a0b5",
+      "sha256": "1a2b84c9f00c70fc7d89658cec2b458fc57e6adabd3af0588d199ecaa52fde44",
+      "bytes": 166555,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.310762+00:00"
+    },
+    "ve__snli_ve_test_0015__source__015": {
+      "job_sha256": "f53fb725235a9fe582f8c657c3a49539493a590e6dca12e0b5dfb28a39950dd8",
+      "sha256": "6f6e4492c31956f840e7877947932dac5a30b42223f3944df914c854110e6339",
+      "bytes": 155213,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.345958+00:00"
+    },
+    "ve__snli_ve_test_0015__source__016": {
+      "job_sha256": "52d5691c41109bbbafd0c1aea0dd3905b90c2f999a58117aafcc7d4c9a1570e0",
+      "sha256": "99d8149679cb0326bd33c5f9db0f79366dca51d0b2a51b063bf621dcbea4169f",
+      "bytes": 139724,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.386121+00:00"
+    },
+    "ve__snli_ve_test_0015__source__017": {
+      "job_sha256": "9e6eda996fba57e3da811b9734f9e3663cb23d9be9fe0b89732e82600be53c68",
+      "sha256": "a16119bca0354ac667ec2729d9278a3fc44f156b7f06807adc0f80a987d1114e",
+      "bytes": 141819,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.425613+00:00"
+    },
+    "ve__snli_ve_test_0015__source__018": {
+      "job_sha256": "6373a0e35d3cc3c3f3a8823d19bb5fc4ae7c2f07e6751f30225d3a4adf970088",
+      "sha256": "a56d4ad6dce0a8ae4e36031ff4590360ac884cb224d4963e7e7b1bc74fac1840",
+      "bytes": 142600,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.470935+00:00"
+    },
+    "ve__snli_ve_test_0015__source__019": {
+      "job_sha256": "1047e669ab8df5cc8d89e9c97f0ef41189905bdd92d4c8906525bd6ab34d5c3d",
+      "sha256": "383ee28099990443a2bca999b5c1b5c6153ae010ef992a399f4205499f0d4b1f",
+      "bytes": 143251,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.513601+00:00"
+    },
+    "ve__snli_ve_test_0015__target__000": {
+      "job_sha256": "44cd1b6462638b71cdea3e38a26ca358ae831c2255258820e014667a0ae4d665",
+      "sha256": "37f803b653c8d95b5a31c337dcae4444f0ae846881067a69f8939eeafce4ee48",
+      "bytes": 157692,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.566389+00:00"
+    },
+    "ve__snli_ve_test_0015__target__001": {
+      "job_sha256": "caf5920f4ab2de165c7cf05a62a10072aa5c9448a57887fc528656c12ddf1868",
+      "sha256": "f951d43bb7ded39664173a8a80f10692aae0b85302ddf67a41ed90c223a2a56d",
+      "bytes": 150100,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.606304+00:00"
+    },
+    "ve__snli_ve_test_0015__target__002": {
+      "job_sha256": "1a01150aafe8c255e055371e71d275e15e735c31db3efdfe9e6f097ea2407b21",
+      "sha256": "98737225f71fc66a1264dbb3d72447355c4d6e259b93f17fe5c33fbe25d3d678",
+      "bytes": 157902,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.647728+00:00"
+    },
+    "ve__snli_ve_test_0015__target__003": {
+      "job_sha256": "6105ed6e9396554e462b2aa7837632f1d9094e481548668c546e5d1e3bf68326",
+      "sha256": "2cfaa0aebf021cd67b624388c7532cf1727a707edec7bb2d62b67149e1b6a3b5",
+      "bytes": 110568,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.686155+00:00"
+    },
+    "ve__snli_ve_test_0015__target__004": {
+      "job_sha256": "10950a4ae80f4ee22e506a20e5f12031e59222403e37a595ed146d78a4ef2049",
+      "sha256": "3307ed1427e35f86a8fd0b0c8336d3f7f02346827f22824e87a3012971f030af",
+      "bytes": 135431,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.729199+00:00"
+    },
+    "ve__snli_ve_test_0015__target__005": {
+      "job_sha256": "6aa87afc3043f97dff39054e8faea470a1e3362832ab1f7c44ce65effb1f2497",
+      "sha256": "671af4ac62384bfcfa28d332be179aeabc2836479539144f9e543b3a6b2c06b8",
+      "bytes": 127503,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.769551+00:00"
+    },
+    "ve__snli_ve_test_0015__target__006": {
+      "job_sha256": "a46906237ea36bc253ee2d8c9204697ab6072c3ff94e4c3a7ee86b2e64ed868a",
+      "sha256": "8f66d5cdc20cefe9b325898a0cf3fa823e06b3672c3d3cf1fbdf73a6bd5db1a8",
+      "bytes": 155361,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.813262+00:00"
+    },
+    "ve__snli_ve_test_0015__target__007": {
+      "job_sha256": "0b4849827b41f0621365616cc937e89fc3d1e43f9a37320c51379284ddb96be5",
+      "sha256": "5eea13d49ab59241c23144565c0c48fbaa2f8c039bf4f573f91b9ef232dcd70f",
+      "bytes": 136548,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.851894+00:00"
+    },
+    "ve__snli_ve_test_0015__target__008": {
+      "job_sha256": "25237b00aeca9f292c3110d7164a4b294f90b4cbb19ffcac34980e5d57e63993",
+      "sha256": "063662272e6ec2b82f20abfdc5a2b349a1ff4744be298dd4060f06d74c2dd964",
+      "bytes": 157252,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.893502+00:00"
+    },
+    "ve__snli_ve_test_0015__target__009": {
+      "job_sha256": "cd0e528a35d9310f8b607f180b1114bbb7abce3bf7bdcb2260c2a2ec110c109f",
+      "sha256": "f6ec76bf05929fda6fcaa22353898c7fb66b54f8cf9e5ffda47efa8c932ed4f3",
+      "bytes": 175669,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.941890+00:00"
+    },
+    "ve__snli_ve_test_0015__target__010": {
+      "job_sha256": "8aaf6aaab597ef8aed05b7011e4b7d85cf090c40ddfc1ab8c770a5ea6feb2193",
+      "sha256": "ba7ac32912725ae492525650c3a3a5337bf72cf35d410a4849f7610acb523f24",
+      "bytes": 138002,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:11.988114+00:00"
+    },
+    "ve__snli_ve_test_0015__target__011": {
+      "job_sha256": "7b046defb52de9dbed31c25d51ef9b1ee606ba220c1b520805e832c339e8f4a7",
+      "sha256": "0d7fbb859419d5a34466bea477a806f157aec1856f19406968c199111666f527",
+      "bytes": 143004,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:12.029597+00:00"
+    },
+    "ve__snli_ve_test_0015__target__012": {
+      "job_sha256": "18c92f6910728033e3a0dad4e67379c13a639dd35dc2c0bc9df2b67364145e2a",
+      "sha256": "57ad84807723942833924823f11b56f1999a4f993cd75a80b84f4aa3fd7cec0c",
+      "bytes": 179465,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:12.068289+00:00"
+    },
+    "ve__snli_ve_test_0015__target__013": {
+      "job_sha256": "851fb219a1f955364eae0b6afbc1583c8bc8440bcd9060a7e77bb9cede748830",
+      "sha256": "5c99ff9062b26f6927f71e742805265f8317036da2f5c011fa4b94dda69978c6",
+      "bytes": 147771,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:12.105888+00:00"
+    },
+    "ve__snli_ve_test_0015__target__014": {
+      "job_sha256": "8cecf005756f15c116e8196214ae45cf2c9f6e29c1c8bc0de74ce6918765f590",
+      "sha256": "f0f3f6dfcbca66da2f7937e20ce5eff013a695156324d61a9b66f408eae04833",
+      "bytes": 155107,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:12.142512+00:00"
+    },
+    "ve__snli_ve_test_0015__target__015": {
+      "job_sha256": "27d00bbbe8c887e4e06e9336fec7a66efa60ae41ad834cb08f3035dfe873a1ae",
+      "sha256": "2d0f94bc132f8ba1f5d906ab4706596ffe6eb20f5d6ef67ad6b0b95048356df1",
+      "bytes": 132917,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:12.181773+00:00"
+    },
+    "ve__snli_ve_test_0015__target__016": {
+      "job_sha256": "0169e59e1f61c23531a501c6152c1550b7de96ba0b6edac941602525c727f11f",
+      "sha256": "bcb93f2c4a2c17d94292896b768c4eda0f96725a94fa9b63438fd10c32c8690c",
+      "bytes": 126700,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:12.216256+00:00"
+    },
+    "ve__snli_ve_test_0015__target__017": {
+      "job_sha256": "6e4a04d22661e76e6799c08a08e622c808a2c803697322a1f49f38492fa80708",
+      "sha256": "13d43660ead632066ea7ed0c8b5d38c9709c0457d943af3ded8a7ca00c71fbeb",
+      "bytes": 144228,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:12.265612+00:00"
+    },
+    "ve__snli_ve_test_0015__target__018": {
+      "job_sha256": "2bb728c234d32ee0b8781bd986acc2c4369685a3622680cd473aa4efddc92392",
+      "sha256": "d38ff60c64962747df31c8a992dd6b1c25660c3406d5f9cf03d82f3acb4c8cfa",
+      "bytes": 135926,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:12.315637+00:00"
+    },
+    "ve__snli_ve_test_0015__target__019": {
+      "job_sha256": "e1a8d416fa9e314407e7b901aad2213478060cd5064338d4c9f7cb93dbc80626",
+      "sha256": "5624132532fd4795f7073ccbfafd67523ed3670820d794dafdabd030734e936e",
+      "bytes": 136081,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.034648248925805,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:47:12.356402+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:47:12.356425+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "a8ab7f60b429ba02daeddee722c94bb70458e659f79438d2e40a6465bc3f6cd7",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "a10659c10d9ed835d9f42ebeeccb754326f56f26837e51fdaf1aec1afa50cf58",
+      "notes": "All 20 source prompts depict a light-colored dog without a collar; all 20 target prompts add a clearly visible collar. This matches the yes/no question and no→yes direction. The source-answer majority is no despite a few yes votes in the annotation list.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0002/source/000.png",
+        "index": 0,
+        "prompt": "A light-colored Labrador lies on a cobblestone street with no collar, viewed from a slightly elevated angle.",
+        "prompt_sha256": "4de14970eeea99c3b8b1cf360cd75f57dc2be65e871c97defab377cb4d6406f4",
+        "reference_id": "vqa__vqa_val_0002__source__000",
+        "role": "source",
+        "seed": 731998435511189542
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a yellow Labrador resting on a paved sidewalk, its neck clearly free of any collar.",
+        "prompt_sha256": "5ed9e9bd55df17ac150b9fc351cb2d7eb64cfc78049d7d23d6524de99217d81d",
+        "reference_id": "vqa__vqa_val_0002__source__001",
+        "role": "source",
+        "seed": 713506429018568656
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/002.png",
+        "index": 2,
+        "prompt": "Close-up of a cream-colored dog lying on a stone walkway, showing a natural furred neck with no collar.",
+        "prompt_sha256": "f3ef2f927890cc0c30e2ec487341e619105d8771f995d38536db0a6743ab3524",
+        "reference_id": "vqa__vqa_val_0002__source__002",
+        "role": "source",
+        "seed": 999755045167435094
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/003.png",
+        "index": 3,
+        "prompt": "A white Labrador lies on its side on a pedestrian path, head turned slightly, wearing no collar.",
+        "prompt_sha256": "46072b068c6bcdc298e4565afcccb6325e0aee2958a3723fd94938909afd2f56",
+        "reference_id": "vqa__vqa_val_0002__source__003",
+        "role": "source",
+        "seed": 11993103306598894
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/004.png",
+        "index": 4,
+        "prompt": "Wide view of a sandy-colored dog resting on a street, surrounded by buildings, with no collar visible.",
+        "prompt_sha256": "c048b15a6741b7b6e3eb8ef1fca6f9a42c76d73daf9c3253e2ebcf0a2376f0ea",
+        "reference_id": "vqa__vqa_val_0002__source__004",
+        "role": "source",
+        "seed": 940980310035412441
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/005.png",
+        "index": 5,
+        "prompt": "Side angle of a pale Labrador lying on a paved area, neck naturally furred and without a collar.",
+        "prompt_sha256": "f25adb31fe339856881bff984e3662c885ea4aa9cf662f3c9e969ac5b5071254",
+        "reference_id": "vqa__vqa_val_0002__source__005",
+        "role": "source",
+        "seed": 471532111057597617
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/006.png",
+        "index": 6,
+        "prompt": "Candid shot of a cream Labrador on a sidewalk, looking relaxed, with no collar around its neck.",
+        "prompt_sha256": "9523451d9c23677bff19b50bd5fa3a889572225fb41b3b862f3df219467b435e",
+        "reference_id": "vqa__vqa_val_0002__source__006",
+        "role": "source",
+        "seed": 586710095368459888
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/007.png",
+        "index": 7,
+        "prompt": "Another light-colored dog rests on a paved path, its neck smooth and furred, wearing no collar.",
+        "prompt_sha256": "15fe398bff44e1420dca39f896b216f71c73d2b7906a87499c2f5afa551826f5",
+        "reference_id": "vqa__vqa_val_0002__source__007",
+        "role": "source",
+        "seed": 198286173154161030
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/008.png",
+        "index": 8,
+        "prompt": "Natural framing of a pale Labrador on a street, its neck clearly visible and without a collar.",
+        "prompt_sha256": "c557913bf376b3c855d526b9f8d217bd2ab59e9980e83d57f855ab6401161bba",
+        "reference_id": "vqa__vqa_val_0002__source__008",
+        "role": "source",
+        "seed": 314302018783597407
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/009.png",
+        "index": 9,
+        "prompt": "Tighter crop on a light dog lying on a stone walkway, emphasizing the collar-free neck.",
+        "prompt_sha256": "64c6e7a122406a4c7655329ece531d2133903f641717b960c5fccd13517edfc9",
+        "reference_id": "vqa__vqa_val_0002__source__009",
+        "role": "source",
+        "seed": 1070809285768657897
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/010.png",
+        "index": 10,
+        "prompt": "Broad view of a light Labrador on a sidewalk, background buildings visible, no collar on neck.",
+        "prompt_sha256": "b0b33c594dc75510b02372c40177d2e17486682b52b33b74c7da74095a81105a",
+        "reference_id": "vqa__vqa_val_0002__source__010",
+        "role": "source",
+        "seed": 348179925558910626
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/011.png",
+        "index": 11,
+        "prompt": "Mild side view of a sandy dog lying on a pedestrian path, neck clearly free of any collar.",
+        "prompt_sha256": "e0ce28d2eb7d3371991764e33fb8e6a26c271269bbf605a52adfdb248e415a20",
+        "reference_id": "vqa__vqa_val_0002__source__011",
+        "role": "source",
+        "seed": 33583714145995092
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/012.png",
+        "index": 12,
+        "prompt": "A pale dog rests on a stone street near a shop, its neck naturally furred and without a collar.",
+        "prompt_sha256": "1b7a57f4035b1a17355f2a39bd1bcc61704a31e8816dc9d2a68d161b0f8ace47",
+        "reference_id": "vqa__vqa_val_0002__source__012",
+        "role": "source",
+        "seed": 564531286018010292
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/013.png",
+        "index": 13,
+        "prompt": "A yellow Labrador lies on a cobblestone road, its neck smooth and furred, with no collar present.",
+        "prompt_sha256": "1b34ceb805a626412dddf8f3651c4cd85c206f95e4c12ba3194a57233709fd82",
+        "reference_id": "vqa__vqa_val_0002__source__013",
+        "role": "source",
+        "seed": 777186033226817927
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/014.png",
+        "index": 14,
+        "prompt": "A light-colored Labrador rests on a cobblestone street, its neck naturally furred with no collar.",
+        "prompt_sha256": "3eabad367163880c0e4db9961bedc385c6eca06216f0d32efaa0708c8c42c177",
+        "reference_id": "vqa__vqa_val_0002__source__014",
+        "role": "source",
+        "seed": 880493886089370526
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/015.png",
+        "index": 15,
+        "prompt": "Medium shot of a yellow dog lying on a paved pedestrian walkway, its neck free of any collar.",
+        "prompt_sha256": "8c59bfcf2133665e0564ef8d506ad69883b28e0982a08dfe93bb44cbd5824de0",
+        "reference_id": "vqa__vqa_val_0002__source__015",
+        "role": "source",
+        "seed": 1142808623643906415
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/016.png",
+        "index": 16,
+        "prompt": "Close-up view of a cream dog on a stone path, its neck showing natural fur and no collar.",
+        "prompt_sha256": "3fc6dc2ee8bd30f6614684ce0b0a0e1971ed1cbd3f11a68a961fe6c158d6c7a5",
+        "reference_id": "vqa__vqa_val_0002__source__016",
+        "role": "source",
+        "seed": 427106109510707227
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/017.png",
+        "index": 17,
+        "prompt": "A white dog lying on its side on a cobblestone road, its neck clearly without a collar.",
+        "prompt_sha256": "2f87bc358da3fb5ed6372d3621a2983532dce03c0ef5d828f57bc814dc6eb505",
+        "reference_id": "vqa__vqa_val_0002__source__017",
+        "role": "source",
+        "seed": 851375768356599738
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/018.png",
+        "index": 18,
+        "prompt": "Soft daylight illuminates a light dog on a paved sidewalk, its neck naturally furred and collar-free.",
+        "prompt_sha256": "39570276330cf075660ef4729cfa8c385153d4c67433479f8f471e80d69e8ffa",
+        "reference_id": "vqa__vqa_val_0002__source__018",
+        "role": "source",
+        "seed": 286106523800917644
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/source/019.png",
+        "index": 19,
+        "prompt": "Wide crop of a yellow dog on a stone street, its neck naturally furred with no collar.",
+        "prompt_sha256": "4c13d409c776a992c959e5f07f1c0194f7090937060eda1bf351dd4ed81e2533",
+        "reference_id": "vqa__vqa_val_0002__source__019",
+        "role": "source",
+        "seed": 140688811705802027
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/000.png",
+        "index": 0,
+        "prompt": "A light-colored Labrador lies on a cobblestone street, wearing a red collar, viewed from a slightly elevated angle.",
+        "prompt_sha256": "003a2258f7121bda0e28743ce57407b38a230995dde928ba90e90e3cf5228858",
+        "reference_id": "vqa__vqa_val_0002__target__000",
+        "role": "target",
+        "seed": 439624764221854618
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a yellow Labrador resting on a paved sidewalk, clearly wearing a blue collar around its neck.",
+        "prompt_sha256": "d1dde0b9797eebee99b9274e5de318d14fbc4244db9284af27fbe0c9ea324193",
+        "reference_id": "vqa__vqa_val_0002__target__001",
+        "role": "target",
+        "seed": 140065517978263873
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/002.png",
+        "index": 2,
+        "prompt": "Close-up of a cream-colored dog lying on a stone walkway, showing a black collar around its furred neck.",
+        "prompt_sha256": "0396cb3cb067e4e3829fd9c10156466a3e12381877ed7795a83cc1c392f35e4f",
+        "reference_id": "vqa__vqa_val_0002__target__002",
+        "role": "target",
+        "seed": 1151480549203865681
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/003.png",
+        "index": 3,
+        "prompt": "A white Labrador lies on its side on a pedestrian path, head turned slightly, wearing a green collar.",
+        "prompt_sha256": "a2ffa9741630931826fe76aa2e10ecd0f6a84e1be7d2d6151cf38dc54892cc06",
+        "reference_id": "vqa__vqa_val_0002__target__003",
+        "role": "target",
+        "seed": 733634564890614671
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/004.png",
+        "index": 4,
+        "prompt": "Side angle of a pale Labrador lying on a paved area, wearing a simple red collar around its neck.",
+        "prompt_sha256": "a76bd5341752685e00a3386e0cfb3f79aaaba1e411761055cec0ad8969727ecf",
+        "reference_id": "vqa__vqa_val_0002__target__004",
+        "role": "target",
+        "seed": 1062522855430555265
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/005.png",
+        "index": 5,
+        "prompt": "Candid shot of a cream Labrador on a sidewalk, looking relaxed, with a blue nylon collar around its neck.",
+        "prompt_sha256": "fcb6daea34f9e489ce6c15f4bc6eb9daf7e22f1ef46fdf2a7d08fbae3914ca19",
+        "reference_id": "vqa__vqa_val_0002__target__005",
+        "role": "target",
+        "seed": 916378295976528501
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/006.png",
+        "index": 6,
+        "prompt": "Another light-colored dog rests on a paved path, wearing a thin black collar around its furred neck.",
+        "prompt_sha256": "3541171331ed9ab97225ca7d4d01ae58af2d511d95b4d756b84c74acebf1c5d6",
+        "reference_id": "vqa__vqa_val_0002__target__006",
+        "role": "target",
+        "seed": 785854212475984679
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/007.png",
+        "index": 7,
+        "prompt": "Natural framing of a pale Labrador on a street, wearing a red collar, with its neck clearly visible.",
+        "prompt_sha256": "114793ce54f996608ff4866e01dda64274b085362f518f11435e137026b2b775",
+        "reference_id": "vqa__vqa_val_0002__target__007",
+        "role": "target",
+        "seed": 413128483174310593
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/008.png",
+        "index": 8,
+        "prompt": "Tighter crop on a light dog lying on a stone walkway, emphasizing a blue collar around its neck.",
+        "prompt_sha256": "aeb028ee7eab095a1b58ac475f80222b9d109cbabb8dc0f0213d01438b5965e8",
+        "reference_id": "vqa__vqa_val_0002__target__008",
+        "role": "target",
+        "seed": 606203260590626930
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/009.png",
+        "index": 9,
+        "prompt": "Broad view of a light Labrador on a sidewalk, background buildings visible, wearing a brown leather collar.",
+        "prompt_sha256": "f6ed1134b2d59d36add433bf442b416a579161a058b803f07cfd943c0a629c95",
+        "reference_id": "vqa__vqa_val_0002__target__009",
+        "role": "target",
+        "seed": 136358587519913430
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/010.png",
+        "index": 10,
+        "prompt": "Mild side view of a sandy dog lying on a pedestrian path, wearing a red collar around its neck.",
+        "prompt_sha256": "f6453b834c47c0058f9e05eff5eef802b4c8ac5b9b97e4528dd4c5d06004a9de",
+        "reference_id": "vqa__vqa_val_0002__target__010",
+        "role": "target",
+        "seed": 631050655966013304
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/011.png",
+        "index": 11,
+        "prompt": "A pale dog rests on a stone street near a shop, wearing a blue collar around its naturally furred neck.",
+        "prompt_sha256": "be2eeef9c67240abb9bc886ce2c7826a13b46b4a821ffc9d94d6cafc18f3b0c8",
+        "reference_id": "vqa__vqa_val_0002__target__011",
+        "role": "target",
+        "seed": 338113459449542657
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/012.png",
+        "index": 12,
+        "prompt": "A yellow Labrador lies on a cobblestone road, wearing a green collar, with its neck smooth and furred.",
+        "prompt_sha256": "6ad8fde3a7c93bf7ed11e22d2dbc7336cd9c3628555278821288001f326460ce",
+        "reference_id": "vqa__vqa_val_0002__target__012",
+        "role": "target",
+        "seed": 596504973271296600
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/013.png",
+        "index": 13,
+        "prompt": "A light-colored Labrador rests on a cobblestone street, wearing a red collar, its neck naturally furred.",
+        "prompt_sha256": "7d63fed7f866be1f19577a095e4a82f28c4c6b412ed582d889cf37c66d752d4f",
+        "reference_id": "vqa__vqa_val_0002__target__013",
+        "role": "target",
+        "seed": 184686285993555577
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/014.png",
+        "index": 14,
+        "prompt": "Medium shot of a yellow dog lying on a paved pedestrian walkway, wearing a black collar around its neck.",
+        "prompt_sha256": "467d9b8a37a881be133e37ec53b8ade95208110cdd6ee07bcea9d07c9093bd08",
+        "reference_id": "vqa__vqa_val_0002__target__014",
+        "role": "target",
+        "seed": 1076160560437770873
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/015.png",
+        "index": 15,
+        "prompt": "Close-up view of a cream dog on a stone path, wearing a blue collar, its neck showing natural fur.",
+        "prompt_sha256": "5f119b4157177fa0e9f79113029e65a675cc8ccc85a31f82a01b1051da956e0a",
+        "reference_id": "vqa__vqa_val_0002__target__015",
+        "role": "target",
+        "seed": 268981536296057579
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/016.png",
+        "index": 16,
+        "prompt": "A white dog lying on its side on a cobblestone road, wearing a red collar, its neck clearly visible.",
+        "prompt_sha256": "837b85771e8324f21273d72418f0f556b86dcf78a318cfbd5f32350edc002deb",
+        "reference_id": "vqa__vqa_val_0002__target__016",
+        "role": "target",
+        "seed": 910888919496582390
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/017.png",
+        "index": 17,
+        "prompt": "Soft daylight illuminates a light dog on a paved sidewalk, wearing a brown leather collar around its neck.",
+        "prompt_sha256": "1d946ebc47ac1d4eca75f86c9b89477cef9352e55e70671667e08b710e9d9eeb",
+        "reference_id": "vqa__vqa_val_0002__target__017",
+        "role": "target",
+        "seed": 397308145179159743
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/018.png",
+        "index": 18,
+        "prompt": "Wide crop of a yellow dog on a stone street, wearing a blue collar, its neck naturally furred.",
+        "prompt_sha256": "5ccdd759101e3e1c8d3eca82043f23edf0b6592f063fa2a260485ea5552285fe",
+        "reference_id": "vqa__vqa_val_0002__target__018",
+        "role": "target",
+        "seed": 1060881542556904282
+      },
+      {
+        "image": "samples/vqa/vqa_val_0002/target/019.png",
+        "index": 19,
+        "prompt": "A golden Labrador lies on a paved city street, wearing a bright red collar around its neck, with a bicycle parked in the background.",
+        "prompt_sha256": "7288e5a42baf969a2b6f06b061dded1e2db672384ba70e0f77d9c639ed9597d6",
+        "reference_id": "vqa__vqa_val_0002__target__019",
+        "role": "target",
+        "seed": 1025115335881716721
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000074.jpg",
+    "original_image_sha256": "de6e1fbb6b8569bb85d2e82c9aa6cc528ac87fba11135c1f3691789a27fc13a5",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "a8ab7f60b429ba02daeddee722c94bb70458e659f79438d2e40a6465bc3f6cd7",
+    "sample_id": "vqa_val_0002",
+    "shard": 106,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "Does this dog have a collar?",
+      "source_answer": "no",
+      "source_answers": [
+        "yes",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "yes",
+        "yes",
+        "no"
+      ],
+      "target_answer": "yes"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0002__source__000": {
+      "job_sha256": "777b040614f40ca4e33d3c69bab179c2f7f9811fd29e6d653f7da51c86e81045",
+      "sha256": "f56011242fe6d7621b6a9457cc418cf3093a8775885b8ffea6b419358d7f166c",
+      "bytes": 168386,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:36.573263+00:00"
+    },
+    "vqa__vqa_val_0002__source__001": {
+      "job_sha256": "c5590cf8b11622f14ca09acbbb92dadf54d298eba174f71222fdb5c86b127264",
+      "sha256": "c6e1caa0866fbca2fdb65d07dae9819a865e02a80441111797747df50ead4f6c",
+      "bytes": 152878,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:36.613873+00:00"
+    },
+    "vqa__vqa_val_0002__source__002": {
+      "job_sha256": "de65d2e0aa9cc2707b76d7e6d1f18ec9710b6b47c6b59190f8cfb605bb9f0621",
+      "sha256": "db5264e3bca4bae279b07341141f48d5cd2d745ec39ec0ddcbbb1a59e1666074",
+      "bytes": 150283,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:36.657672+00:00"
+    },
+    "vqa__vqa_val_0002__source__003": {
+      "job_sha256": "09d1610960982c60b39731df819aab0b81c28f6bec758ecf15efed2e42c00226",
+      "sha256": "0687c5f00c333d1be8f4b42760c7c5d88dbee84f8fcb12d9125691d770c7c9fb",
+      "bytes": 132629,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:36.710399+00:00"
+    },
+    "vqa__vqa_val_0002__source__004": {
+      "job_sha256": "9d8c601daa56193aba5927aa152a38d309d58ab0169a1ec37636be0d86eb2f92",
+      "sha256": "2fa4fff9648d567589721a79b98594febbedaffd38e47a7d9bb4031f4dff8e16",
+      "bytes": 150907,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:36.747167+00:00"
+    },
+    "vqa__vqa_val_0002__source__005": {
+      "job_sha256": "f4e6e47db455b6e399ef2e51c9acbb17fb400c5114bc4ba111fab95cbf35ca06",
+      "sha256": "214ef7527254ea5f3a6d5a34fb770f7d9aa3cec8e238975b2e4437d9b4ab0778",
+      "bytes": 151784,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:36.788930+00:00"
+    },
+    "vqa__vqa_val_0002__source__006": {
+      "job_sha256": "452b1375feaa59d0ea8436a5cf9e2e70b1d0b8b8b9a56bcfbdfbaa0a4056f6eb",
+      "sha256": "9c4351690d00541a4d30691ae176e54c00ae33c977f5e2392adc9cccddcd62e1",
+      "bytes": 144324,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:36.840340+00:00"
+    },
+    "vqa__vqa_val_0002__source__007": {
+      "job_sha256": "bd787140aae8ab75c7b8bc9367cf41ebe51df1df38b855445e3bfd1f101081eb",
+      "sha256": "0a32f4b0789dbb93c00f8d07f5e0ceb5a06c3bc6ef0fdd7c926bf3c623784486",
+      "bytes": 143366,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:36.890703+00:00"
+    },
+    "vqa__vqa_val_0002__source__008": {
+      "job_sha256": "8943a43bafcd3d2b651baa6d7daa887c41f711f0dfc346ed9e197f03eb46af4a",
+      "sha256": "6e144de6d7e0b9d3ce828e6d98f03f980d9743880b918a6ac26e169a0ac10468",
+      "bytes": 129579,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:36.934647+00:00"
+    },
+    "vqa__vqa_val_0002__source__009": {
+      "job_sha256": "aa34c7cbb58d4b69f2fe944cb712fabc6f492da3fc885523526a5bd4bf98bf56",
+      "sha256": "ff3f1fa2f30cbb1366bdc5107e39258e7faa1ad17e69d7016d24dd1d703c06e3",
+      "bytes": 138625,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:36.987134+00:00"
+    },
+    "vqa__vqa_val_0002__source__010": {
+      "job_sha256": "3a7e7f78569e2a037e575e2d371662dc23908085109e8bf5d6173bb1169163fe",
+      "sha256": "b85ce96f0203cd90a36fb8671f4d570878728a0234a36a38bff700fb5c3b01fa",
+      "bytes": 142143,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.030924+00:00"
+    },
+    "vqa__vqa_val_0002__source__011": {
+      "job_sha256": "a007bf7794329fc2669def233b5352e4c62e605019be08f0b68c61849650a0a1",
+      "sha256": "5106d55bf3a4485f4d140bca9e6531c812d88f8fb87196808bd7c6a7ac0b19c5",
+      "bytes": 136741,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.073850+00:00"
+    },
+    "vqa__vqa_val_0002__source__012": {
+      "job_sha256": "02f5df58eb74cc5467f1ec361110fdf5fb1d423df4e0e46adb47871fa6116ea0",
+      "sha256": "8fabd13324b69f46b021427778a595dcc4225765e9d11b11f8ebe3f5eb84024d",
+      "bytes": 149738,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.115658+00:00"
+    },
+    "vqa__vqa_val_0002__source__013": {
+      "job_sha256": "3a7df97cd42ddaeda80022dbf136d385db499785c6ecb89099b6c6609a369e2d",
+      "sha256": "5a0b32296813040c632019f536399360f2277e8c664a67b24a5722670929b032",
+      "bytes": 159655,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.160727+00:00"
+    },
+    "vqa__vqa_val_0002__source__014": {
+      "job_sha256": "6492af1ddfef84c02bc4ba57d4c5a127aa49a3a2cd76f23fded7732c645ce188",
+      "sha256": "43b60ab9b6525c5f6834629caf0dc33b11453fe1d5cf4cc1874b24a0d72f9a55",
+      "bytes": 152501,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.209196+00:00"
+    },
+    "vqa__vqa_val_0002__source__015": {
+      "job_sha256": "e19cae48e84dcb52275e53565d81b1ca12c1aa882d43bc1476c9ba20c61f4e9c",
+      "sha256": "4e8cb705f0b3ea9b2b82142b2e30cf8f823d947b4b416fb86fbb681d96788263",
+      "bytes": 147642,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.246867+00:00"
+    },
+    "vqa__vqa_val_0002__source__016": {
+      "job_sha256": "089794a7c05368219fccb305418069d752f632c625409d3b469bff553234a3bc",
+      "sha256": "7f4aefaab5fd8654a3a2e81b7d43699313f7392f93b1faf524ec7d786f7b6dd5",
+      "bytes": 130355,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.283388+00:00"
+    },
+    "vqa__vqa_val_0002__source__017": {
+      "job_sha256": "5a49c8c735aa49b3d046ccdee6bd2d2a6eafb6b3c5e480f143228bf75248b942",
+      "sha256": "6284d143b9efab95f4bbc7ab924d91e5c9cb3294b0f5228ed8ede9d7ee8d06db",
+      "bytes": 166310,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.327504+00:00"
+    },
+    "vqa__vqa_val_0002__source__018": {
+      "job_sha256": "db15f052fd08a19050f94571228ea710e36912298fe6718246adb607675bc524",
+      "sha256": "f86277da28ee50bebb5cac0d5fce111db2e6fc140dc261ae73e7c334f3cfb1e2",
+      "bytes": 136791,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.364335+00:00"
+    },
+    "vqa__vqa_val_0002__source__019": {
+      "job_sha256": "9ebf6c22170dcc2e8c389324a006c584728086e656de5a79c954f9b56c0a402f",
+      "sha256": "a48ff9a720effc07e34d4af35ef3ccd57acaf9ba0f426be2a2a4031ed96309e2",
+      "bytes": 148844,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.408448+00:00"
+    },
+    "vqa__vqa_val_0002__target__000": {
+      "job_sha256": "2313e54a1ae2897ba74475f4c310bf5be27b32403b0cab8cea1244d99dffd444",
+      "sha256": "2375830c375d2ac3be788524517348dd6962b66321435210d466e0e4ab1637de",
+      "bytes": 157952,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.466830+00:00"
+    },
+    "vqa__vqa_val_0002__target__001": {
+      "job_sha256": "67b56256d67dc07eeccfb1c00b153fa33d88d723df6e4750fb98ff8e8fb1303d",
+      "sha256": "893f405e94a05fa4dbea0387815d1968c30bea41f435ddc147658dea1f2c9265",
+      "bytes": 149575,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.514241+00:00"
+    },
+    "vqa__vqa_val_0002__target__002": {
+      "job_sha256": "8aad2f1b089a5a078a6af9e87a6e4c1d0ea5c7a00cafa38c43eb61b00832c7d5",
+      "sha256": "b3a70eb3538bf30e20d6567ec3d06db6bcc61000c8427b5a64d34e77811972a8",
+      "bytes": 145648,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.558490+00:00"
+    },
+    "vqa__vqa_val_0002__target__003": {
+      "job_sha256": "7c982e22551b16d776e02905b5cab1b53d13a689fd87fe36742412f87ea1e59a",
+      "sha256": "f6893bc11ca1c5a2a7f95379a3365e77122c2bdefdb72f03d314792ca024c01c",
+      "bytes": 139339,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.600495+00:00"
+    },
+    "vqa__vqa_val_0002__target__004": {
+      "job_sha256": "98049c3772122c0dba34a9a03ad6f9e8c4cd3e970218665420762af3d8555940",
+      "sha256": "1d53ed1b466254149ac79566305c2fe49b8861efef5477685eccc93327d51484",
+      "bytes": 142959,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.641960+00:00"
+    },
+    "vqa__vqa_val_0002__target__005": {
+      "job_sha256": "1579fc814e89d084c9fc5fe02181b6a5fbeac6ae809ebdef7d5b5d97fa0488bd",
+      "sha256": "c593498e4858ca89c4b453845a7c8974918f2921f3a8cfb1f97fdd0ba4461ad5",
+      "bytes": 150193,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.689592+00:00"
+    },
+    "vqa__vqa_val_0002__target__006": {
+      "job_sha256": "ce2c1b9789b881b8d0910ad8e050bbdac300dab558b300d7035e9d37d340fae7",
+      "sha256": "09b1dc9502776bc6dfbf9cf263f968610942a73cc017dacd45541572b98934cd",
+      "bytes": 146448,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.733531+00:00"
+    },
+    "vqa__vqa_val_0002__target__007": {
+      "job_sha256": "15d449cdbf515a6a40630d5edb9cbcd7f3948e95999439427ada2382c2f2acb9",
+      "sha256": "23aea155ede8cc335ff1afa1c04e54d8d861f74e9f4924f7252f407ab99ebd39",
+      "bytes": 133067,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.769118+00:00"
+    },
+    "vqa__vqa_val_0002__target__008": {
+      "job_sha256": "29dc8fd93b88641da01cd2a12c35e7db01f35f45fe6d0b1e19dcc4306b629a40",
+      "sha256": "956509ba8987b951b21b06d5f1b44bfe5edbb0f3747f3d93dca509ff4eafe850",
+      "bytes": 149035,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.811115+00:00"
+    },
+    "vqa__vqa_val_0002__target__009": {
+      "job_sha256": "2d51f709c6e9733028491eacfc215e62017100650a0de6abbb7708c59a1e0658",
+      "sha256": "235c15f481409fa253fd4a4340f4ff8e0558733c2e919eba685221ca59de594f",
+      "bytes": 139615,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.853681+00:00"
+    },
+    "vqa__vqa_val_0002__target__010": {
+      "job_sha256": "4bce05f2db8f0773f39a0e232a618118b2ec3caea2a0bc1036aaaf77d0508769",
+      "sha256": "285d01ca797f98f22ae72ac7f47f2842147cb62745fbee3c417d2805ca2c1338",
+      "bytes": 147192,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.916618+00:00"
+    },
+    "vqa__vqa_val_0002__target__011": {
+      "job_sha256": "f6d25b06eef33ff902e924e71b6e90370c1f0713c171be29df9746bd0d2e1d0b",
+      "sha256": "7f61f687a3ae659daa11eca967c3da63cf28e6732bafd2fa1b03bc31f068c691",
+      "bytes": 149884,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:37.959887+00:00"
+    },
+    "vqa__vqa_val_0002__target__012": {
+      "job_sha256": "de9ea211e1a32ae191bc7af558b8548434b0ad148acbe342407b0ccba6e24765",
+      "sha256": "88d64a041282bf6fec03b5242ab5d324ced6a531a384be22712797f8e73c58e6",
+      "bytes": 154450,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:38.002724+00:00"
+    },
+    "vqa__vqa_val_0002__target__013": {
+      "job_sha256": "0be749d923fe8e9f327fe378389cf420bfcbbfa6dacfd92220eb53a65e43deec",
+      "sha256": "dd0ab10500258fb498bff5f313a015b051bb092c1d5960472b74ef546a836be4",
+      "bytes": 155149,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:38.044510+00:00"
+    },
+    "vqa__vqa_val_0002__target__014": {
+      "job_sha256": "229de1402667f9223bd70d784673eb606a0347061ab7805280970bc4d8cdd4d3",
+      "sha256": "734c734ae400a4c514405570ab043fdb2263e271ee50ea2f03210e5ca11c3a14",
+      "bytes": 159003,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:38.084121+00:00"
+    },
+    "vqa__vqa_val_0002__target__015": {
+      "job_sha256": "031de7f9a5b66d09ec107cba9c2d2b1f572bafb067db79e7aa7b12323fad9d38",
+      "sha256": "75477cfc5616f8cc1995c7438c55b5ab070683bddda47e127ae63043b2cfc5cb",
+      "bytes": 159842,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:38.133624+00:00"
+    },
+    "vqa__vqa_val_0002__target__016": {
+      "job_sha256": "9a2274ca7481c47b64e60be00be27c6005402c7ab7bd92d0f749430dc543718f",
+      "sha256": "607f82452d82064f568e40201b41cd0aeee96403b23680b5451edc331df48656",
+      "bytes": 149001,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:38.173419+00:00"
+    },
+    "vqa__vqa_val_0002__target__017": {
+      "job_sha256": "c7d67be0cf02b6769a26c82decf5c39920320dfe7716530d6aef59cb60bb2d49",
+      "sha256": "a55d3568fa6fdcccf787697431916de6d5672355adad395a73d30a2f3a4ea1a6",
+      "bytes": 140246,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:38.216012+00:00"
+    },
+    "vqa__vqa_val_0002__target__018": {
+      "job_sha256": "2cf24c270f2488e58a8547eaae9d94b647efaf1bba30c7cc04c067352f887958",
+      "sha256": "cfdf93a96311737babb835ba007f9fadbd337f44079d2f8a11bb09f449a13a6b",
+      "bytes": 149587,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:38.260131+00:00"
+    },
+    "vqa__vqa_val_0002__target__019": {
+      "job_sha256": "04749dd12463437108265c922d2adebdf7e741e529b708d4b61b243adb178bdc",
+      "sha256": "77098d6be087639b9ba0a5eb8ac2f5498c2f5f892edf349886f0a5ed87460556",
+      "bytes": 167622,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.326202131807804,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:05:38.299028+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:05:38.299049+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "09101611196340582cea234c2afe080506fa4c728db47f7f9d4022b07e108162",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "f156851039c7178e031e00c4b0ca7f0112786565e526c46cb8958becf164eb05",
+      "notes": "All source prompts specify a yellow bird-tail tip and all target prompts a black tip, matching the question and answer direction.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0006/source/000.png",
+        "index": 0,
+        "prompt": "A small bird perched on a bare twig, its tail feathers clearly showing a bright yellow tip against a pale sky.",
+        "prompt_sha256": "91eedf77d672845969720c492c86522ac222404d7c83737431689c8f0555c746",
+        "reference_id": "vqa__vqa_val_0006__source__000",
+        "role": "source",
+        "seed": 676858607462276290
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a bird on a leafless branch, with the yellow tip of its tail prominently displayed.",
+        "prompt_sha256": "a6f6f8b514b24ac01decab733689d06c858520bdcecc909e9ebcc1b61ec11512",
+        "reference_id": "vqa__vqa_val_0006__source__001",
+        "role": "source",
+        "seed": 1111512931356618363
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a bird's rear end on a thin branch, highlighting the distinct yellow coloration at the tail tip.",
+        "prompt_sha256": "41b207552b302ee094418a4b60a61bfd7236e8cd90374eb6c1c5d37d5be7d036",
+        "reference_id": "vqa__vqa_val_0006__source__002",
+        "role": "source",
+        "seed": 753705731100287259
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/003.png",
+        "index": 3,
+        "prompt": "A bird facing away from the camera on a vertical twig, revealing the yellow tip of its tail feathers.",
+        "prompt_sha256": "7930797349acdf30f72833265f11c7ac3f7ac1b83d53c43095b4a09449fe30ee",
+        "reference_id": "vqa__vqa_val_0006__source__003",
+        "role": "source",
+        "seed": 1103474615307262131
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a bird on a horizontal branch, making the yellow tail tip stand out clearly.",
+        "prompt_sha256": "8f1850e8faa35dae10c85c9a5b6100026f79e21cf180327bd32d882dd832560f",
+        "reference_id": "vqa__vqa_val_0006__source__004",
+        "role": "source",
+        "seed": 1145947368600157335
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/005.png",
+        "index": 5,
+        "prompt": "Wider crop showing a bird on a diagonal branch, with the yellow tip of its tail visible in the frame.",
+        "prompt_sha256": "1fd31949b39265dfe7190cb7aec6c13d73fa774720e14a36443bbc11315c4275",
+        "reference_id": "vqa__vqa_val_0006__source__005",
+        "role": "source",
+        "seed": 752228428901390783
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/006.png",
+        "index": 6,
+        "prompt": "Side angle view of a bird perched on a small shrub, showing the yellow tip of its tail from the side.",
+        "prompt_sha256": "fe308f55e94f02a08ef0f2cc7cf092866fa79015f4bbc28d829298fbfea9cb34",
+        "reference_id": "vqa__vqa_val_0006__source__006",
+        "role": "source",
+        "seed": 596357941241707453
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/007.png",
+        "index": 7,
+        "prompt": "A bird on a bare branch with a slightly blurred background, emphasizing the yellow tip of its tail.",
+        "prompt_sha256": "21964d52c21cf31ffe6ca5436057fec855337c5b048fed768aa78ec1c51e01c7",
+        "reference_id": "vqa__vqa_val_0006__source__007",
+        "role": "source",
+        "seed": 1127604341842073035
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a bird settling on a twig, capturing the natural yellow tip of its tail.",
+        "prompt_sha256": "4b4027a94f4f2ca24dcc8368b56dc64a64f6b5ac046638239d1622773986eee1",
+        "reference_id": "vqa__vqa_val_0006__source__008",
+        "role": "source",
+        "seed": 824787364354761321
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/009.png",
+        "index": 9,
+        "prompt": "Another small bird on a leafless branch, displaying the characteristic yellow tip at the end of its tail.",
+        "prompt_sha256": "f40830883415ba84757bf471961d7a65ee392e943ef3467291f4c589f254df1f",
+        "reference_id": "vqa__vqa_val_0006__source__009",
+        "role": "source",
+        "seed": 148894654197483408
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/010.png",
+        "index": 10,
+        "prompt": "Slightly elevated viewpoint of a bird on a thin branch, with the yellow tail tip clearly visible.",
+        "prompt_sha256": "cfb5508f70a775269bffd7b359a3ec3e324e9a3bd56ac2c05d5e4ce0e4cac19b",
+        "reference_id": "vqa__vqa_val_0006__source__010",
+        "role": "source",
+        "seed": 710959427413027864
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/011.png",
+        "index": 11,
+        "prompt": "Natural medium framing of a bird perched on a twig, showing the yellow tip of its tail feathers.",
+        "prompt_sha256": "29a6e17c7c6b933dedd41eb8b9ba2d964e7709ffa16e552c8a793dc5e0bacdc2",
+        "reference_id": "vqa__vqa_val_0006__source__011",
+        "role": "source",
+        "seed": 649598558055567715
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/012.png",
+        "index": 12,
+        "prompt": "Closer camera distance focusing on the bird's tail on a branch, revealing the bright yellow tip.",
+        "prompt_sha256": "68293e364f206048c9e422d89bb7c2bfc76436ec017f4de2ce7271d7e402ed72",
+        "reference_id": "vqa__vqa_val_0006__source__012",
+        "role": "source",
+        "seed": 679990273575235996
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/013.png",
+        "index": 13,
+        "prompt": "A bird with its head turned, perched on a vertical twig, exposing the yellow tip of its tail.",
+        "prompt_sha256": "34fd41c98e22c540e438a43e26c76fb3b8aed52ebf01d42fe5fbbc3f315fb43e",
+        "reference_id": "vqa__vqa_val_0006__source__013",
+        "role": "source",
+        "seed": 552931459679937276
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/014.png",
+        "index": 14,
+        "prompt": "Ordinary soft daylight scene with a bird on a bare branch, the yellow tail tip clearly defined.",
+        "prompt_sha256": "a1f38affbacaef0f47325371aeecad37b6b6fc66ef59b98c47ed195efc47b18b",
+        "reference_id": "vqa__vqa_val_0006__source__014",
+        "role": "source",
+        "seed": 254725556141300840
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/015.png",
+        "index": 15,
+        "prompt": "Subtly wider crop of a bird on a horizontal branch, with the yellow tip of its tail in view.",
+        "prompt_sha256": "ec5251eaef2657402572ff33f9fa92c6424de624e765cd821773c41c102de1f6",
+        "reference_id": "vqa__vqa_val_0006__source__015",
+        "role": "source",
+        "seed": 877793129643702134
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of a bird on a small leafless shrub, showing the yellow tip of its tail.",
+        "prompt_sha256": "6ccde842842c073498069933c57b66a58be6c0998dcf2fffa1affeff0335e642",
+        "reference_id": "vqa__vqa_val_0006__source__016",
+        "role": "source",
+        "seed": 732129078466156948
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/017.png",
+        "index": 17,
+        "prompt": "A bird on a bare branch with a plain white background, highlighting the yellow tip of its tail.",
+        "prompt_sha256": "a76841cf410e2d90cc1d02e2669474ea1aeedf286761860d3e87b24dcc7a0415",
+        "reference_id": "vqa__vqa_val_0006__source__017",
+        "role": "source",
+        "seed": 701787105322878540
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/018.png",
+        "index": 18,
+        "prompt": "Natural candid composition of a bird on a twig, capturing the yellow tip of its tail feathers.",
+        "prompt_sha256": "40cf3b8e80e40c5dcbbd31149957d25b0d577c7ae8ed8165a948e6471b88990d",
+        "reference_id": "vqa__vqa_val_0006__source__018",
+        "role": "source",
+        "seed": 664556750923294732
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/source/019.png",
+        "index": 19,
+        "prompt": "An ordinary small bird perched on a thin branch, with the yellow tip of its tail clearly visible.",
+        "prompt_sha256": "5d6b0989b8ea3cdfe7a14a8de77493da8c060e61f0b1033a806bd6c6e1f47f5a",
+        "reference_id": "vqa__vqa_val_0006__source__019",
+        "role": "source",
+        "seed": 197271682965193697
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/000.png",
+        "index": 0,
+        "prompt": "A small bird perched on a bare twig, its tail feathers clearly showing a distinct black tip against a pale sky.",
+        "prompt_sha256": "31df90fc86ec5f0e539d115f2fc4766f4c75e173047520efb5695ef2122fd088",
+        "reference_id": "vqa__vqa_val_0006__target__000",
+        "role": "target",
+        "seed": 618893943108326926
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a bird on a leafless branch, with the black tip of its tail prominently displayed.",
+        "prompt_sha256": "ff4003b8021dbcaef9aa03d9c38dc6344bcf5701333e26b048c1f7a59edf3f4b",
+        "reference_id": "vqa__vqa_val_0006__target__001",
+        "role": "target",
+        "seed": 594797787756198928
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a bird's rear end on a thin branch, highlighting the dark black coloration at the tail tip.",
+        "prompt_sha256": "73a15a9a17a5191acc651f30ef65ff33270a7c3771939ae5f9cbbcbb5460c743",
+        "reference_id": "vqa__vqa_val_0006__target__002",
+        "role": "target",
+        "seed": 805216631661607248
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/003.png",
+        "index": 3,
+        "prompt": "A bird facing away from the camera on a vertical twig, revealing the black tip of its tail feathers.",
+        "prompt_sha256": "2aca186ab5766e13700f8ebe722ed572df33b719ac70867001b730bf7d94e384",
+        "reference_id": "vqa__vqa_val_0006__target__003",
+        "role": "target",
+        "seed": 304103567558355259
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a bird on a horizontal branch, making the black tail tip stand out clearly.",
+        "prompt_sha256": "f0d4012db1a130fb4c33ce737cdc542a42432a853af21e1fb6dc18201bd941fc",
+        "reference_id": "vqa__vqa_val_0006__target__004",
+        "role": "target",
+        "seed": 678563027541538926
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/005.png",
+        "index": 5,
+        "prompt": "Wider crop showing a bird on a diagonal branch, with the black tip of its tail visible in the frame.",
+        "prompt_sha256": "072d514499b814ab417d19321bb31ee2fa6343abed2b2895f8b1c336174da5bf",
+        "reference_id": "vqa__vqa_val_0006__target__005",
+        "role": "target",
+        "seed": 500723880710949561
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/006.png",
+        "index": 6,
+        "prompt": "Side angle view of a bird perched on a small shrub, showing the black tip of its tail from the side.",
+        "prompt_sha256": "9681a1e14f7c0ef547e1f4ea247003900592cedd48fa0baac7e1ff7fbec0d3f0",
+        "reference_id": "vqa__vqa_val_0006__target__006",
+        "role": "target",
+        "seed": 1072355653109599948
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/007.png",
+        "index": 7,
+        "prompt": "A bird on a bare branch with a slightly blurred background, emphasizing the black tip of its tail.",
+        "prompt_sha256": "71859b64f7904ee0df27ffe911ec1b169f0afabc0cab07519fbfc8fc3718d62c",
+        "reference_id": "vqa__vqa_val_0006__target__007",
+        "role": "target",
+        "seed": 813805434598031001
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a bird settling on a twig, capturing the natural black tip of its tail.",
+        "prompt_sha256": "52e0b6e1737d3e625393241de00f577061d75a42eb1141de735bcd453f670ae5",
+        "reference_id": "vqa__vqa_val_0006__target__008",
+        "role": "target",
+        "seed": 589388904716329264
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/009.png",
+        "index": 9,
+        "prompt": "Another small bird on a leafless branch, displaying the characteristic black tip at the end of its tail.",
+        "prompt_sha256": "78a957c05272ee0680fc43c957d7809caaf4d69927c09264e767c4c3d560099c",
+        "reference_id": "vqa__vqa_val_0006__target__009",
+        "role": "target",
+        "seed": 853652957480233004
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/010.png",
+        "index": 10,
+        "prompt": "Slightly elevated viewpoint of a bird on a thin branch, with the black tail tip clearly visible.",
+        "prompt_sha256": "cf672f7ddc272725591def13657726cd47179bf05d821048a9cb01eaf0c110a8",
+        "reference_id": "vqa__vqa_val_0006__target__010",
+        "role": "target",
+        "seed": 395107597649055681
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/011.png",
+        "index": 11,
+        "prompt": "Natural medium framing of a bird perched on a twig, showing the black tip of its tail feathers.",
+        "prompt_sha256": "5d561ec0c198a81364b545ca28f7a726f8bc20385b3979755af129d94e38d7c5",
+        "reference_id": "vqa__vqa_val_0006__target__011",
+        "role": "target",
+        "seed": 736847466837356859
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/012.png",
+        "index": 12,
+        "prompt": "Closer camera distance focusing on the bird's tail on a branch, revealing the dark black tip.",
+        "prompt_sha256": "d9e32dec1bf14861134ad206ed680f5e7c48f7b723378c160ba2571d43811399",
+        "reference_id": "vqa__vqa_val_0006__target__012",
+        "role": "target",
+        "seed": 1097190604447844690
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/013.png",
+        "index": 13,
+        "prompt": "A bird with its head turned, perched on a vertical twig, exposing the black tip of its tail.",
+        "prompt_sha256": "959b987d416f2e5965e7aa0f82c16743623ec6f88ecf27aa1d4d18e1453a45e2",
+        "reference_id": "vqa__vqa_val_0006__target__013",
+        "role": "target",
+        "seed": 67529183544102384
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/014.png",
+        "index": 14,
+        "prompt": "Ordinary soft daylight scene with a bird on a bare branch, the black tail tip clearly defined.",
+        "prompt_sha256": "720302cf96ca038a9111c1bda86400c40d365651e803e7ecfcb105e63b646f3d",
+        "reference_id": "vqa__vqa_val_0006__target__014",
+        "role": "target",
+        "seed": 581200303036413301
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/015.png",
+        "index": 15,
+        "prompt": "Subtly wider crop of a bird on a horizontal branch, with the black tip of its tail in view.",
+        "prompt_sha256": "655c11007ce8b68cdaf85eca0b0ce4ad8557b31fcd84fcc27dda3858e7742a5a",
+        "reference_id": "vqa__vqa_val_0006__target__015",
+        "role": "target",
+        "seed": 220162781912881004
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of a bird on a small leafless shrub, showing the black tip of its tail.",
+        "prompt_sha256": "4cbbe5355d6c285f1ce0043bba9543c32fb98aafdf13717b3f2547498c0b3d05",
+        "reference_id": "vqa__vqa_val_0006__target__016",
+        "role": "target",
+        "seed": 538515106080957087
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/017.png",
+        "index": 17,
+        "prompt": "A bird on a bare branch with a plain white background, highlighting the black tip of its tail.",
+        "prompt_sha256": "f0ebc832b6a42b0c47f067f020c8e03b85954d34029357704a6f050ad878261a",
+        "reference_id": "vqa__vqa_val_0006__target__017",
+        "role": "target",
+        "seed": 351796800961132663
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/018.png",
+        "index": 18,
+        "prompt": "Natural candid composition of a bird on a twig, capturing the black tip of its tail feathers.",
+        "prompt_sha256": "6a0cd71802dabc3e40bdcafd64ff2f7ae89f224e981fc76d5712e9831799ee6b",
+        "reference_id": "vqa__vqa_val_0006__target__018",
+        "role": "target",
+        "seed": 238810116629100396
+      },
+      {
+        "image": "samples/vqa/vqa_val_0006/target/019.png",
+        "index": 19,
+        "prompt": "An ordinary small bird perched on a thin branch, with the black tip of its tail clearly visible.",
+        "prompt_sha256": "90d6189b114d2e38d786ba4d81cd341062074766d7f0f8762acfca64b40fd136",
+        "reference_id": "vqa__vqa_val_0006__target__019",
+        "role": "target",
+        "seed": 734041457278174509
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000143.jpg",
+    "original_image_sha256": "dc8d4ed2439067e0cf80d51fdaf398750e6ec82ddc0a167aaca6b509792063c9",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "09101611196340582cea234c2afe080506fa4c728db47f7f9d4022b07e108162",
+    "sample_id": "vqa_val_0006",
+    "shard": 110,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What color is the tip of the birds' tails?",
+      "source_answer": "yellow",
+      "source_answers": [
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow",
+        "yellow"
+      ],
+      "target_answer": "black"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0006__source__000": {
+      "job_sha256": "9443f0dd26089374dd0e5fef554b8d6fe1f82e203270a4938f728b705264da9b",
+      "sha256": "4b67f7d41dc9a132d3a3073b57cd8a8faa00c02375d9e8c85ab819b9ca1fce07",
+      "bytes": 101697,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.553887+00:00"
+    },
+    "vqa__vqa_val_0006__source__001": {
+      "job_sha256": "d17f84a316ba09a3da7a50a53abd0041984a84a0781f4915d6a1c81ecf6932ce",
+      "sha256": "8d01ba87212a8176ea416c3fb65681f4c2d1636633d82e7487beab145a8b6997",
+      "bytes": 124346,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.600647+00:00"
+    },
+    "vqa__vqa_val_0006__source__002": {
+      "job_sha256": "8ff322d1d60788f6f2df5d715cecedb161703ed56d3fbd7029f14a1aad198878",
+      "sha256": "3a55e1cf2afb9859bea9e4d7f24b2efde2b2bfbe58cc06650ed37dcb4a169df0",
+      "bytes": 143100,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.652560+00:00"
+    },
+    "vqa__vqa_val_0006__source__003": {
+      "job_sha256": "079c5c61b9619df170ade27fba4453be0180f01703156711be7bf8eda7f8fee7",
+      "sha256": "73bfc659166b2558e2dc0c633045a8748c432fb9cabe6519d03ed61704bc6aea",
+      "bytes": 106750,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.683861+00:00"
+    },
+    "vqa__vqa_val_0006__source__004": {
+      "job_sha256": "f9dd559e50ac7b772af044d3bd3d51c65b29f30890085d03106da6b363d85bd1",
+      "sha256": "a5350211c90569110cfca12bd061a9e4ea3e3b1e63985d5c4edc6e96483dfd33",
+      "bytes": 96218,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.716421+00:00"
+    },
+    "vqa__vqa_val_0006__source__005": {
+      "job_sha256": "1b53d01da80867d750b7d5ff0c63e28eb36d573f62a119f268b16be04fe1098c",
+      "sha256": "61f3fccc444ab82af32edbf39b413f37f6c01b6a8b3b2243d0766a91033eabc6",
+      "bytes": 124283,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.760257+00:00"
+    },
+    "vqa__vqa_val_0006__source__006": {
+      "job_sha256": "3bc00b4f7a76818ff438259da2276aa60f3b6f636835a0693f7e5fa866cd7564",
+      "sha256": "94e447056680086f277a7ad41b0b4c2eb6c3087bd45c57134d00a451f11b6f06",
+      "bytes": 121328,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.800697+00:00"
+    },
+    "vqa__vqa_val_0006__source__007": {
+      "job_sha256": "8c715ecd8c91f7c3875be6171853b636041b5b97214d98502a32ee9cba8d3b7a",
+      "sha256": "9b74728cd070590b622328aab2dcb3fa123e0da4e9dd09286290a6d33b8a43b2",
+      "bytes": 120528,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.840069+00:00"
+    },
+    "vqa__vqa_val_0006__source__008": {
+      "job_sha256": "672dfc89a50c6f672dde22520b0bd2213beedb339dfcb3264d58715c9a335c8c",
+      "sha256": "fcd8fef59cff1b48a63ce5620a07169b11f66f71013f61435443dff19bd2f34f",
+      "bytes": 124729,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.882417+00:00"
+    },
+    "vqa__vqa_val_0006__source__009": {
+      "job_sha256": "03334377ee3345fb4db868faf43143e64a778f6afeaf3be0c33f5942ac360f74",
+      "sha256": "6b71c43349a7e4eff8857faac12fef7703238fa78df60514059b0ed45f471b8c",
+      "bytes": 116328,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.922735+00:00"
+    },
+    "vqa__vqa_val_0006__source__010": {
+      "job_sha256": "361ef7ee291be7dce665b04331fbc107d676fd301f3c1af612939f5a4d2cb18d",
+      "sha256": "4a4ad4105c4b8995f5b3775367a21d39cb8850626aec4bfe25a2817da4a19cdf",
+      "bytes": 86394,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.955330+00:00"
+    },
+    "vqa__vqa_val_0006__source__011": {
+      "job_sha256": "be3e3f42f8f025aef024e1fa2510a1e1ced40d1e0a811df1774497d6cd3eb4b7",
+      "sha256": "501e01609be0a81d9ada3b605b479597f565739efcfaf652944294719a8a3522",
+      "bytes": 125914,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:49.990349+00:00"
+    },
+    "vqa__vqa_val_0006__source__012": {
+      "job_sha256": "9bed7a2afebf9d5d203e143fb8073fd8dfc4353cdc13ae22a6829ac65bf6aa4b",
+      "sha256": "9957555e3bc40cb27d087f0a5a131806bb16d1cae1134339b8fa12e90c014ac8",
+      "bytes": 133611,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.028049+00:00"
+    },
+    "vqa__vqa_val_0006__source__013": {
+      "job_sha256": "a79299cccaaae2905c2cec1af8018df8cea02924d144df9b903920c5c116bb14",
+      "sha256": "0ca93640f8901dd704ea4650ecfd290fc403f7cdc8e0b421faa8a033496bd06f",
+      "bytes": 122200,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.070548+00:00"
+    },
+    "vqa__vqa_val_0006__source__014": {
+      "job_sha256": "f41ee03395f70745f8ee83a92cbd2c584605090965e32b7f89953f92894951b4",
+      "sha256": "cfd746cbd207f6c11cceb54acedc872976b24950d46b49334f5c3e2216f7dbc5",
+      "bytes": 106299,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.126879+00:00"
+    },
+    "vqa__vqa_val_0006__source__015": {
+      "job_sha256": "8dc84a4dafaeeb4db9cadb4544eb9a3aa3785fd538ced19592260b66958568d2",
+      "sha256": "664d8c923bf5df01203546e186fd6766a32d7bfe36f20d2dfa8039996eac9d8a",
+      "bytes": 115752,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.166138+00:00"
+    },
+    "vqa__vqa_val_0006__source__016": {
+      "job_sha256": "b9e5a890bd99b28f656c6ed3f635202a15264993a4f912cc6f4fe94d9884f35e",
+      "sha256": "6524b57dad7754862ba0147340a25bf039aca55dee3a0815a7e45ff4e25918c2",
+      "bytes": 120635,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.206693+00:00"
+    },
+    "vqa__vqa_val_0006__source__017": {
+      "job_sha256": "f2ab0dcec8df899dd091cdea4c7f1fab2a3bccc56937298fa24d7b77bfa13ce5",
+      "sha256": "bd0cc5fe962cec5a7fa2c301884bd45ed78f0b3b1a4279fc6a3bc69dee0cc35c",
+      "bytes": 69774,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.240001+00:00"
+    },
+    "vqa__vqa_val_0006__source__018": {
+      "job_sha256": "cd1dea113899b3b7ccb605259512fa99d08fbe64d70c0fce51f9602cf266f753",
+      "sha256": "a181854e33bc3cee7f2402e147bcbf69359b1d93aea686340bf3d301c379c9d2",
+      "bytes": 120994,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.278751+00:00"
+    },
+    "vqa__vqa_val_0006__source__019": {
+      "job_sha256": "32d20a1909d9165e1e70527da2eb220ccf7a03c0572426a613f963433a37b7af",
+      "sha256": "d4889dcfe6d39dd4d956f5322b7623a7ba8b02981c5c5fa752e6f8453a6b6c60",
+      "bytes": 107176,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.318478+00:00"
+    },
+    "vqa__vqa_val_0006__target__000": {
+      "job_sha256": "9b17bea864fb02458a79cc7beb168e35ee178a2e34cc0bcb6060b1c9372a536a",
+      "sha256": "e194ddc69ee8b9221406e3a79df68dce72b82975ed1af4270f65f42cb79a8830",
+      "bytes": 101871,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.366358+00:00"
+    },
+    "vqa__vqa_val_0006__target__001": {
+      "job_sha256": "c91978f32a6054dcbec1dcfcb45598d9ba837a71c331f9c5468e42e2868d6403",
+      "sha256": "7478877af648f701f8aaf9a0889ff973201d88604f090a16d7e25e0e56c1365b",
+      "bytes": 132795,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.406997+00:00"
+    },
+    "vqa__vqa_val_0006__target__002": {
+      "job_sha256": "b72402bfd3e45d850338f871deef8de43e785b30bbbb297d3a8b3cb64dbaf049",
+      "sha256": "2ae1de9202ffc46f10181751631f0f490491e44f6ac1a7bf40e4f27a1c20ca40",
+      "bytes": 125544,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.459233+00:00"
+    },
+    "vqa__vqa_val_0006__target__003": {
+      "job_sha256": "05274ae633d4c338e430be2e4c42beef13865e93cdf094e0a8ac552897c491ca",
+      "sha256": "e895d21631bcb17718ca4911db00488908de130a031ce13d25a366fdd7a86fdb",
+      "bytes": 109933,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.498697+00:00"
+    },
+    "vqa__vqa_val_0006__target__004": {
+      "job_sha256": "c19e1cd768cbd0337527f35e2c55eeb336dd9995b8ca3d7451453bb19dad1996",
+      "sha256": "d7d4397b072514ad0c09127303f066bd1ef39657b533bf7f2e69cf8b6e0527a5",
+      "bytes": 115455,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.538560+00:00"
+    },
+    "vqa__vqa_val_0006__target__005": {
+      "job_sha256": "5c201e9c9b19f7abd6111bfabc5e5398deb0f408d2fd91100e32da4e316249bd",
+      "sha256": "0aae525e9b989a57020f49fcbb7364f1dc55a5c8f987bcdfdbdcef9fdf6c3ec2",
+      "bytes": 119792,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.577121+00:00"
+    },
+    "vqa__vqa_val_0006__target__006": {
+      "job_sha256": "a4f3386341e767d3e650c819f1c418c166d1bbf63f5569423ca8a96198636915",
+      "sha256": "ab496d43a56cfcd302462eab00f4c71817931897effd2dbf77754dde4bbc10e6",
+      "bytes": 119802,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.617165+00:00"
+    },
+    "vqa__vqa_val_0006__target__007": {
+      "job_sha256": "d705c1063c9a46a8544b4c36a59fe2da78233b1b61d019d9c4bc7173cf395434",
+      "sha256": "df211de1dbc5d3c91d9239f30768a63cf6ec29c86938a0fb630d0c22e9007b1a",
+      "bytes": 125420,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.653331+00:00"
+    },
+    "vqa__vqa_val_0006__target__008": {
+      "job_sha256": "7b7887cfba6a0276ba94421418264a9640afb8721bb2b5599756c3432b7730c6",
+      "sha256": "430e930da6464b87fce1eadebe1dfb7a8755e32e57757d7b9ae8afd1fb07bc80",
+      "bytes": 123710,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.693998+00:00"
+    },
+    "vqa__vqa_val_0006__target__009": {
+      "job_sha256": "da49e90c646acca8af4a7f9540d03263a16c2279b551e1c80bbdd1471784f285",
+      "sha256": "f0ec6829766c98c7c165549005add07b75c0388d94ed7aaac4fc23fc531eab34",
+      "bytes": 122010,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.735960+00:00"
+    },
+    "vqa__vqa_val_0006__target__010": {
+      "job_sha256": "9d2c3e869dfa52a2e34b6e7d0d9eb013c15f377282e45abe6d11d1da94c3ddb5",
+      "sha256": "b865c602f0c0c6e76176f7eaff3ad0ffa2e34ffd606b5a757ade585bdfba7ba8",
+      "bytes": 79516,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.772861+00:00"
+    },
+    "vqa__vqa_val_0006__target__011": {
+      "job_sha256": "a789d76cbe8932cd09385b3bcb2c2a96bbd6355091f3e500bee654306a7075ce",
+      "sha256": "28fce5917a6ca1779e88b0c6a71fc58402e704dd876778372db882c078766179",
+      "bytes": 123537,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.817668+00:00"
+    },
+    "vqa__vqa_val_0006__target__012": {
+      "job_sha256": "687fc362e1b598e7d997b47ca7176f0e17e071439738dc0678ce0b78717a59bc",
+      "sha256": "14e9b196fd451123814406fb5a617d674e46742ce57ffe7b60fb367e3add0813",
+      "bytes": 129261,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.858117+00:00"
+    },
+    "vqa__vqa_val_0006__target__013": {
+      "job_sha256": "6876112cdf52c10d3443853e7a0387483a3d9127887f4c2c35cb3cd3dd70e158",
+      "sha256": "404c2a155bd401ef9fb73b0a2e7fce482032e66fc0cdb9ed178d8181affba3a2",
+      "bytes": 118681,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.901403+00:00"
+    },
+    "vqa__vqa_val_0006__target__014": {
+      "job_sha256": "b327061466dbed61a5f96ab510b026ce127b0713f015af5b46575f38efedca27",
+      "sha256": "a368d6d4be4135615825f83b87470900757a4480a4990a66c0a6f20693ce9827",
+      "bytes": 112945,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.937410+00:00"
+    },
+    "vqa__vqa_val_0006__target__015": {
+      "job_sha256": "f11def5e3e2e588b02305a1a56fd5e2da22c601f92f9c225aa678f23002da35a",
+      "sha256": "f90395b6a1bc0be2c5c1e97aa1d461f8973f5f739a5147b139ae9473831368d1",
+      "bytes": 124057,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:50.974111+00:00"
+    },
+    "vqa__vqa_val_0006__target__016": {
+      "job_sha256": "84478989df3f89766ef37cc98c0c651483b38c867e5b2041297df7c600cb5c08",
+      "sha256": "aca782407f5f9f46a1b0acecc492af13681243faab407976ee68f7561ca2d036",
+      "bytes": 121412,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:51.014696+00:00"
+    },
+    "vqa__vqa_val_0006__target__017": {
+      "job_sha256": "5e7e9060602b1ea333e5d3dc5a2572113915c3ef3036fed04f5807e3f939949a",
+      "sha256": "8919cf45bdb991105e8edbbe27096cc0a1be2abb4c20b407336d2c184b9e4f24",
+      "bytes": 83035,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:51.045913+00:00"
+    },
+    "vqa__vqa_val_0006__target__018": {
+      "job_sha256": "4d2a3443e17e8c6db2e3c79ed7c062c069bf9ad95be3ab3510f8149d204c5a6b",
+      "sha256": "b3a1567a31cfb84019044438bba251e758179ec2d48f5dcea207797f3023593d",
+      "bytes": 123056,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:51.098322+00:00"
+    },
+    "vqa__vqa_val_0006__target__019": {
+      "job_sha256": "715f530456bcbcaeb0fbb4bbbf083a9ccaf0710b138cefbfc51b13112194d419",
+      "sha256": "078c4b2bf2e7f449a3f3e087ec3f9dd390fa195fa31b3779f7ac83b1084a42a1",
+      "bytes": 120133,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 27.491459597833455,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:51.143676+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:06:51.143695+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "2939f2c70215fd7cd3454f926c809a22b0fbc9c982596fff8b52114988058978",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "c6f3e67fa1b6d3219ec770ef19954bdc0378ce40210e793de30d04bc8a381c63",
+      "notes": "All 20 source prompts specify white gym shoes and all 20 target prompts specify black gym shoes. The question is color; source/target answer direction is consistent. Scene phrasing repeats, but no material semantic mismatch under the requested core-meaning standard.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0000/source/000.png",
+        "index": 0,
+        "prompt": "White gym shoes resting on a white wire laundry basket in a bright room.",
+        "prompt_sha256": "bca78109a01583ce85d3ec6cbae9a9ce07608583807797782ddf875a396fe876",
+        "reference_id": "vqa__vqa_val_0000__source__000",
+        "role": "source",
+        "seed": 158177748269227300
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/001.png",
+        "index": 1,
+        "prompt": "A pair of white sneakers sitting on a metal shoe rack in a hallway.",
+        "prompt_sha256": "6920d4014924e83f453523326b8dcc7f97a671013177878a09c78e68b3bc01d1",
+        "reference_id": "vqa__vqa_val_0000__source__001",
+        "role": "source",
+        "seed": 279522733612932290
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/002.png",
+        "index": 2,
+        "prompt": "Close-up of white athletic shoes on a wire shelf in a garage.",
+        "prompt_sha256": "80842839d70193a0f64cedd446c55723879f1ff6cdbfd473a9b20d6955e276be",
+        "reference_id": "vqa__vqa_val_0000__source__002",
+        "role": "source",
+        "seed": 95815579765601173
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/003.png",
+        "index": 3,
+        "prompt": "White gym shoes placed side-by-side on a wire rack next to a pile of laundry.",
+        "prompt_sha256": "d402198684006a9368691609cb732fabddda5ecc2570b160bbcf045b98bc0370",
+        "reference_id": "vqa__vqa_val_0000__source__003",
+        "role": "source",
+        "seed": 187823240471145983
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/004.png",
+        "index": 4,
+        "prompt": "White sneakers on a wire shelf illuminated by soft daylight from a window.",
+        "prompt_sha256": "81b7a1e32857dedd13431350f070284f7fd1b35c84a7c21f68cd633cd77e593e",
+        "reference_id": "vqa__vqa_val_0000__source__004",
+        "role": "source",
+        "seed": 1145803592668520719
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/005.png",
+        "index": 5,
+        "prompt": "Wide shot of white gym shoes on a wire rack with a dog sleeping nearby.",
+        "prompt_sha256": "cf140b8ef8236d185947c1c021b1a49a812bebb0f79a1cb9d6580622c53200bf",
+        "reference_id": "vqa__vqa_val_0000__source__005",
+        "role": "source",
+        "seed": 109302626114912929
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/006.png",
+        "index": 6,
+        "prompt": "Side view of white athletic shoes resting on a metal wire basket.",
+        "prompt_sha256": "002c819163f1d3b4ca8f8f4e8553a03f391612009148413ebba0195b7e0ac3e0",
+        "reference_id": "vqa__vqa_val_0000__source__006",
+        "role": "source",
+        "seed": 929605897168170068
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/007.png",
+        "index": 7,
+        "prompt": "White gym shoes on a wire shelf with a small plant in the background.",
+        "prompt_sha256": "ac10b1488d0d17f1ef3ac6c81e12dac0243759756681ab7037c53999d95c568a",
+        "reference_id": "vqa__vqa_val_0000__source__007",
+        "role": "source",
+        "seed": 102632790563688161
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of white sneakers on a wire rack in a storage area.",
+        "prompt_sha256": "5f188eeacd55233f4a09f8ffe3360562f0c9452f2810dee257af2c6ffbc5dfbe",
+        "reference_id": "vqa__vqa_val_0000__source__008",
+        "role": "source",
+        "seed": 1034455490368367563
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/009.png",
+        "index": 9,
+        "prompt": "Another pair of white gym shoes on a wire laundry basket.",
+        "prompt_sha256": "777bf5c8be7e00dc68fe5916f963c451a4739d43f95c39851760eb4976b7cf80",
+        "reference_id": "vqa__vqa_val_0000__source__009",
+        "role": "source",
+        "seed": 60878892657862061
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/010.png",
+        "index": 10,
+        "prompt": "White athletic shoes on a wire rack viewed from a slightly elevated angle.",
+        "prompt_sha256": "c505adc73c5f77e0fd0a26a296b6e7fe8570c7664575e3bdc7158e7dcfbe4931",
+        "reference_id": "vqa__vqa_val_0000__source__010",
+        "role": "source",
+        "seed": 169909288702833414
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/011.png",
+        "index": 11,
+        "prompt": "Medium framing of white sneakers on a metal shoe rack in a hallway.",
+        "prompt_sha256": "3b63467df8ab017feda292b6068bbac3a6364e1662fc4a36d486c7b640c23a15",
+        "reference_id": "vqa__vqa_val_0000__source__011",
+        "role": "source",
+        "seed": 973090972526957260
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/012.png",
+        "index": 12,
+        "prompt": "Slightly closer view of white gym shoes on a wire shelf in a garage.",
+        "prompt_sha256": "8aef95884def4abf78aab601b1f7f1197595231c2642385f648bfdfdb36e6e3e",
+        "reference_id": "vqa__vqa_val_0000__source__012",
+        "role": "source",
+        "seed": 871117209831347657
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/013.png",
+        "index": 13,
+        "prompt": "White sneakers on a wire rack with one shoe tilted slightly forward.",
+        "prompt_sha256": "797e8aa4873c6cb9cc382e70d25a3fa8c8580e30da4a178d7eaf5c82b5483575",
+        "reference_id": "vqa__vqa_val_0000__source__013",
+        "role": "source",
+        "seed": 915312303975128030
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/014.png",
+        "index": 14,
+        "prompt": "White gym shoes on a wire basket in soft, diffused daylight.",
+        "prompt_sha256": "bd91b468954d4bce7ba7dbe7019e516225d6614b0f8db20efcebc921f248e641",
+        "reference_id": "vqa__vqa_val_0000__source__014",
+        "role": "source",
+        "seed": 1132850052293585254
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/015.png",
+        "index": 15,
+        "prompt": "Wide crop of white athletic shoes on a wire rack with a cat in the background.",
+        "prompt_sha256": "aba82d376dd6575ccb02a61c317733a669accdd5a219386721a372d1c6a55532",
+        "reference_id": "vqa__vqa_val_0000__source__015",
+        "role": "source",
+        "seed": 110338880291391688
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of white sneakers on a metal wire shelf.",
+        "prompt_sha256": "bf7f634f41c4259424a2e3d13dcc1424ce18ede4a39f06ebf1b1aa6b03796ba8",
+        "reference_id": "vqa__vqa_val_0000__source__016",
+        "role": "source",
+        "seed": 646190917645868000
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/017.png",
+        "index": 17,
+        "prompt": "White gym shoes on a wire rack with a folded towel in the background.",
+        "prompt_sha256": "af7a7f97da2fe989ef2a29af82c735ad7497b9c2747d83e5838f9455e0f3db5d",
+        "reference_id": "vqa__vqa_val_0000__source__017",
+        "role": "source",
+        "seed": 219783625727566474
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/018.png",
+        "index": 18,
+        "prompt": "Natural candid composition of white sneakers on a wire laundry basket.",
+        "prompt_sha256": "bf2c81298901c4c206e6391cb9f868bf3212a164d2a923085ce2ba814f50fb55",
+        "reference_id": "vqa__vqa_val_0000__source__018",
+        "role": "source",
+        "seed": 408779760313966063
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/source/019.png",
+        "index": 19,
+        "prompt": "A different pair of white gym shoes on a wire shelf in a storage area.",
+        "prompt_sha256": "7e0d89a8df40cca0620134ea2aefc499a9f8fbe367a0d3e70339c5c4b46bbd6e",
+        "reference_id": "vqa__vqa_val_0000__source__019",
+        "role": "source",
+        "seed": 975238092686470144
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/000.png",
+        "index": 0,
+        "prompt": "Black gym shoes resting on a white wire laundry basket in a bright room.",
+        "prompt_sha256": "29ed9bdeb167a1168ae5d046c8df99302aa14193a93822db6a01d1155d2d825d",
+        "reference_id": "vqa__vqa_val_0000__target__000",
+        "role": "target",
+        "seed": 975527064976021559
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/001.png",
+        "index": 1,
+        "prompt": "A pair of black sneakers sitting on a metal shoe rack in a hallway.",
+        "prompt_sha256": "f375c84823b3d7c80f438ca80f8bad8836a35b92509c3dde9d124098e6f4df34",
+        "reference_id": "vqa__vqa_val_0000__target__001",
+        "role": "target",
+        "seed": 1004621876309280966
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/002.png",
+        "index": 2,
+        "prompt": "Close-up of black athletic shoes on a wire shelf in a garage.",
+        "prompt_sha256": "ce4069cf0dc95196f78c898a3e92a17a21b731b1cccae1d720c832f7534c14f1",
+        "reference_id": "vqa__vqa_val_0000__target__002",
+        "role": "target",
+        "seed": 1106478600530099821
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/003.png",
+        "index": 3,
+        "prompt": "Black gym shoes placed side-by-side on a wire rack next to a pile of laundry.",
+        "prompt_sha256": "25c5179cf60907a553c476c6531d2ad9e13df1d644d27281e571571ac16bf5e6",
+        "reference_id": "vqa__vqa_val_0000__target__003",
+        "role": "target",
+        "seed": 354279039157368189
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/004.png",
+        "index": 4,
+        "prompt": "Black sneakers on a wire shelf illuminated by soft daylight from a window.",
+        "prompt_sha256": "5c4471982c1aeca2559bdef0d2cb58e92963d6d5f6b24e10095929e99253da3f",
+        "reference_id": "vqa__vqa_val_0000__target__004",
+        "role": "target",
+        "seed": 26416228180357266
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/005.png",
+        "index": 5,
+        "prompt": "Wide shot of black gym shoes on a wire rack with a dog sleeping nearby.",
+        "prompt_sha256": "f715eacc4bf1386c37f3aa331e05ef0daf07c6b431aacd1058fa95787bce4dd4",
+        "reference_id": "vqa__vqa_val_0000__target__005",
+        "role": "target",
+        "seed": 786464698212510356
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/006.png",
+        "index": 6,
+        "prompt": "Side view of black athletic shoes resting on a metal wire basket.",
+        "prompt_sha256": "695618d14592f292603412158c3f5644e7efbdeae42ee4ed48c337a2d6743afe",
+        "reference_id": "vqa__vqa_val_0000__target__006",
+        "role": "target",
+        "seed": 159592378627733811
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/007.png",
+        "index": 7,
+        "prompt": "Black gym shoes on a wire shelf with a small plant in the background.",
+        "prompt_sha256": "a4863a140196b58a1ab0b7ddfc99b23e4eb324d31b85869eecaab5842ddc07f4",
+        "reference_id": "vqa__vqa_val_0000__target__007",
+        "role": "target",
+        "seed": 188216746804391087
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of black sneakers on a wire rack in a storage area.",
+        "prompt_sha256": "9107a6af3c8a5bc5b0e82d0228d8f4a9f078abde33e0899d06d2604b6cf2791f",
+        "reference_id": "vqa__vqa_val_0000__target__008",
+        "role": "target",
+        "seed": 1067467912730154496
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/009.png",
+        "index": 9,
+        "prompt": "Another pair of black gym shoes on a wire laundry basket.",
+        "prompt_sha256": "441dc4f9f8408e33b2e0cded9fc49d1f8a25cf8071ffdd712778272ad4b72b0d",
+        "reference_id": "vqa__vqa_val_0000__target__009",
+        "role": "target",
+        "seed": 171056264794911123
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/010.png",
+        "index": 10,
+        "prompt": "Black athletic shoes on a wire rack viewed from a slightly elevated angle.",
+        "prompt_sha256": "09693898ba18933f431473d3c895b32be77d9570864abb4d187beb94df40f2a1",
+        "reference_id": "vqa__vqa_val_0000__target__010",
+        "role": "target",
+        "seed": 918550153041446861
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/011.png",
+        "index": 11,
+        "prompt": "Medium framing of black sneakers on a metal shoe rack in a hallway.",
+        "prompt_sha256": "8809660a8d7f8e8940e04e60429fecdb2aead1b4976cc9e5b6a91f88b8184d53",
+        "reference_id": "vqa__vqa_val_0000__target__011",
+        "role": "target",
+        "seed": 280511353866170526
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/012.png",
+        "index": 12,
+        "prompt": "Slightly closer view of black gym shoes on a wire shelf in a garage.",
+        "prompt_sha256": "dc1e084486f3a9afa31c8a90e1daee45dc65e93fa916c21e54c909df6033b21c",
+        "reference_id": "vqa__vqa_val_0000__target__012",
+        "role": "target",
+        "seed": 311398934064442288
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/013.png",
+        "index": 13,
+        "prompt": "Black sneakers on a wire rack with one shoe tilted slightly forward.",
+        "prompt_sha256": "3173ad4fb55aadd32015435bf0b5569e8e458bd4704c3df51911e76031574236",
+        "reference_id": "vqa__vqa_val_0000__target__013",
+        "role": "target",
+        "seed": 792580128528982057
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/014.png",
+        "index": 14,
+        "prompt": "Black gym shoes on a wire basket in soft, diffused daylight.",
+        "prompt_sha256": "338b71943589c20f49a6ae63e256f77071c26326c45929d83e2345adc8fe890e",
+        "reference_id": "vqa__vqa_val_0000__target__014",
+        "role": "target",
+        "seed": 818762889099451672
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/015.png",
+        "index": 15,
+        "prompt": "Wide crop of black athletic shoes on a wire rack with a cat in the background.",
+        "prompt_sha256": "1a4d60931d1026d05612d7f2eaee12e172cd722f6bdff2ea15a4a1f1e2334496",
+        "reference_id": "vqa__vqa_val_0000__target__015",
+        "role": "target",
+        "seed": 406742488750919924
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of black sneakers on a metal wire shelf.",
+        "prompt_sha256": "fd4882d49db04ba0023cb6b9508ed3d0c4e8f082b3edd82ccf36bd0a0980b490",
+        "reference_id": "vqa__vqa_val_0000__target__016",
+        "role": "target",
+        "seed": 1056602017386695844
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/017.png",
+        "index": 17,
+        "prompt": "Black gym shoes on a wire rack with a folded towel in the background.",
+        "prompt_sha256": "d71c4c410dedf573f1648adf10182a0390451d5e848b24d0593603c2cb071e8b",
+        "reference_id": "vqa__vqa_val_0000__target__017",
+        "role": "target",
+        "seed": 224599660568936290
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/018.png",
+        "index": 18,
+        "prompt": "Natural candid composition of black sneakers on a wire laundry basket.",
+        "prompt_sha256": "c8253a6ea2f56aead3ba03e570f55bbae3dfed0fdbc66bfcb69929cd0d1ff292",
+        "reference_id": "vqa__vqa_val_0000__target__018",
+        "role": "target",
+        "seed": 725943062472430847
+      },
+      {
+        "image": "samples/vqa/vqa_val_0000/target/019.png",
+        "index": 19,
+        "prompt": "A different pair of black gym shoes on a wire shelf in a storage area.",
+        "prompt_sha256": "f14b58f34779a02c7b07d18e8532216a3c0a29217a0e416dae6f60ae9d428255",
+        "reference_id": "vqa__vqa_val_0000__target__019",
+        "role": "target",
+        "seed": 607265280416073075
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000042.jpg",
+    "original_image_sha256": "9da8dbb3f415b0549a2c7ef8930e245af324191cc4c4465a7d75f05d96b0781d",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "2939f2c70215fd7cd3454f926c809a22b0fbc9c982596fff8b52114988058978",
+    "sample_id": "vqa_val_0000",
+    "shard": 104,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What color are the gym shoes?",
+      "source_answer": "white",
+      "source_answers": [
+        "white",
+        "white",
+        "white",
+        "white",
+        "white and black",
+        "white",
+        "white",
+        "white",
+        "white",
+        "white"
+      ],
+      "target_answer": "black"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0000__source__000": {
+      "job_sha256": "96b73aeeaed5588c878a9d921695bef72d3d8e9e20056dbefc650166f4baac4e",
+      "sha256": "382ea601244f88a3e78e3009fbd8f03fc7e4c0f1103342dca8bb31ca1cf323f6",
+      "bytes": 115474,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.522373+00:00"
+    },
+    "vqa__vqa_val_0000__source__001": {
+      "job_sha256": "7693819b47373c44526dc9e6062ff932fb22c7409e48dc1bd4bd9be2b473732e",
+      "sha256": "38571c326d935a8dd7975c49931e3113e7cebc679be5dfd5b88c129b179b2e18",
+      "bytes": 126295,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.564953+00:00"
+    },
+    "vqa__vqa_val_0000__source__002": {
+      "job_sha256": "40dfdbb9964ccb7a35580093830731767a56fdb0fbaefd7e5c79eac5df27901e",
+      "sha256": "2f04fcd5b92f3e5a69e377e293ebd33ded976595c3ed18d57f83e467aea555a4",
+      "bytes": 136443,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.604745+00:00"
+    },
+    "vqa__vqa_val_0000__source__003": {
+      "job_sha256": "2b17eddb4ef47c657839984fba6225035ce588c7bd7da5fd258f0a3608bee912",
+      "sha256": "79743b7fe04be24f3a102376b1ec96b97e44c8dc0dce069293d138fbde929ff7",
+      "bytes": 161514,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.645656+00:00"
+    },
+    "vqa__vqa_val_0000__source__004": {
+      "job_sha256": "41c9269a24f100310b6210f54c75f080cf8a43476ad5b469b86ae1bf941de713",
+      "sha256": "3ef616b911d5d2751a01c247cf67e201e6f57efe100595a5407b4dde467656b3",
+      "bytes": 115441,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.684976+00:00"
+    },
+    "vqa__vqa_val_0000__source__005": {
+      "job_sha256": "3d4811c6a22c85733539cc17a09905f8ff1ef82ae73dd09803f78408c763ed7f",
+      "sha256": "e14dd262f0a7ab938c89050cf86c5cefc0e8295978cf5d7ce39e628fbc71d80d",
+      "bytes": 168745,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.730655+00:00"
+    },
+    "vqa__vqa_val_0000__source__006": {
+      "job_sha256": "8607aa7c5118a8a391e9079a2326790d4f0f5cc722f225d847343c0e98d7c76f",
+      "sha256": "4050e9ba5a28b3cf03a58641e815bb322cc5760d8429c2d66f42e7917e17f6f0",
+      "bytes": 109904,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.769207+00:00"
+    },
+    "vqa__vqa_val_0000__source__007": {
+      "job_sha256": "9315b0599abc58a9dfe421475f7dd01e536cfbc1de595bbe9080cbb41514a5e2",
+      "sha256": "2fde68a4b9bcebdeb49143d94132ec6ac43c897df46a35fa945635aa707b5549",
+      "bytes": 129343,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.813033+00:00"
+    },
+    "vqa__vqa_val_0000__source__008": {
+      "job_sha256": "90d205797b01d50a65119c8e937ac95be1c2819efdd4fa6ec186a77f08d74d1b",
+      "sha256": "24ce4316063ee99221ae94d9c0fb07e91de9141067f19c53625046c24b22b6ee",
+      "bytes": 151285,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.862685+00:00"
+    },
+    "vqa__vqa_val_0000__source__009": {
+      "job_sha256": "581dcee8547d37e838df2cc0166d001422e35725ae376b6a90245d04218f7baf",
+      "sha256": "57052e557cb7eb45df8df73e83cdcec32cb6fde08c37e074c9578139503b1fa3",
+      "bytes": 152329,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.903955+00:00"
+    },
+    "vqa__vqa_val_0000__source__010": {
+      "job_sha256": "a44dfde017236216efd989be142aaabe1716aa48fc74137e283056a3d4bf0dce",
+      "sha256": "3c0398271287d4698d52bde51a1f301f47fb6a160c236b547fdd4bb0245f59b6",
+      "bytes": 150067,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:49.959405+00:00"
+    },
+    "vqa__vqa_val_0000__source__011": {
+      "job_sha256": "363382909ebe344cddf08e85db9788a65a2d010d3e7e16a24c09e3352448d155",
+      "sha256": "761305560a3d8715976a6fe8f7ca767ed85e80cdd2e4271e0ef730974e8cfd62",
+      "bytes": 124608,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.001774+00:00"
+    },
+    "vqa__vqa_val_0000__source__012": {
+      "job_sha256": "bccf8f92c9dcd97d1bf6c9efef1df930e4eb808113e276a242e9087c9276225b",
+      "sha256": "b3890e995b6101d5c722f0f8ce78dca0ba3095a5df23b0921ff756a46b7c84ff",
+      "bytes": 143381,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.043819+00:00"
+    },
+    "vqa__vqa_val_0000__source__013": {
+      "job_sha256": "64c5a0edaaa2c46f10205998a4ef2ebaebda318fa9fa5e5649ce66d3b051441f",
+      "sha256": "7a133f664dd6de55aa9fc5ba11b6757d89e63ec61cd2bed67ef4ef43f4717e3f",
+      "bytes": 135089,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.086717+00:00"
+    },
+    "vqa__vqa_val_0000__source__014": {
+      "job_sha256": "477fa081651435477b25217665420cdd247d93e34a13f3c77a231100e2f1897a",
+      "sha256": "469b17b946c3c087e7593c1e1d97ed3605bcc55c4656c10c43ec386ae4c19414",
+      "bytes": 143146,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.126512+00:00"
+    },
+    "vqa__vqa_val_0000__source__015": {
+      "job_sha256": "56cbbdff57538d44b7a4a005e01db3b94d25855bb6763d2c3a83adda0cd54d02",
+      "sha256": "83d92204d1c456f297a0b3034a33cb3573ffb147aab920d5cf7703cac64084c1",
+      "bytes": 140047,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.167127+00:00"
+    },
+    "vqa__vqa_val_0000__source__016": {
+      "job_sha256": "89930982a9113a008ac8203e7960faae26f3379f852d19c5c82ded6f5264412d",
+      "sha256": "bfdff6fae435a032f141268983bca6151ee15f21694376781b92982e8adb6b6c",
+      "bytes": 125255,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.202876+00:00"
+    },
+    "vqa__vqa_val_0000__source__017": {
+      "job_sha256": "eda7f42748623bb23ae8cc84db237443337f420bbe403d850df3d889c335eff2",
+      "sha256": "dbc7af63069ebcf7efecc49887c5a75598a590db132403a3730ed2bcea0ebac8",
+      "bytes": 135557,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.249135+00:00"
+    },
+    "vqa__vqa_val_0000__source__018": {
+      "job_sha256": "0ee5b05d7283309ab419513323e4de3021c931745fee22b0c655fed8965c7ae4",
+      "sha256": "86a58d7ecaec947baab48bbda86814a0bcf2e110bd69eee4c463358c069bd22b",
+      "bytes": 140030,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.284977+00:00"
+    },
+    "vqa__vqa_val_0000__source__019": {
+      "job_sha256": "0b7d2082038f6f122336883f675fabc9beddcc38431ebe39cccb64333352b0c3",
+      "sha256": "9bda3c48d823a689c895b43081d41e99ef4fa58f4cd6e81e034276ccf98bfd18",
+      "bytes": 150843,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.324644+00:00"
+    },
+    "vqa__vqa_val_0000__target__000": {
+      "job_sha256": "3c9ef3b7454ca7164f0204924a81869796067230ab3764bd7fa6904341738eff",
+      "sha256": "6772953e050e82a50238713a6cb4955901499ffafc0b0022ea886d5184dad7a9",
+      "bytes": 115745,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.378347+00:00"
+    },
+    "vqa__vqa_val_0000__target__001": {
+      "job_sha256": "e24e7972c5bd39ceba5c83b473eefa42066fa09a4f0b1d832697c931f4825bbc",
+      "sha256": "19e5d92e683992ef1d1da5aa39d59672e60fc9e8ae1d2af1b07e3dcd657ec031",
+      "bytes": 117586,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.415439+00:00"
+    },
+    "vqa__vqa_val_0000__target__002": {
+      "job_sha256": "519f13896b1099acaeb09fd342785f0e57eb65509c7d0fffe5f3a5b7bc6fb863",
+      "sha256": "f5d6a04fc32cf4bd5cfece3bfd6a6806ed25201eb37e678e6e005a9888dfc2a8",
+      "bytes": 141992,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.458792+00:00"
+    },
+    "vqa__vqa_val_0000__target__003": {
+      "job_sha256": "86b73f9810e93f01d7408074b0276263d7b41ec2bf09e3bbb98c22c98537d55b",
+      "sha256": "72cf5e828dc9328c1b0e1be078ad23a2d118d1bd186d3aff341e67f363cc0122",
+      "bytes": 159188,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.506510+00:00"
+    },
+    "vqa__vqa_val_0000__target__004": {
+      "job_sha256": "420bf71fee2f95ed39f39ec546b47b7a8b608200c19f0d4e27002c430ca2ec08",
+      "sha256": "7c7ffbbe795dc77a3f5c08a61312ff93a898caefec6d33636903a77e6f5a9f76",
+      "bytes": 121975,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.547748+00:00"
+    },
+    "vqa__vqa_val_0000__target__005": {
+      "job_sha256": "e3869aeaf9c69121522530ac6bae0171e4962a5ee0793933fb0fa13311cf8f6b",
+      "sha256": "05fdfe968f3bd2c2245c44fa2f5161238b0c91c8ca2b57bf354e782fbd63b9a9",
+      "bytes": 165584,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.590133+00:00"
+    },
+    "vqa__vqa_val_0000__target__006": {
+      "job_sha256": "35f6cd6e1593729d628ad71418c16c29b3c656f20e842f9181120fb4ec06d261",
+      "sha256": "241f83b7a2fc7b4d57ff65955479652762c1ee4a7786ca26d9284f9f343124a8",
+      "bytes": 118392,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.623609+00:00"
+    },
+    "vqa__vqa_val_0000__target__007": {
+      "job_sha256": "0cffc6ba9f0d320e7d7e0b9b850c442c1921f59cbf97fe7bdb869493a06c629d",
+      "sha256": "e82de42b852de1f705332c34d91512fb2a58c43fb0909988a8789dd2744571a6",
+      "bytes": 136541,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.678202+00:00"
+    },
+    "vqa__vqa_val_0000__target__008": {
+      "job_sha256": "b1e23b8c4fb1acc11cb84c2979a1c199c76fa4ad906f66e6823a8d05c10d52e6",
+      "sha256": "2d87e7130f260b166e8d003e8da4fe1c6a1e2334e84f55f6b81e69cb08fad712",
+      "bytes": 138359,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.728154+00:00"
+    },
+    "vqa__vqa_val_0000__target__009": {
+      "job_sha256": "54dbed05e3b87bb30aaf03f040a31613eb523021ff3922eab4ad3e6098809f27",
+      "sha256": "6bff144cc60ccac31f1db9b52bea8544d639deb0d90cde6574c55e842f3dccf8",
+      "bytes": 172161,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.773540+00:00"
+    },
+    "vqa__vqa_val_0000__target__010": {
+      "job_sha256": "bfa1f5a9c6f9ae4176b573c5e592c87530b4c3338826ee20fbf5bec2271627e6",
+      "sha256": "f5f43f0584cf9d36a1c4abe84c33dc3d1becdd47640a8d0e0be49c9c2104b841",
+      "bytes": 145293,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.815607+00:00"
+    },
+    "vqa__vqa_val_0000__target__011": {
+      "job_sha256": "e6d2c013fe15d9707f53ce3a2fe265f39a7327c18911d83c64139f2abb7f1fc1",
+      "sha256": "8401f5c3342f9bcf508586a7a04688d48b13909537ba4a2399f110bc1e2493a1",
+      "bytes": 127689,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.856082+00:00"
+    },
+    "vqa__vqa_val_0000__target__012": {
+      "job_sha256": "71a9bf87e98ca39b2ad78ba49484ab6ebd3fe2138b780bae2d1d00fcb1f4c992",
+      "sha256": "475a50874a16c21ce3f02781966115b5ec5ae56b329d588ec209ce72bd7d453e",
+      "bytes": 142163,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.898367+00:00"
+    },
+    "vqa__vqa_val_0000__target__013": {
+      "job_sha256": "afebd75f89e9dec35f218389f3d8a4d645c034cd103f41b409e97d403381a0e4",
+      "sha256": "d0c7c264023f366a2ec19f46466fe20a1e0e2f8394c3237f0189ab61c28bac9b",
+      "bytes": 150401,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.937639+00:00"
+    },
+    "vqa__vqa_val_0000__target__014": {
+      "job_sha256": "052f4b1876229a8af9740f837837caefd1e35a458ee666a3864f897eafaf7bad",
+      "sha256": "9c965dcffeccaa9338b475bc3cfb5462702cc2459b7c21f7a4308d771790d49d",
+      "bytes": 163872,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:50.981947+00:00"
+    },
+    "vqa__vqa_val_0000__target__015": {
+      "job_sha256": "c7ea6ac9bee15631b460c396de8cc8776e81aacb2cfbc3550d2ffffddcc22eac",
+      "sha256": "7e28329f753d60101ee4e878b8e67d1f257ce491eab8637e1d79641de952f42a",
+      "bytes": 155563,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:51.020571+00:00"
+    },
+    "vqa__vqa_val_0000__target__016": {
+      "job_sha256": "5ccfac4c103c5a07456ebf9761551a968d1222bc4a1de0f6be6721cabe94b1ea",
+      "sha256": "5ab2af8681c854fc71b6ef72b2b7e7111decac396bac80161204a79603c7f4cc",
+      "bytes": 132860,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:51.066316+00:00"
+    },
+    "vqa__vqa_val_0000__target__017": {
+      "job_sha256": "5d003f1ca7bc49b4ba17f24551749214aa16ac153e946aaa5658327cef7f0565",
+      "sha256": "4fb646fd3d3430fcdadbb480efd8eb49e19c048f9058a56497fe35647324ba1d",
+      "bytes": 158408,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:51.107516+00:00"
+    },
+    "vqa__vqa_val_0000__target__018": {
+      "job_sha256": "d3453d16205b48c3e57dbc9ef9d19189ce2aee8a9639a7062f85da59f4fdedb9",
+      "sha256": "3ec9864505c462831c0f656709823a0a60a649be74dd88cdec43cc4b43ac994b",
+      "bytes": 163073,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:51.146374+00:00"
+    },
+    "vqa__vqa_val_0000__target__019": {
+      "job_sha256": "51346aa38e435712f4b22a8a58166ee010493c2e1780194ad15249c46e87939a",
+      "sha256": "015b46d03746139664c1fb7a7fdb769bf0fa25d4f73aea4a33f45dc030e6f34f",
+      "bytes": 148245,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 25.67737792059779,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:05:51.191262+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:05:51.191292+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "c07d3f259c0ee8e6e3d6b0dbbede87dfd9c024ea2e6f4e27187544d0ac17bf1e",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "eb9540ad9e321c9119da1885408142c30a1b7bd8124a1628aa5aa71037a165cf",
+      "notes": "Original neutral prompts repeatedly said the child follows/walks behind a woman, so they already supported the hypothesis apart from mother identity. Rewrote source as child near a woman by a store with no relationship/interaction determined; target now explicitly shows a child following and holding his mother’s hand.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/000.png",
+        "index": 0,
+        "prompt": "A small child in green walks along a storefront while a woman in pink pants stands by the open shop entrance; no interaction is visible.",
+        "prompt_sha256": "b746694085b3eeb5de83608f889317054af598643a929c0cb980dd23f9807f63",
+        "reference_id": "ve__snli_ve_test_0013__source__000",
+        "role": "source",
+        "seed": 337401690868040315
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/001.png",
+        "index": 1,
+        "prompt": "A child in a green shirt passes a shop window as an adult woman in pink trousers looks at items in the doorway.",
+        "prompt_sha256": "29add280e6bbc904a614fb9df029d052c890de6a37b761bd13ea885b445de592",
+        "reference_id": "ve__snli_ve_test_0013__source__001",
+        "role": "source",
+        "seed": 805184450691102289
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/002.png",
+        "index": 2,
+        "prompt": "A small child in light green walks on a sidewalk near a woman in pink pants who is looking into a store.",
+        "prompt_sha256": "63903d5a2d5df73a1e1faf87b358b36a0adb9b360f7208786d0f96b979d41b96",
+        "reference_id": "ve__snli_ve_test_0013__source__002",
+        "role": "source",
+        "seed": 781863176618973133
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/003.png",
+        "index": 3,
+        "prompt": "A child in green clothing walks past a shop opening while a woman in pink pants stands a short distance away.",
+        "prompt_sha256": "e5622ede88dd7f3a2cd3312ab8ab8140ea1a68b741c8adc1eafc8a8c3369f424",
+        "reference_id": "ve__snli_ve_test_0013__source__003",
+        "role": "source",
+        "seed": 1147970251489714135
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/004.png",
+        "index": 4,
+        "prompt": "A toddler in green walks along a brick sidewalk as a woman in pink trousers browses a storefront window.",
+        "prompt_sha256": "b100383612e96d67d5d4c2fc6a66ad703f3bee4493e9c706e9a5caf1b93236c7",
+        "reference_id": "ve__snli_ve_test_0013__source__004",
+        "role": "source",
+        "seed": 447831664489230674
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/005.png",
+        "index": 5,
+        "prompt": "A child in a green outfit passes the entrance of a store; a woman wearing pink pants is visible near the doorway.",
+        "prompt_sha256": "861728fd8dd1a3fee7297859d7969b9ed8fa9f3c9fa5a286f376518e3f270e41",
+        "reference_id": "ve__snli_ve_test_0013__source__005",
+        "role": "source",
+        "seed": 245544441288919142
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/006.png",
+        "index": 6,
+        "prompt": "A small child walks beside a shopfront while an adult woman in pink pants stands near a display, with no contact shown.",
+        "prompt_sha256": "c589be0f100b210c82d48d34d5890803fe09c5c2bd115f6b1f7513759c4cc79a",
+        "reference_id": "ve__snli_ve_test_0013__source__006",
+        "role": "source",
+        "seed": 428197908340896731
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/007.png",
+        "index": 7,
+        "prompt": "A toddler in a green shirt walks down a city sidewalk as a woman in pink pants looks toward the store entrance.",
+        "prompt_sha256": "1447e72685512036d4595abdfdab7d9ed1bda29c61f65cc40aad3445454e13d6",
+        "reference_id": "ve__snli_ve_test_0013__source__007",
+        "role": "source",
+        "seed": 233732212270983586
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/008.png",
+        "index": 8,
+        "prompt": "A child in green walks past an open shop while a woman in pink trousers stands near the window.",
+        "prompt_sha256": "f8cd1e345133df4a7d8816e6b018f398dde200d18d6138ad1d5f96555c98e1f2",
+        "reference_id": "ve__snli_ve_test_0013__source__008",
+        "role": "source",
+        "seed": 258049382340167586
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/009.png",
+        "index": 9,
+        "prompt": "A small child in green passes a storefront; a woman in pink pants is farther along the sidewalk, looking at a sign.",
+        "prompt_sha256": "c098dee683102543ec3a3f2d814c80346b8c5c43f364509979d3058da1b4dc86",
+        "reference_id": "ve__snli_ve_test_0013__source__009",
+        "role": "source",
+        "seed": 613170535785738611
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/010.png",
+        "index": 10,
+        "prompt": "A toddler in a green hoodie walks by a store opening while a woman in pink pants stands near the display window.",
+        "prompt_sha256": "fd42c0c260bef37838b8da57294335d2d697275938e18951cd91dccf7ea8f4eb",
+        "reference_id": "ve__snli_ve_test_0013__source__010",
+        "role": "source",
+        "seed": 1122444480658811120
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/011.png",
+        "index": 11,
+        "prompt": "A child in light green walks along the pavement as an adult woman in pink trousers examines a shop window.",
+        "prompt_sha256": "c501a78a01b2da339dce6bbc05fab37b855fa75764dc148c1422a456b94834bc",
+        "reference_id": "ve__snli_ve_test_0013__source__011",
+        "role": "source",
+        "seed": 282830266868075813
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/012.png",
+        "index": 12,
+        "prompt": "A small child in green clothing walks past a store entrance with a woman in pink pants visible nearby.",
+        "prompt_sha256": "0fef8f2ed9d2f92839c82b0ef1c7e280c1622675b8b14f57dba95257f5422ff9",
+        "reference_id": "ve__snli_ve_test_0013__source__012",
+        "role": "source",
+        "seed": 970967801324760710
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/013.png",
+        "index": 13,
+        "prompt": "A toddler in green crosses a paved area beside a shop while a woman wearing pink trousers stands at the doorway.",
+        "prompt_sha256": "10b6959c3dca3f59c04e6c55bf9feae37f215577c52c804cd8b49555e06c6158",
+        "reference_id": "ve__snli_ve_test_0013__source__013",
+        "role": "source",
+        "seed": 348713925583183857
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/014.png",
+        "index": 14,
+        "prompt": "A child in a green shirt walks along the sidewalk near a cafe opening as a woman in pink pants looks inside.",
+        "prompt_sha256": "b6db3c09cfdddcc65aea0764cc33ad5e916ed58196b117e864ce840d88bae72a",
+        "reference_id": "ve__snli_ve_test_0013__source__014",
+        "role": "source",
+        "seed": 640143488785320723
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/015.png",
+        "index": 15,
+        "prompt": "A small child in green walks past a storefront while a woman in pink pants stands separately near a street sign.",
+        "prompt_sha256": "fb1731d2d36047f515e3a0e1f565c966f53292ae84a9f0fd90c8b4ab92093a44",
+        "reference_id": "ve__snli_ve_test_0013__source__015",
+        "role": "source",
+        "seed": 600141847361202721
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/016.png",
+        "index": 16,
+        "prompt": "A child in green passes a shop window; an adult woman in pink trousers is visible a few steps away, facing the display.",
+        "prompt_sha256": "fea0d1f2f98771550d4cff3369010460ba47ceb02f12cb64c2b837c802049291",
+        "reference_id": "ve__snli_ve_test_0013__source__016",
+        "role": "source",
+        "seed": 393274977139802591
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/017.png",
+        "index": 17,
+        "prompt": "A toddler in green walks near a store entrance as a woman in pink pants stands by the open door.",
+        "prompt_sha256": "f436462e1e9feeb7b2603668eb7984a7ff94d9b604bd7289ca71d5afb6503e8f",
+        "reference_id": "ve__snli_ve_test_0013__source__017",
+        "role": "source",
+        "seed": 849888828376766791
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/018.png",
+        "index": 18,
+        "prompt": "A small child in a green jacket walks along a brick path past a shop while an adult in pink trousers looks into the window.",
+        "prompt_sha256": "9b71025dc614196cb2c04ab8e9f6a65750312b65a4bf9ba6ab45e2e590d8fda7",
+        "reference_id": "ve__snli_ve_test_0013__source__018",
+        "role": "source",
+        "seed": 825328322969081157
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/source/019.png",
+        "index": 19,
+        "prompt": "A child in light green walks past a store opening with a woman in pink pants nearby, both visible in the street scene.",
+        "prompt_sha256": "f43cbceb4690798ce8674ba76f242fd37f0ee75940714fbb1f8aa5475fea85af",
+        "reference_id": "ve__snli_ve_test_0013__source__019",
+        "role": "source",
+        "seed": 122328000749201054
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/000.png",
+        "index": 0,
+        "prompt": "A small child in green walks while holding his mother’s hand along a storefront sidewalk; she looks back at him as they move together.",
+        "prompt_sha256": "36b90725e603e673e8cac78a55ba0c470f2b8ba4f34fbfd32405b844339422ad",
+        "reference_id": "ve__snli_ve_test_0013__target__000",
+        "role": "target",
+        "seed": 753099848060346705
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/001.png",
+        "index": 1,
+        "prompt": "A child in green follows his mother along a brick sidewalk, holding her hand near an open shop entrance.",
+        "prompt_sha256": "5da7bb3bf9f34b38a333f64fb446ca7c4f21b64e917195041046bb8003b66eb9",
+        "reference_id": "ve__snli_ve_test_0013__target__001",
+        "role": "target",
+        "seed": 298028563284465005
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/002.png",
+        "index": 2,
+        "prompt": "A mother in a blue dress walks with her small child in green, who follows close beside her while holding her hand.",
+        "prompt_sha256": "b944e1809ae18ced54a8fbbcb5970ee2985b0bf1e29cdf6f78035c851b034f6e",
+        "reference_id": "ve__snli_ve_test_0013__target__002",
+        "role": "target",
+        "seed": 257429274020446226
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/003.png",
+        "index": 3,
+        "prompt": "A woman in a red skirt and a child in green walk together past a store; the child holds her hand and looks up at her.",
+        "prompt_sha256": "04363276652a89245426356697136f7f2b269eb9016e1da93104ba903c61bb88",
+        "reference_id": "ve__snli_ve_test_0013__target__003",
+        "role": "target",
+        "seed": 814957131802951969
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/004.png",
+        "index": 4,
+        "prompt": "A toddler in green follows his mother near a shop window, staying close and holding her hand.",
+        "prompt_sha256": "e4169679ac0d5dd4b5dac81cf6b5f6e6f1aa4f07db24c1c80255d0815acfc344",
+        "reference_id": "ve__snli_ve_test_0013__target__004",
+        "role": "target",
+        "seed": 626596023625944391
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/005.png",
+        "index": 5,
+        "prompt": "A child in green walks alongside his mother in a denim jacket on the sidewalk, their hands joined.",
+        "prompt_sha256": "2564538d266c2fda2b5bd5df097775dc5a088aa46fc298feaeec3dacc0a29df1",
+        "reference_id": "ve__snli_ve_test_0013__target__005",
+        "role": "target",
+        "seed": 1028578069354756833
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/006.png",
+        "index": 6,
+        "prompt": "A small child in green follows his mother in a black coat along a city street, holding her hand.",
+        "prompt_sha256": "ecad74e1c8d500888c2b8abe49f4528984dec276c3b11108d47c645112716bd8",
+        "reference_id": "ve__snli_ve_test_0013__target__006",
+        "role": "target",
+        "seed": 712114783310394284
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/007.png",
+        "index": 7,
+        "prompt": "A mother in a beige coat walks with her toddler in light green, who follows beside her on the sidewalk.",
+        "prompt_sha256": "3a0be6d23a5704a2af4bc1333eb140eae1d8a8a366f72ac46c858adf7ec81016",
+        "reference_id": "ve__snli_ve_test_0013__target__007",
+        "role": "target",
+        "seed": 686001717800638048
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/008.png",
+        "index": 8,
+        "prompt": "A child in green follows his mother in a purple top along a paved walkway, holding her hand.",
+        "prompt_sha256": "1965eeed584b250cec0a6a29234c990a1a0cebc2ceecead7f5af1990bee735fb",
+        "reference_id": "ve__snli_ve_test_0013__target__008",
+        "role": "target",
+        "seed": 76176728496710990
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/009.png",
+        "index": 9,
+        "prompt": "A small child in a green shirt walks with his mother in a striped shirt, following close beside her on a quiet sidewalk.",
+        "prompt_sha256": "69d904e2781817973752461c9ddb0a381cf3f73de9b94a439c2dcf13e239a8e1",
+        "reference_id": "ve__snli_ve_test_0013__target__009",
+        "role": "target",
+        "seed": 94421338737586026
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/010.png",
+        "index": 10,
+        "prompt": "A toddler in a green hoodie follows his mother in a navy dress along a brick path, holding her hand.",
+        "prompt_sha256": "9d3deeb5b92fc5bf663a304507d306af8ceb62989aa864910d986e27555b5cc3",
+        "reference_id": "ve__snli_ve_test_0013__target__010",
+        "role": "target",
+        "seed": 86403389324953183
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/011.png",
+        "index": 11,
+        "prompt": "A child in green walks hand in hand with his mother in a tan jacket along a concrete path.",
+        "prompt_sha256": "f43a3f4056eb9ec2b4c9485ef0c734ddbbec461d35176c1f808e64db5f8fed7c",
+        "reference_id": "ve__snli_ve_test_0013__target__011",
+        "role": "target",
+        "seed": 396205452271391253
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/012.png",
+        "index": 12,
+        "prompt": "A small child in green follows his mother in a green dress along a shop-lined street, staying close to her.",
+        "prompt_sha256": "c375d6b49624bb6e770eae918179a1d5c5c799e4db1703e3dc35fd6b623a26f2",
+        "reference_id": "ve__snli_ve_test_0013__target__012",
+        "role": "target",
+        "seed": 718841648183312401
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/013.png",
+        "index": 13,
+        "prompt": "A toddler in light green holds his mother’s hand as they walk together along a paved road.",
+        "prompt_sha256": "975f7341e9dc3b827d65701ec30cc6e7e485a716aed8aa27c7c76b556f6326af",
+        "reference_id": "ve__snli_ve_test_0013__target__013",
+        "role": "target",
+        "seed": 446563265476137180
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/014.png",
+        "index": 14,
+        "prompt": "A child in green follows his mother in a yellow top near a cafe, walking beside her and holding her hand.",
+        "prompt_sha256": "ef0d0b240a0697ac15e2f2ac1679f74a23de745652498a689289a01bc0c328dc",
+        "reference_id": "ve__snli_ve_test_0013__target__014",
+        "role": "target",
+        "seed": 588631628353382284
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/015.png",
+        "index": 15,
+        "prompt": "A small child in green follows his mother in a white dress along a sunny sidewalk, with their hands joined.",
+        "prompt_sha256": "f9d1f1475ccb064085c9447d562c18f5b66dcb050e3c6919c8cea02888ecdeb6",
+        "reference_id": "ve__snli_ve_test_0013__target__015",
+        "role": "target",
+        "seed": 19089205677538040
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/016.png",
+        "index": 16,
+        "prompt": "A toddler in green walks closely beside his mother in a leather jacket on a city street, holding her hand.",
+        "prompt_sha256": "249f60a34b8b23965700536ce5f96445ba9072e84ad3bbb26575fef0a87babc2",
+        "reference_id": "ve__snli_ve_test_0013__target__016",
+        "role": "target",
+        "seed": 167642702234050824
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/017.png",
+        "index": 17,
+        "prompt": "A child in light green follows his mother in a grey sweater along a sidewalk, looking up at her.",
+        "prompt_sha256": "60aefaf347140a0024bf99dac1413c88e967245215c6c8b98679ae738f7e5474",
+        "reference_id": "ve__snli_ve_test_0013__target__017",
+        "role": "target",
+        "seed": 229724727854129227
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/018.png",
+        "index": 18,
+        "prompt": "A small child in green follows his mother in a red top past a shop window, holding her hand.",
+        "prompt_sha256": "266d7900531b39cab4b2e1e3424c72b589be549ec0a79afdeced90f1bf1c5a35",
+        "reference_id": "ve__snli_ve_test_0013__target__018",
+        "role": "target",
+        "seed": 1130854304695539979
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0013/target/019.png",
+        "index": 19,
+        "prompt": "A toddler in a green shirt walks hand in hand with his mother in a white tee and blue jeans on a path.",
+        "prompt_sha256": "a58e5cfe9f0cd6c48833998be542ad99d4006ddebeceb701b1f98acbabd2f27d",
+        "reference_id": "ve__snli_ve_test_0013__target__019",
+        "role": "target",
+        "seed": 268548155214701890
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1138784872.jpg",
+    "original_image_sha256": "8db3ad478c553d8dd224b0dddcbbfd7a70df4ab5905fa2b4db76a21f502e0781",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "c07d3f259c0ee8e6e3d6b0dbbede87dfd9c024ea2e6f4e27187544d0ac17bf1e",
+    "sample_id": "snli_ve_test_0013",
+    "shard": 13,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "a small child is following his mom",
+      "premise_caption": "A small child in green clothing walks past a store opening and a woman in pink pants.",
+      "source_label": "neutral",
+      "target_label": "entailment"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0013__source__000": {
+      "job_sha256": "93711d584a1788ed895c1edd386c3f66566baa50ca5e3f40efb8a7ac4b225bc2",
+      "sha256": "4fcb45403c2d38ef79258c0c757eaf6b3724b775d97b2070df6f038c31d03956",
+      "bytes": 155490,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:48.699873+00:00"
+    },
+    "ve__snli_ve_test_0013__source__001": {
+      "job_sha256": "ddec1abfa7b7e477af6b70ca90c6f38ffd2c1e27316cd4802d04eb34309cb088",
+      "sha256": "c2afe785017c5c87943dd1e6e4aa8760daa98ad0ce057ab0fd5019f1e49431c4",
+      "bytes": 162203,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:48.762413+00:00"
+    },
+    "ve__snli_ve_test_0013__source__002": {
+      "job_sha256": "74eef93690622a8ad4cd0f1651fe155f40ff04cd31dcbd32f143c0114fb24776",
+      "sha256": "06fcb7c28657cf007fa5220b20d9659e315cc9e5d959a91301b00570ba1f605c",
+      "bytes": 145813,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:48.806879+00:00"
+    },
+    "ve__snli_ve_test_0013__source__003": {
+      "job_sha256": "b47f6c131421804e61cd36f2d8707d1007c25f3522e348ce132e0e421c2c6341",
+      "sha256": "981754e5919ebe8d29809355090d81764e53fef526faea81ad5a0af891affa10",
+      "bytes": 145143,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:48.848563+00:00"
+    },
+    "ve__snli_ve_test_0013__source__004": {
+      "job_sha256": "1816d283f4232b7366d12e59db05c743a14e6335d284a2d1356d458b007f33f7",
+      "sha256": "f4fd1396432c2358429363f4668ec0e9295b8e2adcb13933dba5cd24ffbf075c",
+      "bytes": 161025,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:48.890926+00:00"
+    },
+    "ve__snli_ve_test_0013__source__005": {
+      "job_sha256": "17ed63047a4cbd9104ed6e11efaddc5aca81941b1d9597e30242266066ffb1c4",
+      "sha256": "8e9b74bc5c27402f9bdb340ae5ba526edf855515f769be2e8cbf6caadd86743d",
+      "bytes": 150814,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:48.934621+00:00"
+    },
+    "ve__snli_ve_test_0013__source__006": {
+      "job_sha256": "e3d297ce830b5f9f1dfe81cf56b6ee37167e8affb09e3a445daa29750fcb2ad6",
+      "sha256": "69e2617472a4e8562430a69c2f8fee290a9b9684e696ba648b951d3609178908",
+      "bytes": 163498,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:48.988813+00:00"
+    },
+    "ve__snli_ve_test_0013__source__007": {
+      "job_sha256": "384f4810a643295b6b396f05d12ee1527c1279d854863bee648adb5977f5752b",
+      "sha256": "7065cf6045cef6769b4df9716dc0eeeccccb747d9fa2cdc36e3957607bf5197e",
+      "bytes": 144025,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.029882+00:00"
+    },
+    "ve__snli_ve_test_0013__source__008": {
+      "job_sha256": "739973d01e19b1caa31117edb09791be0521902b6893d7da8e6d0b9c7731d47d",
+      "sha256": "89372053ff8f4d9fb9626bf7ca54a7fe9352e3987e3908c29a3814b3e302815f",
+      "bytes": 146143,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.073170+00:00"
+    },
+    "ve__snli_ve_test_0013__source__009": {
+      "job_sha256": "720cd71654941986547d9d824813303136a5ce0c49389af5ce670d6f1fd2fef9",
+      "sha256": "208c2b2878c000aa53243986814dabcfbd9cd7a0df7be1e4d3ea6ab11d37e969",
+      "bytes": 160470,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.108037+00:00"
+    },
+    "ve__snli_ve_test_0013__source__010": {
+      "job_sha256": "155937a8ebd35897f7de77cdd14bb91b443182b567342b9fa5e14ca902714cc4",
+      "sha256": "56beea63712997a605a59dcfe26721044945e0d978a7c238a2d7cc6960c36ca2",
+      "bytes": 155995,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.158266+00:00"
+    },
+    "ve__snli_ve_test_0013__source__011": {
+      "job_sha256": "e6bd1904dc53a3d4cfbb30d3195823414ef654d85dde6ce866ad2f56d4ae1551",
+      "sha256": "3a17ec7b74a8f32125a218802b81833b3dc5f455b9cc38f2ee40b4e74ef821f1",
+      "bytes": 153287,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.202278+00:00"
+    },
+    "ve__snli_ve_test_0013__source__012": {
+      "job_sha256": "b0afe3a3b1671c9628051971d1ccd9fe1c057ac67c17aae10b69e8cff508756e",
+      "sha256": "cb09514b87fef1128feee4730bca346a5b83428aec13237d7566d89a462b0ff8",
+      "bytes": 151679,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.243302+00:00"
+    },
+    "ve__snli_ve_test_0013__source__013": {
+      "job_sha256": "e86ad813a33bacf985f7299322b03ba62ad45fa084eefbcd9bd6d99920f58763",
+      "sha256": "fb6e1378109143b2de8dec858894342ccbd47019608cea92db3afc49989e3fae",
+      "bytes": 162020,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.284419+00:00"
+    },
+    "ve__snli_ve_test_0013__source__014": {
+      "job_sha256": "64ad246a465af0015a2ffe85eaa3c40d60fe003539bf8ff3f0ee28260bc26f5d",
+      "sha256": "2d52b30ed86772fcaf7effc2cd8c9edcd83a3325ab1a61ae064b687f1e348e8d",
+      "bytes": 142222,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.326247+00:00"
+    },
+    "ve__snli_ve_test_0013__source__015": {
+      "job_sha256": "a5415cf327ac0e352c5ecb8d420783e2d9a37fd2b0bb4cfddafe4bc174f69ff6",
+      "sha256": "64b8739e5b5bb07192ed75d93b60431a4d306e46c00a547524bd2325ff7e2af4",
+      "bytes": 138693,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.366280+00:00"
+    },
+    "ve__snli_ve_test_0013__source__016": {
+      "job_sha256": "c0a911731088f8e25d01a744bf05a17820e12e7f123ba3abb3414cef989388b4",
+      "sha256": "1645df605262ce28fcb1500364e9e34ef343844fe7980fb05d402db3cc6cc077",
+      "bytes": 154520,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.410496+00:00"
+    },
+    "ve__snli_ve_test_0013__source__017": {
+      "job_sha256": "fa7328bf913299a35cfc30284a4990e049a79303e422b282dd38457bf4cb84fb",
+      "sha256": "cd78e0bf9883cbedb2bdd1753507a875f2dfde01f3dade6cdf4779480f63ff08",
+      "bytes": 151814,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.450262+00:00"
+    },
+    "ve__snli_ve_test_0013__source__018": {
+      "job_sha256": "a7d444fb41e57a40b48ce493e25912ddd9d389f5ed76019e8a6f03422ab519ef",
+      "sha256": "7073ba41d0d000f97154808a5b42a07b1a195e12f85a9e48eebf4556c5a6b877",
+      "bytes": 159009,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.492614+00:00"
+    },
+    "ve__snli_ve_test_0013__source__019": {
+      "job_sha256": "11748c8dedb0e99bc5e05634dcc683bff77616f0087b932dcd7d083a7bf0afa4",
+      "sha256": "13b4ad0abb0b278f3695e42d0b1de4a6540c727ef774c81e69a9d30f56b33f8a",
+      "bytes": 156749,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.534147+00:00"
+    },
+    "ve__snli_ve_test_0013__target__000": {
+      "job_sha256": "b1e1eef1c2104382afb2103032d09f382840f1a3d13300e18ed646e833873c68",
+      "sha256": "3aeb2cf175f55a8ee5b5e66df89a7b82acd8e3139e6555607cdd4c2094917ed9",
+      "bytes": 147897,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.592032+00:00"
+    },
+    "ve__snli_ve_test_0013__target__001": {
+      "job_sha256": "899799e715c564024e868091c174080e585e835d9aaa91ed5a39616a3f58f635",
+      "sha256": "2b77a2ca1c35c2fd12def3d5c20a6e4f4c7d09932a67c273675baffb6881d494",
+      "bytes": 169945,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.644596+00:00"
+    },
+    "ve__snli_ve_test_0013__target__002": {
+      "job_sha256": "5c2d5995341a63779c96dedfe196cc39f93dd0198d2c19aefed5dd0f38121313",
+      "sha256": "ec60a59e66c76ae24f1b271b25c7e1099b6f48d9a4955e6e4a18e80f5045c18d",
+      "bytes": 166121,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.687884+00:00"
+    },
+    "ve__snli_ve_test_0013__target__003": {
+      "job_sha256": "789702089c794d25f50f7f17b36f3b693c5201a251e09b2f6c2cb0e0532b4cc0",
+      "sha256": "840e22e1d47b0a6e0625efa69318cc6f46c2686e79851aa0336a4adb0d4a6ba4",
+      "bytes": 151093,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.740590+00:00"
+    },
+    "ve__snli_ve_test_0013__target__004": {
+      "job_sha256": "cf18e7ca7e297dd5894cacb81f1675fa71ed2c7f99d43bd9b13cf1c24dff4d3a",
+      "sha256": "f9e982d198d2d8f0537371d9be373e225bbebbe44321668f56402c586d2d4fbc",
+      "bytes": 151618,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.782345+00:00"
+    },
+    "ve__snli_ve_test_0013__target__005": {
+      "job_sha256": "8405603283a3deb1e101a117113dbb27af8c97322b127dea33dfc55b52fc6ef4",
+      "sha256": "5d99e16a8d45f69141a24a383d1a89daa338a4bf6957c5803c75e7283e440e3b",
+      "bytes": 153857,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.827004+00:00"
+    },
+    "ve__snli_ve_test_0013__target__006": {
+      "job_sha256": "2c1364b7900b863e034b9e2291c0b52b8fffb4f615e9de988c3bb19a90fb40e8",
+      "sha256": "9c32b1312cd39cc3930f4268bfcd72d504cdf645752116bb7672fca74d8b34cb",
+      "bytes": 139076,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.869529+00:00"
+    },
+    "ve__snli_ve_test_0013__target__007": {
+      "job_sha256": "6ff63a0e6683a58fb9fb99f3f014d23aea3871ecce453ef021aa2f7e092abac9",
+      "sha256": "a85355bfcef12976349a7eabe458e5a0b5b649a56214adaad51d52bc6be8b1c6",
+      "bytes": 142352,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.910713+00:00"
+    },
+    "ve__snli_ve_test_0013__target__008": {
+      "job_sha256": "8663fd5a955951db665929fea30428ddfde6d1097a3fbe611f13fe756b2e6639",
+      "sha256": "76ed9936460663ea412e87b85ae3a84b89e39fcedc0af00fdb6bec8ff676da21",
+      "bytes": 154110,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.950628+00:00"
+    },
+    "ve__snli_ve_test_0013__target__009": {
+      "job_sha256": "903322dac63961dc195701086f060fa90de10758ee505769205646dd96b4f9e3",
+      "sha256": "7e0617962e123502a86e4e42d15363a6c9a24f7dd31db8ea666fa8851c473dae",
+      "bytes": 161796,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:49.997704+00:00"
+    },
+    "ve__snli_ve_test_0013__target__010": {
+      "job_sha256": "f8b5500b79965e1d25ceca99648a81fcb2e40dd333e5bcaa775af6590ddd283f",
+      "sha256": "1c8b8f9f74fa402dadbe6ccc9ac260288b2a24b63158a42e1bec8ca6842920d9",
+      "bytes": 149655,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:50.041460+00:00"
+    },
+    "ve__snli_ve_test_0013__target__011": {
+      "job_sha256": "df1e9dfea47354325d805d225db86d44e648a1b8ebd850ff356782475ecb051f",
+      "sha256": "700e2472bec6cc31080a9fde48e03e119d4b7b554ad564875f259e2046da8f53",
+      "bytes": 145020,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:50.086608+00:00"
+    },
+    "ve__snli_ve_test_0013__target__012": {
+      "job_sha256": "1ab2b25b3af3fc6fc308a3367057438cdc4b151e501f8da5e3bfb083329169ea",
+      "sha256": "9d9d5fa6530a08ea9b01075a62343d71323a4b7234bfc5d2fb788fa7e50b2657",
+      "bytes": 154667,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:50.125806+00:00"
+    },
+    "ve__snli_ve_test_0013__target__013": {
+      "job_sha256": "394e09b4529cdb50f3c1e3e306df2e8a1c3c4b2b0247a76ccf51639f536ee39a",
+      "sha256": "09510dae44f4cdc02bb2333211b1675b698e9301e1d2c6d3f3455e5b5b9e523a",
+      "bytes": 144981,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:50.198237+00:00"
+    },
+    "ve__snli_ve_test_0013__target__014": {
+      "job_sha256": "f13ab777304c413e3a917ec99a545f75348ea32a13eafb9afe83d0d87bad09bd",
+      "sha256": "f87919fd404951e36c97d2467abd0b89bed735f25f53771514f835d891ad3aea",
+      "bytes": 151053,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:50.238023+00:00"
+    },
+    "ve__snli_ve_test_0013__target__015": {
+      "job_sha256": "a62917371e219a0c3cb1ed8cea50f21b472c5ce6adc29211fd2e4dfff2d1f6fa",
+      "sha256": "ab3e7219cd06deda814519984456eb7340535da80d0ae4f8b840f3df6477a114",
+      "bytes": 144188,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:50.275586+00:00"
+    },
+    "ve__snli_ve_test_0013__target__016": {
+      "job_sha256": "77fca60d9a1b835a8d99b133192045914a39aabb021fdb55373108f5ab535069",
+      "sha256": "5e5ad1e40d0483b1dfcadf31f631a57ba9a17bd88b1c201381b024cf9b4f8ed7",
+      "bytes": 152432,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:50.318777+00:00"
+    },
+    "ve__snli_ve_test_0013__target__017": {
+      "job_sha256": "8c6273cc5e05f62e83c5282c0b578c201c17a8cd4cbcdd516f8d52f45e2237c4",
+      "sha256": "41a59424add7145c0e740a72b0c1e840a84b856c066a1b13f3d87e70cf975f52",
+      "bytes": 151652,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:50.357095+00:00"
+    },
+    "ve__snli_ve_test_0013__target__018": {
+      "job_sha256": "7af0770353fd0f62413bb0d629442e0377d8c41c88bc2c3e0ebb80db459d1bb4",
+      "sha256": "d34bbc2b0afef4e32194c665a1ed14f50dff1d02cac09cef5a64382603c70e85",
+      "bytes": 135217,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:50.400346+00:00"
+    },
+    "ve__snli_ve_test_0013__target__019": {
+      "job_sha256": "749f45de99f264f6eaf2f3cdb6262445d71d82391cf40b211dc04a761e07c7cf",
+      "sha256": "20c95619a5acb2f77503e6df5ed449f4a1b41f2ce5a0aecec0fb547f2accc2ea",
+      "bytes": 151899,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.859127326868474,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:40:50.437107+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:40:50.437126+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

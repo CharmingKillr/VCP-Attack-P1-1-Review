@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "19aa0ee6c75dec96a42a54b8486a443df92ccd7b98ebc1c660d299a9e4856e52",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "63332d3bd455dfb2bae452ce62d1b759dbf172dddf2a5b83aa33186a5081f7f7",
+      "notes": "Source is lifting the cold-water faucet handle; target is pressing a distinct blue button. Clarified several source prompts that omitted the lifted action and moved an implausible button-on-spout to the faucet base.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0010/source/000.png",
+        "index": 0,
+        "prompt": "A close-up of a chrome bathroom faucet with the left handle lifted vertically to activate the cold water stream.",
+        "prompt_sha256": "c2434522bb8d604a18603afb730886f16763f46a3aecf33483ff41b1baa4eb86",
+        "reference_id": "vqa__vqa_val_0010__source__000",
+        "role": "source",
+        "seed": 1034528666169948651
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/001.png",
+        "index": 1,
+        "prompt": "A medium shot of a white porcelain sink featuring a dual-handle faucet where the left knob is raised to turn on cold water.",
+        "prompt_sha256": "d28f6f592208f09e465e1ba9f537b09ee2ca341e8c115a5f13f46a92eab51e19",
+        "reference_id": "vqa__vqa_val_0010__source__001",
+        "role": "source",
+        "seed": 246589263725123819
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/002.png",
+        "index": 2,
+        "prompt": "A bathroom sink with a dual-handle faucet where the left handle is raised vertically to turn on cold water.",
+        "prompt_sha256": "133492a09fd83dd2f3b9da006653ebbf50cc78a241ae50ea4783e008fbc60ece",
+        "reference_id": "vqa__vqa_val_0010__source__002",
+        "role": "source",
+        "seed": 1127556187758234631
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/003.png",
+        "index": 3,
+        "prompt": "Medium shot of a white porcelain sink featuring a dual-handle faucet with the left lever lifted to activate cold flow.",
+        "prompt_sha256": "9a0d8564130e065d8c33d5e15c9e2053a471653be40703d138bd6ac5a5a01579",
+        "reference_id": "vqa__vqa_val_0010__source__003",
+        "role": "source",
+        "seed": 868850767833648210
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/004.png",
+        "index": 4,
+        "prompt": "Slightly elevated view of a bathroom vanity with a dual-handle faucet, the left handle lifted vertically to activate cold water.",
+        "prompt_sha256": "564ac80c7b1dfe3ec5bbfa5e0d769b63237d8ee1202e730ee9c2018dfb7af0f1",
+        "reference_id": "vqa__vqa_val_0010__source__004",
+        "role": "source",
+        "seed": 915705910163432283
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/005.png",
+        "index": 5,
+        "prompt": "Medium framing of a kitchen sink featuring a standard two-handle faucet, with the cold handle raised to turn on the water.",
+        "prompt_sha256": "d6d217d99cb479bc220d8aeb81f93f700c90daaab6b7d402c68be92ecd7277a5",
+        "reference_id": "vqa__vqa_val_0010__source__005",
+        "role": "source",
+        "seed": 708283624677788741
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/006.png",
+        "index": 6,
+        "prompt": "A brass two-handle kitchen faucet with the blue-marked cold handle lifted upward, shown from a side angle against blue tiles.",
+        "prompt_sha256": "c66924ce102cd25492972a72ab8c1a8809aae8f3caa4deab54639864e645cb70",
+        "reference_id": "vqa__vqa_val_0010__source__006",
+        "role": "source",
+        "seed": 700218689956107181
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/007.png",
+        "index": 7,
+        "prompt": "Frontal view of a modern white sink; the separate blue-marked cold-water handle is lifted to start the stream.",
+        "prompt_sha256": "07bbf62fd5fa1ea43caa23be1fb9a1884df5f7f74ed8ce7e628bec630f67c055",
+        "reference_id": "vqa__vqa_val_0010__source__007",
+        "role": "source",
+        "seed": 973528517378000749
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/008.png",
+        "index": 8,
+        "prompt": "Side profile of a chrome dual-handle faucet with its cold-water handle lifted, and cold water flowing into the basin.",
+        "prompt_sha256": "adb5d7453dc8d6f8c9cbb0964efe503426900e45218d4d3cd3f1940316cd120b",
+        "reference_id": "vqa__vqa_val_0010__source__008",
+        "role": "source",
+        "seed": 490496413745876742
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/009.png",
+        "index": 9,
+        "prompt": "Medium shot of a white bathroom sink featuring a dual-handle faucet, with the left handle lifted upward to indicate the cold water position.",
+        "prompt_sha256": "2a0ef80ba9205c1b2813292af53dbdd240cceada8a1685cfb4eb1263ffe2c945",
+        "reference_id": "vqa__vqa_val_0010__source__009",
+        "role": "source",
+        "seed": 510951697904169052
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/010.png",
+        "index": 10,
+        "prompt": "A dual-handle bathroom faucet on a white sink, with the left handle lifted vertically to indicate cold water activation.",
+        "prompt_sha256": "945119d9e19682bdf0a099ddbab09ff407c98d4fa82d9441cd8e49fc4911f9a0",
+        "reference_id": "vqa__vqa_val_0010__source__010",
+        "role": "source",
+        "seed": 632741567742885788
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/011.png",
+        "index": 11,
+        "prompt": "A medium shot of a chrome vanity faucet where the left knob is raised upward, clearly showing the cold water control position.",
+        "prompt_sha256": "2ecf0668679d32f78cda669d174c3e435fe83e4fa97b39f7dbe751fdc2763fda",
+        "reference_id": "vqa__vqa_val_0010__source__011",
+        "role": "source",
+        "seed": 923666264325016464
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/012.png",
+        "index": 12,
+        "prompt": "A dual-handle bathroom faucet on a beige countertop, with the left handle clearly positioned vertically to indicate cold water activation.",
+        "prompt_sha256": "c3c52d1b0c073bc85b4ddda984e2b0c4e0d4b2bfa1ede41c30ab5ba4c8ac680c",
+        "reference_id": "vqa__vqa_val_0010__source__012",
+        "role": "source",
+        "seed": 184131919517385674
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/013.png",
+        "index": 13,
+        "prompt": "Medium shot of a white porcelain sink featuring a dual-handle faucet, showing the left handle lifted upward to turn on the cold water.",
+        "prompt_sha256": "302ff7fa9e0b0f973335cc80e3cde7ec419bbd205a3400c7292a47cf92e9e4ae",
+        "reference_id": "vqa__vqa_val_0010__source__013",
+        "role": "source",
+        "seed": 776082318807947553
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/014.png",
+        "index": 14,
+        "prompt": "A bathroom sink with a dual-handle faucet where the left handle is lifted vertically to activate cold water flow.",
+        "prompt_sha256": "58a764794268fd1680d8c23d1bf2606e31fdd71879e50b722c5a3d754f29f34b",
+        "reference_id": "vqa__vqa_val_0010__source__014",
+        "role": "source",
+        "seed": 52365549465859430
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/015.png",
+        "index": 15,
+        "prompt": "A white porcelain sink featuring a cross-handle faucet with the left handle turned upward to release cold water.",
+        "prompt_sha256": "19cabf3a7de038b8e468b4a670a323ef5da1a4ed1d177e743022de637af4f0db",
+        "reference_id": "vqa__vqa_val_0010__source__015",
+        "role": "source",
+        "seed": 791742539475652093
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/016.png",
+        "index": 16,
+        "prompt": "A bathroom sink with a dual-handle faucet, showing the left handle raised vertically to indicate cold water activation.",
+        "prompt_sha256": "5ebeaebadb0b45a6675971ea558d6fa12237017822e60962eebee5b1af56bb23",
+        "reference_id": "vqa__vqa_val_0010__source__016",
+        "role": "source",
+        "seed": 268672012516910563
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/017.png",
+        "index": 17,
+        "prompt": "Medium shot of a white porcelain sink featuring a cross-handle faucet, with the left handle turned upward to open the cold water.",
+        "prompt_sha256": "72e0123ad5cdf9030c3374493671e09923bb3cacaba19953f754138a8e4a04f4",
+        "reference_id": "vqa__vqa_val_0010__source__017",
+        "role": "source",
+        "seed": 417784042206312844
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/018.png",
+        "index": 18,
+        "prompt": "A bathroom vanity with a dual-handle faucet where the left handle is raised vertically to activate cold water flow.",
+        "prompt_sha256": "9552fedff513569fa3b64f1554703d04b8847f3abbbb93e3feeada754b335914",
+        "reference_id": "vqa__vqa_val_0010__source__018",
+        "role": "source",
+        "seed": 395884313185860157
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/source/019.png",
+        "index": 19,
+        "prompt": "Medium shot of a chrome kitchen sink faucet with the left lever handle pushed upward to turn on cold water.",
+        "prompt_sha256": "61591cff215ffa8119267aec738f6d7bcc0aac144d01d2433fc72a1e0921e629",
+        "reference_id": "vqa__vqa_val_0010__source__019",
+        "role": "source",
+        "seed": 1016174437999782144
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/000.png",
+        "index": 0,
+        "prompt": "A close-up of a chrome bathroom faucet featuring a distinct blue button being pressed to activate the cold water stream.",
+        "prompt_sha256": "e28ae2f4e9782df147a2ad85c37e834896e843ba307a4b07eb60f1e7e07bb588",
+        "reference_id": "vqa__vqa_val_0010__target__000",
+        "role": "target",
+        "seed": 1090690332877315812
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/001.png",
+        "index": 1,
+        "prompt": "A medium shot of a white porcelain sink with a dual-handle faucet where a blue cold-water button is pressed to turn on the water.",
+        "prompt_sha256": "f2a2340ec3b6e7c38f71811d561f91ba670c1f565c3bf9622430491ef2112cf3",
+        "reference_id": "vqa__vqa_val_0010__target__001",
+        "role": "target",
+        "seed": 463489245375263147
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/002.png",
+        "index": 2,
+        "prompt": "A bathroom sink with a dual-handle faucet where a distinct blue button is pressed to turn on cold water.",
+        "prompt_sha256": "8407f55688c4c22b55df5ac1ea1b5bf080372dc85a412d86e148f29832d9c966",
+        "reference_id": "vqa__vqa_val_0010__target__002",
+        "role": "target",
+        "seed": 523738216560067922
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/003.png",
+        "index": 3,
+        "prompt": "Medium shot of a white porcelain sink featuring a dual-handle faucet with a blue cold-water button depressed to activate flow.",
+        "prompt_sha256": "3dacc510ff27dc782e7573cd18f20cee4728cd6e3679f17bd847cd5f442d0883",
+        "reference_id": "vqa__vqa_val_0010__target__003",
+        "role": "target",
+        "seed": 500404224793413883
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/004.png",
+        "index": 4,
+        "prompt": "Slightly elevated view of a bathroom vanity with a dual-handle faucet, the left handle replaced by a distinct blue button pressed to activate cold water.",
+        "prompt_sha256": "03d87d0e8112745c75b202c0da4764b4d085f7353a049ff21f8e87f7f35f9225",
+        "reference_id": "vqa__vqa_val_0010__target__004",
+        "role": "target",
+        "seed": 296945525429373207
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/005.png",
+        "index": 5,
+        "prompt": "Medium framing of a kitchen sink featuring a standard two-handle faucet, with the cold side showing a blue button pressed down to turn on the water.",
+        "prompt_sha256": "93c3a22b4017d654db0b097b9f13feeb152e573d672dfca057582918903d283d",
+        "reference_id": "vqa__vqa_val_0010__target__005",
+        "role": "target",
+        "seed": 827478542184657337
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/006.png",
+        "index": 6,
+        "prompt": "A brass kitchen faucet with a distinct blue cold-water button on the left, shown from a side angle against blue tiles.",
+        "prompt_sha256": "d0cd5e6ae89abd1a50e0cd32f094603e58b6bddb2551fe8d79a7578d326089bc",
+        "reference_id": "vqa__vqa_val_0010__target__006",
+        "role": "target",
+        "seed": 26223870229161538
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/007.png",
+        "index": 7,
+        "prompt": "Frontal view of a modern white sink featuring a separate blue cold water button positioned to the right.",
+        "prompt_sha256": "4e4cdccfc63846dbb447e1d0d99f055b0cff85c6708f03d7027e006b0793e4d5",
+        "reference_id": "vqa__vqa_val_0010__target__007",
+        "role": "target",
+        "seed": 817085396643012034
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/008.png",
+        "index": 8,
+        "prompt": "Side profile of a chrome faucet with a distinct blue push button on its base being pressed to activate the cold-water stream.",
+        "prompt_sha256": "1db0a79a6b76285b9ac4b53c292d748dcb75dd4cce2eae792cfeb63848ba136d",
+        "reference_id": "vqa__vqa_val_0010__target__008",
+        "role": "target",
+        "seed": 768655255719939822
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/009.png",
+        "index": 9,
+        "prompt": "Medium shot of a white bathroom sink featuring a dual-handle faucet, with a small blue button depressed on the left side to indicate the cold water position.",
+        "prompt_sha256": "87b25a05d96d4e2094fea3dcbb7e90dc656a569dbb49618717adc1a597fe2f8a",
+        "reference_id": "vqa__vqa_val_0010__target__009",
+        "role": "target",
+        "seed": 524545304694745549
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/010.png",
+        "index": 10,
+        "prompt": "A dual-handle bathroom faucet on a white sink, with a distinct blue button pressed down to activate cold water.",
+        "prompt_sha256": "feb1fd119e2969234982b5e93f9453e299d65bb52e6438a82aba6fbd08f868d1",
+        "reference_id": "vqa__vqa_val_0010__target__010",
+        "role": "target",
+        "seed": 1100572086594326703
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/011.png",
+        "index": 11,
+        "prompt": "A medium shot of a chrome vanity faucet where a blue cold-water button is depressed, clearly showing the activation control.",
+        "prompt_sha256": "f4fd19c414bd022cdcbc3f090cca3b54f152013ca213d27cd65c68aace27f7e7",
+        "reference_id": "vqa__vqa_val_0010__target__011",
+        "role": "target",
+        "seed": 766981964248691561
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/012.png",
+        "index": 12,
+        "prompt": "A dual-handle bathroom faucet on a beige countertop, featuring a distinct blue push-button on the left side for cold water activation.",
+        "prompt_sha256": "5eea1f90555351e5ceba2b950cb45b5d045f1d8f563dc51cdb42760eaf779c6c",
+        "reference_id": "vqa__vqa_val_0010__target__012",
+        "role": "target",
+        "seed": 1053453598534747886
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/013.png",
+        "index": 13,
+        "prompt": "Medium shot of a white porcelain sink with a dual-handle faucet, showing a blue cold-water button pressed down to activate the flow.",
+        "prompt_sha256": "36abd6c51133d3e531091a6b7a39558b03a191341cf6393ea922e5cd71b4a4a2",
+        "reference_id": "vqa__vqa_val_0010__target__013",
+        "role": "target",
+        "seed": 64798330022745286
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/014.png",
+        "index": 14,
+        "prompt": "A bathroom sink with a dual-handle faucet where the left handle is a distinct blue button pressed to activate cold water flow.",
+        "prompt_sha256": "906ea2ccd663485cda54b1e47007c8f7407669826cb2dde25c5f1ad213019262",
+        "reference_id": "vqa__vqa_val_0010__target__014",
+        "role": "target",
+        "seed": 592068573011234299
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/015.png",
+        "index": 15,
+        "prompt": "A white porcelain sink featuring a cross-handle faucet with the left handle as a blue button pushed to release cold water.",
+        "prompt_sha256": "97494faf22d7196a94aa328202014dc037c3ea20c37fbd14fd85f6c36a4e897a",
+        "reference_id": "vqa__vqa_val_0010__target__015",
+        "role": "target",
+        "seed": 817151678325200220
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/016.png",
+        "index": 16,
+        "prompt": "A bathroom sink with a dual-handle faucet, showing a distinct blue button on the left side pressed to activate cold water.",
+        "prompt_sha256": "704a1f4848c38cabc59bc961a514f96e6259aca3dd40baccf81358ee7efb2e2b",
+        "reference_id": "vqa__vqa_val_0010__target__016",
+        "role": "target",
+        "seed": 574168310400726310
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/017.png",
+        "index": 17,
+        "prompt": "Medium shot of a white porcelain sink featuring a cross-handle faucet, with a blue cold-water button depressed on the left side.",
+        "prompt_sha256": "783e5a0b7e2f9c440028c63c1807241abc4e4d14a053346a2a69cf6636201576",
+        "reference_id": "vqa__vqa_val_0010__target__017",
+        "role": "target",
+        "seed": 282961808250666304
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/018.png",
+        "index": 18,
+        "prompt": "A bathroom vanity with a dual-handle faucet where a distinct blue button on the left side is pressed to activate cold water flow.",
+        "prompt_sha256": "8ac2f48a735d82e6e2f74cf9618e72880272dfbbcd89c137225e7fdbe1aa491c",
+        "reference_id": "vqa__vqa_val_0010__target__018",
+        "role": "target",
+        "seed": 982190467352894806
+      },
+      {
+        "image": "samples/vqa/vqa_val_0010/target/019.png",
+        "index": 19,
+        "prompt": "Medium shot of a chrome kitchen sink faucet with a blue cold-water button being pressed to turn on the water.",
+        "prompt_sha256": "6b1d4c19a6f16523ceeb0316400e4eadbed9a457425f46ab209ef2b4d8ca04a7",
+        "reference_id": "vqa__vqa_val_0010__target__019",
+        "role": "target",
+        "seed": 696702105013859211
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000208.jpg",
+    "original_image_sha256": "894ca4ae86ad74ebce2c9f5a683e067b569edf3234641161c7aecb0f30de2bb6",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "19aa0ee6c75dec96a42a54b8486a443df92ccd7b98ebc1c660d299a9e4856e52",
+    "sample_id": "vqa_val_0010",
+    "shard": 114,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "How do you turn on the cold water?",
+      "source_answer": "by lifting the cold-water faucet handle",
+      "source_answers": [
+        "with handle",
+        "push handle sideways",
+        "move handle to right",
+        "handle",
+        "push up on faucet",
+        "lift right",
+        "lift handle",
+        "up and right",
+        "up and to right",
+        "lift handle to right"
+      ],
+      "target_answer": "by pressing a blue cold-water button"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0010__source__000": {
+      "job_sha256": "f1b5ff57382e99ca123109ad4feacbb0ac0b16e4be7a22ad7b7557e1b53db10a",
+      "sha256": "8cb5c6af0bb991f924ecf3142e608a48b6311f5e837e25487589b14378c7a682",
+      "bytes": 111096,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:22.860179+00:00"
+    },
+    "vqa__vqa_val_0010__source__001": {
+      "job_sha256": "144ac7779d10b8858e64c32b5155385067c11828bc686141202be05e50a0b001",
+      "sha256": "f263bab281ba0e078613e856d4abb497acceca56b38c8d9d0ec9d3af8ca7fa6e",
+      "bytes": 94826,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:22.898362+00:00"
+    },
+    "vqa__vqa_val_0010__source__002": {
+      "job_sha256": "f3a63ec01d2276e3b21576f0b3feba860600405c1685b03c7091ab73368750d3",
+      "sha256": "73e16fdac244593dfd7c462aca0ddef05dfdcd8e891de4d6c0879f90e0aa0ddd",
+      "bytes": 104120,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:22.939925+00:00"
+    },
+    "vqa__vqa_val_0010__source__003": {
+      "job_sha256": "23e00040d3a8d891276359efe57312f463aef151e41a7a7b3976e51f185f302f",
+      "sha256": "4296f4392b00d386936e66b8c6454bbd53f52abfca047428da7641635f524409",
+      "bytes": 106574,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:22.981859+00:00"
+    },
+    "vqa__vqa_val_0010__source__004": {
+      "job_sha256": "00e6b30de9a43a6534f0605395683020f9673958df2440d475f14553d2549861",
+      "sha256": "e4b9c5fbd733396ce822d5ce7b504e47a8636bf4dd06671917ad60179568b699",
+      "bytes": 115144,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.023719+00:00"
+    },
+    "vqa__vqa_val_0010__source__005": {
+      "job_sha256": "6eb16d577aff34aadc7cecfe133e394079ad016ed70a2beb03e3c87b92dce9a8",
+      "sha256": "d56f8a8016195535cb8e66360897c82ae37d68c071665d47d0fa59dccb7229ed",
+      "bytes": 105197,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.058721+00:00"
+    },
+    "vqa__vqa_val_0010__source__006": {
+      "job_sha256": "907f651be3a277aa72b301178ff4b9a8b1b506d18eb87af3819da0804be35dc2",
+      "sha256": "c16ab99ab04a084876f0ba5a0a79ef3d9355a62437bec7d99f3eed2d387d76d0",
+      "bytes": 138566,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.094615+00:00"
+    },
+    "vqa__vqa_val_0010__source__007": {
+      "job_sha256": "7dd2686ae5692bad6853289b4166695b336c248831996a4f968e41f488bb2c3c",
+      "sha256": "3f9bf6831c10d8a7fd70d99cc2f87dfda590a5176e92fe287b8b5973fe602415",
+      "bytes": 64342,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.126409+00:00"
+    },
+    "vqa__vqa_val_0010__source__008": {
+      "job_sha256": "af6690e24d6dec29ad7fae27f6a3a3655976b0d8f117056ee603595e98fd7eb6",
+      "sha256": "43e020e7a6ca6b78473004f72474025f510d1ff8ad95f3861a63f8dfaf615c48",
+      "bytes": 103399,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.166978+00:00"
+    },
+    "vqa__vqa_val_0010__source__009": {
+      "job_sha256": "e5e30cdca1fe82812c35e78bda3b0ec23d330638a028f29b953abc9acdfac121",
+      "sha256": "17a9057d730609e9921acf875371d5d4c338efab8e3437273537b771381fddbf",
+      "bytes": 108927,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.208502+00:00"
+    },
+    "vqa__vqa_val_0010__source__010": {
+      "job_sha256": "e50f298a068c11a868f9803bf70fddae6a87f666bb15d1f417ade16752246c11",
+      "sha256": "a2cc4ab95680cf80581425c5341884dee284f839a379e27b12e1b2c088266fc5",
+      "bytes": 102775,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.249925+00:00"
+    },
+    "vqa__vqa_val_0010__source__011": {
+      "job_sha256": "b76108031d52f429291f8e1d2eedaa4483bf190263d9b84d31dda54a2b1d329a",
+      "sha256": "8f3db13993fd12edb02507343843ded49fafe6a1505057ca08f15f6038311f02",
+      "bytes": 117134,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.292303+00:00"
+    },
+    "vqa__vqa_val_0010__source__012": {
+      "job_sha256": "3d21dbfc9724c655cccd6fa91540e69b12d6c40c1ae48c7781c33db50cfd6b2d",
+      "sha256": "da56a400bff5dd532e4a64c70db84b206df6a842f15d48645f31bf05190a6cb7",
+      "bytes": 107574,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.333302+00:00"
+    },
+    "vqa__vqa_val_0010__source__013": {
+      "job_sha256": "714d8005c42d43dadd1a5f50c9ca52c8d2445707940703b9ba7d434388a806e9",
+      "sha256": "db1df36837beeff551dff291d5b42afcff230d62c1cf905a45c4246b2e1cc178",
+      "bytes": 95013,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.373714+00:00"
+    },
+    "vqa__vqa_val_0010__source__014": {
+      "job_sha256": "e58677a868a460166c461a24a6ebe87ab64269423be00c1268b733ed37e300f7",
+      "sha256": "b8f84c27b36929bce682061cc66470712f3efe657ba9f1bf1742134d21e8b790",
+      "bytes": 110163,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.412952+00:00"
+    },
+    "vqa__vqa_val_0010__source__015": {
+      "job_sha256": "14060df08ebf04a90b7641a3d52edacc07680479b7d74bef6aeb63798e1b9540",
+      "sha256": "6a054b5c843375c961e3d43cc26b0ce4087bcaff6607e52e07c59109be209a5b",
+      "bytes": 91768,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.452241+00:00"
+    },
+    "vqa__vqa_val_0010__source__016": {
+      "job_sha256": "52757500bb9e8889cdcedd6ba407916c5de79082b84fd85aefa2ccc66027eb79",
+      "sha256": "84082f6e3b57b6778f52411ab1d100d338ce20cd22def7b6450f160f25d4a054",
+      "bytes": 112725,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.492308+00:00"
+    },
+    "vqa__vqa_val_0010__source__017": {
+      "job_sha256": "54c66cd3c216815d035a461fcdef0147b4131be45adaf997daf70cfee5e308a8",
+      "sha256": "caa766b65f69a0a0195a9783cda76378f2b12b7cdda38500cebe69acf23169c9",
+      "bytes": 91241,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.532211+00:00"
+    },
+    "vqa__vqa_val_0010__source__018": {
+      "job_sha256": "bab86b995fbcc096bf26570395b2c4107415bd85da3ce59d0cf63bcaecc08e59",
+      "sha256": "5a2b40a4ab5645cb383717f9e08c0940b4aafaa2d71d809580c53c64f0d7783c",
+      "bytes": 108412,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.571672+00:00"
+    },
+    "vqa__vqa_val_0010__source__019": {
+      "job_sha256": "6f30507e91ed2aedb4a5b905438f5bccb1eb4b77ba71915198489c44f59e618c",
+      "sha256": "82fdc7302009c119ead5fd01cb7aa58b401b2770b6bcd21545bb0ebc068bf958",
+      "bytes": 114012,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.618033+00:00"
+    },
+    "vqa__vqa_val_0010__target__000": {
+      "job_sha256": "70922219c36db54be37528c69646d2c086bec67f15edb314e48ce53fccfbbf2f",
+      "sha256": "2657be2b8c0e7a38c98bbf62defb771fb5892e0f6a1a9b4e7968dd7ff2e9d74c",
+      "bytes": 98039,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.666794+00:00"
+    },
+    "vqa__vqa_val_0010__target__001": {
+      "job_sha256": "4e3c7c2896b4ed2c9105a7b6b4296d4e904fe06667dccf4f7c6175def3de214c",
+      "sha256": "9d199d26ea44f82af9a5c23a83f01c015695f5784a76cbc425b0019d58c8f985",
+      "bytes": 111761,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.708154+00:00"
+    },
+    "vqa__vqa_val_0010__target__002": {
+      "job_sha256": "ea9290d8435784483d4f9c125d229769de3a83d5e0f8a7e7f44353eb899f1bc7",
+      "sha256": "8b1757e44bb4c5e9cb0d163aa329a0e9b7e6c5651f1fb8dee0f5efedb83444a7",
+      "bytes": 110849,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.750000+00:00"
+    },
+    "vqa__vqa_val_0010__target__003": {
+      "job_sha256": "3b9d841cb7e241f3ec885029e56485e717719cf331d374fd176a18de586dc1a9",
+      "sha256": "e7cdbafb6552e4ce1c7b9e9c2edd326947d26b4c092f97c92188f1fb5c5af858",
+      "bytes": 112009,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.790076+00:00"
+    },
+    "vqa__vqa_val_0010__target__004": {
+      "job_sha256": "99c4ae929fa25ef744c9df57c526bf16e2613191164ad3a2743c63f218886597",
+      "sha256": "ce1ce66be7da41a40d192c5af885a041d89682fc7e07011862fadf7783b5da77",
+      "bytes": 106663,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.833347+00:00"
+    },
+    "vqa__vqa_val_0010__target__005": {
+      "job_sha256": "0f5f0bba741e83ed24f73b0adbe3d2683e2fdd24be7592af1b7ba54145bde285",
+      "sha256": "a32769940b1068529cd0ef840446390e41f10f5d968ba9b8df8c8eac503d04ed",
+      "bytes": 104056,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.872565+00:00"
+    },
+    "vqa__vqa_val_0010__target__006": {
+      "job_sha256": "646170423533f26e52fe8fc984bd2209603b0e14f370ce83b544470c2ebd8ac7",
+      "sha256": "dac6be960286d8d0b19186f90879bf14cc2906728306fcfc183a3b600dacb05e",
+      "bytes": 125362,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.910406+00:00"
+    },
+    "vqa__vqa_val_0010__target__007": {
+      "job_sha256": "aff010eff4eeb65beee9c5f76c64c6a0e1c3987296cf8d00defb55e5229eab94",
+      "sha256": "2d54ebd26b6ce490d2d53aeb852d9a6e0f57063a7f2f811b2f57147650d033f1",
+      "bytes": 94852,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:23.951459+00:00"
+    },
+    "vqa__vqa_val_0010__target__008": {
+      "job_sha256": "cfc9d4832e4038ed6a0f89b8bf0bc485fc1f26b1135db4f02617f20e21a3d161",
+      "sha256": "a5cf30c8a99ad7fcf6d7ad5e52beb10c914bc24a240d972090421f61be32226e",
+      "bytes": 96602,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.000431+00:00"
+    },
+    "vqa__vqa_val_0010__target__009": {
+      "job_sha256": "d9b50dc5288a42e7b5b1815261cb163ac8b0353f924f876c776b6d7c4a464439",
+      "sha256": "c3aca4e0e9ff84d40ea32ff4e3aa0802280e62e43e08054781500c73cedd353c",
+      "bytes": 109785,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.041318+00:00"
+    },
+    "vqa__vqa_val_0010__target__010": {
+      "job_sha256": "6c52c117188f4515795ff20de12db6cae8ddde4c0ce80581ac32e151c92a3a4b",
+      "sha256": "ee50960d18fe6f09e799b6e25b17f2d622b7508860fb6fd5cb731cd0c567b6a8",
+      "bytes": 112698,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.078894+00:00"
+    },
+    "vqa__vqa_val_0010__target__011": {
+      "job_sha256": "1ad8084ef0514a083a4b88d89d9ffe2657b6ab1325d0cd4f7cb792d1a12711ed",
+      "sha256": "78a5f4e328a4fc54f5f06189ef0be246d17c271aa4e9a390996fa664777f6e61",
+      "bytes": 105033,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.123441+00:00"
+    },
+    "vqa__vqa_val_0010__target__012": {
+      "job_sha256": "68fb486107695950e968a4082dcd611b87241e399f2a8db119d2fd330bc4d726",
+      "sha256": "0384086b538b15495e9f96c87ae005c96cb7fd9fbbabf373b6bd344cf06f14c7",
+      "bytes": 110544,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.165455+00:00"
+    },
+    "vqa__vqa_val_0010__target__013": {
+      "job_sha256": "baa58a7aa9aed57960f2dbef7176c0ab81e145b7c6a07425701bfd998b02d9da",
+      "sha256": "2b6070416be8dc73391ef41ba98fcc6a9e736d74f8ff9ca80606b5157b58fff4",
+      "bytes": 104717,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.207985+00:00"
+    },
+    "vqa__vqa_val_0010__target__014": {
+      "job_sha256": "8d18f25df1a2a910127f108cc242f170513d7e552068f128939ee5665e92958c",
+      "sha256": "145f75d8466ad5bc59d5a8d251fab236486d3c397d6a7cce9818cdf485798a23",
+      "bytes": 110289,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.245650+00:00"
+    },
+    "vqa__vqa_val_0010__target__015": {
+      "job_sha256": "fab43fd77fda13038b180d742938814798ee6aa0529d21d103e23e56b15b800a",
+      "sha256": "e0c5dc09f0b1754889e6e12996d2ffe1287db047e75d74ebcb87ee220ea3223b",
+      "bytes": 91273,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.285095+00:00"
+    },
+    "vqa__vqa_val_0010__target__016": {
+      "job_sha256": "da14e89c163e3d864413a7eb1451a477ef21e7fe01010dfd01fd1286d9466b4a",
+      "sha256": "1285638d8bdf7a6cb3e04bd2b174da0a3d0b59c5f4e976eab791455475f6dbcd",
+      "bytes": 100382,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.319193+00:00"
+    },
+    "vqa__vqa_val_0010__target__017": {
+      "job_sha256": "571b185025c93fff2c0ff726f15eb1f7695556734bc75f7967c8b54064140832",
+      "sha256": "129075e183d96cd170adc250fb75f19f468931c4e1b6de25b09bef30149096b8",
+      "bytes": 102080,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.357615+00:00"
+    },
+    "vqa__vqa_val_0010__target__018": {
+      "job_sha256": "006eb4d00807268ea87a81c3048fcd107275798e99c1cd383079e1961cefc778",
+      "sha256": "8e9e6e6c034471fe7483973321f072303542be18c91ac2653cf218ac7562e846",
+      "bytes": 107240,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.393177+00:00"
+    },
+    "vqa__vqa_val_0010__target__019": {
+      "job_sha256": "3ebd8c46731650b104906acf2e5d01004d2b790d22340dac94fa4ad9a108d8b8",
+      "sha256": "aa8e64271f9b4406bd6b0f096664d3acb34340e680df71b919bf43ee4ade7a80",
+      "bytes": 113782,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.71489751059562,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:24.442017+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:09:24.442036+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

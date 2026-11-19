@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "d925e4b9f9183ba1b490718485946d7cc47771f39c101dacc78ad21a40a09d15",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "20d52b134713533066dd9615edf8b9d78e0846105aafe5e47579b6d40f6f6f2b",
+      "notes": "All source prompts depict a boy standing before a wall, supporting entailment of the hypothesis. Target bank uses non-wall settings; revised potentially wall-like solid/continuous fence descriptions to open railings/fences or hedge so the contradiction is visually clear. Read all 40 prompts.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/000.png",
+        "index": 0,
+        "prompt": "A boy in a blue shirt stands on a concrete sidewalk directly in front of a red brick wall.",
+        "prompt_sha256": "90e1aa1a053565b04c17b3ddf7c6763b5e1764de1cbc6d19537d98cb3fe2c490",
+        "reference_id": "ve__snli_ve_test_0003__source__000",
+        "role": "source",
+        "seed": 339332209918782673
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/001.png",
+        "index": 1,
+        "prompt": "A young boy poses facing the camera on a paved street corner against a stone wall background.",
+        "prompt_sha256": "9a069b70ba8d1b14fd9cea2da8debfbe30e93ed545b97c4f5c1db7e189f7ce7e",
+        "reference_id": "ve__snli_ve_test_0003__source__001",
+        "role": "source",
+        "seed": 68221565798394964
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a boy in a hoodie standing on a patio, with a textured garden wall behind him.",
+        "prompt_sha256": "09279864f924040cd430b82dde71eb34450776d09d0d9fdf30df7bd73e93ea79",
+        "reference_id": "ve__snli_ve_test_0003__source__002",
+        "role": "source",
+        "seed": 730629996349259202
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of a boy standing on a cobblestone path in front of a long, weathered stone wall.",
+        "prompt_sha256": "932aa7ed31d2ac81a322588bfbda930806fa9b5aac70be805dc3dfa0fff201c4",
+        "reference_id": "ve__snli_ve_test_0003__source__003",
+        "role": "source",
+        "seed": 970722808332496989
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/004.png",
+        "index": 4,
+        "prompt": "A candid photo of a boy looking up while standing on a sidewalk near a brick building facade.",
+        "prompt_sha256": "d7aba6c441dc5d172ae736356cbfb6a20791917c05278d24eb77d15c668dcdc2",
+        "reference_id": "ve__snli_ve_test_0003__source__004",
+        "role": "source",
+        "seed": 40209596249419252
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/005.png",
+        "index": 5,
+        "prompt": "A boy in a green t-shirt stands on a concrete walkway in front of a plain white stucco wall.",
+        "prompt_sha256": "d17280b4ba1b0bdb9cd1aad42274aca0cbb4fe462c2f23f418aa0707ec04b819",
+        "reference_id": "ve__snli_ve_test_0003__source__005",
+        "role": "source",
+        "seed": 295849997829469042
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/006.png",
+        "index": 6,
+        "prompt": "Side profile of a boy standing on a paved area, with a tall brick wall extending behind him.",
+        "prompt_sha256": "c82e2a00a14ea93aab3b3da3c5d02cddd774bac846855e068550772cb47b681a",
+        "reference_id": "ve__snli_ve_test_0003__source__006",
+        "role": "source",
+        "seed": 1012202128074824500
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/007.png",
+        "index": 7,
+        "prompt": "A boy stands on a sunny sidewalk in front of a shadowed stone wall, creating a high-contrast scene.",
+        "prompt_sha256": "d1083134c4ff1a85c30f9e3a9f549ae2d86221f58ec4dc045cf11e185bae46c6",
+        "reference_id": "ve__snli_ve_test_0003__source__007",
+        "role": "source",
+        "seed": 76910118189579450
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/008.png",
+        "index": 8,
+        "prompt": "Close-up framing of a boy's upper body as he stands on a paved surface against a brick wall.",
+        "prompt_sha256": "8196469ac7ce2d14e8ff41ada482b469eedac41599a45005964ed4656c18d078",
+        "reference_id": "ve__snli_ve_test_0003__source__008",
+        "role": "source",
+        "seed": 445271363837269067
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/009.png",
+        "index": 9,
+        "prompt": "An ordinary boy in casual clothes stands on a concrete path directly in front of a garden wall.",
+        "prompt_sha256": "e0fd3b4af31ebc47196fed046d972ce665f0f5f88f359258671c755f3474bd98",
+        "reference_id": "ve__snli_ve_test_0003__source__009",
+        "role": "source",
+        "seed": 1085348914130209110
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/010.png",
+        "index": 10,
+        "prompt": "A different boy in a plaid shirt stands on a brick sidewalk in front of a textured stone wall.",
+        "prompt_sha256": "457fd2738a142390cf309e1acf1adf6ef65203607a05b8412e33504e608fb413",
+        "reference_id": "ve__snli_ve_test_0003__source__010",
+        "role": "source",
+        "seed": 506785425304285698
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/011.png",
+        "index": 11,
+        "prompt": "A boy stands with arms crossed on a paved street corner, facing a solid concrete wall.",
+        "prompt_sha256": "cf2a14a2595a6fd5ef5687e7809528f891a80f7e4f74366b55a8eedd6eef2f92",
+        "reference_id": "ve__snli_ve_test_0003__source__011",
+        "role": "source",
+        "seed": 134184445580663172
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/012.png",
+        "index": 12,
+        "prompt": "Medium shot showing a boy standing on a patio, with a full-length view of the wall behind him.",
+        "prompt_sha256": "6b3f8c824fc0c9da3f1e37fa413e214df8bebc78b4bedde535aa66d9c2b37e23",
+        "reference_id": "ve__snli_ve_test_0003__source__012",
+        "role": "source",
+        "seed": 300545964969363724
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/013.png",
+        "index": 13,
+        "prompt": "Wide angle of a boy standing on a long paved walkway, with a continuous brick wall in the background.",
+        "prompt_sha256": "c77fe6057c75ce63b2a2c6449ced05fcca31df71a1c77995c69ad766dd318681",
+        "reference_id": "ve__snli_ve_test_0003__source__013",
+        "role": "source",
+        "seed": 310388340290159098
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/014.png",
+        "index": 14,
+        "prompt": "A candid moment of a boy checking his phone while standing on a sidewalk in front of a stone wall.",
+        "prompt_sha256": "447ea75372740a8ce911d18007553bdb7466f872c514c45dce3e1a6e00a15561",
+        "reference_id": "ve__snli_ve_test_0003__source__014",
+        "role": "source",
+        "seed": 1018723075388314298
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/015.png",
+        "index": 15,
+        "prompt": "A boy in a denim jacket stands on a concrete surface, with a small potted plant near the wall base.",
+        "prompt_sha256": "b7beb670012bd21c860191aacba5854e52edcc0c34eb753c6777587e8ab07940",
+        "reference_id": "ve__snli_ve_test_0003__source__015",
+        "role": "source",
+        "seed": 503112259337455267
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/016.png",
+        "index": 16,
+        "prompt": "Side view of a boy standing on a paved path, with a tall, narrow brick wall visible behind him.",
+        "prompt_sha256": "bff7c8b024dc66dafcc50a455ff9a6d48c90ef92f16ff285dd4a12844f8ee5a8",
+        "reference_id": "ve__snli_ve_test_0003__source__016",
+        "role": "source",
+        "seed": 192646818422530731
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/017.png",
+        "index": 17,
+        "prompt": "A boy stands on a shaded sidewalk in front of a sunlit stone wall, highlighting the texture differences.",
+        "prompt_sha256": "3ab892a7bcfb4b2609c6e90ccfcf85dac9572bb9a4c3c7b4b9f26e9534550644",
+        "reference_id": "ve__snli_ve_test_0003__source__017",
+        "role": "source",
+        "seed": 121523578803435499
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/018.png",
+        "index": 18,
+        "prompt": "Slightly zoomed out view of a boy standing on a concrete patio, with the wall occupying the upper half.",
+        "prompt_sha256": "7f1cc9cfb3aaaab9b21dedf6c84b9f6014123b8e5d1e6d65e6fe62d20f913814",
+        "reference_id": "ve__snli_ve_test_0003__source__018",
+        "role": "source",
+        "seed": 631149372640310787
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/source/019.png",
+        "index": 19,
+        "prompt": "A boy in a yellow shirt stands on a brick path in front of a rough-hewn stone wall, looking natural.",
+        "prompt_sha256": "4e89d4c8203e139127164c7f61c1d7686c1b06c6d9e96799d80aaf8cca220ba5",
+        "reference_id": "ve__snli_ve_test_0003__source__019",
+        "role": "source",
+        "seed": 778879598357042445
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/000.png",
+        "index": 0,
+        "prompt": "A boy in a blue shirt stands on a concrete sidewalk directly in front of a large open park with grass.",
+        "prompt_sha256": "a1f2d8dac8fe495e11e9c9a7565a9b2daf9e10c41c9536e3a0a3184a71aba9af",
+        "reference_id": "ve__snli_ve_test_0003__target__000",
+        "role": "target",
+        "seed": 588916171446456313
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/001.png",
+        "index": 1,
+        "prompt": "A young boy poses facing the camera on a paved street corner against a backdrop of distant city skyline.",
+        "prompt_sha256": "be74a1ed9d2c458dae936be357af3542b07ab8a5c93d5826fd9fc9bbd9d818b0",
+        "reference_id": "ve__snli_ve_test_0003__target__001",
+        "role": "target",
+        "seed": 444070382238112198
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a boy in a hoodie standing on a patio, with a view of a neighboring house behind him.",
+        "prompt_sha256": "1371a39eaf0578478a5f9fcbfd4c95d8fb8d0ef34438cfd9259867fd3374aac2",
+        "reference_id": "ve__snli_ve_test_0003__target__002",
+        "role": "target",
+        "seed": 95522747035420462
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/003.png",
+        "index": 3,
+        "prompt": "Wide view of a boy standing on a cobblestone path in front of a long, open field of wildflowers.",
+        "prompt_sha256": "5f000d8750e0b97500d69beeefa0b8e5b90373c793038ef0aaf0364d61119035",
+        "reference_id": "ve__snli_ve_test_0003__target__003",
+        "role": "target",
+        "seed": 89468035501507227
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/004.png",
+        "index": 4,
+        "prompt": "A candid photo of a boy looking up while standing on an open sidewalk beside a brick storefront, with no wall immediately behind him.",
+        "prompt_sha256": "50d259eaa545cd7b04ca1e4cf7508bc11fa8f064b68783eb641432a3ce03020f",
+        "reference_id": "ve__snli_ve_test_0003__target__004",
+        "role": "target",
+        "seed": 808657200975527809
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/005.png",
+        "index": 5,
+        "prompt": "A boy in a green t-shirt stands on a concrete walkway in front of a plain white fence.",
+        "prompt_sha256": "5b4d41140014b894be46085fd8e424c68b1bfc7edb6eb318ee76147503ddde9e",
+        "reference_id": "ve__snli_ve_test_0003__target__005",
+        "role": "target",
+        "seed": 236212451158718616
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/006.png",
+        "index": 6,
+        "prompt": "Side profile of a boy standing on a paved area, with a tall hedge extending behind him.",
+        "prompt_sha256": "0e880a6814e845236335554b8ec7303148d36c8012100c85340c368438d7861e",
+        "reference_id": "ve__snli_ve_test_0003__target__006",
+        "role": "target",
+        "seed": 258668273818548435
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/007.png",
+        "index": 7,
+        "prompt": "A boy stands on a sunny sidewalk beside an open, waist-high metal railing, with no wall behind him.",
+        "prompt_sha256": "4f5f628e30fc32812c07dd5ce9f89e0336e12f066d62bb37292e84327da61264",
+        "reference_id": "ve__snli_ve_test_0003__target__007",
+        "role": "target",
+        "seed": 419449191469247251
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/008.png",
+        "index": 8,
+        "prompt": "Close-up framing of a boy on a paved surface with an open chain-link fence in the background, not a wall.",
+        "prompt_sha256": "22b899029166d663d373df423c06a6729419aa4226d2e18d9100600e81d4ac7e",
+        "reference_id": "ve__snli_ve_test_0003__target__008",
+        "role": "target",
+        "seed": 505362059712346456
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/009.png",
+        "index": 9,
+        "prompt": "An ordinary boy stands on a concrete path beside a wooden fence with wide gaps and visible space beyond it.",
+        "prompt_sha256": "564ddd99c4fbe5746806945587c0f307c1ed8eb6df1e62bae4d8b432f01b1ce0",
+        "reference_id": "ve__snli_ve_test_0003__target__009",
+        "role": "target",
+        "seed": 1127543887692450064
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/010.png",
+        "index": 10,
+        "prompt": "A different boy in a plaid shirt stands on a brick sidewalk beside an open wire fence, with no wall behind him.",
+        "prompt_sha256": "898db2806eee361efffaff3ff3bb2141959a6069aec00bace7aa4683dbf4083d",
+        "reference_id": "ve__snli_ve_test_0003__target__010",
+        "role": "target",
+        "seed": 1114592644479638845
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/011.png",
+        "index": 11,
+        "prompt": "A boy stands on a street corner beside a low open metal railing, with the street visible beyond it.",
+        "prompt_sha256": "ed27402a784d9f64f6a862e72c47a4b01617a6c79812bb5d157aedc3ac66e913",
+        "reference_id": "ve__snli_ve_test_0003__target__011",
+        "role": "target",
+        "seed": 840395116332043234
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/012.png",
+        "index": 12,
+        "prompt": "Medium shot showing a boy standing on a patio, with a full-length view of the fence behind him.",
+        "prompt_sha256": "ec04dc46af40976c1d068f998ce01ac0bd2a5a9b012a2af81de910ce2f43cb93",
+        "reference_id": "ve__snli_ve_test_0003__target__012",
+        "role": "target",
+        "seed": 425013227129628340
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/013.png",
+        "index": 13,
+        "prompt": "Wide angle of a boy on a paved walkway beside a low open railing and grass, with no continuous wall.",
+        "prompt_sha256": "7f5be0d63a58f5662ed787e06c116a9e067cc6d4d427680c02f6900c48e789ff",
+        "reference_id": "ve__snli_ve_test_0003__target__013",
+        "role": "target",
+        "seed": 935306676016163755
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/014.png",
+        "index": 14,
+        "prompt": "A candid boy stands on a sidewalk beside an open metal fence with visible gaps and no wall behind him.",
+        "prompt_sha256": "596423f7d22d5602d76f5c77cd038540465074e94ec7fd0f19b7c3d1c34073a9",
+        "reference_id": "ve__snli_ve_test_0003__target__014",
+        "role": "target",
+        "seed": 1001227719491592468
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/015.png",
+        "index": 15,
+        "prompt": "A boy in a denim jacket stands on a concrete surface, with a small potted plant near the fence base.",
+        "prompt_sha256": "24884db0caef222a5a337c4095b97ceb9ac5606b3a89d808c1b18ca31ae1a9c7",
+        "reference_id": "ve__snli_ve_test_0003__target__015",
+        "role": "target",
+        "seed": 1030772428086482996
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/016.png",
+        "index": 16,
+        "prompt": "Side view of a boy standing on a paved path with a leafy hedge behind him instead of a wall.",
+        "prompt_sha256": "481085be2a87ce8c1d4ead4f06f3640a7c73300eeca41e7547f51714adf737f1",
+        "reference_id": "ve__snli_ve_test_0003__target__016",
+        "role": "target",
+        "seed": 1077072817039689865
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/017.png",
+        "index": 17,
+        "prompt": "A boy stands on a shaded sidewalk beside an open railing, with the sunlit street visible beyond it.",
+        "prompt_sha256": "edd9bda9e9463be4a3492ccfd034698752395d700ea3942340053f1a69d7476e",
+        "reference_id": "ve__snli_ve_test_0003__target__017",
+        "role": "target",
+        "seed": 984642855588766463
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/018.png",
+        "index": 18,
+        "prompt": "A boy stands on a concrete patio with an open garden fence in the distance and no wall immediately behind him.",
+        "prompt_sha256": "69a98b7a3125f327f06a480d4592d7a4f0652111b74e4a87cb648ad40ca162e4",
+        "reference_id": "ve__snli_ve_test_0003__target__018",
+        "role": "target",
+        "seed": 792619929090036967
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0003/target/019.png",
+        "index": 19,
+        "prompt": "A boy stands on a brick path beside an open wooden slat fence with clear gaps between the slats.",
+        "prompt_sha256": "c0c8dd2163d5efcd4f104c403c110125ce5b3266c286a29353f696690f025628",
+        "reference_id": "ve__snli_ve_test_0003__target__019",
+        "role": "target",
+        "seed": 799517222471968368
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1015118661.jpg",
+    "original_image_sha256": "bd6ae13d8515c0ead77b65d235a1e8c81ab713b1d45206a1f137599d3284279b",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "d925e4b9f9183ba1b490718485946d7cc47771f39c101dacc78ad21a40a09d15",
+    "sample_id": "snli_ve_test_0003",
+    "shard": 3,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "A boy is standing in front of a wall.",
+      "premise_caption": "Smiling boy in white shirt and blue jeans in front of rock wall with man in overalls behind him.",
+      "source_label": "entailment",
+      "target_label": "contradiction"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0003__source__000": {
+      "job_sha256": "8dc337075c509b3af85cff76c732d36a842ac0a47e9f53455d1b2b7aafc684f7",
+      "sha256": "8ddb71bd6c663c263a19d655a87da7dac3cbb9be8763a26da935f487590c4163",
+      "bytes": 172257,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.169022+00:00"
+    },
+    "ve__snli_ve_test_0003__source__001": {
+      "job_sha256": "d57cd1e9a48983520e6c14f071cd121e6f5db4be1cf1fc820a1043cbca96d023",
+      "sha256": "5ca1e1b10c17223393fa29f6058e312974882ec10523e405e77f47669fdd7add",
+      "bytes": 164442,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.233212+00:00"
+    },
+    "ve__snli_ve_test_0003__source__002": {
+      "job_sha256": "91e06df7805da1c09be45e99df6c8d045ee6b646ace397bdfcfb83f3751524c2",
+      "sha256": "f418f69daa3932a0a7bc26e53333205f7fd80cf13a9123dd2b3fa43f9aa9d2aa",
+      "bytes": 175589,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.277116+00:00"
+    },
+    "ve__snli_ve_test_0003__source__003": {
+      "job_sha256": "806e1d6d8511c2ff7925b9b006ad8c78d070662c57f86a3b0e2344f96672168e",
+      "sha256": "2f8d69af96665a27d813a3b613e6eab4089e8af7e70963de6b918198a96ca52c",
+      "bytes": 196186,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.332196+00:00"
+    },
+    "ve__snli_ve_test_0003__source__004": {
+      "job_sha256": "ed65bf48796b892230e03539b271453e96859f52c3e2067bcf577a6052a10220",
+      "sha256": "bff07aebc486d41179dcb8432b6abdaa04c587f8ba16622fde63a830b62bf010",
+      "bytes": 151618,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.389048+00:00"
+    },
+    "ve__snli_ve_test_0003__source__005": {
+      "job_sha256": "74a064b02d99718e3f18a3d807ad2b037c309ceb8b562d490564ff7683356725",
+      "sha256": "a4e1ac0151f39749f02e1e9d513c9a1b46b925398a657cb2852c4a9c82443264",
+      "bytes": 117305,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.450847+00:00"
+    },
+    "ve__snli_ve_test_0003__source__006": {
+      "job_sha256": "d3d2516fda23d7dc427aa68a53eb2cb74653e28e20b32739fd8a387a5a2319f7",
+      "sha256": "6314ed92786c3ba23f7eb5f2a280d95b9889c2f50e3f37c47cbaf7d9d4026e65",
+      "bytes": 195280,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.502139+00:00"
+    },
+    "ve__snli_ve_test_0003__source__007": {
+      "job_sha256": "18fd1d6ff0b16971b8d931f2d2675ef076fc7a9f2162f92c8aed017668c5a9ec",
+      "sha256": "3017c82c7ce417880278386210166ccaf6eee3bb02751c6bcfbb08710b30b9d8",
+      "bytes": 166883,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.553062+00:00"
+    },
+    "ve__snli_ve_test_0003__source__008": {
+      "job_sha256": "432e4f70786555d115ed3ab959eb4aac66b3ab0e47d949144ed5e47cdac646cf",
+      "sha256": "d1209cb9edf8a8a4d69a7fa60f834aae62c19b040fc3f924a31ba9b3bc981491",
+      "bytes": 139043,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.596940+00:00"
+    },
+    "ve__snli_ve_test_0003__source__009": {
+      "job_sha256": "6053fbb13cbf1d0793081a6b857ad8d8d2572d96d3a814868b904feb71b4ed85",
+      "sha256": "ee371ffe5d1c0c6fd78d4429769154fa10849700e2c46f6079c5309c3ddfe5a4",
+      "bytes": 194767,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.645746+00:00"
+    },
+    "ve__snli_ve_test_0003__source__010": {
+      "job_sha256": "512b968093c1dc731f43a46cde8be619f6e9d28fda2719df82ba7a18b3edf7b9",
+      "sha256": "19b5e65672848118bbf61a7d4c87c095097b39a1e87e4c78777717ae6d72331f",
+      "bytes": 174210,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.686185+00:00"
+    },
+    "ve__snli_ve_test_0003__source__011": {
+      "job_sha256": "f6f7aab77c690d66a776ff46bbbf943898e76e5a049ce5e8f7fa9c29d8e08d32",
+      "sha256": "375758f60e025d63d918b16811edb1e5467e429b5add546c655ede948867e0ce",
+      "bytes": 132156,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.745511+00:00"
+    },
+    "ve__snli_ve_test_0003__source__012": {
+      "job_sha256": "a6371a81fe0139b0c223ffc261f367e3a980e5b5a449c1267a74bea527c59e16",
+      "sha256": "90d8b53b54a1353af222741fe5a0e5ca8476e6f3b6c73412fd2ee2f8cb542471",
+      "bytes": 120492,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.788867+00:00"
+    },
+    "ve__snli_ve_test_0003__source__013": {
+      "job_sha256": "39c091298a260d9dead1adcb69ec7076c736860a2fac3b07a926688d34839a91",
+      "sha256": "e6739efcb9bb489803a519f800a760c57d8b3562c3d7ddd6ac66df56eb1d7efe",
+      "bytes": 161393,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.836050+00:00"
+    },
+    "ve__snli_ve_test_0003__source__014": {
+      "job_sha256": "cf656b2f685a64173686fdd467e4b5da6b096a6840ef3f99dc3990c93c10f092",
+      "sha256": "95811f5029509d2da8b40c4f0f9d5616b253a22db5cd0edf9304c64253180b3c",
+      "bytes": 171989,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.890253+00:00"
+    },
+    "ve__snli_ve_test_0003__source__015": {
+      "job_sha256": "77c18bc5c7c47e12da976d7ab1d6ec6dca8d11c78a0698360156f9c2e54454fe",
+      "sha256": "983eb84d09151bbe73a78b4352031db0a470075e4e1deb95fc5e0f608de0c3cd",
+      "bytes": 137366,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.937010+00:00"
+    },
+    "ve__snli_ve_test_0003__source__016": {
+      "job_sha256": "02e768778ff296e16ee3808adbdd51581ad4ada37bdc91f8e36fc8e883db663d",
+      "sha256": "66dd32476eb0c674ae8944b5c99e9bff7ef2973929d31deddb4eca97f4256d42",
+      "bytes": 184895,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:38.985627+00:00"
+    },
+    "ve__snli_ve_test_0003__source__017": {
+      "job_sha256": "822234d93c51582af11c0a466d024aefc017f7867556225e71c2d8743511b5df",
+      "sha256": "a557392ded9dd970087297479da01f8c0666f40f84cff71c49f78b82e587f313",
+      "bytes": 188376,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.035582+00:00"
+    },
+    "ve__snli_ve_test_0003__source__018": {
+      "job_sha256": "1c727e3f672720007d1e3b48ebc2f977c745fa7cf886a42164025e55c46dcf77",
+      "sha256": "d43ff2968e6a40a63e5ef08c61be7c075423d6eaf36292f7d9e8a39b11474827",
+      "bytes": 91452,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.074948+00:00"
+    },
+    "ve__snli_ve_test_0003__source__019": {
+      "job_sha256": "1b0e9b6704dcc565482f41671ac0eec7112557695f193772c46e5cf2e9493fb1",
+      "sha256": "1e99d070fa7aa5c14a014e73139c10d2fa183e97585ae0ed1d394b56044e1bbf",
+      "bytes": 191839,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.122445+00:00"
+    },
+    "ve__snli_ve_test_0003__target__000": {
+      "job_sha256": "bccb836af0bab7f58b282c04557530c320d1fcf4ed835e37656dd69f019216f7",
+      "sha256": "e33dac30374253bb613baca25076ac8081f8897ce5a816006429fe7ee6867c7c",
+      "bytes": 187335,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.176519+00:00"
+    },
+    "ve__snli_ve_test_0003__target__001": {
+      "job_sha256": "cad9300da0b38765d4d26104997e340854940c424f887b32ee2766ead0fddc0c",
+      "sha256": "575f5985e204a6213239dc583bd06adcfbe69f5c554bde1ac1cb332da821c623",
+      "bytes": 122483,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.212972+00:00"
+    },
+    "ve__snli_ve_test_0003__target__002": {
+      "job_sha256": "5e9d0c3ec00483c808caf4adceb4b9eb4caafd2943806fbda5345fb650442d82",
+      "sha256": "98c4a3f80d2468660fbc0947794a5727b30d73436115374425318633feb5145f",
+      "bytes": 125599,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.261333+00:00"
+    },
+    "ve__snli_ve_test_0003__target__003": {
+      "job_sha256": "86410fc8ad9d19ab07421433612c865eefe4f94da682885f8416ab9910ac738f",
+      "sha256": "9cd38a6abded4fdf15cf4cd9ad350322cf99831eabac807fc666382a91a92532",
+      "bytes": 158783,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.311321+00:00"
+    },
+    "ve__snli_ve_test_0003__target__004": {
+      "job_sha256": "983738a7d5ba37d119fc48e2755b2da0ca48f540121b0d5e8eaab4d8e6862644",
+      "sha256": "8f1aa95ff99859a7782bc87c479c48466e5023ae00c5dececf29e77ab3865164",
+      "bytes": 153998,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.350979+00:00"
+    },
+    "ve__snli_ve_test_0003__target__005": {
+      "job_sha256": "5524dfeda99230496ac119827e26ff35f1cce51efcf64306b2df949ae3b8c691",
+      "sha256": "5f11daf8c14441f0dd00994e7b39329aac5e0905fd39e4a14b874a3eb198db64",
+      "bytes": 109306,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.404526+00:00"
+    },
+    "ve__snli_ve_test_0003__target__006": {
+      "job_sha256": "f37aaa6e3332b122f75fa45d9b1f2f301312007e58572921b5b6260ff08d65ac",
+      "sha256": "dcd3cec33efc7cb9e3faa2cb7038fba489b10038b7011c5d77f8c729762c4c8b",
+      "bytes": 204948,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.459380+00:00"
+    },
+    "ve__snli_ve_test_0003__target__007": {
+      "job_sha256": "ff83bf4250d3749bf6a8718c57a8cc438589db4b70e72fd837d9ebc6fc8bf361",
+      "sha256": "696145e72b0e7f8a66d99239094efd16178c5d2686c270df89008630e610b318",
+      "bytes": 108899,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.501988+00:00"
+    },
+    "ve__snli_ve_test_0003__target__008": {
+      "job_sha256": "9ef8d2ebba6a0a19b2006cf8238ffda7251a0432cbcafc0ace4df08c43ca14bb",
+      "sha256": "685a750a214db1b6c2226dc73d5a940e478c1714f7464f7e3426b68dbe3d5f3f",
+      "bytes": 178702,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.546361+00:00"
+    },
+    "ve__snli_ve_test_0003__target__009": {
+      "job_sha256": "909c7766e3203c1a2532cc279d53335142ea825739ba76460c8d66bf7de4950c",
+      "sha256": "abf34fd16582a01ba2a058d5b0123dcd4543d168e6cf329df0151635b8c7a32b",
+      "bytes": 151283,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.597873+00:00"
+    },
+    "ve__snli_ve_test_0003__target__010": {
+      "job_sha256": "836a6c6e495eec0104174847027fa28c3f8984e668842b868de864eb84ea653e",
+      "sha256": "cfb1659c8c51ed8e269f46029066883c8141b0d7c14a3800cf0704e9bae3663f",
+      "bytes": 146033,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.642833+00:00"
+    },
+    "ve__snli_ve_test_0003__target__011": {
+      "job_sha256": "78c3ee97120d5412bd6392ae7defd59d94de70b156f1d256f52ebf2cfe9a05c8",
+      "sha256": "5bd6e1c2ae103534d7b76e443fb91fd60505bbc5b67a54eac3954525ccf2cab6",
+      "bytes": 145654,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.680163+00:00"
+    },
+    "ve__snli_ve_test_0003__target__012": {
+      "job_sha256": "b1ace5536582698ac81d5f02bd2a07e16e31cc1d765e14991a1f4fbb7e78f0e0",
+      "sha256": "19afa2d6aeee7dc7b03cedbe79a2127901ef75095d795dab73c36d966847bf16",
+      "bytes": 150379,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.721002+00:00"
+    },
+    "ve__snli_ve_test_0003__target__013": {
+      "job_sha256": "c6174c6496ccb63e25813834490c286ce5ae3b3be579f77131f3ea40973478d2",
+      "sha256": "d6bf0e295442fc3f62767a2f41c40bb91d200698a6288db7dc8bbf1a31f0bfd5",
+      "bytes": 68992,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.762874+00:00"
+    },
+    "ve__snli_ve_test_0003__target__014": {
+      "job_sha256": "058812811ad8d4dd62eabe50afb9aa533ecef0ace37879a3e24f01c3f3d7e54f",
+      "sha256": "3241f8c968f41542cb125045075eb7c8549ea31c369f6c8d4e021fa15b7a8077",
+      "bytes": 133939,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.808791+00:00"
+    },
+    "ve__snli_ve_test_0003__target__015": {
+      "job_sha256": "994ebb3c1d28b65eeb85cea19a9febd82bbb77266758fe27e1f5143101b69125",
+      "sha256": "d6e16946913833407bc9b279bec414ed6e73b9632556f4d8ba87d2182bc11a5a",
+      "bytes": 164546,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.854792+00:00"
+    },
+    "ve__snli_ve_test_0003__target__016": {
+      "job_sha256": "d083352ae9da5542093793a50d59af5a148dc21b22429e69571ad060c0c55b26",
+      "sha256": "94fbc017f2176e69233736a0a7507a2bf14278e4e92f9cd6c759b60c2ce8d681",
+      "bytes": 197279,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.904585+00:00"
+    },
+    "ve__snli_ve_test_0003__target__017": {
+      "job_sha256": "83e0d2bc619e05b655f98afbf950c8e683362edee89f0ccbec084f73cf246071",
+      "sha256": "63c19639acc5d11aecce7a64e58c794c091ac26005f7e4fa43b36fec0f1520d9",
+      "bytes": 153106,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:39.960341+00:00"
+    },
+    "ve__snli_ve_test_0003__target__018": {
+      "job_sha256": "3e36d5ce1498ca5599108e90ab1ba6c5c17e4e252f872bc7382d5565a5a22070",
+      "sha256": "a94e61c3d42eb4b86668dfee262a2ca4d1a2c21a512ae546ea1790888f1306f4",
+      "bytes": 163269,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:40.023991+00:00"
+    },
+    "ve__snli_ve_test_0003__target__019": {
+      "job_sha256": "a17b17cd50127ddff92becf1cbd2796db591eff0dfd8a221445aa29e3569b3af",
+      "sha256": "6de607a777c4707fb274d18d2c3b1e5dafce271cd57f67fc1ba2a85ff71f5718",
+      "bytes": 157844,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.664479920640588,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:40.069567+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:02:40.069583+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

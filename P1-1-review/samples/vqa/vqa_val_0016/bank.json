@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "beaaa227cb25608fc9b50d249a7ae3dda297f30d67944c00809b21682bdfca8b",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "08a8fd242c278b7f840601161f7fac37df985cac53f8e02ae7ab4d7878bd7c7d",
+      "notes": "All source prompts show men sitting on a bench; all targets show them sitting directly on grass. Clear answer contrast.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0016/source/000.png",
+        "index": 0,
+        "prompt": "Three men in military uniforms sit on a wooden park bench, viewed from a low angle with trees in the background.",
+        "prompt_sha256": "983c1f4d566857961a38f06ffaa9a8efedc66ff959e72da261822d184e01482d",
+        "reference_id": "vqa__vqa_val_0016__source__000",
+        "role": "source",
+        "seed": 922397259706995965
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/001.png",
+        "index": 1,
+        "prompt": "A medium shot of three uniformed men resting on a slatted wooden bench in a grassy park area.",
+        "prompt_sha256": "cce567c1d84a55b3503892be82deb4d262ce7c760934b2f1de10c8181abb4dac",
+        "reference_id": "vqa__vqa_val_0016__source__001",
+        "role": "source",
+        "seed": 1112357561436087006
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of three soldiers sitting on a sturdy wooden bench, focusing on their upper bodies and faces.",
+        "prompt_sha256": "08d4c5cb40f76281bd8af9eb60a5d712c27c5581f06da93a4fe59240a7388387",
+        "reference_id": "vqa__vqa_val_0016__source__002",
+        "role": "source",
+        "seed": 754566596121705824
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/003.png",
+        "index": 3,
+        "prompt": "Three men in military dress sit on a wooden bench, one looking at a map while others chat casually.",
+        "prompt_sha256": "fb442dc336315b20ff95d99d76b8d29e42c8412581b8d7eb748214cc7ed46662",
+        "reference_id": "vqa__vqa_val_0016__source__003",
+        "role": "source",
+        "seed": 493918995841018120
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates three uniformed men seated on a wooden bench under the shade of large oak trees.",
+        "prompt_sha256": "dece3c35a2768c388fee024877955927888ce839be484384f195d454a65f5f99",
+        "reference_id": "vqa__vqa_val_0016__source__004",
+        "role": "source",
+        "seed": 345026407953426182
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/005.png",
+        "index": 5,
+        "prompt": "A wider crop showing three men in military uniforms on a wooden bench with a path stretching behind them.",
+        "prompt_sha256": "a275c3d5f26f8d1123740582fc1541936c4af79197a079e82d0e3ebe4ad0175c",
+        "reference_id": "vqa__vqa_val_0016__source__005",
+        "role": "source",
+        "seed": 821880454818404999
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/006.png",
+        "index": 6,
+        "prompt": "Side angle view of three soldiers sitting on a wooden park bench, with a stone wall visible in the distance.",
+        "prompt_sha256": "31385f18e15fbefb63aa4312d26eab25cfd7cb830ca9639e75adfa0dc243f9f2",
+        "reference_id": "vqa__vqa_val_0016__source__006",
+        "role": "source",
+        "seed": 513442737142942338
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/007.png",
+        "index": 7,
+        "prompt": "Three men in military uniforms sit on a wooden bench, with a red brick building partially visible in the background.",
+        "prompt_sha256": "7f4cc4c493e510f80dbb78be56c81368f3b837562b706dc9cb22d6f8d3648d30",
+        "reference_id": "vqa__vqa_val_0016__source__007",
+        "role": "source",
+        "seed": 1067200036708836857
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of three uniformed men relaxing on a wooden bench, one holding a coffee cup, looking natural and relaxed.",
+        "prompt_sha256": "05acb0ae22f742b5a1e94f0f73b3d5136beceecf15b70b3a636e0a33864e9905",
+        "reference_id": "vqa__vqa_val_0016__source__008",
+        "role": "source",
+        "seed": 645160287650999427
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/009.png",
+        "index": 9,
+        "prompt": "Another instance of three men in military uniforms sitting on a simple wooden bench in a quiet outdoor plaza.",
+        "prompt_sha256": "4a6bd9e98eec609ede9d2bee3e79480d1f1e1a2b6f1bdb1cd74da86d8fc0887e",
+        "reference_id": "vqa__vqa_val_0016__source__009",
+        "role": "source",
+        "seed": 849110508265737279
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/010.png",
+        "index": 10,
+        "prompt": "Three men in military uniforms sit on a wooden bench in a park, viewed from a slightly elevated angle.",
+        "prompt_sha256": "90998aaacf6aa1b2404742dc0f1009ea8d6d69d6571af0a13a0283055be83596",
+        "reference_id": "vqa__vqa_val_0016__source__010",
+        "role": "source",
+        "seed": 1015807984572647856
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/011.png",
+        "index": 11,
+        "prompt": "Medium shot of three uniformed men resting on a wooden bench with trees in the background.",
+        "prompt_sha256": "f02ecf107cf30540761dfc00abec753f0cc1664663967229ab2b4960d5892aac",
+        "reference_id": "vqa__vqa_val_0016__source__011",
+        "role": "source",
+        "seed": 1105219813605979798
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/012.png",
+        "index": 12,
+        "prompt": "Close-up view of three men in military dress sitting on a wooden bench, faces partially visible.",
+        "prompt_sha256": "0575403eb62e1e45a47c659ee75830d328cbcc4aac3016d42f9cc436d013f533",
+        "reference_id": "vqa__vqa_val_0016__source__012",
+        "role": "source",
+        "seed": 1110635345622821114
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/013.png",
+        "index": 13,
+        "prompt": "Three military men sit on a wooden bench, one looking at a watch, others relaxed in posture.",
+        "prompt_sha256": "4f4256d1ab467dd4a06d5214e98a4ed64a7c13714c408c91d34272ad3d1eacc7",
+        "reference_id": "vqa__vqa_val_0016__source__013",
+        "role": "source",
+        "seed": 103200464873905024
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/014.png",
+        "index": 14,
+        "prompt": "Soft daylight illuminates three men in uniform sitting on a wooden bench in a quiet park.",
+        "prompt_sha256": "8e66b95047aa2f77e749ddd7a00937010d3a912a597cfe1b329771ee28ad64b9",
+        "reference_id": "vqa__vqa_val_0016__source__014",
+        "role": "source",
+        "seed": 74056656879065609
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/015.png",
+        "index": 15,
+        "prompt": "Wide crop showing three men in military uniforms on a wooden bench with open grass nearby.",
+        "prompt_sha256": "9b12027c44dc8482e6c4d3441b9fde49940fcf4570b1c5c81b8d13616a6cff1a",
+        "reference_id": "vqa__vqa_val_0016__source__015",
+        "role": "source",
+        "seed": 653255608998182119
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/016.png",
+        "index": 16,
+        "prompt": "Side angle of three uniformed men seated on a wooden bench, backs partially to the camera.",
+        "prompt_sha256": "f862458acadb286f56446a20e269e7f3b38ee02b7c37d553e12e943877e66876",
+        "reference_id": "vqa__vqa_val_0016__source__016",
+        "role": "source",
+        "seed": 701031690619600512
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/017.png",
+        "index": 17,
+        "prompt": "Three men in military uniforms sit on a wooden bench near a stone pathway in a park.",
+        "prompt_sha256": "ff0e8f6b0c5bf5a52f075a6e6e0e4651f6fecf47b73439b09ad6603ddec81c4d",
+        "reference_id": "vqa__vqa_val_0016__source__017",
+        "role": "source",
+        "seed": 1035055552057177932
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/018.png",
+        "index": 18,
+        "prompt": "Candid shot of three military men sitting on a wooden bench, one holding a paper cup.",
+        "prompt_sha256": "42d9f86aa3f825eefbd9faae0d22d78d288116d40d7e8513ba8d86c8998b0401",
+        "reference_id": "vqa__vqa_val_0016__source__018",
+        "role": "source",
+        "seed": 852502690249181662
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/source/019.png",
+        "index": 19,
+        "prompt": "Another instance of three men in military uniforms sitting together on a wooden bench outdoors.",
+        "prompt_sha256": "f3ea007f0aac85c1276d2c84054b06ff646e3b1c74b2d69b3de5da2b32888153",
+        "reference_id": "vqa__vqa_val_0016__source__019",
+        "role": "source",
+        "seed": 42573380197623550
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/000.png",
+        "index": 0,
+        "prompt": "Three men in military uniforms sit on a patch of grass, viewed from a low angle with trees in the background.",
+        "prompt_sha256": "872b36fe510799e98f70d935f46c9f078975282fce9c7e65e3945cb6fc34494e",
+        "reference_id": "vqa__vqa_val_0016__target__000",
+        "role": "target",
+        "seed": 105431305648632905
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/001.png",
+        "index": 1,
+        "prompt": "A medium shot of three uniformed men resting on a patch of grass in a grassy park area.",
+        "prompt_sha256": "bda49a50eb22d027f5e4cace64fb44a9e896523f4135efa5226fef343c7f5dc3",
+        "reference_id": "vqa__vqa_val_0016__target__001",
+        "role": "target",
+        "seed": 570804973043732160
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/002.png",
+        "index": 2,
+        "prompt": "Close-up view of three soldiers sitting on a patch of grass, focusing on their upper bodies and faces.",
+        "prompt_sha256": "4707f710631c0fbc0a8ff53d62c8cd32d30eb0103c99c7a18505114de7dd6f25",
+        "reference_id": "vqa__vqa_val_0016__target__002",
+        "role": "target",
+        "seed": 675013580253003880
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/003.png",
+        "index": 3,
+        "prompt": "Three men in military dress sit on a patch of grass, one looking at a map while others chat casually.",
+        "prompt_sha256": "9b59de639a84ccb4ba80f1e660efecd014c21888da6e6cc7e939aef0d47d72db",
+        "reference_id": "vqa__vqa_val_0016__target__003",
+        "role": "target",
+        "seed": 12057324280824859
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates three uniformed men seated on a patch of grass under the shade of large oak trees.",
+        "prompt_sha256": "c6df9656f31f3c55aa1d7a60207b9154296d36db4dc848b6b31bcf2f5ff67112",
+        "reference_id": "vqa__vqa_val_0016__target__004",
+        "role": "target",
+        "seed": 970040114646614085
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/005.png",
+        "index": 5,
+        "prompt": "A wider crop showing three men in military uniforms on a patch of grass with a path stretching behind them.",
+        "prompt_sha256": "66ea97ddff0dd10801f2df71c0bb7f960d62fd30e41634c3b5bf52e4414097fd",
+        "reference_id": "vqa__vqa_val_0016__target__005",
+        "role": "target",
+        "seed": 703578146715468013
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/006.png",
+        "index": 6,
+        "prompt": "Side angle view of three soldiers sitting on a patch of grass, with a stone wall visible in the distance.",
+        "prompt_sha256": "9f7a040f7ef11b84fc4ba8fc065c1192f4b4db0066c3b2acb58ce123dcddd0e9",
+        "reference_id": "vqa__vqa_val_0016__target__006",
+        "role": "target",
+        "seed": 451517117923344508
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/007.png",
+        "index": 7,
+        "prompt": "Three men in military uniforms sit on a patch of grass, with a red brick building partially visible in the background.",
+        "prompt_sha256": "ad9b2a1013e4e5147ce74e02efba6d1ddfd6c4dedfea31fc9cba17b1cb6f410d",
+        "reference_id": "vqa__vqa_val_0016__target__007",
+        "role": "target",
+        "seed": 373569655102594422
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of three uniformed men relaxing on a patch of grass, one holding a coffee cup, looking natural and relaxed.",
+        "prompt_sha256": "da0b84be3fa6ac105b3fe740bffaa587668eb8d916f3519706380e66a8686c2c",
+        "reference_id": "vqa__vqa_val_0016__target__008",
+        "role": "target",
+        "seed": 793456402869680975
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/009.png",
+        "index": 9,
+        "prompt": "Another instance of three men in military uniforms sitting on a patch of grass in a quiet outdoor plaza.",
+        "prompt_sha256": "d2f25dd2c296aedaa56346730db997ab4ada37e9e8f42fe568ecf2e28b741beb",
+        "reference_id": "vqa__vqa_val_0016__target__009",
+        "role": "target",
+        "seed": 425360161580546460
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/010.png",
+        "index": 10,
+        "prompt": "Medium shot of three uniformed men resting on a patch of green grass with trees in the background.",
+        "prompt_sha256": "8e89c80126243bcb94995c66dcb567cfe5af348467fbf42c129ae7b58b51277c",
+        "reference_id": "vqa__vqa_val_0016__target__010",
+        "role": "target",
+        "seed": 720782833065920910
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/011.png",
+        "index": 11,
+        "prompt": "Close-up view of three men in military dress sitting on the grass, faces partially visible.",
+        "prompt_sha256": "2487fc0b2344bc45e22626468546245f36ac83c4a394e5c340f6c3cb700f91dd",
+        "reference_id": "vqa__vqa_val_0016__target__011",
+        "role": "target",
+        "seed": 1062362925747953318
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/012.png",
+        "index": 12,
+        "prompt": "Three military men sit on the grass, one looking at a watch, others relaxed in posture.",
+        "prompt_sha256": "5d6053b20f83c2d8e011854bef7372ab4a7f822210e9fdb582bac8d337e21c4f",
+        "reference_id": "vqa__vqa_val_0016__target__012",
+        "role": "target",
+        "seed": 61885818543896742
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/013.png",
+        "index": 13,
+        "prompt": "Side angle of three uniformed men seated on the grass, backs partially to the camera.",
+        "prompt_sha256": "907194f14c6773fd0be2e8448b20733530446d75cc047a4ff72d4a17fc89b9e3",
+        "reference_id": "vqa__vqa_val_0016__target__013",
+        "role": "target",
+        "seed": 275113948264801299
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/014.png",
+        "index": 14,
+        "prompt": "Three men in military uniforms sit on the grass near a stone pathway in a park.",
+        "prompt_sha256": "393c0b5151ffa8ec973296f640b9d096ab3d8651e74e15305aa36edf17fbaa24",
+        "reference_id": "vqa__vqa_val_0016__target__014",
+        "role": "target",
+        "seed": 1043303596505324800
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/015.png",
+        "index": 15,
+        "prompt": "Candid shot of three military men sitting on the grass, one holding a paper cup.",
+        "prompt_sha256": "c7aa557b40cfe575465661716581b58816d3ce67b6cc679f47644e9908e6e8a4",
+        "reference_id": "vqa__vqa_val_0016__target__015",
+        "role": "target",
+        "seed": 61935451573280344
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/016.png",
+        "index": 16,
+        "prompt": "Side angle of three uniformed men seated directly on the green grass, backs partially to the camera.",
+        "prompt_sha256": "854fe720519062fb85e5f40c746156aaa2b3d30f17ce9d2547f5a961dc68b73c",
+        "reference_id": "vqa__vqa_val_0016__target__016",
+        "role": "target",
+        "seed": 202027218074016930
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/017.png",
+        "index": 17,
+        "prompt": "Another instance of three men in military uniforms sitting together on the grass outdoors.",
+        "prompt_sha256": "3427b82182c6d943ef299ae98a549b91d8a0ee9100015d32b0bc249c454a56e2",
+        "reference_id": "vqa__vqa_val_0016__target__017",
+        "role": "target",
+        "seed": 1105489695182206170
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/018.png",
+        "index": 18,
+        "prompt": "Candid shot of three military men sitting on a patch of green grass, one holding a paper cup.",
+        "prompt_sha256": "81311c3a9bc95872806efbd3bfb69fe49a347b2ee18f6c5e2cbd432be0d45e48",
+        "reference_id": "vqa__vqa_val_0016__target__018",
+        "role": "target",
+        "seed": 201815006934709032
+      },
+      {
+        "image": "samples/vqa/vqa_val_0016/target/019.png",
+        "index": 19,
+        "prompt": "Three men in military uniforms sit directly on green grass in a park, viewed from a slightly lower angle.",
+        "prompt_sha256": "8fb843cfca10dbe0c04fdfa87603402bf5a618c3ab28e857a8726c6fdecd6e63",
+        "reference_id": "vqa__vqa_val_0016__target__019",
+        "role": "target",
+        "seed": 661992720105439540
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000328.jpg",
+    "original_image_sha256": "fae67f47646606b5223f29db83ad5ccc4374e4015c8152defa7476c7f33ee74b",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "beaaa227cb25608fc9b50d249a7ae3dda297f30d67944c00809b21682bdfca8b",
+    "sample_id": "vqa_val_0016",
+    "shard": 120,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What are the men sitting on?",
+      "source_answer": "bench",
+      "source_answers": [
+        "bench",
+        "bench",
+        "bench",
+        "bench",
+        "bench",
+        "bench",
+        "park bench",
+        "bench",
+        "bench",
+        "bench"
+      ],
+      "target_answer": "grass"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0016__source__000": {
+      "job_sha256": "140d112109e18746499ede9a7cb6a934572e9f1ce4b2f62fbe73dc5e195b834a",
+      "sha256": "ccecbaa3237655ec948fa8e0541cc67c82985eb7f701bc1c7db7a5abc2f67d71",
+      "bytes": 187445,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:29.837799+00:00"
+    },
+    "vqa__vqa_val_0016__source__001": {
+      "job_sha256": "a15ddc2321fe360ccd60a24cf206c716b2ac7f668ee023c42e316ed7ecfe4d97",
+      "sha256": "600e6101b481cbf1a57f5e051a9f069ba5f051151653055ac424f4b2ddf4f0a1",
+      "bytes": 178446,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:29.881744+00:00"
+    },
+    "vqa__vqa_val_0016__source__002": {
+      "job_sha256": "c1a7284fa3288d26f54ef954770c2113813601c689fd15e70a59dd115439efa0",
+      "sha256": "22d8857aa62e51e961e049133c8f2b7d462c73f5d699d54b2eb5c39a39a80112",
+      "bytes": 189253,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:29.921943+00:00"
+    },
+    "vqa__vqa_val_0016__source__003": {
+      "job_sha256": "23906aca5bcf5d2aa263b6ecf4a0ca209b832c6555caf892a87974cca80761dc",
+      "sha256": "974a58a116b83961e3597365a608c85fa63c9afeebcc3039f53238dbf268a896",
+      "bytes": 158803,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:29.967126+00:00"
+    },
+    "vqa__vqa_val_0016__source__004": {
+      "job_sha256": "3545b9b6389c17a1b6a7ad7fe4fb4aa2f0ba4d44a3d49f47eb5509497cdf30bf",
+      "sha256": "debfdb0136f75e80f642c091813bbfb10b911f04575cd1fe991418ee8c5e19fa",
+      "bytes": 191512,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.013165+00:00"
+    },
+    "vqa__vqa_val_0016__source__005": {
+      "job_sha256": "a25abadebc6e3298763015b7a984499167e7e4d40759e724dd15431a6171daac",
+      "sha256": "14d404ed70bb5e32a5022d13ee948935913f992d366ac3cd87d50b7559b515e2",
+      "bytes": 153954,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.055296+00:00"
+    },
+    "vqa__vqa_val_0016__source__006": {
+      "job_sha256": "fd9bdfa3825d20801703659956ac922940d9a3c2a41dfc1f1d9276c13d62afb8",
+      "sha256": "8c71161c5bdfa956d40046e5dde28be7b993339a68f7df935c5ef0c11c7c6114",
+      "bytes": 167056,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.109551+00:00"
+    },
+    "vqa__vqa_val_0016__source__007": {
+      "job_sha256": "ade28e3d75d2c7091b0bf48420eb743f9f2b2657de31d36db6051204473db684",
+      "sha256": "43189585aea685f41c5eb3406bdb574e32c37ffd419aa28772b42c7f08d6dd0c",
+      "bytes": 178310,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.153977+00:00"
+    },
+    "vqa__vqa_val_0016__source__008": {
+      "job_sha256": "780a2fd3267951f4cb012b936a409938c11d0bde3d77c53f4be30119f9efef8b",
+      "sha256": "3af411ae5fe3a61427cecece19c367bcec6fdb8e71d3ddb31b0e049599ea6ee3",
+      "bytes": 145702,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.195807+00:00"
+    },
+    "vqa__vqa_val_0016__source__009": {
+      "job_sha256": "5dbb8b7ba39752be75aec091470c68474675d7bfd01f157ddee62d4123f2d8c5",
+      "sha256": "62eedc714a567569173af3bb4d193428953858d6059cdcf4b0ae8789fd58b815",
+      "bytes": 152186,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.240336+00:00"
+    },
+    "vqa__vqa_val_0016__source__010": {
+      "job_sha256": "110a48435fec4c6f6edd9f684ad04744a5315f0da0bb1bf3556aaa2f8f9482f4",
+      "sha256": "6bda9d17d0ae50fed1e3e30b50e8c8d11399d46c187084a9f1017531971a2389",
+      "bytes": 182844,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.281427+00:00"
+    },
+    "vqa__vqa_val_0016__source__011": {
+      "job_sha256": "17ce371c02383e199ce5e6192efa9a2f6fd607ae9b7d0c4d5bdaea077d8affa6",
+      "sha256": "40fee5b36d00a5ec0f11982215378da43904f8e94e8735198af694b39da07c05",
+      "bytes": 188138,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.326372+00:00"
+    },
+    "vqa__vqa_val_0016__source__012": {
+      "job_sha256": "3abc7729a3f51a66f9a7884bdb18b975c209b702b81d1cb556193a70e1cd615e",
+      "sha256": "ceec18deb36f84c33945cfdf4421d33735f4d9e787f9406172446950867143e5",
+      "bytes": 163851,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.367914+00:00"
+    },
+    "vqa__vqa_val_0016__source__013": {
+      "job_sha256": "64ffec528f26d455a583d7ec325e412414110bfa9697552cd784cf7198f63536",
+      "sha256": "b82e191bf9be85eba8eb32d604ab4ab6100a6f8d02e108b3e6a41e3c34e4e1e0",
+      "bytes": 157552,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.407594+00:00"
+    },
+    "vqa__vqa_val_0016__source__014": {
+      "job_sha256": "01973ba46be643edff42148c4e453db9f392e31d176d87141081cc4ad3ab526b",
+      "sha256": "350d325ecf0b64dddd0cb2fc3d1578ee629004ed8e4662201103bc7daccacf00",
+      "bytes": 173459,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.450633+00:00"
+    },
+    "vqa__vqa_val_0016__source__015": {
+      "job_sha256": "04a6b524ef1dc718b73778e2c104142024f843dc01ebeb93941f447648808815",
+      "sha256": "0dcbdb162e4736b2d19144953cfa0a0ad5f8f21583baebaf62588291d3d811e7",
+      "bytes": 175222,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.493521+00:00"
+    },
+    "vqa__vqa_val_0016__source__016": {
+      "job_sha256": "95891e5153d6d82255c9869289e085d06a20fd28bf011932d17f242972d30422",
+      "sha256": "83bc8290dcf337017b43b31806a66a9463ef3a3fc7a1235b912f1f4e2c4b5fce",
+      "bytes": 140877,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.534456+00:00"
+    },
+    "vqa__vqa_val_0016__source__017": {
+      "job_sha256": "ef5704ffe7b0a6d61f123a13b0d46735f2145b3d675d7c0168d1f3057685231d",
+      "sha256": "dc36f9dd2ac9b0d2636a434773bf817f5a9f434d8bd8f0bb9dfca620fe1d64d8",
+      "bytes": 188232,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.584885+00:00"
+    },
+    "vqa__vqa_val_0016__source__018": {
+      "job_sha256": "2ad8bd00a2d377da1e490ab745b0f2addec0df8ed30d04db7fd098b980a806d4",
+      "sha256": "b7c396bd887cc493d720f01241ad2f7955ce04b0164a5e0dd60f22ccfa9ab9c8",
+      "bytes": 176314,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.629404+00:00"
+    },
+    "vqa__vqa_val_0016__source__019": {
+      "job_sha256": "b04246b5d0e77d3fe14be02a689b3142a8efe854856cc565ade8d07fa1a507ab",
+      "sha256": "e4590b61ea27af01505b35b89cabf95a04b2a41a9b4bcacb5147edd943c4385e",
+      "bytes": 184107,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.683029+00:00"
+    },
+    "vqa__vqa_val_0016__target__000": {
+      "job_sha256": "1c6e10a3f904f36503e9d22c5482af5848e74bb463db0c442533539dc8966562",
+      "sha256": "3996884d2051d1487c8e1a8f410504dadc82aea08bc77ccf69f69a5ac7001ca4",
+      "bytes": 183493,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.735093+00:00"
+    },
+    "vqa__vqa_val_0016__target__001": {
+      "job_sha256": "01c8f17ed56e5c35e8a09f788649858234a5c738f6984ae9ba772ee3eb83cae3",
+      "sha256": "d02d68f2f911912a04024b33ffc3215fdc512e3d5cbc282f3ee12396ecc2975c",
+      "bytes": 175910,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.780147+00:00"
+    },
+    "vqa__vqa_val_0016__target__002": {
+      "job_sha256": "9fab563e4d036746f6cbcdcdfd897a8fba7a80ac6608b5f389f7b9348f6bedbc",
+      "sha256": "a957a41300e60a30538fe9859f6a57ca7384b06e3d819d64515c169122624f3b",
+      "bytes": 183834,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.824765+00:00"
+    },
+    "vqa__vqa_val_0016__target__003": {
+      "job_sha256": "c4132283e95132a04654278ff3a78650fe9e9b46fef203d445a842f055d06c6d",
+      "sha256": "9cc41afd04aac5e7b4dfa18cebd2536fde5cd71eb33629d1cd65a3055e76cad9",
+      "bytes": 182827,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.867262+00:00"
+    },
+    "vqa__vqa_val_0016__target__004": {
+      "job_sha256": "65457b5f0cf91314bb937eb88d968b56562a5a6f48e503e49887c85a828a04dd",
+      "sha256": "7b7933ce1a19b990dd1ca8f0a6881293fffc608e5c4638c9e9df93b1666c98ad",
+      "bytes": 198589,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.912967+00:00"
+    },
+    "vqa__vqa_val_0016__target__005": {
+      "job_sha256": "9d16678d43b383e94a0803d5242fde90df45ff5166593d3747e105c482bd18b5",
+      "sha256": "39031551ad5fa19afea43fefda05d6ff5c7b069909025536fc16ea818964fa7e",
+      "bytes": 167520,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:30.957635+00:00"
+    },
+    "vqa__vqa_val_0016__target__006": {
+      "job_sha256": "64f82b8864f50ea97dd72ef43c3a3ea9a9a3ac865a0ba0d4ad75692c75fae853",
+      "sha256": "46443ef654714fa4d253249a9243d3eaf9a2e81a8039f0cfdae3224aa9cf6621",
+      "bytes": 184230,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.006856+00:00"
+    },
+    "vqa__vqa_val_0016__target__007": {
+      "job_sha256": "c51603d42ec924bd5dbfea41c9b95a41567ddb2b30b3028d0231e60d50d718e3",
+      "sha256": "a53294c0860653929f7c7c77fb417299b3fe9d15510dc3894080a061f92f4827",
+      "bytes": 181572,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.050621+00:00"
+    },
+    "vqa__vqa_val_0016__target__008": {
+      "job_sha256": "ae6ac3aec13310d5785a09a1e2a3835d0bdb00cec686f4083c4ca4decf312a42",
+      "sha256": "423075a183238ecf5e5b9b16256de96823ddd8f9016d89ce57ba351fc5bff3f0",
+      "bytes": 187686,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.102425+00:00"
+    },
+    "vqa__vqa_val_0016__target__009": {
+      "job_sha256": "bab92ce4160e6e67851643cbe9f774ae1b67a47f562ef56dd01728f4b9d675d1",
+      "sha256": "24657f6785f4ee3eb3748e9f80918920d0755c98bb67c5734ea7cbd0201697b7",
+      "bytes": 169412,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.147486+00:00"
+    },
+    "vqa__vqa_val_0016__target__010": {
+      "job_sha256": "d28488e7cbde064dbb0ea9ceea7cb28213d3da1b1f00931728da799f71167b71",
+      "sha256": "613e930b2c5c7dc8d53ff2284f20f73f8d98e9c64d7b5bcff94ea56be6b75389",
+      "bytes": 187100,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.191496+00:00"
+    },
+    "vqa__vqa_val_0016__target__011": {
+      "job_sha256": "e76aac55363b0b35fb07266f9a2791629033421168bf1a2aa5dd69eb87ca4ec2",
+      "sha256": "fb57dcc9f6c9497d4b6cee0915c3c65b3bcb0481a7a21c74f83e92a5cefb300f",
+      "bytes": 177264,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.243328+00:00"
+    },
+    "vqa__vqa_val_0016__target__012": {
+      "job_sha256": "fe0a4c35780ac3bd86999621227ee5146c15a029ec214d36882239df9c316003",
+      "sha256": "b0fd11ce75c2c1d614560ab25a69294d92abd3f5c593938f27bef340152cb800",
+      "bytes": 197131,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.292854+00:00"
+    },
+    "vqa__vqa_val_0016__target__013": {
+      "job_sha256": "5e8eadf2de2ad8a7d10332e14d6a8bf83c3084504348c56c483c340ba0363b03",
+      "sha256": "62819d9e4cb361aefa1b31147166885a379d93dc8035ca52d10df146c114dd9e",
+      "bytes": 179317,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.339124+00:00"
+    },
+    "vqa__vqa_val_0016__target__014": {
+      "job_sha256": "260bae97560366dc2244849ba1571445c632602cada3abd727ed1ad0c3735404",
+      "sha256": "e14932752c68c35b7f03a3382d3ee015cca08219280bcb13342f8c68d6738364",
+      "bytes": 185349,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.382898+00:00"
+    },
+    "vqa__vqa_val_0016__target__015": {
+      "job_sha256": "816e58692104a836d8fd2d2cd12e36cbd032b69b7accde6b2b62dcef625abf13",
+      "sha256": "15d8cd67d2a3d5ffa1ecf303cc8b9792bb226021bb2c81150b250e151b252d1d",
+      "bytes": 164417,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.422930+00:00"
+    },
+    "vqa__vqa_val_0016__target__016": {
+      "job_sha256": "88686a317e6e3ae6fd0bd7caae75628078f22f66c6e06168e8d1f4878bdce2ee",
+      "sha256": "0b1eccd67584530c1481d2f6cfb51257aae3970dcefb2f81bf010ca999b295e0",
+      "bytes": 143304,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.472362+00:00"
+    },
+    "vqa__vqa_val_0016__target__017": {
+      "job_sha256": "8f97fa052f4905fb0ed7058a8eb687cd1fa6092acf23ca10d0ffb71a789a578e",
+      "sha256": "77fbe217a0e486d4823e96486d2a3e1ce3cbc84518d292af48a68cf953f10372",
+      "bytes": 189973,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.515122+00:00"
+    },
+    "vqa__vqa_val_0016__target__018": {
+      "job_sha256": "29c4d1b9f2a0ed10dcff00ef98f443e6f793ea717bbe99f9f70ca4d9318b621e",
+      "sha256": "ae0bc27ed689b9bde6aa4e6bd56533167d867473a13b6754e928c8c253b8ba6f",
+      "bytes": 189022,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.561428+00:00"
+    },
+    "vqa__vqa_val_0016__target__019": {
+      "job_sha256": "4ad495f273a86a8a5a2204d65807d7a73e73b76db71696806f4839367ab200af",
+      "sha256": "a4f359f84b1aa607f7c40c915fa5653c158da110127ad037dcc65a0b5b298c46",
+      "bytes": 177917,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.768052618950605,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:24:31.603936+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:24:31.603959+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

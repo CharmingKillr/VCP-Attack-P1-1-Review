@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "ed796ebef6aadcb89e010c0fe79934ada57cae0331450496edd7585caddbd219",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "3b44e80aabeaf8de3383480c69231d34d64d59aee4ada635eb11f0b9ad870d8f",
+      "notes": "Original source prompts mostly showed one musician, often a bassoon/clarinet/flute/cello player, rather than the premise’s two men making music; they did not entail “People watch two men make music.” Replaced the source bank so every prompt explicitly shows two male musicians (oboe plus percussion) and spectators. The original target bank depicts one solo musician with no audience, a clear contradiction. Read all revised source prompts and all target prompts.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/000.png",
+        "index": 0,
+        "prompt": "A seated man with glasses plays an oboe while a second man in a purple shirt plays hand percussion; several spectators watch them.",
+        "prompt_sha256": "0b4077f9b896e3d7e2fba37e90631ec70f8ded553942b06645e4a2ab458efe93",
+        "reference_id": "ve__snli_ve_test_0006__source__000",
+        "role": "source",
+        "seed": 103411265885406567
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/001.png",
+        "index": 1,
+        "prompt": "Medium view of two men performing together: one plays an oboe from a chair and the other taps a percussion instrument, with listeners seated nearby.",
+        "prompt_sha256": "01a6676876acfd76dc27e9ed86e6712b9c0e38852d2ac99ccca7b450c09eeef0",
+        "reference_id": "ve__snli_ve_test_0006__source__001",
+        "role": "source",
+        "seed": 857172442819721603
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/002.png",
+        "index": 2,
+        "prompt": "A man in glasses plays the oboe as a purple-shirted man keeps rhythm on a small drum; audience members watch the music.",
+        "prompt_sha256": "a3d9b6a1096a7d0fb8a09d07c50e7b6d2ae82909537353a7b847f5982eaa29e2",
+        "reference_id": "ve__snli_ve_test_0006__source__002",
+        "role": "source",
+        "seed": 902765896341341280
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/003.png",
+        "index": 3,
+        "prompt": "Wide room scene with two male musicians performing, one on oboe and one on percussion, while spectators look on.",
+        "prompt_sha256": "a6c07ce0f2c225f7dc333f740fd73003fd74b7a14e0a16e6dc503d3880b59c22",
+        "reference_id": "ve__snli_ve_test_0006__source__003",
+        "role": "source",
+        "seed": 351171196168278701
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/004.png",
+        "index": 4,
+        "prompt": "A seated oboist and a man in a purple shirt playing percussion share a performance as a small audience watches.",
+        "prompt_sha256": "76e2a5d0364099bb71b239fe3ffa9cd0dbdbd68a76e763a915190671310d686b",
+        "reference_id": "ve__snli_ve_test_0006__source__004",
+        "role": "source",
+        "seed": 424716873208193204
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/005.png",
+        "index": 5,
+        "prompt": "Side angle of two men making music together, the oboe player seated and the purple-shirted percussionist beside him, people watching.",
+        "prompt_sha256": "5bf2becd429572958d9b175d08060c4b15072b322954d589e9b1a49956cafcdd",
+        "reference_id": "ve__snli_ve_test_0006__source__005",
+        "role": "source",
+        "seed": 525726467352011161
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/006.png",
+        "index": 6,
+        "prompt": "An indoor performance shows a man with glasses playing oboe and another man playing hand percussion, with listeners in the background.",
+        "prompt_sha256": "fc6a7091f5b1b6bff8ea0c66a5354091b1aced13e17856b3a54525c06e2c9ae0",
+        "reference_id": "ve__snli_ve_test_0006__source__006",
+        "role": "source",
+        "seed": 554634938883553829
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/007.png",
+        "index": 7,
+        "prompt": "Close view of the seated oboe player and the purple-shirted man at a percussion instrument, while several spectators observe.",
+        "prompt_sha256": "f0ff51a5e5f727351aa23cb10dfde03b8860360e96d660999526872091112893",
+        "reference_id": "ve__snli_ve_test_0006__source__007",
+        "role": "source",
+        "seed": 687934762837404693
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/008.png",
+        "index": 8,
+        "prompt": "Two male musicians perform for a seated audience; a man plays oboe and his partner in purple plays percussion.",
+        "prompt_sha256": "2a64a95ea7119493ea9e6ca95bf622bf9051be734bf26ea142381736d45dc6a4",
+        "reference_id": "ve__snli_ve_test_0006__source__008",
+        "role": "source",
+        "seed": 728545370480546219
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/009.png",
+        "index": 9,
+        "prompt": "A man with glasses plays an oboe beside a purple-shirted percussionist, with onlookers arranged around the room.",
+        "prompt_sha256": "599a956b1d70df59e1aa89d0d3188f6ad0bd53e3c1b33d627f1a3f3f79123374",
+        "reference_id": "ve__snli_ve_test_0006__source__009",
+        "role": "source",
+        "seed": 86720140576926716
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/010.png",
+        "index": 10,
+        "prompt": "A small recital scene with two men playing different instruments together and spectators watching attentively.",
+        "prompt_sha256": "863354f268523bd752cba968b93d820e7c2431a1c01931e0f5fd6a2614d6d183",
+        "reference_id": "ve__snli_ve_test_0006__source__010",
+        "role": "source",
+        "seed": 189839033044553168
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/011.png",
+        "index": 11,
+        "prompt": "From a high angle, a seated man plays oboe while a second man plays percussion and people watch from chairs.",
+        "prompt_sha256": "2e6c5a3379df1b583bf0f54201f110207072b22d7725b07ebdb253bc23e8a31a",
+        "reference_id": "ve__snli_ve_test_0006__source__011",
+        "role": "source",
+        "seed": 677137062300918960
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/012.png",
+        "index": 12,
+        "prompt": "A purple-shirted man taps a hand drum as a bespectacled oboist plays beside him; spectators face the performers.",
+        "prompt_sha256": "c0a56b4671f12df875a71d993e41947a7b196d340695f257dc654779f7747bc8",
+        "reference_id": "ve__snli_ve_test_0006__source__012",
+        "role": "source",
+        "seed": 1100540438207460508
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/013.png",
+        "index": 13,
+        "prompt": "An audience watches two male musicians, one seated with an oboe and the other standing at a percussion instrument.",
+        "prompt_sha256": "e74dc7c3d249443c453c61c46d78a215946203aa3fe4415c48383332bb146337",
+        "reference_id": "ve__snli_ve_test_0006__source__013",
+        "role": "source",
+        "seed": 355245938523142807
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/014.png",
+        "index": 14,
+        "prompt": "Candid performance photo of two men making music together as several people look on from the room.",
+        "prompt_sha256": "0756b096e4c6227fbe4ea6b462b52b4035c90f4f2a4c3e33a1b260b78a1536c1",
+        "reference_id": "ve__snli_ve_test_0006__source__014",
+        "role": "source",
+        "seed": 37688398037646131
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/015.png",
+        "index": 15,
+        "prompt": "A man in glasses plays the oboe while a man wearing purple accompanies him on percussion; a few listeners watch.",
+        "prompt_sha256": "da5ce9fe11d343b27f29b408a48f5cc925d1c89770ef6138284063d9ad92f113",
+        "reference_id": "ve__snli_ve_test_0006__source__015",
+        "role": "source",
+        "seed": 1141165549849992806
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/016.png",
+        "index": 16,
+        "prompt": "In a warmly lit room, two male performers play oboe and percussion together before a small audience.",
+        "prompt_sha256": "bac360aaccbd8be5263e0ba008173d6f888cb27a48904fefd4d305a4c9dd0471",
+        "reference_id": "ve__snli_ve_test_0006__source__016",
+        "role": "source",
+        "seed": 1011249922665112188
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/017.png",
+        "index": 17,
+        "prompt": "A seated oboist and a purple-shirted percussion player perform in front of spectators, viewed from the side.",
+        "prompt_sha256": "62aeedcce6a8eff2e127abe3d4c2c5594a26af312415c3c9108753aa3c9f2c00",
+        "reference_id": "ve__snli_ve_test_0006__source__017",
+        "role": "source",
+        "seed": 755708258454369715
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/018.png",
+        "index": 18,
+        "prompt": "Medium shot of two men making music for an audience, with the oboe player in a chair and the second man at percussion.",
+        "prompt_sha256": "ed8fb2cec8fa12c7d0feaebfa9d0e6ec2f8efd59212f47b68a42f83d854586f4",
+        "reference_id": "ve__snli_ve_test_0006__source__018",
+        "role": "source",
+        "seed": 577173330321362200
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/source/019.png",
+        "index": 19,
+        "prompt": "A man plays oboe while another man in a purple shirt plays percussion; spectators sit nearby and watch their performance.",
+        "prompt_sha256": "40409a11df2fc2c948daa41f14b3a356fb929e4f712825fde0c1a48d958675a0",
+        "reference_id": "ve__snli_ve_test_0006__source__019",
+        "role": "source",
+        "seed": 767137297312199167
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/000.png",
+        "index": 0,
+        "prompt": "A man plays a bassoon while seated alone in a warm living room, with no other people visible in the frame.",
+        "prompt_sha256": "b9f9f06414ae9b8cae950a7bf462af859e70553a791b186678c8c1e5f1dccdb2",
+        "reference_id": "ve__snli_ve_test_0006__target__000",
+        "role": "target",
+        "seed": 124310631779549567
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/001.png",
+        "index": 1,
+        "prompt": "Close-up of a musician holding a bassoon, seated in an empty room with a plain wall behind him.",
+        "prompt_sha256": "e4b11c150d619d84fab10af7733122de6ab29b9d834a23ad15afb2bf6f2db6e4",
+        "reference_id": "ve__snli_ve_test_0006__target__001",
+        "role": "target",
+        "seed": 142980157370522072
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a man playing a bassoon, with empty wooden chairs arranged behind him.",
+        "prompt_sha256": "4fc1033dfa70063fe570edf272c64328b099833b28eeff3a3ff9edc1bff15547",
+        "reference_id": "ve__snli_ve_test_0006__target__002",
+        "role": "target",
+        "seed": 150800556665835329
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/003.png",
+        "index": 3,
+        "prompt": "Wide angle of a room where a man plays a bassoon, with no other people present in the space.",
+        "prompt_sha256": "c406100ead307c63301efaa4819b10a5a136f69a5b88f8b1378e7fc6f4d2eae3",
+        "reference_id": "ve__snli_ve_test_0006__target__003",
+        "role": "target",
+        "seed": 1085262955734411235
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/004.png",
+        "index": 4,
+        "prompt": "Candid view of a man playing a bassoon, with an empty chair visible in the background.",
+        "prompt_sha256": "8b8e135b6931cfaef984ba6576be97135b7de26472a707609d2565549ae1f237",
+        "reference_id": "ve__snli_ve_test_0006__target__004",
+        "role": "target",
+        "seed": 373017276590407672
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/005.png",
+        "index": 5,
+        "prompt": "Side profile of a man playing a bassoon, with empty seats visible in the foreground and background.",
+        "prompt_sha256": "49d8c85e0ab82a7e0c9aac07b19ee59100979651099e8dd88ba121dda3b0380a",
+        "reference_id": "ve__snli_ve_test_0006__target__005",
+        "role": "target",
+        "seed": 120602589540109632
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/006.png",
+        "index": 6,
+        "prompt": "Dimly lit room where a man plays a bassoon, with rows of empty chairs behind him.",
+        "prompt_sha256": "5e8bf6ec25e38ec1c7ffd5e31f55571fec91d28dc7e3b8f0b6e2bd463c481812",
+        "reference_id": "ve__snli_ve_test_0006__target__006",
+        "role": "target",
+        "seed": 74005027354820102
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/007.png",
+        "index": 7,
+        "prompt": "Slightly distant view of a man playing a bassoon, with no people seated in the surrounding area.",
+        "prompt_sha256": "08e6657eb916ca8516860bba2d5af46fbc51a9117ac81f3e714e1d575efd25ae",
+        "reference_id": "ve__snli_ve_test_0006__target__007",
+        "role": "target",
+        "seed": 1099423526292475402
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/008.png",
+        "index": 8,
+        "prompt": "A man playing a clarinet alone in a room, with empty chairs arranged around him.",
+        "prompt_sha256": "73cf9a0d082c7393a6432e71a54e0eff7bc5185051516290df79f4fbdda0dbe5",
+        "reference_id": "ve__snli_ve_test_0006__target__008",
+        "role": "target",
+        "seed": 425209268921255930
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/009.png",
+        "index": 9,
+        "prompt": "A woman plays a cello while seated, with no men or other people watching her performance.",
+        "prompt_sha256": "a5730f61180b9fcb1001d021dc1f57d89b28faab39d570236f1cbbb8f61fbcf9",
+        "reference_id": "ve__snli_ve_test_0006__target__009",
+        "role": "target",
+        "seed": 566314872301500558
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/010.png",
+        "index": 10,
+        "prompt": "High angle view of a man playing a flute, with empty seats below him and no audience.",
+        "prompt_sha256": "9f34b0df64b0d8fb89d9be808c7bac0caaeef1fb08f4fe44d35993a078ce370a",
+        "reference_id": "ve__snli_ve_test_0006__target__010",
+        "role": "target",
+        "seed": 875234328814564472
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/011.png",
+        "index": 11,
+        "prompt": "Medium shot of a man playing a clarinet, with three empty chairs positioned behind him.",
+        "prompt_sha256": "3470802412a42932f14551bffe0216bb8c64f4513823cab9564ced97001daa7b",
+        "reference_id": "ve__snli_ve_test_0006__target__011",
+        "role": "target",
+        "seed": 581783013533973278
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/012.png",
+        "index": 12,
+        "prompt": "Candid moment of a man playing a flute, with an empty background and no onlookers.",
+        "prompt_sha256": "27ac176ee69cc947dfafeb6e97b4da647b4f8937d13bcb396e712be7a5ca524b",
+        "reference_id": "ve__snli_ve_test_0006__target__012",
+        "role": "target",
+        "seed": 258629327351134163
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/013.png",
+        "index": 13,
+        "prompt": "Side view of a woman playing a cello, with empty onlooker seats visible in the frame.",
+        "prompt_sha256": "dbc609af15f91517c3010cece85e83776a153283fd5209b77bdf4791110912ff",
+        "reference_id": "ve__snli_ve_test_0006__target__013",
+        "role": "target",
+        "seed": 252295803337165746
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/014.png",
+        "index": 14,
+        "prompt": "Slightly closer view of a man playing a clarinet, with no group of people seated around him.",
+        "prompt_sha256": "6bde5166e3c36b2078090ed2cb10c0cbc1a721535b60e3e0494ed9c656dc50cd",
+        "reference_id": "ve__snli_ve_test_0006__target__014",
+        "role": "target",
+        "seed": 1070311209466719454
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/015.png",
+        "index": 15,
+        "prompt": "A man playing an oboe alone, with empty chairs arranged in a semi-circle behind him.",
+        "prompt_sha256": "4960cdc560b966de35ec9aa177f00db2f0d1c94e6c77e2e9359234eb5ec15185",
+        "reference_id": "ve__snli_ve_test_0006__target__015",
+        "role": "target",
+        "seed": 1047007220041263278
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/016.png",
+        "index": 16,
+        "prompt": "Side view of a woman playing a cello, with no seated onlookers visible in the foreground or background.",
+        "prompt_sha256": "bea7f3399a199b088b314f8233a75ee90effeefde7a36e5eaceb61e7a07023c1",
+        "reference_id": "ve__snli_ve_test_0006__target__016",
+        "role": "target",
+        "seed": 624761558628330503
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/017.png",
+        "index": 17,
+        "prompt": "Slightly closer view of a man playing a clarinet, with no group of people seated in a semi-circle watching.",
+        "prompt_sha256": "bf95547b174e02b3b776d4d26f08fde18348314eb979fde2e88f4d46484723c6",
+        "reference_id": "ve__snli_ve_test_0006__target__017",
+        "role": "target",
+        "seed": 66474014337330014
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/018.png",
+        "index": 18,
+        "prompt": "A man playing an oboe with no audience seated in chairs, capturing a moment of solitary musical performance.",
+        "prompt_sha256": "22f2ea2b2e149f749f02db77cf7646e2725843d8cdd6d2fc781dc66924b2fc98",
+        "reference_id": "ve__snli_ve_test_0006__target__018",
+        "role": "target",
+        "seed": 412307417585174906
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0006/target/019.png",
+        "index": 19,
+        "prompt": "A man in a blue shirt plays a bassoon in a room, with no other people visible in the frame.",
+        "prompt_sha256": "749c96053ad83867c212a2f8e3dfd7f4c350d431dd3ae2fcdb7de1161facf4fd",
+        "reference_id": "ve__snli_ve_test_0006__target__019",
+        "role": "target",
+        "seed": 918481458211253789
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/104285082.jpg",
+    "original_image_sha256": "f27acc52365da34eec91abdab1ff6ba64a449788a36833e9505ad5126dc0488f",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "ed796ebef6aadcb89e010c0fe79934ada57cae0331450496edd7585caddbd219",
+    "sample_id": "snli_ve_test_0006",
+    "shard": 6,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "People watch two men make music",
+      "premise_caption": "A man with glasses is sitting a chair playing the oboe while a man in a purple shirt plays percussion and spectators look on.",
+      "source_label": "entailment",
+      "target_label": "contradiction"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0006__source__000": {
+      "job_sha256": "c91ea771ac12d8a5d3fbe423d820d32de5f3e3362e865cf7695545df4ced5b47",
+      "sha256": "0c6792c3802c5af31b16a907ee461882c638675f67622c0a5f96a991783c4306",
+      "bytes": 165487,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.059755+00:00"
+    },
+    "ve__snli_ve_test_0006__source__001": {
+      "job_sha256": "9f932fe77b719d216948ac64fc55a5b9a6921bcd4fedacdbd9fb5bc49de1eb4e",
+      "sha256": "9d48800ed88eb61c44b1ede3d17c78d55d13da42c9b02d401e7cdd7e3e6e11cf",
+      "bytes": 145376,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.122440+00:00"
+    },
+    "ve__snli_ve_test_0006__source__002": {
+      "job_sha256": "96860c65301eeb387dad794ec06734d81f817ccc8f94aa6a8aa3e4d7208f09f8",
+      "sha256": "e76d5bc685b380acc21824754c0c3928e1676280ffb012933ee42c05565e587f",
+      "bytes": 145088,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.158147+00:00"
+    },
+    "ve__snli_ve_test_0006__source__003": {
+      "job_sha256": "5cb2f93a62a3e67fd6ee20c5e095ab924c69580603c37aaee6a3c48ae319deac",
+      "sha256": "e0c7bc86544ba3757eb35f6d75fc0ed5d3a13786390ee4014318b42b8fa8b551",
+      "bytes": 143539,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.201834+00:00"
+    },
+    "ve__snli_ve_test_0006__source__004": {
+      "job_sha256": "12de461277234d1fb32a54d3c2ca218a59736e1410e1d1c71c931a95f999fb9a",
+      "sha256": "71c2b6ca126f094bbf26dba69721350382e68cde5954f7e3394126a981dab9e4",
+      "bytes": 158015,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.247700+00:00"
+    },
+    "ve__snli_ve_test_0006__source__005": {
+      "job_sha256": "e6a37d74c4b59e6c120de339a4cbb053c93594add506a029ff39d091ab98f170",
+      "sha256": "25f1487e03916c6122f260d4faae6a5d01a165c84986596ab035958ee18c3cb0",
+      "bytes": 176128,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.293864+00:00"
+    },
+    "ve__snli_ve_test_0006__source__006": {
+      "job_sha256": "66d540e5445fd806afb1c96ea9492829e372826ddfa690a1be277a083a6483b1",
+      "sha256": "a6b1be8338c60dc0cf88ee6e11d92752b1f05c3861cfa4964888725633d875d6",
+      "bytes": 144585,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.338561+00:00"
+    },
+    "ve__snli_ve_test_0006__source__007": {
+      "job_sha256": "af297c382cec2ba11265aa9b56db9aeb59d59123ba7abdb8bd26476cdbd408cd",
+      "sha256": "cd580ca4ff456bd2bb5fdbb5a41d7c41916ad5a975724845c3a18023ef2a24e6",
+      "bytes": 161354,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.382587+00:00"
+    },
+    "ve__snli_ve_test_0006__source__008": {
+      "job_sha256": "d6ce25380e64563a150c5aace26a3fa5cd47eced38575749e16f711d0b26ec90",
+      "sha256": "9b76008985507a5203c143d2c277681749ef6ea2ff32a24ba568224bb35f2894",
+      "bytes": 158314,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.431281+00:00"
+    },
+    "ve__snli_ve_test_0006__source__009": {
+      "job_sha256": "8ee3b6036af5fa414c6a055cd1e15b46b7b5c6e40f0d3c11829371dd298f83ca",
+      "sha256": "f9f09ddd454c47f720f7c009fba973dc40dc9401e15836294d791a4a7a2423d9",
+      "bytes": 150682,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.475758+00:00"
+    },
+    "ve__snli_ve_test_0006__source__010": {
+      "job_sha256": "139a0b82dbc122dc509898da692c108cfca804dced60d68f19aa2c4216f72230",
+      "sha256": "60e420610c51461dc51daa668e3484849c4df8713aa58ed9ebde5d925a04cbd8",
+      "bytes": 137946,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.521397+00:00"
+    },
+    "ve__snli_ve_test_0006__source__011": {
+      "job_sha256": "bc72705dd0cab8e4d24c67195f2ea1c6d235b556ccfafb3ca17ba150b145029d",
+      "sha256": "9689a88ed2379aa8ec78d725b8e7ab3dc00744303bffa82cd2fa4fe99f2c5b38",
+      "bytes": 165550,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.564994+00:00"
+    },
+    "ve__snli_ve_test_0006__source__012": {
+      "job_sha256": "14998faf19ba27cda4344f5fdc4877875fbc6e9619fd68e6e31ead03e58b78ba",
+      "sha256": "89bee9d43270bf83954f1f59eea482cc5407e57da703002568a8819997e3af24",
+      "bytes": 143812,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.607808+00:00"
+    },
+    "ve__snli_ve_test_0006__source__013": {
+      "job_sha256": "191e780039792ccd12777f416b068c0a8a10fc087e673d64c10965487e3636f3",
+      "sha256": "be078b38a57390a01533aed2bc757387c5bbd71f3e6995c4f120b467c6f358bf",
+      "bytes": 133360,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.651135+00:00"
+    },
+    "ve__snli_ve_test_0006__source__014": {
+      "job_sha256": "e867e7447184c39d40bae3b855139b0d6a4f877f6a55ebf8a203e15b33526826",
+      "sha256": "6713788c3393392f12101e8f90371554cf9a698488bcea8c7ab4621d4aca81a5",
+      "bytes": 151915,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.695800+00:00"
+    },
+    "ve__snli_ve_test_0006__source__015": {
+      "job_sha256": "4f8240d9abd52a49634d5713611b92877e1a4f843b459026b2f84fff17387807",
+      "sha256": "1a47a52420863ca518bb1ce345f2a36bec91c92875abe3ceaed068d6b84d56ea",
+      "bytes": 157647,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.739759+00:00"
+    },
+    "ve__snli_ve_test_0006__source__016": {
+      "job_sha256": "78afa19cb90764242c890be8859939962b37c9b7f12394a06ee35fd6fed336d0",
+      "sha256": "276a292b4006eb0ce969c7c5eee86394f17f2df5960e71016a186023159cda1e",
+      "bytes": 142007,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.793592+00:00"
+    },
+    "ve__snli_ve_test_0006__source__017": {
+      "job_sha256": "7b545f33a71eeaa14485c0a48962ec90c9089a08b825d6c6cf41c1a0741a2e58",
+      "sha256": "1ceae789e530e9b5db79c5b4709ba4e3ff9e3ce32be5d7bd000b228f6aa9b004",
+      "bytes": 146199,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.853923+00:00"
+    },
+    "ve__snli_ve_test_0006__source__018": {
+      "job_sha256": "60fa8804ba48ee715e7fb9e0af12b0af624211aa6c50f16c1154fe93270e3315",
+      "sha256": "8bd0ca85f042a19ddf92fec89780cdf5822d003bae9ea97bd0339c98cdea5f3d",
+      "bytes": 138788,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.893607+00:00"
+    },
+    "ve__snli_ve_test_0006__source__019": {
+      "job_sha256": "e0a002c1cdd02813deb4a9a56a3518a671b901df2edb628bc661aea076101f92",
+      "sha256": "55aedad15a1a94da34215efec54f53061df933323dbf47c93ca0c1020d0e159d",
+      "bytes": 169430,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:08.947990+00:00"
+    },
+    "ve__snli_ve_test_0006__target__000": {
+      "job_sha256": "3ad577b8f53f78a50a4afbfaf40c8c1f0985d1a4f00da548493163c052ff7ce8",
+      "sha256": "dc07b77fed3365732afbc12c25186bedefadad4d8176050cbad1440eab9bf88a",
+      "bytes": 141003,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.022067+00:00"
+    },
+    "ve__snli_ve_test_0006__target__001": {
+      "job_sha256": "999ff74bba1acda9c7ac49ed5cafc6c9834d34d9eb0aa7731e52f8b3a59b9fb4",
+      "sha256": "c809167366202280354bf5c6df7dbf91e58aa857bb73fb2b6e9882fd3b170b83",
+      "bytes": 103207,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.068155+00:00"
+    },
+    "ve__snli_ve_test_0006__target__002": {
+      "job_sha256": "1733c4c442ef8ee21c834f3185ce8c696267639ffcbd3d4c230b52c5e238d906",
+      "sha256": "e7ba7fab5241a1c3a744af62240d12a48f2b7f745dadb51ac5cda02c1cb64474",
+      "bytes": 138894,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.141217+00:00"
+    },
+    "ve__snli_ve_test_0006__target__003": {
+      "job_sha256": "f52ca2d2cc126e6f8857354e0e8529128976dc33a6f719bbcb0be44987f85843",
+      "sha256": "efeeee78f5a8373023dd437ce75c48bfd30d8b9126777477f3b127287f89909a",
+      "bytes": 96805,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.190005+00:00"
+    },
+    "ve__snli_ve_test_0006__target__004": {
+      "job_sha256": "e63e5c0895405b0246402263f8c8da673ce27d3d0d7acca172c17e5a46f4feb0",
+      "sha256": "24a9c1e3ff30d7866857d45a4486e4dced364a77ba76eacecb5f7f686e7b5775",
+      "bytes": 128213,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.238858+00:00"
+    },
+    "ve__snli_ve_test_0006__target__005": {
+      "job_sha256": "66a9faeb67afcf1bb8a984c584dfcb7c97164aa23031152c62813bb11d8947eb",
+      "sha256": "23b12c71c6db8ba5264277e4677a3806d25d52943d2938f4ec48d76aa5c44575",
+      "bytes": 127953,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.294143+00:00"
+    },
+    "ve__snli_ve_test_0006__target__006": {
+      "job_sha256": "52d554a6805cc106afc05743ab7386ce1b0cd5e9dc479d996a56621c64c5474c",
+      "sha256": "dbbbe35940adca3d79a62c2f7363bee91326d76037202cda6a6541ac88977bac",
+      "bytes": 125616,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.332949+00:00"
+    },
+    "ve__snli_ve_test_0006__target__007": {
+      "job_sha256": "0cff400a79cc2c98691894ddc557e156a957fdfe8a08d5442e26333b6af2883c",
+      "sha256": "9c5dc5848fc0a5e8f98170bb6d059fd6c977a21697d8b5efbd1bf2840eda413b",
+      "bytes": 135911,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.381346+00:00"
+    },
+    "ve__snli_ve_test_0006__target__008": {
+      "job_sha256": "6da3ad03aa03445eefa51762e59bd20b96888ae117678606edc4c6cf3ef451ea",
+      "sha256": "8d015f3e257404ebef86e8c8e6802e1b982b4afd13c8657cf9872092799c2f6b",
+      "bytes": 143640,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.425943+00:00"
+    },
+    "ve__snli_ve_test_0006__target__009": {
+      "job_sha256": "31c900325e37a07bf4dce8137eaa26a2583cc03cf53269719e1bee4c5096a5c4",
+      "sha256": "8ec57a9a9be5b9b05ed51939f1d8e79e577ec89c8c19a868929d0f476ae22790",
+      "bytes": 146395,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.472619+00:00"
+    },
+    "ve__snli_ve_test_0006__target__010": {
+      "job_sha256": "25d026f5471e6cbdf247eb56084b2826fc1c206d1b8f179eb0c9905c5c210544",
+      "sha256": "8d2d936dbd832e958e8e8989f7c63710dfca2a07e12be88adc7491b6329db309",
+      "bytes": 120622,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.517152+00:00"
+    },
+    "ve__snli_ve_test_0006__target__011": {
+      "job_sha256": "a1b65b2439a460565701a737248781a77bb09bc660d00a56c81654b45d06b2b5",
+      "sha256": "4bc34a341483b12be6438226d79dcc6eecde2a42afd2c0e3f69e271e903b9d53",
+      "bytes": 128958,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.564765+00:00"
+    },
+    "ve__snli_ve_test_0006__target__012": {
+      "job_sha256": "af6c5f4bae7c1aa25e2c9fc9c0d21552517af878adf7c881e8004cb658c09133",
+      "sha256": "5060b88d16dcc0a25af1a4e73ea9af60945f348e6ae9f8abed77db675004a735",
+      "bytes": 112477,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.609941+00:00"
+    },
+    "ve__snli_ve_test_0006__target__013": {
+      "job_sha256": "c1bbc9ffa0e67ad8d757ee4fab08a45bbbffd1fd0e220c99b9604d0b4576dc62",
+      "sha256": "1ce28b986fadf0eb40d6ce1d392261bb1791bbed400b0bc535b5b7faaf1a055c",
+      "bytes": 147256,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.656949+00:00"
+    },
+    "ve__snli_ve_test_0006__target__014": {
+      "job_sha256": "5d98df1f8f990d47e8398df6b9ec9971b0ea47299f585a0ae4b67b000ec5b92a",
+      "sha256": "c1f17d15d8b2f5181b1857f21ddecc0619adbfdb4e3062dfaba954e41648294f",
+      "bytes": 147449,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.710266+00:00"
+    },
+    "ve__snli_ve_test_0006__target__015": {
+      "job_sha256": "735683b9b430cd9f376c520e8f4355980f2e2757a9ee92ad6034fdca37f8e007",
+      "sha256": "cdde75b626dffa3633eb15a73975f6f35ffdecbe193f9175a42afe7fcf94c557",
+      "bytes": 142238,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.756438+00:00"
+    },
+    "ve__snli_ve_test_0006__target__016": {
+      "job_sha256": "3acb84868eef96eded9c4bb04cf7bae2efe0acaa6aaa42e3a12f5a3299fc36c7",
+      "sha256": "44d2de701a334e7d409295d08bed60b135ab3ec7478b34828ebc9be8ef76fcb4",
+      "bytes": 137893,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.806875+00:00"
+    },
+    "ve__snli_ve_test_0006__target__017": {
+      "job_sha256": "25b4b572a63fe18840104feed261ac2c75b4634a0c43f9549c422cd4e5509bbd",
+      "sha256": "44f20b3bec7df67417db2558bab706f55da00e215a6152f593cca3e4f6494fd8",
+      "bytes": 146751,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.845397+00:00"
+    },
+    "ve__snli_ve_test_0006__target__018": {
+      "job_sha256": "e78a70997b4b73073677ede16a995ae493f05084246a53016bf4b1a88a2f8b27",
+      "sha256": "e2ef9f249be4f22ba50c15927c28c3d5dae115b3cb97a462b5b901d8a63c1888",
+      "bytes": 126938,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.892914+00:00"
+    },
+    "ve__snli_ve_test_0006__target__019": {
+      "job_sha256": "37ab733d865d7665cb1432838bc6b0b25d20ec812b5a642205484d01630c681b",
+      "sha256": "8ec16821bdef77373c751c34ad5d4620dd4a9741ad96a42a10c44cc2923b7a72",
+      "bytes": 142886,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.784522687084973,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:03:09.936776+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:03:09.936799+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

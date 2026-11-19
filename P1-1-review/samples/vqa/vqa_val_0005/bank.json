@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "5e7a86321789fe13ccf42ff8e55aabab38e6b64984f8f65dbe97464463336cfd",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "0ea4449b860b7be4227e01c26f4919af2b1e5ca451db866065ec6eb1d1784011",
+      "notes": "Source prompts consistently depict cleaning; target prompts depict sanding a floor. Repaired the carpet-sanding prompt and several unclear/non-wood floor cases to explicit active hardwood-floor sanding. Separate data warning: source_answer is “cleaning”, while the 10 source annotations list cleaning only 3/10 and talking-related answers 7/10. I did not silently alter the task label; reconcile before treating this row as a benchmark source-hit.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR_WITH_DATA_WARNING",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0005/source/000.png",
+        "index": 0,
+        "prompt": "A woman in a living room holding a mop, standing near a sofa with soft natural light.",
+        "prompt_sha256": "ee8de684f0ff9a4a35048db643dae407bbe3cb94640f605779e5ab11ad5d524f",
+        "reference_id": "vqa__vqa_val_0005__source__000",
+        "role": "source",
+        "seed": 691756833307580437
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a woman mopping a wooden floor in a dining area with a table behind her.",
+        "prompt_sha256": "b5efb241be7b32a4df775fe93a6211b6921ab7badb9983048c26c300c3fe8e4e",
+        "reference_id": "vqa__vqa_val_0005__source__001",
+        "role": "source",
+        "seed": 1116816052993474993
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a woman wiping a kitchen counter with a cloth, cabinets visible in the background.",
+        "prompt_sha256": "e28abb467dfbda2671d8b6684f8fe52209189483d404ada1ce7814f9dad0f581",
+        "reference_id": "vqa__vqa_val_0005__source__002",
+        "role": "source",
+        "seed": 1041530142503898169
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/003.png",
+        "index": 3,
+        "prompt": "A woman bending down to vacuum a carpet in a hallway, coat rack visible on the wall.",
+        "prompt_sha256": "1f5374545dabce0c245d78ac8b61d618d7076d4b352288ed34ed740c3c4f333e",
+        "reference_id": "vqa__vqa_val_0005__source__003",
+        "role": "source",
+        "seed": 550160839218179402
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a woman sweeping a tile floor in a sunlit living room.",
+        "prompt_sha256": "9a81db1b59e653b1140674977df30a1ef3bafba8c395ddf5fa000b8ead218781",
+        "reference_id": "vqa__vqa_val_0005__source__004",
+        "role": "source",
+        "seed": 561644151713073927
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/005.png",
+        "index": 5,
+        "prompt": "Wide angle showing a woman cleaning a window in a bedroom, bed and dresser in the foreground.",
+        "prompt_sha256": "ae5f557bf4648912eedea9f5f39dfaf07d33a5584ec9141c747d42fbaae27522",
+        "reference_id": "vqa__vqa_val_0005__source__005",
+        "role": "source",
+        "seed": 441770796518672525
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/006.png",
+        "index": 6,
+        "prompt": "Side view of a woman dusting a shelf in a study, books and lamp on the desk nearby.",
+        "prompt_sha256": "0ed5493910c748187ca530b0ad999df47cae32bb55a82c169538156f679a58b4",
+        "reference_id": "vqa__vqa_val_0005__source__006",
+        "role": "source",
+        "seed": 127722390479356003
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/007.png",
+        "index": 7,
+        "prompt": "A woman organizing items on a table in a dining room, chairs and a vase in the background.",
+        "prompt_sha256": "4a5e36584251f72dcf3c718c3bfc2b7cd217598926083247ef68579c9d98ab58",
+        "reference_id": "vqa__vqa_val_0005__source__007",
+        "role": "source",
+        "seed": 201684306272922387
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a woman wiping a glass table in a bright kitchen, fruit bowl on the counter.",
+        "prompt_sha256": "bafca5ef4312bfc85cd6eca8357a4bfc4fd51885d599dfcafcc30aac90cd2dbb",
+        "reference_id": "vqa__vqa_val_0005__source__008",
+        "role": "source",
+        "seed": 899806015779042352
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/009.png",
+        "index": 9,
+        "prompt": "A woman in a bedroom using a vacuum cleaner, bed and nightstand visible in the corner.",
+        "prompt_sha256": "17298e7ac4513fe0da3dce20b815e7abae7364713c6c77674bfb4dfb7a578040",
+        "reference_id": "vqa__vqa_val_0005__source__009",
+        "role": "source",
+        "seed": 602633098391606871
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/010.png",
+        "index": 10,
+        "prompt": "A woman in a dining room wiping a wooden table with a cloth, viewed from a slightly elevated angle.",
+        "prompt_sha256": "bbfd841035b96675c611164f0c000b3f523bb5f8014ebd78771e10c478835eab",
+        "reference_id": "vqa__vqa_val_0005__source__010",
+        "role": "source",
+        "seed": 505384901615999204
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/011.png",
+        "index": 11,
+        "prompt": "Medium shot of a woman in a living room dusting a bookshelf, standing upright in natural light.",
+        "prompt_sha256": "b65670858d5353381303c04242fff222bcb1be6bfd6f0e0d08b530fac1fae367",
+        "reference_id": "vqa__vqa_val_0005__source__011",
+        "role": "source",
+        "seed": 468596736999497335
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/012.png",
+        "index": 12,
+        "prompt": "Close-up of a woman in a kitchen scrubbing a countertop with a sponge, wearing casual clothes.",
+        "prompt_sha256": "09668ca04e985ca8c084f65219aee5bd2f1ac26027edf36ff17733f643a2aa32",
+        "reference_id": "vqa__vqa_val_0005__source__012",
+        "role": "source",
+        "seed": 453078242420463139
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/013.png",
+        "index": 13,
+        "prompt": "A woman in a hallway mopping the floor, bending slightly forward, seen from a frontal view.",
+        "prompt_sha256": "32b2677661dd8600f46f7ba622f1e917c9700d0376994e339aa35cf504857d15",
+        "reference_id": "vqa__vqa_val_0005__source__013",
+        "role": "source",
+        "seed": 922941112779874216
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/014.png",
+        "index": 14,
+        "prompt": "A woman in a sunlit bedroom wiping a dresser surface, soft daylight illuminating the scene.",
+        "prompt_sha256": "7386f67eb0cc7b646781bf7e244ec032b49d5679a8645c93fb9e1a6ad95478cd",
+        "reference_id": "vqa__vqa_val_0005__source__014",
+        "role": "source",
+        "seed": 448562315122803510
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/015.png",
+        "index": 15,
+        "prompt": "Wide shot of a woman in a living room vacuuming the carpet, sofa visible in the background.",
+        "prompt_sha256": "11152ace78616087b01dbac668d65571d232f4976b0474eb7202f8e3eb62c7ad",
+        "reference_id": "vqa__vqa_val_0005__source__015",
+        "role": "source",
+        "seed": 678552154519466983
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/016.png",
+        "index": 16,
+        "prompt": "Side view of a woman in a dining area cleaning a window pane with a squeegee, table nearby.",
+        "prompt_sha256": "25a09051840d32d811d53fa5fd2e0196b110f1f515c6d95db34bfbbd6993d111",
+        "reference_id": "vqa__vqa_val_0005__source__016",
+        "role": "source",
+        "seed": 189509232048439268
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/017.png",
+        "index": 17,
+        "prompt": "A woman in a kitchen wiping a sink basin, small potted plant on the counter behind her.",
+        "prompt_sha256": "b4a9072209d2afec950db3bc5e3adee222ae0997ecaf547af53ba7d7fdf6b3d9",
+        "reference_id": "vqa__vqa_val_0005__source__017",
+        "role": "source",
+        "seed": 31524952935462975
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/018.png",
+        "index": 18,
+        "prompt": "Candid shot of a woman in a living room sweeping the floor, dustpan in hand, natural posture.",
+        "prompt_sha256": "e7c6049e08353600a355c1263cc696679c76e34dc93a613bfbd4538c0bf2267b",
+        "reference_id": "vqa__vqa_val_0005__source__018",
+        "role": "source",
+        "seed": 178613857270253739
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/source/019.png",
+        "index": 19,
+        "prompt": "A woman in a bedroom tidying a bed while holding a spray bottle, preparing to clean the sheets.",
+        "prompt_sha256": "70040a9f8a2635b0816c480d701bec566e9f52a4f25968b4b63f31410d979a72",
+        "reference_id": "vqa__vqa_val_0005__source__019",
+        "role": "source",
+        "seed": 1087800968556720329
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/000.png",
+        "index": 0,
+        "prompt": "A woman in a living room actively sands the wooden floor with a hand sander, kneeling near a sofa in soft natural light.",
+        "prompt_sha256": "e1f60f3ec55e201d331c308d53d52578f86d636f713d397684f1c04ff0673bbe",
+        "reference_id": "vqa__vqa_val_0005__target__000",
+        "role": "target",
+        "seed": 362841479402895029
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a woman sanding a wooden floor in a dining area with a table behind her.",
+        "prompt_sha256": "9c8dffbac1401308dfd99bccedd511c2e07868620cf8d4d306e31bb754f89cc9",
+        "reference_id": "vqa__vqa_val_0005__target__001",
+        "role": "target",
+        "seed": 306173297873246885
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/002.png",
+        "index": 2,
+        "prompt": "Close-up of a woman sanding a wooden kitchen floor with a handheld sander, cabinets visible in the background.",
+        "prompt_sha256": "6cbeb762f90be449976f1c06dc8d797d3d0130d1a001753fede29ab59eae74af",
+        "reference_id": "vqa__vqa_val_0005__target__002",
+        "role": "target",
+        "seed": 939937122309796982
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/003.png",
+        "index": 3,
+        "prompt": "A woman bending down to sand a hallway floor, coat rack visible on the wall.",
+        "prompt_sha256": "217bc4d247dd2932513c09e7ffef322ab2bc378c321d365e7d31723ac479eb70",
+        "reference_id": "vqa__vqa_val_0005__target__003",
+        "role": "target",
+        "seed": 569979150309275843
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a woman sanding a wooden floor in a sunlit living room.",
+        "prompt_sha256": "87b255924d6a665d874a7734c23f14846cb601ba444d575360697dfec4eac621",
+        "reference_id": "vqa__vqa_val_0005__target__004",
+        "role": "target",
+        "seed": 919936029199361986
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/005.png",
+        "index": 5,
+        "prompt": "Wide angle showing a woman sanding a bedroom floor, bed and dresser in the foreground.",
+        "prompt_sha256": "0ee68d1ae36f595787c30c33d8705fe097c1d5505fe9baba7b23976bbc897600",
+        "reference_id": "vqa__vqa_val_0005__target__005",
+        "role": "target",
+        "seed": 151984713983459848
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/006.png",
+        "index": 6,
+        "prompt": "Side view of a woman sanding a study floor, books and lamp on the desk nearby.",
+        "prompt_sha256": "8d8e7ab129badb323504850cbb3dbcfc9f006b106269b513d942ba76e924b857",
+        "reference_id": "vqa__vqa_val_0005__target__006",
+        "role": "target",
+        "seed": 1143416674090064252
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/007.png",
+        "index": 7,
+        "prompt": "A woman sanding a dining room floor, chairs and a vase in the background.",
+        "prompt_sha256": "0366d52ac5a69b2df7f3af606357a7d658a678f098f0b75008a7d3376890af9f",
+        "reference_id": "vqa__vqa_val_0005__target__007",
+        "role": "target",
+        "seed": 71696025940256142
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a woman sanding a kitchen floor in a bright room, fruit bowl on the counter.",
+        "prompt_sha256": "a4f96a3d5fd9b6b77ae5ad7ee7fe565cf3b42ae0a40a83a5fdee51f7e45b1497",
+        "reference_id": "vqa__vqa_val_0005__target__008",
+        "role": "target",
+        "seed": 827030712790256508
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/009.png",
+        "index": 9,
+        "prompt": "A woman in a bedroom sanding the floor, bed and nightstand visible in the corner.",
+        "prompt_sha256": "2b4371ea5adef728aa1f35ecf03896ba62f97bb0be8338879bd0f2287719b3d7",
+        "reference_id": "vqa__vqa_val_0005__target__009",
+        "role": "target",
+        "seed": 549140999342372497
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/010.png",
+        "index": 10,
+        "prompt": "A woman in a dining room sanding the wooden floor with a hand sander, viewed from a slightly elevated angle.",
+        "prompt_sha256": "5b145ff1823640a5db84158d09718fbde2178a912f39d8f9f6fbd8ec0b2e40ec",
+        "reference_id": "vqa__vqa_val_0005__target__010",
+        "role": "target",
+        "seed": 587638759178292469
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/011.png",
+        "index": 11,
+        "prompt": "Medium shot of a woman in a living room sanding a hardwood floor, kneeling in natural light.",
+        "prompt_sha256": "9482050bab321cd1a600d55b84c4fe76c6699d83293d57b9a3adcc26da74ca64",
+        "reference_id": "vqa__vqa_val_0005__target__011",
+        "role": "target",
+        "seed": 522660560990795039
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/012.png",
+        "index": 12,
+        "prompt": "A woman in a kitchen actively sands the wooden floor with a sanding block, wearing casual clothes.",
+        "prompt_sha256": "c450965fafaf95bdb56c0d4c3a450219fdad22754d8a1f80e3cdbb253d9fa1fe",
+        "reference_id": "vqa__vqa_val_0005__target__012",
+        "role": "target",
+        "seed": 1046682364304470203
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/013.png",
+        "index": 13,
+        "prompt": "A woman in a hallway sanding the floor, bending slightly forward, seen from a frontal view.",
+        "prompt_sha256": "2995c446d6b96d5f94124f1c826fc95c4b32e571f9a758e9fa8315cb2c50d2c3",
+        "reference_id": "vqa__vqa_val_0005__target__013",
+        "role": "target",
+        "seed": 469937874189880969
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/014.png",
+        "index": 14,
+        "prompt": "A woman in a sunlit bedroom sanding the wooden floor, soft daylight illuminating the scene.",
+        "prompt_sha256": "d9eb3a0eb5fa8adc3f60300fc0782890c089c90d1d3ffb813a972a96bba6de48",
+        "reference_id": "vqa__vqa_val_0005__target__014",
+        "role": "target",
+        "seed": 810445562899745993
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/015.png",
+        "index": 15,
+        "prompt": "Wide shot of a woman sanding a hardwood floor in a living room, with a sofa visible in the background.",
+        "prompt_sha256": "e3f6fa85ff1118e84c4e70f15e1f0b6baae84ae2b890b5e527cbe8429751a92c",
+        "reference_id": "vqa__vqa_val_0005__target__015",
+        "role": "target",
+        "seed": 14535510983403139
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/016.png",
+        "index": 16,
+        "prompt": "Side view of a woman in a dining area sanding the floor, table nearby.",
+        "prompt_sha256": "84f1f2746c51e21d89a770beb59c91b9d36dea865ebec6f2c058a4c028b0a115",
+        "reference_id": "vqa__vqa_val_0005__target__016",
+        "role": "target",
+        "seed": 498280641225233794
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/017.png",
+        "index": 17,
+        "prompt": "A woman in a kitchen sanding the floor near the sink, small potted plant on the counter behind her.",
+        "prompt_sha256": "c75f7aef9aa97994de0862e095cf35976d2a64b40fb689739ef15bcc51faede7",
+        "reference_id": "vqa__vqa_val_0005__target__017",
+        "role": "target",
+        "seed": 676592107014185192
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/018.png",
+        "index": 18,
+        "prompt": "Candid shot of a woman in a living room sanding the floor, sanding block in hand, natural posture.",
+        "prompt_sha256": "1d401095df5dfb984c570e1a1d026cbf7df08f62f3e2948439707c1d56a32a26",
+        "reference_id": "vqa__vqa_val_0005__target__018",
+        "role": "target",
+        "seed": 634749761596014262
+      },
+      {
+        "image": "samples/vqa/vqa_val_0005/target/019.png",
+        "index": 19,
+        "prompt": "A woman in a bedroom actively sands the wooden floor near the bed, holding a sanding tool.",
+        "prompt_sha256": "074f3a18c97be20b9bcd7880faaea48c132378ca307043015bbea2a56c7b1da6",
+        "reference_id": "vqa__vqa_val_0005__target__019",
+        "role": "target",
+        "seed": 322386289095558567
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000139.jpg",
+    "original_image_sha256": "ffe0f0cec3b2e27aab1967229cdf0a0d7751dcdd5800322f0b8ac0dffb3b8a8d",
+    "prompt_review_status": "assistant_review_pass_after_repair_with_data_warning",
+    "sample_fingerprint": "5e7a86321789fe13ccf42ff8e55aabab38e6b64984f8f65dbe97464463336cfd",
+    "sample_id": "vqa_val_0005",
+    "shard": 109,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What is the woman in the room doing?",
+      "source_answer": "cleaning",
+      "source_answers": [
+        "talking to someone",
+        "cleaning",
+        "looking out window",
+        "talking",
+        "talking",
+        "cleaning",
+        "talking to someone outside of window",
+        "talking",
+        "talking out window",
+        "cleaning"
+      ],
+      "target_answer": "sanding the floor"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0005__source__000": {
+      "job_sha256": "cc119c1bf6f0cae0829387293269f3e7febe2ad31bf550819447606e5d5f7b46",
+      "sha256": "9636a08c288211a0a3ab22cf760f0b63317b4eaae2fec9c79a52b1af5bdf5bd2",
+      "bytes": 124578,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:05.945183+00:00"
+    },
+    "vqa__vqa_val_0005__source__001": {
+      "job_sha256": "431f8a1ba2cd843f7e1c621b5980d9933d8851083121b6fd5ce3ec167061f092",
+      "sha256": "44041ba52ba65f21ab4448e79bb57b5265c58a937620935f35c1924fbe22b2b7",
+      "bytes": 147392,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:05.987206+00:00"
+    },
+    "vqa__vqa_val_0005__source__002": {
+      "job_sha256": "f5b2016000934df5cb7314bc43401b23c564655267708e2fc02aad84858a7c70",
+      "sha256": "37b9cf77d741d794269c7b6de921ad20eced114c0687d0c0a8289c9f0129e069",
+      "bytes": 113469,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.037827+00:00"
+    },
+    "vqa__vqa_val_0005__source__003": {
+      "job_sha256": "058b1d3cf9375e169fd291fa626122cc3dc9bd21fe29268180964683ef174d45",
+      "sha256": "0cb1df0d2e46dbc748a9ac2675bb0c60605cc99ab12f7f6748739f8eec9fe509",
+      "bytes": 110067,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.074757+00:00"
+    },
+    "vqa__vqa_val_0005__source__004": {
+      "job_sha256": "b882ecacd31b67150c363e0f1405dd50b38577113641c722a94c466a417f6541",
+      "sha256": "43f2762f58364ce7b78291fd367ffb7baa13301ec6dbf8df90c5d7e2535526cc",
+      "bytes": 133443,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.115276+00:00"
+    },
+    "vqa__vqa_val_0005__source__005": {
+      "job_sha256": "65bc75d1d387eed1cbdfe949edbd6c482b626ff2ea5680d068d7ed19f5c65960",
+      "sha256": "6731315a545ecb2d733019ff92d881e98cf61324efedd7e92babf31e5a170f10",
+      "bytes": 119579,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.161032+00:00"
+    },
+    "vqa__vqa_val_0005__source__006": {
+      "job_sha256": "695e7bdbdc80e0c9adf6e9c5fa2da570a5ba8bdff419bcad136d94e12bdddb02",
+      "sha256": "26145c8fde97e71301ad7f6060c3648850359bd4599759a8a0417bba0a38b5a4",
+      "bytes": 136868,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.201190+00:00"
+    },
+    "vqa__vqa_val_0005__source__007": {
+      "job_sha256": "07c5eb28ffa5eb5e749fc66a600f28948cfe643e2ecc01c0c058b99e981977d2",
+      "sha256": "1c13beef430789a7f13a5348988423f4a97023ca09bfd5e8d6a823b22f113c21",
+      "bytes": 136743,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.241842+00:00"
+    },
+    "vqa__vqa_val_0005__source__008": {
+      "job_sha256": "569bff0d22d691e4b66e0404d92750cc5a206637d4d6dfdae15cd224f801f80c",
+      "sha256": "c16840da448ac33031f8499fa9b5850ed6c4eaa4736a83787daaef52f0e81dc0",
+      "bytes": 128354,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.285459+00:00"
+    },
+    "vqa__vqa_val_0005__source__009": {
+      "job_sha256": "7b546736dad66dac8908bcadcc0a5b4d81e16b3a3fcdb80fd47321ab4261616a",
+      "sha256": "69720c1a8dc43cc1853fd7d20c620b19a7fa361d1152d610ca7157096de86244",
+      "bytes": 133299,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.326925+00:00"
+    },
+    "vqa__vqa_val_0005__source__010": {
+      "job_sha256": "fbd9405cf724cf3914e5af981d63f2c147f22489bb8786237f69a7d462050dcb",
+      "sha256": "a45546a5f331b819885d3a80a0677ce2a1f940ea2539e22761f54ae285257b97",
+      "bytes": 136607,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.372004+00:00"
+    },
+    "vqa__vqa_val_0005__source__011": {
+      "job_sha256": "fa6b8f07469167fac96eb5ff51bc9fbc05744e489fb8e1ea985ee89fb8cf26ba",
+      "sha256": "4c519163317c2f914eb62e3555830d8bb72ef2f2f7c5e4d7db6b0e2d8d54f1d2",
+      "bytes": 135569,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.408517+00:00"
+    },
+    "vqa__vqa_val_0005__source__012": {
+      "job_sha256": "37c28e2bc54073d3fb4cd5a93668401f50c6a73ed36a36b281bd4cb2970b652a",
+      "sha256": "8aef3dab40a80815e020e769a61b853c175c35c65cb7f03e5e7bdb195baf0aea",
+      "bytes": 128748,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.451784+00:00"
+    },
+    "vqa__vqa_val_0005__source__013": {
+      "job_sha256": "a35997271a854b869c001eadcd4fbadd5797af0b2298ebd4a23644b5eee1ba80",
+      "sha256": "77517c1937264cd1e36da2cedae33e9999c3a5e4d482f2b1d49c84becec88e1c",
+      "bytes": 116482,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.488457+00:00"
+    },
+    "vqa__vqa_val_0005__source__014": {
+      "job_sha256": "9ac153b1e7b40eaa93751816fbd891b2aa86be5e9a030afbc8cc14504cbff784",
+      "sha256": "3dcf43f0cb4be5b0ad3bf3ee3a5658074ab63ab58d81b9a2dcf4c2e7407b0f46",
+      "bytes": 114357,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.540761+00:00"
+    },
+    "vqa__vqa_val_0005__source__015": {
+      "job_sha256": "2d4988a7006098dfa03217aa4ae39462693ae033f76d6863bffcb1e100055f89",
+      "sha256": "f270fd380a0c9b6f8117ee4c6e29a0b836581dc79bf15448ef176beb6e3fbe81",
+      "bytes": 129749,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.585529+00:00"
+    },
+    "vqa__vqa_val_0005__source__016": {
+      "job_sha256": "8835afe78d325c79cd0230a1ef8afb56fdcfde3575125c0936406156bd6ab9a3",
+      "sha256": "d8adc07b2154c7e71aa2c7a6de18d3ba3a9e2eb643965720837a695274d3a522",
+      "bytes": 133929,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.631629+00:00"
+    },
+    "vqa__vqa_val_0005__source__017": {
+      "job_sha256": "5674ed2ce25b4c89dff83eeaaf513952f912da8daf72db9f7c3a55c9ba5e25a1",
+      "sha256": "c126ba2530828793a45e48bcb1f6895379b549227e2bcaa96c976abfcfe0264a",
+      "bytes": 131234,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.695037+00:00"
+    },
+    "vqa__vqa_val_0005__source__018": {
+      "job_sha256": "fbe62c85ac6cf30effb847671fd9a9c2edade7071525855f02e596d5962256db",
+      "sha256": "0a7682cee2fda8eb781f2a5a00e27c2c73ece0647432260aea0e3b8f4c726557",
+      "bytes": 138276,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.738745+00:00"
+    },
+    "vqa__vqa_val_0005__source__019": {
+      "job_sha256": "c2a0bffb5e494245b157485c7df02b678092c0ef559f49ff91c00f1f3c31b3b2",
+      "sha256": "976a92d366ab1e69c5c80f699ae9415b8a37d291488fe85a2891626a2e05104b",
+      "bytes": 128843,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.775991+00:00"
+    },
+    "vqa__vqa_val_0005__target__000": {
+      "job_sha256": "f01216ad47f98063f27dd83de782cfa379f40f749f643a9ea4a782c6ec8812b2",
+      "sha256": "9cacdb2279f636c76b0ee5f87b3607a3babb51e433e0326238721e588f71a53f",
+      "bytes": 149221,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.833435+00:00"
+    },
+    "vqa__vqa_val_0005__target__001": {
+      "job_sha256": "212596a73cd64edb4f5cd15064081d7f9a23f6d779e544dd079a12c83c09c66c",
+      "sha256": "2ffba659d7adb8623f234e2332b62b81ef4af1ca84ea308aa14fb1d3ed010ea1",
+      "bytes": 150965,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.883641+00:00"
+    },
+    "vqa__vqa_val_0005__target__002": {
+      "job_sha256": "27da3c4a7540acd173e17e87858036e77b1e50b9dbfc266b8a5374882046b600",
+      "sha256": "3fcbad8195c9b51bb2788a2688d33873b72020efc966423c0f07f75721c61c93",
+      "bytes": 132059,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.926658+00:00"
+    },
+    "vqa__vqa_val_0005__target__003": {
+      "job_sha256": "c540b709374eef0631248b9f45fd97572a1ab557b81353c78e2d1e49d5c8803e",
+      "sha256": "22cc2a03fa7843bd76e203396fe07ffeba3756899bc53ca5e399c5b6fbe5cb56",
+      "bytes": 111506,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:06.973002+00:00"
+    },
+    "vqa__vqa_val_0005__target__004": {
+      "job_sha256": "0d7b246bb2fa76c17c1daeceb1015f4e0dc254f407d8cbee7fc2abb19aa374b4",
+      "sha256": "85ef568077e34715bddf8c401baf257f1ff15bfee008b083ec8ddbba066eb158",
+      "bytes": 147890,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.022747+00:00"
+    },
+    "vqa__vqa_val_0005__target__005": {
+      "job_sha256": "4d80ac38b6500262074662e7f6cd7fa4cb1f8607f435e138098bf1f5260af781",
+      "sha256": "ee0e9c192bc48278d8d8f887882b3b3b549bfdce9e770c27207c6f47b5eaac41",
+      "bytes": 146675,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.067650+00:00"
+    },
+    "vqa__vqa_val_0005__target__006": {
+      "job_sha256": "18bc68d281e8efb2077d2ff82796c1865e4b695d4b23be51e1b92c4852a494d9",
+      "sha256": "a499dfaf4e667cc4a90f4c964c010d31fdd51774c90ef09518114ce6b7485619",
+      "bytes": 135592,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.109939+00:00"
+    },
+    "vqa__vqa_val_0005__target__007": {
+      "job_sha256": "6bb1f5095f7fc31db1762cf1feaed41031f9318bcdbf1cff1e782ac9ec137850",
+      "sha256": "864d7fbc7c11d913892469f730c8321f39bf2321ee3cb23def777e3f676153ea",
+      "bytes": 142870,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.152340+00:00"
+    },
+    "vqa__vqa_val_0005__target__008": {
+      "job_sha256": "5dfc86245111046310789bc7f93cb8578601899b2cc92b58ae6a342953012bb3",
+      "sha256": "484f3285284db987dc0d436a751931367dfa99dff008e796c79c842c816a8816",
+      "bytes": 124880,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.201514+00:00"
+    },
+    "vqa__vqa_val_0005__target__009": {
+      "job_sha256": "7fed42393b18009e8e76e7322d02713cd8e04f6a6f954d1425cd1357f44cdb4f",
+      "sha256": "79e57029bf2e6ff649aa18f21ca6b455cbbd21da4e89aaea903651de6d6a0c6a",
+      "bytes": 139831,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.262122+00:00"
+    },
+    "vqa__vqa_val_0005__target__010": {
+      "job_sha256": "d5d531a66a52c46ddf5d743b523b27075cb6d7654ae0e0d6c87f65fbd8a6c848",
+      "sha256": "3d1402e0c6c003dd48a421b458923d30fd9e58fba835b7cc64ed012b39c3b22f",
+      "bytes": 141893,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.297506+00:00"
+    },
+    "vqa__vqa_val_0005__target__011": {
+      "job_sha256": "7cc63460758ee4ca779545b85e962fe8ccc2ef4682ebac8f88480d4cba07ea77",
+      "sha256": "69a75d62de4da7c827f29e53778bd5bec679b506d6de1745f00969af31ef2539",
+      "bytes": 134158,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.341865+00:00"
+    },
+    "vqa__vqa_val_0005__target__012": {
+      "job_sha256": "9082e241982186934f8460307d5ba97dce665f237331a7570c8261be42b98234",
+      "sha256": "9bd5a590da452bd787757a7afae9966dfe380d2a3b6f9203d26e51e8878430d7",
+      "bytes": 150822,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.393460+00:00"
+    },
+    "vqa__vqa_val_0005__target__013": {
+      "job_sha256": "3af7ab9149cd12cdbb38af8c077a2578af855165a2c5d61b1d859a765bc5c479",
+      "sha256": "426fc15ad4fa5fbe25ed727e8a180d6567b3da6f018fb630d8d6a71e28a114bf",
+      "bytes": 121761,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.433463+00:00"
+    },
+    "vqa__vqa_val_0005__target__014": {
+      "job_sha256": "8bf39627247e6d306196d7a861e0921b45bd6c866cb515ff4c4912248446dbb9",
+      "sha256": "5e05757574d4288a22ab2ea9763288958c2be5f050e929623f6259c36387882e",
+      "bytes": 145458,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.477479+00:00"
+    },
+    "vqa__vqa_val_0005__target__015": {
+      "job_sha256": "86e907bb49b026c0cb1efebee83f780a175d1ba77f1e82ce48849cc5f68ee7c2",
+      "sha256": "cc61254992e03957024449d4b9692f5848e6f534f03a1e4fb7a0cfae721be0a8",
+      "bytes": 150119,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.528766+00:00"
+    },
+    "vqa__vqa_val_0005__target__016": {
+      "job_sha256": "8752b533dd482e6645a5a3272d01deee0549503d497d4f81df45be9b9beaf26f",
+      "sha256": "64c7fd6600200978e13ee0de47fe63218557d11b5fbb49dd349de537e88b85fa",
+      "bytes": 143524,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.575624+00:00"
+    },
+    "vqa__vqa_val_0005__target__017": {
+      "job_sha256": "6291d48e45e8dd069142ae74c31e81d0cfaea36b3b88b80dad1af43e02d9bbdc",
+      "sha256": "8b6081a7e5d8851dda8ed925f7c567cd7ba089bf2d32c8e4f24ebd4ec24558c1",
+      "bytes": 133390,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.621124+00:00"
+    },
+    "vqa__vqa_val_0005__target__018": {
+      "job_sha256": "320f808888ab57c1153b61c90139532e666cd6cb6ac5272127ba268eca00d067",
+      "sha256": "15279abdf33f47df87ef756217f51af48b611663547ca57460b20e0d0c09759d",
+      "bytes": 131437,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.664283+00:00"
+    },
+    "vqa__vqa_val_0005__target__019": {
+      "job_sha256": "d3a1039e9e651d5a6a1f9fa338c7870acf8c4e807f3292a1e3ae3f6121fef52d",
+      "sha256": "d858a272b365943a713bfe0e1d5c76376fe0a2ff27a6619b3bfaa3e3f53941e2",
+      "bytes": 147694,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.472041269764304,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:06:07.707774+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:06:07.707793+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "f994efe6c61487a3a534c35a3d90e7ade070fa4d650258733dbc3e93d72cd2f6",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "614761b4204bf70bbd382deaeb180405268c149f473fd2634def069e38823d5f",
+      "notes": "All source prompts specify a blue desk lamp and all target prompts specify a black desk lamp, consistently matching the color question and source/target answers.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0003/source/000.png",
+        "index": 0,
+        "prompt": "A blue desk lamp sits on a wooden corner desk in a cozy bedroom, viewed from a slightly elevated angle.",
+        "prompt_sha256": "18b786572ee5022b7eb128b0797325a7ec8e1f9be0f7d3c670f4bc22d23134ed",
+        "reference_id": "vqa__vqa_val_0003__source__000",
+        "role": "source",
+        "seed": 121746323440225104
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a blue lamp on a study desk near a window, with natural light illuminating the scene.",
+        "prompt_sha256": "fe1f72ad1edda0f743a2d1fad990f9bfbcc45745fad66d22ca406a963ceb6994",
+        "reference_id": "vqa__vqa_val_0003__source__001",
+        "role": "source",
+        "seed": 264847552816892387
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a blue desk lamp on a wooden surface, highlighting its smooth texture and base.",
+        "prompt_sha256": "99bae0cb003b15ea2bc30789d46b48062839f6ac8c8a3fcdbced032da3c02061",
+        "reference_id": "vqa__vqa_val_0003__source__002",
+        "role": "source",
+        "seed": 100260233095120648
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/003.png",
+        "index": 3,
+        "prompt": "A blue desk lamp angled slightly toward the center of a dorm room desk, next to a stack of books.",
+        "prompt_sha256": "9d9ef11ee4a3b7a990a281f40ea79242b38c0637eaaf2ef8ba224e96f9d408b5",
+        "reference_id": "vqa__vqa_val_0003__source__003",
+        "role": "source",
+        "seed": 200141481373668308
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight filters through a window onto a blue lamp resting on a light oak desk in a quiet study.",
+        "prompt_sha256": "ac3bb91c35b73e3f29a9ab4d85e2f953eccebb39784d085e8cbb265d77b188e6",
+        "reference_id": "vqa__vqa_val_0003__source__004",
+        "role": "source",
+        "seed": 686773731258327300
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/005.png",
+        "index": 5,
+        "prompt": "Wide crop showing a blue lamp on a desk, with a chair and part of a wall visible in the background.",
+        "prompt_sha256": "1f89aa6a919d111fb67019388059aa8c0c02a0cc20c2b9af141f24e349a97846",
+        "reference_id": "vqa__vqa_val_0003__source__005",
+        "role": "source",
+        "seed": 762990112971125549
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/006.png",
+        "index": 6,
+        "prompt": "Side angle view of a blue desk lamp on a wooden table, with a notebook lying open nearby.",
+        "prompt_sha256": "a14d7cdd352fd3fb21d6597dab454fd7702d3490da8af58911227161eb7f52ee",
+        "reference_id": "vqa__vqa_val_0003__source__006",
+        "role": "source",
+        "seed": 85407071881797760
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/007.png",
+        "index": 7,
+        "prompt": "A blue lamp on a desk with a small potted plant in the background, creating a calm workspace atmosphere.",
+        "prompt_sha256": "1cb58dfef34552bd99fb2790f995a99089e6e9eee8cd6626c9214e18b4a41403",
+        "reference_id": "vqa__vqa_val_0003__source__007",
+        "role": "source",
+        "seed": 210279773531240515
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a blue desk lamp on a cluttered wooden desk, with pens and papers scattered around.",
+        "prompt_sha256": "780072c0395562ef71d2db2a68723dcff694d155216b2ee1c8d673a9588c1d4e",
+        "reference_id": "vqa__vqa_val_0003__source__008",
+        "role": "source",
+        "seed": 1150744366981815098
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/009.png",
+        "index": 9,
+        "prompt": "Another ordinary blue desk lamp on a dark walnut desk, positioned near the edge of the table.",
+        "prompt_sha256": "fd9969a40a3b9a4748534b429f0cbd4f1c151ec50562624af433149877da2d2d",
+        "reference_id": "vqa__vqa_val_0003__source__009",
+        "role": "source",
+        "seed": 255041545184894377
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/010.png",
+        "index": 10,
+        "prompt": "Slightly high-angle view of a blue lamp on a corner desk, with a monitor visible in the foreground.",
+        "prompt_sha256": "3037e91aa081967ce7deecaadf897d953cf6d9d89fd83afa2344a77f6ddc9778",
+        "reference_id": "vqa__vqa_val_0003__source__010",
+        "role": "source",
+        "seed": 601231780185880895
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/011.png",
+        "index": 11,
+        "prompt": "Natural medium framing of a blue lamp on a study desk, with a mug and glasses placed beside it.",
+        "prompt_sha256": "9c03138dde3eadc0f8bb223f13211b7a3a886f01dbd2f82ae85e119020914faf",
+        "reference_id": "vqa__vqa_val_0003__source__011",
+        "role": "source",
+        "seed": 699862970355877592
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/012.png",
+        "index": 12,
+        "prompt": "Slightly closer view of a blue desk lamp on a wooden desk, emphasizing its curved arm and shade.",
+        "prompt_sha256": "758323613e20df6853abaf364667b6fc9ce7d132e14ee2476d3db840c5c32028",
+        "reference_id": "vqa__vqa_val_0003__source__012",
+        "role": "source",
+        "seed": 721725596094172338
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/013.png",
+        "index": 13,
+        "prompt": "A blue desk lamp tilted slightly upward on a dorm desk, with a chair tucked underneath the table.",
+        "prompt_sha256": "297769033439a4343f8a480305bccecdbe750aeb5db3fa81ba322d97cb8b2259",
+        "reference_id": "vqa__vqa_val_0003__source__013",
+        "role": "source",
+        "seed": 1137589875502308298
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/014.png",
+        "index": 14,
+        "prompt": "Ordinary soft daylight illuminates a blue lamp on a light wooden desk, with a window frame visible.",
+        "prompt_sha256": "6142bbf23f13584f958dec9771e17d8aa2f022a7e42c6ef25340ed5d7ae80b2a",
+        "reference_id": "vqa__vqa_val_0003__source__014",
+        "role": "source",
+        "seed": 234747424253507403
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/015.png",
+        "index": 15,
+        "prompt": "Subtly wider crop of a blue lamp on a desk, showing more of the room's wall and ceiling corner.",
+        "prompt_sha256": "04da4577e189f61dfe7b5cc067895c3600f00719180efd8e5541f33c308e0c1f",
+        "reference_id": "vqa__vqa_val_0003__source__015",
+        "role": "source",
+        "seed": 1011226713785258875
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of a blue desk lamp on a wooden desk, with a laptop partially visible in the frame.",
+        "prompt_sha256": "eb7f06f0a19ec61a8aa8c124dfb35d5354d28a650d2126d7dae13d5fd32eb56f",
+        "reference_id": "vqa__vqa_val_0003__source__016",
+        "role": "source",
+        "seed": 431257345145081344
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/017.png",
+        "index": 17,
+        "prompt": "A blue lamp on a desk with a small clock in the background, adding a subtle detail to the scene.",
+        "prompt_sha256": "0aa7ee2bba0cd7c8ebca06112ad8263e972c68e3de81dcd6db9a95c7243c2c65",
+        "reference_id": "vqa__vqa_val_0003__source__017",
+        "role": "source",
+        "seed": 867427478539914482
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/018.png",
+        "index": 18,
+        "prompt": "Natural candid composition of a blue desk lamp on a wooden desk, with a hand reaching for a pen.",
+        "prompt_sha256": "f08a0bd167dff930d3d01203abb15886a19e1ef6e5ba8c8582a0513e509f8998",
+        "reference_id": "vqa__vqa_val_0003__source__018",
+        "role": "source",
+        "seed": 511532237393536768
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/source/019.png",
+        "index": 19,
+        "prompt": "Another ordinary instance of a blue desk lamp on a wooden desk, positioned near a bookshelf.",
+        "prompt_sha256": "9ad312935c0d27790796b3a595567675ad307fdd2d6f32b84091c8e974dccd75",
+        "reference_id": "vqa__vqa_val_0003__source__019",
+        "role": "source",
+        "seed": 229506409189571228
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/000.png",
+        "index": 0,
+        "prompt": "A black desk lamp sits on a wooden corner desk in a cozy bedroom, viewed from a slightly elevated angle.",
+        "prompt_sha256": "1ff5c1b6b688ce0941fc9ce8fd0d216643205a3ae4242b944b34c75eef505bdb",
+        "reference_id": "vqa__vqa_val_0003__target__000",
+        "role": "target",
+        "seed": 445741941524561470
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a black lamp on a study desk near a window, with natural light illuminating the scene.",
+        "prompt_sha256": "156efa05bf429ddb6d976537870fadc713b5b0da87ca8c167fb05c6e63e2a6f0",
+        "reference_id": "vqa__vqa_val_0003__target__001",
+        "role": "target",
+        "seed": 337898291143941752
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a black desk lamp on a wooden surface, highlighting its smooth texture and base.",
+        "prompt_sha256": "dafea13e795800457ede33252e79313b0e725cdcdea85fd175a3f757e37bdcfc",
+        "reference_id": "vqa__vqa_val_0003__target__002",
+        "role": "target",
+        "seed": 357333988255494274
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/003.png",
+        "index": 3,
+        "prompt": "A black desk lamp angled slightly toward the center of a dorm room desk, next to a stack of books.",
+        "prompt_sha256": "85f6f71b37feb44352dd71ef08dd854e3b24086d9cdc06f19e093c5ff5f90fe2",
+        "reference_id": "vqa__vqa_val_0003__target__003",
+        "role": "target",
+        "seed": 238913157421535318
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/004.png",
+        "index": 4,
+        "prompt": "Soft daylight filters through a window onto a black lamp resting on a light oak desk in a quiet study.",
+        "prompt_sha256": "f4710f75780890164c49b22e97552866c1cc1d382bba25cc8bf50ab28fdba28d",
+        "reference_id": "vqa__vqa_val_0003__target__004",
+        "role": "target",
+        "seed": 983890518613693176
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/005.png",
+        "index": 5,
+        "prompt": "Wide crop showing a black lamp on a desk, with a chair and part of a wall visible in the background.",
+        "prompt_sha256": "72843f4268ed92de3f36f8c18cba2ca6f8b2339506a275ef225b1d8237592637",
+        "reference_id": "vqa__vqa_val_0003__target__005",
+        "role": "target",
+        "seed": 547672797749041927
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/006.png",
+        "index": 6,
+        "prompt": "Side angle view of a black desk lamp on a wooden table, with a notebook lying open nearby.",
+        "prompt_sha256": "f9375045a017b820e5ab13680934111c1444e242f8642324c67c99f24e0d4ec3",
+        "reference_id": "vqa__vqa_val_0003__target__006",
+        "role": "target",
+        "seed": 473872561843919956
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/007.png",
+        "index": 7,
+        "prompt": "A black lamp on a desk with a small potted plant in the background, creating a calm workspace atmosphere.",
+        "prompt_sha256": "3c5abbe919b3ebadf8748ae64870acdbc662d903a30aa6e07489bc2fdefb4f83",
+        "reference_id": "vqa__vqa_val_0003__target__007",
+        "role": "target",
+        "seed": 664185125597399532
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a black desk lamp on a cluttered wooden desk, with pens and papers scattered around.",
+        "prompt_sha256": "c9b30b4eeea4f36d6af8b9c5424b748e414d5786198a211108517b498a645b7e",
+        "reference_id": "vqa__vqa_val_0003__target__008",
+        "role": "target",
+        "seed": 520756535631145520
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/009.png",
+        "index": 9,
+        "prompt": "Another ordinary black desk lamp on a dark walnut desk, positioned near the edge of the table.",
+        "prompt_sha256": "596cd26fda29b36dadd3ad5522ec2f9d6b73db5801968520ff95de8b95caf1f6",
+        "reference_id": "vqa__vqa_val_0003__target__009",
+        "role": "target",
+        "seed": 382686057473087540
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/010.png",
+        "index": 10,
+        "prompt": "Slightly high-angle view of a black lamp on a corner desk, with a monitor visible in the foreground.",
+        "prompt_sha256": "78cd407edc06fa44793af77fdba6030843bbf550271200603ce8dbd2e81736db",
+        "reference_id": "vqa__vqa_val_0003__target__010",
+        "role": "target",
+        "seed": 1027130460877757170
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/011.png",
+        "index": 11,
+        "prompt": "Natural medium framing of a black lamp on a study desk, with a mug and glasses placed beside it.",
+        "prompt_sha256": "91cfe8d9a012a93ce0fd4026b515e922d796b2cfd19bd0b14bc63f060d0ff3d7",
+        "reference_id": "vqa__vqa_val_0003__target__011",
+        "role": "target",
+        "seed": 655093373871488058
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/012.png",
+        "index": 12,
+        "prompt": "Slightly closer view of a black desk lamp on a wooden desk, emphasizing its curved arm and shade.",
+        "prompt_sha256": "07f849561f565360be1686e21416bd67f5cc1d09a349c42acf13144685aa6eef",
+        "reference_id": "vqa__vqa_val_0003__target__012",
+        "role": "target",
+        "seed": 631077975034089751
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/013.png",
+        "index": 13,
+        "prompt": "A black desk lamp tilted slightly upward on a dorm desk, with a chair tucked underneath the table.",
+        "prompt_sha256": "ec4e1959335d66d223e8fecc43085c9d20166c679c67d07e865ca34492156125",
+        "reference_id": "vqa__vqa_val_0003__target__013",
+        "role": "target",
+        "seed": 658025256726127191
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/014.png",
+        "index": 14,
+        "prompt": "Ordinary soft daylight illuminates a black lamp on a light wooden desk, with a window frame visible.",
+        "prompt_sha256": "d94eda8b5b4173220aa190a3b9628d50986fd231bf5a43f03f46b1a5ee8ad4ce",
+        "reference_id": "vqa__vqa_val_0003__target__014",
+        "role": "target",
+        "seed": 285205185240554656
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/015.png",
+        "index": 15,
+        "prompt": "Subtly wider crop of a black lamp on a desk, showing more of the room's wall and ceiling corner.",
+        "prompt_sha256": "61bc59698eb9816270afef9f31fd3daadb01648bd3daf6a3018f6c890fd654a2",
+        "reference_id": "vqa__vqa_val_0003__target__015",
+        "role": "target",
+        "seed": 1003956309537904651
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of a black desk lamp on a wooden desk, with a laptop partially visible in the frame.",
+        "prompt_sha256": "5a8c40d30e22b1205005bc0afeeffee298a56f84f0955fabb4a0553ad6ffc0d1",
+        "reference_id": "vqa__vqa_val_0003__target__016",
+        "role": "target",
+        "seed": 857555812303725427
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/017.png",
+        "index": 17,
+        "prompt": "A black lamp on a desk with a small clock in the background, adding a subtle detail to the scene.",
+        "prompt_sha256": "75571b12c899cb81d1a471e52ac2243496d942de3d7ccf906368c6f056ffed48",
+        "reference_id": "vqa__vqa_val_0003__target__017",
+        "role": "target",
+        "seed": 871936926220314947
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/018.png",
+        "index": 18,
+        "prompt": "Natural candid composition of a black desk lamp on a wooden desk, with a hand reaching for a pen.",
+        "prompt_sha256": "c6810632f33f74e3ef33d35094a36b6e7514216ca0064bd2dcc76e40561e87f1",
+        "reference_id": "vqa__vqa_val_0003__target__018",
+        "role": "target",
+        "seed": 791535583279864490
+      },
+      {
+        "image": "samples/vqa/vqa_val_0003/target/019.png",
+        "index": 19,
+        "prompt": "Another ordinary instance of a black desk lamp on a wooden desk, positioned near a bookshelf.",
+        "prompt_sha256": "f3c95c568bd96df0d40fabc390e09b818631a6e068f2a900f4f573eb46c14112",
+        "reference_id": "vqa__vqa_val_0003__target__019",
+        "role": "target",
+        "seed": 484124217726285742
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000133.jpg",
+    "original_image_sha256": "9ea5c0b1d9c3efe337f1015fee71f0313955b43aca7059f66ed11ee334e54f3d",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "f994efe6c61487a3a534c35a3d90e7ade070fa4d650258733dbc3e93d72cd2f6",
+    "sample_id": "vqa_val_0003",
+    "shard": 107,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What color is lamp?",
+      "source_answer": "blue",
+      "source_answers": [
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue",
+        "blue"
+      ],
+      "target_answer": "black"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0003__source__000": {
+      "job_sha256": "23219b62ee2aebd3fac967f0e8fb0f63ec91f23ee34fe53313c469e9e4fec118",
+      "sha256": "285b4ca82dfdecdf55392d4be9ea8f99b91e45f43258bef738aa9610beb1db28",
+      "bytes": 118787,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:19.704966+00:00"
+    },
+    "vqa__vqa_val_0003__source__001": {
+      "job_sha256": "01ba8ad9e9078070aa6b206bc96bfa496a962dd35ce6840830d7bbe848d67a8f",
+      "sha256": "610dfcb0e31d904a4f8bbd155c81cc4ef83bc676cea61ebb45d0c510b65850cf",
+      "bytes": 110501,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:19.753350+00:00"
+    },
+    "vqa__vqa_val_0003__source__002": {
+      "job_sha256": "154183928773e8d065717f61dcab470ea4d6c5f6fbe651c3636906460fc60ed1",
+      "sha256": "aa1db3d2d7b096043f1183f134e38f4c5387b4f85451d3e0efce9c0e93af469f",
+      "bytes": 125089,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:19.800100+00:00"
+    },
+    "vqa__vqa_val_0003__source__003": {
+      "job_sha256": "72e9b35880247222d78f9b43cf0786e69ead531413db4af556d8d8dcf94d4fd3",
+      "sha256": "64098f09a61d204a3d8022442b4ec11cc37df8f8dff4c228c7c46732adeba058",
+      "bytes": 116476,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:19.843923+00:00"
+    },
+    "vqa__vqa_val_0003__source__004": {
+      "job_sha256": "ba7766b743dbb8631f6bcf26c351ee05e4930acd93fb496115c3c85c1a858196",
+      "sha256": "7c4da91b47cc1a9eccc851be4c995f5066d8c396041425dce4d6e424018a1668",
+      "bytes": 127827,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:19.883670+00:00"
+    },
+    "vqa__vqa_val_0003__source__005": {
+      "job_sha256": "e31007d433ee9ae9a67284110f29c8ae6d1fe733d05da345a141d289911304b4",
+      "sha256": "9c1c94bc682c702a85d61b4d74a3cee4afb46637d14600694e4348e17e9b48a6",
+      "bytes": 100951,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:19.951322+00:00"
+    },
+    "vqa__vqa_val_0003__source__006": {
+      "job_sha256": "017e10066d1379ac65b19ff4a2ff2698d2dcb9a5fab61715f48633615242ba35",
+      "sha256": "05db47cf7e3fefd9a2e23ab190213fc6d4cc6d6243bd5c3519d6cee9b9db7d05",
+      "bytes": 109654,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:19.996740+00:00"
+    },
+    "vqa__vqa_val_0003__source__007": {
+      "job_sha256": "ba6b29e49a6375510e335ea796645b9f99e927ae2830e9670b76a2fcde065393",
+      "sha256": "07835b69e5631a377eb050f73c06d1eaf8674eabed0a76d0c201db3c6e92ef82",
+      "bytes": 118620,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.033433+00:00"
+    },
+    "vqa__vqa_val_0003__source__008": {
+      "job_sha256": "b2b255e1ca19dadbd4ed5487f618bd4310ac8123dfbcf155ac383718e06b5daf",
+      "sha256": "44972bc1faab0fed5cda4f4f865d89b7fa061bafe2e65d711aecb6f513a06fc5",
+      "bytes": 120826,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.082393+00:00"
+    },
+    "vqa__vqa_val_0003__source__009": {
+      "job_sha256": "62a57d35eebc0611dac9d9a06de2cf577661fe28e46ad8d40a9fde2207151edc",
+      "sha256": "bea43ed4b22a799980f7b32591da53ce8976a55f3e3fc6ee91370f333b5ed65f",
+      "bytes": 108004,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.128512+00:00"
+    },
+    "vqa__vqa_val_0003__source__010": {
+      "job_sha256": "2c3262a2b3beb2e2bc96b2ad676e2d5b34feb1550bb3ed36c4fd48c08c7bc841",
+      "sha256": "4f59b8f6a93858e4b9808a451b792a8620065e02f472d108b3e57509359fab01",
+      "bytes": 106515,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.170371+00:00"
+    },
+    "vqa__vqa_val_0003__source__011": {
+      "job_sha256": "9f3793a5ab265cb0b9bea6d5c0c7881198cadeb67e50db0066a5cd0b232a92d4",
+      "sha256": "392aef3d8a2af3bfe202974956a2f0988325ede14735440f8424077a419b9122",
+      "bytes": 106317,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.211547+00:00"
+    },
+    "vqa__vqa_val_0003__source__012": {
+      "job_sha256": "73738955eb9360d8a5b821e438b815a03de76e853cf791bb469e5230b2295f74",
+      "sha256": "6de8fc49491ccdb9ae7cadee3837ae4a2a81f1fafff8ecbcf0cbc0f946eaa92d",
+      "bytes": 97914,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.256076+00:00"
+    },
+    "vqa__vqa_val_0003__source__013": {
+      "job_sha256": "47a5db61a78198940d049634694a1fc34a7f4a11d23bc5365f3b9891c9528158",
+      "sha256": "757fad3efbaa878cfc162e8f2c3e737835ef41503d8aa4a774b499621db25451",
+      "bytes": 111207,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.300373+00:00"
+    },
+    "vqa__vqa_val_0003__source__014": {
+      "job_sha256": "87fe82ed3a6de4748bd5a0cf863dbbbb6446b67e236d7621ad4a06745fd4ab69",
+      "sha256": "55be186f0be628cede0132baa234b5275be6a6b59b96f9a7ba2c4738790ae143",
+      "bytes": 109629,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.594937+00:00"
+    },
+    "vqa__vqa_val_0003__source__015": {
+      "job_sha256": "4e384d5d8a459c535b40237a65ffeed988a986e6ccdfa44f4ba2a64338b0d026",
+      "sha256": "9bcce210a8de064b1f2e06811fcaeb73a633c31d3ea14aea180a2df152f954fc",
+      "bytes": 97329,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.726634+00:00"
+    },
+    "vqa__vqa_val_0003__source__016": {
+      "job_sha256": "292190caf7daf4e623131766276fd4616544da5a9c20fbaad968ac0fdb4af55f",
+      "sha256": "36e951496a083c6ff1adcfa4addffa7a5416fa15304b7482db89702235f2df4c",
+      "bytes": 107394,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.789212+00:00"
+    },
+    "vqa__vqa_val_0003__source__017": {
+      "job_sha256": "0ca33b5a4dca6baac2d148c1a1b355783ea686fe3dbb71ddc02683971e9079f5",
+      "sha256": "18c720eff6d25be061c73c4b28caa86cb4b35bbcb5360e64952ed934844426d6",
+      "bytes": 110300,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.830337+00:00"
+    },
+    "vqa__vqa_val_0003__source__018": {
+      "job_sha256": "c7c79e37d6d0c8e7db9190d02239c94ff2d0e526e4aa6a670bb81c1aefe6352b",
+      "sha256": "d1a6849d28d7cb1b27eaf475860ebb8065014b646c0992c670eaa006362924b9",
+      "bytes": 110797,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.874168+00:00"
+    },
+    "vqa__vqa_val_0003__source__019": {
+      "job_sha256": "2541addc2f929d093f968af06237cb7dfd6f48955cd884ba3e68930c7140bc26",
+      "sha256": "abd144804602336c0c69cb969daa657bcfe5ba210193a9376c75bf88d35208f8",
+      "bytes": 113464,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.910536+00:00"
+    },
+    "vqa__vqa_val_0003__target__000": {
+      "job_sha256": "6d96f5138c28d29bac9605ab650b88a3776d4616cf1aaa12b71a164f7bbc3c8e",
+      "sha256": "542bc719f9d39778c7f709b697c1ec8ffa2c2c6bfdd7232f01ced5cc876f6553",
+      "bytes": 115360,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:20.960450+00:00"
+    },
+    "vqa__vqa_val_0003__target__001": {
+      "job_sha256": "7eddb2cab864976f7facfe0bd6d6239c98cf3e530386e7779aadc74766ec208c",
+      "sha256": "a10cac55ed146aa09f503699895fce969a3811093f2c208681802ea03507f757",
+      "bytes": 106880,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.100938+00:00"
+    },
+    "vqa__vqa_val_0003__target__002": {
+      "job_sha256": "0360b1252a363255618b3faa78a6b01032d6a84b4a7f8c39b39805ac4d5de9e3",
+      "sha256": "3a716b64dcb09c8075cb4f5b456516f405a2b9d01416ba3920c23c853bc7e44f",
+      "bytes": 113867,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.144738+00:00"
+    },
+    "vqa__vqa_val_0003__target__003": {
+      "job_sha256": "7389a9e535595a1ce1496b6d298b76893c443e11ce761e1e2e37a9783a20489c",
+      "sha256": "afb30fb6b991ec1a9ca54c6bff6c01c465f163aa83cd0c507e2b31f8d4a2397b",
+      "bytes": 114828,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.190473+00:00"
+    },
+    "vqa__vqa_val_0003__target__004": {
+      "job_sha256": "7a0c284b3cf83ca74f97992747b7519768868a09ca09d3105a52c15bf97cc1ae",
+      "sha256": "736591a8614991a9683e88a1e30b3f0ef70d9b0dd4e724528e8c656d96583985",
+      "bytes": 115858,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.237560+00:00"
+    },
+    "vqa__vqa_val_0003__target__005": {
+      "job_sha256": "5b529358f840ce114c4e2b7601e417995b38b4704fadc2f2d2a10f870eb31854",
+      "sha256": "124fb66501573d5233eeec221785ab614eb544f6204979c2f71f49ab721dadaf",
+      "bytes": 92554,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.288199+00:00"
+    },
+    "vqa__vqa_val_0003__target__006": {
+      "job_sha256": "91253f76af953d72733393552ec6e528412f60f95dddc6c4043cf85c8712006e",
+      "sha256": "ce72e03b5ae418127ea3b90d2db8e1196e40cf2b1e392e2da0fc4094d7729820",
+      "bytes": 111690,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.328049+00:00"
+    },
+    "vqa__vqa_val_0003__target__007": {
+      "job_sha256": "83b086ebd71a7f260c3860a2f0eff18cbc31d2a9c021298b529b1b47c51e32ec",
+      "sha256": "a5d8922b397405110d68c683798712133b963d5c14dc5e0cf0d8cca2b8b51dee",
+      "bytes": 105209,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.368934+00:00"
+    },
+    "vqa__vqa_val_0003__target__008": {
+      "job_sha256": "ab51b8b8356850c73679760b130f9ae33bcc8a15d70f923e84ea55fae2d4b6c4",
+      "sha256": "fc9bc05fbca62135e120e9301da28ebde1c032296315bbfa35e5010b92e324aa",
+      "bytes": 122618,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.416790+00:00"
+    },
+    "vqa__vqa_val_0003__target__009": {
+      "job_sha256": "80ba4f10f0f5e8220ed95095009dadc9afdfe2bd8b3772bc748f58e83c9b4eaf",
+      "sha256": "4478d1b49c2d667ce2c5ea75ebfe81ce7c84b69ad5a99221c3f3b425e8476cd5",
+      "bytes": 107760,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.458378+00:00"
+    },
+    "vqa__vqa_val_0003__target__010": {
+      "job_sha256": "aff094832831790a783ec30dfff22d7f249fe0cc551f36915c8e1f4885e33eb8",
+      "sha256": "02a243c79d2903dab02a3975ddbd4af83868f0df2d843b6c4c30a9e35bbb253b",
+      "bytes": 106695,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.510505+00:00"
+    },
+    "vqa__vqa_val_0003__target__011": {
+      "job_sha256": "9aaf034016e8fb51dd375cdf526eb4d34f9533676afe09aa0cc5474a4736dd9e",
+      "sha256": "24fd6a33c5d6610c3f3c6da6d67b24970c84863acf1c207a0638da8cda3c5c04",
+      "bytes": 101324,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.557337+00:00"
+    },
+    "vqa__vqa_val_0003__target__012": {
+      "job_sha256": "13405550f8db05cc54949e7cf7a1890fbf4c0da2e4c1b290447df51a1e053a45",
+      "sha256": "3c45e176fbd7d08889e7ba1a60da120ab774c517a39665116a27e6bb8b88115b",
+      "bytes": 110452,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.594799+00:00"
+    },
+    "vqa__vqa_val_0003__target__013": {
+      "job_sha256": "dc286251b70fc1ac8a774159a3f89842d189868a948fb965442e7a21b821fe70",
+      "sha256": "351cba21c5b0cecb6adbaf505728f58f2c6ef2591d05924038e5c0033b0ce94e",
+      "bytes": 104104,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.639435+00:00"
+    },
+    "vqa__vqa_val_0003__target__014": {
+      "job_sha256": "f47f0410aeec238fdef62cf45c7fa6da59ea618895ff0b6cd3a5d4070ac80196",
+      "sha256": "e107919a7d86368e42a4745518518c075de6c35ac853f2e2cddf71d4f2699094",
+      "bytes": 103556,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.683291+00:00"
+    },
+    "vqa__vqa_val_0003__target__015": {
+      "job_sha256": "09aa64b4c627479fab7e7a6ee7454ae35f66273582fbae029e416222b7fa56ce",
+      "sha256": "970ea177a0ad65217f704c9595efe5416a730485f1c0d70fa588d4361b087e26",
+      "bytes": 99576,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.726702+00:00"
+    },
+    "vqa__vqa_val_0003__target__016": {
+      "job_sha256": "33235be8add9c7b7efdb8acc39be025f63d6edb232973b62e3c2e6b9ca2b0e94",
+      "sha256": "c7cc681ea683a5b25cdca4c823732239c11ae1bc92b91bafe15abc002851bdbf",
+      "bytes": 115985,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.787864+00:00"
+    },
+    "vqa__vqa_val_0003__target__017": {
+      "job_sha256": "1fbebe53e581677c17eb09b02176c2890bf9639f402c69246a351a6b415aa0f9",
+      "sha256": "f551a0e18a95ce48a279ef882486c88fa939bbcdbce2b5af62d2946e70c0ebc0",
+      "bytes": 104543,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.827696+00:00"
+    },
+    "vqa__vqa_val_0003__target__018": {
+      "job_sha256": "f836bf31d773f5d02aa0dfddc5bb0f76d3706304540e32c63911f24ecb49f40a",
+      "sha256": "3495bd2899ca87d2a5e46346123bea34a59ead4a79934dcce924e61cef64bfb7",
+      "bytes": 110208,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.865621+00:00"
+    },
+    "vqa__vqa_val_0003__target__019": {
+      "job_sha256": "e7e339ddd5b6b18cb466b6a630e6141fbcaadcda3f4e473735fd5aafb95e077c",
+      "sha256": "a05e3a4dd439ddc7e53a13338279007a90b05e2f042b5e9cde44c105bcd6a674",
+      "bytes": 113527,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.360978431999683,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:06:21.914432+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:06:21.914462+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

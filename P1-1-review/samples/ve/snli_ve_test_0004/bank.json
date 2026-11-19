@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "6f0a2137e323915e99946946b6614e1689090df96af234a39c84c38cffb457fd",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "408be4c3b8026b16facc4a995275a8b6c8182f620637b845174b7d7fb659b3f4",
+      "notes": "Source skier scenes lack contest cues and remain neutral to “about to enter a ski contest.” Target bank adds competition cues. Replaced the “Course Closed” target and a finish-line target with a skier at a marked race start.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/000.png",
+        "index": 0,
+        "prompt": "A person in red gear cross-country skiing through a dense pine forest on a groomed trail.",
+        "prompt_sha256": "29fa3e21fd7660c9d8c667e6de8135db7d83637c32bd91e9c3de0592fb0f1767",
+        "reference_id": "ve__snli_ve_test_0004__source__000",
+        "role": "source",
+        "seed": 200123630061368093
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/001.png",
+        "index": 1,
+        "prompt": "A skier gliding forward on a snowy path with tall trees lining the sides.",
+        "prompt_sha256": "37e23be37ccfb78bb1f2ee698b77176c9d6bdaa4533c9dbc2bfc0e15d3c643d5",
+        "reference_id": "ve__snli_ve_test_0004__source__001",
+        "role": "source",
+        "seed": 496927176343900259
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a skier pausing on a flat clearing, looking at a trail map on a post.",
+        "prompt_sha256": "c61ab6a83aef0f851c7e058dff9a3176a299f5063fbe7fb5450253f974102b03",
+        "reference_id": "ve__snli_ve_test_0004__source__002",
+        "role": "source",
+        "seed": 163532596023032855
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of a skier moving along a winding trail through a snowy woodland.",
+        "prompt_sha256": "17956f187fe6495c4949ff43e2fed66a1369e93a5ac3689ce05d94f0bae8179d",
+        "reference_id": "ve__snli_ve_test_0004__source__003",
+        "role": "source",
+        "seed": 888405218708472091
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/004.png",
+        "index": 4,
+        "prompt": "Candid shot of a skier adjusting their boots on a snow-covered forest floor.",
+        "prompt_sha256": "fb963ed2caf9ff3a7635607f5d67ff1263d590558bbf01bebf757ecec38ee5aa",
+        "reference_id": "ve__snli_ve_test_0004__source__004",
+        "role": "source",
+        "seed": 406956386396685082
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/005.png",
+        "index": 5,
+        "prompt": "A skier in blue clothing gliding past a small wooden signpost in the snow.",
+        "prompt_sha256": "244d27e9c3cdfd899c8f228dd99ff74d26982f6dfa291576c4b1fbfc781e06fe",
+        "reference_id": "ve__snli_ve_test_0004__source__005",
+        "role": "source",
+        "seed": 1134683176210545022
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/006.png",
+        "index": 6,
+        "prompt": "Side angle of a skier pushing off with poles on a gentle snowy slope.",
+        "prompt_sha256": "5dfaacb1be51f0818e80e7ea76dcbb2bc10b484336661cbeaa1c0f2fb1fd6a0b",
+        "reference_id": "ve__snli_ve_test_0004__source__006",
+        "role": "source",
+        "seed": 574736082350016112
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/007.png",
+        "index": 7,
+        "prompt": "A skier moving through a sunlit gap in the trees on a cross-country trail.",
+        "prompt_sha256": "65698f87decef904804fbe47da0e4ed2dbadabca54b142077bb2c8f935b8552f",
+        "reference_id": "ve__snli_ve_test_0004__source__007",
+        "role": "source",
+        "seed": 422472631605498622
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/008.png",
+        "index": 8,
+        "prompt": "Close-up of a skier's upper body and skis on a groomed forest path.",
+        "prompt_sha256": "1f78e0eab07bec51ec0344931d514a8095fc2c6016e81c14d02c328db210348f",
+        "reference_id": "ve__snli_ve_test_0004__source__008",
+        "role": "source",
+        "seed": 192582431692435655
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/009.png",
+        "index": 9,
+        "prompt": "A person skiing leisurely through a quiet, snow-laden birch forest.",
+        "prompt_sha256": "3047a3ec6481673c297f36c0aecbcb5732bb92cb93b765aca6bd42119f978bf0",
+        "reference_id": "ve__snli_ve_test_0004__source__009",
+        "role": "source",
+        "seed": 598990449127524591
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/010.png",
+        "index": 10,
+        "prompt": "A skier in green attire gliding along a narrow trail between evergreens.",
+        "prompt_sha256": "4af6699ffe9b5862af4d1246f2778fe31ea213fd7c350ae014a613505b851cbe",
+        "reference_id": "ve__snli_ve_test_0004__source__010",
+        "role": "source",
+        "seed": 802159125554350947
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/011.png",
+        "index": 11,
+        "prompt": "A skier leaning forward in a dynamic pose on a flat snowy section.",
+        "prompt_sha256": "c704c7f955cfde10e4cf3a9a389ff6a4e1a8b6e4e993bc958da7cb6ee36d867a",
+        "reference_id": "ve__snli_ve_test_0004__source__011",
+        "role": "source",
+        "seed": 474331040112182386
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/012.png",
+        "index": 12,
+        "prompt": "Medium view of a skier standing still, poles planted, observing the trail ahead.",
+        "prompt_sha256": "4e99ac6c81b074e7e27d965885468ee40a8ea67a6d5a6869a82c65438762434c",
+        "reference_id": "ve__snli_ve_test_0004__source__012",
+        "role": "source",
+        "seed": 996877169213984398
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/013.png",
+        "index": 13,
+        "prompt": "Wide shot of a skier traversing a broad, open snowy clearing with distant trees.",
+        "prompt_sha256": "960ab37c145f89e2003cfc098e35602f0f2cb568fddc195e2c70e4122a0058f2",
+        "reference_id": "ve__snli_ve_test_0004__source__013",
+        "role": "source",
+        "seed": 684309872028159435
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/014.png",
+        "index": 14,
+        "prompt": "Candid moment of a skier wiping snow off their goggles in a forest.",
+        "prompt_sha256": "05cf1b46778983b8dcb9bb3ab1caf2de4fc92f8db14d5a059fb0a6c2d894f139",
+        "reference_id": "ve__snli_ve_test_0004__source__014",
+        "role": "source",
+        "seed": 63786548683671778
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/015.png",
+        "index": 15,
+        "prompt": "A skier in yellow gear moving past a small rock on a snowy path.",
+        "prompt_sha256": "e665be24efd4b1fb1f92b094c2e1ddd23c7a10663cd185f45fd3a927200f01b2",
+        "reference_id": "ve__snli_ve_test_0004__source__015",
+        "role": "source",
+        "seed": 1009205751189366083
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/016.png",
+        "index": 16,
+        "prompt": "Side profile of a skier gliding smoothly on a groomed trail with trees behind.",
+        "prompt_sha256": "963c9528f4fea3ef2de40e36d0e6e8509ae0f4e752d19b9236ea7a37686e53db",
+        "reference_id": "ve__snli_ve_test_0004__source__016",
+        "role": "source",
+        "seed": 758865875418666003
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/017.png",
+        "index": 17,
+        "prompt": "A skier moving through a shaded area of the forest on a cross-country trail.",
+        "prompt_sha256": "a0b4c989f0358eb0e5736fcbba1100af8773fbc02b89292046bfffd42c8b4b19",
+        "reference_id": "ve__snli_ve_test_0004__source__017",
+        "role": "source",
+        "seed": 909742238274377740
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/018.png",
+        "index": 18,
+        "prompt": "Distant view of a skier on a long, straight snowy path through the woods.",
+        "prompt_sha256": "8d25295152d8a7f5cf12f385cf9988fc8bad42ebbe7ea4c95d5536d7096ed322",
+        "reference_id": "ve__snli_ve_test_0004__source__018",
+        "role": "source",
+        "seed": 264098891342614936
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/source/019.png",
+        "index": 19,
+        "prompt": "A person cross-country skiing through a sparse, snowy forest landscape.",
+        "prompt_sha256": "351008fd10856f284031a5c829580240b73cd81f774be740818b70ed6e4d9e4a",
+        "reference_id": "ve__snli_ve_test_0004__source__019",
+        "role": "source",
+        "seed": 198439431562516721
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/000.png",
+        "index": 0,
+        "prompt": "A person in red gear cross-country skiing through a dense pine forest on a groomed trail, wearing a numbered race bib.",
+        "prompt_sha256": "c9543bbf45960f8285fd1c46534c5b5629833e1cb03b19c2542386f2c1b11c00",
+        "reference_id": "ve__snli_ve_test_0004__target__000",
+        "role": "target",
+        "seed": 218846788990311972
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/001.png",
+        "index": 1,
+        "prompt": "A skier gliding forward on a snowy path with tall trees lining the sides, a visible course marker flag nearby.",
+        "prompt_sha256": "f510c78b0973d53370fc45ae8e7e8025d5f737c44e65266f0249c33d319b1b2f",
+        "reference_id": "ve__snli_ve_test_0004__target__001",
+        "role": "target",
+        "seed": 3699761613311014
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/002.png",
+        "index": 2,
+        "prompt": "Wide view of a skier moving along a winding trail through a snowy woodland, with a 'Start' sign visible in the distance.",
+        "prompt_sha256": "4593276bf0481ecf8533d4244c91d0b75ee83ab22f91874ed49b053b790e1b07",
+        "reference_id": "ve__snli_ve_test_0004__target__002",
+        "role": "target",
+        "seed": 895031626651309188
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/003.png",
+        "index": 3,
+        "prompt": "A skier in blue clothing gliding past a small wooden signpost in the snow, the post displaying contest course directions.",
+        "prompt_sha256": "3c039d93abd1855346643b008a128ea68c75c07454d4ecfae092a5097d8ec11b",
+        "reference_id": "ve__snli_ve_test_0004__target__003",
+        "role": "target",
+        "seed": 53721295572750072
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/004.png",
+        "index": 4,
+        "prompt": "Side angle of a skier pushing off with poles on a gentle snowy slope, wearing a bright numbered bib on their chest.",
+        "prompt_sha256": "92cebabdb0cb8600e4446de730bcb0676d5f6dd121b49f9d6963508dde2d3336",
+        "reference_id": "ve__snli_ve_test_0004__target__004",
+        "role": "target",
+        "seed": 907304496967130389
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/005.png",
+        "index": 5,
+        "prompt": "A skier moving through a sunlit gap in the trees on a cross-country trail, with a small race timing mat on the snow.",
+        "prompt_sha256": "270f9c4684317d3125ea50151446cb569bb3deb5c7d4156da3f2aa3e0df9a613",
+        "reference_id": "ve__snli_ve_test_0004__target__005",
+        "role": "target",
+        "seed": 39818157637961519
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/006.png",
+        "index": 6,
+        "prompt": "Close-up of a skier's upper body and skis on a groomed forest path, a race number clearly visible on their sleeve.",
+        "prompt_sha256": "f61b10cc485eb99f6d4b5c5cbbfcf87740be726b39bce9732ae83f5a019767c1",
+        "reference_id": "ve__snli_ve_test_0004__target__006",
+        "role": "target",
+        "seed": 979631533426194218
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/007.png",
+        "index": 7,
+        "prompt": "A person skiing leisurely through a quiet, snow-laden birch forest, wearing a standard competition bib with a large number.",
+        "prompt_sha256": "3fbb9a141ebaf1dab248018f80bdd3b2d4e9d163576ca48df6e4915999918ef5",
+        "reference_id": "ve__snli_ve_test_0004__target__007",
+        "role": "target",
+        "seed": 116036532887035278
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/008.png",
+        "index": 8,
+        "prompt": "A skier in green glides along a marked competition course toward the start area, with a numbered race bib visible.",
+        "prompt_sha256": "6e7d3b9fad5829415e49b6812da675604ccf9736c29a919d52634d84623f7ba7",
+        "reference_id": "ve__snli_ve_test_0004__target__008",
+        "role": "target",
+        "seed": 956941927694159718
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/009.png",
+        "index": 9,
+        "prompt": "Candid moment of a skier wiping snow off their goggles in a forest, a race number tag visible on their arm.",
+        "prompt_sha256": "560f8bff84910e70890d492fb1b4f63ab0ff26a9c038410f1e0b99b61fbf7e13",
+        "reference_id": "ve__snli_ve_test_0004__target__009",
+        "role": "target",
+        "seed": 103900961627669106
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/010.png",
+        "index": 10,
+        "prompt": "A skier in yellow gear moving past a small rock on a snowy path, a course marker flag planted in the snow nearby.",
+        "prompt_sha256": "334abac09a81c507ffdad3062c3b7f183f86e29ce7eab21752b395eefd75f55c",
+        "reference_id": "ve__snli_ve_test_0004__target__010",
+        "role": "target",
+        "seed": 1036876134938259216
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/011.png",
+        "index": 11,
+        "prompt": "A skier in a shaded forest trail waits beside a clearly marked ski-race starting gate, ready to enter the contest.",
+        "prompt_sha256": "121d2801b24316f0bc7fab4b560c0a5a300e4b868c12b4fc7316834f4dd4b454",
+        "reference_id": "ve__snli_ve_test_0004__target__011",
+        "role": "target",
+        "seed": 847221341507257443
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/012.png",
+        "index": 12,
+        "prompt": "Distant view of a skier on a long, straight snowy path through the woods, a race bib visible on their back.",
+        "prompt_sha256": "a23aebed0f9cc4ed66f07fb46b8310f33c01d6f14b19819501e0448848769c1f",
+        "reference_id": "ve__snli_ve_test_0004__target__012",
+        "role": "target",
+        "seed": 710760228192015914
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/013.png",
+        "index": 13,
+        "prompt": "A person cross-country skiing through a sparse, snowy forest landscape, wearing a numbered bib and race gear.",
+        "prompt_sha256": "d06ab12b58566cd38dedd2d55eedf79f1c572817ca5a5997e762447fd519e7b7",
+        "reference_id": "ve__snli_ve_test_0004__target__013",
+        "role": "target",
+        "seed": 810164035233592883
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/014.png",
+        "index": 14,
+        "prompt": "Candid moment of a skier wiping snow off their goggles in a forest, wearing a numbered race bib.",
+        "prompt_sha256": "6d056f5879da278a5df7d0a6262a8244a3f09aea37165168e1b5ddfa80341d6c",
+        "reference_id": "ve__snli_ve_test_0004__target__014",
+        "role": "target",
+        "seed": 563518427641754878
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/015.png",
+        "index": 15,
+        "prompt": "A skier in yellow gear moving past a small rock on a snowy path, with a visible race bib.",
+        "prompt_sha256": "2d5e90d9a909362bc0c56f86369468db37b4b6c960f9c9881b8bd356da26e721",
+        "reference_id": "ve__snli_ve_test_0004__target__015",
+        "role": "target",
+        "seed": 627278288634009809
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/016.png",
+        "index": 16,
+        "prompt": "A skier moving through a shaded area of the forest on a cross-country trail, with a race bib on their chest.",
+        "prompt_sha256": "0572536dce0ad6a0352f6b6a149f1489de98271acfb9c35d2699452fc3fbeb45",
+        "reference_id": "ve__snli_ve_test_0004__target__016",
+        "role": "target",
+        "seed": 116550040588282746
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/017.png",
+        "index": 17,
+        "prompt": "Distant view of a skier on a long, straight snowy path through the woods, wearing a numbered race bib.",
+        "prompt_sha256": "4d3541f8c35d55814eb9b9b00db2d834fcd7ffaf30685da24e727c94dbba2978",
+        "reference_id": "ve__snli_ve_test_0004__target__017",
+        "role": "target",
+        "seed": 895689619090754226
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/018.png",
+        "index": 18,
+        "prompt": "A person cross-country skiing through a sparse, snowy forest landscape, wearing a numbered race bib.",
+        "prompt_sha256": "f87f9d1698299812944ee75ac5df66928ede02d115d39909b5e70151a4bdd470",
+        "reference_id": "ve__snli_ve_test_0004__target__018",
+        "role": "target",
+        "seed": 168621103138414321
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0004/target/019.png",
+        "index": 19,
+        "prompt": "A person cross-country skiing through a sparse, snowy forest landscape, wearing a numbered race bib on their chest.",
+        "prompt_sha256": "d41df37e7ba4f6bb6ee8aab2a72779b2c01acb3332140adad4b230391c4ffc56",
+        "reference_id": "ve__snli_ve_test_0004__target__019",
+        "role": "target",
+        "seed": 85336355718503384
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/101669240.jpg",
+    "original_image_sha256": "455a07bc6cb84d21b015070abf3e7226183805c67a0b72076052c2ec11495524",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "6f0a2137e323915e99946946b6614e1689090df96af234a39c84c38cffb457fd",
+    "sample_id": "snli_ve_test_0004",
+    "shard": 4,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "A person is about to enter a ski contest.",
+      "premise_caption": "A person wearing skis looking at framed pictures set up in the snow.",
+      "source_label": "neutral",
+      "target_label": "entailment"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0004__source__000": {
+      "job_sha256": "323df30e5a12ec0d7439f218eaa35c5f93e5f5e969a8e85c878d9ef0d3e3ac22",
+      "sha256": "e683c3fc282681f8a953e51ff5b9d9a9577b84be12e40c590dc52625a3078950",
+      "bytes": 170546,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.317708+00:00"
+    },
+    "ve__snli_ve_test_0004__source__001": {
+      "job_sha256": "dd9fd4ff35e8c4f3682263aa1c120ec7e814ff7bb2c770f01a0be4f4acd039d0",
+      "sha256": "e4f8e0246484a5b6b6e905c6d71c2c18447466e84818a97f951e5bcccae0f594",
+      "bytes": 165133,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.362144+00:00"
+    },
+    "ve__snli_ve_test_0004__source__002": {
+      "job_sha256": "251460dc5315f3b9ab4f80258df2d9e3b85b701434ded1aebbd0ec32898ec31b",
+      "sha256": "cde678f3c2ac814d1ae2f40b326f03b6c01892e27aa23797a9da6d5a6d7ed348",
+      "bytes": 123177,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.411007+00:00"
+    },
+    "ve__snli_ve_test_0004__source__003": {
+      "job_sha256": "52cc4c4cc177cd63bb2b4e252a0d129014ed93c25960bc993f8e897e0109bd8b",
+      "sha256": "c84c6f1e7ffbfc32bd1bd3323b2b5b09c9965275e46adf4f04c68bf616aa622c",
+      "bytes": 175227,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.470057+00:00"
+    },
+    "ve__snli_ve_test_0004__source__004": {
+      "job_sha256": "d15f6b98df33a056393b46d4d8df02b035088b08bd6051223e0703a158232662",
+      "sha256": "9d020cbf64fe9b590862a796312b1b8c6eece1ecf04da2b7427ffa1433375bd8",
+      "bytes": 162176,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.514023+00:00"
+    },
+    "ve__snli_ve_test_0004__source__005": {
+      "job_sha256": "39342cb22d1572c12670f5d91f38aad6effa264dac8a90c3198c6c577fbb634e",
+      "sha256": "0501dc62586a578bb8e212fc03ac86a676e15368a75af70d404a43055ffac997",
+      "bytes": 140609,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.567423+00:00"
+    },
+    "ve__snli_ve_test_0004__source__006": {
+      "job_sha256": "78853e11841024b069e9151b16319bb168662975714c1a36a6e451baee5f0feb",
+      "sha256": "caeca2bf68c0e73cbc47d88aa763784674184340f460fde0c05b4dee0f069ed3",
+      "bytes": 123675,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.609987+00:00"
+    },
+    "ve__snli_ve_test_0004__source__007": {
+      "job_sha256": "cd395af4a8000609b5f5890e931cb893c9ba7310f13ef38400df69920996e455",
+      "sha256": "42528f38bd2c001c7367b99c9962c7f87b4e769c5abab490e8b39d24d597487d",
+      "bytes": 185029,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.656893+00:00"
+    },
+    "ve__snli_ve_test_0004__source__008": {
+      "job_sha256": "d95b78532c0cb193159f94e0a6229ccf81650be09752f4f79f702b609f56fcc5",
+      "sha256": "fb41d00ab831173397e92592bab0f663d6c0a87403cf377eb708780249253b8f",
+      "bytes": 144886,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.702740+00:00"
+    },
+    "ve__snli_ve_test_0004__source__009": {
+      "job_sha256": "2be6b9252d10186c343cd3998581efc6956c88134c3d06b6624d4c317960e829",
+      "sha256": "fbc0f8d291350dc240902fddd85621294f44dc91dbd759448da7144a83bd0dd0",
+      "bytes": 180272,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.752322+00:00"
+    },
+    "ve__snli_ve_test_0004__source__010": {
+      "job_sha256": "c6014ca0f83c4407c39385e3209240590764485859a1ef87a9518936ad72273f",
+      "sha256": "281459c0ac65e8e3e1f1ba3a0921254e2b1bdda43364baf8389b5aebc6e93909",
+      "bytes": 169757,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.797385+00:00"
+    },
+    "ve__snli_ve_test_0004__source__011": {
+      "job_sha256": "60b0a68e489c5e419cede5ae98752c8ed2179c751c7fadb8de9077165ffe227b",
+      "sha256": "886e7fd276b45698ded296a48edb735d2e186a4c1926e3e8f9e705c60fa5dcf1",
+      "bytes": 134027,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.849473+00:00"
+    },
+    "ve__snli_ve_test_0004__source__012": {
+      "job_sha256": "7e5d759375a4be0d855ad90de80af1de9c3597eba3f41e3c9c0cdb85f8960b57",
+      "sha256": "060dbc38ab4d13207a7842510b85fed6bab17a3552b7d0bc9e5be5ab40a19339",
+      "bytes": 149573,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.910169+00:00"
+    },
+    "ve__snli_ve_test_0004__source__013": {
+      "job_sha256": "642b9d2642f9af1733476b174e803c7b0ffec5bb0a31e2902ddcd55eb36de79f",
+      "sha256": "b2c5bb2be25176ec135049e2f9b3e5ab0255f76e07ec176487b198c88337490e",
+      "bytes": 106360,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.950904+00:00"
+    },
+    "ve__snli_ve_test_0004__source__014": {
+      "job_sha256": "1d5c5a2948968c1fb16f70219968ea29fd28fd193e7e2185781375bd05233eec",
+      "sha256": "c7a1eba7e225bc969f4072f0ca6eaadb3972b2ea1e634b2d0cfc13ee7c0e573e",
+      "bytes": 178641,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:38.990959+00:00"
+    },
+    "ve__snli_ve_test_0004__source__015": {
+      "job_sha256": "e540e8b0aed4ad49d8cdca39a5553efca7ca5875292fb53c9240292dbc3f65ee",
+      "sha256": "dcc51b69909f969839d7c3048032f0a338129c8a7a6f2fc78fc86faac3daf334",
+      "bytes": 118426,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.026969+00:00"
+    },
+    "ve__snli_ve_test_0004__source__016": {
+      "job_sha256": "10fa14d41a048754f2413cf4ffe46a979e2d1413922e1f7432ff2ffe9184284c",
+      "sha256": "2c7e336127cb5c1edee476615bbcd841cb41e8602566c26cd391f74ef8762885",
+      "bytes": 162803,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.064674+00:00"
+    },
+    "ve__snli_ve_test_0004__source__017": {
+      "job_sha256": "819748ac928973f604d102e3a24efecb5dd0c4e42605bf631a6cc13f979eb2a9",
+      "sha256": "0dfad12a17969d35bec4d35d973052fc9b753169fe4e830d4808aca356d1dd57",
+      "bytes": 154353,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.108409+00:00"
+    },
+    "ve__snli_ve_test_0004__source__018": {
+      "job_sha256": "ffcdf7195ce4fc14ac7c62fa8f023a86be51a4a4ccca288947186e71175f0c34",
+      "sha256": "0857210994fbba4b177736e318beba07a36b79cfa99a7cb3085a2b81e2234bfc",
+      "bytes": 165666,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.152763+00:00"
+    },
+    "ve__snli_ve_test_0004__source__019": {
+      "job_sha256": "f30863c461aed19c91bb2f365d7b929877b3e518e8460c1043c2bea38f3b7248",
+      "sha256": "d1be50b6bb5338f37d7cbb0b9ce395ba2d4b5fd67b64c27f72314361f91902a8",
+      "bytes": 179822,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.189750+00:00"
+    },
+    "ve__snli_ve_test_0004__target__000": {
+      "job_sha256": "2764e731cb702e5e93cddda1132a3149e8132ec48dfbb9c3424fc6a387f0b5c6",
+      "sha256": "2bf9561dbcde6a7f274c7c185733857ea25aa39a3b672ba85b748ecc2ced949b",
+      "bytes": 171879,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.241794+00:00"
+    },
+    "ve__snli_ve_test_0004__target__001": {
+      "job_sha256": "be3279d98db5022f4906f17e9b43b86f2f3bde75c7a51d7081e3772d840d4ee0",
+      "sha256": "a640a991c3c7284e2f8eb25dbf0bdb0ae2e3c65c9c4b31681e40d66434126c66",
+      "bytes": 135008,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.283638+00:00"
+    },
+    "ve__snli_ve_test_0004__target__002": {
+      "job_sha256": "b41789da90b08acbf54308e500f59faad4e6482531a85f7155d4a5696b658c7d",
+      "sha256": "d50da182f8512e8e1397764d5090ac58c1614ddafad9f1afc059e5b1df118e71",
+      "bytes": 167537,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.330832+00:00"
+    },
+    "ve__snli_ve_test_0004__target__003": {
+      "job_sha256": "4e3b07b7926206a0f088cc459f5b1c1504d14a096830cc53c018deca6812e73e",
+      "sha256": "7991d39e7763a18ca0f98a2b004755199fd2a7c0241ed020b9f819d29f235540",
+      "bytes": 128620,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.372718+00:00"
+    },
+    "ve__snli_ve_test_0004__target__004": {
+      "job_sha256": "3d9d54ae862b4ff9f37fc4d5bd99baf951576ecc97686cf26b1603b2e6f62233",
+      "sha256": "44f4482189dc075440eedf7d89f08535da482ce195893dd7b49f295b64f97009",
+      "bytes": 127176,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.421622+00:00"
+    },
+    "ve__snli_ve_test_0004__target__005": {
+      "job_sha256": "5f0e347f07381db3e0aa058153f6a0bf3ee992af541777f40ed5dad01a30ae97",
+      "sha256": "762ae74b4ba0d057e95ccb8245dbb3830cc3885a63e8c973bfcb3e11e83eb522",
+      "bytes": 160832,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.464929+00:00"
+    },
+    "ve__snli_ve_test_0004__target__006": {
+      "job_sha256": "ffb3d991a40a9510171793b12753bb6cb57bcf35ecf49d4f66a378bfca4090ca",
+      "sha256": "8e3303f0acc3e3d43ac0cf6ee149a1b8217de17ba3e38e171a66e46ee03650e7",
+      "bytes": 146272,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.506506+00:00"
+    },
+    "ve__snli_ve_test_0004__target__007": {
+      "job_sha256": "6f79b812b2bae93e8cdfa38a4e7d8dec5f2ea761da2d076895901b70f5d30780",
+      "sha256": "47ed49e61c86dffbd76ae8c8ae58b1cd3098a806143418b345ffbef90826f69f",
+      "bytes": 165980,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.546270+00:00"
+    },
+    "ve__snli_ve_test_0004__target__008": {
+      "job_sha256": "d1691c75be6cdda4c64f358a06bf5ab9d0c7f5486ea3887a2b22f096a66fcb30",
+      "sha256": "b2c58bbb8a24a6d3eddcf641a209d252980b21b3a79c26f3475c4932c5ba4d0b",
+      "bytes": 122053,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.590048+00:00"
+    },
+    "ve__snli_ve_test_0004__target__009": {
+      "job_sha256": "298f54cf0cc78eb5249832b63c8984beac66f77e9483cae341efa1cbf34c6ae0",
+      "sha256": "651734194838e99756b27678e892a00ac06a7e78f39432f2ea7fab6b429f3566",
+      "bytes": 178916,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.644204+00:00"
+    },
+    "ve__snli_ve_test_0004__target__010": {
+      "job_sha256": "a786d06c08783f808b8275c942ce8489036565456b58c23010a3792976b35dee",
+      "sha256": "3d09e620035261906d45ef3f8a25ad05b57a3339e79555d595cd54e686f8eb39",
+      "bytes": 106512,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.685137+00:00"
+    },
+    "ve__snli_ve_test_0004__target__011": {
+      "job_sha256": "e6feaf98baf5943e7f6316900ff20913548404b8cddb982b8d51b8acc200e0da",
+      "sha256": "504f238dd2dee16602efb709daf72733dc7f584b22f2c34baeb2b8bb191bb651",
+      "bytes": 143748,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.729220+00:00"
+    },
+    "ve__snli_ve_test_0004__target__012": {
+      "job_sha256": "5f00c82d9c177a1771dabeea7c75f38713a7498a097ce911c22d95c01dabadbe",
+      "sha256": "9ab0e3e654d51374f017ea133ce3ffb7f060760756f5076da8ebaf7691b14da8",
+      "bytes": 153788,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.771814+00:00"
+    },
+    "ve__snli_ve_test_0004__target__013": {
+      "job_sha256": "101a8525df4c52f94702ba623cbae887e15badd8dd3d07315ad04513bf04c096",
+      "sha256": "f700562068c2001bf3df4a02d9273e75a4973d09f6c0c32b00e8bc93b1d02fbe",
+      "bytes": 162656,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.820230+00:00"
+    },
+    "ve__snli_ve_test_0004__target__014": {
+      "job_sha256": "39028c6f89da45f130c4cfc7e5cddacd5ef0812cb139d97157f39d3a8cbc733c",
+      "sha256": "72a1ef8bc1121f1f388698b6649dc2ff4d3ef7e82a4fa7a7d6d3f5cdc8e14e87",
+      "bytes": 179479,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.866853+00:00"
+    },
+    "ve__snli_ve_test_0004__target__015": {
+      "job_sha256": "35306ca1697b7534353cb3f020d5cc184cb73a509a8e431ca24cde9e4124c4cc",
+      "sha256": "11bdee76bbf3aaec7d3845a3a095388cbd56df03eb16a29f16783980ca8316a0",
+      "bytes": 115779,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.907234+00:00"
+    },
+    "ve__snli_ve_test_0004__target__016": {
+      "job_sha256": "c90a06fd3e34b81356186f2a73f2b77254c8333e6793e9c064de7e543d55e9a0",
+      "sha256": "c5f191963aa3af6a262280caac009733347747af66811c22f66c708226c5ad55",
+      "bytes": 141460,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.951632+00:00"
+    },
+    "ve__snli_ve_test_0004__target__017": {
+      "job_sha256": "4855bef5f2baf405477d4e604517d5a7792d06395769a3b101d2f0fa7df22b27",
+      "sha256": "40e872032d9d043496361058c4210aae1501d353b06133b6abd8ffb29842ec0e",
+      "bytes": 146730,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:39.997643+00:00"
+    },
+    "ve__snli_ve_test_0004__target__018": {
+      "job_sha256": "8b55d55bdc29bb12f93def801ea6262a75c4ff5edcc16f14786dbbeddc41d42e",
+      "sha256": "92ef315bef727edb53719f155d1fd17d52b26a3af09b92a5196ae8b9fc0b2721",
+      "bytes": 170190,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:40.042510+00:00"
+    },
+    "ve__snli_ve_test_0004__target__019": {
+      "job_sha256": "e9550f9b74a6b83ab27f164bc91de837c7c40de5566d13d91cce6c85a8aaf29b",
+      "sha256": "2b25b756dd3ae11b92409d5864698fb0b9a790aee357563eceb0d6615f376015",
+      "bytes": 157166,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 27.042103437706828,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:40.081463+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:04:40.081483+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

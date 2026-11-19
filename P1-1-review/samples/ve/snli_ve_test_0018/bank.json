@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "38c6599415377b85fb3686175c1c0358d5f7d82ca6ef8cfd8862a1bba5baa876",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "8a1f5ae76b5704c10da030402a0c8c565491bb94066b9d9a40dfd1b8e3cee9c7",
+      "notes": "Green tank top source entails the hypothesis; blue tank top target contradicts it. Other drill/crowd scene details are consistent.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/000.png",
+        "index": 0,
+        "prompt": "A woman in a green tank top holds a power drill while standing on a sunny backyard patio.",
+        "prompt_sha256": "401369c832abf2a03524b54666721318a1e6211c6d65c3011d58510c4c799562",
+        "reference_id": "ve__snli_ve_test_0018__source__000",
+        "role": "source",
+        "seed": 847051705555215167
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/001.png",
+        "index": 1,
+        "prompt": "A woman wearing a green tank top grips a cordless drill, facing the camera in a garden.",
+        "prompt_sha256": "39320fe26008d4760eb24f6f7c7fd8808e286956ac47f70b975ec2fbca6f659e",
+        "reference_id": "ve__snli_ve_test_0018__source__001",
+        "role": "source",
+        "seed": 719030309996003573
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a woman in a green tank top holding a drill near a wooden fence.",
+        "prompt_sha256": "1433255f063f4e1fd79d52cc2d32a9d4279b8bffd411c5c6a43c13de6c26a14a",
+        "reference_id": "ve__snli_ve_test_0018__source__002",
+        "role": "source",
+        "seed": 236655152092856869
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of a woman in a green tank top holding a drill in a grassy yard.",
+        "prompt_sha256": "dcf5e15674d02f9f5a8e85bd68b927bbe7762505d18274362177189f2fc51843",
+        "reference_id": "ve__snli_ve_test_0018__source__003",
+        "role": "source",
+        "seed": 83065197200104982
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/004.png",
+        "index": 4,
+        "prompt": "Candid photo of a woman in a green tank top holding a drill while looking down at a plank.",
+        "prompt_sha256": "1e0307b2b932f19ad9fed60ead0f8a0e73cd51d004ea48eb4d0e850e09a7302e",
+        "reference_id": "ve__snli_ve_test_0018__source__004",
+        "role": "source",
+        "seed": 1020228542423674612
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/005.png",
+        "index": 5,
+        "prompt": "A woman in a green tank top holds a drill, with a red toolbox visible on the ground nearby.",
+        "prompt_sha256": "d94152bef4478e50cc230f318f01d06a9144e7f5753f9931f035ca63958fe49f",
+        "reference_id": "ve__snli_ve_test_0018__source__005",
+        "role": "source",
+        "seed": 336427929062563377
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/006.png",
+        "index": 6,
+        "prompt": "Side profile of a woman in a green tank top holding a power drill outdoors.",
+        "prompt_sha256": "78ec4aebb635635717164bb177bbe6e6ecbd425b07c917858aacfbd17d641599",
+        "reference_id": "ve__snli_ve_test_0018__source__006",
+        "role": "source",
+        "seed": 164644848755359108
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/007.png",
+        "index": 7,
+        "prompt": "A woman in a green tank top holds a drill under bright midday sun in a park.",
+        "prompt_sha256": "396a11e75ad8c49b55cc818a18d5cbd63720120689bc94055ceca2a202565ff2",
+        "reference_id": "ve__snli_ve_test_0018__source__007",
+        "role": "source",
+        "seed": 235149629289543151
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/008.png",
+        "index": 8,
+        "prompt": "Close-up of a woman in a green tank top holding a drill, with blurred trees in the background.",
+        "prompt_sha256": "5a4bb80d1d4528f9ad86362719169af359dc766c956f5b53999f71c48f5af5cc",
+        "reference_id": "ve__snli_ve_test_0018__source__008",
+        "role": "source",
+        "seed": 62978377290111964
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/009.png",
+        "index": 9,
+        "prompt": "A woman in a green tank top holds a drill while working on a small wooden bench outside.",
+        "prompt_sha256": "1a2e3ca760e29bce19ac0112c8374d641dc396d316b5b8daf41b91098287ea23",
+        "reference_id": "ve__snli_ve_test_0018__source__009",
+        "role": "source",
+        "seed": 682334454841435461
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/010.png",
+        "index": 10,
+        "prompt": "Another woman in a green tank top holds a drill, standing near a white picket fence.",
+        "prompt_sha256": "01aacef64a90d7214299584107891c1880f49b794323cfc53e440a48af0c81d3",
+        "reference_id": "ve__snli_ve_test_0018__source__010",
+        "role": "source",
+        "seed": 450512584861611402
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/011.png",
+        "index": 11,
+        "prompt": "A woman in a green tank top holds a drill, leaning slightly forward in a driveway.",
+        "prompt_sha256": "b80fd92a83e1a4ea08131873eb17acf66d5bb6b75d4ba635f9a3484dd5f1467b",
+        "reference_id": "ve__snli_ve_test_0018__source__011",
+        "role": "source",
+        "seed": 711647994650817678
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/012.png",
+        "index": 12,
+        "prompt": "Medium shot of a woman in a green tank top holding a drill, with a dog sitting nearby.",
+        "prompt_sha256": "1de9fb521b07180bf2a12ab2751709b35872f29d432b8275e0fc200ee3ae0da1",
+        "reference_id": "ve__snli_ve_test_0018__source__012",
+        "role": "source",
+        "seed": 1088393723672085314
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/013.png",
+        "index": 13,
+        "prompt": "Wide shot of a woman in a green tank top holding a drill in a spacious outdoor workshop area.",
+        "prompt_sha256": "41bcf54f9c8566335838f31bcbf9cc7ddad66feef2c865f4d7f1c5a0292f3cb5",
+        "reference_id": "ve__snli_ve_test_0018__source__013",
+        "role": "source",
+        "seed": 1054041095707172037
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/014.png",
+        "index": 14,
+        "prompt": "Candid moment of a woman in a green tank top holding a drill, smiling at a helper off-camera.",
+        "prompt_sha256": "49a4dea87ea1eb33064bcc582a02cb321ab74af3073335f7b708ab536db942e3",
+        "reference_id": "ve__snli_ve_test_0018__source__014",
+        "role": "source",
+        "seed": 255432739913010414
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/015.png",
+        "index": 15,
+        "prompt": "A woman in a green tank top holds a drill, with a stack of lumber visible behind her.",
+        "prompt_sha256": "2c167f03a9c0d80632f19619ded8fb9d461cf617251d0cd35efcedd4d1a1b5d6",
+        "reference_id": "ve__snli_ve_test_0018__source__015",
+        "role": "source",
+        "seed": 503099899067965896
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/016.png",
+        "index": 16,
+        "prompt": "Side view of a woman in a green tank top holding a drill, standing on a concrete slab.",
+        "prompt_sha256": "14bef8d1901a549b2aa51b5aba7e4be715eae6cc64ff33d5923f4e6267fe3450",
+        "reference_id": "ve__snli_ve_test_0018__source__016",
+        "role": "source",
+        "seed": 1000392844248654510
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/017.png",
+        "index": 17,
+        "prompt": "A woman in a green tank top holds a drill in the soft light of early morning.",
+        "prompt_sha256": "339adadfb3e02e083d75913a5c8c1befb3de159ece5f9589a9642189c28cb0df",
+        "reference_id": "ve__snli_ve_test_0018__source__017",
+        "role": "source",
+        "seed": 463551839946813322
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/018.png",
+        "index": 18,
+        "prompt": "Close-up of a woman in a green tank top holding a drill, focusing on her hands and the tool.",
+        "prompt_sha256": "cb553e74d8405840b04c92fdd753219c407365e0d0ea3a6af28f924453713c65",
+        "reference_id": "ve__snli_ve_test_0018__source__018",
+        "role": "source",
+        "seed": 555905959875877421
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/source/019.png",
+        "index": 19,
+        "prompt": "A woman in a green tank top holds a drill while standing next to a garden shed outdoors.",
+        "prompt_sha256": "e14797e018c4d2f6d176e4edeac7ab17a3dae28f13b04012927277f67407fa7e",
+        "reference_id": "ve__snli_ve_test_0018__source__019",
+        "role": "source",
+        "seed": 708698098265005907
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/000.png",
+        "index": 0,
+        "prompt": "A woman in a blue tank top holds a power drill while standing on a sunny backyard patio.",
+        "prompt_sha256": "df0d8993cde2d224f53739236dedb88a5456e1cc5a7fb232447ebb77f3807ee7",
+        "reference_id": "ve__snli_ve_test_0018__target__000",
+        "role": "target",
+        "seed": 1105004455942120175
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/001.png",
+        "index": 1,
+        "prompt": "A woman wearing a blue tank top grips a cordless drill, facing the camera in a garden.",
+        "prompt_sha256": "8afea6bcea36a4b2fd3f319206c37a5a651f5099ce0fd13e01306d9b8ccc2339",
+        "reference_id": "ve__snli_ve_test_0018__target__001",
+        "role": "target",
+        "seed": 692856916520492755
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a woman in a blue tank top holding a drill near a wooden fence.",
+        "prompt_sha256": "5b02356cc751b2a6b31c58cbdcec93e589cc069c1380cefc7bff51b37abd1e03",
+        "reference_id": "ve__snli_ve_test_0018__target__002",
+        "role": "target",
+        "seed": 93198501470160045
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/003.png",
+        "index": 3,
+        "prompt": "Wide view of a woman in a blue tank top holding a drill in a grassy yard.",
+        "prompt_sha256": "909100aa3ba0811aa220aad86871471a2fd9203102bb5db876fb09d327eab5b5",
+        "reference_id": "ve__snli_ve_test_0018__target__003",
+        "role": "target",
+        "seed": 801117431590302353
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/004.png",
+        "index": 4,
+        "prompt": "Candid photo of a woman in a blue tank top holding a drill while looking down at a plank.",
+        "prompt_sha256": "0bc2d3e26558d7a0d34c91d9b84f0749f313875fe54859408dbd4067c2f6b8b6",
+        "reference_id": "ve__snli_ve_test_0018__target__004",
+        "role": "target",
+        "seed": 809211365174130974
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/005.png",
+        "index": 5,
+        "prompt": "A woman in a blue tank top holds a drill, with a red toolbox visible on the ground nearby.",
+        "prompt_sha256": "22b8af858c232a1ffedc3ea8f6d90f1795be31f8553e66d5b487c06358c45777",
+        "reference_id": "ve__snli_ve_test_0018__target__005",
+        "role": "target",
+        "seed": 260425911558329495
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/006.png",
+        "index": 6,
+        "prompt": "Side profile of a woman in a blue tank top holding a power drill outdoors.",
+        "prompt_sha256": "b15820635187400064a887d3ae6e148494b0b5e98af7c93bfff407fa18177325",
+        "reference_id": "ve__snli_ve_test_0018__target__006",
+        "role": "target",
+        "seed": 999099177605908974
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/007.png",
+        "index": 7,
+        "prompt": "A woman in a blue tank top holds a drill under bright midday sun in a park.",
+        "prompt_sha256": "597d093704cb4208e238114dbe1914b29aae5718312a6e213a8ca73bcf80c2f2",
+        "reference_id": "ve__snli_ve_test_0018__target__007",
+        "role": "target",
+        "seed": 826484362309123901
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/008.png",
+        "index": 8,
+        "prompt": "Close-up of a woman in a blue tank top holding a drill, with blurred trees in the background.",
+        "prompt_sha256": "d7ea73fb89b82f0399ee94cb236d76955cea520a917f2ce9779f0e6c3184cd16",
+        "reference_id": "ve__snli_ve_test_0018__target__008",
+        "role": "target",
+        "seed": 288470070856711975
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/009.png",
+        "index": 9,
+        "prompt": "A woman in a blue tank top holds a drill while working on a small wooden bench outside.",
+        "prompt_sha256": "2a16dfa7dc925394294ebe6a65df7d2e24d3ef2097a7dc7e4099c6b21a8e9529",
+        "reference_id": "ve__snli_ve_test_0018__target__009",
+        "role": "target",
+        "seed": 907431429035464034
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/010.png",
+        "index": 10,
+        "prompt": "Another woman in a blue tank top holds a drill, standing near a white picket fence.",
+        "prompt_sha256": "5bd4098142898bd131e566c5bb5e15218dcc067c1823f5fef9fb40ca21eb200f",
+        "reference_id": "ve__snli_ve_test_0018__target__010",
+        "role": "target",
+        "seed": 661535029289035371
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/011.png",
+        "index": 11,
+        "prompt": "A woman in a blue tank top holds a drill, leaning slightly forward in a driveway.",
+        "prompt_sha256": "7c6ebdad1377035848ed97b06d2137cbb3034cfd297a2105b432c9d600a7ef35",
+        "reference_id": "ve__snli_ve_test_0018__target__011",
+        "role": "target",
+        "seed": 34341648554218483
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/012.png",
+        "index": 12,
+        "prompt": "Medium shot of a woman in a blue tank top holding a drill, with a dog sitting nearby.",
+        "prompt_sha256": "de66b17cb5e60ed5d180c99e438b03f814f7139d837c17a70b0e343fab86c359",
+        "reference_id": "ve__snli_ve_test_0018__target__012",
+        "role": "target",
+        "seed": 458525229329167597
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/013.png",
+        "index": 13,
+        "prompt": "Wide shot of a woman in a blue tank top holding a drill in a spacious outdoor workshop area.",
+        "prompt_sha256": "07df60118fdca88382fe075402018ca677c7a42c9998d7e80b8af0f57150ac96",
+        "reference_id": "ve__snli_ve_test_0018__target__013",
+        "role": "target",
+        "seed": 100804370668597870
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/014.png",
+        "index": 14,
+        "prompt": "Candid moment of a woman in a blue tank top holding a drill, smiling at a helper off-camera.",
+        "prompt_sha256": "4cb243587da612f9bd360f1ee5aef888ec25230f237f313cb5ff3c19cd1d50ad",
+        "reference_id": "ve__snli_ve_test_0018__target__014",
+        "role": "target",
+        "seed": 236284094129798876
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/015.png",
+        "index": 15,
+        "prompt": "A woman in a blue tank top holds a drill, with a stack of lumber visible behind her.",
+        "prompt_sha256": "18475f55a3fa20d4a95e56a6d697ba3194b3d63d37f562b6bf506b68d10ae676",
+        "reference_id": "ve__snli_ve_test_0018__target__015",
+        "role": "target",
+        "seed": 1068361139255938868
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/016.png",
+        "index": 16,
+        "prompt": "Side view of a woman in a blue tank top holding a drill, standing on a concrete slab.",
+        "prompt_sha256": "c4f5b70ae09886a2d31c63159fe0fd22525cc27a1609ac81186454355b84ae33",
+        "reference_id": "ve__snli_ve_test_0018__target__016",
+        "role": "target",
+        "seed": 194645860928584471
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/017.png",
+        "index": 17,
+        "prompt": "A woman in a blue tank top holds a drill in the soft light of early morning.",
+        "prompt_sha256": "d6d2db5553b0a0af36b4df4b6c2783593c7dba042c8ce158b4590edf88738faa",
+        "reference_id": "ve__snli_ve_test_0018__target__017",
+        "role": "target",
+        "seed": 173979956303700836
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/018.png",
+        "index": 18,
+        "prompt": "Close-up of a woman in a blue tank top holding a drill, focusing on her hands and the tool.",
+        "prompt_sha256": "6399e9fcea3594494560ead06192520ef930d3a5d4102956468e0bc6c95db4de",
+        "reference_id": "ve__snli_ve_test_0018__target__018",
+        "role": "target",
+        "seed": 490758242093295216
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0018/target/019.png",
+        "index": 19,
+        "prompt": "A woman in a blue tank top holds a drill while standing next to a garden shed outdoors.",
+        "prompt_sha256": "b80c6ce386292810dd9856459d3e7989741e23c5877964d8b1447666982e74f1",
+        "reference_id": "ve__snli_ve_test_0018__target__019",
+        "role": "target",
+        "seed": 1040420870970734276
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1181708011.jpg",
+    "original_image_sha256": "2351824236230fbe27506016366c0679f3aebb8f5d3f9e9a993e282cfc848ba9",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "38c6599415377b85fb3686175c1c0358d5f7d82ca6ef8cfd8862a1bba5baa876",
+    "sample_id": "snli_ve_test_0018",
+    "shard": 18,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "A woman has a green tank top",
+      "premise_caption": "A woman in a green tank top looking at a drill while a crowd looks on.",
+      "source_label": "entailment",
+      "target_label": "contradiction"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0018__source__000": {
+      "job_sha256": "1c1715d1f23de465bbad227203a0cae12752e17db449cbf097a6f81c646b23e5",
+      "sha256": "802b511a98dc8e29cdfc8fc3192995a9039d5e029893c9c348099b39f02001d8",
+      "bytes": 153225,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:46.976022+00:00"
+    },
+    "ve__snli_ve_test_0018__source__001": {
+      "job_sha256": "2237209aa4b5d038a09e8124125cfb46faa2c2178d1d8049db0f7220fefc67aa",
+      "sha256": "b4bb29d6aebc3b2bd731e8354c196907e15df51c52cdfe21c1b2950578edc668",
+      "bytes": 146924,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.015605+00:00"
+    },
+    "ve__snli_ve_test_0018__source__002": {
+      "job_sha256": "2702ad33340b1e39a2a1b215637217d1dbf3f9c9c6c2a5614359d52dea67e36b",
+      "sha256": "bdd57bf0005230e9f234b7b5ec42265be1c4858e4b5f9fe7a152c2f07c9e4968",
+      "bytes": 155311,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.056771+00:00"
+    },
+    "ve__snli_ve_test_0018__source__003": {
+      "job_sha256": "4711a34cc10a5af671581cc4f9938db634294da641af813a604d34faec78119d",
+      "sha256": "e394b35189e542fcde9165cfcb3f1552a4ee446817267c4fd5d7d1b7a7345b1e",
+      "bytes": 196163,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.097132+00:00"
+    },
+    "ve__snli_ve_test_0018__source__004": {
+      "job_sha256": "1b71fbbdf4eb98319e5a0a23cebae12dd65b5236bc970a95881035f980ee3311",
+      "sha256": "9ff37ca670fe7257b21c73d99c4679d786da97fc1d459c15e4bcd113ceb0741e",
+      "bytes": 139042,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.139761+00:00"
+    },
+    "ve__snli_ve_test_0018__source__005": {
+      "job_sha256": "4117185000029147dbf77f11618dad0ee27fa8ff60b3f95ce12d0983bdd257bd",
+      "sha256": "2f8e15a645ce3e91d2b41034fff4a77052da77ecc561a0c3c3bc5c0a96444e1a",
+      "bytes": 138127,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.181165+00:00"
+    },
+    "ve__snli_ve_test_0018__source__006": {
+      "job_sha256": "584bd83626c532ada207e3588f775bd47dccb7f323ee6956e441e8818902ec1a",
+      "sha256": "3d2861280ece3596be9a5c437117393fdcbd148d41a9e87137872f6cf714e4a8",
+      "bytes": 146839,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.221502+00:00"
+    },
+    "ve__snli_ve_test_0018__source__007": {
+      "job_sha256": "5e54477ad8df4cc5c11064396db9e10efa64777173b5fcb79599b4238386a91c",
+      "sha256": "d0a7e7cf599785b5ba15c54f59bb059a7fd0749ecffa825cf82674d7285cd2a4",
+      "bytes": 154702,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.260676+00:00"
+    },
+    "ve__snli_ve_test_0018__source__008": {
+      "job_sha256": "c354aed5523be86e7c82b2cecd29ce2a2154ef2ccec0ac2c7547cd15ed3d78ed",
+      "sha256": "b2ddd6af1f28ad597a8e9858b6a08572be5540a2d716876772443b32b004c988",
+      "bytes": 145717,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.293954+00:00"
+    },
+    "ve__snli_ve_test_0018__source__009": {
+      "job_sha256": "f857922dba1bdcef2c18a109256220e680c147b3dcd41d741022cca2617ab74c",
+      "sha256": "8eae47d4e7774680a00fd2ab31897dbace772ad95d208169e1e42b35325ff7a8",
+      "bytes": 156096,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.333845+00:00"
+    },
+    "ve__snli_ve_test_0018__source__010": {
+      "job_sha256": "f155606b77f48bd8ce0b699beff1f0ff627634eee7257d1d6c9c042fb6262f2c",
+      "sha256": "30b05e5033069652dbcd6a4eb77a28207b15f18c56fe6a9da4858460c013d453",
+      "bytes": 147244,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.369687+00:00"
+    },
+    "ve__snli_ve_test_0018__source__011": {
+      "job_sha256": "11d0c73e9a57f90919620e0f7ba443581f5f46287413e23a8c7c0da165f6e4b9",
+      "sha256": "f468fb3caef4e0e2608892cbed2c16c5947ae12f5514f9dbf3e9244e6b6d7f07",
+      "bytes": 134166,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.413168+00:00"
+    },
+    "ve__snli_ve_test_0018__source__012": {
+      "job_sha256": "642830e612463b7570c635c0572514297d9a85612cb31ea10af1fe93d54f959d",
+      "sha256": "b4b69f0b99018fb6f6987c0f4db1fde433c726c58eff0193bb084fe3e49bbb9e",
+      "bytes": 122719,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.451076+00:00"
+    },
+    "ve__snli_ve_test_0018__source__013": {
+      "job_sha256": "f066964f12801022187132ca2b2824ab481ca5531e055437a521e40e831a2d3a",
+      "sha256": "d648eeb4c50ebd474b247120efa6741c6012b171d96375d55a11f2348868e139",
+      "bytes": 147194,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.489486+00:00"
+    },
+    "ve__snli_ve_test_0018__source__014": {
+      "job_sha256": "5e812321b5c365d7d182c8b2908a20608586afeeef7b54f1c7ee88fee52ed5de",
+      "sha256": "2c4a529c9e63421a71cd2a4d55487d49dd528160a68cbd6caa3823d4528f3010",
+      "bytes": 129870,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.525139+00:00"
+    },
+    "ve__snli_ve_test_0018__source__015": {
+      "job_sha256": "685435008042c5ce42fcca31676c569e961e0fd91eb6918d716ed65afac6e973",
+      "sha256": "6ba806a44632a1fdaf6d11f3d77418aaee5a02cf1db7fbe0508c8f8c7553c961",
+      "bytes": 158971,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.564820+00:00"
+    },
+    "ve__snli_ve_test_0018__source__016": {
+      "job_sha256": "70db3a51a9d65eb0f2a04fa818dc1a812aa877e78b0813b332b878f9f5276eec",
+      "sha256": "f20121feb07e2851a612532e2f7b0d0ab5bb278e8d92e86881e78a25560f643b",
+      "bytes": 71213,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.602137+00:00"
+    },
+    "ve__snli_ve_test_0018__source__017": {
+      "job_sha256": "5fe72beaefd564d5578d0919a50ed47074329be10d3d8d3e50d11c3b2884093f",
+      "sha256": "40f03a2faeae8630cec7c12c4e54e68e9f9c676c9a18f63bc117f249f236fb85",
+      "bytes": 117379,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.642444+00:00"
+    },
+    "ve__snli_ve_test_0018__source__018": {
+      "job_sha256": "d5f12d443bedd745edc908237ed14b1a0c876545666091b0a8aab70a4d1b20ef",
+      "sha256": "b9ce782289a4bb727e0a13030172685a31b3c7b7555714a0790dff0b00623e79",
+      "bytes": 148965,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.686360+00:00"
+    },
+    "ve__snli_ve_test_0018__source__019": {
+      "job_sha256": "28942c7c2022dae20da8d528de97ee8ec0fe10be54199956de25637f7f5e2f39",
+      "sha256": "db1fe656ee66586b487736801995454f9d4ded1def0b6f957c9d0bdbcfa4e0fc",
+      "bytes": 153739,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.728153+00:00"
+    },
+    "ve__snli_ve_test_0018__target__000": {
+      "job_sha256": "ec4acc6173f2a6a289318f3914d164a6e308e0c7d025b06058c1ff7db57f6ad7",
+      "sha256": "b2e6f06a47783dbceb1fb72c97b504452bd7e52ad26861e4fe29e9c67ff4509e",
+      "bytes": 163947,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.777069+00:00"
+    },
+    "ve__snli_ve_test_0018__target__001": {
+      "job_sha256": "2b184313b703ef66529e8e1e23ad77c8cc86f2cce3d641915eaa4309acfeea81",
+      "sha256": "387cd2b636cd31d11f574679a3ff00e738ea5976cdd39b0e21ec058a43f77e8b",
+      "bytes": 150679,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.840155+00:00"
+    },
+    "ve__snli_ve_test_0018__target__002": {
+      "job_sha256": "dc0be66e738f2071582f383f6037924452ff256515a917c8e848c702bc6e0532",
+      "sha256": "a2bf83b61c8bd62eeb71cd92cc1861b07fb024bce6920c80263e08de6f9c5b45",
+      "bytes": 158228,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.875250+00:00"
+    },
+    "ve__snli_ve_test_0018__target__003": {
+      "job_sha256": "517f1fee2d7f55ede3543bba773cd77cdc4b0d5934c57ab7f76a38614b7169f1",
+      "sha256": "447b6c111f762e8a2843d6cb7644fd10ff835784a1797ad1444d885bd764f7d9",
+      "bytes": 193604,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.922741+00:00"
+    },
+    "ve__snli_ve_test_0018__target__004": {
+      "job_sha256": "032b877fff591045c2b5e51c7bba7d2495e7ca96b0ccff79c2ae201269284427",
+      "sha256": "1a31200cda702026787816891179063deac35c93544f19e341f56ee6076b04f1",
+      "bytes": 146415,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:47.962484+00:00"
+    },
+    "ve__snli_ve_test_0018__target__005": {
+      "job_sha256": "ad5208d82866caa01f24bdc581d80e1a6c6a17aaf57862821d6ceda708662b93",
+      "sha256": "fae94e1c42756534e3049c4ccb3feb3e1b2ca146cb5a2467f70bb5679c7d0a5b",
+      "bytes": 136851,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.004612+00:00"
+    },
+    "ve__snli_ve_test_0018__target__006": {
+      "job_sha256": "ffea9ca965f11d8d48bea88e8f0bc6434c0cf5fb286185e01de3ef2b0ab30667",
+      "sha256": "5392e1a7394fc46071a73004b54d3a290ac3d6677405951e0b2b0319dbd0e07f",
+      "bytes": 138114,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.045646+00:00"
+    },
+    "ve__snli_ve_test_0018__target__007": {
+      "job_sha256": "9687514c90bb289e703bfede070f4bbfdfd27cc539f243eecd93501aec97556e",
+      "sha256": "e9f9842d1df3b4f72a2cdbe5bb3ef7c00e5e5b11b070890b26c53ab24f99edcf",
+      "bytes": 152137,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.082482+00:00"
+    },
+    "ve__snli_ve_test_0018__target__008": {
+      "job_sha256": "b1fcf928396acfebd2ad58a750cc7813e491a978bb3dafff61bcfe70146a1b16",
+      "sha256": "2630fd6f77b7ab18d560f47fd0ce4fb8c325026a150cac73cf47bf5537eefaf5",
+      "bytes": 150883,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.124400+00:00"
+    },
+    "ve__snli_ve_test_0018__target__009": {
+      "job_sha256": "17c2498a038e5606240bc5da328ea22e2c1aaa02a531c4541d84ae1da2c3deb3",
+      "sha256": "5bb1086127c2e019475bf3f3bd9ba5da09a3572edb468ce9488ea68017ff7be0",
+      "bytes": 153128,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.169006+00:00"
+    },
+    "ve__snli_ve_test_0018__target__010": {
+      "job_sha256": "20f672a137737b295432c839140bef0b0da3f03cd13a130809bb0fa16e14d2b5",
+      "sha256": "a0a22fac363143d4e95a5cae33f3115a27f3faaf7d138b933648abc6a07bebab",
+      "bytes": 143397,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.203934+00:00"
+    },
+    "ve__snli_ve_test_0018__target__011": {
+      "job_sha256": "507546978fd7d43360c2e910447728731acf8ada69b44b92981cce267f45a559",
+      "sha256": "36046c8572b68c7f08f01cc6b5a428e3f216199cde0e010ebb5d72e900dfa473",
+      "bytes": 146703,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.243802+00:00"
+    },
+    "ve__snli_ve_test_0018__target__012": {
+      "job_sha256": "ec0f6bef132a75f3882a5c8eea07c5e98868e370ddae7a2a287e71f62a6e5b5d",
+      "sha256": "778d5eb5c5743ea6f7155e0a3b87a2711b9000d89719b7c2b9379a1d2d7833bb",
+      "bytes": 130959,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.289977+00:00"
+    },
+    "ve__snli_ve_test_0018__target__013": {
+      "job_sha256": "f531c6b7a2b5404a4d7fe7aa4fad042dcb587766574879389a48ab0ca4d36522",
+      "sha256": "1e4a89b921e48461970f6ef3c94cb79b88163d74c7614e7615595fbe7c225f85",
+      "bytes": 149360,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.328739+00:00"
+    },
+    "ve__snli_ve_test_0018__target__014": {
+      "job_sha256": "dcf632c5bd290629d79d01f3251b4d6d5d3ef1b6f98008d6d6b44a1f93d09d64",
+      "sha256": "b646c59936dc87af2583cdae2a2462d381c8d8fdcd206a43f0679d01a0c85683",
+      "bytes": 125892,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.369350+00:00"
+    },
+    "ve__snli_ve_test_0018__target__015": {
+      "job_sha256": "b382239f7c6b3d830e859edf1289278466fa97879b80b8f432d8f59b35beb8cf",
+      "sha256": "529554a8ccdc0b206aed9fbc424cd54b4159510a9646d6225418c5f7a76d3f8f",
+      "bytes": 142768,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.410342+00:00"
+    },
+    "ve__snli_ve_test_0018__target__016": {
+      "job_sha256": "99b64432e2a3d7e8559a82a70013d1f7a2c48dc6c11c1d8df17c767335b38fab",
+      "sha256": "55ea1dcd4fc0494d645c322d9dc11d1464dc179d26f1f364155a78da50797b3a",
+      "bytes": 138933,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.449971+00:00"
+    },
+    "ve__snli_ve_test_0018__target__017": {
+      "job_sha256": "8cbcb6de73a9bce0bad858342a542b1e427a98e9e33d119cde4f183273288892",
+      "sha256": "37b234474acce70393ccdf1b798dadbd2c867e262296f2061cd59e266251d865",
+      "bytes": 119187,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.485889+00:00"
+    },
+    "ve__snli_ve_test_0018__target__018": {
+      "job_sha256": "12e1e9924510aab5c65dead2cf54ea8b87cc49e771daa8de81acb6a2a2363d2d",
+      "sha256": "f453e11ab0afb2ebf524902c7fc81f3d7a73c11d702b78372eb13633720ce055",
+      "bytes": 146504,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.527532+00:00"
+    },
+    "ve__snli_ve_test_0018__target__019": {
+      "job_sha256": "adadf58c7d083887165b05f71de322f4b319866ce159359fe3dd61ba91276137",
+      "sha256": "918218aa67e4a5cb1c0f1dfd8132facd1537f78b6e6220df45b2ba2f0cc0d9d1",
+      "bytes": 165251,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.550606962293386,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:54:48.565716+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:54:48.565736+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

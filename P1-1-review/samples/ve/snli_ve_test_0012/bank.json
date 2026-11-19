@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "972cde7ad9bf4c823fe6fef28664ddeab0896535f014b77709248cffdfbb2d9e",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "369c187ae6172575671a04c6c17f08b6c4a4c164dd39a6a485f3cdce9020a463",
+      "notes": "All source prompts show a brown dog running on sand, entailing that a dog is exercising; target prompts show the dog resting/sleeping, contradicting the activity. Clarified four source prompts that did not explicitly show running.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/000.png",
+        "index": 0,
+        "prompt": "A golden retriever running energetically across a sandy beach with waves in the background.",
+        "prompt_sha256": "2fd496408d4244fb63a6c5ec13b3b7c5645cd983785e86a43dd0d27558f47cb6",
+        "reference_id": "ve__snli_ve_test_0012__source__000",
+        "role": "source",
+        "seed": 291837911235928029
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/001.png",
+        "index": 1,
+        "prompt": "A brown labrador mid-stride on sand, captured from a low angle showing paws.",
+        "prompt_sha256": "3569c6911c65fc304a02a040e13de209a20c8e1ded90515e537271c2d71092b5",
+        "reference_id": "ve__snli_ve_test_0012__source__001",
+        "role": "source",
+        "seed": 727382330388566960
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a brown dog jogging on a sandy field with sparse grass.",
+        "prompt_sha256": "3fc6d343f84df94071c470f44e20ca2c3f038ed6aabbacde6f82a7b6bfd61a6c",
+        "reference_id": "ve__snli_ve_test_0012__source__002",
+        "role": "source",
+        "seed": 569436227447809238
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of a brown dog sprinting along a long stretch of sandy beach.",
+        "prompt_sha256": "d30c8e02b1ccf8c9e10a9da50bf3b2ef6a7c786e0e4644df73b63caa7d2e4837",
+        "reference_id": "ve__snli_ve_test_0012__source__003",
+        "role": "source",
+        "seed": 504077165594309328
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/004.png",
+        "index": 4,
+        "prompt": "A brown terrier runs after a stick across a sandy field during a game of fetch.",
+        "prompt_sha256": "41d4bd2a73c6982d53d6da200b52a8165b0a51a11d8d47650ab4c3dab6a67ab2",
+        "reference_id": "ve__snli_ve_test_0012__source__004",
+        "role": "source",
+        "seed": 629280275430232723
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/005.png",
+        "index": 5,
+        "prompt": "A brown dog running on sand with a red ball nearby in the foreground.",
+        "prompt_sha256": "1cbd4fdd2421ed242013edc9b6e56d9625af78c04162822ea5350c5409274c62",
+        "reference_id": "ve__snli_ve_test_0012__source__005",
+        "role": "source",
+        "seed": 23749275479348354
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/006.png",
+        "index": 6,
+        "prompt": "Side profile of a brown dog moving quickly across a sandy area.",
+        "prompt_sha256": "fa86a85baa4becce022c02c0e2035cacd3fc5f465035bcce8c3ea5380fd55360",
+        "reference_id": "ve__snli_ve_test_0012__source__006",
+        "role": "source",
+        "seed": 788519785801586207
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/007.png",
+        "index": 7,
+        "prompt": "A brown dog runs briskly across sand for exercise under bright midday sunlight.",
+        "prompt_sha256": "8cdfd35b9a349ab5bd657384dccbd76478e4aeba79b34334604a25fba13ea0e0",
+        "reference_id": "ve__snli_ve_test_0012__source__007",
+        "role": "source",
+        "seed": 516220021475784091
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/008.png",
+        "index": 8,
+        "prompt": "Close-up of a brown dog's head and shoulders while running on sand.",
+        "prompt_sha256": "6102eaa3a1a73c84f104c2178e3f89c640450d498e42d07313ccbaf5c38d61e0",
+        "reference_id": "ve__snli_ve_test_0012__source__008",
+        "role": "source",
+        "seed": 205268600427600223
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/009.png",
+        "index": 9,
+        "prompt": "Another brown dog trotting on a sandy path with trees in the distance.",
+        "prompt_sha256": "993bedd732d4eb986b270604d9f081bcb0f22f317b3e9d3611e28d226794ffd8",
+        "reference_id": "ve__snli_ve_test_0012__source__009",
+        "role": "source",
+        "seed": 1110122637823955371
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/010.png",
+        "index": 10,
+        "prompt": "A brown shepherd running energetically on a sandy beach with clear sky.",
+        "prompt_sha256": "9bc49c616506cc42059745f015f1aef353e513baa6ce538104cba5e153c5b01a",
+        "reference_id": "ve__snli_ve_test_0012__source__010",
+        "role": "source",
+        "seed": 827707896165025389
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/011.png",
+        "index": 11,
+        "prompt": "Low angle view of a brown dog leaping on sand during play.",
+        "prompt_sha256": "0514943b670b47c8167e046b742b0dbbe2f16e0847e37ef9ef83c2228ddaa55a",
+        "reference_id": "ve__snli_ve_test_0012__source__011",
+        "role": "source",
+        "seed": 970691002480334739
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/012.png",
+        "index": 12,
+        "prompt": "A medium shot of a brown dog running across a sandy field toward a toy.",
+        "prompt_sha256": "26c9c225d431483f52f1950a51c6fa47a26ed7026573de4fe2c5ce526caf6767",
+        "reference_id": "ve__snli_ve_test_0012__source__012",
+        "role": "source",
+        "seed": 220990286332215953
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/013.png",
+        "index": 13,
+        "prompt": "Wide composition of a brown dog running on a sandy field with hills.",
+        "prompt_sha256": "2ddf2d466dca63f8fc5d230f208a239f22fe7d4a4d6b14f7ec6d5ca2333f7582",
+        "reference_id": "ve__snli_ve_test_0012__source__013",
+        "role": "source",
+        "seed": 172796585299824467
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/014.png",
+        "index": 14,
+        "prompt": "Candid moment of a brown dog chasing a stick on sand.",
+        "prompt_sha256": "596867a6ab75986646904deb17dc61fcdfe2e0349383f524238d2ce18a1a9149",
+        "reference_id": "ve__snli_ve_test_0012__source__014",
+        "role": "source",
+        "seed": 534237711286283463
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/015.png",
+        "index": 15,
+        "prompt": "A brown dog running on sand with a blue collar visible.",
+        "prompt_sha256": "73b59f10f4830f83c452df33154903d4e66e306973d2ebf1f9567525ed58050c",
+        "reference_id": "ve__snli_ve_test_0012__source__015",
+        "role": "source",
+        "seed": 1111285122563547681
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/016.png",
+        "index": 16,
+        "prompt": "Side view of a brown dog moving across a sandy beach at dusk.",
+        "prompt_sha256": "e5b47a9491eba73e6a45e1ee2de6ebaa4d826c0ba8acbc176dc3b094ac5e37e2",
+        "reference_id": "ve__snli_ve_test_0012__source__016",
+        "role": "source",
+        "seed": 291704235759954477
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/017.png",
+        "index": 17,
+        "prompt": "A brown dog runs across the sand in soft morning light.",
+        "prompt_sha256": "7c50249c4727729b7af5876735977743a43cb93bef400ea19e80f0635c3f2862",
+        "reference_id": "ve__snli_ve_test_0012__source__017",
+        "role": "source",
+        "seed": 994255988802195684
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/018.png",
+        "index": 18,
+        "prompt": "Distant view of a brown dog running on a vast sandy beach.",
+        "prompt_sha256": "49b4fc4da5e8b55d05e7ab1f770534f83a8c4f003eaf985c06e1fa2fb11f5ee1",
+        "reference_id": "ve__snli_ve_test_0012__source__018",
+        "role": "source",
+        "seed": 374029992054976252
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/source/019.png",
+        "index": 19,
+        "prompt": "A brown dog playing on a sandy field with a frisbee in the air.",
+        "prompt_sha256": "766ae0de8cd7f71c15a85b0340d21b8e1dcd7cf5076a02badd54b5527c77f867",
+        "reference_id": "ve__snli_ve_test_0012__source__019",
+        "role": "source",
+        "seed": 454563604850907627
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/000.png",
+        "index": 0,
+        "prompt": "A golden retriever lying flat on its side on a sandy beach, eyes closed in deep sleep with waves in the background.",
+        "prompt_sha256": "f26a8865de2026fb14d6917fb4619823e706f65b3be932551f96aaccf66050b4",
+        "reference_id": "ve__snli_ve_test_0012__target__000",
+        "role": "target",
+        "seed": 991919822475529808
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/001.png",
+        "index": 1,
+        "prompt": "A brown labrador resting on its belly on sand, captured from a low angle showing its paws tucked under.",
+        "prompt_sha256": "58d48536881ef7a33b319960551fc2d43e0a725939546ef77a73f3e12f64e8a8",
+        "reference_id": "ve__snli_ve_test_0012__target__001",
+        "role": "target",
+        "seed": 791431309038371762
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a brown dog lying still on a sandy field with sparse grass, head resting on the ground.",
+        "prompt_sha256": "86a378ac62f79395bfd52c3d694a877427c99867508890a3825e3842bdc4aae2",
+        "reference_id": "ve__snli_ve_test_0012__target__002",
+        "role": "target",
+        "seed": 704193266399361104
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/003.png",
+        "index": 3,
+        "prompt": "Wide view of a brown dog sleeping on a long stretch of sandy beach, body stretched out on the warm sand.",
+        "prompt_sha256": "15e36dcd5ebf36ca03f3ec16d0e9d7fd2db2698f3db27b8d6ec95b59f59ea0fe",
+        "reference_id": "ve__snli_ve_test_0012__target__003",
+        "role": "target",
+        "seed": 1061751761315242974
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/004.png",
+        "index": 4,
+        "prompt": "Candid shot of a brown terrier curled up on a sandy field, resting quietly with a ball nearby.",
+        "prompt_sha256": "710f8a2da46b25c2c1af6c39413109e4569ffb6864c2df2754f73da20553f385",
+        "reference_id": "ve__snli_ve_test_0012__target__004",
+        "role": "target",
+        "seed": 324510860831373422
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/005.png",
+        "index": 5,
+        "prompt": "A brown dog lying on sand with a red ball nearby in the foreground, appearing relaxed and still.",
+        "prompt_sha256": "c9afbdd89af41914e4bcb46834321bd825c06f551321ef83589587075e5a4d2d",
+        "reference_id": "ve__snli_ve_test_0012__target__005",
+        "role": "target",
+        "seed": 603814372174727930
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/006.png",
+        "index": 6,
+        "prompt": "Side profile of a brown dog lying motionless on a sandy area, body parallel to the ground.",
+        "prompt_sha256": "c8a7f50411267e7cae7f497065f6058a5571e34b9224757e9537f6d87458347f",
+        "reference_id": "ve__snli_ve_test_0012__target__006",
+        "role": "target",
+        "seed": 1043691883639429806
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/007.png",
+        "index": 7,
+        "prompt": "A brown dog resting on sand under bright midday sunlight, eyes closed and body still.",
+        "prompt_sha256": "64b715bec213cf066596fde914788b62a4e58c9f8941acf39668ec5dc04f47f1",
+        "reference_id": "ve__snli_ve_test_0012__target__007",
+        "role": "target",
+        "seed": 515693795295930560
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/008.png",
+        "index": 8,
+        "prompt": "Close-up of a brown dog's head and shoulders lying on sand, eyes shut in a peaceful sleep.",
+        "prompt_sha256": "c98a8d65369280a69a80da765e3b6fe30f5f5890263ebc9f74c62b582c27da95",
+        "reference_id": "ve__snli_ve_test_0012__target__008",
+        "role": "target",
+        "seed": 1115616678552218575
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/009.png",
+        "index": 9,
+        "prompt": "Another brown dog lying down on a sandy path with trees in the distance, appearing calm and stationary.",
+        "prompt_sha256": "f9814253865709bdc5a355b4c755c6c692cba7808d646a454955aeb18f6e6505",
+        "reference_id": "ve__snli_ve_test_0012__target__009",
+        "role": "target",
+        "seed": 716090847182490785
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/010.png",
+        "index": 10,
+        "prompt": "A brown shepherd resting on a sandy beach with clear sky, body flat on the ground and still.",
+        "prompt_sha256": "f67db5b6430df8e44bc5e7a82d130e703a836556f25c60684b9fa6930ad6d87e",
+        "reference_id": "ve__snli_ve_test_0012__target__010",
+        "role": "target",
+        "seed": 927895992157961932
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/011.png",
+        "index": 11,
+        "prompt": "Low angle view of a brown dog lying on sand, paws extended forward in a relaxed resting pose.",
+        "prompt_sha256": "17f8ba4fe79632261d8d1afb7ff708dd2a789f56b5151d5daf9471f1dcf41ed5",
+        "reference_id": "ve__snli_ve_test_0012__target__011",
+        "role": "target",
+        "seed": 648329050047917780
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/012.png",
+        "index": 12,
+        "prompt": "Medium shot of a brown dog and a toy on a sandy field, with the dog lying next to the toy.",
+        "prompt_sha256": "b51b789d67ef5e40821bf695978ff46a369ea6868681655c7ea5394d46df2362",
+        "reference_id": "ve__snli_ve_test_0012__target__012",
+        "role": "target",
+        "seed": 637073930261737350
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/013.png",
+        "index": 13,
+        "prompt": "Wide composition of a brown dog sleeping on a sandy field with hills in the background, body still.",
+        "prompt_sha256": "4b01645fa4641c906f189e2d7a9f6473e2a736c418b8cf62b7bd17a6c0fc8bca",
+        "reference_id": "ve__snli_ve_test_0012__target__013",
+        "role": "target",
+        "seed": 1135458086575618835
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/014.png",
+        "index": 14,
+        "prompt": "Candid moment of a brown dog lying on sand next to a stick, resting peacefully.",
+        "prompt_sha256": "33e4660509622941dff398d8e31bb0b316346d71732d4ce219f0fd9c5dc10c11",
+        "reference_id": "ve__snli_ve_test_0012__target__014",
+        "role": "target",
+        "seed": 126317608030940928
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/015.png",
+        "index": 15,
+        "prompt": "A brown dog lying on sand with a blue collar visible, body still and eyes closed.",
+        "prompt_sha256": "633c551427dc9782afc2c420c2bfbe89231d084e54e0cdae82e87c91b220c7db",
+        "reference_id": "ve__snli_ve_test_0012__target__015",
+        "role": "target",
+        "seed": 696437932199765655
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/016.png",
+        "index": 16,
+        "prompt": "Side view of a brown dog resting on a sandy beach at dusk, body flat on the ground.",
+        "prompt_sha256": "90114f7cf0ea332093a4ca1a7cbdd89f5a072db2a4e7847ea288f4d8aa22cba3",
+        "reference_id": "ve__snli_ve_test_0012__target__016",
+        "role": "target",
+        "seed": 611058614285220937
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/017.png",
+        "index": 17,
+        "prompt": "A brown dog lying on sand with soft morning light, appearing calm and stationary.",
+        "prompt_sha256": "3dd3cf816fd4bf2518ac52176ab27cecd808ac243c5db111026a0c777dc666e8",
+        "reference_id": "ve__snli_ve_test_0012__target__017",
+        "role": "target",
+        "seed": 846237093246444868
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/018.png",
+        "index": 18,
+        "prompt": "Distant view of a brown dog sleeping on a vast sandy beach, a small still figure on the sand.",
+        "prompt_sha256": "001ed4be1095423b1da4363547e81c0447acedef849f28ff533f42c7f185e797",
+        "reference_id": "ve__snli_ve_test_0012__target__018",
+        "role": "target",
+        "seed": 789970237812423617
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0012/target/019.png",
+        "index": 19,
+        "prompt": "A brown dog lying on a sandy field with a frisbee on the ground nearby, resting quietly.",
+        "prompt_sha256": "2ccbe02ecdbe5608639699aeaf5704610645c673b5abb80aef0c01028de61933",
+        "reference_id": "ve__snli_ve_test_0012__target__019",
+        "role": "target",
+        "seed": 532833936347949269
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1117972841.jpg",
+    "original_image_sha256": "3f5bdf3722bee69dd42b824653af32de819ae478354dd4220eed0f4cb4626b33",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "972cde7ad9bf4c823fe6fef28664ddeab0896535f014b77709248cffdfbb2d9e",
+    "sample_id": "snli_ve_test_0012",
+    "shard": 12,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "A dog is exercising.",
+      "premise_caption": "A brown dog is running in the sand.",
+      "source_label": "entailment",
+      "target_label": "contradiction"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0012__source__000": {
+      "job_sha256": "0b3124deec435d1eff4f7a1e685a69bf88f65fafbb479427951217577ec0da11",
+      "sha256": "0709b87b10670a10ede2a61e2c07b7f38719f87f9332ccab3260124484c5cbf7",
+      "bytes": 136353,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:36.673302+00:00"
+    },
+    "ve__snli_ve_test_0012__source__001": {
+      "job_sha256": "1e40b0e637520f14479926f82c2e520d8b381c0f29d83e7670b4c8e003d58eda",
+      "sha256": "d4cf367467e53db697aa6606adb0695950939aa285e35b16a1f9bf7d59779505",
+      "bytes": 140420,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:36.717768+00:00"
+    },
+    "ve__snli_ve_test_0012__source__002": {
+      "job_sha256": "174c62597c11ff2a58b60216d23c17b5b7f8d892e9a010656b0f3cb079420369",
+      "sha256": "df7e836135322eee6cdfbc8a1b45cf60d87ee224b1cea7da66275f0b4dd030fb",
+      "bytes": 150089,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:36.761522+00:00"
+    },
+    "ve__snli_ve_test_0012__source__003": {
+      "job_sha256": "a70fe65edce86c0b632f1f25c25768d17fbf99745225bbbca784516b78a0aa0e",
+      "sha256": "08a96f5542272bba72378c62e6ffd007cbcfc1e8ed2d592e6fa3ce7ee9d5cbe2",
+      "bytes": 116654,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:36.799197+00:00"
+    },
+    "ve__snli_ve_test_0012__source__004": {
+      "job_sha256": "f4553c91fb6feb3c2834ee1ca31b2f6d8749a2d5f0ef912959c05bb392c97618",
+      "sha256": "9950bddbb3dbdaa135eab53350ea0429f5cc01a3e756fa8a86f60153dcbae062",
+      "bytes": 144612,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:36.841256+00:00"
+    },
+    "ve__snli_ve_test_0012__source__005": {
+      "job_sha256": "7646595e4200afb68a924dbf6b7322fa916417379ed4e3d1cf299848dcf6e10f",
+      "sha256": "debc0c1b49e8099b4ca2ca96edcbfa2d33f2ec02ba164f1f520f95de9702afdc",
+      "bytes": 146908,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:36.885936+00:00"
+    },
+    "ve__snli_ve_test_0012__source__006": {
+      "job_sha256": "0d8bb565ac0ac2b994de2f33ced40173589f02115d72853d3928944fb69ad698",
+      "sha256": "7ee9e1ed19ea4e17940917946cb6af4c378a1c2a9baae1a6a4a270a09f647977",
+      "bytes": 157592,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:36.928361+00:00"
+    },
+    "ve__snli_ve_test_0012__source__007": {
+      "job_sha256": "dc519868a5ca508c609320d75a52d05a2447b3e066eb6277a5f4bb0302331654",
+      "sha256": "5985c7c2a1bd30877c5b684a5ba45266612ef436bcf62caf704c8ab746e1cdfb",
+      "bytes": 145056,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:36.969596+00:00"
+    },
+    "ve__snli_ve_test_0012__source__008": {
+      "job_sha256": "eb343aa5888671ee3e0d37e3191fe42e70e359c062994cab91d3e740151b4d36",
+      "sha256": "f71f1f01d329df454cedeb8b303cb1bb11c30411eb4f02aa228224e5bb5d2278",
+      "bytes": 134968,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.014219+00:00"
+    },
+    "ve__snli_ve_test_0012__source__009": {
+      "job_sha256": "d644291188ccaeb6a1146161ca5325ae6ddb589351d72e240f34d8386d943a48",
+      "sha256": "202c1e37ec75fcfef628b397361ff142b5e306595acf85155ce9da93ba7cf732",
+      "bytes": 153069,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.058007+00:00"
+    },
+    "ve__snli_ve_test_0012__source__010": {
+      "job_sha256": "ce1c1bb18030d93cd0deb3e8382970a4e447ff3b4913c092aea3c15bcf9cc1f7",
+      "sha256": "a79558c74af986682d3aa8d61e31c52c295558e0a4ed3096119af9182b32b9cd",
+      "bytes": 126872,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.099396+00:00"
+    },
+    "ve__snli_ve_test_0012__source__011": {
+      "job_sha256": "6155b185a9282769c7b0699a0dab7543186a66ba62110bab05972e0cd5d3ad02",
+      "sha256": "c44527a0ff04988adba549939cf846d21904e5b019ab9928e32a63790ae5d8d0",
+      "bytes": 136791,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.144731+00:00"
+    },
+    "ve__snli_ve_test_0012__source__012": {
+      "job_sha256": "b1da31475ea652051e44d6a452fbe8c04ed256138345e341e3e5b547deaf9e6a",
+      "sha256": "40d1494bccc8cece004ea6fbd8e034725850ebcf8430adb4379a5b85ccd77c15",
+      "bytes": 149115,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.187242+00:00"
+    },
+    "ve__snli_ve_test_0012__source__013": {
+      "job_sha256": "477aa3a0254428c1e64f4d23d94d0f78e4e05a71a8deb6106b28734cb8d3c03c",
+      "sha256": "2a59b75585cc45a08d745123607d5bafa2b81ff1f2928377dd66f928916352a2",
+      "bytes": 128702,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.227265+00:00"
+    },
+    "ve__snli_ve_test_0012__source__014": {
+      "job_sha256": "dfd84f273ff82c62d3469d00446ebeeddba660cc1ccc17065c4cb62ffb437467",
+      "sha256": "e49d29418f9b83a3f97fa7de7d5bd6f44d154ab788d8bfec85b790376c71e41d",
+      "bytes": 134610,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.265774+00:00"
+    },
+    "ve__snli_ve_test_0012__source__015": {
+      "job_sha256": "802824fa3c3e4fad6b11aeac739228b98cffdfa5efc4058b3eaeb7ee16cb4798",
+      "sha256": "bf9eaaef8aae7228c65cb0330b9ec6f7817ae85248bf16eeee63ccae437b9564",
+      "bytes": 133125,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.307345+00:00"
+    },
+    "ve__snli_ve_test_0012__source__016": {
+      "job_sha256": "f3ba6d7fb3c44356667d50bdcdbeb8c9390d24ef8545b83589287c2f522b1268",
+      "sha256": "8243d8c0018a597e292d46231f0d5750651634b846a747e17bd163d79a4367c7",
+      "bytes": 117923,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.345183+00:00"
+    },
+    "ve__snli_ve_test_0012__source__017": {
+      "job_sha256": "046d5a9f7fcbd5e57d5b4a9cebcbaf4e4067100860e33ce85015eee4fb00cde9",
+      "sha256": "357f2802057c6ffe0559429b8e505700ea8b49d31fd94050dacde1d8e916d4eb",
+      "bytes": 121212,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.390753+00:00"
+    },
+    "ve__snli_ve_test_0012__source__018": {
+      "job_sha256": "7bb01768175c84e4e6a3b13225d186b5b8a400b86fbf8f48ade74eef2b45f5e1",
+      "sha256": "ec551ae410e15537b6ac7be497651e09fa936ef6efbed60af4d5902e67e5ad35",
+      "bytes": 112383,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.438247+00:00"
+    },
+    "ve__snli_ve_test_0012__source__019": {
+      "job_sha256": "164e0c2fcbcc802b2647f6995ab045e642a38745002f9d3de94115970e60c3f4",
+      "sha256": "052e34378075e59874163f7a1cbdc2385ec5a8282b769df987d6f412930b3455",
+      "bytes": 144954,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.480937+00:00"
+    },
+    "ve__snli_ve_test_0012__target__000": {
+      "job_sha256": "3df387cf255e908674b11175c19b512c1e85778ae573ec4f51c7977694d3a8a8",
+      "sha256": "9b6de26d99990a16a19b2d58f04825a9ee602ae0fd6a13e4959ced43d9b5271f",
+      "bytes": 127610,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.528970+00:00"
+    },
+    "ve__snli_ve_test_0012__target__001": {
+      "job_sha256": "120e335ade23b0127145065147eec6ca19b934fa88927a4875b71892ab5ce67d",
+      "sha256": "488082b8a48617774a96c1420df6e8468082c32ec784d887a5b01bdc48cb45d0",
+      "bytes": 145310,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.583262+00:00"
+    },
+    "ve__snli_ve_test_0012__target__002": {
+      "job_sha256": "b4525352749837e10cdd8b8c30b090423c4eb13e832140808e715732d4f44245",
+      "sha256": "d446fcb64f2fce195af43d9df425bb9c07d98a55afd32c694dcb0022c4812fb0",
+      "bytes": 166590,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.626896+00:00"
+    },
+    "ve__snli_ve_test_0012__target__003": {
+      "job_sha256": "eccc6ce811d6297e14da64c477cb3b1b1e6b4c841e2d1d3192e8652f238df46d",
+      "sha256": "78ffa23a162eaee0d7dc9b713f9c1511b2c618ebe47d455d003a052e77d0f4ab",
+      "bytes": 142844,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.673979+00:00"
+    },
+    "ve__snli_ve_test_0012__target__004": {
+      "job_sha256": "f04f767335c429b488efd5c284b748d559dd20d63f0c285701c71806579de5a8",
+      "sha256": "6b979511fc0ed8969345cc68f4003e7906852b625de56b6db0db886ac8c016a2",
+      "bytes": 162884,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.718455+00:00"
+    },
+    "ve__snli_ve_test_0012__target__005": {
+      "job_sha256": "6bf53c14910143cc7275133bf464a2b9832122507960a20a0a6b36be838c03e1",
+      "sha256": "fb4b530fb718a27645f627f2fe9c05df7cb7c944b98be8e65693d4ed57510d0f",
+      "bytes": 152554,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.760097+00:00"
+    },
+    "ve__snli_ve_test_0012__target__006": {
+      "job_sha256": "9d09a010ef642591fce3dac2b0bf6ae838893e173ed5c572e0c72ffb2526e824",
+      "sha256": "b174bc014eaa95af12b78abacab0c45deef99db2ef6144a3f5ad1dfd4a62fa88",
+      "bytes": 140469,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.801530+00:00"
+    },
+    "ve__snli_ve_test_0012__target__007": {
+      "job_sha256": "4e1d127fa113fc6ddc89aa66b0762742dc8651d62205184294e3001e55b635ac",
+      "sha256": "e9db4c2172f36a1f8f63fca658376c781ef3a5dcbb60def260759b2f9adef3ad",
+      "bytes": 149145,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.841919+00:00"
+    },
+    "ve__snli_ve_test_0012__target__008": {
+      "job_sha256": "5ff2b645ef780adf695ab1644a1e8bef44c9c64baf2ee803143299783276bf24",
+      "sha256": "214e969e61f64d895869a2242577823a7b55f2c86758a88b9e5bdf70398d5463",
+      "bytes": 166774,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.890172+00:00"
+    },
+    "ve__snli_ve_test_0012__target__009": {
+      "job_sha256": "87ac4dd6f68fad52ce9831afaeba9d679710508d92883768a4ea166920e51fec",
+      "sha256": "2e9164ac7324eea4445c8a27af8468270bd701c05466f2ab59affbd9ff715c45",
+      "bytes": 135742,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.930370+00:00"
+    },
+    "ve__snli_ve_test_0012__target__010": {
+      "job_sha256": "bd56e70d9ce2366810133e065a28a8e35e6faaeba438fa42511a3608b17dbd6e",
+      "sha256": "d80e9efff6d918b28713e832e6d8563bfff330858b238ace1005e3d57855a080",
+      "bytes": 108390,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:37.970027+00:00"
+    },
+    "ve__snli_ve_test_0012__target__011": {
+      "job_sha256": "b5693b4b54b3056ce83d589772f0181bfe14b35d6597fb558b49427aff4102a7",
+      "sha256": "4e2f83784d267e7b9ab868307882dfd3978ca84e2c7d511a0e4e379776b7ade4",
+      "bytes": 145472,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:38.012299+00:00"
+    },
+    "ve__snli_ve_test_0012__target__012": {
+      "job_sha256": "484548d8deb65d3af6a30234e4523914e94083f6e9a02f1bb3567513db9c7f1b",
+      "sha256": "19bb6b38f94fc4f0c28712a7469778f45154d168519df6abb9595f10ce3792dd",
+      "bytes": 160301,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:38.054348+00:00"
+    },
+    "ve__snli_ve_test_0012__target__013": {
+      "job_sha256": "75acd697f30c74c1b1b859e6453ee4ec797c9ab42fa62bfae4a4187305a4cd5c",
+      "sha256": "d7d6d918b8ee444551ed6bee6ac6313ca235efd5f425290486049243c36de335",
+      "bytes": 140188,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:38.095610+00:00"
+    },
+    "ve__snli_ve_test_0012__target__014": {
+      "job_sha256": "bf53fb2660d4fc3eb6bebc60af76ef6965ae3e80978ba989f62db5e3804a4503",
+      "sha256": "7b695a159c25d0607ed24bc19fbea0a1792ab140cb6e44ab86ac4e9df424d855",
+      "bytes": 146453,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:38.134652+00:00"
+    },
+    "ve__snli_ve_test_0012__target__015": {
+      "job_sha256": "a0ba4bc49672d2be9392f69b72b8fb0e101d529f76ba7b858fc2c170c8d6c257",
+      "sha256": "6832a478444f639e31454314244587ca94b8123ebfda8225e097382f7b4f354e",
+      "bytes": 159071,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:38.171804+00:00"
+    },
+    "ve__snli_ve_test_0012__target__016": {
+      "job_sha256": "0e93e3bbfb36006942009d323d17ca2e325f4813ba0ca5b87d43a2f9370ca670",
+      "sha256": "538faa39dae1f4659f47d5f491f9bce3cdf173d776e0a23f6558a3fbcdc3d2fb",
+      "bytes": 114686,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:38.215010+00:00"
+    },
+    "ve__snli_ve_test_0012__target__017": {
+      "job_sha256": "f177d1fc868cab05fbaa041102777d8914a9fd6b334458d5977bca09e1d93cc7",
+      "sha256": "da42522c215712e1de2f003a1e439b454a42e4a377e254a129083701f6657e58",
+      "bytes": 149620,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:38.258880+00:00"
+    },
+    "ve__snli_ve_test_0012__target__018": {
+      "job_sha256": "06f1729e16d32f04beea6ba09ea999331d599619cf95186f944276efbcb55910",
+      "sha256": "519154bd4a723666af2a7cdd1650e111633de621dfa042e4b145a58f2c531a72",
+      "bytes": 133294,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:38.295270+00:00"
+    },
+    "ve__snli_ve_test_0012__target__019": {
+      "job_sha256": "4fdf86c2c91c97e3b2661fb4bbfc6c7cacd8d7392038535dea93692736abaffa",
+      "sha256": "100c8f7d61493d36de99c3b5556711068c56343ef43c8a58d7f8bd0c7f109265",
+      "bytes": 158186,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.01765018608421,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:39:38.334755+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:39:38.334773+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

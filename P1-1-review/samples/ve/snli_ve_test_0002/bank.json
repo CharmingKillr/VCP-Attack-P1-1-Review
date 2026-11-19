@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "80e371501266d42c2f0b3a300fb6f7cfd174973da85d592b0036038182c6b5c4",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "7d5751c042ebf81e0ebea9c22f30048e333bf4d53aa5be551a465096570cb7ac",
+      "notes": "The original source and target banks both mostly depicted adults sitting on benches; several explicitly placed them in gardens, so they did not reliably distinguish contradiction from neutral for “A child is playing in a garden.” Replaced both banks: source depicts the premise-like indoor adult couple by a window with passing cars (no garden/child); target depicts a child in a garden but leaves play status genuinely unspecified. Read all 40 revised prompts.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/000.png",
+        "index": 0,
+        "prompt": "A woman and a man sit inside a cafe beside a broad glass window as cars pass along the street outside; only the two adults are in view.",
+        "prompt_sha256": "fee6715a3690a316754889bdec6fc00c77f41b8a59f42e19439820b12514683f",
+        "reference_id": "ve__snli_ve_test_0002__source__000",
+        "role": "source",
+        "seed": 447847856004386790
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/001.png",
+        "index": 1,
+        "prompt": "A seated adult couple faces a large storefront window while traffic moves past outdoors; the scene is indoors, not a garden.",
+        "prompt_sha256": "263497fcbbe283030bd3c333d95e64d35f3639ed84d6a42e82e634ba9f1828c4",
+        "reference_id": "ve__snli_ve_test_0002__source__001",
+        "role": "source",
+        "seed": 262416777699767677
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/002.png",
+        "index": 2,
+        "prompt": "A woman and man sit together at a table near a glass office window, with passing cars visible beyond the glass.",
+        "prompt_sha256": "26da84333495f29b6ddab5cda0f1c1793e6388c62256ec9ef9cd24b5b6c7a59c",
+        "reference_id": "ve__snli_ve_test_0002__source__002",
+        "role": "source",
+        "seed": 797367739116167914
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/003.png",
+        "index": 3,
+        "prompt": "Two adults sit side by side in a room with a floor-to-ceiling window; cars travel along the road outside.",
+        "prompt_sha256": "8617c2c3ddc83f841f200ba5c9f3ecc8ed987113fe4097c03dfbb4cd38b4e578",
+        "reference_id": "ve__snli_ve_test_0002__source__003",
+        "role": "source",
+        "seed": 730563331954876241
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/004.png",
+        "index": 4,
+        "prompt": "A couple sits in a quiet indoor waiting area by a glass window while vehicles pass on the street.",
+        "prompt_sha256": "d031606fc0692d54132fcb4ffe4082d04826b33294dd68181463e030b8a91c35",
+        "reference_id": "ve__snli_ve_test_0002__source__004",
+        "role": "source",
+        "seed": 844066525247373378
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/005.png",
+        "index": 5,
+        "prompt": "A man and woman sit together in front of a cafe window overlooking moving city traffic.",
+        "prompt_sha256": "15346361f0081ff5f00bf936cbec4fdb08082b3679249f8f4cca0b5dc5c8a58f",
+        "reference_id": "ve__snli_ve_test_0002__source__005",
+        "role": "source",
+        "seed": 659728242625454777
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/006.png",
+        "index": 6,
+        "prompt": "Inside a building, two adults sit on chairs near a wide glass window with cars passing outside.",
+        "prompt_sha256": "35770ceab4891ff43108c1f2c9b573beb56883982c21841f8457bdf3da43095e",
+        "reference_id": "ve__snli_ve_test_0002__source__006",
+        "role": "source",
+        "seed": 93349729272984191
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/007.png",
+        "index": 7,
+        "prompt": "A seated couple looks through a large apartment window as cars drive along the road below.",
+        "prompt_sha256": "b2501ff9adef7710435251d07744763e496aaabd61b6be76cbcb2e49af0f8408",
+        "reference_id": "ve__snli_ve_test_0002__source__007",
+        "role": "source",
+        "seed": 884801309215232154
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/008.png",
+        "index": 8,
+        "prompt": "A woman and a man sit together in a room beside a glass wall; moving cars are visible outside.",
+        "prompt_sha256": "2b1b9903e83fe85eaf9a06e20ce829696fbdc2fe2af9166d7d766e27f969bb17",
+        "reference_id": "ve__snli_ve_test_0002__source__008",
+        "role": "source",
+        "seed": 836644795462480820
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/009.png",
+        "index": 9,
+        "prompt": "Two adults sit at a restaurant window while traffic passes along the street beyond the glass.",
+        "prompt_sha256": "0716cd53424e522e7de4a40db9af514d1ebbb8fce728a3a67433be6784b11603",
+        "reference_id": "ve__snli_ve_test_0002__source__009",
+        "role": "source",
+        "seed": 858942801702946313
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/010.png",
+        "index": 10,
+        "prompt": "A couple sits indoors near a window overlooking a busy road with several passing cars.",
+        "prompt_sha256": "9a785be49e25b75990a8a09fbfd679e6bf3e86e40ca63c16b58386f1889311a5",
+        "reference_id": "ve__snli_ve_test_0002__source__010",
+        "role": "source",
+        "seed": 65364621488055294
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/011.png",
+        "index": 11,
+        "prompt": "A woman and man sit on a bench inside a station lounge, with a glass window showing cars passing outside.",
+        "prompt_sha256": "7df551f799b4efd155597d037c7f803027583f701d2e51ddcf7e7749bed7cad5",
+        "reference_id": "ve__snli_ve_test_0002__source__011",
+        "role": "source",
+        "seed": 316546039821831575
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/012.png",
+        "index": 12,
+        "prompt": "Two seated adults talk in front of a wide window; the view beyond it shows cars on a street.",
+        "prompt_sha256": "765ddae6e7e05a3d4000bbbc64a22e60fedde872557fea3b414675a571b1bef8",
+        "reference_id": "ve__snli_ve_test_0002__source__012",
+        "role": "source",
+        "seed": 99146256378016946
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/013.png",
+        "index": 13,
+        "prompt": "A man and woman sit together in a room with a glass storefront window and passing vehicles outside.",
+        "prompt_sha256": "8a999ad7af37404f9dea285ba6bbb835e40f02988e41968942494d1c9eb43bed",
+        "reference_id": "ve__snli_ve_test_0002__source__013",
+        "role": "source",
+        "seed": 175910948463609673
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/014.png",
+        "index": 14,
+        "prompt": "An adult couple sits near a large window inside a building as cars move past outdoors.",
+        "prompt_sha256": "b2c7a1fd8bcb5ff6158e245803cb79371be6023663cf2adbd99c7c93ce13e267",
+        "reference_id": "ve__snli_ve_test_0002__source__014",
+        "role": "source",
+        "seed": 532365141495833866
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/015.png",
+        "index": 15,
+        "prompt": "A woman and a man sit side by side in an indoor cafe; through the glass, cars pass on the road.",
+        "prompt_sha256": "501b4f1d5f6f4e27db6abf9b25421408078bec5c791085f220b58c9312022373",
+        "reference_id": "ve__snli_ve_test_0002__source__015",
+        "role": "source",
+        "seed": 325431745106289140
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/016.png",
+        "index": 16,
+        "prompt": "Two adults sit by a window in a public waiting room, with traffic visible through the glass.",
+        "prompt_sha256": "2f76c0eda4d4bc1910336e8d34ad0125e1342a5cd99a0b3e79a875573bf7b53f",
+        "reference_id": "ve__snli_ve_test_0002__source__016",
+        "role": "source",
+        "seed": 322239299991151507
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/017.png",
+        "index": 17,
+        "prompt": "A couple sits indoors in front of a broad window while cars pass through the background street scene.",
+        "prompt_sha256": "a30812199e0436019b926153ca369d07923ba9660378190f56e7106f5ec3411c",
+        "reference_id": "ve__snli_ve_test_0002__source__017",
+        "role": "source",
+        "seed": 1062055315869823308
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/018.png",
+        "index": 18,
+        "prompt": "A seated woman and man are framed against a glass window with moving cars outside; no garden setting is shown.",
+        "prompt_sha256": "b9188bd2cff523dfe662d9335fb3ada436afbe0421dca0e8cba7e323c18a90dc",
+        "reference_id": "ve__snli_ve_test_0002__source__018",
+        "role": "source",
+        "seed": 394657648605597065
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/source/019.png",
+        "index": 19,
+        "prompt": "Inside a modern room, two adults sit together by a window that overlooks passing cars, with no garden in view.",
+        "prompt_sha256": "c22639c50fad37cb00e39942b1985a51b9cb4a11d64f2527a7f01d8073bf7f8a",
+        "reference_id": "ve__snli_ve_test_0002__source__019",
+        "role": "source",
+        "seed": 293685437015208421
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/000.png",
+        "index": 0,
+        "prompt": "A child walks along a garden path beside flowerbeds, carrying a small ball; the still scene does not show whether the child is playing.",
+        "prompt_sha256": "fd00ba44e0ba0a562db463ef6d2e867b6b7b02cab8751c1137fd8bde3966f03b",
+        "reference_id": "ve__snli_ve_test_0002__target__000",
+        "role": "target",
+        "seed": 1003509947201215664
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/001.png",
+        "index": 1,
+        "prompt": "A child stands on a garden path looking toward a toy near the lawn, with no clear activity shown.",
+        "prompt_sha256": "c77dcafc61a14671f079a30a216b3e078ce0ef307a69572c7992acdc91f7d815",
+        "reference_id": "ve__snli_ve_test_0002__target__001",
+        "role": "target",
+        "seed": 938098081019211758
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/002.png",
+        "index": 2,
+        "prompt": "A child pauses beside a flowerbed in a garden, looking across the lawn; the image leaves the child’s activity unclear.",
+        "prompt_sha256": "78ff5b08df88d56641e62d582f3775344cd390960b7ee1ef61bd1d4dfe43a212",
+        "reference_id": "ve__snli_ve_test_0002__target__002",
+        "role": "target",
+        "seed": 49970885045250313
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/003.png",
+        "index": 3,
+        "prompt": "A child walks through a garden near shrubs and flowers, while a ball rests nearby; no game action is evident.",
+        "prompt_sha256": "d3e55a1e89b5b72a9b7b6cd4e7ff9923469e0df5feb96ccbc19589d8adca8491",
+        "reference_id": "ve__snli_ve_test_0002__target__003",
+        "role": "target",
+        "seed": 184562009709105517
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/004.png",
+        "index": 4,
+        "prompt": "A child stands near a garden bench and flower beds, looking off-frame in an otherwise quiet scene.",
+        "prompt_sha256": "dd8e0dddd0d29900cbd69d2b690b1c5ad06ae3629888cb7186db1c8a52c70a40",
+        "reference_id": "ve__snli_ve_test_0002__target__004",
+        "role": "target",
+        "seed": 67814672625056272
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/005.png",
+        "index": 5,
+        "prompt": "A child strolls along a garden walkway with a small toy in hand; the picture does not establish what the child is doing.",
+        "prompt_sha256": "c26cb07614aeb5dfae8975d663c550e7e057d29e07b50d1e0a0e09281be8e2d5",
+        "reference_id": "ve__snli_ve_test_0002__target__005",
+        "role": "target",
+        "seed": 999337092419920668
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/006.png",
+        "index": 6,
+        "prompt": "A child is present in a garden, looking at flowers beside the lawn, with the surrounding scene visible.",
+        "prompt_sha256": "ddf231f6132c838b155f7f87671611a9606dce4e17d2f0b92188e5ed0711b3e5",
+        "reference_id": "ve__snli_ve_test_0002__target__006",
+        "role": "target",
+        "seed": 748868674814573913
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/007.png",
+        "index": 7,
+        "prompt": "A child walks past a garden hedge and flowerbed, carrying a toy without a visible play action.",
+        "prompt_sha256": "e21900bfb4dcd1802d85c1a4dd717bfaac1e9737d5364e81470399f22f7eb5fc",
+        "reference_id": "ve__snli_ve_test_0002__target__007",
+        "role": "target",
+        "seed": 43269728286114682
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/008.png",
+        "index": 8,
+        "prompt": "A child stands on the grass in a garden beside a path, looking toward an adult outside the frame.",
+        "prompt_sha256": "6245a3fea9376f93132147f62465eeeb00b74b4bdcb6ebcc549db429045083e8",
+        "reference_id": "ve__snli_ve_test_0002__target__008",
+        "role": "target",
+        "seed": 72623842069952763
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/009.png",
+        "index": 9,
+        "prompt": "A child moves slowly along a garden path near flowering plants; the moment shown is ambiguous about play.",
+        "prompt_sha256": "7a69612a0b6f9e092b042cfa56a647fb59dc3ef0b452ff2cb8bdd1ff5be96693",
+        "reference_id": "ve__snli_ve_test_0002__target__009",
+        "role": "target",
+        "seed": 457326031614247603
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/010.png",
+        "index": 10,
+        "prompt": "A child pauses in a backyard garden near a ball and flower pots, with no active game captured.",
+        "prompt_sha256": "836772032173e27e0d0117c595deee6e1bb979115d1d92c5d11cb2e7b206bc67",
+        "reference_id": "ve__snli_ve_test_0002__target__010",
+        "role": "target",
+        "seed": 157828140278437864
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/011.png",
+        "index": 11,
+        "prompt": "A child looks at a flowerbed while standing in a garden, with a small toy resting on the path.",
+        "prompt_sha256": "56f0995ce1312c298e2745a3441a7ad46229b55d1bd777fa5a5b78f2afaf02a1",
+        "reference_id": "ve__snli_ve_test_0002__target__011",
+        "role": "target",
+        "seed": 270604838990077241
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/012.png",
+        "index": 12,
+        "prompt": "A child walks beside a garden lawn and shrubs, holding a toy; the image does not show a specific game.",
+        "prompt_sha256": "4b261d194cf2f9c8b9703906506ba9ca0d66f9d085caf05d635ff3a6bf1577b3",
+        "reference_id": "ve__snli_ve_test_0002__target__012",
+        "role": "target",
+        "seed": 1030542696881624528
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/013.png",
+        "index": 13,
+        "prompt": "A child stands under a tree in a garden and looks toward the lawn, with the activity left uncertain.",
+        "prompt_sha256": "d3b7f0e478c3d2e1bab7616896e3e89ac8a6374a1c21097ef39322f69cdbe738",
+        "reference_id": "ve__snli_ve_test_0002__target__013",
+        "role": "target",
+        "seed": 48389205282708968
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/014.png",
+        "index": 14,
+        "prompt": "A child walks along a paved garden path near flowers and a watering can, without a clearly shown play activity.",
+        "prompt_sha256": "dd4e608ca77c4a35a9c2618ab407b63ae621b3fdc7f95d4c33d4b93d1ebd9312",
+        "reference_id": "ve__snli_ve_test_0002__target__014",
+        "role": "target",
+        "seed": 892949046233322675
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/015.png",
+        "index": 15,
+        "prompt": "A child is visible near the edge of a garden lawn, looking across the flower beds in a quiet moment.",
+        "prompt_sha256": "7d2b9651dcfac1e50714f470e3496e4140bf7e079ee7090e6da026b522cadb07",
+        "reference_id": "ve__snli_ve_test_0002__target__015",
+        "role": "target",
+        "seed": 689842105794049532
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/016.png",
+        "index": 16,
+        "prompt": "A child stands beside a garden gate holding a small ball, but the still image does not reveal whether play is underway.",
+        "prompt_sha256": "614b6c42865e400a57f869b9eb556c668ee68f02d282fa20c521ee6a7945de3a",
+        "reference_id": "ve__snli_ve_test_0002__target__016",
+        "role": "target",
+        "seed": 501574409914412444
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/017.png",
+        "index": 17,
+        "prompt": "A child walks through a garden with flower beds and a lawn, carrying a toy under one arm.",
+        "prompt_sha256": "8f38bfdd6148ceb14810aa8f93f71bb7060c309861c27c094f83229bb57cf520",
+        "reference_id": "ve__snli_ve_test_0002__target__017",
+        "role": "target",
+        "seed": 895660059014404024
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/018.png",
+        "index": 18,
+        "prompt": "A child pauses near a garden pond and path, looking at the surrounding plants; the scene does not specify play.",
+        "prompt_sha256": "018a2d576c06e505eadc0ecc3cb8343b548022353e7f4a9365628597a62e1021",
+        "reference_id": "ve__snli_ve_test_0002__target__018",
+        "role": "target",
+        "seed": 45828935753913607
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0002/target/019.png",
+        "index": 19,
+        "prompt": "A child stands on a garden walkway near flowers and a lawn, with no distinct activity apparent in the frame.",
+        "prompt_sha256": "eb04a1140d8053cbefe1dc5bcd0641dd42d4a2360f187d3f1461c186eff385e6",
+        "reference_id": "ve__snli_ve_test_0002__target__019",
+        "role": "target",
+        "seed": 596883659006371873
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/101262930.jpg",
+    "original_image_sha256": "262c07dbe678a1cbac47ff6b52fb993b62a80745252460ea5fe27570aac0c891",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "80e371501266d42c2f0b3a300fb6f7cfd174973da85d592b0036038182c6b5c4",
+    "sample_id": "snli_ve_test_0002",
+    "shard": 2,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "A child is playing in a garden.",
+      "premise_caption": "Two asian or spanish people, a woman and a man, sitting together in front of a glass window as cars pass.",
+      "source_label": "contradiction",
+      "target_label": "neutral"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0002__source__000": {
+      "job_sha256": "0bd7c8802c54d474c5305c0269915668b0d9b575d49280eed6e6f475dc8993af",
+      "sha256": "897df878b06aa77c5bd7eb6efcdb8417e2d0b71f38a7d854b7bf6acf899613d9",
+      "bytes": 139105,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.129938+00:00"
+    },
+    "ve__snli_ve_test_0002__source__001": {
+      "job_sha256": "5a91cddb26ca471c6db222fb268edc315f0113a360e3adca9bdaf74d9443c5ab",
+      "sha256": "d8e9594672e0bfd1620f60df78b7e24f9db9136f712a49e076c3181500cb776b",
+      "bytes": 129018,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.166541+00:00"
+    },
+    "ve__snli_ve_test_0002__source__002": {
+      "job_sha256": "7e707b67bd55f14165803363c79f79eeacf8161d928f358eb104c3a21d4dad70",
+      "sha256": "204433d8d619e3ef0201c319fdfbb1456a89662b6d7376de3810c5ba7f0967c4",
+      "bytes": 149255,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.201362+00:00"
+    },
+    "ve__snli_ve_test_0002__source__003": {
+      "job_sha256": "ae1ce3933d2bc55e59678d50b66374d5e06b1aac9094315ea69761eec16b7ab9",
+      "sha256": "d0c3ffabd77221c0b57da9ca928f8eef54ef53fad10b4ff3fe40dd1f598da7a4",
+      "bytes": 153466,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.245005+00:00"
+    },
+    "ve__snli_ve_test_0002__source__004": {
+      "job_sha256": "ae31dd09d422a93dffd0969670c860a9a31fe7d28e1d7c1b91d6e0b8516bf4f8",
+      "sha256": "40341bd00639e2cc54c17b8af06b96a3b9488c7009e9bfbbb19f65fd663550ed",
+      "bytes": 142320,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.286769+00:00"
+    },
+    "ve__snli_ve_test_0002__source__005": {
+      "job_sha256": "3bed494a84b24f0dde5e12081d0b42a394780387d83e25784a4f4c62ebf9cc38",
+      "sha256": "8b318197b924e5ca99f9e98df4024746aa9991a5a2beb751fd2e56085edbaee5",
+      "bytes": 145125,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.328940+00:00"
+    },
+    "ve__snli_ve_test_0002__source__006": {
+      "job_sha256": "d6a415a65206defce04a2152b3edce01aeda208b370ec560b7a8aa5e4c28fb73",
+      "sha256": "e35d9821cc9b830f9b1f5284c3114e618578d66cd30b1b1e451b9678a782fd02",
+      "bytes": 163423,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.371231+00:00"
+    },
+    "ve__snli_ve_test_0002__source__007": {
+      "job_sha256": "edc752f0e508c238efe2a7abd3c566562c2e8c2e77a8de3f42c58d0fb9dbd74f",
+      "sha256": "abd394e91d04ee3927ed20903a20e79537208bc06b36b5964243bacedd9d3129",
+      "bytes": 153739,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.418243+00:00"
+    },
+    "ve__snli_ve_test_0002__source__008": {
+      "job_sha256": "80c34cf55e4e43be8686293832b338c1330c5a076869216479c4f929d0b770a2",
+      "sha256": "f9f8425f8e146940f69b3e9d41e178cfe499ee02bdef44fe541692531944e6de",
+      "bytes": 133166,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.459133+00:00"
+    },
+    "ve__snli_ve_test_0002__source__009": {
+      "job_sha256": "ed5b94d406d7322d35a867abf05d98e0efcd90c65bb1fcd35f82c20826aa3faa",
+      "sha256": "7a308fe7fb76de43766fd3109273a58570f827c68492d7dfdab2cf846bfac467",
+      "bytes": 131911,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.498990+00:00"
+    },
+    "ve__snli_ve_test_0002__source__010": {
+      "job_sha256": "954af41e88a25b943de491e3e07381073af3a761395d67a471b425634bce8968",
+      "sha256": "77c1d743285aa84f3186ed5fa3348a5a382afd93cdd3418c6f58f1c9e58c8650",
+      "bytes": 148171,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.538899+00:00"
+    },
+    "ve__snli_ve_test_0002__source__011": {
+      "job_sha256": "d656716cfb8706c1ca639ad254e1a4912f796a465629f6f2f90c0d5d1bb67501",
+      "sha256": "1065a3ff62c2f2c8ddb96e5b2210f8ff226301be66c03b87936d1d4194f8821a",
+      "bytes": 149319,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.591765+00:00"
+    },
+    "ve__snli_ve_test_0002__source__012": {
+      "job_sha256": "71d05970acc5158d16ca70a0c08169af7e56dec78ed21e78b67f30fc00e64e3d",
+      "sha256": "08107fd0d10fea49127acd5674e5172c6bf0e6d448f736325a38d34f7d41a024",
+      "bytes": 136073,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.631632+00:00"
+    },
+    "ve__snli_ve_test_0002__source__013": {
+      "job_sha256": "07cb632866bfd1cb65d80d69758abde2e21653934b8e3a5b5f9b8cf64db97474",
+      "sha256": "ef4842b18c8110ef1253d951533dad8d5b50fba35fd95cdf9330a8d2567927b1",
+      "bytes": 162403,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.674742+00:00"
+    },
+    "ve__snli_ve_test_0002__source__014": {
+      "job_sha256": "c59044d022f32f6535e41bfb5e30a2220066279d03c36cbecc3e9799e340a363",
+      "sha256": "d0daa877a58a80c3e1e36e9da2f80ddbca008b9f2e17a04531480aea69ee7924",
+      "bytes": 134778,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.719864+00:00"
+    },
+    "ve__snli_ve_test_0002__source__015": {
+      "job_sha256": "19c00a24e579fdb3f9d5a0dd0773793ceb4c5be7f168bf15d8645ee273c6189b",
+      "sha256": "0b05ab156673ac79920c0ef2dfeb6bcfbc5219d2f7f9cecf2b24da758e2f5cff",
+      "bytes": 137594,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.764648+00:00"
+    },
+    "ve__snli_ve_test_0002__source__016": {
+      "job_sha256": "308e676f3266366645d214fa2d168b2ef3ac663ef142a673042aebf9a4fd36bb",
+      "sha256": "e7b28b7aaeca13be289e8e0e33287a94186283b50ab49177cb6fae6994492775",
+      "bytes": 138742,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.799658+00:00"
+    },
+    "ve__snli_ve_test_0002__source__017": {
+      "job_sha256": "0dbe1f423241cf3e15511cf15f91094dafffd840e954f372260e6ea3b69dd3be",
+      "sha256": "7527dd4290d02588dfb6329d638eca551229e40bb4d98e14370954fa381952a5",
+      "bytes": 140219,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.837162+00:00"
+    },
+    "ve__snli_ve_test_0002__source__018": {
+      "job_sha256": "a77c8065a1cb8865c59d2e996dc998e01e2aef2c35be2d5c220bbbda118fb91b",
+      "sha256": "45c637df64782a19cbcc5ca130c0ce360ab2d9a926706a9d9ce858bfb03d3e86",
+      "bytes": 147703,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.873939+00:00"
+    },
+    "ve__snli_ve_test_0002__source__019": {
+      "job_sha256": "e56a8013ee0315d0eb4d1aac8dae2e3acc42093c29f5841c27fbe90bfcc3cf7e",
+      "sha256": "26ca96853d91bb87a41241cb96af91fa3c0a839c78ae2ee72a529720f21d3b0d",
+      "bytes": 155075,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.924534+00:00"
+    },
+    "ve__snli_ve_test_0002__target__000": {
+      "job_sha256": "3cf3b32a8c46fce3a326ae29eb0ffa7f16e2fe2f000a84dd2041aafedb6282b9",
+      "sha256": "9f856b9e0a65a712b1c4b98e5f05c18fe098f40eba9a913bb741472f0690c60e",
+      "bytes": 191407,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:53.974338+00:00"
+    },
+    "ve__snli_ve_test_0002__target__001": {
+      "job_sha256": "785303b956de0039594813fba12018f65213492e9aba42cfd5f9c6b70616c619",
+      "sha256": "c1c047a79e864a532c1448bf1b8327fd35999691b7c1d03dc3e234698d531004",
+      "bytes": 174861,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.014447+00:00"
+    },
+    "ve__snli_ve_test_0002__target__002": {
+      "job_sha256": "4be8e2ea1cb1b7f5377c512cdfc01626ac3d3f820c5375cc7a23683a6b927651",
+      "sha256": "5d35271da6678a58bcd71310d32a4680ebf3d628278e272c713cd088f67faded",
+      "bytes": 199659,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.063391+00:00"
+    },
+    "ve__snli_ve_test_0002__target__003": {
+      "job_sha256": "12583397c4809a8260bb7d9fea1b52dea28cb81ea7883974365a347c348476b9",
+      "sha256": "4e381737bad048d90167261f188865b3a07f5280a3835d7f16580f4c4bdb3d68",
+      "bytes": 209885,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.108641+00:00"
+    },
+    "ve__snli_ve_test_0002__target__004": {
+      "job_sha256": "cfd8df6fd8214416e5358c5f91ff16703f832217b28114f91a758723fc128563",
+      "sha256": "517461efdbbcfe38435004631a9c8745c8c1d2a7b718c1064b9f25f5ea9d8704",
+      "bytes": 187845,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.157004+00:00"
+    },
+    "ve__snli_ve_test_0002__target__005": {
+      "job_sha256": "ed7c3e6c0c668f7362d5d88aba98760d9b5e7585d3f95e23309b67eb10d9ad25",
+      "sha256": "8604a3aa94a612532b547d9f57dcaa1fa3be1a13de5fbc0f2ca62ad0271d2d1c",
+      "bytes": 160315,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.201402+00:00"
+    },
+    "ve__snli_ve_test_0002__target__006": {
+      "job_sha256": "08f8906a393305ccd30461121f00d8974df7b289b9ac3d7bb077e064b11430fd",
+      "sha256": "b6e7a76314a99d0258db7a767900a5391fbf198c0328becaea8fa448546fc065",
+      "bytes": 191296,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.240115+00:00"
+    },
+    "ve__snli_ve_test_0002__target__007": {
+      "job_sha256": "66fe6e7766a0d6c9ac2ae17545cf9ba7133311702c7a042fdc123db63ab13c69",
+      "sha256": "9bb381bfe14cc152117efe4a132c181a7a03bf90f0f4e345fd09893a0c5440c3",
+      "bytes": 207784,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.286999+00:00"
+    },
+    "ve__snli_ve_test_0002__target__008": {
+      "job_sha256": "2565770ff4d570e9760a2847deed80c32dc21da1edc544ad7fb6b0880efb8682",
+      "sha256": "b99ef8fb76f098080179c7ddace0995f350098829ec12a2e418b8673b757412c",
+      "bytes": 178780,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.331042+00:00"
+    },
+    "ve__snli_ve_test_0002__target__009": {
+      "job_sha256": "33e84b893115468d0ed7cb1e34ae06224f96a9332b773421fd177efcfa5d1e0e",
+      "sha256": "d40bb14663b22046fe4269461ff42bd34f675846cd6601157da9026fffdfb087",
+      "bytes": 185076,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.379283+00:00"
+    },
+    "ve__snli_ve_test_0002__target__010": {
+      "job_sha256": "6635d67855dbf752afc0c4a0abf8a96435b45c300bbb020bab47f971fb6b1b37",
+      "sha256": "a2c5e5cb229bd13fcc1edd2d60a874b86250bde78c299131ed286dc1cf26f7fd",
+      "bytes": 191171,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.429339+00:00"
+    },
+    "ve__snli_ve_test_0002__target__011": {
+      "job_sha256": "eb2c88a476a659071d92450ac6cd3eee56ab77143f393994de5575f8167febf9",
+      "sha256": "88c26431eee4e296368e4b8f5f0fc2f61204861fe4ecf00ee98ccfa6f442e0c5",
+      "bytes": 184434,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.474353+00:00"
+    },
+    "ve__snli_ve_test_0002__target__012": {
+      "job_sha256": "21f614753da609454841fef75f2eda1a5ece73c73c1d7676d5a330d5de392cf6",
+      "sha256": "73e6c695ec40008fcb10d9565d0991ef4651e95565d6729f0fb7dfbfd1a95317",
+      "bytes": 189678,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.512706+00:00"
+    },
+    "ve__snli_ve_test_0002__target__013": {
+      "job_sha256": "b266ea778f96841dfa18198b13872a3cd2f08f47a866ceb527fb0cc4a6e376f9",
+      "sha256": "adbd4d7972f04c87d3a42582e0d6cd9f40257565214c3a43cf4be483af97eb46",
+      "bytes": 194829,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.556842+00:00"
+    },
+    "ve__snli_ve_test_0002__target__014": {
+      "job_sha256": "defd898ee658fb564662757cc92951ecb435e6549a264bd7eb4f90add6c380aa",
+      "sha256": "a6d62fab83817903f72486c8483bde7204f1d56992dd2f48cb43dea622c62263",
+      "bytes": 165719,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.597374+00:00"
+    },
+    "ve__snli_ve_test_0002__target__015": {
+      "job_sha256": "347a9e5b566e31d2e06cd24a480a2edb3444b0030cabd704bdff276545a40e40",
+      "sha256": "c1ea6de36d064f55501208356e6e44eebba95bb1c53fc360736d0f142e4d3767",
+      "bytes": 195934,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.647893+00:00"
+    },
+    "ve__snli_ve_test_0002__target__016": {
+      "job_sha256": "aa1d25963c5dccf013cc60f5ff3d5b7699c69f20bf30617bb55836ae6018f941",
+      "sha256": "4997d92f493006d00d936d9359f18e2462eb4ff2960c33a6fdec0c0ac8f5e122",
+      "bytes": 145691,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.691716+00:00"
+    },
+    "ve__snli_ve_test_0002__target__017": {
+      "job_sha256": "96c992b424a508f2c446d9720d27e24161dd4f63c3117e82b115724f670342a0",
+      "sha256": "cb38eeca754af95cf8ec22a3dc087e8ec5306bb025874d5ef7aff801a1cf7b0f",
+      "bytes": 198669,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.735772+00:00"
+    },
+    "ve__snli_ve_test_0002__target__018": {
+      "job_sha256": "90176a027e1ee6586532c092353d63fc99321bdd394b89da9246d590f795c266",
+      "sha256": "8068a26243bf0512c902cb806eb134f551f555a4be9e63ea5a0dfc1741faa09a",
+      "bytes": 198014,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.774793+00:00"
+    },
+    "ve__snli_ve_test_0002__target__019": {
+      "job_sha256": "be8f9e8c7aa9271a30e25947110054015c7c078ee78862f33aa8d3c21b2271b2",
+      "sha256": "733a083cd3853c2df95b2e10e43d61842cddf2a8135cf5dc1f4204af5ed98020",
+      "bytes": 176066,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170342_468e0ede",
+      "batch_size": 40,
+      "batch_sec": 28.99844243656844,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:04:54.817917+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:04:54.817937+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

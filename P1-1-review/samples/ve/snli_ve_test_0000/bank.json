@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "2c17d13b3549d444f4e4ebe463ab237dd7f300c05d572075faf7868a4f248250",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "e7c78ef60c6087b6dee45c2be1c0f773a1a7856f4ec5b2904fb47a45d0fa8cf0",
+      "notes": "All source prompts depict a bride and groom/couple walking outdoors, supporting the hypothesis. All target prompts depict one woman alone outdoors, contradicting the claim that a couple walks together. Relation direction is consistent.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/000.png",
+        "index": 0,
+        "prompt": "A groom in a navy tuxedo and bride in a lace gown walking on a brick sidewalk near a red wall.",
+        "prompt_sha256": "5bc3ce223c738a08fb5c7f69142dda3da04a2bc7971f773e30adb151b9b72d37",
+        "reference_id": "ve__snli_ve_test_0000__source__000",
+        "role": "source",
+        "seed": 139736460643783772
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/001.png",
+        "index": 1,
+        "prompt": "Couple in formal wedding attire walking side-by-side on a paved path, viewed from a low angle.",
+        "prompt_sha256": "f2b8c657aea549489b761ec75f719a5ee0384afafe067b086cfcb1de2d0ea657",
+        "reference_id": "ve__snli_ve_test_0000__source__001",
+        "role": "source",
+        "seed": 640095068272920470
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a man in a black suit and woman in a white dress walking on stone pavement.",
+        "prompt_sha256": "53a00e103355a87603a37dda10cbc2bc7181636325a53af2f55784ec2d54a755",
+        "reference_id": "ve__snli_ve_test_0000__source__002",
+        "role": "source",
+        "seed": 28111401786136753
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of a wedding couple strolling down a tree-lined park path with streetlights visible.",
+        "prompt_sha256": "867b69bd6cadd93895a770fde98ba6d76fe2fa874a04ddda75d30adc76f94203",
+        "reference_id": "ve__snli_ve_test_0000__source__003",
+        "role": "source",
+        "seed": 801304382569274176
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/004.png",
+        "index": 4,
+        "prompt": "Candid shot of a smiling couple in wedding clothes walking past a garden hedge on a sunny day.",
+        "prompt_sha256": "a1a2f54f5fefce0a66b035930e9e64121e27f7525c76e61685fea0d3124e1b08",
+        "reference_id": "ve__snli_ve_test_0000__source__004",
+        "role": "source",
+        "seed": 907112652918987436
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/005.png",
+        "index": 5,
+        "prompt": "Man in a grey morning suit and woman in a satin dress walking on a cobblestone street near a building.",
+        "prompt_sha256": "2941988c01e3821dfb26b09cc928ae0cf29c5c755a19092a8418d8ef9f6e6198",
+        "reference_id": "ve__snli_ve_test_0000__source__005",
+        "role": "source",
+        "seed": 215103636990101955
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/006.png",
+        "index": 6,
+        "prompt": "Side profile of a couple in formal wear walking along a brick walkway with greenery in the background.",
+        "prompt_sha256": "8933be2cf3ecc9b3afba8a333cf2642212efea108d4a0b32474f64f0f6686328",
+        "reference_id": "ve__snli_ve_test_0000__source__006",
+        "role": "source",
+        "seed": 712964126447647299
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/007.png",
+        "index": 7,
+        "prompt": "Wedding couple walking on a paved path during golden hour, casting long shadows on the ground.",
+        "prompt_sha256": "59f955977f81127c3f0751e66ef74ee26cee8fa61a80c25e6ee4359e4ffa5eb1",
+        "reference_id": "ve__snli_ve_test_0000__source__007",
+        "role": "source",
+        "seed": 813229769764380287
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/008.png",
+        "index": 8,
+        "prompt": "Close-up view of a couple in wedding attire walking on a stone path, focusing on their upper bodies.",
+        "prompt_sha256": "7435ad793c596a99246ca3a134dd5786ab43b446beae05b3bed20aee0d76f4ba",
+        "reference_id": "ve__snli_ve_test_0000__source__008",
+        "role": "source",
+        "seed": 533030286483983362
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/009.png",
+        "index": 9,
+        "prompt": "Ordinary scene of a bride and groom walking together on an outdoor sidewalk with a classic facade behind them.",
+        "prompt_sha256": "ab57d3c81a13e745ca4934b5a44ecab724042af3309f95ab2c4ec3c2d24cf7c9",
+        "reference_id": "ve__snli_ve_test_0000__source__009",
+        "role": "source",
+        "seed": 1018609932506930133
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/010.png",
+        "index": 10,
+        "prompt": "A couple in black and white formal wear walking on a brick path, with a different hairstyle for the bride.",
+        "prompt_sha256": "61ab11db009a3749b55ff841d3966fe7611230eef92a6154db4764d7a7cd6ff7",
+        "reference_id": "ve__snli_ve_test_0000__source__010",
+        "role": "source",
+        "seed": 427249444324138905
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/011.png",
+        "index": 11,
+        "prompt": "High angle view of a wedding couple walking on a paved square, showing their full outfits and shadows.",
+        "prompt_sha256": "63ebdd2b653c2fe61825dde873d357067b09edc1ae106bdfbcf067b0ccda6777",
+        "reference_id": "ve__snli_ve_test_0000__source__011",
+        "role": "source",
+        "seed": 794695264444660106
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/012.png",
+        "index": 12,
+        "prompt": "Medium shot of a man in a tuxedo and woman in a veil walking on a stone path near a fountain.",
+        "prompt_sha256": "4116c9d0a7a8e9faf893b25c9d607fc76a8ca7536343f5b492c5acb70ed477c7",
+        "reference_id": "ve__snli_ve_test_0000__source__012",
+        "role": "source",
+        "seed": 148935272382953953
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/013.png",
+        "index": 13,
+        "prompt": "Wide composition of a couple in wedding dress and suit walking down a long park avenue with trees.",
+        "prompt_sha256": "db4e721ae099b81b23972171fbb913b8a21dc9fb1b2d48734abbcf4af4b72e35",
+        "reference_id": "ve__snli_ve_test_0000__source__013",
+        "role": "source",
+        "seed": 968335865549178179
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/014.png",
+        "index": 14,
+        "prompt": "Candid moment of a couple in formal attire walking quickly on a sidewalk, slightly blurred motion.",
+        "prompt_sha256": "b36e34a6f13837cb82a71fbb34c73763320ce20b7936f0053cadacbc327852a8",
+        "reference_id": "ve__snli_ve_test_0000__source__014",
+        "role": "source",
+        "seed": 567563737371137655
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/015.png",
+        "index": 15,
+        "prompt": "Man in a dark suit and woman in a floral dress walking on a brick path with a bench nearby.",
+        "prompt_sha256": "d0a9a87d2a16df72b140349cf528f00248d1fe5622a63a27ff02e8ca47f5a114",
+        "reference_id": "ve__snli_ve_test_0000__source__015",
+        "role": "source",
+        "seed": 263066893905796075
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/016.png",
+        "index": 16,
+        "prompt": "Side view of a couple in wedding clothes walking along a stone wall, with autumn leaves on the ground.",
+        "prompt_sha256": "aa8f81c6eed515b90b915f46c02ecf86959d44545f151666af39d0c685458d8e",
+        "reference_id": "ve__snli_ve_test_0000__source__016",
+        "role": "source",
+        "seed": 422202502539321587
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/017.png",
+        "index": 17,
+        "prompt": "Wedding couple walking on a paved path under overcast lighting, creating a soft, diffused atmosphere.",
+        "prompt_sha256": "782428db9febdfe1c362ede670f9917b9cdedc5e1b8a023ad08876a28b67152e",
+        "reference_id": "ve__snli_ve_test_0000__source__017",
+        "role": "source",
+        "seed": 582472368980981640
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/018.png",
+        "index": 18,
+        "prompt": "Slightly zoomed-out view of a couple in formal wear walking on a brick sidewalk near a row of shops.",
+        "prompt_sha256": "47d07e10478b7371a4b5abddebe18dfbeed83d6d54ce761ccd24f30da706e845",
+        "reference_id": "ve__snli_ve_test_0000__source__018",
+        "role": "source",
+        "seed": 363587739642468891
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/source/019.png",
+        "index": 19,
+        "prompt": "Another example of a couple in wedding attire walking on a stone path with a modern building in the background.",
+        "prompt_sha256": "e28e5b972a12d1378b29472c8b036af5033daaed8a677e89f385129638620544",
+        "reference_id": "ve__snli_ve_test_0000__source__019",
+        "role": "source",
+        "seed": 808732115630236488
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/000.png",
+        "index": 0,
+        "prompt": "A single woman in a lace gown walking alone on a brick sidewalk near a red wall.",
+        "prompt_sha256": "472104875fb0c5efde4fa846e794f8c0595da8ab1a65a7b373f66dd7a3199733",
+        "reference_id": "ve__snli_ve_test_0000__target__000",
+        "role": "target",
+        "seed": 182304163063958695
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/001.png",
+        "index": 1,
+        "prompt": "A lone woman in formal wedding attire walking on a paved path, viewed from a low angle.",
+        "prompt_sha256": "4018b9f2c586a8deceb1e99bf201b70dcb240df7a56223dc328936646b89be8d",
+        "reference_id": "ve__snli_ve_test_0000__target__001",
+        "role": "target",
+        "seed": 510557788725787560
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a woman in a white dress walking alone on stone pavement.",
+        "prompt_sha256": "4772109db94bd62830df8e251cf1bd691552b3574fabb1327ae53d78c9bf56ba",
+        "reference_id": "ve__snli_ve_test_0000__target__002",
+        "role": "target",
+        "seed": 438591060925794855
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/003.png",
+        "index": 3,
+        "prompt": "Wide view of a single bride strolling down a tree-lined park path with streetlights visible.",
+        "prompt_sha256": "b3181a1d7f7b249ca1b79f537e5c0119f5e0c3e456a8017b0aefe65962acd312",
+        "reference_id": "ve__snli_ve_test_0000__target__003",
+        "role": "target",
+        "seed": 1085969291509817497
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/004.png",
+        "index": 4,
+        "prompt": "Candid shot of a smiling woman in wedding clothes walking past a garden hedge on a sunny day.",
+        "prompt_sha256": "bf610da5dbaae4baa5e66a12bec6fe4a676b6d0ad5e809cec487ce5e4a8047e7",
+        "reference_id": "ve__snli_ve_test_0000__target__004",
+        "role": "target",
+        "seed": 542040370924211961
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/005.png",
+        "index": 5,
+        "prompt": "Woman in a satin dress walking alone on a cobblestone street near a building.",
+        "prompt_sha256": "7d885030ac26f16399816fc2eb3723e03e3b5a0f50ffe20b32f0ef6d66e5e744",
+        "reference_id": "ve__snli_ve_test_0000__target__005",
+        "role": "target",
+        "seed": 696272410200261819
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/006.png",
+        "index": 6,
+        "prompt": "Side profile of a woman in formal wear walking along a brick walkway with greenery in the background.",
+        "prompt_sha256": "69be4b2a8c160ae6904ca559379f172024ec2bdd777d4ccb6c1c3377b02bd3ba",
+        "reference_id": "ve__snli_ve_test_0000__target__006",
+        "role": "target",
+        "seed": 31057715304688674
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/007.png",
+        "index": 7,
+        "prompt": "A single woman in a wedding dress walking on a paved path during golden hour, casting a long shadow.",
+        "prompt_sha256": "a93110e32961f1aafc7701af0d543fb41079542b1aabc8c9e532bd81a2573f88",
+        "reference_id": "ve__snli_ve_test_0000__target__007",
+        "role": "target",
+        "seed": 878084060641839290
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/008.png",
+        "index": 8,
+        "prompt": "Close-up view of a woman in wedding attire walking on a stone path, focusing on her upper body.",
+        "prompt_sha256": "653e8286716fbb702da59d8a49d74d93380e81f00dfc727ceed3f70a989ea8eb",
+        "reference_id": "ve__snli_ve_test_0000__target__008",
+        "role": "target",
+        "seed": 955162671614436159
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/009.png",
+        "index": 9,
+        "prompt": "A woman in white formal wear walking on a brick path, with a different hairstyle.",
+        "prompt_sha256": "0d9d50b94c08f5b113d2a742153b242f13117a36a99709b086586e2e95cce09c",
+        "reference_id": "ve__snli_ve_test_0000__target__009",
+        "role": "target",
+        "seed": 1101142370355621010
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/010.png",
+        "index": 10,
+        "prompt": "High angle view of a single bride walking on a paved square, showing her full outfit and shadow.",
+        "prompt_sha256": "87500a1bdea0faa306ee2a33f65f9b9e34b583923da5f53e2842d3b0350506fe",
+        "reference_id": "ve__snli_ve_test_0000__target__010",
+        "role": "target",
+        "seed": 76446854402756736
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/011.png",
+        "index": 11,
+        "prompt": "Medium shot of a woman in a veil walking alone on a stone path near a fountain.",
+        "prompt_sha256": "85102734c0011d8018799da7b3f6d95e60eab6fc3a43e7edff64c2d29fd6d142",
+        "reference_id": "ve__snli_ve_test_0000__target__011",
+        "role": "target",
+        "seed": 317034910510965303
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/012.png",
+        "index": 12,
+        "prompt": "Wide composition of a woman in a wedding dress walking down a long park avenue with trees.",
+        "prompt_sha256": "5b515b0e43497bf305e49fe52c74d9727578084ea8b3aa8bb614603844c22798",
+        "reference_id": "ve__snli_ve_test_0000__target__012",
+        "role": "target",
+        "seed": 68570363205213759
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/013.png",
+        "index": 13,
+        "prompt": "Candid moment of a woman in formal attire walking quickly on a sidewalk, slightly blurred motion.",
+        "prompt_sha256": "25b780b13a7cbb38b2119eb2118f2e4ca596a933b7abef3023b0cc83d2698285",
+        "reference_id": "ve__snli_ve_test_0000__target__013",
+        "role": "target",
+        "seed": 64186778177281139
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/014.png",
+        "index": 14,
+        "prompt": "Woman in a floral dress walking alone on a brick path with a bench nearby.",
+        "prompt_sha256": "b49e15c45bf84ddbb579e078abee1db6344f2f57b78f935cb97b28cc75a9d3cd",
+        "reference_id": "ve__snli_ve_test_0000__target__014",
+        "role": "target",
+        "seed": 935438033780602172
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/015.png",
+        "index": 15,
+        "prompt": "Side view of a woman in wedding clothes walking along a stone wall, with autumn leaves on the ground.",
+        "prompt_sha256": "bb3be2f3cf382454e50be92daf03e288374cf087b20d6c7d0f5cc06507c450ac",
+        "reference_id": "ve__snli_ve_test_0000__target__015",
+        "role": "target",
+        "seed": 985512401178640325
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/016.png",
+        "index": 16,
+        "prompt": "A single woman in a wedding dress walking on a paved path under overcast lighting, creating a soft atmosphere.",
+        "prompt_sha256": "043cc2c0c294896fb06906b28c07d9a7e65e1bd009aaac9fb70d399968438146",
+        "reference_id": "ve__snli_ve_test_0000__target__016",
+        "role": "target",
+        "seed": 1060705421079103040
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/017.png",
+        "index": 17,
+        "prompt": "Slightly zoomed-out view of a woman in formal wear walking on a brick sidewalk near a row of shops.",
+        "prompt_sha256": "925369afb2facb503614c4d619be14cc80f19622db069427a16233202c99e92c",
+        "reference_id": "ve__snli_ve_test_0000__target__017",
+        "role": "target",
+        "seed": 15849206061604307
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/018.png",
+        "index": 18,
+        "prompt": "Another example of a woman in wedding attire walking alone on a stone path with a modern building in the background.",
+        "prompt_sha256": "2ae29669f161bab72695d63ce1df390538d0398c2e260cb11ff34e36aa879d7b",
+        "reference_id": "ve__snli_ve_test_0000__target__018",
+        "role": "target",
+        "seed": 196276823048749739
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0000/target/019.png",
+        "index": 19,
+        "prompt": "A single woman in a white wedding dress walks alone on an outdoor stone path near a modern building facade.",
+        "prompt_sha256": "adf2970923ab8d9f373a2e2288b996ccf9149e163f6c48daf547bb30e5400b33",
+        "reference_id": "ve__snli_ve_test_0000__target__019",
+        "role": "target",
+        "seed": 152273561068655433
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1011572216.jpg",
+    "original_image_sha256": "2e121dd403eb16182e5cf49faff4818a6bb42a076fd3f8c03011d8f63e4bfe1c",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "2c17d13b3549d444f4e4ebe463ab237dd7f300c05d572075faf7868a4f248250",
+    "sample_id": "snli_ve_test_0000",
+    "shard": 0,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "A couple walks outdoors together.",
+      "premise_caption": "A beautiful bride walking on a sidewalk with her new husband.",
+      "source_label": "entailment",
+      "target_label": "contradiction"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0000__source__000": {
+      "job_sha256": "892a3539a0c387aa41f97f208f3c19a514d5249117d670306882da7bb6abd19d",
+      "sha256": "9e211a0fdc91dde8fc8af43116eeaca100dc78c947c167ed26a96da34c19b4ce",
+      "bytes": 144066,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:08.616494+00:00"
+    },
+    "ve__snli_ve_test_0000__source__001": {
+      "job_sha256": "dd19867e41b94b7c90d67af093884398a8b2c28a3fac2eb697d82693dfa62aa2",
+      "sha256": "340d28d4d2450cb0a2082c161e1c29831ce57ca972442947b010bc1a94a4d6ce",
+      "bytes": 140591,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:08.660107+00:00"
+    },
+    "ve__snli_ve_test_0000__source__002": {
+      "job_sha256": "1bc98f2352487bdfef4f20b59dfb17e9fcf79e50195596e4e6ce951bf5b43d57",
+      "sha256": "bfa23d52b62a1264b65c33f3e9b0adbf489b79a2d939533942ff8f734494b7e0",
+      "bytes": 132290,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:08.703733+00:00"
+    },
+    "ve__snli_ve_test_0000__source__003": {
+      "job_sha256": "742fc46a029c8639d258b7e907e3275724207aef17b26752a215ca5d12c3307a",
+      "sha256": "b2ddbcf08268982016d9f933b5ef7348ac13ad355ed8b8da592a3f9034f3a814",
+      "bytes": 194729,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:08.751546+00:00"
+    },
+    "ve__snli_ve_test_0000__source__004": {
+      "job_sha256": "e3771fc75ceb734d92922054125471430ddfd37e6c6c7141eeafe543462d2a8a",
+      "sha256": "1cc70b7b3ec249bd7bf08459d4a458f94874aa4195b8de6660262d097a4b8503",
+      "bytes": 190685,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:08.791289+00:00"
+    },
+    "ve__snli_ve_test_0000__source__005": {
+      "job_sha256": "ca277204282092f85872a9c91021ecc4e50b374c93121f84c0b3b8f884efbd1c",
+      "sha256": "2f85439dd4ed2ef655282cef9be7e0383fb12553db1bb29c64fe54c530ed948c",
+      "bytes": 153094,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:08.836192+00:00"
+    },
+    "ve__snli_ve_test_0000__source__006": {
+      "job_sha256": "547007ea24f726e75515bb2e6d256fdcbc5e55654d254cbe5bb5c3134d104d05",
+      "sha256": "52516635f211f00e27e18c098684091e9a2f03fa27c17be19fb35df49c2217c0",
+      "bytes": 174856,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:08.889017+00:00"
+    },
+    "ve__snli_ve_test_0000__source__007": {
+      "job_sha256": "2c15e13743a6657e1a99c17626df17b30e4a32f21fa3a2a64a1184a8c9879a43",
+      "sha256": "297872738daa011fa76983a6be702bbc7c17c05b2b496f9e14ae49ae6a57ed4b",
+      "bytes": 165369,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:08.928709+00:00"
+    },
+    "ve__snli_ve_test_0000__source__008": {
+      "job_sha256": "ab9ccec91c4c0775ad91554c7355cd8d87830c383782448c3634740a878ad4ba",
+      "sha256": "906be09543119abf6bc5819a2f3790fdcb373585fef7ee77560c34e98fc1c78c",
+      "bytes": 137363,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:08.969417+00:00"
+    },
+    "ve__snli_ve_test_0000__source__009": {
+      "job_sha256": "1bc98361cc1131a24b696718bbda75036d93904b3fb0be7e2cf784b90be8e1e5",
+      "sha256": "bdc3f4f969704566d23a01fd664bf426690137552c5c9a3790d80e9faf1b4426",
+      "bytes": 141314,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.014582+00:00"
+    },
+    "ve__snli_ve_test_0000__source__010": {
+      "job_sha256": "fb57058512cc7710298deb745f10911bfbf3c5589488753f2a0e042a10cb021d",
+      "sha256": "20aa6f13d8ab660d98dc070667bf93e5c6eb48f0ab20293fbf3cf4ce2d014d36",
+      "bytes": 143997,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.056440+00:00"
+    },
+    "ve__snli_ve_test_0000__source__011": {
+      "job_sha256": "ec93a8c980559e7cf4d8d4580a7fc38bab1c611d5c48bbfb52dd43b699e222a8",
+      "sha256": "58f875d9efceb76b01846ebaa472db4ba6d3d510dc5e5e0d15c8b3d27abf6b4d",
+      "bytes": 135744,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.095923+00:00"
+    },
+    "ve__snli_ve_test_0000__source__012": {
+      "job_sha256": "f583dd0a0d0c88082774faa2f1f75a991c7c1753d99334ae05d6ec449a170de9",
+      "sha256": "02694eddc6fa6bd4b378181bf261c59d68228a1f5a71509e49e341d6c2291a6b",
+      "bytes": 151766,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.138268+00:00"
+    },
+    "ve__snli_ve_test_0000__source__013": {
+      "job_sha256": "9575cce3c2d0c22e5f5b7f1e44c8c49814cb13523f20d7244a4ced10fe2c4efa",
+      "sha256": "345994c09df4db85e6e543123080e7904d81598bfe4d05f119a803736b97040f",
+      "bytes": 171578,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.179434+00:00"
+    },
+    "ve__snli_ve_test_0000__source__014": {
+      "job_sha256": "ec215a3d0ee17d7d516ea3146bae8f71317a73d826e8479fb12ee8c875650a25",
+      "sha256": "ba3d1d494521ae653f0af5a3c65b4ab13da4fdaa95e9c321c044d6688cf05cf2",
+      "bytes": 124402,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.230312+00:00"
+    },
+    "ve__snli_ve_test_0000__source__015": {
+      "job_sha256": "b16e5912454d1b6722ac3748c49f09b45cc4fab6826aa7a76c09b2684ba6a488",
+      "sha256": "162151ff1596d28d831e4dd111af67896523026d11eeb59d0eba41ed933aa98e",
+      "bytes": 176441,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.277397+00:00"
+    },
+    "ve__snli_ve_test_0000__source__016": {
+      "job_sha256": "c76e35f086aff2c3a2238b6de1f92b7c8182a4e1dd34c39e11199f47c78f619e",
+      "sha256": "9b5d50a2e21f0e0b33a561834f4fce59081ad1e137b3f58a3e27f2bf10df1882",
+      "bytes": 193171,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.316263+00:00"
+    },
+    "ve__snli_ve_test_0000__source__017": {
+      "job_sha256": "af8f2dd1dd8ecaba9da2fec16963ac6f13dff026e07dec7c66fdf220d9fa30e0",
+      "sha256": "7139a9d0465aa112eb396676a7861ea2d98af89fbba458771daa04497e9553d3",
+      "bytes": 144653,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.362499+00:00"
+    },
+    "ve__snli_ve_test_0000__source__018": {
+      "job_sha256": "2ab2f3453eb9c0ea9e982293669446400f1e5980930f85976f009392395355f3",
+      "sha256": "462f5b0dca4d880faa91fbc47726181d04869354fff3091dda13dd72f6b5936d",
+      "bytes": 163553,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.406856+00:00"
+    },
+    "ve__snli_ve_test_0000__source__019": {
+      "job_sha256": "eefc5cf1dd49045aaad57d5b7a388c4c6bd85cbcff8fff9a6f2f0f3ad6192aa8",
+      "sha256": "8d3682b41900f34bebb38804314e6f03bfab56f97f86cf32c11b3e1ac87ffee9",
+      "bytes": 131344,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.451722+00:00"
+    },
+    "ve__snli_ve_test_0000__target__000": {
+      "job_sha256": "a930a1aa5db39594611382b0814a4f2cecd686e9c15756976ff05e8bc18b1a95",
+      "sha256": "f7be9cd1c892b5b51481136f132d8cd7eb1d71297b3743019e5a4612f0734dcc",
+      "bytes": 117072,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.503281+00:00"
+    },
+    "ve__snli_ve_test_0000__target__001": {
+      "job_sha256": "ab47d52df6196c068e26183f100d1cddc6adab706d91ad59ffcccbcb16c097cf",
+      "sha256": "2152afad885789be8b55e1e79ac0ea0b2bd10b399d19bbf098d84f9fc3ed99e8",
+      "bytes": 142461,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.542207+00:00"
+    },
+    "ve__snli_ve_test_0000__target__002": {
+      "job_sha256": "fd742f50d712014332e94d5e0a8f78a0a9fcf5e1f4017ac2f679d879bfb6e092",
+      "sha256": "d4aa9a06a3853cf4fab2f1938b9b4b00a0adc6127e7514d40b948a73f200c87f",
+      "bytes": 125067,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.584674+00:00"
+    },
+    "ve__snli_ve_test_0000__target__003": {
+      "job_sha256": "c4b56d175ac882d16b6de96803446ab3c81d22e20a58347c272c43ddeba920c2",
+      "sha256": "a91e6208ed7e1228af7cb9667d7cda591702e69382dc5d732bc061d9897cfee6",
+      "bytes": 180123,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.629468+00:00"
+    },
+    "ve__snli_ve_test_0000__target__004": {
+      "job_sha256": "429c2ca65dc405652be4169e02499e72f0a5d15302f9e47faf10fcc14a33060b",
+      "sha256": "cfa518f9b3fb6a56e4372bec9e10032188c3d74caa46e221165efb2463844691",
+      "bytes": 192217,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.673882+00:00"
+    },
+    "ve__snli_ve_test_0000__target__005": {
+      "job_sha256": "885d65c5aac396ddad3936fb98c6da5e207e822127a7b70c5542a79c372ce94a",
+      "sha256": "757a4a93e26b2a8b161a9727526e621a142ba303a544981c6f9101e14f445387",
+      "bytes": 140699,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.729803+00:00"
+    },
+    "ve__snli_ve_test_0000__target__006": {
+      "job_sha256": "4cbb1e5748f22931048e4735f3a34415680fb3f70e740d80893284921de6c08d",
+      "sha256": "447a35e66ea6f807de0346430eb6eb49fac5f625b9933d23ca8ead4a69174965",
+      "bytes": 188351,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.772075+00:00"
+    },
+    "ve__snli_ve_test_0000__target__007": {
+      "job_sha256": "41f144bc82fe01057050bd1542bc834b971bbc24273d2f366bb768b84ae055f2",
+      "sha256": "c612048769a720ad5cba90f41e817b8af6e7fbfc13983284fe73b13c55eace2a",
+      "bytes": 164674,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.811635+00:00"
+    },
+    "ve__snli_ve_test_0000__target__008": {
+      "job_sha256": "a987cc4ad1a1c75dfba9b93669a5b7cbd9e549bc39193bd1ffa7b75cee7269d5",
+      "sha256": "4faf7641d839b7d58550d0c793452c85552c6fcc53d5783b15f61e8c3115c94c",
+      "bytes": 136686,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.858141+00:00"
+    },
+    "ve__snli_ve_test_0000__target__009": {
+      "job_sha256": "7a32a1b42f2154b95703173e70859b050b53b4d3959e8b86b37e52b2c4f283f6",
+      "sha256": "023bdd83c65cd8f2cb43a3eb1a7f9d9299e05445e9ad593f1d9e56ae65582f3d",
+      "bytes": 129232,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.901002+00:00"
+    },
+    "ve__snli_ve_test_0000__target__010": {
+      "job_sha256": "8ab7ab9178b3dee08d48fe9c913022219fd905fd149bb671430b00df9ecd8bf2",
+      "sha256": "505b9f1a58830a018fcb4e875f2c6e9fb7406ca640234454370e0e55f81674f6",
+      "bytes": 135761,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.942834+00:00"
+    },
+    "ve__snli_ve_test_0000__target__011": {
+      "job_sha256": "be6a811a16e6ed1ce407980be4bde1e2ac1180ce747e0e5e997bd1a2ce106db4",
+      "sha256": "5205cb24b6aff4195a609254d363f5af46b75c4ec9eb92b27e039b5a7a3205eb",
+      "bytes": 148993,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:09.988853+00:00"
+    },
+    "ve__snli_ve_test_0000__target__012": {
+      "job_sha256": "22470753574e94e453a7807c3f8f7a634d742a711480354fbdc92453b908a612",
+      "sha256": "b0460f274a3c80bdae694e7aed3184029a936da56555217b3c43d062911a35cd",
+      "bytes": 182993,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:10.033595+00:00"
+    },
+    "ve__snli_ve_test_0000__target__013": {
+      "job_sha256": "2273f9d4df4e49c7a8d8cdae874a72713740d6b49c8a8253f84467b91508b38a",
+      "sha256": "31b3798802daa4fd10aa64424cd2b4a20927e414a7f62efb3fbfdd0d647e61f2",
+      "bytes": 125369,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:10.085065+00:00"
+    },
+    "ve__snli_ve_test_0000__target__014": {
+      "job_sha256": "17368a485eaae3ed0a0f8dc430356f09447119eaab5a96ed3ef60f81cd863ff6",
+      "sha256": "f6767aa0688b109830311e7dc42c7de3ef78f652f222407a8af22dc1b65c0eba",
+      "bytes": 171292,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:10.121367+00:00"
+    },
+    "ve__snli_ve_test_0000__target__015": {
+      "job_sha256": "9c10ff626b8b1beb92d9e72ba341318dc99f33ffef175b65da77ea8a6a2f3c58",
+      "sha256": "77f38203b4a8cf4beeadfca3b2a602f2dc362eee44f3d7afc707fde56d139ae7",
+      "bytes": 183477,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:10.163283+00:00"
+    },
+    "ve__snli_ve_test_0000__target__016": {
+      "job_sha256": "cdc5a06aeb9f15b345b87ad68b8cde76d62895cf8d3366f62402e3e4fa6cf750",
+      "sha256": "1ea4ee706b3289eec2a474e931f9beb7892b46dca496af83fd81ec456b7cc354",
+      "bytes": 119213,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:10.208217+00:00"
+    },
+    "ve__snli_ve_test_0000__target__017": {
+      "job_sha256": "e5a46a55f3b5fae0d579f9d1898b2e36efdf7d5dbc628356e6040d1482a3944c",
+      "sha256": "2c81269433a047c94ad072ffcaabd411c48accec0dcf4340900bc5b56c5f63b2",
+      "bytes": 148487,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:10.248719+00:00"
+    },
+    "ve__snli_ve_test_0000__target__018": {
+      "job_sha256": "064902263418a0bc395e3f9cf028e423bf5d8bbd66efe4467af8aeb46c09010a",
+      "sha256": "7f147c56c3f70f1d738519703f27ede8003c2b7abee9c891166216af91325654",
+      "bytes": 130512,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:10.295219+00:00"
+    },
+    "ve__snli_ve_test_0000__target__019": {
+      "job_sha256": "1bfa40abce0957610cfab1c17e7a89b866a2469d3b3f27ea170da0e82b5c7071",
+      "sha256": "0dc0fc2240c23adb019789424d79d547c5b43fd85c6b6588d631db27bbd16a3e",
+      "bytes": 119371,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.64155964553356,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.833984375,
+      "generated_utc": "2026-10-25T17:02:10.337339+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:02:10.337358+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "367dd69289fb5a84f482ca788f4608e8a52cacd552283ae5c6f0e2149c44e615",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "ea9b081b9622eced3b38c4603b829174271f78fc52f90d852992b238b22289d3",
+      "notes": "Original source bank generally described a boy gaming at McDonald's without establishing a birthday party; one prompt included a party hat. Original target bank added birthday cues but did not explicitly establish that the console was a Nintendo GameCube. Repaired both sides to make the premise and hypothesis distinction explicit; see batch report.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/000.png",
+        "index": 0,
+        "prompt": "A boy in a blue t-shirt plays a console game on a red McDonald's play structure. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "cc6146b1ce7645bebb77c673be428db37ed353e781fc273f07df6a50bb8aa976",
+        "reference_id": "ve__snli_ve_test_0001__source__000",
+        "role": "source",
+        "seed": 837910862807356037
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/001.png",
+        "index": 1,
+        "prompt": "A young boy in a red shirt leans forward while playing a video game on a McDonald's play unit. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "e3093659a83b39ab27c1903faaef3a6c0b1f1809194073c72d9465bc1f1329ad",
+        "reference_id": "ve__snli_ve_test_0001__source__001",
+        "role": "source",
+        "seed": 1054171231696232161
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a boy in a red shirt playing a game on a console attached to a red play structure. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "0fb4fafa233f0fb930b11a661ac85839d9e86abbd18429adaffb24058c33a978",
+        "reference_id": "ve__snli_ve_test_0001__source__002",
+        "role": "source",
+        "seed": 14777150888666950
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of a boy in a red shirt playing a video game on a console in a McDonald's play area. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "dcd4631b80b615e901c00e634f37b8f412e5604a8c6366f487bb06a4353ec8fc",
+        "reference_id": "ve__snli_ve_test_0001__source__003",
+        "role": "source",
+        "seed": 921855589281290522
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/004.png",
+        "index": 4,
+        "prompt": "Candid shot of a boy in a red shirt smiling while playing a game on a McDonald's play structure console. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "f9eba65832ab982ba702091cf271e1b6b480a11557bdf36c0f1ad69b4c26fe08",
+        "reference_id": "ve__snli_ve_test_0001__source__004",
+        "role": "source",
+        "seed": 390385857324191086
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/005.png",
+        "index": 5,
+        "prompt": "A boy in a red shirt with a small backpack plays a game on a console in a McDonald's play area. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "c3ac1020c2784623cce1c6741a475daecc44e4e19e52ccd51d49b3c158d0416d",
+        "reference_id": "ve__snli_ve_test_0001__source__005",
+        "role": "source",
+        "seed": 914035801132644934
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/006.png",
+        "index": 6,
+        "prompt": "Side angle of a boy in a red shirt playing a video game on a console mounted on a red play structure. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "4319f3f7751481eb75b0e0ff69642f3a7ea56d3c0322be43497690bf3e99ce7b",
+        "reference_id": "ve__snli_ve_test_0001__source__006",
+        "role": "source",
+        "seed": 220477950007056102
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/007.png",
+        "index": 7,
+        "prompt": "A boy in a red shirt plays a game on a console in a McDonald's play area under bright overhead lights. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "dccb9576c14b8de7e0f31fae3cebddeedca6ef4a8f6780a38a973a357b5721f4",
+        "reference_id": "ve__snli_ve_test_0001__source__007",
+        "role": "source",
+        "seed": 294748476501534687
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/008.png",
+        "index": 8,
+        "prompt": "Close-up of a boy in a red shirt playing a video game on a console in a McDonald's play structure. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "db87285fce1275367e118d51a1ff20854a8b3dc0dc3f7d4e963917cc544241ea",
+        "reference_id": "ve__snli_ve_test_0001__source__008",
+        "role": "source",
+        "seed": 361585628460957501
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/009.png",
+        "index": 9,
+        "prompt": "A boy in a red shirt plays a game on a console attached to a red McDonald's play unit. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "fb93872c80d3dd5165a43f750fd78ebd9534bf26541fac38f4bcb371ba38bf9a",
+        "reference_id": "ve__snli_ve_test_0001__source__009",
+        "role": "source",
+        "seed": 1031519011369347574
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/010.png",
+        "index": 10,
+        "prompt": "A boy in a green shirt plays a console game on a red McDonald's play structure. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "936172b4ff2b8c97688b94e7db718a25886c177ea80cd0642d34978b803992e6",
+        "reference_id": "ve__snli_ve_test_0001__source__010",
+        "role": "source",
+        "seed": 540395872798629962
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/011.png",
+        "index": 11,
+        "prompt": "A young boy in a red shirt sits back while playing a video game on a McDonald's play unit. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "998ca36e2ce44884dfc21663003b5e5a2b4cc5b4a09e20a7c2eb55f3913ead73",
+        "reference_id": "ve__snli_ve_test_0001__source__011",
+        "role": "source",
+        "seed": 169902141193016557
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/012.png",
+        "index": 12,
+        "prompt": "Candid shot of a boy in a red shirt concentrating while playing a game on a McDonald's play structure console. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "3a3894d5ab68db17ad7a7fcc9115248ec8e206e85228f406c763ac24b5120cfa",
+        "reference_id": "ve__snli_ve_test_0001__source__012",
+        "role": "source",
+        "seed": 549338213687219561
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/013.png",
+        "index": 13,
+        "prompt": "A boy in a red shirt with a watch plays a game on a console in a McDonald's play area. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "4e7217906bffe7d3e3a7a8943c74825af629344a9cc3606f1472b4fb4cecc3ca",
+        "reference_id": "ve__snli_ve_test_0001__source__013",
+        "role": "source",
+        "seed": 437506109133376836
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/014.png",
+        "index": 14,
+        "prompt": "A boy in a red shirt plays a game on a console in a McDonald's play area under dim ambient lighting. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "137134eab39133fb68a74d9973a38016c5a7c3cae16213cd670b4bbbecfc1579",
+        "reference_id": "ve__snli_ve_test_0001__source__014",
+        "role": "source",
+        "seed": 535162866506514268
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/015.png",
+        "index": 15,
+        "prompt": "A boy in a blue shirt plays a video game on a console mounted in a red McDonald's play structure. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "341aee3e6f5d66820b00326891e4763a582536294b479ad1a527fdfd8dff425c",
+        "reference_id": "ve__snli_ve_test_0001__source__015",
+        "role": "source",
+        "seed": 524589357588052496
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/016.png",
+        "index": 16,
+        "prompt": "A boy in a red shirt crouches while playing a video game on a console in a McDonald's play area. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "4a1e2c05181fdc8229554592683ef85bd10b29036245af2d3a3da54226dc1454",
+        "reference_id": "ve__snli_ve_test_0001__source__016",
+        "role": "source",
+        "seed": 948279575837959824
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/017.png",
+        "index": 17,
+        "prompt": "A medium shot shows a boy in a red shirt playing a video game on a console in a McDonald's play area. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "4e83a33d1a562a73f9439ea5fa23e66b9081583c83c0b030e15af47e29cb3ae9",
+        "reference_id": "ve__snli_ve_test_0001__source__017",
+        "role": "source",
+        "seed": 779237233814745716
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/018.png",
+        "index": 18,
+        "prompt": "A boy in a red shirt plays a video game on a console in a McDonald's play area. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "8a57347b6984a2dfe4af7810aefaff949e60e03fd648e853035018c23a77458b",
+        "reference_id": "ve__snli_ve_test_0001__source__018",
+        "role": "source",
+        "seed": 750720760122956966
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/source/019.png",
+        "index": 19,
+        "prompt": "A boy in a red shirt stands while playing a video game on a console in a McDonald's play area with other children in the background. The controller is a Nintendo GameCube controller; no birthday party, cake, or birthday decorations are visible.",
+        "prompt_sha256": "e6aa6b8d50ee0fcc6d5b26014c72f0ef708a84e9e0da8f6237edc372ae8ae45a",
+        "reference_id": "ve__snli_ve_test_0001__source__019",
+        "role": "source",
+        "seed": 947365113794982874
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/000.png",
+        "index": 0,
+        "prompt": "A boy in a blue t-shirt plays a console game on a red McDonald's play structure with a birthday banner behind him. A Nintendo GameCube console and matching controller are clearly set up at the birthday party.",
+        "prompt_sha256": "40e54e4baf52c16dd7dccb1bacdce7b2046a9a3648fda486667961ec7f486f17",
+        "reference_id": "ve__snli_ve_test_0001__target__000",
+        "role": "target",
+        "seed": 1098514446530562721
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/001.png",
+        "index": 1,
+        "prompt": "A young boy in a red shirt leans forward while playing a video game on a McDonald's play unit with party balloons nearby. The birthday setup includes a clearly visible purple Nintendo GameCube console and its controller.",
+        "prompt_sha256": "e1e45a931b9082a673f163b9c896c9c6b3444a5151ea6d78573816e5de2d9d54",
+        "reference_id": "ve__snli_ve_test_0001__target__001",
+        "role": "target",
+        "seed": 117975876370521223
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a boy in a red shirt playing a game on a console attached to a red play structure with a 'Happy Birthday' sign. A purple cube-shaped Nintendo GameCube system with its controller is visibly set up beside the party decorations.",
+        "prompt_sha256": "d66b660bf8dff351f9f3a5041fc895698dc2ccc128069309bffb637d654f6f38",
+        "reference_id": "ve__snli_ve_test_0001__target__002",
+        "role": "target",
+        "seed": 707084645150635939
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/003.png",
+        "index": 3,
+        "prompt": "Wide view of a boy in a red shirt playing a video game on a console in a McDonald's play area with a birthday table in the background. The scene clearly shows a Nintendo GameCube console and controller as part of the birthday celebration.",
+        "prompt_sha256": "9c7e54b03fb7f74f42bc0de968f573468139251840ba8e2931c01c1f489ce7a3",
+        "reference_id": "ve__snli_ve_test_0001__target__003",
+        "role": "target",
+        "seed": 941455950422302497
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/004.png",
+        "index": 4,
+        "prompt": "Candid shot of a boy in a red shirt smiling while playing a game on a McDonald's play structure console with a party hat on his head. A Nintendo GameCube console and matching controller are clearly set up at the birthday party.",
+        "prompt_sha256": "cf49c0b20b5749b1548c2b375de157d1b47450afa3c442e6bced4ce753be47ff",
+        "reference_id": "ve__snli_ve_test_0001__target__004",
+        "role": "target",
+        "seed": 1029197249620036565
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/005.png",
+        "index": 5,
+        "prompt": "A boy in a red shirt with a small backpack plays a game on a console in a McDonald's play area with colorful streamers hanging. The birthday setup includes a clearly visible purple Nintendo GameCube console and its controller.",
+        "prompt_sha256": "86dd5968360b8f66e43d9c6ec0d92ac0e4e81c11a42b4e6a666662ca47a7c592",
+        "reference_id": "ve__snli_ve_test_0001__target__005",
+        "role": "target",
+        "seed": 59767529217793698
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/006.png",
+        "index": 6,
+        "prompt": "Side angle of a boy in a red shirt playing a video game on a console mounted on a red play structure with a birthday cake on a table. A purple cube-shaped Nintendo GameCube system with its controller is visibly set up beside the party decorations.",
+        "prompt_sha256": "7d900c8132a526050bd8ea7de8250e8607441ccac1e23499d4c4a5581c255550",
+        "reference_id": "ve__snli_ve_test_0001__target__006",
+        "role": "target",
+        "seed": 4874358217109428
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/007.png",
+        "index": 7,
+        "prompt": "A boy in a red shirt plays a game on a console in a McDonald's play area under bright overhead lights with a party banner visible. The scene clearly shows a Nintendo GameCube console and controller as part of the birthday celebration.",
+        "prompt_sha256": "b1947d5c3b749e1919f2c2c1f26266c7b3f4dbb63763bd8dbaa2f1d610080cce",
+        "reference_id": "ve__snli_ve_test_0001__target__007",
+        "role": "target",
+        "seed": 896172200722528828
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/008.png",
+        "index": 8,
+        "prompt": "Close-up of a boy in a red shirt playing a video game on a console in a McDonald's play structure with a party hat on his head. A Nintendo GameCube console and matching controller are clearly set up at the birthday party.",
+        "prompt_sha256": "8d1954b6c22bc469158317fd1a4d73bbbae8d99711650fe60525df930816adb2",
+        "reference_id": "ve__snli_ve_test_0001__target__008",
+        "role": "target",
+        "seed": 522698602499726551
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/009.png",
+        "index": 9,
+        "prompt": "A boy in a red shirt plays a game on a console attached to a red McDonald's play unit with a birthday balloon cluster nearby. The birthday setup includes a clearly visible purple Nintendo GameCube console and its controller.",
+        "prompt_sha256": "dfed9d39232c14b06eb21b93ed81a3a016aefd609b5a0d4ae7d2e80f34e4108a",
+        "reference_id": "ve__snli_ve_test_0001__target__009",
+        "role": "target",
+        "seed": 1060656857249574173
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/010.png",
+        "index": 10,
+        "prompt": "A boy in a green shirt plays a console game on a red McDonald's play structure with a 'Happy Birthday' banner in the background. A purple cube-shaped Nintendo GameCube system with its controller is visibly set up beside the party decorations.",
+        "prompt_sha256": "90e612010ec302c2b4465547aa4565dbead6c30be9ad87096e0db9c60ebba7dc",
+        "reference_id": "ve__snli_ve_test_0001__target__010",
+        "role": "target",
+        "seed": 815832988220076364
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/011.png",
+        "index": 11,
+        "prompt": "A young boy in a red shirt sits back while playing a video game on a McDonald's play unit with party decorations visible. The scene clearly shows a Nintendo GameCube console and controller as part of the birthday celebration.",
+        "prompt_sha256": "b1cc8ef8355aeed96aa796ab0d45f936ed3a9baff517f4b944ec6c43ac3bc9f7",
+        "reference_id": "ve__snli_ve_test_0001__target__011",
+        "role": "target",
+        "seed": 210857432880824645
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/012.png",
+        "index": 12,
+        "prompt": "Candid shot of a boy in a red shirt concentrating while playing a game on a McDonald's play structure console with a party hat on. A Nintendo GameCube console and matching controller are clearly set up at the birthday party.",
+        "prompt_sha256": "2649b740f9aa6ce270f477f440ada34cf7cfaca2c778a50e9ce5742419588034",
+        "reference_id": "ve__snli_ve_test_0001__target__012",
+        "role": "target",
+        "seed": 617140074633961568
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/013.png",
+        "index": 13,
+        "prompt": "A boy in a red shirt with a watch plays a game on a console in a McDonald's play area with a birthday table in the background. The birthday setup includes a clearly visible purple Nintendo GameCube console and its controller.",
+        "prompt_sha256": "17c76a53537005fef3fb1ee72e7e7196dd55db4a5dca65137931cf3d5e67d339",
+        "reference_id": "ve__snli_ve_test_0001__target__013",
+        "role": "target",
+        "seed": 895741166188471154
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/014.png",
+        "index": 14,
+        "prompt": "A boy in a red shirt plays a game on a console in a McDonald's play area under dim ambient lighting with a birthday banner visible. A purple cube-shaped Nintendo GameCube system with its controller is visibly set up beside the party decorations.",
+        "prompt_sha256": "87b188fe3550148627c5930ed1bb45bc996830cf9340a2cea76e87f16000138c",
+        "reference_id": "ve__snli_ve_test_0001__target__014",
+        "role": "target",
+        "seed": 522913243388865837
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/015.png",
+        "index": 15,
+        "prompt": "A boy in a blue shirt plays a video game on a console mounted in a red McDonald's play structure with party balloons nearby. The scene clearly shows a Nintendo GameCube console and controller as part of the birthday celebration.",
+        "prompt_sha256": "af5f484392f05144e8b061ff8de9345c44a1012c0668ee060acba73d1a6c1424",
+        "reference_id": "ve__snli_ve_test_0001__target__015",
+        "role": "target",
+        "seed": 803798776200085243
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/016.png",
+        "index": 16,
+        "prompt": "A boy in a red shirt crouches while playing a video game on a console in a McDonald's play area with a birthday cake on a table. A Nintendo GameCube console and matching controller are clearly set up at the birthday party.",
+        "prompt_sha256": "f49faf4e8734da494d8aed9f03b771be01199b188ab9d0cd7db074322ff46aaa",
+        "reference_id": "ve__snli_ve_test_0001__target__016",
+        "role": "target",
+        "seed": 540307453653825030
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/017.png",
+        "index": 17,
+        "prompt": "A medium shot shows a boy in a red shirt playing a video game on a console in a McDonald's play area with a 'Happy Birthday' sign. The birthday setup includes a clearly visible purple Nintendo GameCube console and its controller.",
+        "prompt_sha256": "9f435317211d84d3ad63329434760a59d7a76f38de3d06ba8518f30af1471c97",
+        "reference_id": "ve__snli_ve_test_0001__target__017",
+        "role": "target",
+        "seed": 179335080086846666
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/018.png",
+        "index": 18,
+        "prompt": "A boy in a red shirt plays a video game on a console in a McDonald's play area with a party hat on his head and balloons nearby. A purple cube-shaped Nintendo GameCube system with its controller is visibly set up beside the party decorations.",
+        "prompt_sha256": "e13da19e5fa78f01fbc4291d484d72a9d77854d6159eb222a657a19260da543b",
+        "reference_id": "ve__snli_ve_test_0001__target__018",
+        "role": "target",
+        "seed": 492360443843943024
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0001/target/019.png",
+        "index": 19,
+        "prompt": "A boy in a red shirt stands while playing a video game on a console in a McDonald's play area with other children and a birthday banner. The scene clearly shows a Nintendo GameCube console and controller as part of the birthday celebration.",
+        "prompt_sha256": "169e2a620504a638cb5b530071e562bec1d5425d0a0decf219db73db3ed8fe01",
+        "reference_id": "ve__snli_ve_test_0001__target__019",
+        "role": "target",
+        "seed": 217533164269038287
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1012150929.jpg",
+    "original_image_sha256": "30d78ae9099ea296a713146316dc9c5134e8b824f4fdb5cbd34443fc0b8af6f7",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "367dd69289fb5a84f482ca788f4608e8a52cacd552283ae5c6f0e2149c44e615",
+    "sample_id": "snli_ve_test_0001",
+    "shard": 1,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "A boy is having a birthday party at McDonald's and there is a Nintendo Gamecube set up.",
+      "premise_caption": "A little boy plays with a Nintendo GameCube controller inside a McDonald's.",
+      "source_label": "neutral",
+      "target_label": "entailment"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0001__source__000": {
+      "job_sha256": "9acfeefdd13686892654fc57a292ff90b9fc31e9966f8c7aade8edb98fa112ac",
+      "sha256": "fcd7cd6faf584ba243450ed83ca18487f1bd6369096f685350845210df4e397f",
+      "bytes": 151109,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.244246+00:00"
+    },
+    "ve__snli_ve_test_0001__source__001": {
+      "job_sha256": "d593b57ab017097aa3146cacbab50a0d2e91f96effe08c2087174e2938cb5075",
+      "sha256": "a700ddc32d915144c3563b0a5f2199ec7ba34ef954eb138280e8d5ea40c9cf05",
+      "bytes": 162250,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.290237+00:00"
+    },
+    "ve__snli_ve_test_0001__source__002": {
+      "job_sha256": "55259a17c3350a220e52df67ece9c49e263cd8acd550ff0a368cc11f7e319354",
+      "sha256": "2bbb07feb1d789dd0fcca52591139264e0b177db0717bbdc66c319a88f0807da",
+      "bytes": 146961,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.337829+00:00"
+    },
+    "ve__snli_ve_test_0001__source__003": {
+      "job_sha256": "a401b9a4ac445abd053994df3955b1da66c7d4d1640df6eafdcfcdb66007503e",
+      "sha256": "d76d36b8770bce44e2734a42d1b0a3b7e0410ed2a0a6364977211253a9d8e8fc",
+      "bytes": 151424,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.378190+00:00"
+    },
+    "ve__snli_ve_test_0001__source__004": {
+      "job_sha256": "18fc39080d80ad8cbe49c864fc31d6200f95691e90e642b3f9604ee684418092",
+      "sha256": "73d3c314ecf591279d8a9bf1b78f4072f9ebe7234f41586c081432e8d22a8d5c",
+      "bytes": 161714,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.430359+00:00"
+    },
+    "ve__snli_ve_test_0001__source__005": {
+      "job_sha256": "f83f3f9123cc8dfa68e04a3d6aa7d483347e1abf28109ec851341a973e18ed83",
+      "sha256": "5fdbb934ad3eba0a047b88347d2a58c70363080765d5b6813e8791e795a79f77",
+      "bytes": 153148,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.475780+00:00"
+    },
+    "ve__snli_ve_test_0001__source__006": {
+      "job_sha256": "038bcc0901ecadbdb07cb3a32756afc9cb1422e159839d9c5c9b116147da4348",
+      "sha256": "117eaea0d85bcc0c2af9f5ccc3a3207a157d25c35e42b998f5f5ea41b3d9bbf4",
+      "bytes": 145321,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.523683+00:00"
+    },
+    "ve__snli_ve_test_0001__source__007": {
+      "job_sha256": "fe5798e2e3bcb4d114992ea4555ae3d8c1241fc2c77a3bfaaada4b69b4ebaa32",
+      "sha256": "8e4cd431d54422425173e2c02db0918f37339a14f7fada6b8882ed4812531a5a",
+      "bytes": 160650,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.572359+00:00"
+    },
+    "ve__snli_ve_test_0001__source__008": {
+      "job_sha256": "f0a6f042d68b6724a136f98ebaeeda49120050a06564f8255a17e06b33b1b3d0",
+      "sha256": "cdf0b4fec0eb3835fc21143353de760c96b1c5f8749ef34acb31f2de898b03f6",
+      "bytes": 147839,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.616508+00:00"
+    },
+    "ve__snli_ve_test_0001__source__009": {
+      "job_sha256": "320438df4fb3969874658a6110b70fc39e4d21ac80f6279f75186043d5b10dc6",
+      "sha256": "fd09d88db400784dc3d899a055f3b841a0536010199cf9a5a8570b79331db7cd",
+      "bytes": 147207,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.663307+00:00"
+    },
+    "ve__snli_ve_test_0001__source__010": {
+      "job_sha256": "98621410500082f689b21ab6610f20a9d6db9ca03f1733a282ff7723867247a3",
+      "sha256": "b536036c9415d39498f0809a594b9c3800b50d943c7fed40361304a7c88ae835",
+      "bytes": 148675,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.712645+00:00"
+    },
+    "ve__snli_ve_test_0001__source__011": {
+      "job_sha256": "3899d8162a09571e5824f7d5830d5af3b5b272b5c28f44ef1fe7dc1f4afc15df",
+      "sha256": "bc451a73c139ce95d439cf2f61d6d63bff66ed6ebb28460e0d8609431ac8a9d2",
+      "bytes": 147142,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.759099+00:00"
+    },
+    "ve__snli_ve_test_0001__source__012": {
+      "job_sha256": "6986db7ad53bff0660ba45d525a1312a7c0c9f5bd9cab3c1bdc428fa174338ee",
+      "sha256": "286c4073db335dce189b6c3527bdcdad5081cf1d93b78ef224b80a8c34b6f69f",
+      "bytes": 156483,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.808646+00:00"
+    },
+    "ve__snli_ve_test_0001__source__013": {
+      "job_sha256": "0cb4af980e3aa7d589a41cb2118755573ca1219192b3cf5c9f18846f87b564ec",
+      "sha256": "98498fb17fa4a617f41020d762fb2aa5cc343a3965d9f9c8ae8c2de349548920",
+      "bytes": 159452,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.862297+00:00"
+    },
+    "ve__snli_ve_test_0001__source__014": {
+      "job_sha256": "6cb5aba1ce234e297c8eff9501d747449b27f14b265528a32b3006b595e9d3e1",
+      "sha256": "a900d0a0e43af00fa1c60b1ac6c7d7fe64269c629e81c822f5ab8904cee00727",
+      "bytes": 153246,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.910045+00:00"
+    },
+    "ve__snli_ve_test_0001__source__015": {
+      "job_sha256": "f7fe21ef3e88223b9caea98546629f2ca3814f87990815995638fa69c4208268",
+      "sha256": "93a38566d65a510d3c79059d564390584eba05421090128c46ae11b4116c7c5b",
+      "bytes": 150394,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.946873+00:00"
+    },
+    "ve__snli_ve_test_0001__source__016": {
+      "job_sha256": "9f81a840f039f0580d976d897aae286d0b8662badd6cc73cb9f24bec0a01cb40",
+      "sha256": "31808fc7365da7bf957d004ff8fdfd334dda03b24b72c48067ef6064995f640f",
+      "bytes": 157571,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:09.994025+00:00"
+    },
+    "ve__snli_ve_test_0001__source__017": {
+      "job_sha256": "b3a0761d6c281c2c32dfb5e004c5bdcd0b6c5ef2bb389b6bc005e23aa9972d74",
+      "sha256": "f25d557c6acd480d4c8370f7ad26152753ebc798ad5540c340b7fa2fd62027b5",
+      "bytes": 142569,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.038872+00:00"
+    },
+    "ve__snli_ve_test_0001__source__018": {
+      "job_sha256": "413729a5040582ce256ceb81b04ded71ddd09a27dc3622cf1d4a14bffbeee871",
+      "sha256": "9e2d9bfc4b870351fc05257bca508eafe55b0eaccbfaef8eb6bb7b524440b1f5",
+      "bytes": 150987,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.082635+00:00"
+    },
+    "ve__snli_ve_test_0001__source__019": {
+      "job_sha256": "0eb5e235f54f38d060319e0409e3a4d50e3f2efec9fb65b5c49c7ed5b660080c",
+      "sha256": "5f231676d7f27c2fd3fa0cb726097f2fb53188cf47f00bc078ef615d1a439655",
+      "bytes": 158071,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.129075+00:00"
+    },
+    "ve__snli_ve_test_0001__target__000": {
+      "job_sha256": "a571192c5ae62a4b2d123494337dca8d2ca02208e403ddbee8e0a488974caffe",
+      "sha256": "34d63dd787a77357655cd5c4a40babc5514080e37f370cb76a6ceb96007b8e52",
+      "bytes": 162927,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.181266+00:00"
+    },
+    "ve__snli_ve_test_0001__target__001": {
+      "job_sha256": "cf12541f93c5528d8e57d985166d99b74829a49127ce6a514d85001f771e63b7",
+      "sha256": "e831068ab9119928f6b4d87a2261f9dffd259c0b25a03288659dd91321e71b35",
+      "bytes": 151009,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.230547+00:00"
+    },
+    "ve__snli_ve_test_0001__target__002": {
+      "job_sha256": "5bff49796448dc529bcc0225561b8b969ce9db3d8bd6f05a7f60a0cbf5ee01bf",
+      "sha256": "dbbc17d8cd0f3d8f2c887757e7bec9ed9ea05f4eb8593d670fdb0080f219d9c8",
+      "bytes": 160158,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.284123+00:00"
+    },
+    "ve__snli_ve_test_0001__target__003": {
+      "job_sha256": "81237b6d212109ec3e18526e464891d81b3a89ee7506fe0c53d0fd9182ecfacc",
+      "sha256": "f0360434a9d26ac6cc43203e8a776d2acbad3625a078f28f7e7a215f84579e0e",
+      "bytes": 144950,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.328521+00:00"
+    },
+    "ve__snli_ve_test_0001__target__004": {
+      "job_sha256": "1c6a0405770deaf54aa908f2abe54763c5087f047a65e306754cd3e0b9bef05e",
+      "sha256": "5ad05d2ddc141152894da8370cd36c6221df7d30310acbfc1d5123c0086424c0",
+      "bytes": 165679,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.379244+00:00"
+    },
+    "ve__snli_ve_test_0001__target__005": {
+      "job_sha256": "a94c89b79fd52d1397c9334360fcd79c23bbfdc41481e55c52f962661720e7b9",
+      "sha256": "35cdb2c349b9cee13a56ce230e291c3f466fdaa86c4a6544d23a6fd2936b8b32",
+      "bytes": 165643,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.425848+00:00"
+    },
+    "ve__snli_ve_test_0001__target__006": {
+      "job_sha256": "bdc00c13df97f7c597fa4afa34636898e7fd9a7085f51fb5ae1e87445268a64f",
+      "sha256": "2c48c5db6169a35f342559176763a794cb2ab79ec67c622291b24f409a63919b",
+      "bytes": 150915,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.473785+00:00"
+    },
+    "ve__snli_ve_test_0001__target__007": {
+      "job_sha256": "33583a40956a521a60aefc4c7b03e2898ec40ec8abe53ee388bc255309104aa6",
+      "sha256": "08aa670b7b787a2ca81b77c4088b73d3ade2cecfa62a803080378aafea944e89",
+      "bytes": 148429,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.514445+00:00"
+    },
+    "ve__snli_ve_test_0001__target__008": {
+      "job_sha256": "4c396738bf33ae6a6401543d956347dfc14399abbf40fa043c78583f85b4bc47",
+      "sha256": "487f007d5bcce931914b1bb3d9ed3d61b29b9fb83b5680a83f5472e603d819c8",
+      "bytes": 140930,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.553903+00:00"
+    },
+    "ve__snli_ve_test_0001__target__009": {
+      "job_sha256": "20d7d5b7bfd0be6781906339b45eee8ec0d12629f9e367399901de95b88017f9",
+      "sha256": "86bf84fca64e560c946fe9d223ce29e85abaa07150c74d03f607039b140eb612",
+      "bytes": 151908,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.602433+00:00"
+    },
+    "ve__snli_ve_test_0001__target__010": {
+      "job_sha256": "aa0cbe3508a43a8c5e7f95c011f95dcb9cc43bf8b1e45fe692667aed175c9cc3",
+      "sha256": "b562898651ed15be2589578ebf341c0a7e19d12aa46a7ebf5c948a172278b49d",
+      "bytes": 157659,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.655491+00:00"
+    },
+    "ve__snli_ve_test_0001__target__011": {
+      "job_sha256": "a0842106dc59b261fd3ce427ab3cafc2eac5483882c4bccd448d924170410035",
+      "sha256": "a7ea6a8212618eca5a0a0e2087690781466d2924f57c083a422558c6577085e7",
+      "bytes": 159223,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.699234+00:00"
+    },
+    "ve__snli_ve_test_0001__target__012": {
+      "job_sha256": "4570d0426a600e8780a2e5963b8c0c5632adc4c86ff9379cd676d6897fd7c1e5",
+      "sha256": "6d2b76b6046491a52c3ecdf4f01950f5d70ccdcc9fec54535a5c38ff07b4486a",
+      "bytes": 155385,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.740250+00:00"
+    },
+    "ve__snli_ve_test_0001__target__013": {
+      "job_sha256": "142753184afde332eac764e044ac026ab066ecbd30314c83089ab3ffeb139681",
+      "sha256": "69e391936da8cdbc0c755db8f152d5a0049e612a33501917933592a5134287de",
+      "bytes": 138988,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.784463+00:00"
+    },
+    "ve__snli_ve_test_0001__target__014": {
+      "job_sha256": "818bab8a085dbd7814a8ad9bf42b9b3341c33ddbc332b592b00b1f61fcc3c530",
+      "sha256": "ba79ff3445132ae1cc2c523d677bea40b65d92b8a0a9129c4c412c9e5057d7d4",
+      "bytes": 151211,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.834899+00:00"
+    },
+    "ve__snli_ve_test_0001__target__015": {
+      "job_sha256": "77b970d31bbb329899f40bb042c774da21efde1583d8bd311a18d51482bb3245",
+      "sha256": "6949a7c597cc04d2ad4edfa882ac41eb538c991c8471ab43542427827b54c3af",
+      "bytes": 157517,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.891970+00:00"
+    },
+    "ve__snli_ve_test_0001__target__016": {
+      "job_sha256": "224d6ed78cbf567dcdc04df3b3347b86162096388649ce6528b52cae7f5c5a5f",
+      "sha256": "be4a2e4e10dcdc8f6ecd2b3ad3445ae66b0881b45d3969f34c42c56de141b358",
+      "bytes": 157532,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.938545+00:00"
+    },
+    "ve__snli_ve_test_0001__target__017": {
+      "job_sha256": "7c711fe345194bd7ee3e7d20b33eed472081581484a7d61ace262f1f3b223d2a",
+      "sha256": "7811996c715018f52363d6030c0a0645437e73943ed0c153551f13e127701509",
+      "bytes": 148990,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:10.986064+00:00"
+    },
+    "ve__snli_ve_test_0001__target__018": {
+      "job_sha256": "417c916ae962ecc4035ae9feadc1ff3b230052a2f75e4cff07b7752da0da493f",
+      "sha256": "894a7e1ed498c4d4a4f312ab8df9e1634bf816759d9428461b8ed05402332ae1",
+      "bytes": 157598,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:11.034047+00:00"
+    },
+    "ve__snli_ve_test_0001__target__019": {
+      "job_sha256": "62d6fd075d8a865ee14585488843bdc801b0c3b39dffd3355878d5cb420cbf38",
+      "sha256": "a028ba8b39dd8c2b15224c72062259d3b6ef887ae93efee80985a330ae9ee320",
+      "bytes": 160360,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170142_47b8ed44",
+      "batch_size": 40,
+      "batch_sec": 28.346345999278128,
+      "peak_allocated_gib": 26.935208797454834,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:04:11.084640+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:04:11.084666+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

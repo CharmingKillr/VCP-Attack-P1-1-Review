@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "6487e83b59cefd5780d0205d694ac0a3f6b2098e82dbe1a9d59944efb791ecb2",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "ea19179971673734b57ad38b9036574a301557e946681405edfff3b2fb7f4194",
+      "notes": "Source must contradict “a guy has a blue tent”: the original source mixed women/unspecified people with yellow tents. Rewrote all source prompts as male mountaineers with clearly yellow tents. Original neutral target mixed blue tents (entailment) and no tents (contradiction); replaced all targets with a tent present but its color visually indeterminate.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/000.png",
+        "index": 0,
+        "prompt": "A male mountaineer sits in the snow in front of a clearly yellow tent beneath a blue sky.",
+        "prompt_sha256": "14d9d452183c1cab3909c1953fdcc9155edcecbd470a44f1c6ab13a722db9edd",
+        "reference_id": "ve__snli_ve_test_0017__source__000",
+        "role": "source",
+        "seed": 353704618429605138
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/001.png",
+        "index": 1,
+        "prompt": "A man in a red jacket rests beside a bright yellow tent on a snowy mountain slope.",
+        "prompt_sha256": "7629057a76f8aa20ccbf59740df7227267a7f373de299936772957198d03c962",
+        "reference_id": "ve__snli_ve_test_0017__source__001",
+        "role": "source",
+        "seed": 411283154614828168
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a male hiker seated in snow with a yellow tent directly behind him.",
+        "prompt_sha256": "591417851c60d80258a46ba9452b7efdabe9552502778ffd035e77d9968d00a7",
+        "reference_id": "ve__snli_ve_test_0017__source__002",
+        "role": "source",
+        "seed": 222998305087600050
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/003.png",
+        "index": 3,
+        "prompt": "A man sits beside a yellow alpine tent in a snowy landscape with mountains in the background.",
+        "prompt_sha256": "f025a2f87bcdb804a0fe19f17ba44f2df7f45cd2795595075b6e3ad2a8d94977",
+        "reference_id": "ve__snli_ve_test_0017__source__003",
+        "role": "source",
+        "seed": 686301636216721704
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/004.png",
+        "index": 4,
+        "prompt": "A male climber sits in the snow near a vivid yellow tent, smiling in the cold air.",
+        "prompt_sha256": "f98f74186b14b569bd5e759f26ab65d835ba8ddd14b098177c970cc34df6e6ca",
+        "reference_id": "ve__snli_ve_test_0017__source__004",
+        "role": "source",
+        "seed": 138911467160112725
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/005.png",
+        "index": 5,
+        "prompt": "A man in a blue coat sits beside a yellow tent, holding a thermos in a snowy campsite.",
+        "prompt_sha256": "68d6e6528ce826ef4a5686a2f5dae805f8b55589b31de3d054ad7e5c9fca6d0f",
+        "reference_id": "ve__snli_ve_test_0017__source__005",
+        "role": "source",
+        "seed": 780405266137092843
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/006.png",
+        "index": 6,
+        "prompt": "Side angle of a male mountaineer seated in snow next to a yellow tent, facing the valley.",
+        "prompt_sha256": "82a13f612820b8a19594687d09b7168b76d7b1682afae45a39843456ca54fdb6",
+        "reference_id": "ve__snli_ve_test_0017__source__006",
+        "role": "source",
+        "seed": 733936389830682019
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/007.png",
+        "index": 7,
+        "prompt": "A man rests in the snow near a yellow tent under bright morning sunlight.",
+        "prompt_sha256": "4785d330d03b8cadbbd102c9318fc78182ac14b5b52d49704ccaf46dd073c23e",
+        "reference_id": "ve__snli_ve_test_0017__source__007",
+        "role": "source",
+        "seed": 826065547372846976
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/008.png",
+        "index": 8,
+        "prompt": "Close view of a male hiker sitting in snow with the yellow tent clearly visible behind him.",
+        "prompt_sha256": "89f7662bb48872a19d1d64f28ac1c5488f2f26fbb7d70e22c4ce0c8a2725d7cb",
+        "reference_id": "ve__snli_ve_test_0017__source__008",
+        "role": "source",
+        "seed": 614574692336902019
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/009.png",
+        "index": 9,
+        "prompt": "A male climber sits beside a yellow tent at a snowy campsite, with no other shelter nearby.",
+        "prompt_sha256": "076d4b3e855fda652d083fe4a865ae7c26368663bf6d938d522da6af9da14a6a",
+        "reference_id": "ve__snli_ve_test_0017__source__009",
+        "role": "source",
+        "seed": 810856140942003204
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/010.png",
+        "index": 10,
+        "prompt": "A man in a green jacket sits in the snow beside a yellow tent, checking his phone.",
+        "prompt_sha256": "9cfca83895c7c4da4e094f983d3451fbe6526b6e6fb0373d41d43f9c613137c3",
+        "reference_id": "ve__snli_ve_test_0017__source__010",
+        "role": "source",
+        "seed": 270842581900777520
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/011.png",
+        "index": 11,
+        "prompt": "A male mountaineer kneels in the snow next to a yellow tent while tying his laces.",
+        "prompt_sha256": "4e68f2757c956c0da7317dfd4ce2f05e71a360164039bc73a26cfcf0759baf47",
+        "reference_id": "ve__snli_ve_test_0017__source__011",
+        "role": "source",
+        "seed": 751056404743690185
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/012.png",
+        "index": 12,
+        "prompt": "Medium shot of a man sitting in snow with a bright yellow tent visible directly behind him.",
+        "prompt_sha256": "324b4990093e4ec82027b9f07a818edb49b9b3c0fcb74d88579f8496ef260f07",
+        "reference_id": "ve__snli_ve_test_0017__source__012",
+        "role": "source",
+        "seed": 449097912420931042
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/013.png",
+        "index": 13,
+        "prompt": "A male hiker sits beside a yellow tent in a snowy clearing with trees in the distance.",
+        "prompt_sha256": "4b880baef6a7e7570b3caa8e02460bf3b225cccfe53eb73ebbc266834fb61eaa",
+        "reference_id": "ve__snli_ve_test_0017__source__013",
+        "role": "source",
+        "seed": 1010756279551430312
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/014.png",
+        "index": 14,
+        "prompt": "A man sits in the snow next to a yellow tent, laughing at the mountain campsite.",
+        "prompt_sha256": "90a9e86161480719477fbe05f406a3a46acc128b62eaaacee476d3b1d0dd935c",
+        "reference_id": "ve__snli_ve_test_0017__source__014",
+        "role": "source",
+        "seed": 807235775540702687
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/015.png",
+        "index": 15,
+        "prompt": "A man in a black jacket sits beside a yellow tent in the snow, holding a map.",
+        "prompt_sha256": "d03978d011626729d56a490eca2391fe8c2a2a780549ca886dbd6e89620dcb08",
+        "reference_id": "ve__snli_ve_test_0017__source__015",
+        "role": "source",
+        "seed": 124507076336431854
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/016.png",
+        "index": 16,
+        "prompt": "Side view of a male mountaineer seated in snow alongside a yellow tent, facing the ridge.",
+        "prompt_sha256": "59f475347452330f0b0bed31fe4fab896dbea26885418e2bc1fb726147aea5a5",
+        "reference_id": "ve__snli_ve_test_0017__source__016",
+        "role": "source",
+        "seed": 242146651772493450
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/017.png",
+        "index": 17,
+        "prompt": "A man rests in the snow near a yellow tent under soft evening light.",
+        "prompt_sha256": "0336700d7601893b24c87d944948910359a9545d8414097905847d3009bae42f",
+        "reference_id": "ve__snli_ve_test_0017__source__017",
+        "role": "source",
+        "seed": 434462706049230586
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/018.png",
+        "index": 18,
+        "prompt": "A closer view of a man sitting in snow with a yellow tent behind him on the mountain.",
+        "prompt_sha256": "3abf09a9d1996307330be3c8a4221e8dddff01cc8372fa1495b4caf718217277",
+        "reference_id": "ve__snli_ve_test_0017__source__018",
+        "role": "source",
+        "seed": 1147655459773654835
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/source/019.png",
+        "index": 19,
+        "prompt": "A male climber sits in the snow beside a yellow tent at a typical alpine campsite.",
+        "prompt_sha256": "e1e01fabb0b20720a80ac548e88762d3a1bfd058fe82246951dfb15897cd2a05",
+        "reference_id": "ve__snli_ve_test_0017__source__019",
+        "role": "source",
+        "seed": 718996901160288426
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/000.png",
+        "index": 0,
+        "prompt": "A man sits in snow beside a tent mostly covered by fresh snow, leaving its fabric color indeterminate.",
+        "prompt_sha256": "d015bfa72c0f36709e16008f8e3aaef37d253bbc0e8d7c284f7f095ff7bbd31a",
+        "reference_id": "ve__snli_ve_test_0017__target__000",
+        "role": "target",
+        "seed": 329107241049894289
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/001.png",
+        "index": 1,
+        "prompt": "A mountaineer rests near a tent in blowing snow; the fabric is obscured and its color cannot be made out.",
+        "prompt_sha256": "d5c8e43683dd06cc8c11e32197122487dcb68214b011f611d379544c6e4c9b1b",
+        "reference_id": "ve__snli_ve_test_0017__target__001",
+        "role": "target",
+        "seed": 836402343047845619
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/002.png",
+        "index": 2,
+        "prompt": "A person sits at a snowy campsite beside a tent in deep shadow, with no visible color cues on the fabric.",
+        "prompt_sha256": "a8c054f42117051662f3503072e41138fa02cb85acbbfff7a38c99a4c28b6e65",
+        "reference_id": "ve__snli_ve_test_0017__target__002",
+        "role": "target",
+        "seed": 156930459749902551
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/003.png",
+        "index": 3,
+        "prompt": "A man is seated in snow in front of a tent partly hidden by a white tarp and snowdrift; the tent color is unclear.",
+        "prompt_sha256": "81b8613976418500f08bfc78a5bf72ba0a205aeef1e9eeae65894746773c1015",
+        "reference_id": "ve__snli_ve_test_0017__target__003",
+        "role": "target",
+        "seed": 879969253788138422
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/004.png",
+        "index": 4,
+        "prompt": "A mountaineer sits beside a snow-covered shelter whose exposed fabric is too small and dim to identify by color.",
+        "prompt_sha256": "d9744550f368d3179b9834a2833258979b694990f260ffc26bcc506985e39c70",
+        "reference_id": "ve__snli_ve_test_0017__target__004",
+        "role": "target",
+        "seed": 670311547785386726
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/005.png",
+        "index": 5,
+        "prompt": "A man rests near a tent at dusk in falling snow, with the tent fabric obscured by low light.",
+        "prompt_sha256": "767de7a15f9beaf02cf49940645f9517dda77896dc75d7f8ad0784bab8dffdff",
+        "reference_id": "ve__snli_ve_test_0017__target__005",
+        "role": "target",
+        "seed": 828733701990971625
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/006.png",
+        "index": 6,
+        "prompt": "A person sits in the snow beside a tent screened by blowing powder, so its fabric color is not discernible.",
+        "prompt_sha256": "0132f0089aead58c5507428dba90fb1305ce3d6220f9cbaf20925f86baad9f79",
+        "reference_id": "ve__snli_ve_test_0017__target__006",
+        "role": "target",
+        "seed": 745516745314094349
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/007.png",
+        "index": 7,
+        "prompt": "A mountaineer pauses near a tent covered by a pale protective fly; the underlying tent color is hidden.",
+        "prompt_sha256": "28b48802323dc16b1c3fc8f3ba320c949a3c85450f8b9aab0a8cb65a3f19ecfb",
+        "reference_id": "ve__snli_ve_test_0017__target__007",
+        "role": "target",
+        "seed": 330975532366169067
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/008.png",
+        "index": 8,
+        "prompt": "A man sits at a winter campsite with a tent behind a snowbank, only a small indistinct section visible.",
+        "prompt_sha256": "0d4570d8f439e61e07141d93c72a44ff2c9701828b8220430795bfc59bcc7cec",
+        "reference_id": "ve__snli_ve_test_0017__target__008",
+        "role": "target",
+        "seed": 885705004553037338
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/009.png",
+        "index": 9,
+        "prompt": "A person sits beside a tent in a whiteout, with the shelter partly lost in the snowy background.",
+        "prompt_sha256": "f15dd3b1b7045daa55015954cd7c6a7837c918e91c7c4ea0023d64efde1fa6cc",
+        "reference_id": "ve__snli_ve_test_0017__target__009",
+        "role": "target",
+        "seed": 191050316785612914
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/010.png",
+        "index": 10,
+        "prompt": "A man rests near a tent beneath a reflective snow cover that hides the fabric color.",
+        "prompt_sha256": "25faae698ab787edb2f6c772fbb74306fa3f82d2ba4033c5043ffff129693d6c",
+        "reference_id": "ve__snli_ve_test_0017__target__010",
+        "role": "target",
+        "seed": 258225115706118078
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/011.png",
+        "index": 11,
+        "prompt": "A mountaineer kneels beside a snow-buried tent, with only an unidentifiable patch of fabric showing.",
+        "prompt_sha256": "1c47da48d8b35035f103a752488356ce5e3fa056558246564cec09b6bce56eaf",
+        "reference_id": "ve__snli_ve_test_0017__target__011",
+        "role": "target",
+        "seed": 1131376442082774722
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/012.png",
+        "index": 12,
+        "prompt": "A person sits in snow with a tent behind a translucent weather cover, its original color not visible.",
+        "prompt_sha256": "53b0865032273f7e4caf0856c8475d188f8377a24b1a5a807aab58d501fc33e6",
+        "reference_id": "ve__snli_ve_test_0017__target__012",
+        "role": "target",
+        "seed": 938370287654161458
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/013.png",
+        "index": 13,
+        "prompt": "A man sits beside a tent in deep blue twilight; the shelter is in shadow and its color cannot be identified.",
+        "prompt_sha256": "6cced29173990d5f93828f110d99f279762e8be7396e9d5b21f017e8a6683577",
+        "reference_id": "ve__snli_ve_test_0017__target__013",
+        "role": "target",
+        "seed": 977838052997689688
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/014.png",
+        "index": 14,
+        "prompt": "A mountaineer rests near a tent partly concealed by a mound of snow, with no clear view of its fabric.",
+        "prompt_sha256": "b792b1251b3d58e305147d8af619d2a2f3ba36a5df59d8ee3c577ef26422a4b6",
+        "reference_id": "ve__snli_ve_test_0017__target__014",
+        "role": "target",
+        "seed": 398309878487969101
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/015.png",
+        "index": 15,
+        "prompt": "A person in winter gear sits near a tent under heavy snowfall; the tent’s color remains indistinct.",
+        "prompt_sha256": "c0375ddbfab1f52b58ed1a651d83b82649edc6913c13f127da4a6c4398147c82",
+        "reference_id": "ve__snli_ve_test_0017__target__015",
+        "role": "target",
+        "seed": 421353696965426971
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/016.png",
+        "index": 16,
+        "prompt": "A man sits in the snow in front of a tent whose fabric is hidden beneath frost and a loose snow cover.",
+        "prompt_sha256": "19ee3ad87486b87a8b97fe8af1c34dc803f289dd0042c50e7e43e5d6b49c1762",
+        "reference_id": "ve__snli_ve_test_0017__target__016",
+        "role": "target",
+        "seed": 1119774212710015358
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/017.png",
+        "index": 17,
+        "prompt": "A snowy campsite shows a seated mountaineer and a tent in fog, with the tent color obscured by mist.",
+        "prompt_sha256": "88661d87d6c0fa3f3eec0549e52f5cdf40ff61049d8fa272e90dd2ade9149dd1",
+        "reference_id": "ve__snli_ve_test_0017__target__017",
+        "role": "target",
+        "seed": 527191502579846488
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/018.png",
+        "index": 18,
+        "prompt": "A person rests beside a tent viewed from far away across a snowy slope, too distant to determine its color.",
+        "prompt_sha256": "a3073820c0e1052967e8a0144ba1caf36fcf0e6bfebeda1386a1caf8966bfd51",
+        "reference_id": "ve__snli_ve_test_0017__target__018",
+        "role": "target",
+        "seed": 395567514316642478
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0017/target/019.png",
+        "index": 19,
+        "prompt": "A man sits near a tent at nightfall; only the silhouette is visible and its fabric color is indeterminate.",
+        "prompt_sha256": "b8f43dc0985fd6c6b9971e8a63bc4cd75dd222fdcc4923fba3ac99b643a3f733",
+        "reference_id": "ve__snli_ve_test_0017__target__019",
+        "role": "target",
+        "seed": 825026452377572126
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/116409198.jpg",
+    "original_image_sha256": "51979f30652483b83970fc6ea2f2f198c3c18d3648c124026167ce9212c7e63b",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "6487e83b59cefd5780d0205d694ac0a3f6b2098e82dbe1a9d59944efb791ecb2",
+    "sample_id": "snli_ve_test_0017",
+    "shard": 17,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "a guy has a blue tent.",
+      "premise_caption": "A mountaineer sits in the snow in front of a yellow tent under clear blue sky.",
+      "source_label": "contradiction",
+      "target_label": "neutral"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0017__source__000": {
+      "job_sha256": "3021c60ba1e33d98ca64fdf8cd70fcf2c42ade36ab064dcafbef11d2c7245e20",
+      "sha256": "80cf2c00b7c4d8fb8bc36454363af93731247a841ed65a19c49612ba8711e5c7",
+      "bytes": 154620,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.203151+00:00"
+    },
+    "ve__snli_ve_test_0017__source__001": {
+      "job_sha256": "bef318ed3d7c5e04f6e7f5ee8772684b49e846d155e09a3feb036f949a016c0e",
+      "sha256": "09ec340fe5bb4dd7220cac6c23518f714dff72a2e2e9348d34b62f70b30517c8",
+      "bytes": 134356,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.242880+00:00"
+    },
+    "ve__snli_ve_test_0017__source__002": {
+      "job_sha256": "f98c7f93148029be2cfae9f28d6b9cea5a9297eb137679d66167dd6e3d33f5fe",
+      "sha256": "62e5f4eb93be3e377395c153c602648613e658069c3f78463cfb32d8de03d97e",
+      "bytes": 147295,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.285946+00:00"
+    },
+    "ve__snli_ve_test_0017__source__003": {
+      "job_sha256": "031bff03e0ae3108504e29a76ab54265fcc4450aa01d31ab4599684544218d41",
+      "sha256": "e58c41426d86ca1afa9e5b580d04857974fb19c1ed1d054f7ff1d4bfebfb2d00",
+      "bytes": 151736,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.327355+00:00"
+    },
+    "ve__snli_ve_test_0017__source__004": {
+      "job_sha256": "b3dcdedbbbea701810edf31d44409b22ea1b23e2b6a8a3d9a04f363223160a54",
+      "sha256": "ebd2858714c53616c24bb130ebb38e7d566faba7c6f5dc887851ca96a325533e",
+      "bytes": 150613,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.384873+00:00"
+    },
+    "ve__snli_ve_test_0017__source__005": {
+      "job_sha256": "d795043bc40ba017d12a39ebde010f9a2adc64c38a7e08f5a17c5aec0aa2e788",
+      "sha256": "1f5c6dfb7d66145ec6fd12d872b5282872af7e26cc97013ed49097ee40929ef3",
+      "bytes": 118452,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.419268+00:00"
+    },
+    "ve__snli_ve_test_0017__source__006": {
+      "job_sha256": "171e227b927e8f007a54d4d8021d9db18450adb1bdf4d80fe3c48455596558a9",
+      "sha256": "b9b9cbc122ae640ed3500b267749159672010fc5992fc948f2c3686e1acbf8f2",
+      "bytes": 153717,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.460196+00:00"
+    },
+    "ve__snli_ve_test_0017__source__007": {
+      "job_sha256": "ce144c4c6a58ca7133b9eed34edb7fa1ef83bd324ef2af2e679130c9de80b1d2",
+      "sha256": "d55fdd5c8a80c7c0ec31e46d9e4fd2306dfab1e3922b067e6cee13705acea2fe",
+      "bytes": 150019,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.505403+00:00"
+    },
+    "ve__snli_ve_test_0017__source__008": {
+      "job_sha256": "0273bd2533c667a8b99bdfece505b8e99b5dc57c5f91b0349b82c3a5eb77a43d",
+      "sha256": "aad9ef6bd5ed111972d530725f294dcb14931215c28304dacdc9ac97689e41a1",
+      "bytes": 135187,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.551807+00:00"
+    },
+    "ve__snli_ve_test_0017__source__009": {
+      "job_sha256": "294806a31b256668802107f5fe7bbb11f42ac2cf09709bc2ed521c7730204920",
+      "sha256": "ec8ad3f73d0a31e12b98ad6f499f69047e188e4b36355ab732a13ec9ee4aa5a3",
+      "bytes": 99686,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.591225+00:00"
+    },
+    "ve__snli_ve_test_0017__source__010": {
+      "job_sha256": "472d2940c55ed379a5a92ca671c30c8972af41fa64f1a3e7947820f88b6f70a9",
+      "sha256": "868259c24154eaad2782130c636b7780629c3ab1ff4e2c961dfdf15e4eb565d3",
+      "bytes": 156952,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.630983+00:00"
+    },
+    "ve__snli_ve_test_0017__source__011": {
+      "job_sha256": "b9b92301b06cec0b9fbb38af94a5bc7b31718fdcb7199d7ff7be8d22d9554afe",
+      "sha256": "0ca36c42096728c131cca2048c4239c075ce49ecc486ce5387ee3faa7c6acce6",
+      "bytes": 141414,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.681408+00:00"
+    },
+    "ve__snli_ve_test_0017__source__012": {
+      "job_sha256": "b35bf3c2a7c795b303cc7a28818a4300c148f4c5a7035c24cbe2b5433c62bb85",
+      "sha256": "462c82c1240c1f33bbce1a34c5746a7ebc791eceb6657efd0b7afa8a00bb36a4",
+      "bytes": 151774,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.723548+00:00"
+    },
+    "ve__snli_ve_test_0017__source__013": {
+      "job_sha256": "0f0ae10a07ebcec78ae8ba753863c7ec69db65551d77c2c0147fb40cc98a1df0",
+      "sha256": "b23579adfa07229ff427f59905e79df7bee521ecd3a161f02e064e4b8b3810aa",
+      "bytes": 150071,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.763868+00:00"
+    },
+    "ve__snli_ve_test_0017__source__014": {
+      "job_sha256": "71621d7194099a1b53b1710848a77d1e7f47c504ac8a7c03a7afb8a3bbed761e",
+      "sha256": "754a9d1da21e20937b5107ef24f62d80b77d867a4c3eddfe84b4017e56583426",
+      "bytes": 150750,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.805466+00:00"
+    },
+    "ve__snli_ve_test_0017__source__015": {
+      "job_sha256": "f8b5b40454737722759a752cd86673c708e672cbd5917b4e0bd8c8ca0d5f6bd4",
+      "sha256": "7eaaee98274a3581e875829487a296f723b3757c82db9fffd04333dd4f36b096",
+      "bytes": 127894,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.846932+00:00"
+    },
+    "ve__snli_ve_test_0017__source__016": {
+      "job_sha256": "900095b0887defc9f05fea13a65d5d43b5e7f232208e4e3306d8f7c2f46fd0b0",
+      "sha256": "125669b2f0676bece1180deef839d9b66e8d11060332250aca44aa6b6b766ecd",
+      "bytes": 144878,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.883924+00:00"
+    },
+    "ve__snli_ve_test_0017__source__017": {
+      "job_sha256": "f9355071c2ad446bdd401564624cf37be29ee6f227729daa403c7f71260f688c",
+      "sha256": "3a75887c12a4aea1cea254d563626c427b46ed24b1cfcce77275d2acfff1d4b8",
+      "bytes": 124578,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.922080+00:00"
+    },
+    "ve__snli_ve_test_0017__source__018": {
+      "job_sha256": "bd5529ef4ddc00e541fb138c2a2d11f2b4a2fc5e0a1450770831e0b5090db529",
+      "sha256": "6fdc7dcaafd08c715067bd780661a7d6a78d222949b8c4af1f412bf66e86fe36",
+      "bytes": 135900,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:43.964420+00:00"
+    },
+    "ve__snli_ve_test_0017__source__019": {
+      "job_sha256": "f7adbd15da8a35fb0f587ea2ab992d34d0fa2579241475cfc00785544e0d45f6",
+      "sha256": "01ea4172946b58f977c7cf4116293c8fa953d67e33aef2df178cc4b7d5d4319c",
+      "bytes": 143139,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.013665+00:00"
+    },
+    "ve__snli_ve_test_0017__target__000": {
+      "job_sha256": "13b8f57f9b47744c15ee39b19201d75381b8bcb878bf92b106b95356d4bbecc7",
+      "sha256": "dbe873f2277875db8edca02cc2359f0492c3a85d9cb0127eaa5dfb94f198cb3b",
+      "bytes": 165814,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.058632+00:00"
+    },
+    "ve__snli_ve_test_0017__target__001": {
+      "job_sha256": "8e2c8f0322a7059706f0ba8256151b5dafc1a93d662c8a01f8900fdc0f850231",
+      "sha256": "5562b105b1d5170e2e73b1897f06d5ebcbab69352ec4c965084a51ffc54f2693",
+      "bytes": 150931,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.102939+00:00"
+    },
+    "ve__snli_ve_test_0017__target__002": {
+      "job_sha256": "893c5d603b6a9bf42e3fc059932b7aa182e73dc1cda2858a9e92ddb6c754fd24",
+      "sha256": "cd65368d998c5bf9cde27c5d3b7e0a84a419b04ec0c2f6c7ff3c3ca13ad33ade",
+      "bytes": 98906,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.144895+00:00"
+    },
+    "ve__snli_ve_test_0017__target__003": {
+      "job_sha256": "b497a378f414cb05c2fa2e23b744a7b6cf65b5c2d6496a26bdf0b504d7f5850b",
+      "sha256": "91c491e91512c039383f8b3cc8d108089dba451c0b736beb12cf4ff33c4d4d64",
+      "bytes": 120252,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.195959+00:00"
+    },
+    "ve__snli_ve_test_0017__target__004": {
+      "job_sha256": "0e9966697aaa743f7bea7be72e27d1dd0b8573a953beb25169e3d732cbf779ef",
+      "sha256": "3b266d11be417ee20abab1f5037719c5b15430f78f6fcd73752fc1e3eb65ef35",
+      "bytes": 114413,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.233260+00:00"
+    },
+    "ve__snli_ve_test_0017__target__005": {
+      "job_sha256": "d1b7c73b56ab4d5e485fab511d3097db6e4cc11ae9b4d40d856636ad785ab423",
+      "sha256": "ebcfe09dbd3df5b8b494b5a2279cabf794166b83d6f29d5219a298aa4991a576",
+      "bytes": 142492,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.277256+00:00"
+    },
+    "ve__snli_ve_test_0017__target__006": {
+      "job_sha256": "33c75999af0fb6c8b3e187944e87bb42a82bc0f7ba7d67ee3c39692f74414f25",
+      "sha256": "26959207889dc48e566a7ca823ce44d686986895dddd58b7ca6e8459c130c2ef",
+      "bytes": 151124,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.322737+00:00"
+    },
+    "ve__snli_ve_test_0017__target__007": {
+      "job_sha256": "24f59c642390c763d46a006b4f6f1e0bb66dbae12d283f87c3141bc6d25833bb",
+      "sha256": "d0018efad0a9be09304e7e29625ee4905eb7c766679de3e57681d72d18519209",
+      "bytes": 148184,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.365521+00:00"
+    },
+    "ve__snli_ve_test_0017__target__008": {
+      "job_sha256": "dece505360fc6dfc37dadce0d7089724562057a9a53a92da2b2ad42caa956353",
+      "sha256": "3dbe2701da7918afebe87e653a6be359e67218be0af231028a29b7bb46a1fb7b",
+      "bytes": 114359,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.400012+00:00"
+    },
+    "ve__snli_ve_test_0017__target__009": {
+      "job_sha256": "08637a3192008fcc8975ed7cc266ff8f137fae63c7db3637fee0e84083b7a168",
+      "sha256": "38c716a2d044d708c7c9b61c4173e237ca341d3c3e5b9dc0ba67993fbda1c1a6",
+      "bytes": 112683,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.435666+00:00"
+    },
+    "ve__snli_ve_test_0017__target__010": {
+      "job_sha256": "62b310f36754b047d871a585789db63d23525fe4850ee13a38ef7398d8d1b3cf",
+      "sha256": "abb6f64f0935c6e220c9c896b010efd2d93cc8c65a4d984ce2520ccd81046870",
+      "bytes": 165230,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.479983+00:00"
+    },
+    "ve__snli_ve_test_0017__target__011": {
+      "job_sha256": "66cd008057015d3147c19a599a858fab1592ce518f3abcca32f3eaf5bd7bfef7",
+      "sha256": "23b90e92168a4406a5d58147dc04a7ef78344539dcb3d0c0a56b6c0a5213344e",
+      "bytes": 121817,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.518759+00:00"
+    },
+    "ve__snli_ve_test_0017__target__012": {
+      "job_sha256": "fd9d419a2a17ccda3b24500463aad1744790aa14fd900c3a3349837f69dce12c",
+      "sha256": "1949ed18712b76e5816dfb2826b639defb2ed94c946763ce0562f7b9151fbc6a",
+      "bytes": 125008,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.562933+00:00"
+    },
+    "ve__snli_ve_test_0017__target__013": {
+      "job_sha256": "b8324f591d5a4818ebff65186848b65d5ab5f5bb49c68639987ee996f7612796",
+      "sha256": "cde134a5895545c7ca17869e229bfac4a71b3c5f98480c1cc2c902cca5e4baa1",
+      "bytes": 117350,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.599639+00:00"
+    },
+    "ve__snli_ve_test_0017__target__014": {
+      "job_sha256": "2ab63812270973192ebea6fb2cd07ab770a42dca825a6ed271e8c3103ca56d9b",
+      "sha256": "ca0ce9543ca684094a4a26c7908e1e0e84a5920cb7cce3cae251022c36051ac2",
+      "bytes": 110999,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.634810+00:00"
+    },
+    "ve__snli_ve_test_0017__target__015": {
+      "job_sha256": "9bc231fed6b28930b51eb9cbb5d320e9ad39a7a1efe7dbe9678a245d2414f219",
+      "sha256": "39c1fa2a72c7cf4d7644566258b70f97d41f8eddbf31f2ba4bcf60e88ad21f73",
+      "bytes": 144773,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.688625+00:00"
+    },
+    "ve__snli_ve_test_0017__target__016": {
+      "job_sha256": "0994bab977a76b353ca07f299fa259a3577ea758be8a29a60c61d059a9a3d010",
+      "sha256": "e1b786d3a799f33ec262eeb7127fac8ef0f092b162174f50d14073f621385412",
+      "bytes": 135189,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.731336+00:00"
+    },
+    "ve__snli_ve_test_0017__target__017": {
+      "job_sha256": "d02286a51a9a277cd0c7d2371a2813448e2d21c5ea12f76089b616e9e607c79a",
+      "sha256": "c77a2fc0252c463d56c2995ea2a37843049055e26a4dc9a7ed66885d3321c519",
+      "bytes": 103384,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.771456+00:00"
+    },
+    "ve__snli_ve_test_0017__target__018": {
+      "job_sha256": "c6d65aba73af218453a3ca5e63d67f7b65e30c5340cfe12af27bfa4913ec9876",
+      "sha256": "57ec0e88f91641c6fbe10ceac4c13b5ea0b580927edf0b227a3822bd5a0c4197",
+      "bytes": 93915,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.804253+00:00"
+    },
+    "ve__snli_ve_test_0017__target__019": {
+      "job_sha256": "fae43acb59f33fa3e161ffb0375c9ec4b94b785a3d415de0790ca5bd7e66126d",
+      "sha256": "3f9873ff6af7299857bb750131c7d73abd3ebdc6a2313410e43389c9f4780950",
+      "bytes": 114474,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.99754877947271,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.84375,
+      "generated_utc": "2026-10-25T17:49:44.845576+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:49:44.845599+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "6594f858a5fac7ab00780d3af971ce6832f30861b373bde06c05402fad26ce5f",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "28511d71428154f896445d543f582568bd1923073f4aa90108df86e1b16d250f",
+      "notes": "Every source prompt depicts a brown bear sitting; every target prompt shows the bear standing on all fours. Clear yes/no contrast.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0014/source/000.png",
+        "index": 0,
+        "prompt": "A brown bear sits upright on a grassy field, facing the camera with front paws resting on the ground.",
+        "prompt_sha256": "13dd4386537e6150bd20103cd447f730f256eed872dbd85ace07d98b524fbbd1",
+        "reference_id": "vqa__vqa_val_0014__source__000",
+        "role": "source",
+        "seed": 744164685474707315
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a seated brown bear in a meadow, surrounded by tall green grass and soft natural light.",
+        "prompt_sha256": "300074ecaa0fa74a93729085ce8b3b141555349f51a347c786c999dac3d83629",
+        "reference_id": "vqa__vqa_val_0014__source__001",
+        "role": "source",
+        "seed": 828072691673184419
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a brown bear sitting on the grass, showing its head and upper body clearly.",
+        "prompt_sha256": "8286ee2facc2f7ab47cae3a001ef0e213362ecabc0a263fd33e59903b16465ff",
+        "reference_id": "vqa__vqa_val_0014__source__002",
+        "role": "source",
+        "seed": 217209028522052333
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/003.png",
+        "index": 3,
+        "prompt": "A brown bear sits with its head turned slightly to the left, resting on a patch of green grass.",
+        "prompt_sha256": "fb3f4f574d7b355fcc594a4ccad6b6a22a73a5701a927b63c0e17d96512e76d1",
+        "reference_id": "vqa__vqa_val_0014__source__003",
+        "role": "source",
+        "seed": 980567036852770390
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a brown bear sitting calmly on a grassy slope, with blurred foliage in the background.",
+        "prompt_sha256": "e1957feab35ec2defec0c14b964b2c89f4bbe3d8efef6fb501002e714e487550",
+        "reference_id": "vqa__vqa_val_0014__source__004",
+        "role": "source",
+        "seed": 687536566561328378
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/005.png",
+        "index": 5,
+        "prompt": "Wide crop showing a brown bear sitting in the center of a grassy field, with distant trees on the horizon.",
+        "prompt_sha256": "7dc3c48745f1b4065d95b121779eb48c487e6f69e937bd8e868ee0b190e1022d",
+        "reference_id": "vqa__vqa_val_0014__source__005",
+        "role": "source",
+        "seed": 512178800527636480
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/006.png",
+        "index": 6,
+        "prompt": "Side angle view of a brown bear sitting on the grass, profile visible with front legs extended forward.",
+        "prompt_sha256": "6543be0a598a86b40780d58e5b958d89d6830a0ca06283f7abf47ef134b72348",
+        "reference_id": "vqa__vqa_val_0014__source__006",
+        "role": "source",
+        "seed": 731783725840275165
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/007.png",
+        "index": 7,
+        "prompt": "A brown bear sits on a grassy bank, with a few scattered wildflowers visible in the immediate foreground.",
+        "prompt_sha256": "6a7df6ef6ab6c5fc627b4677e307c259cca4777178566aa047e161aaa322d2cc",
+        "reference_id": "vqa__vqa_val_0014__source__007",
+        "role": "source",
+        "seed": 710612586351258573
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a brown bear sitting naturally in a field, looking relaxed and alert in the daylight.",
+        "prompt_sha256": "4ceb4bb0945ba6a87130194e0cfafb446aa4d1bdeb32a1363ffb4052807a8c55",
+        "reference_id": "vqa__vqa_val_0014__source__008",
+        "role": "source",
+        "seed": 652861735181826073
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/009.png",
+        "index": 9,
+        "prompt": "Another brown bear sits on a patch of dirt and grass, its body low to the ground in a resting pose.",
+        "prompt_sha256": "4c42159c7c4a7cd4471b5acef62992cd3d63be18d398ee2bf6ee7bfa3b38ed2d",
+        "reference_id": "vqa__vqa_val_0014__source__009",
+        "role": "source",
+        "seed": 186288298114159049
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/010.png",
+        "index": 10,
+        "prompt": "Slightly elevated viewpoint of a brown bear sitting on a grassy field, looking down towards the lens.",
+        "prompt_sha256": "17bcce8b2b6363457c4b1fc6110796216dcb1937a2278898ff0d580afcacb7e9",
+        "reference_id": "vqa__vqa_val_0014__source__010",
+        "role": "source",
+        "seed": 137781629870155548
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/011.png",
+        "index": 11,
+        "prompt": "Natural medium framing of a seated brown bear in a lush green environment, with even lighting.",
+        "prompt_sha256": "f58f33bbfd5f94c80405f37e6c3ba6cdaf964411be2701bef5b4d301f898f1f1",
+        "reference_id": "vqa__vqa_val_0014__source__011",
+        "role": "source",
+        "seed": 243044169926704388
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/012.png",
+        "index": 12,
+        "prompt": "Slightly closer perspective of a brown bear sitting on the grass, emphasizing its facial features and posture.",
+        "prompt_sha256": "58e762f1c77888647a6e96d883eb9ebbd22100ae48e2d332fc4842ce2f47b457",
+        "reference_id": "vqa__vqa_val_0014__source__012",
+        "role": "source",
+        "seed": 315283827702372368
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/013.png",
+        "index": 13,
+        "prompt": "A brown bear sits with its hind legs tucked under it, facing forward on a grassy patch.",
+        "prompt_sha256": "828e4c1fa1f16a39dbdf086cd9b1efae65d177983dd19c1e41ef468e74e66bd1",
+        "reference_id": "vqa__vqa_val_0014__source__013",
+        "role": "source",
+        "seed": 79713269266010717
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/014.png",
+        "index": 14,
+        "prompt": "Ordinary soft daylight scene of a brown bear sitting on a grassy hill, with a calm demeanor.",
+        "prompt_sha256": "852f092525773720cfc17fca17bb3ceda6c96442834eb431127941d550c6bf33",
+        "reference_id": "vqa__vqa_val_0014__source__014",
+        "role": "source",
+        "seed": 548946121623123498
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/015.png",
+        "index": 15,
+        "prompt": "Subtly wider crop of a brown bear sitting in a field, showing more of the surrounding vegetation.",
+        "prompt_sha256": "0a2f6598c25caefd86aeb4633ee756e67f3ab61946b521a4b8eeec475b5d4da6",
+        "reference_id": "vqa__vqa_val_0014__source__015",
+        "role": "source",
+        "seed": 364883574202624610
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of a brown bear sitting on the grass, with its body angled slightly away from the viewer.",
+        "prompt_sha256": "025fb2efd548ae2cc3dd229c55fca6a3fe179be696ce3bd535da2506f726bbec",
+        "reference_id": "vqa__vqa_val_0014__source__016",
+        "role": "source",
+        "seed": 908047434889942148
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/017.png",
+        "index": 17,
+        "prompt": "A brown bear sits on a grassy slope, with a small rock visible near its front paws.",
+        "prompt_sha256": "513bd61c5b83b17b0fbb9284c26da9790ffc10e4fdd92eba981ceaa326c26dd5",
+        "reference_id": "vqa__vqa_val_0014__source__017",
+        "role": "source",
+        "seed": 297452034959226317
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/018.png",
+        "index": 18,
+        "prompt": "Natural candid composition of a brown bear sitting in a meadow, captured in a relaxed moment.",
+        "prompt_sha256": "1f7690ddf8217183ddc26af83c431f78bdd65d6370a67d2990188501b596550b",
+        "reference_id": "vqa__vqa_val_0014__source__018",
+        "role": "source",
+        "seed": 175433717179299233
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/source/019.png",
+        "index": 19,
+        "prompt": "An ordinary brown bear sits on a grassy field, its posture stable and grounded in the environment.",
+        "prompt_sha256": "c0cf12ce21d41eebd55a0db1077067ac769471b945f86f36c0c3a5ec0cd849d8",
+        "reference_id": "vqa__vqa_val_0014__source__019",
+        "role": "source",
+        "seed": 102269895659399657
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/000.png",
+        "index": 0,
+        "prompt": "A brown bear stands on all four legs on a grassy field, facing the camera with a natural upright posture.",
+        "prompt_sha256": "328f522c512fa4c90a96dbd8cca9d9a3314ad648311a49f6fa1506b61fbb2d30",
+        "reference_id": "vqa__vqa_val_0014__target__000",
+        "role": "target",
+        "seed": 2051912535572499
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a brown bear standing in a meadow, surrounded by tall green grass and soft natural light.",
+        "prompt_sha256": "0a40033a64ea2370b6a82121f2a0891e93ac4a154650340eda7588a04fb7d711",
+        "reference_id": "vqa__vqa_val_0014__target__001",
+        "role": "target",
+        "seed": 468266059895329600
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a brown bear standing on the grass, showing its head and upper body clearly.",
+        "prompt_sha256": "ac63e346413ecb134af2bb43de927e935d30364af3e2ede778b652564b5fe672",
+        "reference_id": "vqa__vqa_val_0014__target__002",
+        "role": "target",
+        "seed": 1133320037525514066
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/003.png",
+        "index": 3,
+        "prompt": "A brown bear stands with its head turned slightly to the left, positioned on a patch of green grass.",
+        "prompt_sha256": "255bbf3c350d5e9b0a506125f04902f9b336cf1faa4740ae6fcf6c89a5691f6a",
+        "reference_id": "vqa__vqa_val_0014__target__003",
+        "role": "target",
+        "seed": 1056101437423591322
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a brown bear standing calmly on a grassy slope, with blurred foliage in the background.",
+        "prompt_sha256": "3210c80dc0f90181adfa3595e0de783d19bd357b48b2b90c9b58f32d532c0ade",
+        "reference_id": "vqa__vqa_val_0014__target__004",
+        "role": "target",
+        "seed": 480077758227709811
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/005.png",
+        "index": 5,
+        "prompt": "Wide crop showing a brown bear standing in the center of a grassy field, with distant trees on the horizon.",
+        "prompt_sha256": "9ba7ac38d7d45c10d11b0fb9fdf67875145f9f1596457ba298210fe78fcdad78",
+        "reference_id": "vqa__vqa_val_0014__target__005",
+        "role": "target",
+        "seed": 955010910466011450
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/006.png",
+        "index": 6,
+        "prompt": "Side angle view of a brown bear standing on the grass, profile visible with legs extended.",
+        "prompt_sha256": "73ca40780695e8d6de9ddb90e38e71bad550b5a36fd65e2994ad1bdfd1ecbd77",
+        "reference_id": "vqa__vqa_val_0014__target__006",
+        "role": "target",
+        "seed": 836408357144337917
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/007.png",
+        "index": 7,
+        "prompt": "A brown bear stands on a grassy bank, with a few scattered wildflowers visible in the immediate foreground.",
+        "prompt_sha256": "6c542cf0053a14b8353ca25d6fe5927db84c7c9bb07fc8b86abdc7a5b6320987",
+        "reference_id": "vqa__vqa_val_0014__target__007",
+        "role": "target",
+        "seed": 986543825077238908
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a brown bear standing naturally in a field, looking alert and upright in the daylight.",
+        "prompt_sha256": "dccfbb22e157fe872df8c3687554ef04a920f66226d4a69fe01d19e66e952f8f",
+        "reference_id": "vqa__vqa_val_0014__target__008",
+        "role": "target",
+        "seed": 93042362587395413
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/009.png",
+        "index": 9,
+        "prompt": "Another brown bear stands on a patch of dirt and grass, its body upright on all fours.",
+        "prompt_sha256": "bf698717ab43b6ce36666b14359fdee2eadd96e87cc6866095c559cec7742bc9",
+        "reference_id": "vqa__vqa_val_0014__target__009",
+        "role": "target",
+        "seed": 1095067085838987565
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/010.png",
+        "index": 10,
+        "prompt": "Slightly elevated viewpoint of a brown bear standing on a grassy field, looking towards the lens.",
+        "prompt_sha256": "d239e94d5577bdd1fb932f2a59ed8b71b11da747f73eb234d7b1ead5cf07db81",
+        "reference_id": "vqa__vqa_val_0014__target__010",
+        "role": "target",
+        "seed": 1073035891148215143
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/011.png",
+        "index": 11,
+        "prompt": "Natural medium framing of a standing brown bear in a lush green environment, with even lighting.",
+        "prompt_sha256": "dd2790571dc72c752ba2da18951a531f02cd5bc169b6ef424dc1d0e23a739209",
+        "reference_id": "vqa__vqa_val_0014__target__011",
+        "role": "target",
+        "seed": 1097656151318508030
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/012.png",
+        "index": 12,
+        "prompt": "Slightly closer perspective of a brown bear standing on the grass, emphasizing its facial features and posture.",
+        "prompt_sha256": "59b817d39f6906e8c894435707a6e756694dd001e567f0f4629f4b5084284ed8",
+        "reference_id": "vqa__vqa_val_0014__target__012",
+        "role": "target",
+        "seed": 998962786440025242
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/013.png",
+        "index": 13,
+        "prompt": "A brown bear stands with its legs straight, facing forward on a grassy patch in a natural setting.",
+        "prompt_sha256": "15450060fa8469dbf6a3765695385291fb134d04c4a48653618752b596aa5233",
+        "reference_id": "vqa__vqa_val_0014__target__013",
+        "role": "target",
+        "seed": 1017604399496964790
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/014.png",
+        "index": 14,
+        "prompt": "Ordinary soft daylight scene of a brown bear standing on a grassy hill, with a calm demeanor.",
+        "prompt_sha256": "2ece9cbeb6f0f1589e1ea718b6022ce2f40185170536a739d95167b3b48699e0",
+        "reference_id": "vqa__vqa_val_0014__target__014",
+        "role": "target",
+        "seed": 311745885319265962
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/015.png",
+        "index": 15,
+        "prompt": "Subtly wider crop of a brown bear standing in a field, showing more of the surrounding vegetation.",
+        "prompt_sha256": "e759cc44074cf3c2873aeb7af4b90c8ce2aa2324d1e7821edb13852b334759be",
+        "reference_id": "vqa__vqa_val_0014__target__015",
+        "role": "target",
+        "seed": 762193837092232935
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of a brown bear standing on the grass, with its body angled slightly away from the viewer.",
+        "prompt_sha256": "b7fa7c7c9630d2678fc7b7eb93f21327a000c8d9877a8f4caa0b60d485cc4e7c",
+        "reference_id": "vqa__vqa_val_0014__target__016",
+        "role": "target",
+        "seed": 427999193368788976
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/017.png",
+        "index": 17,
+        "prompt": "A brown bear stands on a grassy slope, with a small rock visible near its front paws.",
+        "prompt_sha256": "99f4bf3c8a1229341bc86fcb50069b1ccd106d8c5ad01584205f78385935328a",
+        "reference_id": "vqa__vqa_val_0014__target__017",
+        "role": "target",
+        "seed": 93225415200394362
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/018.png",
+        "index": 18,
+        "prompt": "Natural candid composition of a brown bear standing in a meadow, captured in a relaxed moment.",
+        "prompt_sha256": "36ec16eaccaf02d5669779d6e5d3cd831888de3c45e4bfe80ac936aa4089af30",
+        "reference_id": "vqa__vqa_val_0014__target__018",
+        "role": "target",
+        "seed": 19143395220590007
+      },
+      {
+        "image": "samples/vqa/vqa_val_0014/target/019.png",
+        "index": 19,
+        "prompt": "An ordinary brown bear stands on a grassy field, its posture upright and grounded in the environment.",
+        "prompt_sha256": "3d1a36531086f54981c8d9a4b9b9eb80be061aa9d0b583b5998084a735ab5f47",
+        "reference_id": "vqa__vqa_val_0014__target__019",
+        "role": "target",
+        "seed": 88885913649824916
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000285.jpg",
+    "original_image_sha256": "f3a2974ce3686332609124c70e3e6a2e3aca43fccf1cd1bd7c5c03820977f57d",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "6594f858a5fac7ab00780d3af971ce6832f30861b373bde06c05402fad26ce5f",
+    "sample_id": "vqa_val_0014",
+    "shard": 118,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "Is the bear sitting?",
+      "source_answer": "yes",
+      "source_answers": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "target_answer": "no"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0014__source__000": {
+      "job_sha256": "8e2702932fba701cb4c5313de51746c95232307f569e002033d7faa46f624d58",
+      "sha256": "cfd2486fdd9974b66cc4b0c9ccc0796829fb77ac0c0f3d8c5457325b8cb06578",
+      "bytes": 162490,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.081700+00:00"
+    },
+    "vqa__vqa_val_0014__source__001": {
+      "job_sha256": "95a8b4ebde712527751ba97ebdd4b28073d3399eea3ebf76b17ca24e512f60df",
+      "sha256": "8a1081341d2f8f37490727b5a6dc813d5fea618dfdb37f3a43defd6a89471a67",
+      "bytes": 164975,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.125874+00:00"
+    },
+    "vqa__vqa_val_0014__source__002": {
+      "job_sha256": "1cad469ba2b02cd40c4ff1b1f00aca126bec7ae46e1b0331de4a3b05ed355414",
+      "sha256": "e7350fcf7fb52211786a9645f16014980f00cb154997aba9d5fd399037adcf3c",
+      "bytes": 167077,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.163648+00:00"
+    },
+    "vqa__vqa_val_0014__source__003": {
+      "job_sha256": "23e4aa165d680b090f779c879578a27bf2ae94a4e8c84b324016ae598b4d1163",
+      "sha256": "4364114d9c377a51c37bae057a879d6040e3cb65545b04b3ff575d38551fa036",
+      "bytes": 170621,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.207038+00:00"
+    },
+    "vqa__vqa_val_0014__source__004": {
+      "job_sha256": "022946f1ac7d78a4f1f10e163e333d39257701c35f37e1a43f35a84bd66e379d",
+      "sha256": "55e259884e75f0d8476b221dbb67155d31770947723c39fd712f526b1edc21d4",
+      "bytes": 170818,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.251255+00:00"
+    },
+    "vqa__vqa_val_0014__source__005": {
+      "job_sha256": "71e1e8528d3efdb631189dca0f5cc6013156a1c2e00a5a39be0bd7c84e0de726",
+      "sha256": "e9a28d9327b083899c6e912442ea5bc26af50214f2ce53f39901c7022369c2dc",
+      "bytes": 121617,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.290359+00:00"
+    },
+    "vqa__vqa_val_0014__source__006": {
+      "job_sha256": "8adb3a9fba465430b9c3f3de315a5be7d97b97a10f3afcb8b72d37970eaaa3a6",
+      "sha256": "c9e4fcbcecaeb0f8eaf7e51d2afd0169f29ccf0bde4591b3f1af5c7d95415481",
+      "bytes": 167453,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.328067+00:00"
+    },
+    "vqa__vqa_val_0014__source__007": {
+      "job_sha256": "002f01b55c0a50c7ef258a5e6bfdd0294fde02a8fb7d05be9ca751cf9dc7f631",
+      "sha256": "464ff32680d9cec12b977dcc9be82c1643f4fbeb7350e6cccf92dad04efe0cd8",
+      "bytes": 158229,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.370743+00:00"
+    },
+    "vqa__vqa_val_0014__source__008": {
+      "job_sha256": "04543534496548bd09bc2b2211c97839088ab67f3dcbf4eeb84b6d3547b953c9",
+      "sha256": "b9caf2c20949ba1ea893cb2cba3025982a744c0bf754b7d190f8bb25101f53ef",
+      "bytes": 165086,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.408113+00:00"
+    },
+    "vqa__vqa_val_0014__source__009": {
+      "job_sha256": "2357677459f46574c225918b92c2578b66a5c400fbfd14bd38e03bc6aac76586",
+      "sha256": "c2aab774babd9d6f0360c49fed520583251704ff5ee2f059d603fca365263dbe",
+      "bytes": 179231,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.448845+00:00"
+    },
+    "vqa__vqa_val_0014__source__010": {
+      "job_sha256": "50c23c5793adc36298f2d0441df792c381fc682ba09ebd11cc6c9e7a35b12b18",
+      "sha256": "7b4e10e6f859aa562bb5646932069c0c6476716e074f93d2962aa3d0caa8d24d",
+      "bytes": 165252,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.490582+00:00"
+    },
+    "vqa__vqa_val_0014__source__011": {
+      "job_sha256": "8f3d002973a7151afa3f468a901cc75f988fe57d242b07fcb326d72da9ca78d2",
+      "sha256": "4d3bafddc6b6446082c87f5ab8ad2df83cac268bae0b65bac65073d50d8a14b9",
+      "bytes": 180109,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.546896+00:00"
+    },
+    "vqa__vqa_val_0014__source__012": {
+      "job_sha256": "be25bf1eed65d951874c6d2762baca529f25734e892ee4c0fb5fc2648305d4bd",
+      "sha256": "049da967bd727d38caf5da7b81ea031cd55d043eededbf1a8bdb115544e3a269",
+      "bytes": 173501,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.592790+00:00"
+    },
+    "vqa__vqa_val_0014__source__013": {
+      "job_sha256": "29a2d13935f3fd8909610a7b69086ae6defb99a848efa607f35e2a756d93b1e3",
+      "sha256": "a2fd912e5063a7de99db20e1157e76bfc4cddffa6a8e80d91bd115a53ab66ddb",
+      "bytes": 182506,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.637596+00:00"
+    },
+    "vqa__vqa_val_0014__source__014": {
+      "job_sha256": "a52a8f4278280624df6fa48baee632ef8c3a4beb1f5b4893f2e96538a75b301e",
+      "sha256": "10068971ff31b5382388ae1f9eed6b1558527f82a35ef3c82553cf89e6b6a27f",
+      "bytes": 158256,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.681203+00:00"
+    },
+    "vqa__vqa_val_0014__source__015": {
+      "job_sha256": "bcad088a241ef17a0b7536c84a9f1d8c2bd0f99878de546b7b01bae2f8e5ae81",
+      "sha256": "6766b2458439e91eeec44f4f7b63c5885b42e6917bbc5da97b318740023b515b",
+      "bytes": 172345,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.724849+00:00"
+    },
+    "vqa__vqa_val_0014__source__016": {
+      "job_sha256": "853e6fc72d4a70c9775eeedca073ceab948b0902c1713c451cc606c5e51b15b5",
+      "sha256": "57f47484ddf3a675a6ef2639c895a8ce1e5c8dcb5621058177222228277a7432",
+      "bytes": 166829,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.763190+00:00"
+    },
+    "vqa__vqa_val_0014__source__017": {
+      "job_sha256": "d13452b69fc4b90f6750090a88d04edb27b4094a02d6be013de5398b1ca5fc54",
+      "sha256": "a6dc94798d73d2fc53abf1376182cff1c6abd8df2584840fa5773bbf6f6677d5",
+      "bytes": 198345,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.801102+00:00"
+    },
+    "vqa__vqa_val_0014__source__018": {
+      "job_sha256": "590ca08645ee100f1e3e46bf95c86533d116b8251d8fd88b14c12755bec2ed62",
+      "sha256": "b6a56dbc2447b96fc935d04d8363bb146eecfad3a5e871f8ac26ecda7549269e",
+      "bytes": 162731,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.841815+00:00"
+    },
+    "vqa__vqa_val_0014__source__019": {
+      "job_sha256": "9a1ff0d1b2017151a98c58d4105921cf03198690123449972a4037e06daf4d65",
+      "sha256": "f34b4410f920b7b3bee357789355c99c9679b63487b76fdcefb8517377451aea",
+      "bytes": 162565,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.891431+00:00"
+    },
+    "vqa__vqa_val_0014__target__000": {
+      "job_sha256": "13e632b2aa2708edaaf39b693ea08cd3cd5a66844d13c48e97a76c1455d5725e",
+      "sha256": "affb84d1910a62f16e2d2aba711a3bc3c6496bd156cc2a4bbf0fd318b5c13660",
+      "bytes": 158780,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.944883+00:00"
+    },
+    "vqa__vqa_val_0014__target__001": {
+      "job_sha256": "833aeb27a799038fa986a898b3d58cd34c4254a298806ca437eedd19908004f3",
+      "sha256": "c44617007b68d476d63a30332bf055f743b6e709d740b15059c9e2c6f570cd49",
+      "bytes": 172485,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:12.989105+00:00"
+    },
+    "vqa__vqa_val_0014__target__002": {
+      "job_sha256": "f869aef865d7ba55dfb5f05f642d9b5a800480a1f1557d0dd803b2e7b20548b3",
+      "sha256": "d72e4c4e5afc31da1c5b7ca155cfd6a62aba224a5189af328c794c7447a4db0f",
+      "bytes": 170735,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.039177+00:00"
+    },
+    "vqa__vqa_val_0014__target__003": {
+      "job_sha256": "2fc8175fbbb5468c0e3a9ccfdd67e23d4eac0330bd13f38c768c0d854094dd1b",
+      "sha256": "b38ed84f750b17c27cd1a31383737d2f8cfc621a5d0b5eaa18d1bdca4af7ec3d",
+      "bytes": 176109,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.078741+00:00"
+    },
+    "vqa__vqa_val_0014__target__004": {
+      "job_sha256": "43c49f3090f2d8f620beeb30a0c93969a604d9a4fb5cb9c1b22c4b9e876ebb34",
+      "sha256": "8e6873076042c91f8e2b81d2898d78ea89d0ac6f8e5c116a6ce4a787b3cbba65",
+      "bytes": 174059,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.125489+00:00"
+    },
+    "vqa__vqa_val_0014__target__005": {
+      "job_sha256": "ea8e5b8b1c6cf0d39a646559ac99b8bff7e56734ba96bf92928cb439116c6cd1",
+      "sha256": "feadcaf2cd80793c7dc4f5c510ea943bd668f1606a5a33ad6dc0fba54a2f4510",
+      "bytes": 131868,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.168993+00:00"
+    },
+    "vqa__vqa_val_0014__target__006": {
+      "job_sha256": "2bbce2cbda75cf563482dfb56e0dd0b856b6f98abe7c5299615379eb9605a4ac",
+      "sha256": "a55a2cbae3682eb442106f64bdd02a94f50b63ec325ee04b305b9667bc2a39a9",
+      "bytes": 169121,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.207814+00:00"
+    },
+    "vqa__vqa_val_0014__target__007": {
+      "job_sha256": "dd371f42b4f4b5b81aaf4f7e18fd704526408613042dc45143aa88193793f4dd",
+      "sha256": "dbc13c80a3618c10abd9ba1eb39f1322ecfa23c6e4d41f995462b18cea38002c",
+      "bytes": 165979,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.253541+00:00"
+    },
+    "vqa__vqa_val_0014__target__008": {
+      "job_sha256": "1191600e0cbb9f2bd56ecd3cdf47373c347c42262447e9e81d8416b1fc9b0803",
+      "sha256": "cd89997ed03b3159e3cfb60201ac8f768a62fca64ee73015832206340321bfdb",
+      "bytes": 165297,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.299410+00:00"
+    },
+    "vqa__vqa_val_0014__target__009": {
+      "job_sha256": "eb0679c0cdb9987fa21d71a562770c9054c3659ce84327a80110e490576769b5",
+      "sha256": "bd09e002e1cc15ac7a36455d1fd7f718cea982bbf77c29a0c26960e255b433c1",
+      "bytes": 170299,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.345821+00:00"
+    },
+    "vqa__vqa_val_0014__target__010": {
+      "job_sha256": "c75ccf047e8f44cbfe2ef280b0dd2342287014ce9cbce521b204f675d9e22649",
+      "sha256": "5099965947c42afab1bfdedee4a28e56508de4670531ee2c5254ccf7525b0cd2",
+      "bytes": 161860,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.384449+00:00"
+    },
+    "vqa__vqa_val_0014__target__011": {
+      "job_sha256": "73e933869621a7f41a762f20fc2c0e9f41e4fb79adc7bf64e95efa5b13a715fb",
+      "sha256": "9cdbb5c933a1a11da2573aea501d192d10ff9ffffd57469432b6528c7bf2adbf",
+      "bytes": 180209,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.431255+00:00"
+    },
+    "vqa__vqa_val_0014__target__012": {
+      "job_sha256": "2e8b0d83ff24b83a7472523396b9d22703a0648ff32df6130ee4d9547aeb0e3f",
+      "sha256": "d1e5fd2dfbf866157941321a3b95f7b104a9abea972c70600e60280556f2f5ab",
+      "bytes": 171682,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.478382+00:00"
+    },
+    "vqa__vqa_val_0014__target__013": {
+      "job_sha256": "0332c543e8b4314bca16f056dc8723d01f9265125c9136d0bd291be198808643",
+      "sha256": "6a429195f5c016b593eca9c3ceb2a93d032b45ef01e0f8bf9d4d9a9f2d8a9ed8",
+      "bytes": 165541,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.530025+00:00"
+    },
+    "vqa__vqa_val_0014__target__014": {
+      "job_sha256": "9e3a6907cb006ab85c95153e1ff5e3ce9e70d5323aadd28e0012ee30e1b0872c",
+      "sha256": "34b52a9f633c2899097792eba8418b0b17d04f81b127b04c7cd064e7a96cbe8d",
+      "bytes": 161941,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.575999+00:00"
+    },
+    "vqa__vqa_val_0014__target__015": {
+      "job_sha256": "cb172c1821a1f771bddfb4437bba99eb219fc4a126ef89953442b70fa608c7b3",
+      "sha256": "cf2ebef773357d3781e3e13b3e06aaacb48a03550fae97308fa6750af30a0512",
+      "bytes": 172491,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.619167+00:00"
+    },
+    "vqa__vqa_val_0014__target__016": {
+      "job_sha256": "bd1b5f664f51fff3b94fff6fbb9af9eb7d8df8039d52165226983f63dd070ada",
+      "sha256": "9c3508bdf702871e8083a2636ac263bd45eb1ca0dec2be2b027535d36e40afbf",
+      "bytes": 164176,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.663217+00:00"
+    },
+    "vqa__vqa_val_0014__target__017": {
+      "job_sha256": "42d1a8dbc86bd7fed82d1084878f3a86a19531c0277e8d095908389d2a05ec78",
+      "sha256": "68db60f2b9af07bc6ef65c5a16292bb0bc0d6bdcdcb990c09b366574428bc79c",
+      "bytes": 195762,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.708631+00:00"
+    },
+    "vqa__vqa_val_0014__target__018": {
+      "job_sha256": "1f7bcd3878a9d03c793dca38019183106e390d575197bb777d099809a969f0c2",
+      "sha256": "a59626e85f3940284562ed4517e7582a647abac67c9682e7761093fcf6bea46d",
+      "bytes": 161574,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.751842+00:00"
+    },
+    "vqa__vqa_val_0014__target__019": {
+      "job_sha256": "53f5caf580ccda048024fe0e17b3e74429fff66ecfffb6c2f22190475dc29575",
+      "sha256": "7b882644d906bf6bb178f0e30e4b01afd7c3c2c586dd9fac8b63e3cd3fbe0594",
+      "bytes": 164189,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 25.555382463149726,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:08:13.795429+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:08:13.795445+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "2ad76fd12852ff79389b788683f048ebbaf4eb603c2a51421b68a8da0fb180e7",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "30895a644c55fc3932415b95daa6f8d4c840d4b2fbe1e72795d69b7004fd4caa",
+      "notes": "All source prompts specify a red car at the far right; all targets specify a black car at the far right, matching question and answer direction.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0012/source/000.png",
+        "index": 0,
+        "prompt": "A red sedan parked on the far right of a stone plaza, viewed from a slightly elevated angle.",
+        "prompt_sha256": "5eef99b8e43e8199c918e6811fd85d49a06393db121c512e579e63aa16876631",
+        "reference_id": "vqa__vqa_val_0012__source__000",
+        "role": "source",
+        "seed": 1024960315173641674
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a red car on the far right in a city square, with pedestrians walking nearby.",
+        "prompt_sha256": "dc6332fdf394702b39cb84404ab6713a4b7ab417c00d927e2ca21fabdf54f461",
+        "reference_id": "vqa__vqa_val_0012__source__001",
+        "role": "source",
+        "seed": 1050107793870291529
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/002.png",
+        "index": 2,
+        "prompt": "A red car on the far right, angled slightly towards the camera in an open paved area.",
+        "prompt_sha256": "02b5934531f2c9d5d76f2b34830aac6de64f5a4bfd90f3d02968a2ca68459a3e",
+        "reference_id": "vqa__vqa_val_0012__source__002",
+        "role": "source",
+        "seed": 515838337453937193
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/003.png",
+        "index": 3,
+        "prompt": "Soft daylight illuminating a red car on the far right of a busy public square.",
+        "prompt_sha256": "fb855561ef9fc657a0facde81db6121f7029665c59edc9579460e7776685c19e",
+        "reference_id": "vqa__vqa_val_0012__source__003",
+        "role": "source",
+        "seed": 198555289220189579
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/004.png",
+        "index": 4,
+        "prompt": "Wide crop showing a red car on the far right, with a food truck visible in the background.",
+        "prompt_sha256": "1d42a0cd26c9a2e42f44f14328ca16e128434fec69cdccf7a6fc582b5ce160b3",
+        "reference_id": "vqa__vqa_val_0012__source__004",
+        "role": "source",
+        "seed": 374794951384638050
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/005.png",
+        "index": 5,
+        "prompt": "Side angle view of a red car on the far right, parked in a lot near a landmark.",
+        "prompt_sha256": "3f34f1e72029f22cb2dfad3141d229bccad43c2969131d499d1755066e51d4f8",
+        "reference_id": "vqa__vqa_val_0012__source__005",
+        "role": "source",
+        "seed": 76798092329920676
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/006.png",
+        "index": 6,
+        "prompt": "A red car on the far right, with a small potted plant visible near the front bumper.",
+        "prompt_sha256": "ff23e569f23d6b54e21a8abe995e8a03dd2d0eaed0bed65f7d0dce5827c6007c",
+        "reference_id": "vqa__vqa_val_0012__source__006",
+        "role": "source",
+        "seed": 718081865411068156
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/007.png",
+        "index": 7,
+        "prompt": "Candid shot of a red car on the far right, with people passing by in the foreground.",
+        "prompt_sha256": "68334daad0056a763869ff2aee3619b0af2c96b474f47af87a769fb044325210",
+        "reference_id": "vqa__vqa_val_0012__source__007",
+        "role": "source",
+        "seed": 432296629250687708
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/008.png",
+        "index": 8,
+        "prompt": "Another red car on the far right, parked in a different section of the same plaza.",
+        "prompt_sha256": "a5a80f27d88a357ae07dda10b5fe0a760cb40d02136a20dbf594f30b45d44b2f",
+        "reference_id": "vqa__vqa_val_0012__source__008",
+        "role": "source",
+        "seed": 225568637356710928
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/009.png",
+        "index": 9,
+        "prompt": "Slightly lower angle view of a red car on the far right, near a stone arch.",
+        "prompt_sha256": "5b5e4dc8e5d25e158cfc72f904b209a9f02d32dfede7d732b07c821568c4b089",
+        "reference_id": "vqa__vqa_val_0012__source__009",
+        "role": "source",
+        "seed": 215020457209944201
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/010.png",
+        "index": 10,
+        "prompt": "Natural medium framing of a red car on the far right, in a bustling city square.",
+        "prompt_sha256": "4069c8ae7b4e31d008aba198543666a225a3fdebe8fa7e5d6e488c4a35de0a34",
+        "reference_id": "vqa__vqa_val_0012__source__010",
+        "role": "source",
+        "seed": 1074574497698336509
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/011.png",
+        "index": 11,
+        "prompt": "Closer view of a red car on the far right, parked next to a sidewalk.",
+        "prompt_sha256": "4a8a8239106f54c9d063460d74df8e961be7998fa76eb2ed68abcce3ab2612d7",
+        "reference_id": "vqa__vqa_val_0012__source__011",
+        "role": "source",
+        "seed": 935162893866410141
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/012.png",
+        "index": 12,
+        "prompt": "A red car on the far right, with its door slightly ajar in an open area.",
+        "prompt_sha256": "512876d1b1dfb5a1f049d090eb5e3b7a5a79e70b6b16d6edec2cd1331d3842bc",
+        "reference_id": "vqa__vqa_val_0012__source__012",
+        "role": "source",
+        "seed": 477090572731549742
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/013.png",
+        "index": 13,
+        "prompt": "Red car on the far right under soft, overcast daylight in a public square.",
+        "prompt_sha256": "5629d3f3fe5a4ed1b4cda2132bfa7d6ccf85713632fee6a5d830e0661f28fe3c",
+        "reference_id": "vqa__vqa_val_0012__source__013",
+        "role": "source",
+        "seed": 1046279129002727198
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/014.png",
+        "index": 14,
+        "prompt": "Subtly wider crop of a red car on the far right, showing more of the surrounding plaza.",
+        "prompt_sha256": "2f33e7f72e74696cb767bbf3c7b4d7d64a2ba544a5a0c87d517036f84608c823",
+        "reference_id": "vqa__vqa_val_0012__source__014",
+        "role": "source",
+        "seed": 115048026596495973
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/015.png",
+        "index": 15,
+        "prompt": "Mild side angle of a red car on the far right, parked near a historic building.",
+        "prompt_sha256": "55b7dde9073c41b05cb61e966544ec8e8750089ab5a29ea34883ac1a11a37e4f",
+        "reference_id": "vqa__vqa_val_0012__source__015",
+        "role": "source",
+        "seed": 94741151483380378
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/016.png",
+        "index": 16,
+        "prompt": "Red car on the far right, with a small signpost visible in the background.",
+        "prompt_sha256": "dc71454bc5ca6f5d55203261a3ccefb38ec1d93437d3807ae0389322e91f8b9d",
+        "reference_id": "vqa__vqa_val_0012__source__016",
+        "role": "source",
+        "seed": 892464817524473764
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/017.png",
+        "index": 17,
+        "prompt": "Natural candid composition of a red car on the far right, with pedestrians in the distance.",
+        "prompt_sha256": "fe2a6d62b3b1bf98a6056f1b9f64bb3373ff6e278bf3986df6dc9f92b07acf39",
+        "reference_id": "vqa__vqa_val_0012__source__017",
+        "role": "source",
+        "seed": 532765720626702581
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/018.png",
+        "index": 18,
+        "prompt": "Ordinary red car on the far right, parked in a lot with a few other vehicles nearby.",
+        "prompt_sha256": "232e5e724c0adc89082a6c2858b15e880540299b80a25a23a677f64ea48537ed",
+        "reference_id": "vqa__vqa_val_0012__source__018",
+        "role": "source",
+        "seed": 93610650963081258
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/source/019.png",
+        "index": 19,
+        "prompt": "A red car parked on the far right side of a paved public square with a large stone arch in the background.",
+        "prompt_sha256": "4e2ec394cd32a5b92cd02865d7a6a2f5ab3e20b7a9ccd3651d8bf4bdcb3b42b3",
+        "reference_id": "vqa__vqa_val_0012__source__019",
+        "role": "source",
+        "seed": 863731271773807420
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/000.png",
+        "index": 0,
+        "prompt": "A black sedan parked on the far right of a stone plaza, viewed from a slightly elevated angle.",
+        "prompt_sha256": "3a7c0d4ae00e1a53d2eddf90e7b0ae50c58cf755439483c4bfd6bbc60bd905df",
+        "reference_id": "vqa__vqa_val_0012__target__000",
+        "role": "target",
+        "seed": 560909167059692649
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a black car on the far right in a city square, with pedestrians walking nearby.",
+        "prompt_sha256": "3f938f7d8d139b639896ac0706bb46ce235f9b9ec83002f7d57b44ebeeace9bc",
+        "reference_id": "vqa__vqa_val_0012__target__001",
+        "role": "target",
+        "seed": 323853021990931955
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/002.png",
+        "index": 2,
+        "prompt": "A black car on the far right, angled slightly towards the camera in an open paved area.",
+        "prompt_sha256": "273c4abf84173e4641b30c485e8af34d69094a0009230373f0aeda893aea8745",
+        "reference_id": "vqa__vqa_val_0012__target__002",
+        "role": "target",
+        "seed": 13210092709316416
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/003.png",
+        "index": 3,
+        "prompt": "Soft daylight illuminating a black car on the far right of a busy public square.",
+        "prompt_sha256": "7ba482de2921bf540cb38455e6837cca40c022521020e32cf42fb6abf0190c2b",
+        "reference_id": "vqa__vqa_val_0012__target__003",
+        "role": "target",
+        "seed": 792707707363741008
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/004.png",
+        "index": 4,
+        "prompt": "Wide crop showing a black car on the far right, with a food truck visible in the background.",
+        "prompt_sha256": "db1ad2f39fd095b0f8f6f2de1b9bef38008879ffa6a7b63fb493bc08a265e5bb",
+        "reference_id": "vqa__vqa_val_0012__target__004",
+        "role": "target",
+        "seed": 535566995147936817
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/005.png",
+        "index": 5,
+        "prompt": "Side angle view of a black car on the far right, parked in a lot near a landmark.",
+        "prompt_sha256": "27003d3b4283acba042ea0d2a4d3b5c6fcfb503c66737dbf13e645119a7a598d",
+        "reference_id": "vqa__vqa_val_0012__target__005",
+        "role": "target",
+        "seed": 630798073185630611
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/006.png",
+        "index": 6,
+        "prompt": "A black car on the far right, with a small potted plant visible near the front bumper.",
+        "prompt_sha256": "2cb70576d647ce83f818af866064f84debd97ba4024d7535ed4c24b6c644e5cb",
+        "reference_id": "vqa__vqa_val_0012__target__006",
+        "role": "target",
+        "seed": 394107754334410044
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/007.png",
+        "index": 7,
+        "prompt": "Candid shot of a black car on the far right, with people passing by in the foreground.",
+        "prompt_sha256": "a37e21791dda08928391e5f9309eff5575d9c0852f43629a7e3639694555db03",
+        "reference_id": "vqa__vqa_val_0012__target__007",
+        "role": "target",
+        "seed": 171952955549292823
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/008.png",
+        "index": 8,
+        "prompt": "Another black car on the far right, parked in a different section of the same plaza.",
+        "prompt_sha256": "51c73f8a97e125d286f228691935d8064ec859cb6213a8db45c553f3f3cf85ac",
+        "reference_id": "vqa__vqa_val_0012__target__008",
+        "role": "target",
+        "seed": 348197243843264452
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/009.png",
+        "index": 9,
+        "prompt": "Slightly lower angle view of a black car on the far right, near a stone arch.",
+        "prompt_sha256": "f0552799b6499ec150bd8f1225b5a5b1f85c35380aa0cdb8a345e6f86b16a621",
+        "reference_id": "vqa__vqa_val_0012__target__009",
+        "role": "target",
+        "seed": 586662693855063878
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/010.png",
+        "index": 10,
+        "prompt": "Natural medium framing of a black car on the far right, in a bustling city square.",
+        "prompt_sha256": "78ad60d739d65eb55b5cb930be040f4eb75a7bab8c70381c900b8f10d74a60be",
+        "reference_id": "vqa__vqa_val_0012__target__010",
+        "role": "target",
+        "seed": 495459642675554484
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/011.png",
+        "index": 11,
+        "prompt": "Closer view of a black car on the far right, parked next to a sidewalk.",
+        "prompt_sha256": "531269bc6f6cfa4d3fb04f431291e704a938f6959ccf36312ee04b474645efee",
+        "reference_id": "vqa__vqa_val_0012__target__011",
+        "role": "target",
+        "seed": 1038057486793706635
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/012.png",
+        "index": 12,
+        "prompt": "A black car on the far right, with its door slightly ajar in an open area.",
+        "prompt_sha256": "6a8f161078be7318af9856a419d2372a4a1da6f575887039f66694d761026869",
+        "reference_id": "vqa__vqa_val_0012__target__012",
+        "role": "target",
+        "seed": 36204522939180550
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/013.png",
+        "index": 13,
+        "prompt": "Black car on the far right under soft, overcast daylight in a public square.",
+        "prompt_sha256": "5a70fc4919ebb8307f293c6e66f045ffcc1a7952419997ce4cc1c6c3b90d4aad",
+        "reference_id": "vqa__vqa_val_0012__target__013",
+        "role": "target",
+        "seed": 1136935873969691006
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/014.png",
+        "index": 14,
+        "prompt": "Subtly wider crop of a black car on the far right, showing more of the surrounding plaza.",
+        "prompt_sha256": "f2ddf5896937354ea0d0847688d705b3c09bad8b81f3dbb8e2b420066a12bfef",
+        "reference_id": "vqa__vqa_val_0012__target__014",
+        "role": "target",
+        "seed": 910947747355595583
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/015.png",
+        "index": 15,
+        "prompt": "Mild side angle of a black car on the far right, parked near a historic building.",
+        "prompt_sha256": "3024e2d96ee239adee605e8e0153d146a1d80052de1492a62553383df3758354",
+        "reference_id": "vqa__vqa_val_0012__target__015",
+        "role": "target",
+        "seed": 6009015757224714
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/016.png",
+        "index": 16,
+        "prompt": "Black car on the far right, with a small signpost visible in the background.",
+        "prompt_sha256": "bf65bfd5b0b9ca711036d003ce2ac0274b0a20d5f4c2873e075dd2d6dc1243cf",
+        "reference_id": "vqa__vqa_val_0012__target__016",
+        "role": "target",
+        "seed": 1067355149938801879
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/017.png",
+        "index": 17,
+        "prompt": "Natural candid composition of a black car on the far right, with pedestrians in the distance.",
+        "prompt_sha256": "1d3721fbe6c0544ccbdc726b0e9e44c61fd3c16ef1eb2c31e60bc6305e140175",
+        "reference_id": "vqa__vqa_val_0012__target__017",
+        "role": "target",
+        "seed": 768532906229202407
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/018.png",
+        "index": 18,
+        "prompt": "Ordinary black car on the far right, parked in a lot with a few other vehicles nearby.",
+        "prompt_sha256": "849613085456874b16ac64cd6db4f0f6ca5076dbc5481e4b48df88ad0191cdfe",
+        "reference_id": "vqa__vqa_val_0012__target__018",
+        "role": "target",
+        "seed": 585766678343233162
+      },
+      {
+        "image": "samples/vqa/vqa_val_0012/target/019.png",
+        "index": 19,
+        "prompt": "A black car parked on the far right side of a paved public square with a large stone arch in the background.",
+        "prompt_sha256": "9e07684a4215920e47750d69f6857905d17c3e36bd7ad26032d725c2b29b14cf",
+        "reference_id": "vqa__vqa_val_0012__target__019",
+        "role": "target",
+        "seed": 499448130889333463
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000257.jpg",
+    "original_image_sha256": "bb57fedcdbb1b4fa25302ba03bf9eb4a68464ea0be5234f3f78367f512892e6d",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "2ad76fd12852ff79389b788683f048ebbaf4eb603c2a51421b68a8da0fb180e7",
+    "sample_id": "vqa_val_0012",
+    "shard": 116,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What color is the car on the far right?",
+      "source_answer": "red",
+      "source_answers": [
+        "red",
+        "red",
+        "red",
+        "pink",
+        "red",
+        "red",
+        "red",
+        "red",
+        "pink and white",
+        "pink"
+      ],
+      "target_answer": "black"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0012__source__000": {
+      "job_sha256": "68cd41856c4a5aa646a204b3cd3e453050c1cc74c307dd419be6da73a7101d01",
+      "sha256": "cbed32b0a9492a3f927d7e9dde3fd06a00c5fe24f7e9419235c774aeed197cbe",
+      "bytes": 157440,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.368452+00:00"
+    },
+    "vqa__vqa_val_0012__source__001": {
+      "job_sha256": "2938dbb8b8b00e4f8e211564176bd560752bdb416328218d5eb555a3caf0d223",
+      "sha256": "d438d45d7e82600312af1cce0cbbeea4ab9d1bea4c6b30f72470861dc2cd154c",
+      "bytes": 156472,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.409723+00:00"
+    },
+    "vqa__vqa_val_0012__source__002": {
+      "job_sha256": "827e0c9e460a1f6d4a5f7f7a8169314bbea7a78a4e54bf949b1b336e8fee636e",
+      "sha256": "640a4935a46756904ab134c03cd7669b78dd035abfb1d936c90506cc7e1f42b0",
+      "bytes": 122247,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.457063+00:00"
+    },
+    "vqa__vqa_val_0012__source__003": {
+      "job_sha256": "9b67c820678574fbfd8c5baac08b69199f304af358a4e34ce8b1e2f3f1a3479f",
+      "sha256": "cc862da80cae4dbe43b329c4615118b8405077216afd2a242da09dc9ebcd1ddd",
+      "bytes": 157160,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.502438+00:00"
+    },
+    "vqa__vqa_val_0012__source__004": {
+      "job_sha256": "5cf59b7dd0cef0ca6d3f1f0a3c82240d0b511f2da522387ec7f34a32369e63e6",
+      "sha256": "36ca57f5fb4181c188c4a2df3640c0654ae18bba95ed1a05ae1c0e8d8e3d35a4",
+      "bytes": 162944,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.548605+00:00"
+    },
+    "vqa__vqa_val_0012__source__005": {
+      "job_sha256": "a60e5fad4632ed4382c8f42cc15c863927e145e4d3072f22300f377d04f4fa50",
+      "sha256": "326f025dd9e87920763471396c328b77dbf0a886cb1ac90b1f5486acb3fff069",
+      "bytes": 135269,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.603483+00:00"
+    },
+    "vqa__vqa_val_0012__source__006": {
+      "job_sha256": "7f10dd8fd4f745d96dea58e5aa7690c7ef38141dfecce3ef262a231ea1838aca",
+      "sha256": "82a07e6a953087bc2dcc0a124374952251f8f03721ea4074ba68a3ee595e13dd",
+      "bytes": 123028,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.646799+00:00"
+    },
+    "vqa__vqa_val_0012__source__007": {
+      "job_sha256": "be57fcf6c1ced24af03c6ead8b85c30a0578d6f1e0ad7df0650ab0e68352688f",
+      "sha256": "d28f38ec19057f8695c1ae4d401d44c857488b9aa29afae0d8ed67c542b9a6a6",
+      "bytes": 144340,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.687867+00:00"
+    },
+    "vqa__vqa_val_0012__source__008": {
+      "job_sha256": "7f5fe9730166506462c46f258aa38fda63873926ba4634b2d1bf519a2d542e59",
+      "sha256": "ecc9bcb9df0caad5bc1c57aea849b00f820c4321e4a61a73d51e73fe50f1b3c6",
+      "bytes": 143051,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.738035+00:00"
+    },
+    "vqa__vqa_val_0012__source__009": {
+      "job_sha256": "11101d7a666c5954907488f802df1f95f012c556b75a3b6af659b4b63458f952",
+      "sha256": "e3d09b28f2a4ac8fee7e1023c223a4d7af4cebc372a88222ebfec7ba58e568f6",
+      "bytes": 139995,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.774566+00:00"
+    },
+    "vqa__vqa_val_0012__source__010": {
+      "job_sha256": "0d70a8e79741475e92d0159d07bd2ea593f223784a1064925988bbda027b22b4",
+      "sha256": "805c9fdb349d3c6eac1e0b3822579c202acd163e498df2ff0f0363a1bcf1adae",
+      "bytes": 144637,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.816417+00:00"
+    },
+    "vqa__vqa_val_0012__source__011": {
+      "job_sha256": "f2e5dbd0a57e9bb0dde9e77ba8a16b371adba5ab85bd47609f07292228a38080",
+      "sha256": "ad2e22dc57c52bc795f9da2da8e0732a57e81fb8c8292980d5b9fb4eae89c355",
+      "bytes": 166435,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.855127+00:00"
+    },
+    "vqa__vqa_val_0012__source__012": {
+      "job_sha256": "fd32fcf7a859cef04179ddad863b3b6c620860229de8331585cc24e35118c872",
+      "sha256": "f4a027aef1ef55a7d6b9c46c4ec07d6464daac41964af85806b95c163c3b7548",
+      "bytes": 108523,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.897223+00:00"
+    },
+    "vqa__vqa_val_0012__source__013": {
+      "job_sha256": "7a00f24f5bd8e5579e9fbdbd69d68ecf7179168645c8ddfb5732b4cc826d5179",
+      "sha256": "24feab79128c6f6be1ca832641877ee8538cee6762fe3300abf904af18417be5",
+      "bytes": 128660,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.940032+00:00"
+    },
+    "vqa__vqa_val_0012__source__014": {
+      "job_sha256": "8c59411016e032c9611361ce6c2bc76d72301b6c4e3bb42f4badf62d7e28973f",
+      "sha256": "50a17c89e6abdab2fd6309e0baacffb795640f46cfaed04b6b8ca76275ac9c3d",
+      "bytes": 155775,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:07.983598+00:00"
+    },
+    "vqa__vqa_val_0012__source__015": {
+      "job_sha256": "b0a1f3a3e8db0fe50abb4ad04a3c1374a94f0e3e80d39c4cc9bb528c72ea2053",
+      "sha256": "ce273ddb3e10a3a3ada637ce566c91ba66c40141ede2836073f8eebee2986142",
+      "bytes": 158211,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.024054+00:00"
+    },
+    "vqa__vqa_val_0012__source__016": {
+      "job_sha256": "fcc87935d1934a542aac5c5cac2fb4a9bf296b08bed2412179cd5cabcc77b8ba",
+      "sha256": "481898f9641c022bf383ce883ce5038dbfa076630bdb47eee2d4f2a4f698aca2",
+      "bytes": 111120,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.059281+00:00"
+    },
+    "vqa__vqa_val_0012__source__017": {
+      "job_sha256": "d1784cbf00bbe997d3576436cdbe0c79bec81c2b04e9965abfa6a6df33059b90",
+      "sha256": "3e17a6d9262a567e8979a57af9e2d8c845a5dc00642083c8a14ad5a7a6090dac",
+      "bytes": 186591,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.111067+00:00"
+    },
+    "vqa__vqa_val_0012__source__018": {
+      "job_sha256": "d0a2c555ad76c0188c196aa94f5d4d75177569c053f052e9b04339c24c19abf7",
+      "sha256": "20751894156351c3bac906a3e105e8dd8f9e67ddc5a1c0ad0f4b6ca54d6ab17a",
+      "bytes": 174095,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.158385+00:00"
+    },
+    "vqa__vqa_val_0012__source__019": {
+      "job_sha256": "695c888158fdb80724e26bca5b76baa6cc496e3eea7c78fa41260afad9b39af2",
+      "sha256": "871d0ee892c96a04ba238b32fa2130ae8d016e8f2fdfa43b7a32133e26eeff36",
+      "bytes": 164506,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.202172+00:00"
+    },
+    "vqa__vqa_val_0012__target__000": {
+      "job_sha256": "fc40d4dd236489d414900a1a9004f59c5c7ec5ff1839463fadcc138c30b0c668",
+      "sha256": "bce5c5547f3f219e8ab73f82320cc6755e7c32cfa3ad16941f1f22045534eba0",
+      "bytes": 153410,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.252163+00:00"
+    },
+    "vqa__vqa_val_0012__target__001": {
+      "job_sha256": "89f3d6428a263b6429bac851f1780850c9bddb589ac187fed2e0f62ab93d44f6",
+      "sha256": "1cf39c1dcecee91e5edc90aba31659e5f8c1ab55f80f1616444c502e5dd73223",
+      "bytes": 145418,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.295588+00:00"
+    },
+    "vqa__vqa_val_0012__target__002": {
+      "job_sha256": "15bda68af2418c43567dabe5ca8f03320df414f70f48a93efa11ca2e9900c9cc",
+      "sha256": "ea6d864cefd92e708ec9ca442c17be1dd85235f96f461680ff73ecdddee12da3",
+      "bytes": 111632,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.329704+00:00"
+    },
+    "vqa__vqa_val_0012__target__003": {
+      "job_sha256": "2779acdc47f4d20d907a651a302ca88d6c5b5ac3dac0764687c1de7de33bf904",
+      "sha256": "542cdda678e98f18cfcabbd8f845230f59e54daa6817c867a85a4cf54b0b11da",
+      "bytes": 150238,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.368128+00:00"
+    },
+    "vqa__vqa_val_0012__target__004": {
+      "job_sha256": "8bca75cbf43d92e1dc93e7b90650079611063a9bfc14afe42e38f60e6c8e243d",
+      "sha256": "66fc7939c7bd3d2fe4f3de908b6002d10cc58237ba81e645f0def268e0cc5579",
+      "bytes": 152267,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.411886+00:00"
+    },
+    "vqa__vqa_val_0012__target__005": {
+      "job_sha256": "250073c8f886f1d368b7ffc70448399d6ef0d46de3e956f919eaf3177699feab",
+      "sha256": "83f165b3d20fc9f8df979f333c3c49c17b225e0579125de442ba62eb1c6380c8",
+      "bytes": 128443,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.462763+00:00"
+    },
+    "vqa__vqa_val_0012__target__006": {
+      "job_sha256": "c960d19df1bbf104d9166adde2e20d54a5f6c6dd39e52b300acae8bd20930b5e",
+      "sha256": "4eea30e07c294b2954b94faa8067f5817842ac3a9c849915dcfc1775087fda74",
+      "bytes": 110359,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.503627+00:00"
+    },
+    "vqa__vqa_val_0012__target__007": {
+      "job_sha256": "e04b63c3595ea66d5da187045406b82642b01e7b80900ab676a8047085a199ae",
+      "sha256": "2435e471bcf76252f9dfc146a3c7c417de697a4d99c527f2ea9d42495540d7de",
+      "bytes": 144185,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.546634+00:00"
+    },
+    "vqa__vqa_val_0012__target__008": {
+      "job_sha256": "7c9fdcaf5c79bf1c14ff4aa2bf3a6fa412a17af06be0243b55613832df534ece",
+      "sha256": "b78294e08c1d31ca9f9c26b34681079e8b4c894cf3813fc5f12c961431082365",
+      "bytes": 149397,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.590678+00:00"
+    },
+    "vqa__vqa_val_0012__target__009": {
+      "job_sha256": "4506f10db2d48b65de4d5c03312b412cd792297c2d6f124525c897b07548b3ef",
+      "sha256": "4c51400676502aa89a38ae49867c2b08d1eb9c1efce2070aede4e5bf8e185351",
+      "bytes": 155022,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.634572+00:00"
+    },
+    "vqa__vqa_val_0012__target__010": {
+      "job_sha256": "9565ce610236fb8607b0cfa988430789e3dd0b35e37b59f120c9c259ed19a47c",
+      "sha256": "f4412720696e6acccb6a566bbab8587972324cb3bedd94848de7476758192327",
+      "bytes": 155961,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.670648+00:00"
+    },
+    "vqa__vqa_val_0012__target__011": {
+      "job_sha256": "4bc959ff52e64fb55499cf5e10e3328498f198718a03010568002b9835753df4",
+      "sha256": "66e3dcf277b598678b51eb4eb3cccc6def7bdcdf13e86b33df87897c0ec11dad",
+      "bytes": 155140,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.720629+00:00"
+    },
+    "vqa__vqa_val_0012__target__012": {
+      "job_sha256": "f8d3ac9b54241b1bf1e15a87267fb78d7f6623ef20c474172b0fefbeec106758",
+      "sha256": "b4bf927d9de2c5bc85037d8d6829b1ae1c3d54488c28fec257ccd8f3195e53d0",
+      "bytes": 122493,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.761583+00:00"
+    },
+    "vqa__vqa_val_0012__target__013": {
+      "job_sha256": "e75740acc0fd199de378edba55628480831a76377c70da45346793d81d061a14",
+      "sha256": "9e43835df1c45f4ccf05c885f75f7eaf1545cdf759c793c5aeca33008c8ff272",
+      "bytes": 133146,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.798678+00:00"
+    },
+    "vqa__vqa_val_0012__target__014": {
+      "job_sha256": "824950e2ed41bc53de04f1677a25707ad7a57dd4b6d99101ec856eaba2baaa30",
+      "sha256": "5e09f0d6d2989fc75668322078f6847b1017f0caee1d6fd17bff0102155e340e",
+      "bytes": 141743,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.841571+00:00"
+    },
+    "vqa__vqa_val_0012__target__015": {
+      "job_sha256": "f0fa7de43c2c64315da20a68118e8e525a4e01834150f8a248fb02064d9a2965",
+      "sha256": "b3f69c62dc47e702e4b0c412c75a1dd900669393216c8ece996b657d4833c18e",
+      "bytes": 161765,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.885358+00:00"
+    },
+    "vqa__vqa_val_0012__target__016": {
+      "job_sha256": "9b1532d8bbd07f10b0ad82b289037ca28dc7a110b628ecb00ee6dda349a01947",
+      "sha256": "ecadc2d36f46bfde9de0c19ee5b8b8dd567677e3c12c6ef79d939e697421c992",
+      "bytes": 149890,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.926836+00:00"
+    },
+    "vqa__vqa_val_0012__target__017": {
+      "job_sha256": "5f6b3a91ba6b47ab53609561737eb3908c3b8858e7aaca912fffc295a6b727c4",
+      "sha256": "af6d208e9b1bddabf998e3df722b9de88aae72b31c27294f8dce955ef7b846e7",
+      "bytes": 180422,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:08.978844+00:00"
+    },
+    "vqa__vqa_val_0012__target__018": {
+      "job_sha256": "4feebc9da070bf0c294688e6fc17a5dcc78c66d34a1f2fd325bf4229d10406b0",
+      "sha256": "c5fbfedee30fd5e268a09d2e4f10c31ba1ee459329eb205708c20701898930a1",
+      "bytes": 159300,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:09.021766+00:00"
+    },
+    "vqa__vqa_val_0012__target__019": {
+      "job_sha256": "cbab82a7ac020c22bea4fa59e06cfff24f02aaa028a5ddd309f1a63ded6613b7",
+      "sha256": "e1b2c45d79e4f6ddd00d35986ab0769318d838db22d7e921e3f08d6522416a2c",
+      "bytes": 157568,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 26.218270831741393,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:09:09.060324+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:09:09.060341+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

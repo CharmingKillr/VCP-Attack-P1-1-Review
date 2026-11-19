@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "3a7c1ed7bbb834c932b76814171cda1c94301c416d8e54bbc1c17c6951f7f2da",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "c6f13e5e73a4c6831379996ab9f495a76a3c623ba7c7956468df8309ce943112",
+      "notes": "All source prompts place the giraffes in a private/home-like indoor enclosure; all target prompts place the same exhibit in a museum. This matches no→yes for “Is this in a museum?”; source answer is the majority (6/10 no).",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0004/source/000.png",
+        "index": 0,
+        "prompt": "Two giraffes standing in a private indoor conservatory with high glass ceilings and potted plants, viewed from a low angle.",
+        "prompt_sha256": "63a63b2b0bd5bf07870f1d33a3f8c878f9b57e9d52c2ec6ba3d6c05923bd7883",
+        "reference_id": "vqa__vqa_val_0004__source__000",
+        "role": "source",
+        "seed": 738847471317619112
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of two giraffes in a home-like indoor enclosure with wooden beams and a concrete floor, facing the camera.",
+        "prompt_sha256": "65c553b2c2d2b82903a88cfc4f401fde14e02843785bbcd0b6c2f5a4edc4b974",
+        "reference_id": "vqa__vqa_val_0004__source__001",
+        "role": "source",
+        "seed": 64239766200325553
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of two giraffes in a domestic indoor setting with a feeding trough, showing their heads and necks clearly.",
+        "prompt_sha256": "3f113bd326c7cb7a4e744f61f10037de2944fa65b222d0d183580caa8c080e95",
+        "reference_id": "vqa__vqa_val_0004__source__002",
+        "role": "source",
+        "seed": 367509010491920939
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/003.png",
+        "index": 3,
+        "prompt": "Two giraffes in a private indoor display area with a glass barrier, one bending down slightly to eat from a trough.",
+        "prompt_sha256": "910f7471e71bebb3ed658d63ed64db1231274ba747754df0eac1f389023ee7e4",
+        "reference_id": "vqa__vqa_val_0004__source__003",
+        "role": "source",
+        "seed": 1002362936620847431
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminating two giraffes in a home-style indoor enclosure with beige walls and a metal fence in the background.",
+        "prompt_sha256": "eac2d782881f3bebcac4f6be2fe6550dfa27db566caca701f259e3aff478016f",
+        "reference_id": "vqa__vqa_val_0004__source__004",
+        "role": "source",
+        "seed": 103902831028560935
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/005.png",
+        "index": 5,
+        "prompt": "Wide crop of two giraffes in a spacious indoor conservatory with large windows and a tiled floor, standing side by side.",
+        "prompt_sha256": "205d30cb09f8b426d2bbccac27a1d09b8bc4f4f2835fd21ec3ff1d0e06c3263e",
+        "reference_id": "vqa__vqa_val_0004__source__005",
+        "role": "source",
+        "seed": 1004735510620759519
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/006.png",
+        "index": 6,
+        "prompt": "Side angle view of two giraffes in a private indoor enclosure with a glass wall, showing their full bodies and necks.",
+        "prompt_sha256": "d71599f812b6803362156801fa7c91b736bebf7895909e59c0b6c68bb49c124e",
+        "reference_id": "vqa__vqa_val_0004__source__006",
+        "role": "source",
+        "seed": 918556635106864434
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/007.png",
+        "index": 7,
+        "prompt": "Two giraffes in an indoor home setting with a small potted plant in the corner and a concrete floor, standing near a glass barrier.",
+        "prompt_sha256": "834356a2ec1638d87f34a61ddfd46a9a27f83dca2ee14c12593be8704f571b15",
+        "reference_id": "vqa__vqa_val_0004__source__007",
+        "role": "source",
+        "seed": 451186701679770022
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/008.png",
+        "index": 8,
+        "prompt": "Candid composition of two giraffes in a private indoor conservatory with natural light streaming in, one looking towards the other.",
+        "prompt_sha256": "3485fc2cadd2dee239d9771005893906d07f6827ac140f391fb30e29d08070a6",
+        "reference_id": "vqa__vqa_val_0004__source__008",
+        "role": "source",
+        "seed": 806850636442451373
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/009.png",
+        "index": 9,
+        "prompt": "Another ordinary instance of two giraffes in a home-like indoor enclosure with a feeding station and glass walls, viewed from a slight distance.",
+        "prompt_sha256": "3dc63db56a86f3d39567df882333e54a2122caa1924851d4ba95b559f389f431",
+        "reference_id": "vqa__vqa_val_0004__source__009",
+        "role": "source",
+        "seed": 920340030680135882
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/010.png",
+        "index": 10,
+        "prompt": "Two giraffes stand in a private home indoor enclosure with wooden beams and a concrete floor, viewed from a low angle.",
+        "prompt_sha256": "c82dda764eaf98dc7435d0a27a1393f07136db512144294a91fd98c6881fb091",
+        "reference_id": "vqa__vqa_val_0004__source__010",
+        "role": "source",
+        "seed": 669710450552817161
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/011.png",
+        "index": 11,
+        "prompt": "Medium shot of two giraffes in a domestic indoor display area with beige walls and a feeding trough nearby.",
+        "prompt_sha256": "477de8a3e2cbc441b3561e9ddf7dc227c3d8b07a8ec4eb5b02335927ac30f8ad",
+        "reference_id": "vqa__vqa_val_0004__source__011",
+        "role": "source",
+        "seed": 36347742911519645
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/012.png",
+        "index": 12,
+        "prompt": "Close-up view of two giraffes in a home-like indoor enclosure, showing their necks and heads against a plain wall.",
+        "prompt_sha256": "9e7739cb8fafd99b4dd79a4b51994c350f095638fdd3f78788ce8cd83ba8525e",
+        "reference_id": "vqa__vqa_val_0004__source__012",
+        "role": "source",
+        "seed": 725360783654522118
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/013.png",
+        "index": 13,
+        "prompt": "Two giraffes in a private indoor conservatory, one bending slightly to eat from a low trough, soft natural light.",
+        "prompt_sha256": "382711f274d9e68219368f56fa85d1a045ddb16113577e687b07493b74ab6eb5",
+        "reference_id": "vqa__vqa_val_0004__source__013",
+        "role": "source",
+        "seed": 30484381395415413
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/014.png",
+        "index": 14,
+        "prompt": "Wide shot of two giraffes in a spacious home indoor enclosure with large windows and a glass barrier in the foreground.",
+        "prompt_sha256": "44cccf4ec2c70e0c842b8cfce8f0ac24b506bceead05b90b66db7128eef9110f",
+        "reference_id": "vqa__vqa_val_0004__source__014",
+        "role": "source",
+        "seed": 588579107682926716
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/015.png",
+        "index": 15,
+        "prompt": "Side angle view of two giraffes in a domestic indoor setting, standing near a metal fence and a potted plant.",
+        "prompt_sha256": "ce038ff72aaacdf89f39952895ab19cb5d8c3514c7d8dc11925f2bb491551e91",
+        "reference_id": "vqa__vqa_val_0004__source__015",
+        "role": "source",
+        "seed": 202001139672406021
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/016.png",
+        "index": 16,
+        "prompt": "Two giraffes in a private indoor display area with a small potted plant in the corner and a concrete floor.",
+        "prompt_sha256": "4772056e1eb6a672206c5482930aa16b88b65d4e71314d1aee94dccdc17ca108",
+        "reference_id": "vqa__vqa_val_0004__source__016",
+        "role": "source",
+        "seed": 639438588256760678
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/017.png",
+        "index": 17,
+        "prompt": "Candid shot of two giraffes in a home-like indoor enclosure, one looking toward the camera, natural lighting.",
+        "prompt_sha256": "3d09296dd02d78fd029b0f325cbefffebc6566fd9502ae2333900fc29f0b2f72",
+        "reference_id": "vqa__vqa_val_0004__source__017",
+        "role": "source",
+        "seed": 384164950603173783
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/018.png",
+        "index": 18,
+        "prompt": "Two giraffes in a private indoor conservatory with high ceilings and a feeding station, standing calmly.",
+        "prompt_sha256": "8691125224fa3609f68db64e1f2b6e2f590f23a16e6dcaa7071cac16de63f9c6",
+        "reference_id": "vqa__vqa_val_0004__source__018",
+        "role": "source",
+        "seed": 822297781715853915
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/source/019.png",
+        "index": 19,
+        "prompt": "Another instance of two giraffes in a domestic indoor enclosure with beige walls and a glass wall, natural daylight.",
+        "prompt_sha256": "bbf53bc8355ff2e3eb638f98b24f73bcbb96197648028b3462b849477526f70e",
+        "reference_id": "vqa__vqa_val_0004__source__019",
+        "role": "source",
+        "seed": 578555477730550612
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/000.png",
+        "index": 0,
+        "prompt": "Two giraffes standing in a museum hall with high glass ceilings and informational plaques, viewed from a low angle.",
+        "prompt_sha256": "e5394751aa85cd3f8706fe07b02fdee909593d388a11fa88c6998aef9d59288b",
+        "reference_id": "vqa__vqa_val_0004__target__000",
+        "role": "target",
+        "seed": 749149894479808402
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of two giraffes in a museum exhibit with wooden beams and a concrete floor, facing the camera.",
+        "prompt_sha256": "853252e0e89b488b1e2f5391fa75a48f6278ec44397c725d2b586a583396e015",
+        "reference_id": "vqa__vqa_val_0004__target__001",
+        "role": "target",
+        "seed": 257834835491846608
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/002.png",
+        "index": 2,
+        "prompt": "Close-up view of two giraffes in a museum display with a feeding trough, showing their heads and necks clearly.",
+        "prompt_sha256": "85e8063c40141a48c30d0aa5554f97d9aee777af9308a417d32b4dc4094c5c8e",
+        "reference_id": "vqa__vqa_val_0004__target__002",
+        "role": "target",
+        "seed": 228133842664149642
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/003.png",
+        "index": 3,
+        "prompt": "Two giraffes in a museum indoor display area with a glass barrier, one bending down slightly to eat from a trough.",
+        "prompt_sha256": "5e552b7cebf575cbc89215ccf9d8d00ab1d3b5cdd6709960e9c80602e5b068a0",
+        "reference_id": "vqa__vqa_val_0004__target__003",
+        "role": "target",
+        "seed": 757968395677900344
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminating two giraffes in a museum indoor enclosure with beige walls and a metal fence in the background.",
+        "prompt_sha256": "8779e3c95dce4156799be0a1001aca5643889ad1352dcea0dce0c5488dfe20dd",
+        "reference_id": "vqa__vqa_val_0004__target__004",
+        "role": "target",
+        "seed": 69848450613662997
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/005.png",
+        "index": 5,
+        "prompt": "Wide crop of two giraffes in a spacious museum conservatory with large windows and a tiled floor, standing side by side.",
+        "prompt_sha256": "5e9fb13f4014bb11c327a021dbb4fafbf6253d16affad3dfd171d7366bfcd361",
+        "reference_id": "vqa__vqa_val_0004__target__005",
+        "role": "target",
+        "seed": 169725338881289369
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/006.png",
+        "index": 6,
+        "prompt": "Side angle view of two giraffes in a museum indoor enclosure with a glass wall, showing their full bodies and necks.",
+        "prompt_sha256": "9acf0f8acb64b4cf541ee5aaa83b6d89d54ec9a967bf18c74aab8c96e07a7ab9",
+        "reference_id": "vqa__vqa_val_0004__target__006",
+        "role": "target",
+        "seed": 660484418541333597
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/007.png",
+        "index": 7,
+        "prompt": "Two giraffes in a museum indoor setting with a small potted plant in the corner and a concrete floor, standing near a glass barrier.",
+        "prompt_sha256": "5521cad6edfbe240ef7e8fb54e60cce58777a55d6c5832c6b6fc20027f3192ed",
+        "reference_id": "vqa__vqa_val_0004__target__007",
+        "role": "target",
+        "seed": 904426436778360129
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/008.png",
+        "index": 8,
+        "prompt": "Candid composition of two giraffes in a museum indoor conservatory with natural light streaming in, one looking towards the other.",
+        "prompt_sha256": "ab7ba14704949b791332c57c247abc8a9474ce66654b9a0672c6a04fc20aeb98",
+        "reference_id": "vqa__vqa_val_0004__target__008",
+        "role": "target",
+        "seed": 1101241587442513610
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/009.png",
+        "index": 9,
+        "prompt": "Another ordinary instance of two giraffes in a museum indoor enclosure with a feeding station and glass walls, viewed from a slight distance.",
+        "prompt_sha256": "ddcc96b0380df1d7be267c4c969b621200ee7dad76b4e293b722470dab9e2764",
+        "reference_id": "vqa__vqa_val_0004__target__009",
+        "role": "target",
+        "seed": 122786900716684135
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/010.png",
+        "index": 10,
+        "prompt": "Two giraffes stand in a museum exhibit with wooden beams and a concrete floor, viewed from a low angle.",
+        "prompt_sha256": "3e0f8fd9f4be0a5ff019b8e1aa9fe2619dfb17f97a08d9db6fff93b3c2a24743",
+        "reference_id": "vqa__vqa_val_0004__target__010",
+        "role": "target",
+        "seed": 748476620280911027
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/011.png",
+        "index": 11,
+        "prompt": "Medium shot of two giraffes in a museum indoor display area with beige walls and a feeding trough nearby.",
+        "prompt_sha256": "660dac7b74e497639195e1a0eae24a96b3623cfc1981fa8248ef313874848e1c",
+        "reference_id": "vqa__vqa_val_0004__target__011",
+        "role": "target",
+        "seed": 982806104707043848
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/012.png",
+        "index": 12,
+        "prompt": "Close-up view of two giraffes in a museum indoor enclosure, showing their necks and heads against a plain wall.",
+        "prompt_sha256": "c8ba1d87835a59c37bf02dec00c399cc78e3be356250feba23e2016e1081dc9f",
+        "reference_id": "vqa__vqa_val_0004__target__012",
+        "role": "target",
+        "seed": 959672879382497691
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/013.png",
+        "index": 13,
+        "prompt": "Two giraffes in a museum conservatory, one bending slightly to eat from a low trough, soft natural light.",
+        "prompt_sha256": "95962b1e9a2914a2dbff76a1ee31afd283967b0e9bf6362bd77170b9c2563f22",
+        "reference_id": "vqa__vqa_val_0004__target__013",
+        "role": "target",
+        "seed": 222344520278049902
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/014.png",
+        "index": 14,
+        "prompt": "Wide shot of two giraffes in a spacious museum enclosure with large windows and a glass barrier in the foreground.",
+        "prompt_sha256": "4276844262f74693837824adb0beee44ff9466f4eaad5cb7330506ed8a934c2f",
+        "reference_id": "vqa__vqa_val_0004__target__014",
+        "role": "target",
+        "seed": 833818977827390813
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/015.png",
+        "index": 15,
+        "prompt": "Side angle view of two giraffes in a museum indoor setting, standing near a metal fence and a potted plant.",
+        "prompt_sha256": "218b490a879524713675cb33069d33686d352aea2395440fb0e2a5106df7d292",
+        "reference_id": "vqa__vqa_val_0004__target__015",
+        "role": "target",
+        "seed": 961302264409778506
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/016.png",
+        "index": 16,
+        "prompt": "Two giraffes in a museum display area with a small potted plant in the corner and a concrete floor.",
+        "prompt_sha256": "9d402683afe0b535c38bf8402e5a8691e965feaf4726ed46ec3dbd7bd044a8c0",
+        "reference_id": "vqa__vqa_val_0004__target__016",
+        "role": "target",
+        "seed": 987875068099320690
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/017.png",
+        "index": 17,
+        "prompt": "Candid shot of two giraffes in a museum indoor enclosure, one looking toward the camera, natural lighting.",
+        "prompt_sha256": "3cf0a4de4b89e9ffbce271f98236ecccc4307549a485a152a58a7f28b6c704c4",
+        "reference_id": "vqa__vqa_val_0004__target__017",
+        "role": "target",
+        "seed": 654091014752826167
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/018.png",
+        "index": 18,
+        "prompt": "Two giraffes in a museum conservatory with high ceilings and a feeding station, standing calmly.",
+        "prompt_sha256": "31d15259c29d4ac26f04df574ab1ee17852b817163e0bce6f25d35ef9fbdd977",
+        "reference_id": "vqa__vqa_val_0004__target__018",
+        "role": "target",
+        "seed": 296378785061812321
+      },
+      {
+        "image": "samples/vqa/vqa_val_0004/target/019.png",
+        "index": 19,
+        "prompt": "Another instance of two giraffes in a museum indoor enclosure with beige walls and a glass wall, natural daylight.",
+        "prompt_sha256": "41f6dcaaac14adca1e527946bbdd864995f7e195fdf4ede3fbac3ca40d0ae78d",
+        "reference_id": "vqa__vqa_val_0004__target__019",
+        "role": "target",
+        "seed": 657257964213071436
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000136.jpg",
+    "original_image_sha256": "db678804a652fc15ab7fbdbe5432dd54b1a6856ee07f3e35ff3792c5c97a63de",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "3a7c1ed7bbb834c932b76814171cda1c94301c416d8e54bbc1c17c6951f7f2da",
+    "sample_id": "vqa_val_0004",
+    "shard": 108,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "Is this in a museum?",
+      "source_answer": "no",
+      "source_answers": [
+        "no",
+        "yes",
+        "yes",
+        "no",
+        "no",
+        "no",
+        "no",
+        "yes",
+        "yes",
+        "no"
+      ],
+      "target_answer": "yes"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0004__source__000": {
+      "job_sha256": "e7c7baf4d9fbb158e8b09790c5aea1da4e82c84b7ccff7e0a05a5eda06473741",
+      "sha256": "92f2761d4d1d9ecbe107ded98b0e7840edcd6bc741e8bd75c2ceb4a88aa81511",
+      "bytes": 196808,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.386413+00:00"
+    },
+    "vqa__vqa_val_0004__source__001": {
+      "job_sha256": "c0e0fce0a99f9a2b803b2d300a0dcbfdf564dce4c798fd0571045747d6e5757e",
+      "sha256": "a81978e2bdca34edafef90b5aaadcaffc6055393034afece3aff0643d18f64c6",
+      "bytes": 164987,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.431812+00:00"
+    },
+    "vqa__vqa_val_0004__source__002": {
+      "job_sha256": "ce355f5084a180c064bbbc5a928024a536dbffecb6a435b7e7b6ab940e6f9a6c",
+      "sha256": "bf83237040ca23a330fecbf5374fec1d237cde6783334e55c8fb4c04bf2eefa5",
+      "bytes": 163346,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.474392+00:00"
+    },
+    "vqa__vqa_val_0004__source__003": {
+      "job_sha256": "646836e7c855f92baec27e66fa5a4ae8afc1ccc4565daeae3650df4c07b004f1",
+      "sha256": "0a55a74b9deb62611ce817a658945ba0d21d91260122e18cb2a9e2747e1b1abe",
+      "bytes": 182021,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.522802+00:00"
+    },
+    "vqa__vqa_val_0004__source__004": {
+      "job_sha256": "50525a4fca0fc16d8081c8454a84b1cb7a39b88dbac50fcb19c239436fcaf938",
+      "sha256": "fe7918ae18503171cdefe9e62e388f70704d7d7a3e07edf8c08ea7cd30c7573f",
+      "bytes": 149904,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.565703+00:00"
+    },
+    "vqa__vqa_val_0004__source__005": {
+      "job_sha256": "7952a49a6dc44c5530b75ad5502dea18083da1b1f4783d560237564750840841",
+      "sha256": "b33a2f3d8bbcb4b42d3efa2e078e6904057e1068ebc4fe945227f1a23c70dc04",
+      "bytes": 175400,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.619958+00:00"
+    },
+    "vqa__vqa_val_0004__source__006": {
+      "job_sha256": "d19b4f6ec703ef7c5292dae9587ea664d6c65cda5277335ec1f893014ccd46d7",
+      "sha256": "98df913ef9144d3d4c502c86a6ac0123033f753cb86fbec8f519a024aeb3ba4b",
+      "bytes": 173113,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.665704+00:00"
+    },
+    "vqa__vqa_val_0004__source__007": {
+      "job_sha256": "f5d6120d2f0fb730cc013607d8fa31ac674ede3195289abf2a35898b3a04b756",
+      "sha256": "48a7859f1bf354d592d5b9398af2809e551cce4207b0b814c2ded77b808b00cf",
+      "bytes": 144970,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.712996+00:00"
+    },
+    "vqa__vqa_val_0004__source__008": {
+      "job_sha256": "163d627a6fb662936cacebc94a7e7a1c72e5066aa0bb949a46c67daa4d1c000f",
+      "sha256": "e31300b7c3ed5f8e30b77c71ac4c404a73185b186005e2b5f031cbda5ba30a8a",
+      "bytes": 185785,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.759757+00:00"
+    },
+    "vqa__vqa_val_0004__source__009": {
+      "job_sha256": "5591e8ad48cfda71bb598fbc230c676949e0effeb85b6cfd22c4517f085b2f39",
+      "sha256": "de0b7a909f44181f512735347d2f787e14c33574d3b9ea376a3ce761b6974091",
+      "bytes": 175686,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.799790+00:00"
+    },
+    "vqa__vqa_val_0004__source__010": {
+      "job_sha256": "d9303b3dbfe462d01c978bacd750d45e50f06c44e5f0382a5c96c8dc3c234237",
+      "sha256": "3f5ce8e39201da4296e8405b174dd1b96177861e7dac596ccde450b008dc76f6",
+      "bytes": 181779,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.847040+00:00"
+    },
+    "vqa__vqa_val_0004__source__011": {
+      "job_sha256": "7bb221d2cc6d8a6d6437a2b98a2c325e9952eaaa9531bf32bf2b3bbbff929bf0",
+      "sha256": "ff874daaa798628942f542831a4a054079ce7de24e28420b51c0c7b688b7476e",
+      "bytes": 154831,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.891260+00:00"
+    },
+    "vqa__vqa_val_0004__source__012": {
+      "job_sha256": "8004a9de439501eb6b84f62a665f2be39c7f2836dad9dd9e1c617da6dc011c21",
+      "sha256": "1e4e71a678c3e192bb9d8f63d3ffae2d067c72e383a6b4a0cc71b6997c66a86a",
+      "bytes": 132865,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.929734+00:00"
+    },
+    "vqa__vqa_val_0004__source__013": {
+      "job_sha256": "8f83b02fb0569c3afcb84a6335023177d1f4eb39b9222bd1dbf892e0b4c3e165",
+      "sha256": "b2c2a5e14cb2a40067407a488b52201333d1091c33be8218fca747c868d97811",
+      "bytes": 182920,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:11.980147+00:00"
+    },
+    "vqa__vqa_val_0004__source__014": {
+      "job_sha256": "7ceb752ad22d3e696ff00caa7a1cec33a2e78e0dd4d78c35f7cb182444c7b1a1",
+      "sha256": "836542991c9aca68ea6e00c75dda3841c82f87ff4165625cad5adffc90952550",
+      "bytes": 164088,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.028391+00:00"
+    },
+    "vqa__vqa_val_0004__source__015": {
+      "job_sha256": "6383202ce6014607d9c0c55b3c5893c67d1ff12b8cde47a86d56b71cd97856f5",
+      "sha256": "961829d31114cdeac797c138805f545313b33509d7b006159df698a6b1adfda7",
+      "bytes": 161846,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.080919+00:00"
+    },
+    "vqa__vqa_val_0004__source__016": {
+      "job_sha256": "02d9443b0e815484d7559b01fdabb7325b9371b60876224b71d0b2a3a5cd0426",
+      "sha256": "ee5d945f323fcf6129bc4129dc5d18badf12f60993f4eecad2641d4753896867",
+      "bytes": 149778,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.132337+00:00"
+    },
+    "vqa__vqa_val_0004__source__017": {
+      "job_sha256": "835fb000f4a60a2108ca3d8d8105418a8fb53f423d246f3f95ad4bbe44af7e92",
+      "sha256": "3a96a52d8848685f071586b3eb55f3e7124120546943ec778bb3aee51d780582",
+      "bytes": 160752,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.180364+00:00"
+    },
+    "vqa__vqa_val_0004__source__018": {
+      "job_sha256": "8acf5ea7ff72c3b3f474ae8c2f07938ecff585e862d34a9aefdf1e0b1af71a3e",
+      "sha256": "ae30d02896aedc11e8c0fb6fc2d531f90ab64e9155780a0e7a76313fa3721a74",
+      "bytes": 177169,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.227323+00:00"
+    },
+    "vqa__vqa_val_0004__source__019": {
+      "job_sha256": "55714b08d4d755197511b6f1f866e94617b6e042ba52a3dafc20189f8d6ccc96",
+      "sha256": "611b730ca674474648e298a95b0ce4d63508467b3f593d13f1ad4fc46bb1d568",
+      "bytes": 155044,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.267468+00:00"
+    },
+    "vqa__vqa_val_0004__target__000": {
+      "job_sha256": "f520298c087ef874924c5334d901580d01a8c2ecb5abf4c57df43e16c31e129d",
+      "sha256": "81a86b72a0dd7658a0fb1e96c4110133298967b92e8faa67b78b7dfdd5228591",
+      "bytes": 158828,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.316960+00:00"
+    },
+    "vqa__vqa_val_0004__target__001": {
+      "job_sha256": "db0804f05edc8c25b16fc6ee831779a308e39f25e07b06f02331a5180ee031d8",
+      "sha256": "2b8a3badb5cd42142893ef9ab5f0d50b9fee5c8f7a87ae42b6b1c47b67b1a99f",
+      "bytes": 149078,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.371436+00:00"
+    },
+    "vqa__vqa_val_0004__target__002": {
+      "job_sha256": "29f050a5c34ae08f999c24b03684b11010e1cbe3b1356a3e91977d672fbb8814",
+      "sha256": "6a700b037bf899f888c405b644fff0632111299ec8eac2edbd4559aac6e10c39",
+      "bytes": 158784,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.412240+00:00"
+    },
+    "vqa__vqa_val_0004__target__003": {
+      "job_sha256": "6449f5e9b4213f25ffe81a8ee6f4b80216789cf6873fc5d55e570c711f260757",
+      "sha256": "1d001b58c879c20da425543daf8115fa56605e3d8925bfbb29ab7b46e0f9d486",
+      "bytes": 166954,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.458122+00:00"
+    },
+    "vqa__vqa_val_0004__target__004": {
+      "job_sha256": "589049df2f91a262859744707a17a6331466e0c9e3b54da176952a01defd7a26",
+      "sha256": "253f7db85be11129f8d4f2dec219d4c6ba0faa900cf2b86a6c49bd37285bfaa8",
+      "bytes": 146344,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.505993+00:00"
+    },
+    "vqa__vqa_val_0004__target__005": {
+      "job_sha256": "669e0fd14f818090eec587526b2b92cf1c7328f9d347bc15b3f18e92afaa70a0",
+      "sha256": "805db67a75c9951d2c1e6f22b6f3b9d54aa2264b82aad6cf4851cd06a62edde4",
+      "bytes": 180210,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.558185+00:00"
+    },
+    "vqa__vqa_val_0004__target__006": {
+      "job_sha256": "063d1f162104e621bd4970425e92edf4b7bbe493b474e043951a814f7b15c06f",
+      "sha256": "20352c6778b12469e6fc1287af8bab9dd24f8e1839057687ef78337f253dd451",
+      "bytes": 165240,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.610244+00:00"
+    },
+    "vqa__vqa_val_0004__target__007": {
+      "job_sha256": "c17f34162261102b427502c3bd856c3524e13505b226891f294d98e4b92f41a4",
+      "sha256": "950b23a409a9b3ce8b2a21b407680b3c27567421043fad19d7e88c2869d2bf16",
+      "bytes": 147302,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.655213+00:00"
+    },
+    "vqa__vqa_val_0004__target__008": {
+      "job_sha256": "091384d0e67a67a0e2502fd1236930b54fbe7e11fe40bbf5c235e5dadbb9c053",
+      "sha256": "6a2444d8c07ea8b06886771d82ae3f59074338b6d6c46fae78972405242587ad",
+      "bytes": 172500,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.704062+00:00"
+    },
+    "vqa__vqa_val_0004__target__009": {
+      "job_sha256": "8f1d0680a0eaa48b838b491d17e5bc994aede6cdfe64b9f7ff1d0b4dc960405f",
+      "sha256": "d70e6595218b93a81b467e53415ba7833ea7136c9ef0b29178db456800fb4f73",
+      "bytes": 163737,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.743894+00:00"
+    },
+    "vqa__vqa_val_0004__target__010": {
+      "job_sha256": "ea2f6ba61ab1431ebf531568d96a4b890abae12a5f89306776a619dc56e64437",
+      "sha256": "bc72a2d174b90662d194f84fa34ff24e392a8bf6af13e85ac5db7cae2527b5f1",
+      "bytes": 162086,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.781691+00:00"
+    },
+    "vqa__vqa_val_0004__target__011": {
+      "job_sha256": "968e5afed21c13265fb61dac3099bf6ea3af2c98014963f8934356e2eb379ce7",
+      "sha256": "02a72567fb1a9f2b3fe8508d999f0df04b27a8be9d4df8bf9d70e19dec0a4360",
+      "bytes": 145756,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.831755+00:00"
+    },
+    "vqa__vqa_val_0004__target__012": {
+      "job_sha256": "1c39fd1172e1b8cdd96186927888c32ca8b3c9f0154bd824ae5d5495f305b0d8",
+      "sha256": "a56aa6ace20f8d4269cffa55168784f893d0a263e89614ebe9845eefad103e82",
+      "bytes": 141283,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.885391+00:00"
+    },
+    "vqa__vqa_val_0004__target__013": {
+      "job_sha256": "fe868f81f8cd8f9df5a730bfaaa17c48993a402ded4e76214014dbaf0d54aaeb",
+      "sha256": "27e32f610ba750a28b569dc2fd0b56c29de3a0c51c6f7f8ecf2e34e1d2569bc1",
+      "bytes": 169608,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.940891+00:00"
+    },
+    "vqa__vqa_val_0004__target__014": {
+      "job_sha256": "803ac37c170bf0b72549e705b1487282746343b057e7e38ced848f7b33dd90d9",
+      "sha256": "5acbaa3c16c5fed38b2826208867fc7f93897ac59d803953e64be81865fc116b",
+      "bytes": 158227,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:12.989710+00:00"
+    },
+    "vqa__vqa_val_0004__target__015": {
+      "job_sha256": "38a0ee75b059f67a045662389733753e15fee18c594598b17c888ba92cf3e90a",
+      "sha256": "68d72b46ea4da61ad3772bfc4ddf6170bccb18453cf6770a649b6405659df947",
+      "bytes": 158214,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:13.039420+00:00"
+    },
+    "vqa__vqa_val_0004__target__016": {
+      "job_sha256": "26691c6bd2e589771c6b72a92410903aa86154a45fe083a4c5d0129afb0df15c",
+      "sha256": "e6d0b3ba5cb27e7ad201a8a8881c4df242d3def3a61dbc16ec331d5e61a2f6fe",
+      "bytes": 145145,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:13.093041+00:00"
+    },
+    "vqa__vqa_val_0004__target__017": {
+      "job_sha256": "f4ef6c91f88965f99e176bd6663e622bcd663d0127892403e5611dc5e814a502",
+      "sha256": "c38c9e6bc69b470acdc0d9c9c9162e52d859731f4d869b561948768421aafc03",
+      "bytes": 142997,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:13.138038+00:00"
+    },
+    "vqa__vqa_val_0004__target__018": {
+      "job_sha256": "c37b751b6de90d791966bdf8dd2b728e7366371745643cb7f77fbab30b195646",
+      "sha256": "5c465adf4c46fb23e3290d57b0c20014858660a54a21462c975dc0d8327df191",
+      "bytes": 165473,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:13.180967+00:00"
+    },
+    "vqa__vqa_val_0004__target__019": {
+      "job_sha256": "659bd7baff567bdc98637ac5efa3e25f72c806435d86f6f2fbc0474778488c73",
+      "sha256": "9c38ba2d49cdf7ef24c1e75e8b5f37dc41f517f237e283d96d2e1e638e3d0875",
+      "bytes": 166284,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 28.00826463289559,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:13.234082+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:04:13.234104+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

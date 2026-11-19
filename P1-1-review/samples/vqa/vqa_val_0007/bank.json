@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "d30e2dfeac7eb98a168bd9f50273247b1a94b84c32954a61dc4f9486ec8f0e8c",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "8483d5223b28342b6b084d971d7db106e8911063774261b353b8367dfec3d651",
+      "notes": "Source prompts show one paper-towel roll on a holder and target prompts show the holder empty; consistent with one→zero. Source answer 1 is supported by 8/10 annotations.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0007/source/000.png",
+        "index": 0,
+        "prompt": "A single white paper towel roll sits on a metal holder attached to a kitchen counter, viewed from a slight angle against a beige wall.",
+        "prompt_sha256": "1fc5ae0d8e130ec51076a6cf294028287005d272312c8ba6f3953b2464011d71",
+        "reference_id": "vqa__vqa_val_0007__source__000",
+        "role": "source",
+        "seed": 924849321774241267
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a clean kitchen counter featuring one paper towel roll on a freestanding holder, with a fruit bowl in the background.",
+        "prompt_sha256": "b6aa588e00055d15993cf95aff03dffdf3f9f00baa62eadf55a00be0eea9cc7d",
+        "reference_id": "vqa__vqa_val_0007__source__001",
+        "role": "source",
+        "seed": 1028609023872286295
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a kitchen counter showing exactly one paper towel roll on a holder, with bright lighting and a blurred sink in the distance.",
+        "prompt_sha256": "28dbcf5bcf762043cf479d68476a29a018acbad18fbb1094d53f1043b65da015",
+        "reference_id": "vqa__vqa_val_0007__source__002",
+        "role": "source",
+        "seed": 830033958223308507
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/003.png",
+        "index": 3,
+        "prompt": "A paper towel roll hangs vertically from a wall-mounted holder above a kitchen counter, positioned next to a small potted plant.",
+        "prompt_sha256": "8b3cc1badf0fbd50784fea6ff4b5a1268ae0def765d90bf21e14f2fce5e1cb34",
+        "reference_id": "vqa__vqa_val_0007__source__003",
+        "role": "source",
+        "seed": 795660558761891915
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/004.png",
+        "index": 4,
+        "prompt": "A single paper towel roll sits on a wall-mounted holder against a beige kitchen wall, viewed from a slight angle.",
+        "prompt_sha256": "92ca03acd441fec8092940f4d137bfc51d0963318d7aae5dbaa7a78fd6d49fe1",
+        "reference_id": "vqa__vqa_val_0007__source__004",
+        "role": "source",
+        "seed": 1127113261440922604
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/005.png",
+        "index": 5,
+        "prompt": "Medium shot of a kitchen counter featuring one paper towel roll on a metal holder, with a white tile backsplash.",
+        "prompt_sha256": "6aa5a07cef69cbb2dcc35d07224135bc2148ff87e766703fcfe1f74c6b769de5",
+        "reference_id": "vqa__vqa_val_0007__source__005",
+        "role": "source",
+        "seed": 188118827337688384
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/006.png",
+        "index": 6,
+        "prompt": "Close-up view of a paper towel roll on a freestanding holder, showing the texture of the paper and the holder base.",
+        "prompt_sha256": "ef1ecc36998180676b556b190ef7f50f993da1b5d313a5f8619057e0b097879d",
+        "reference_id": "vqa__vqa_val_0007__source__006",
+        "role": "source",
+        "seed": 1126409644581559098
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/007.png",
+        "index": 7,
+        "prompt": "One paper towel roll on a counter holder, slightly tilted, with a blue mug visible in the blurred background.",
+        "prompt_sha256": "ff0a5cfa48bbea2bbe5513eb383dfbecd479f548307e65b2aa18e9a58caa30b4",
+        "reference_id": "vqa__vqa_val_0007__source__007",
+        "role": "source",
+        "seed": 1052077209828493010
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/008.png",
+        "index": 8,
+        "prompt": "A single white paper towel roll sits on a chrome counter holder in a bright kitchen with white cabinets.",
+        "prompt_sha256": "d00ff003e0735d433fff9185747f49a8a0242ec806c9678aff29cc7610e30075",
+        "reference_id": "vqa__vqa_val_0007__source__008",
+        "role": "source",
+        "seed": 232935797449766245
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/009.png",
+        "index": 9,
+        "prompt": "Medium shot of a kitchen counter featuring one paper towel roll on a metal stand next to a sink.",
+        "prompt_sha256": "6037a46857d7d736fd4ba869d5ef473671f6baf47c7ff72ee73cb887cd10b94c",
+        "reference_id": "vqa__vqa_val_0007__source__009",
+        "role": "source",
+        "seed": 459466409326010530
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/010.png",
+        "index": 10,
+        "prompt": "Close-up view of a solitary paper towel roll on a countertop holder, with a blurred background.",
+        "prompt_sha256": "f5ac83fd773cff68834d687fdfd694cad56cbac3216c0408435399566686ccad",
+        "reference_id": "vqa__vqa_val_0007__source__010",
+        "role": "source",
+        "seed": 629960366458003935
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/011.png",
+        "index": 11,
+        "prompt": "One paper towel roll resting on a small wooden counter holder in a sunlit kitchen corner.",
+        "prompt_sha256": "ea0e5100c3121ea329b55135f92e806cf21e3e2e4964511caefa28fc1f093066",
+        "reference_id": "vqa__vqa_val_0007__source__011",
+        "role": "source",
+        "seed": 911717894320235005
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/012.png",
+        "index": 12,
+        "prompt": "A single paper towel roll on a chrome holder sits on a granite countertop, viewed from a slight side angle with a white tile backsplash.",
+        "prompt_sha256": "4908a2e580627990c97c4f5fd66d8711128f9a1296a31b968579372ca1246527",
+        "reference_id": "vqa__vqa_val_0007__source__012",
+        "role": "source",
+        "seed": 243871689585409740
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/013.png",
+        "index": 13,
+        "prompt": "Medium shot of a kitchen counter featuring one paper towel roll on a stand, with a bowl of fruit nearby and soft natural light.",
+        "prompt_sha256": "f93490e5eb0a0d68e7a49f89b73466048fe53445c7304b60ed1340d3822f5a29",
+        "reference_id": "vqa__vqa_val_0007__source__013",
+        "role": "source",
+        "seed": 798365150012382374
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/014.png",
+        "index": 14,
+        "prompt": "Close-up view of a paper towel roll on a metal counter holder, showing the texture of the paper and the edge of the sink.",
+        "prompt_sha256": "b207036b381658fa6d40a0e8166521ff79a1110966dbfe31b745ca3744138070",
+        "reference_id": "vqa__vqa_val_0007__source__014",
+        "role": "source",
+        "seed": 575572151386120530
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/015.png",
+        "index": 15,
+        "prompt": "A paper towel roll on a wooden holder rests on a clean counter, angled slightly toward the camera with a blurred window in the background.",
+        "prompt_sha256": "540a372228c735ff40b54821cf5a43515291b3af3542be9b8c0e6a48eb3ee09e",
+        "reference_id": "vqa__vqa_val_0007__source__015",
+        "role": "source",
+        "seed": 1065577470250171321
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/016.png",
+        "index": 16,
+        "prompt": "A single white paper towel roll sits on a chrome counter holder, viewed from a low angle against a blue tiled wall.",
+        "prompt_sha256": "c97220be7a64995a45de95a93eaa738c6583270b9720c799d664837d35b0fe94",
+        "reference_id": "vqa__vqa_val_0007__source__016",
+        "role": "source",
+        "seed": 599870148902714920
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/017.png",
+        "index": 17,
+        "prompt": "Medium shot of a kitchen counter featuring one paper towel roll on a wooden stand, with a fruit bowl nearby.",
+        "prompt_sha256": "546f4b75cbc2180f495c48b5db3a0a2ca3e4fe76ba8dcb77c289287df61ceeba",
+        "reference_id": "vqa__vqa_val_0007__source__017",
+        "role": "source",
+        "seed": 706623348936121805
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/018.png",
+        "index": 18,
+        "prompt": "Close-up view of a single paper towel roll on a metal holder, filling the frame with the roll clearly visible.",
+        "prompt_sha256": "5e74a23efd217cf62789cbf804c6259eb7f7b945dacc21c994406ef112aa8abf",
+        "reference_id": "vqa__vqa_val_0007__source__018",
+        "role": "source",
+        "seed": 652521505668135195
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/source/019.png",
+        "index": 19,
+        "prompt": "One paper towel roll on a counter holder, angled slightly from the side, with a coffee mug in the background.",
+        "prompt_sha256": "5e74b1483cb3bf413b2c63481c120ac983ab6cae86d3541fe81566b4692c98b6",
+        "reference_id": "vqa__vqa_val_0007__source__019",
+        "role": "source",
+        "seed": 934025522422043810
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/000.png",
+        "index": 0,
+        "prompt": "An empty metal paper towel holder sits on a kitchen counter, viewed from a slight angle against a beige wall with no rolls visible.",
+        "prompt_sha256": "6f2014ac81e3e34deb387b21b79279f90c05e156941e9f7e83139bb2cbefc076",
+        "reference_id": "vqa__vqa_val_0007__target__000",
+        "role": "target",
+        "seed": 404160857894957101
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a clean kitchen counter featuring an empty freestanding paper towel holder, with a fruit bowl in the background.",
+        "prompt_sha256": "fce417e90f9be51a72a15860494801f916fd6014e7eb7dea3477bd85995055f6",
+        "reference_id": "vqa__vqa_val_0007__target__001",
+        "role": "target",
+        "seed": 470231689689282101
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a kitchen counter showing an empty paper towel holder, with bright lighting and a blurred sink in the distance.",
+        "prompt_sha256": "b0a0a766c5bbdf201fd4d8221d9e8c8b596123eb4ec9d464f9bfe123992f59c5",
+        "reference_id": "vqa__vqa_val_0007__target__002",
+        "role": "target",
+        "seed": 221644454962114904
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/003.png",
+        "index": 3,
+        "prompt": "An empty wall-mounted paper towel holder hangs above a kitchen counter, positioned next to a small potted plant with no roll present.",
+        "prompt_sha256": "48130d48eccc2f4e7c9d1123e3b40bb5ddef4c1a7f459f06fc7b6b80f39917ba",
+        "reference_id": "vqa__vqa_val_0007__target__003",
+        "role": "target",
+        "seed": 260020360465254111
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/004.png",
+        "index": 4,
+        "prompt": "An empty wall-mounted paper towel holder is mounted on a beige kitchen wall, viewed from a slight angle.",
+        "prompt_sha256": "7530c59192b14ec524b6d6f1ae110eb8105f226c09e84db456dab4c4d1209286",
+        "reference_id": "vqa__vqa_val_0007__target__004",
+        "role": "target",
+        "seed": 459617227512613921
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/005.png",
+        "index": 5,
+        "prompt": "Medium shot of a kitchen counter with an empty metal paper towel holder, against a white tile backsplash.",
+        "prompt_sha256": "13bd1dda810fce1d70d5d6618b906b29d67ed70fa05d6d8dc413090d42f52886",
+        "reference_id": "vqa__vqa_val_0007__target__005",
+        "role": "target",
+        "seed": 910976716074565813
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/006.png",
+        "index": 6,
+        "prompt": "Close-up view of an empty freestanding paper towel holder, showing the metal base and empty core.",
+        "prompt_sha256": "cceb63d065321d9841cce2adf0c51f853947bd47dd95c86a4aee72bd81996ff3",
+        "reference_id": "vqa__vqa_val_0007__target__006",
+        "role": "target",
+        "seed": 396944046464816739
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/007.png",
+        "index": 7,
+        "prompt": "An empty counter holder sits slightly tilted, with a blue mug visible in the blurred background.",
+        "prompt_sha256": "f2646c5c1d89c67835fa539ccb2ca51844b8c312d8ca636ebd6a9abca27cb8ad",
+        "reference_id": "vqa__vqa_val_0007__target__007",
+        "role": "target",
+        "seed": 711282502486275321
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/008.png",
+        "index": 8,
+        "prompt": "A chrome counter holder on a bright kitchen counter with white cabinets, holding no paper towel roll.",
+        "prompt_sha256": "06858ad2da67326699c055e5aba3b4b359a34e3fb607fd1d2b38b1e6a8f28cd6",
+        "reference_id": "vqa__vqa_val_0007__target__008",
+        "role": "target",
+        "seed": 951965573605468100
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/009.png",
+        "index": 9,
+        "prompt": "Medium shot of a kitchen counter with a metal stand next to a sink, where the holder is empty.",
+        "prompt_sha256": "20cd23c5caa41a231344eea4565ec8d3f10071acf20fcea7e7e09dbb8ce89eb7",
+        "reference_id": "vqa__vqa_val_0007__target__009",
+        "role": "target",
+        "seed": 986241595811107087
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/010.png",
+        "index": 10,
+        "prompt": "Close-up view of an empty countertop holder with a blurred background, showing no paper towel roll.",
+        "prompt_sha256": "ca7d272d2e6c83b1aaa0a31045a6b450e4257dca3b62eda129a696592d75a22a",
+        "reference_id": "vqa__vqa_val_0007__target__010",
+        "role": "target",
+        "seed": 368494213418079700
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/011.png",
+        "index": 11,
+        "prompt": "A small wooden counter holder in a sunlit kitchen corner, positioned without any paper towel roll.",
+        "prompt_sha256": "13467a52fcd65a6d74ce4a4134ec69f03a6c4d2485171cef4bc173a242f5ca4b",
+        "reference_id": "vqa__vqa_val_0007__target__011",
+        "role": "target",
+        "seed": 707550088574293741
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/012.png",
+        "index": 12,
+        "prompt": "An empty chrome paper towel holder sits on a granite countertop, viewed from a slight side angle with a white tile backsplash.",
+        "prompt_sha256": "dad41f312f98db4bbb9da204e666e7e95c07a4601f1d0970c6ca9d1252f55cc9",
+        "reference_id": "vqa__vqa_val_0007__target__012",
+        "role": "target",
+        "seed": 32288453504791442
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/013.png",
+        "index": 13,
+        "prompt": "Medium shot of a kitchen counter featuring an empty paper towel stand, with a bowl of fruit nearby and soft natural light.",
+        "prompt_sha256": "0db0fe6cce2eef9335cbe4b9d07a93f0fc14c1f1a6f5e35a44a9398001649218",
+        "reference_id": "vqa__vqa_val_0007__target__013",
+        "role": "target",
+        "seed": 429314405042218498
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/014.png",
+        "index": 14,
+        "prompt": "Close-up view of an empty metal counter holder, showing the bare metal prongs and the edge of the sink.",
+        "prompt_sha256": "5e6c1ae5d4096bcf47c8a193fc20afd2f3bf76ff3be079e0916f2721b9fd2634",
+        "reference_id": "vqa__vqa_val_0007__target__014",
+        "role": "target",
+        "seed": 262883818833042114
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/015.png",
+        "index": 15,
+        "prompt": "An empty wooden paper towel holder rests on a clean counter, angled slightly toward the camera with a blurred window in the background.",
+        "prompt_sha256": "508091d6dfc660d96a92901ea02549ead9cff1d5ccb0ecddcb222907e384c811",
+        "reference_id": "vqa__vqa_val_0007__target__015",
+        "role": "target",
+        "seed": 477328755473657574
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/016.png",
+        "index": 16,
+        "prompt": "An empty chrome counter holder sits on the kitchen surface, viewed from a low angle against a blue tiled wall with no paper towel roll present.",
+        "prompt_sha256": "77646264990e3e628e0af5834f13dc03632d53ab5fc8e276de67c07c7a22ec2a",
+        "reference_id": "vqa__vqa_val_0007__target__016",
+        "role": "target",
+        "seed": 497237608251355362
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/017.png",
+        "index": 17,
+        "prompt": "Medium shot of a kitchen counter featuring an empty wooden stand, with a fruit bowl nearby and no paper towel roll visible on the holder.",
+        "prompt_sha256": "db67b18319690ec4741417338676cee8b8135093b30dc928e2f257801057eee4",
+        "reference_id": "vqa__vqa_val_0007__target__017",
+        "role": "target",
+        "seed": 608616903160143054
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/018.png",
+        "index": 18,
+        "prompt": "Close-up view of an empty metal holder filling the frame, showing the bare metal prongs with no paper towel roll inserted.",
+        "prompt_sha256": "b77db8b523b73536f623d4443cc142c52dc1d87db1b915263d1346674a00122a",
+        "reference_id": "vqa__vqa_val_0007__target__018",
+        "role": "target",
+        "seed": 993321158356766278
+      },
+      {
+        "image": "samples/vqa/vqa_val_0007/target/019.png",
+        "index": 19,
+        "prompt": "An empty counter holder angled slightly from the side, with a coffee mug in the background and no paper towel roll present.",
+        "prompt_sha256": "96f6c357d5630c20979caf0979b815ad4246d9e5f70d2e1dac019fb2db02e573",
+        "reference_id": "vqa__vqa_val_0007__target__019",
+        "role": "target",
+        "seed": 796649507903030609
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000164.jpg",
+    "original_image_sha256": "cea63a308dfa9f011406113b78fd864563a2f47467ba3c7b3bf065ad82f2c333",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "d30e2dfeac7eb98a168bd9f50273247b1a94b84c32954a61dc4f9486ec8f0e8c",
+    "sample_id": "vqa_val_0007",
+    "shard": 111,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "How many paper towel rolls?",
+      "source_answer": "1",
+      "source_answers": [
+        "1",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "2",
+        "1",
+        "1",
+        "1"
+      ],
+      "target_answer": "0"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0007__source__000": {
+      "job_sha256": "6acaa94f15f66a3d652c66db09a46960f2332d137c965703bbe29e5da237f770",
+      "sha256": "ad72211d2e648a8bd630c94311d1e88c05744247144325c75a6e435256236cc5",
+      "bytes": 116253,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:40.722078+00:00"
+    },
+    "vqa__vqa_val_0007__source__001": {
+      "job_sha256": "8be934dc58867b91317cc77d439b09ef461295ed8ccb0e2eef0f8bcf5183e509",
+      "sha256": "35696e09982dba417ecc6a433123cb26aa033d50450d969c513586c5d8adcc2b",
+      "bytes": 116989,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:40.756633+00:00"
+    },
+    "vqa__vqa_val_0007__source__002": {
+      "job_sha256": "e92accedb134e710ad87fd75aacfb801870feb51bbfc83dca5b56d5865c96429",
+      "sha256": "92b45fccb2ec6755422e312035f18931326dd64635f2ee9cf48b952f9589d2da",
+      "bytes": 112833,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:40.792593+00:00"
+    },
+    "vqa__vqa_val_0007__source__003": {
+      "job_sha256": "e8ef2f921208fdb2542301c62d9dc4feda3b612a8784f31c8466b0834edb3211",
+      "sha256": "46c28b83ed33ff2a2826d9a44c79b360be30c3135ea7d18b6ef0a89470f954fa",
+      "bytes": 120306,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:40.833479+00:00"
+    },
+    "vqa__vqa_val_0007__source__004": {
+      "job_sha256": "aa32eb07c46832142cca56f5ba6b3a8870db38f2b93cdef4c7a9a31c0843e9af",
+      "sha256": "11d01eca4f2eeb60071bd1ef14a341c7e91141734c28b1dfefa21ba5d9d4354e",
+      "bytes": 116385,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:40.872206+00:00"
+    },
+    "vqa__vqa_val_0007__source__005": {
+      "job_sha256": "8741003a98913d8b5045eca54cfcf740051c3102f3cf44acda82301f973e80ca",
+      "sha256": "70c14e0fcdc94925b303d69de6e355cb62a405d7dc86d4e1e25c1bce2ac85e82",
+      "bytes": 109723,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:40.918973+00:00"
+    },
+    "vqa__vqa_val_0007__source__006": {
+      "job_sha256": "8a4795453a55362b373b5fe817d11c9ab739899f367d8deb10037a09d426b1f4",
+      "sha256": "a91eb8b3158dbed6d07a9e2948dd5d3534529773b45c3fe63f20da45aa994719",
+      "bytes": 128555,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:40.962379+00:00"
+    },
+    "vqa__vqa_val_0007__source__007": {
+      "job_sha256": "6e482fb579a92a6bb94b79547922cf34d7ec661a7343af14fa2f7e3952d322f6",
+      "sha256": "6021b9db40d7dbaf5663181f6f56f8d372595c1ae0bc60b567b147dc53c12c69",
+      "bytes": 107711,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.000441+00:00"
+    },
+    "vqa__vqa_val_0007__source__008": {
+      "job_sha256": "0ec451cde3b464451ed6fc71156708054c06291f07b5fe96af70d479f4553eaf",
+      "sha256": "01c71b5559744c5b4c827c106cd87d81499cb8892e95bdcad3ff2e05fd948f6c",
+      "bytes": 107344,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.045478+00:00"
+    },
+    "vqa__vqa_val_0007__source__009": {
+      "job_sha256": "184173deeab0767efe419123c5a0498a7c51049d03fce0d7a5b2fc9067b2947d",
+      "sha256": "0b99d7a6542ab9c5302cf354c94c498dd20a4a870e0896b63d4d1cb76ef9fe60",
+      "bytes": 115439,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.087923+00:00"
+    },
+    "vqa__vqa_val_0007__source__010": {
+      "job_sha256": "3b9a99b10f9d988bf8f2b818a98311a3bbaca03503358687a96c882221d9b4fd",
+      "sha256": "7222ae23575cdebff5fed818a7daf66cc3c00bda97821bb428127e1c4a4bc65e",
+      "bytes": 122011,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.133542+00:00"
+    },
+    "vqa__vqa_val_0007__source__011": {
+      "job_sha256": "fc0774ed64901d316b7d42b44aac0f5175637070b9ed9f4046152df57bc463e1",
+      "sha256": "79a20864965b99c4647c8e92a5cd679b90b307c7dbe7f7f51e9a39223645178c",
+      "bytes": 121231,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.174284+00:00"
+    },
+    "vqa__vqa_val_0007__source__012": {
+      "job_sha256": "148877fc330c3d45305bdc8c921447c352077d9c80e0ce098d00eb79d5ba5715",
+      "sha256": "5a4a2c6b04f81fca1f32602c61f98b496513fa3e6ffda5c9c9228b569872cff1",
+      "bytes": 138986,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.217282+00:00"
+    },
+    "vqa__vqa_val_0007__source__013": {
+      "job_sha256": "ef412fb77e0e9b28cb09a51500a267ba1f47f6eb9a54b20ea89b0dee5cee4e19",
+      "sha256": "68bbde131d92caf4e1347f86bb40e14876c13226d017442c69ca03e19306d119",
+      "bytes": 116673,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.267968+00:00"
+    },
+    "vqa__vqa_val_0007__source__014": {
+      "job_sha256": "d0af392d60d74f3edfd1c1cedec799fae2d18b128023817e1bda9b930bffe9b3",
+      "sha256": "64670762e1b28019ef0244bc99095c1c3d87bddd52033c98a6359080b5daf367",
+      "bytes": 128528,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.309598+00:00"
+    },
+    "vqa__vqa_val_0007__source__015": {
+      "job_sha256": "e8d0e24581f41277ab09e54e83d8fb50ae710eee80f5dc76570d729661a392ba",
+      "sha256": "898b15a21b85541a43e6726612ff191f465117d929976f38eb652fadc328f965",
+      "bytes": 109484,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.390210+00:00"
+    },
+    "vqa__vqa_val_0007__source__016": {
+      "job_sha256": "14eb9dac0249aca752f3ec21459b8d7c7947e70edc7e5f75e324fa58ab8080c2",
+      "sha256": "3c54b896f4b7a49705076cb4602c8806a50ee0047c388eba1a095a842c772326",
+      "bytes": 129599,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.434638+00:00"
+    },
+    "vqa__vqa_val_0007__source__017": {
+      "job_sha256": "1233102c16e7df9bffb80e005bf9dce27fe56aae1921c7825c97430fd07ed8ff",
+      "sha256": "109de32450eabfa87ab7c4e8132d0116b9395a5c62c225306a32705126b704f0",
+      "bytes": 119177,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.473002+00:00"
+    },
+    "vqa__vqa_val_0007__source__018": {
+      "job_sha256": "be2c11bb96f0a7ff3c7715317e086ff6a06043bbc053a0be061f27bf44c1473c",
+      "sha256": "9de6a5d9fb339d6ba6e6e930d4b03db680113155c15fcb6ef0513e0c9f0bda7a",
+      "bytes": 126683,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.510871+00:00"
+    },
+    "vqa__vqa_val_0007__source__019": {
+      "job_sha256": "fea448781e8bc8a20059d2bb683bd9c34eb06880c6fdd3725ea3359a810943c9",
+      "sha256": "ede35193c014d9c87552e362979532a533a21cf774c2c9dd26d9e19799f07f17",
+      "bytes": 124424,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.563933+00:00"
+    },
+    "vqa__vqa_val_0007__target__000": {
+      "job_sha256": "8888901a44ad958d36fb0e59f05d9666c8785681a33d0dabb6dcf8ab13157226",
+      "sha256": "947795617e0cec10bad8073b8fe760d2472379be91368479946c242d54c26103",
+      "bytes": 120865,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.609923+00:00"
+    },
+    "vqa__vqa_val_0007__target__001": {
+      "job_sha256": "9bf49a15e830702ec706635dfe46dd3b5abd6126bad3b2f41aece898197410cb",
+      "sha256": "7add66c04bafe9bdba228e50a5497db4fef7634a09971301532d1fe976a9f051",
+      "bytes": 109927,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.649957+00:00"
+    },
+    "vqa__vqa_val_0007__target__002": {
+      "job_sha256": "14ca1b93b9e566b20a436c06a55ca63f9bef4ac851db8f033a5bd1529f773c19",
+      "sha256": "47a249c80ecf9a6109177fa76d5f6366695ac7ef1136bb6d787dc598510d23d6",
+      "bytes": 111961,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.696356+00:00"
+    },
+    "vqa__vqa_val_0007__target__003": {
+      "job_sha256": "4442a6f068ae62971a150502f0e8c0aeac90861667c3ba12a3babef3f5a199bc",
+      "sha256": "d30607e4b091de61dcf4edc95e381a837259ad603a223726e420ab4f9d3d2029",
+      "bytes": 111513,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.753240+00:00"
+    },
+    "vqa__vqa_val_0007__target__004": {
+      "job_sha256": "ec5bb379f34f21d3612e74fe4c6e9d7d708ff78cd03761b900041ad734893ab1",
+      "sha256": "bfc8763688204666c54fbc8b3c4d75f83073ce2950cb9ba2b2b3ded1a6119dbd",
+      "bytes": 108570,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.794079+00:00"
+    },
+    "vqa__vqa_val_0007__target__005": {
+      "job_sha256": "bdc6fa0640364c78172412d6b521f4fb55efa371778bf807519f2155da656e1a",
+      "sha256": "fc6483a55d02997ad4bd46ed1e31b8d0fcf35eb469daab5b987e66e35600a658",
+      "bytes": 100983,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.839618+00:00"
+    },
+    "vqa__vqa_val_0007__target__006": {
+      "job_sha256": "1ab43aa25d8e331280cb71f0599ced75b202b05a767b144325792b99bfda94f5",
+      "sha256": "76968891d2bd36acfb608f9a2aa5ec9b286994c735fabcad12b2465f39fb813f",
+      "bytes": 115857,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.881190+00:00"
+    },
+    "vqa__vqa_val_0007__target__007": {
+      "job_sha256": "d43374ebfec01be1d1a82e984d4922f9fd74928db004457536c2ed717e426baf",
+      "sha256": "3a678f22f8fc1cdd757fc6511e0f3d7f7844106df1166bb0f431dcaa1503c2fb",
+      "bytes": 93278,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.920434+00:00"
+    },
+    "vqa__vqa_val_0007__target__008": {
+      "job_sha256": "41f426f71870da9ac95fccb1a16905c2b3f6f92df8cb6782375bd42a63f249fa",
+      "sha256": "1146da233f14f6f314afea5a8a5f5a4ee2f04710b8cc74eacacbf37e1d7f05d8",
+      "bytes": 99877,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.954277+00:00"
+    },
+    "vqa__vqa_val_0007__target__009": {
+      "job_sha256": "90a7318fd9d265ddfc877b68882d6abdcade4e34f7ec2b5a8c675868067b1b0c",
+      "sha256": "34e159cb087c126c3f0656b556b68a040a22de5cf6e9b0dd6cd565ad1b630715",
+      "bytes": 103866,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:41.995356+00:00"
+    },
+    "vqa__vqa_val_0007__target__010": {
+      "job_sha256": "b7ab5e4e3651e98324b434c07d2d8e73050ace7a031e8edc2363a0be0db8f419",
+      "sha256": "bdfeac9db34fe13cdc2d3d9ba437a2e41f2cc2e62dab780814fbccd146995148",
+      "bytes": 113083,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:42.038034+00:00"
+    },
+    "vqa__vqa_val_0007__target__011": {
+      "job_sha256": "397978ea88e6f3d42908bca9c44d9c509c49207c820083b937515594e9002d93",
+      "sha256": "bacfde5f9b1a69b6d7640613ffc7b1fd37afd6a6034103ca81111d41707cee5b",
+      "bytes": 108759,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:42.080761+00:00"
+    },
+    "vqa__vqa_val_0007__target__012": {
+      "job_sha256": "e73471c165fc90e2da8c1f09dcb68a682915e806764f506d7a5ac8edca344b82",
+      "sha256": "21a6ce4c483c0759c0e49c0f61c40b576bd57e4328d7be7c0f8322c2ee49edae",
+      "bytes": 119632,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:42.132889+00:00"
+    },
+    "vqa__vqa_val_0007__target__013": {
+      "job_sha256": "576272c1fb105c743ae762fd8d8e3686e661ef1fbef0a7c80015bfb168e20404",
+      "sha256": "acb5887062076a28bc2731cde517d3ebf1e958846875849b85401697525c54d1",
+      "bytes": 118257,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:42.177486+00:00"
+    },
+    "vqa__vqa_val_0007__target__014": {
+      "job_sha256": "326c2a1445ade7728593c81a57d2d055f5ecd7117d5d7d26dcd74eca6f647ebd",
+      "sha256": "283f2bbcf28bf2df3a987d2f688c657176b9c5a39e7561d022216c8b92609054",
+      "bytes": 122582,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:42.217506+00:00"
+    },
+    "vqa__vqa_val_0007__target__015": {
+      "job_sha256": "36f1bb9cb5d4de76645d310035078a43cb0a8498a44d3c93751ef72f779d2a0e",
+      "sha256": "eb5fbd6ddab130dd66897462f53df35daceac9b2e685c8d6e066ebd02c1dcc26",
+      "bytes": 111152,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:42.270740+00:00"
+    },
+    "vqa__vqa_val_0007__target__016": {
+      "job_sha256": "26a0be3293707605e7b55f8083f9ed7e443eb38e30d3283cf5830be4793ce37a",
+      "sha256": "d162ad4a9d3acc56bed0442f1f2458041324cf622863d6763ea88712ab8a0efe",
+      "bytes": 119553,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:42.311295+00:00"
+    },
+    "vqa__vqa_val_0007__target__017": {
+      "job_sha256": "18a2c9c24f0735faa8f5ab482826ad5c11f7b79d267c485fdbae8dc08d92e454",
+      "sha256": "40ad32dc05a86f26a1360d6e16ce2bd8eb0d9253c40c5e933a969f3e462714c7",
+      "bytes": 113321,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:42.353473+00:00"
+    },
+    "vqa__vqa_val_0007__target__018": {
+      "job_sha256": "5c031f116994ca5d62a46895284ba7b79f48846a762953405a13bc2187a66360",
+      "sha256": "caf446eedf805458b36d23511d6dd7b6c88b8e1eb2d078273781694950524d1c",
+      "bytes": 131479,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:42.401865+00:00"
+    },
+    "vqa__vqa_val_0007__target__019": {
+      "job_sha256": "4bd9ca9c10f1655956d5154533b1cdb778b31d4156ece32dfc54a80f90ddf7ec",
+      "sha256": "fd51b78caceab9b27ad2f00247fffad5a6fb43d73350b1672b51d026ef5b6cb0",
+      "bytes": 110739,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 27.326833363622427,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.837890625,
+      "generated_utc": "2026-10-25T17:04:42.442882+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:04:42.442901+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

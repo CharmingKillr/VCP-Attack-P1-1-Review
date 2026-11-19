@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "0eb4ed280b974432242512c4a8c6da2c87175d29ce4ca42dca8e39bf24a0d01a",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "64239a3d5041c397bf96dd3ffb55f9f7b61406c8e6f1a44a33eb63b476fc6302",
+      "notes": "Original banks did not consistently preserve the premise details (blonde woman, glasses, gray sweatshirt, scissors); repaired both banks to match the same scene and only vary age statement. Target explicitly describes a visibly adult woman in her 30s. Exact age remains difficult to verify from an image, so this is a visual-estimation limitation for later image review.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR_WITH_LIMITATION",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/000.png",
+        "index": 0,
+        "prompt": "A blonde woman wearing glasses and a gray sweatshirt cuts paper with scissors at a kitchen table, her face turned slightly away.",
+        "prompt_sha256": "6e9f9bd9998628dafdc6735a3031b56eab7aa159e67c56ba8bb272c58764a53c",
+        "reference_id": "ve__snli_ve_test_0019__source__000",
+        "role": "source",
+        "seed": 244260808373023462
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/001.png",
+        "index": 1,
+        "prompt": "A woman with blonde hair, glasses, and a gray sweatshirt trims a sheet of paper with scissors at a desk.",
+        "prompt_sha256": "f3a8dc61194393ee075d3c6643d22d0af0e4c35e430d25edf97af07e3de0f9a5",
+        "reference_id": "ve__snli_ve_test_0019__source__001",
+        "role": "source",
+        "seed": 492985343430457561
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a blonde woman in glasses and a gray sweatshirt cutting fabric with scissors, focused on her hands.",
+        "prompt_sha256": "d4014e244df273899c33c0c22e2fe8461e66a0559d2c2f2e1551e1ca4b0ce8c3",
+        "reference_id": "ve__snli_ve_test_0019__source__002",
+        "role": "source",
+        "seed": 751933304454996730
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/003.png",
+        "index": 3,
+        "prompt": "A blonde woman wearing glasses and a gray sweatshirt sits at a worktable, cutting a paper shape with scissors.",
+        "prompt_sha256": "4d899eb3b70d7a767e2db87659764a523c8f865036daa2a38a02edc318eadb68",
+        "reference_id": "ve__snli_ve_test_0019__source__003",
+        "role": "source",
+        "seed": 5402773112608903
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/004.png",
+        "index": 4,
+        "prompt": "A woman with blonde hair and glasses, dressed in a gray sweatshirt, uses scissors to cut a piece of wrapping paper.",
+        "prompt_sha256": "e7c939e8c2b8436dc9d306388014ee414611a66934d581f6f6ef55a8e352396b",
+        "reference_id": "ve__snli_ve_test_0019__source__004",
+        "role": "source",
+        "seed": 502355124354620411
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/005.png",
+        "index": 5,
+        "prompt": "A blonde woman in glasses and a gray sweatshirt cuts a small paper craft at a kitchen counter, seen in profile.",
+        "prompt_sha256": "e343adcac727b36023fb044a360394a82597b604fe47c689e98b85d9a3c6bcb6",
+        "reference_id": "ve__snli_ve_test_0019__source__005",
+        "role": "source",
+        "seed": 938841114255084888
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/006.png",
+        "index": 6,
+        "prompt": "A woman with blonde hair, glasses, and a gray sweatshirt cuts a paper pattern with scissors on a wooden table.",
+        "prompt_sha256": "9bd93dc73ab60c038d9f956bd016e8156fe3ee8e44e2e393816a5bb5de0948bb",
+        "reference_id": "ve__snli_ve_test_0019__source__006",
+        "role": "source",
+        "seed": 89942300130724393
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/007.png",
+        "index": 7,
+        "prompt": "Close view of a blonde woman in glasses and a gray sweatshirt using scissors on a craft material.",
+        "prompt_sha256": "d86481c1498885da81b334c592551d0d01bed6d6222bb41d0d4d191ef7a8bb1c",
+        "reference_id": "ve__snli_ve_test_0019__source__007",
+        "role": "source",
+        "seed": 491455036541877740
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/008.png",
+        "index": 8,
+        "prompt": "A blonde woman wearing glasses and a gray sweatshirt trims a photograph with scissors at a desk.",
+        "prompt_sha256": "a69f899939d578ba674775d01837282ac7ef568d59a771e2a52a518ff7de65b5",
+        "reference_id": "ve__snli_ve_test_0019__source__008",
+        "role": "source",
+        "seed": 468728439289685897
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/009.png",
+        "index": 9,
+        "prompt": "A woman with blonde hair and glasses in a gray sweatshirt cuts a piece of cardboard with scissors.",
+        "prompt_sha256": "4ff73f58b7661b5b753bf7bce476117a462457eaf646b021be0b64e312b34ee9",
+        "reference_id": "ve__snli_ve_test_0019__source__009",
+        "role": "source",
+        "seed": 607457762584122070
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/010.png",
+        "index": 10,
+        "prompt": "A blonde woman in glasses and a gray sweatshirt cuts paper beside a mug and notebook on a table.",
+        "prompt_sha256": "cc4bd0a0d57e45740ffd902d6d1540e16ddfa1d7f77471dd97526fdadf32a374",
+        "reference_id": "ve__snli_ve_test_0019__source__010",
+        "role": "source",
+        "seed": 673311470219345318
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/011.png",
+        "index": 11,
+        "prompt": "A woman with blonde hair, glasses, and a gray sweatshirt carefully cuts a fabric swatch with scissors.",
+        "prompt_sha256": "ba084dedd416c88195c092a7c79c0ed411d0c15435a8543df5ac27e1acd6f2b1",
+        "reference_id": "ve__snli_ve_test_0019__source__011",
+        "role": "source",
+        "seed": 1060594377722264543
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/012.png",
+        "index": 12,
+        "prompt": "A blonde woman in glasses and a gray sweatshirt cuts a paper strip at a workbench, with craft supplies nearby.",
+        "prompt_sha256": "288aaec55de441d145335300ccc3c7c39d615fa42a26fb6405ec3767184e98a3",
+        "reference_id": "ve__snli_ve_test_0019__source__012",
+        "role": "source",
+        "seed": 484220234986707535
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/013.png",
+        "index": 13,
+        "prompt": "A woman wearing glasses and a gray sweatshirt, with blonde hair, cuts a printed sheet using scissors.",
+        "prompt_sha256": "6b51efcba9e873b39cee46b1dcfee1137d136ab6f067ca1fbd5ea9a7950cd688",
+        "reference_id": "ve__snli_ve_test_0019__source__013",
+        "role": "source",
+        "seed": 461834529630529370
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/014.png",
+        "index": 14,
+        "prompt": "A blonde woman in glasses and a gray sweatshirt cuts a paper label at a kitchen table, viewed from the side.",
+        "prompt_sha256": "417d265c8bb1c22579de2b2ebc3258ef5144d7adb4d351cbc3eca56521d9488e",
+        "reference_id": "ve__snli_ve_test_0019__source__014",
+        "role": "source",
+        "seed": 676855552895131814
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/015.png",
+        "index": 15,
+        "prompt": "A woman with blonde hair, glasses, and a gray sweatshirt uses scissors to cut a small piece of cloth.",
+        "prompt_sha256": "5e18d47164bbf3c09788ff6bb34494fa0766899c74cef7dd9aa5fb1be4a0dabd",
+        "reference_id": "ve__snli_ve_test_0019__source__015",
+        "role": "source",
+        "seed": 997347366906682930
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/016.png",
+        "index": 16,
+        "prompt": "A blonde woman wearing glasses and a gray sweatshirt cuts paper while seated at a desk under soft indoor light.",
+        "prompt_sha256": "f6f8329c9939964544b352d63c2d2a4deff37f07cd4db76bdd27dfe4f3312f56",
+        "reference_id": "ve__snli_ve_test_0019__source__016",
+        "role": "source",
+        "seed": 829064550357066851
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/017.png",
+        "index": 17,
+        "prompt": "A woman in a gray sweatshirt with blonde hair and glasses cuts a paper shape, her hands and scissors in focus.",
+        "prompt_sha256": "723fc36c773ffe6e8e6949fb77ae8dc4564b8ed6b18ade9ac1a2b4e58ffc282e",
+        "reference_id": "ve__snli_ve_test_0019__source__017",
+        "role": "source",
+        "seed": 565476092155983726
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/018.png",
+        "index": 18,
+        "prompt": "A blonde woman in glasses and a gray sweatshirt trims craft paper with scissors near a window.",
+        "prompt_sha256": "709a1a35c2febc62c6861b3c5adc028b9a999dac4a157e396167028d1eed5445",
+        "reference_id": "ve__snli_ve_test_0019__source__018",
+        "role": "source",
+        "seed": 705401990408775625
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/source/019.png",
+        "index": 19,
+        "prompt": "A woman with blonde hair, glasses, and a gray sweatshirt cuts a sheet of paper at a dining table.",
+        "prompt_sha256": "c8591a8d9799f553af49bf05c371716815fa596a8c5feeec1945855887e38143",
+        "reference_id": "ve__snli_ve_test_0019__source__019",
+        "role": "source",
+        "seed": 127860056291792615
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/000.png",
+        "index": 0,
+        "prompt": "A blonde woman with glasses and a gray sweatshirt, visibly in her 30s, cuts paper with scissors at a kitchen table.",
+        "prompt_sha256": "625fc1a87fa07bb3bcbd22b1860847d19ee8196f3ad1db6ce9b53f3cde62c1ce",
+        "reference_id": "ve__snli_ve_test_0019__target__000",
+        "role": "target",
+        "seed": 1122779814191925935
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/001.png",
+        "index": 1,
+        "prompt": "A woman in her early-to-mid 30s with blonde hair and glasses wears a gray sweatshirt while trimming paper at a desk.",
+        "prompt_sha256": "3888e40ee4e9a5e7a7b83c40db23f2338e69c581f658a5d623f9f464a549c3e3",
+        "reference_id": "ve__snli_ve_test_0019__target__001",
+        "role": "target",
+        "seed": 1148076912620831316
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a blonde woman in her 30s, wearing glasses and a gray sweatshirt, cutting fabric with scissors.",
+        "prompt_sha256": "cdee1d8c40b5b7c613755c5a68b69fc6939d416cde7dded5cda61b68647ee1f2",
+        "reference_id": "ve__snli_ve_test_0019__target__002",
+        "role": "target",
+        "seed": 100840069398369874
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/003.png",
+        "index": 3,
+        "prompt": "A visibly adult woman in her 30s with blonde hair, glasses, and a gray sweatshirt cuts a paper shape at a worktable.",
+        "prompt_sha256": "04ca858f51c0946afd2edcf3444a49174b766252de28879cb4e88e285e5c97da",
+        "reference_id": "ve__snli_ve_test_0019__target__003",
+        "role": "target",
+        "seed": 150193112314765443
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/004.png",
+        "index": 4,
+        "prompt": "A woman in her 30s with blonde hair and glasses, dressed in gray, uses scissors to cut wrapping paper.",
+        "prompt_sha256": "8579e73dfcdd23168ddf83db2c4cd2930db8681560379eab093cc81df6d6349a",
+        "reference_id": "ve__snli_ve_test_0019__target__004",
+        "role": "target",
+        "seed": 1069589699646047422
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/005.png",
+        "index": 5,
+        "prompt": "A blonde woman in her 30s, wearing glasses and a gray sweatshirt, cuts a paper craft at a kitchen counter.",
+        "prompt_sha256": "0ab5fec07dced4835bd395e9f2b9f0d890f703628fa059cfdc594c0e6c164a60",
+        "reference_id": "ve__snli_ve_test_0019__target__005",
+        "role": "target",
+        "seed": 337902628481927112
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/006.png",
+        "index": 6,
+        "prompt": "A woman who appears to be in her 30s, blonde and wearing glasses with a gray sweatshirt, cuts a paper pattern on a wooden table.",
+        "prompt_sha256": "9c9ed87dfeb7db522a6e9f7521d8b60272dfb86ab27ae365bab8ba4760780047",
+        "reference_id": "ve__snli_ve_test_0019__target__006",
+        "role": "target",
+        "seed": 990834145849214313
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/007.png",
+        "index": 7,
+        "prompt": "Close view of a blonde woman in her 30s, glasses and gray sweatshirt, using scissors on craft material.",
+        "prompt_sha256": "ece6ff278834ca887c44044ee60659b6494f3d8cac3ad7e8afcc3ce0e74956ef",
+        "reference_id": "ve__snli_ve_test_0019__target__007",
+        "role": "target",
+        "seed": 367297601283354511
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/008.png",
+        "index": 8,
+        "prompt": "A blonde woman with glasses who appears to be in her 30s trims a photograph with scissors at a desk.",
+        "prompt_sha256": "dfb6a35fb953ccf093333d54d9bad2ae615124fc79861db1c2f6beb0e593590c",
+        "reference_id": "ve__snli_ve_test_0019__target__008",
+        "role": "target",
+        "seed": 189007552785447454
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/009.png",
+        "index": 9,
+        "prompt": "A woman in her 30s with blonde hair, glasses, and a gray sweatshirt cuts cardboard with scissors.",
+        "prompt_sha256": "c13187544e26bda7382b212a340f6a67696d954fd941842b31eb4743c0737564",
+        "reference_id": "ve__snli_ve_test_0019__target__009",
+        "role": "target",
+        "seed": 883773630797980951
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/010.png",
+        "index": 10,
+        "prompt": "A blonde woman in her 30s, wearing glasses and a gray sweatshirt, cuts paper beside a mug and notebook.",
+        "prompt_sha256": "0de23b77817db9434e8fe62b48b44a98c8f0304d51fe832502a827ad7d21f19d",
+        "reference_id": "ve__snli_ve_test_0019__target__010",
+        "role": "target",
+        "seed": 292704811622285276
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/011.png",
+        "index": 11,
+        "prompt": "A woman in her early 30s with blonde hair and glasses wears a gray sweatshirt while cutting a fabric swatch.",
+        "prompt_sha256": "216621c867b9e00e5d7d847e0bd082405a16b04ad615a9a7b9ad61966a99356f",
+        "reference_id": "ve__snli_ve_test_0019__target__011",
+        "role": "target",
+        "seed": 255037086480747752
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/012.png",
+        "index": 12,
+        "prompt": "A blonde woman in her 30s, wearing glasses and gray, cuts a paper strip at a workbench with craft supplies nearby.",
+        "prompt_sha256": "ff58afa0e03ae7f6cb2084b1eebf3140ecc9930eb573d0638eab6a52a5b2935e",
+        "reference_id": "ve__snli_ve_test_0019__target__012",
+        "role": "target",
+        "seed": 28853293880597870
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/013.png",
+        "index": 13,
+        "prompt": "A woman in her 30s with blonde hair, glasses, and a gray sweatshirt cuts a printed sheet using scissors.",
+        "prompt_sha256": "7abfae67ab7b1f938355031c443db3e84d1fe94287ad8a285363af55d68548b4",
+        "reference_id": "ve__snli_ve_test_0019__target__013",
+        "role": "target",
+        "seed": 830224180632746481
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/014.png",
+        "index": 14,
+        "prompt": "A blonde woman who appears in her 30s, wearing glasses and a gray sweatshirt, cuts a paper label at a kitchen table.",
+        "prompt_sha256": "b70baa6f6d10278937c3ab90749f9ae7c743e5b30ca464f29f9135b66af19069",
+        "reference_id": "ve__snli_ve_test_0019__target__014",
+        "role": "target",
+        "seed": 264717867319930693
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/015.png",
+        "index": 15,
+        "prompt": "A woman in her 30s with blonde hair and glasses, dressed in gray, uses scissors to cut a small piece of cloth.",
+        "prompt_sha256": "07d2782924ca6614404732120d19c0e4773a8cd29946ba3d8b3efb8a99d83d40",
+        "reference_id": "ve__snli_ve_test_0019__target__015",
+        "role": "target",
+        "seed": 1082820559406652
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/016.png",
+        "index": 16,
+        "prompt": "A blonde woman in her 30s, wearing glasses and a gray sweatshirt, cuts paper while seated at a desk in soft light.",
+        "prompt_sha256": "f04bfe6847de0d0c88ee7fef778c89cb971fd4d8c7c0d73029d71367feee9804",
+        "reference_id": "ve__snli_ve_test_0019__target__016",
+        "role": "target",
+        "seed": 797293753159578016
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/017.png",
+        "index": 17,
+        "prompt": "A woman who appears to be in her 30s, blonde with glasses and a gray sweatshirt, cuts a paper shape at a table.",
+        "prompt_sha256": "70dd2a43512f09c9eacd101c86fbf3d8371055487255e934f72113ccf68a2822",
+        "reference_id": "ve__snli_ve_test_0019__target__017",
+        "role": "target",
+        "seed": 171739509395774196
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/018.png",
+        "index": 18,
+        "prompt": "A blonde woman in her 30s, wearing glasses and a gray sweatshirt, trims craft paper with scissors near a window.",
+        "prompt_sha256": "cad3572640efda0fd11bc2908bb07e6a4c2833aa74d15b4857c622f44a1c35df",
+        "reference_id": "ve__snli_ve_test_0019__target__018",
+        "role": "target",
+        "seed": 608812175236524307
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0019/target/019.png",
+        "index": 19,
+        "prompt": "A woman in her 30s with blonde hair, glasses, and a gray sweatshirt cuts a sheet of paper at a dining table.",
+        "prompt_sha256": "ba21f337d36238fad2efe047f486ea448a58afdf45e276ca0ab3b2077e502619",
+        "reference_id": "ve__snli_ve_test_0019__target__019",
+        "role": "target",
+        "seed": 1098484219865042376
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/118854260.jpg",
+    "original_image_sha256": "5baaffbd427d0a6743eda35fb2241806249b7e06bad3e2ddc17bc5b18c0f88bf",
+    "prompt_review_status": "assistant_review_pass_after_repair_with_limitation",
+    "sample_fingerprint": "0eb4ed280b974432242512c4a8c6da2c87175d29ce4ca42dca8e39bf24a0d01a",
+    "sample_id": "snli_ve_test_0019",
+    "shard": 19,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "The woman is in her 30s",
+      "premise_caption": "A blond woman wearing glasses and a gray sweatshirt is cutting something with scissors.",
+      "source_label": "neutral",
+      "target_label": "entailment"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0019__source__000": {
+      "job_sha256": "5a82ae77f710c94246490cf2298cebb1aa6cb21ac6439af92c2a3602eb624436",
+      "sha256": "d1b1e6130264dd8f1c15f9d98fc714c8af3ad4eef42595cd80f6167069423407",
+      "bytes": 144872,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.149109+00:00"
+    },
+    "ve__snli_ve_test_0019__source__001": {
+      "job_sha256": "951cde7ad1d401832e17d4d23167b4574f70219111179b4c038eca6af05bf491",
+      "sha256": "a030cde5e6a5665916e1308103b5861f5b59120aa2695c92ba17c41524710380",
+      "bytes": 149033,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.190788+00:00"
+    },
+    "ve__snli_ve_test_0019__source__002": {
+      "job_sha256": "d5fa88c12f6ec3784f92b0fe97abb6687cf884711148a32da6240b311d394c43",
+      "sha256": "912e3f4fe02d388aeae192af0d722ab4f4071319f5e97b90154b438a6268ed23",
+      "bytes": 156822,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.244687+00:00"
+    },
+    "ve__snli_ve_test_0019__source__003": {
+      "job_sha256": "76a269f727b3d42c4860812f77f0fee2088cda4d7d05d44dfd5813ae58c3c240",
+      "sha256": "a1053f91ba4416ccbf5dd0b6d707380ed6835e5c88997442d4887f33e3bb62bc",
+      "bytes": 146511,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.286588+00:00"
+    },
+    "ve__snli_ve_test_0019__source__004": {
+      "job_sha256": "fded37c998f03043bbfcf2dbf9dc159ea10fcd5c15f76df5b4257a08d963f6d0",
+      "sha256": "580ae6c15a91c321cf4b8f63236d28f471916e96a0f5041055b9d33335d22aca",
+      "bytes": 136826,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.328225+00:00"
+    },
+    "ve__snli_ve_test_0019__source__005": {
+      "job_sha256": "67e73989d9ef4d0f05d236b3ca7ad3afffd798bef86485ed327a3cba05922b6e",
+      "sha256": "8b1e8760e7f003cb1d86d93673260fa5aee886cfc732ed8e73d9d0f85eeda071",
+      "bytes": 148657,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.370876+00:00"
+    },
+    "ve__snli_ve_test_0019__source__006": {
+      "job_sha256": "9fea6052639218de4155037ef5b1ea804f119080f1c39d8be3e7a050add617c2",
+      "sha256": "cff1e0cbab7d3f8cb899dc7133dbb5ab754496682872881b08614847b114260a",
+      "bytes": 162160,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.422024+00:00"
+    },
+    "ve__snli_ve_test_0019__source__007": {
+      "job_sha256": "2fd2c35f7eec3edb42cc1351d6264ab620c23f37cada356b4f5a8075814e5e1c",
+      "sha256": "309e5e9f26a6ba6139c46324b564429bf519de3bb900a314ec76ae90c7f36c42",
+      "bytes": 150619,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.462035+00:00"
+    },
+    "ve__snli_ve_test_0019__source__008": {
+      "job_sha256": "b3349bf59389a27fcbea03a5bda9b09b84e88fedc657499bb23a23fa8aba1685",
+      "sha256": "724575461cde8e2631512da803c08dcf756f0395df71aa54bab7bb8b0e2c2f7c",
+      "bytes": 154928,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.500843+00:00"
+    },
+    "ve__snli_ve_test_0019__source__009": {
+      "job_sha256": "575e9c0f5126c3d6ff6c24023966a908d150c5179ee3b0a7ea5fb6479d1324f0",
+      "sha256": "503c12d507c465a149216de662b595266f52d8ae662bbdd70e1aea4fb5e04ce3",
+      "bytes": 144780,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.547463+00:00"
+    },
+    "ve__snli_ve_test_0019__source__010": {
+      "job_sha256": "8ffe42fc6aabd49c42dea9480867bfe44d6b68eee33bcc00cea0baa6c47e5e65",
+      "sha256": "aa647da907f83a0cf76130bc9e8c9f81e0c3209afcb0060d89b7f30e35eab07b",
+      "bytes": 138154,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.581587+00:00"
+    },
+    "ve__snli_ve_test_0019__source__011": {
+      "job_sha256": "10d677a4e5f8e77d5e97ece04e779789dc4a2db3b31c082b49f57402c0b0ae32",
+      "sha256": "eff890c94ec977728740403e57b7e4099178ba978e2e05e04712e89dc0b13547",
+      "bytes": 157799,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.623800+00:00"
+    },
+    "ve__snli_ve_test_0019__source__012": {
+      "job_sha256": "88209281453340c1ae3125298b62b66b25cb0e9b3273c6c4e4837db57f89caaf",
+      "sha256": "750783202c422de681f0c0a0d5a82b65dd519f1882aa38c9d92ddcc72c85183f",
+      "bytes": 148749,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.663885+00:00"
+    },
+    "ve__snli_ve_test_0019__source__013": {
+      "job_sha256": "1af4b373db153addfba71da54181adf3f3b118d33837d7ca4d3abc15df722a01",
+      "sha256": "7251dcacb39789d4bdf44ecc5522a6017a9693e4b284eb88a01b62b5a204c77d",
+      "bytes": 147761,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.703682+00:00"
+    },
+    "ve__snli_ve_test_0019__source__014": {
+      "job_sha256": "66ee6ff7a902333699ab8c42d8a6fe4d6f1958afdc06f188a879a188f51587c5",
+      "sha256": "e87be08b169bd8576f4af19ab00c6b24d2314a2186d13952af444d2426b4188d",
+      "bytes": 150176,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.755094+00:00"
+    },
+    "ve__snli_ve_test_0019__source__015": {
+      "job_sha256": "5310e1bee6370b3116c995b77a64348846e6cdca8ade2f41560a69ba0a9338f1",
+      "sha256": "dcf674439a31c2dfac31b2680547c09c8ecec052d7c9f704b2c113338aad7cb9",
+      "bytes": 145057,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.797988+00:00"
+    },
+    "ve__snli_ve_test_0019__source__016": {
+      "job_sha256": "a1ea8bf765fa0e48fafdd1ba530281ec48f4c601582dc477dfccefbb58a6e888",
+      "sha256": "4cd2fb7132e97f7fb3af24369d82dfced7b2453fe8ef8864c9064209c3d10431",
+      "bytes": 136841,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.838960+00:00"
+    },
+    "ve__snli_ve_test_0019__source__017": {
+      "job_sha256": "01a48f80b561b34f3474b48dd55db060679a92c12f08ffb052706b7cbd6213bb",
+      "sha256": "750c1a90191c25e4281a028b7db3bdd71202f6d3b9fcb19c1500c3afad98bf2b",
+      "bytes": 152244,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.879487+00:00"
+    },
+    "ve__snli_ve_test_0019__source__018": {
+      "job_sha256": "1eebc63d95a0b30a5a1c1660f1171e927195e0d807973a1512b154c89d9fbdd3",
+      "sha256": "6c21d75a8ee1ec20752473506dcc76840a0efe07367b1c64b7d9ad0353cefc53",
+      "bytes": 138402,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.924356+00:00"
+    },
+    "ve__snli_ve_test_0019__source__019": {
+      "job_sha256": "9307e65cc6bf18901d5f30c429b127e200c65532c04186da78560ace3b2286e2",
+      "sha256": "c6728954239bee000299b0f6f4dd138add37fa9fccb2fb75f6ce0a760f3f4859",
+      "bytes": 145101,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:34.965314+00:00"
+    },
+    "ve__snli_ve_test_0019__target__000": {
+      "job_sha256": "5548fdd1fcfe0915237fcac7b5e27f5fa1de3d05900f6dcf0bded01c569810e4",
+      "sha256": "71106cf4b290bb15c2d20510a2bc0d978749003cabeee7d0b463874c2dd556b2",
+      "bytes": 142380,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.011516+00:00"
+    },
+    "ve__snli_ve_test_0019__target__001": {
+      "job_sha256": "bf2668f6cff7a139d823df6c8e5bd01b763c73d3893d8a7057a3c2e69f203175",
+      "sha256": "612f75485a40558ac52fbd677473a002b6eef6be7394dd2b89f21723ae6584b4",
+      "bytes": 138371,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.050811+00:00"
+    },
+    "ve__snli_ve_test_0019__target__002": {
+      "job_sha256": "4ff36630500143868cb617ce63a649930c8600eac84942fbf5b726b72b6f02cf",
+      "sha256": "5db0a9c6dff66c3e18b7bcad32152979df4e5d5877cd343e78c90f6a65dbcf68",
+      "bytes": 149550,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.089030+00:00"
+    },
+    "ve__snli_ve_test_0019__target__003": {
+      "job_sha256": "b54019a591d18fdff84b5962815420e5045aee6c66dbdfd3fa77800ab9f0638f",
+      "sha256": "2a54450ebc71211a55bcb2ad3f42deb3e271603f8d5c1358376a7cf31cebde94",
+      "bytes": 150560,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.131338+00:00"
+    },
+    "ve__snli_ve_test_0019__target__004": {
+      "job_sha256": "c7a5aa01993dd890d7e82cde26d8ea064c71d2bf5327c9532e964ab9d52699c4",
+      "sha256": "7098ca0fb899fb6a50dbc8e47644f1e54f3d1ad1a2388d60c6517d605156f61d",
+      "bytes": 141692,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.169611+00:00"
+    },
+    "ve__snli_ve_test_0019__target__005": {
+      "job_sha256": "973d26c8abcdcd1dc607e7e2078b0ed5015850123df970a2ef961e647a7bfb9e",
+      "sha256": "340743e6ad58472240be3dfc43216cc4c7f239f3922b414fcac51767c80adc83",
+      "bytes": 143183,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.207854+00:00"
+    },
+    "ve__snli_ve_test_0019__target__006": {
+      "job_sha256": "d397ab91a38c6102d0469672cedef4607b6c63d153ac1720a1185ac0991a99ae",
+      "sha256": "1828d4773c60d522c00c1058687c900b90e3b88dbed4cbc1e2934fada75a1846",
+      "bytes": 143211,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.251317+00:00"
+    },
+    "ve__snli_ve_test_0019__target__007": {
+      "job_sha256": "94c4f967d33f1187ba06f30381976044e98ae4c8a6b0be6373465ab658713647",
+      "sha256": "463c4f60dde3301278e5f2fe0c9572f48645bd16442e4fe083eeaebef852ce2c",
+      "bytes": 154293,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.295955+00:00"
+    },
+    "ve__snli_ve_test_0019__target__008": {
+      "job_sha256": "592dbb160304ab96d52a4db689168d1d222d0d92890886fcf4168e2863ccd15e",
+      "sha256": "98f843f2966096fa4e4cbccc3cebfc8a52ff00a1319408cc6522b3731dd7d1db",
+      "bytes": 142584,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.337538+00:00"
+    },
+    "ve__snli_ve_test_0019__target__009": {
+      "job_sha256": "9b615d16ad6e45bc52366d81df4617c3fc9410c0e6bf631509c6dc6aea1e0b85",
+      "sha256": "7588d89885d3efa838dfdea1764241da6065c4077e78d49bb7c3803252ae5a43",
+      "bytes": 149921,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.373895+00:00"
+    },
+    "ve__snli_ve_test_0019__target__010": {
+      "job_sha256": "b97caeed0b970a9d72c7ea22ada0df73050b236fcf669f95a469b15e5464117f",
+      "sha256": "7dc931650443a2b7d7b0c63db5f697a062fbc24a4a012885dbc63cd1c727a896",
+      "bytes": 145833,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.427413+00:00"
+    },
+    "ve__snli_ve_test_0019__target__011": {
+      "job_sha256": "48cf3be58e1f2a2218be30d070b6543b7b16f66954c682282f3c0420652ac94e",
+      "sha256": "3535d283da13fd8a5abdfc07ced0ad00c6dbfc6f8d295f6b0a44c83eb1d81593",
+      "bytes": 158595,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.466003+00:00"
+    },
+    "ve__snli_ve_test_0019__target__012": {
+      "job_sha256": "2d7a23cfac25611e4295cb7e0bf80800131c99eec5835a8f71c0c4ca7f63da12",
+      "sha256": "1cb7794e0fb09731ae527c57efc7d86bbc57673356a97dbff0f9cd7afa706078",
+      "bytes": 151687,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.505782+00:00"
+    },
+    "ve__snli_ve_test_0019__target__013": {
+      "job_sha256": "cc9858dfae1e4e9c13059e01fc9dd90ba268fb421d645dbedd34517c2118bc82",
+      "sha256": "c58459947f19114232bab97dabd651cc9f9a2a4c63f9d792d80bf418c3cbbbfa",
+      "bytes": 150481,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.556463+00:00"
+    },
+    "ve__snli_ve_test_0019__target__014": {
+      "job_sha256": "84edca26ea4234f918b29c7f42fe2ca8643054067f7512c4d033a8c8f070a69d",
+      "sha256": "62815214eb065e78edcdaba330c691c48a1c18b4ca6ebad9f88fdf52af059e47",
+      "bytes": 149390,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.594079+00:00"
+    },
+    "ve__snli_ve_test_0019__target__015": {
+      "job_sha256": "00c6c6e9fabe388d032d1a2c28ebbc8f1a80f193bfb0466f8e38713e5d4c2561",
+      "sha256": "1ee88ca14f2e388702f2b18babcce4f46de56c9527b8f5892c2e7632b4cb3ce8",
+      "bytes": 145006,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.631843+00:00"
+    },
+    "ve__snli_ve_test_0019__target__016": {
+      "job_sha256": "9d41c3db6d9d7a896a6c43fbf7a6facec4abfd323a1de2f2b408bcd24a075120",
+      "sha256": "149b66828f5c3c3eae6a2e6543a2c140b37f98be9dec60c64e14d9884332b949",
+      "bytes": 131902,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.668475+00:00"
+    },
+    "ve__snli_ve_test_0019__target__017": {
+      "job_sha256": "ccacc1c1946f2803abf077c957608096f47afdc453b54513969454f53d492193",
+      "sha256": "8044f13c22f438fd6ab364c1f795394f8cd54125eaa39c0fad4ab1c4b084c777",
+      "bytes": 150160,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.708813+00:00"
+    },
+    "ve__snli_ve_test_0019__target__018": {
+      "job_sha256": "50945cd46e609da81f3fbaf0c1f30dbe3d3ebab14a08569d9fe896484dcb6153",
+      "sha256": "36e66b356fea231a571b452266f552da9b2dba83e0d6709c9714693cb21e6a02",
+      "bytes": 143249,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.756787+00:00"
+    },
+    "ve__snli_ve_test_0019__target__019": {
+      "job_sha256": "ad1bad1502e02613c2d38a5ab5cbb68dd6dbd71fe14016f9737ffdd4ce89a3cf",
+      "sha256": "8d65156665d1f5454e60a0444f5dcc7b952e059b4e74854557f66ce46effcbb1",
+      "bytes": 140690,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.86999918706715,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:56:35.798604+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:56:35.798634+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

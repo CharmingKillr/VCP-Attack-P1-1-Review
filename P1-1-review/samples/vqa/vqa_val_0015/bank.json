@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "8d5baee930c1ec762944b84693550e53a9c8a4a4723110868d6eccec4fddab49",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "0d5665221d93745f8bf43d76f2a94d8da6ec10da01195963cbc2319534a222e5",
+      "notes": "All source prompts are set in a kitchen and all target prompts in a living room, matching yes→no.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0015/source/000.png",
+        "index": 0,
+        "prompt": "A woman stands near a stainless steel stove in a bright kitchen, looking directly at the camera with a neutral expression.",
+        "prompt_sha256": "a5a5447ddb89c24ecabcad30d08440452af4dfd88e54f99be8ca686697e49119",
+        "reference_id": "vqa__vqa_val_0015__source__000",
+        "role": "source",
+        "seed": 689067215862674951
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a man in an apron standing by a kitchen counter, with hanging pots visible in the background.",
+        "prompt_sha256": "7240c33d2981b8d5363495dfd067ee6f356e97f9a50afe80f04382e21491ac54",
+        "reference_id": "vqa__vqa_val_0015__source__001",
+        "role": "source",
+        "seed": 174304063581427740
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a person's torso as they stand in front of a kitchen island, wearing a casual t-shirt.",
+        "prompt_sha256": "7921f63cedc2fb209a1eec901a01e5d3ea63ccb724cdf8b9039b5e1b306c382a",
+        "reference_id": "vqa__vqa_val_0015__source__002",
+        "role": "source",
+        "seed": 410615614808934037
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/003.png",
+        "index": 3,
+        "prompt": "A woman leans slightly against a kitchen cabinet, holding a wooden spoon, with a sink visible behind her.",
+        "prompt_sha256": "c9a0d3a6626d205f65352beb576675eeb590ea919a9f3553bf97727a8f4359f5",
+        "reference_id": "vqa__vqa_val_0015__source__003",
+        "role": "source",
+        "seed": 476312047456617652
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a kitchen scene where a person stands near a window, next to a coffee maker.",
+        "prompt_sha256": "47022ba3e6ada4f4e2d06203b5341aa78b1b881763de79b0e3b8c8464bb1ca4f",
+        "reference_id": "vqa__vqa_val_0015__source__004",
+        "role": "source",
+        "seed": 963900944514319803
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/005.png",
+        "index": 5,
+        "prompt": "Wide angle shot of a kitchen showing a person standing near the entrance, with a dining table in the distance.",
+        "prompt_sha256": "56c827780a063f230a9953d8d6c050a2d2a9f5feb300fc00879aa950af0f615f",
+        "reference_id": "vqa__vqa_val_0015__source__005",
+        "role": "source",
+        "seed": 120858780484679087
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/006.png",
+        "index": 6,
+        "prompt": "Side view of a man standing in a kitchen, facing a refrigerator, with kitchen utensils hanging on the wall.",
+        "prompt_sha256": "9fabc06f15a0d30c05fc962627b4e1705a4b40f956b34729aef9498fb2b971c1",
+        "reference_id": "vqa__vqa_val_0015__source__006",
+        "role": "source",
+        "seed": 922065722957863675
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/007.png",
+        "index": 7,
+        "prompt": "A person stands in a kitchen with a small potted plant on the counter, near a microwave and toaster.",
+        "prompt_sha256": "7bed0269a3cd65775547bda1395dc03f57c22b8066d04287c88705631ac82f18",
+        "reference_id": "vqa__vqa_val_0015__source__007",
+        "role": "source",
+        "seed": 286618217977944478
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a woman laughing while standing in a kitchen, with a kettle on the stove behind her.",
+        "prompt_sha256": "a9f56b730428f9bb3b8f2499296932c8fc9a7a0dcd63ae2713615266e4ed18a9",
+        "reference_id": "vqa__vqa_val_0015__source__008",
+        "role": "source",
+        "seed": 498672226356646777
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/009.png",
+        "index": 9,
+        "prompt": "An older man stands in a modest kitchen, holding a cup, with a checkered tablecloth on the counter.",
+        "prompt_sha256": "c22e5acc8edb0090891f72700788686985b16129984ad1ac42eae1a2c9cb90a2",
+        "reference_id": "vqa__vqa_val_0015__source__009",
+        "role": "source",
+        "seed": 671725088688788912
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/010.png",
+        "index": 10,
+        "prompt": "View from the doorway looking into a kitchen where a person stands near the sink, washing dishes.",
+        "prompt_sha256": "7d0a9da65262f77b96bb299795c3ec8edc01200334c909d2142b2c46f3a63511",
+        "reference_id": "vqa__vqa_val_0015__source__010",
+        "role": "source",
+        "seed": 846630924907357084
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/011.png",
+        "index": 11,
+        "prompt": "Medium framing of a woman in a floral dress standing in a kitchen, with a fruit bowl on the counter.",
+        "prompt_sha256": "91d117270ab58b453e6113b5e35b442d7cd105bf90670d5a279f4fba657ef2f7",
+        "reference_id": "vqa__vqa_val_0015__source__011",
+        "role": "source",
+        "seed": 216978439955862777
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/012.png",
+        "index": 12,
+        "prompt": "Close shot of a person's face and shoulders in a kitchen, with a blurred background of kitchen shelves.",
+        "prompt_sha256": "8bb3f05703deefb3b2d9ae2d95b5ede556db063349f7bb2229d4de8d26746cc6",
+        "reference_id": "vqa__vqa_val_0015__source__012",
+        "role": "source",
+        "seed": 393595256282549834
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/013.png",
+        "index": 13,
+        "prompt": "A man turns slightly toward the camera while standing in a kitchen, near a range hood and cabinets.",
+        "prompt_sha256": "026ad4c95f9d019e5b5f84036765f0e1ed33660137949418ebb48cc2c3d7561e",
+        "reference_id": "vqa__vqa_val_0015__source__013",
+        "role": "source",
+        "seed": 660969246376514740
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/014.png",
+        "index": 14,
+        "prompt": "Natural light fills a kitchen where a person stands by a window, with a drying rack nearby.",
+        "prompt_sha256": "49c560f49cf8e03356dfedb3fbca9c84de9a9430ee051b34c9e7240048cadec2",
+        "reference_id": "vqa__vqa_val_0015__source__014",
+        "role": "source",
+        "seed": 301208686885257730
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/015.png",
+        "index": 15,
+        "prompt": "Broad view of a kitchen space, showing a person standing near the pantry, with a clock on the wall.",
+        "prompt_sha256": "b776fc9f1e508d2f912b544de485b65277c9261d1e1d24552c28c7d3852769c8",
+        "reference_id": "vqa__vqa_val_0015__source__015",
+        "role": "source",
+        "seed": 378002031700908788
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/016.png",
+        "index": 16,
+        "prompt": "Angled shot from the side of a kitchen, showing a person reaching for a pot on the stove.",
+        "prompt_sha256": "69ad0d32ae17c6e090b79f53d137394b58b65673b363d440850458233b6e9320",
+        "reference_id": "vqa__vqa_val_0015__source__016",
+        "role": "source",
+        "seed": 139553206490796832
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/017.png",
+        "index": 17,
+        "prompt": "A person stands in a kitchen with a small calendar on the fridge, next to a stack of plates.",
+        "prompt_sha256": "4003685a18883c5788b6f0f73f5c6fc5791d4889246d9c5b6d215dcc42e45f65",
+        "reference_id": "vqa__vqa_val_0015__source__017",
+        "role": "source",
+        "seed": 582551846353321697
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/018.png",
+        "index": 18,
+        "prompt": "Spontaneous moment of a woman turning around in a kitchen, with a blender on the counter behind her.",
+        "prompt_sha256": "db83e0c0e5e70b153afae9489c82166757eec4bb6286316830cc614b45f2e90f",
+        "reference_id": "vqa__vqa_val_0015__source__018",
+        "role": "source",
+        "seed": 634100889284239852
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/source/019.png",
+        "index": 19,
+        "prompt": "A young man stands in a compact kitchen, holding a pan, with a small window above the sink.",
+        "prompt_sha256": "5a3b1f9cb702868deeb5608182fdbe1376e3adc8ed577605499d097342bde416",
+        "reference_id": "vqa__vqa_val_0015__source__019",
+        "role": "source",
+        "seed": 910629431635616116
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/000.png",
+        "index": 0,
+        "prompt": "A woman stands near a sofa in a bright living room, looking directly at the camera with a neutral expression.",
+        "prompt_sha256": "347ede0002dfe2ff580ad8e2bdadaee15de9c3b2515172947c42287203b4ca7d",
+        "reference_id": "vqa__vqa_val_0015__target__000",
+        "role": "target",
+        "seed": 408297120455685424
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/001.png",
+        "index": 1,
+        "prompt": "Soft daylight illuminates a living room scene where a person stands near a window, next to a lamp.",
+        "prompt_sha256": "dfda7fa0bd0be32995556a9618dcfe49b5693eaf4347f9a5bb39bfe82d50ce86",
+        "reference_id": "vqa__vqa_val_0015__target__001",
+        "role": "target",
+        "seed": 465435935117446722
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/002.png",
+        "index": 2,
+        "prompt": "Wide angle shot of a living room showing a person standing near the entrance, with a sofa in the distance.",
+        "prompt_sha256": "cb5aa74b7d3ba3489152f1d1bbaa239874e84a7bd7e5c864b81667cfbd79d1b4",
+        "reference_id": "vqa__vqa_val_0015__target__002",
+        "role": "target",
+        "seed": 963105548744490958
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/003.png",
+        "index": 3,
+        "prompt": "Side view of a man standing in a living room, facing a television, with curtains hanging on the wall.",
+        "prompt_sha256": "1f8479616427ffdddda6a421ec12b3d9190b41ca67679a7b2e3df95f0ed97cc2",
+        "reference_id": "vqa__vqa_val_0015__target__003",
+        "role": "target",
+        "seed": 406607386873266211
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/004.png",
+        "index": 4,
+        "prompt": "A person stands in a living room with a small potted plant on the table, near a speaker and remote.",
+        "prompt_sha256": "5224a09cd216f13b11ed8eebc327ca20482976e9c15f354ccc1f6500189d0dd5",
+        "reference_id": "vqa__vqa_val_0015__target__004",
+        "role": "target",
+        "seed": 646983831611557576
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/005.png",
+        "index": 5,
+        "prompt": "Candid shot of a woman laughing while standing in a living room, with a vase on the shelf behind her.",
+        "prompt_sha256": "bd9697d27c1c8049efcd566db254c6e6c110a62409ec717baec242fd3302de2a",
+        "reference_id": "vqa__vqa_val_0015__target__005",
+        "role": "target",
+        "seed": 95742767674673094
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/006.png",
+        "index": 6,
+        "prompt": "An older man stands in a modest living room, holding a cup, with a patterned throw on the sofa.",
+        "prompt_sha256": "1a47695c6f11d4e31d9bde4beb771a99a497cc3eeadde357768720f4ce2e8acc",
+        "reference_id": "vqa__vqa_val_0015__target__006",
+        "role": "target",
+        "seed": 408818702622497156
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/007.png",
+        "index": 7,
+        "prompt": "View from the doorway looking into a living room where a person stands near the window, adjusting blinds.",
+        "prompt_sha256": "4ffbceee7488f8db7bd38b04762c5739922ad4c4489d2b0a2133899cedae597e",
+        "reference_id": "vqa__vqa_val_0015__target__007",
+        "role": "target",
+        "seed": 231772635291549816
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/008.png",
+        "index": 8,
+        "prompt": "Medium framing of a woman in a floral dress standing in a living room, with a fruit bowl on the table.",
+        "prompt_sha256": "41d6aabaa7df7dcd62a9fbb19903b37f88a12d67ff63f44cf869fc5bef9d37b4",
+        "reference_id": "vqa__vqa_val_0015__target__008",
+        "role": "target",
+        "seed": 989014027199914537
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/009.png",
+        "index": 9,
+        "prompt": "Close shot of a person's face and shoulders in a living room, with a blurred background of shelves.",
+        "prompt_sha256": "369f0f51e16c9a53f9ade3c324388bd4fc93d3b2de914a9f2c7b4d38cbb4d71f",
+        "reference_id": "vqa__vqa_val_0015__target__009",
+        "role": "target",
+        "seed": 101219591379634209
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/010.png",
+        "index": 10,
+        "prompt": "A man turns slightly toward the camera while standing in a living room, near a bookcase and sofa.",
+        "prompt_sha256": "3f807a781418afa1126c56eb567f8ac41ac567354947392e0e0b0739a36d3a33",
+        "reference_id": "vqa__vqa_val_0015__target__010",
+        "role": "target",
+        "seed": 974266951648503419
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/011.png",
+        "index": 11,
+        "prompt": "Natural light fills a living room where a person stands by a window, with a side table nearby.",
+        "prompt_sha256": "6a9f39a355b7bdf60ffc1c6b63b1bd28f46e7ef5ca9bfea31b2c1aa660706c59",
+        "reference_id": "vqa__vqa_val_0015__target__011",
+        "role": "target",
+        "seed": 560757879749280358
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/012.png",
+        "index": 12,
+        "prompt": "Broad view of a living room space, showing a person standing near the corner, with a clock on the wall.",
+        "prompt_sha256": "8ef369deaba92f81836e6af4d4890046120268a355c5ea505991bfdd666d60c7",
+        "reference_id": "vqa__vqa_val_0015__target__012",
+        "role": "target",
+        "seed": 1024296384255039121
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/013.png",
+        "index": 13,
+        "prompt": "Angled shot from the side of a living room, showing a person reaching for a book on the shelf.",
+        "prompt_sha256": "46b266f25c261bfe16f211aec191ffd5a0d71a863d5cdd8a02f99411dd8e9ebc",
+        "reference_id": "vqa__vqa_val_0015__target__013",
+        "role": "target",
+        "seed": 226613313801399465
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/014.png",
+        "index": 14,
+        "prompt": "A person stands in a living room with a small calendar on the wall, next to a stack of magazines.",
+        "prompt_sha256": "fe180896b8fc21696a49d8d104f670ce96564fe0791616b6eaada790decbf2b3",
+        "reference_id": "vqa__vqa_val_0015__target__014",
+        "role": "target",
+        "seed": 989846066050190571
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/015.png",
+        "index": 15,
+        "prompt": "Spontaneous moment of a woman turning around in a living room, with a lamp on the table behind her.",
+        "prompt_sha256": "068da5aefb8c32406b39402a6e3ef8cf2a6bc086a1db29843128ba4b5f6f9b27",
+        "reference_id": "vqa__vqa_val_0015__target__015",
+        "role": "target",
+        "seed": 702022048280820547
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/016.png",
+        "index": 16,
+        "prompt": "A young man stands in a compact living room, holding a remote, with a small window above the sofa.",
+        "prompt_sha256": "993759e1378a821d9597ba7898f8bf588e15e1836f0c759fbbdf4601b83ba475",
+        "reference_id": "vqa__vqa_val_0015__target__016",
+        "role": "target",
+        "seed": 105746647678942842
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/017.png",
+        "index": 17,
+        "prompt": "A person stands in a living room with a sofa and coffee table, holding a pan, with a potted plant in the corner.",
+        "prompt_sha256": "9a628073acd53cbb4bd5eaf851096163bc68f9d0878e4b6d3d02342cd23493a6",
+        "reference_id": "vqa__vqa_val_0015__target__017",
+        "role": "target",
+        "seed": 1053065319414572001
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/018.png",
+        "index": 18,
+        "prompt": "Medium shot of a woman in a living room with a sofa and coffee table, holding a utensil, facing the camera.",
+        "prompt_sha256": "ed4289a887bf12ada196aea78650b4319f77ab9034cbfc43f83f6f11b6cbbf16",
+        "reference_id": "vqa__vqa_val_0015__target__018",
+        "role": "target",
+        "seed": 268015597516605445
+      },
+      {
+        "image": "samples/vqa/vqa_val_0015/target/019.png",
+        "index": 19,
+        "prompt": "Close-up of a man in a living room with a sofa and coffee table, holding a pan, with a rug on the floor.",
+        "prompt_sha256": "7a0794a0128c966e78e3031fac96965a5623a9ba4b57adc9ccb21456823c2ece",
+        "reference_id": "vqa__vqa_val_0015__target__019",
+        "role": "target",
+        "seed": 559131366519129799
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000294.jpg",
+    "original_image_sha256": "b92e3be3906b865498c8fdbcc139d3c04e90c6d889197434e4ed79c70b0eb17f",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "8d5baee930c1ec762944b84693550e53a9c8a4a4723110868d6eccec4fddab49",
+    "sample_id": "vqa_val_0015",
+    "shard": 119,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "Is this the kitchen?",
+      "source_answer": "yes",
+      "source_answers": [
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes",
+        "yes"
+      ],
+      "target_answer": "no"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0015__source__000": {
+      "job_sha256": "dd4dd1014d0d0b6126e39127fa66b66c20c14820a5d5e8bf4da35c63a5039bd2",
+      "sha256": "55629c12399b2f2c09a5a827e000ae7db933aa9650d094b6b216585fca4d76e0",
+      "bytes": 129137,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.307060+00:00"
+    },
+    "vqa__vqa_val_0015__source__001": {
+      "job_sha256": "117980eb0a8f916176ce2d55eaef3b8927de47a1a284bdfaaad448637a86d060",
+      "sha256": "b9d99d7867710dde7f6b792b7b9b1636d24e3fbab47bc7486e07bbdda8649c54",
+      "bytes": 136759,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.348481+00:00"
+    },
+    "vqa__vqa_val_0015__source__002": {
+      "job_sha256": "74f9052fee757f2d0e4e3112d4b5361c1f7d52d0f6c6d15eb05a02da027c4a33",
+      "sha256": "9dd9e0157316f1a95f04eb65946925f238ac2e6ab6a7e4318b62ced4ee8f917f",
+      "bytes": 129253,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.388582+00:00"
+    },
+    "vqa__vqa_val_0015__source__003": {
+      "job_sha256": "500f9999644eabccb02c7125dbd19e98341258d9ca01f45dbfddc8da88be9217",
+      "sha256": "a2836aa13122ea3cd020802d432e7b727145f6f108d2d317c41c11440834491f",
+      "bytes": 136996,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.433912+00:00"
+    },
+    "vqa__vqa_val_0015__source__004": {
+      "job_sha256": "0779d7cc192b569b80cd1c8f6386ce185db76f5fa722ab2348f7a41efc9fd36a",
+      "sha256": "1ead1a25d9624d97814cb030f0b0e9624feff7a756db920a252be87b6dd51bb2",
+      "bytes": 123355,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.477384+00:00"
+    },
+    "vqa__vqa_val_0015__source__005": {
+      "job_sha256": "66fb188d10dfc4b9bb643c120f5b5f1864ee59e4fa2003cc39f344e4d458ed79",
+      "sha256": "052cff46d3336b5ad9ab581598445eb459fd16b3a1d3e150b0b60d3e051a5002",
+      "bytes": 126731,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.517760+00:00"
+    },
+    "vqa__vqa_val_0015__source__006": {
+      "job_sha256": "6995cf7bc3749229d688a5dbc70c5033767cc92908d66a695840841fb1190849",
+      "sha256": "05edd0fc73811b98ac38665c9ca36fbb1c744afae9b4d4f8442b90bff081424d",
+      "bytes": 128820,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.558625+00:00"
+    },
+    "vqa__vqa_val_0015__source__007": {
+      "job_sha256": "4078877a74eacd39818623362cc6ad92081f88720d65a2cc91b3e211c83ef7f4",
+      "sha256": "369d5aa4fb02c30e59f9874e62e19bb5866261e9d1f28f7680b87fd2cb003af9",
+      "bytes": 129249,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.595269+00:00"
+    },
+    "vqa__vqa_val_0015__source__008": {
+      "job_sha256": "261eaece54716f8896ebeb7e31917ee6ce6b9f4441910def868b821bbbfc0971",
+      "sha256": "893b11c220330a134f3b26c75dc27f66ac3b1b2b90618a93be8cc97655ee2b8c",
+      "bytes": 146232,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.635541+00:00"
+    },
+    "vqa__vqa_val_0015__source__009": {
+      "job_sha256": "0eaa9f8906d45cf47b47072368e7ceba4495b719b13dced3e74a232f73a5d24d",
+      "sha256": "1c5cd4e4aa6b9c67161dd4e4fe3d04f5c922674af5d9111b23cfe95a51f9c803",
+      "bytes": 148623,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.678487+00:00"
+    },
+    "vqa__vqa_val_0015__source__010": {
+      "job_sha256": "fd8635341e4a61c5f20fb027dd2da182bebaa7c3b26f0d9bb203dda7fc62a6f8",
+      "sha256": "103f698a34a884115f21f13a367ab97615a8d894d5745fa538a68b2bce33a512",
+      "bytes": 120720,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.732471+00:00"
+    },
+    "vqa__vqa_val_0015__source__011": {
+      "job_sha256": "4f3ebf2481ea0832aa41f490f91ec0559eeaf43249786489d531ee86c6578c26",
+      "sha256": "1e05319033cdf1ec7168bcc7f9c1b245ff00299fe7b02990b1dad0f11f1a1fa7",
+      "bytes": 154286,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.775704+00:00"
+    },
+    "vqa__vqa_val_0015__source__012": {
+      "job_sha256": "0449143084835c5be5eedb07562f520b395bc9e73db3c10328cb9eeea99ac2a2",
+      "sha256": "e72b3b4a57e81817fad1193f3d0cddcb46156ec807ea7a46fa88c382234e910d",
+      "bytes": 123032,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.822032+00:00"
+    },
+    "vqa__vqa_val_0015__source__013": {
+      "job_sha256": "4a0cb244c31f48a20ae0fe5de6032f143ab436442adf2d2eaff1234cde0a113f",
+      "sha256": "e56315572f3488bbf410ca0ed2283b3a338abe1cc981dd1f94c3c0bfe2b2cf6c",
+      "bytes": 121488,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.863088+00:00"
+    },
+    "vqa__vqa_val_0015__source__014": {
+      "job_sha256": "ba4c6026a5d5acdbd5b92ec6a7c8fbd8720953f860898d5e5b772f5cdc030fc0",
+      "sha256": "62855895b022ec9716e97a89cc195a23f47f814053c72fbf20423554b788cd94",
+      "bytes": 126384,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.904291+00:00"
+    },
+    "vqa__vqa_val_0015__source__015": {
+      "job_sha256": "4cfa9ca685cb053493426f94f85464bf8253aeb1948598211c7b2d897b1f7b2f",
+      "sha256": "4aedd7b75f59df491f7546c36142ff81a5562ef9c23cfb063f0e8b3a6e855df0",
+      "bytes": 113481,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.944537+00:00"
+    },
+    "vqa__vqa_val_0015__source__016": {
+      "job_sha256": "336e31a2cdaa1577b76aed5d27b6c35fecce19f0863b56d00249ceeb1f191c08",
+      "sha256": "195ea7c2c2cc72b8ae7b6e5e12824c2fd3973e005fb1af51961254a92f74803a",
+      "bytes": 135939,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:37.988520+00:00"
+    },
+    "vqa__vqa_val_0015__source__017": {
+      "job_sha256": "275fa07dd44798cfcd937d06ef70ce1d26a9dcb07826fa514f598073d74ca7e9",
+      "sha256": "2b12f9cc09092f15a890fd808495fd335787245d04472945b8a0c217bcbb8946",
+      "bytes": 112665,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.025603+00:00"
+    },
+    "vqa__vqa_val_0015__source__018": {
+      "job_sha256": "acda3c22cf1dd461744959065790cf61a8ef3cd3b6d6ba95d5d9b2b858602946",
+      "sha256": "b44cd2f23e4f4bb0684393912697d45454eb240d220397b2e3c0abb4ac8adbce",
+      "bytes": 135618,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.067398+00:00"
+    },
+    "vqa__vqa_val_0015__source__019": {
+      "job_sha256": "6042a257c69aa6c145f000c7d816eee621e6f798fbb389e684f495e9333f44f8",
+      "sha256": "bf4b314cdea73251da63404381ec2c386427f2e429e5e5685c38c6da65a03fd9",
+      "bytes": 129477,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.110135+00:00"
+    },
+    "vqa__vqa_val_0015__target__000": {
+      "job_sha256": "f2019a57314d05d221a9f3463cbecd805898cc77520fa05f31623440a65645da",
+      "sha256": "7a6cf1d40933e56a001f0602d8ffc837c24844e842044b71ebd6adbf8f23df44",
+      "bytes": 126348,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.160217+00:00"
+    },
+    "vqa__vqa_val_0015__target__001": {
+      "job_sha256": "2919022500462de66b5350a21d11ab1afd2aaca5debb11a7883aaaee3aab5c4e",
+      "sha256": "300766c128bac679e3d2e35c8dc8dd8402e05a0dec8c2d3c061e85dd4d582168",
+      "bytes": 116496,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.201971+00:00"
+    },
+    "vqa__vqa_val_0015__target__002": {
+      "job_sha256": "3d14b581998de73c65a5177f4a1d94ac71a11d8d4c54ef116aa0535ce16b18da",
+      "sha256": "533f2bfb528037f9c054f608c7e817fea32cc98b337c3c40625e03cb2422ffca",
+      "bytes": 129907,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.246375+00:00"
+    },
+    "vqa__vqa_val_0015__target__003": {
+      "job_sha256": "18081d335cd9517d68da12c712355b72f5f6f32551e7e8a48616a5c90c7edec3",
+      "sha256": "5730a2bb696fd199a3bd54dc01d7cd71b7910b8a707e4e6cdf391d56319e1341",
+      "bytes": 109906,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.281307+00:00"
+    },
+    "vqa__vqa_val_0015__target__004": {
+      "job_sha256": "39f4359fce55db7b5fb49fa27ac41e6ee0ccf125e15102936aa7722e93caec6e",
+      "sha256": "40cb17ed7135d1268fad88efdb117b5588d9a7a559ebb7e2574c0284bf224699",
+      "bytes": 114041,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.322296+00:00"
+    },
+    "vqa__vqa_val_0015__target__005": {
+      "job_sha256": "7a10c526b613599f920f259ae7b3afb90036c84c784875bccf5dc1eed21e1e0c",
+      "sha256": "ce626dcd0d4dbee3bb51a7253cb1c93cdadc1b77fadccd13214b15e1e055c1c7",
+      "bytes": 131856,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.371191+00:00"
+    },
+    "vqa__vqa_val_0015__target__006": {
+      "job_sha256": "d9c9f091526c46d11c871e9bf078c32ae32002bd421c70f57b939b2ee5ac08aa",
+      "sha256": "24e632d50046a26a72a85fec76ef0d978d1fe3b67dd91ce44d666ae2c8052b6f",
+      "bytes": 130862,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.410734+00:00"
+    },
+    "vqa__vqa_val_0015__target__007": {
+      "job_sha256": "39647f386228ed06984b58e4ba6a006fe15623c570e05eb7bb76a146c3de8bbc",
+      "sha256": "d386cd03abc4805ab1d10ae9235e849d874bf0baca3c060c04d747096a84d383",
+      "bytes": 116604,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.455265+00:00"
+    },
+    "vqa__vqa_val_0015__target__008": {
+      "job_sha256": "73d3086b44db48687175f48a953d2f74a2af3243ad7de4e6cd129218f3c084e8",
+      "sha256": "80138fea01fde18ad8015251a40c527acae73c3748e15a60e6627e497b566937",
+      "bytes": 143967,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.498795+00:00"
+    },
+    "vqa__vqa_val_0015__target__009": {
+      "job_sha256": "74b7ca807187f9327a8305d20f7a480edab91a2d15bde06b119013eaf4d35465",
+      "sha256": "2527644110d5e0dd92c3e369524ad9681e58e0ec9870e4d664b9f2c958b94738",
+      "bytes": 130695,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.545260+00:00"
+    },
+    "vqa__vqa_val_0015__target__010": {
+      "job_sha256": "54f266e01d037919a0bf346441a9ea9043364b66f22e012de1c27bf811cc2d56",
+      "sha256": "74a307dd70664bcd268f487a02d427d3d8b15d08cc6713574dbcd1a629422b04",
+      "bytes": 134742,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.588008+00:00"
+    },
+    "vqa__vqa_val_0015__target__011": {
+      "job_sha256": "c3322eee3ff13d0cc3d85f3928b5148d26a3e6063172c5cb0806298967874490",
+      "sha256": "17b62c0713fc0baf541deb000e156c200ab098fd2efbdc5a20d2b3aaef7ca034",
+      "bytes": 124474,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.631115+00:00"
+    },
+    "vqa__vqa_val_0015__target__012": {
+      "job_sha256": "f8171456e4c8289fe375f1a48f3fb831e480ea257a82a546ed3cef04f1fbca7e",
+      "sha256": "679a5e87abe9282fa053b82ace0116415b5082711bf0a46ff38bd206925d395b",
+      "bytes": 113055,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.674444+00:00"
+    },
+    "vqa__vqa_val_0015__target__013": {
+      "job_sha256": "02038755da6034d93f8a2092ba5f64e3d7ddf3b83035274f72ac57061fc9ea80",
+      "sha256": "d6a7344d5ec5690664bf6d4e6072389554c564c24f270241fc7ea649386ff0a5",
+      "bytes": 144920,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.711840+00:00"
+    },
+    "vqa__vqa_val_0015__target__014": {
+      "job_sha256": "4d706bc6f5a25476a13ad364cdc588b577626b6eac9cc525c83c57fc03e6e155",
+      "sha256": "309576a6a08ca2bacfd53f01913b112a743a51ab9b5c70406148ba0b1701c0e8",
+      "bytes": 120333,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.755472+00:00"
+    },
+    "vqa__vqa_val_0015__target__015": {
+      "job_sha256": "43495b3a899410fbcd31cee6af2d65739655bcea5d868b129701eefb9d371edf",
+      "sha256": "47f0fdfa190c637c436482e60732e2b76146d04961a2abf45c530b30e1dc5910",
+      "bytes": 122174,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.807374+00:00"
+    },
+    "vqa__vqa_val_0015__target__016": {
+      "job_sha256": "ebbf08af63f92bb6d97da6abff76b3b32725630d571e5f6dc0f6fe88e1c3bf57",
+      "sha256": "d65f2d4a0b6bdb63656cbc344a0b2d300e268bfa8cc6a372f29cee7c716e022f",
+      "bytes": 117513,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.858153+00:00"
+    },
+    "vqa__vqa_val_0015__target__017": {
+      "job_sha256": "eb278be9cf16faba35e99b3bb0c923d666eeb00069ac023e366dd01b0a8faba4",
+      "sha256": "1fc05316bc2b70411ea126a70523564ac40799ab8e0f80c4db39d8a3c05bd29a",
+      "bytes": 134324,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.904068+00:00"
+    },
+    "vqa__vqa_val_0015__target__018": {
+      "job_sha256": "589de900ca1223220b9a11a5f75606d0913a32288761f49af4ae148a0656b5bb",
+      "sha256": "df02ff9b6fbf9dcd0ed2821e163579f47df48a1c96ba5238a4ce3858c8904e98",
+      "bytes": 133893,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.948799+00:00"
+    },
+    "vqa__vqa_val_0015__target__019": {
+      "job_sha256": "f9d876368c151b36a5f7c0e9cd44c0998462a9e3c3a7fe09d5b6a9a775f65df0",
+      "sha256": "8ef95861e72451d6e4000efb83973625cb6c4556282992d26930ed7d67714d49",
+      "bytes": 130996,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 28.48217603098601,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:16:38.993891+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:16:38.993915+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

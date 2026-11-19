@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "bcc2a864b51c38172933d2369ebc23f7c13ecc872a3253500d900613c0374735",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "34cdaf64b47a65e282468645402fb9b92a64061cf172904f8b213a0cd290d8f9",
+      "notes": "Source prompts consistently describe overcast gray/cloudy skies; target prompts consistently describe clear sunny/blue skies.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0019/source/000.png",
+        "index": 0,
+        "prompt": "Medium shot of a city intersection with traffic lights, overcast sky above silhouetted buildings.",
+        "prompt_sha256": "b914a648da9342c45ceda285c563197ce7bc48ce893419a4af59cf873ac64526",
+        "reference_id": "vqa__vqa_val_0019__source__000",
+        "role": "source",
+        "seed": 362204306343843606
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/001.png",
+        "index": 1,
+        "prompt": "Soft daylight scene of a city street, muted tones from an overcast sky.",
+        "prompt_sha256": "7732004daf2cbe7fd16a0124e38254483ed07320f5da136dd384a1f4f2d53063",
+        "reference_id": "vqa__vqa_val_0019__source__001",
+        "role": "source",
+        "seed": 120924104127761951
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/002.png",
+        "index": 2,
+        "prompt": "Side angle of a road with parked cars, overcast sky visible between buildings.",
+        "prompt_sha256": "c52dc58bbba1b7016a01b4117a5a136cfbfc71dbb47c3a16c6ed351958c4b52e",
+        "reference_id": "vqa__vqa_val_0019__source__002",
+        "role": "source",
+        "seed": 435617661880566942
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/003.png",
+        "index": 3,
+        "prompt": "Another urban avenue, silhouetted architecture, and a tower under diffuse overcast light.",
+        "prompt_sha256": "7fa1ff7c0e398600cf05f4eee6487a1205d135988d9c668e69c19bd2804cd59f",
+        "reference_id": "vqa__vqa_val_0019__source__003",
+        "role": "source",
+        "seed": 666766022746330365
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/004.png",
+        "index": 4,
+        "prompt": "Natural framing of a city block, buildings and traffic infrastructure, overcast conditions.",
+        "prompt_sha256": "f7c04d166137ef992ab3a711a0d1bd895cdb8843d3c5fb10394a16fb915a4c74",
+        "reference_id": "vqa__vqa_val_0019__source__004",
+        "role": "source",
+        "seed": 516724348297159202
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/005.png",
+        "index": 5,
+        "prompt": "Ordinary soft light on a city street, overcast sky creating even illumination.",
+        "prompt_sha256": "dc091a64e58ca5f5bb8e77b2d2966d08d277a2bae3c8a0c8e87ed490e8730c5c",
+        "reference_id": "vqa__vqa_val_0019__source__005",
+        "role": "source",
+        "seed": 1083991136062507787
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/006.png",
+        "index": 6,
+        "prompt": "Mild side angle of a building facade, street level view, overcast sky above.",
+        "prompt_sha256": "37e7c6a9023e5d7091f2802cab662f6eed28a80237c67cf67bce0b55516036e7",
+        "reference_id": "vqa__vqa_val_0019__source__006",
+        "role": "source",
+        "seed": 555560862447664632
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/007.png",
+        "index": 7,
+        "prompt": "Natural candid composition of a street vendor, urban backdrop, overcast lighting.",
+        "prompt_sha256": "74bdbe55810212b8002c15b7bab34205f77fedc8620098a9c95ffd9ef501c9c4",
+        "reference_id": "vqa__vqa_val_0019__source__007",
+        "role": "source",
+        "seed": 278894422470697907
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/008.png",
+        "index": 8,
+        "prompt": "Overcast urban street with silhouetted buildings, a distant tower, and a sky completely filled with grey clouds.",
+        "prompt_sha256": "b77243ff6f2c230965d3d124fabdceb2140e56b05624de491112560eff97dcfb",
+        "reference_id": "vqa__vqa_val_0019__source__008",
+        "role": "source",
+        "seed": 800739351531929877
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/009.png",
+        "index": 9,
+        "prompt": "Medium shot of a city intersection, traffic lights, and a tower under a thick, uniform layer of overcast clouds.",
+        "prompt_sha256": "db97955a97500ca5a0e7c7fa2526a4838540b9ca804b2f5616ee30d5224b3f04",
+        "reference_id": "vqa__vqa_val_0019__source__009",
+        "role": "source",
+        "seed": 264878654722161982
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/010.png",
+        "index": 10,
+        "prompt": "Closer view of a road with a distant tower, framed by buildings, under a heavy, cloudy overcast sky.",
+        "prompt_sha256": "a25274d15fe5973c65c183903c95620666210c713ef9cf6a188b5f67b8a0b7ec",
+        "reference_id": "vqa__vqa_val_0019__source__010",
+        "role": "source",
+        "seed": 624656905576770328
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/011.png",
+        "index": 11,
+        "prompt": "Overcast city scene with a vertical tower on the horizon, silhouetted architecture, and diffuse cloud lighting.",
+        "prompt_sha256": "c72b5cdccbb71b55c87832ca7e2f9a57bb5c76fc547d51fffedd35372a7039ac",
+        "reference_id": "vqa__vqa_val_0019__source__011",
+        "role": "source",
+        "seed": 6762130374416965
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/012.png",
+        "index": 12,
+        "prompt": "Overcast sky with thick grey clouds over an urban street and distant tower.",
+        "prompt_sha256": "4fd8739fa393bce7fde9e36817c706f9b4fd0c0d04a6ebbf384ceb2639c42ba6",
+        "reference_id": "vqa__vqa_val_0019__source__012",
+        "role": "source",
+        "seed": 280487609739603222
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/013.png",
+        "index": 13,
+        "prompt": "Medium framing of a city intersection under a completely overcast, cloudy sky.",
+        "prompt_sha256": "de27e954f821f99a01aa410158a42542677023fa7c5f2377edb2139cddaf8f9d",
+        "reference_id": "vqa__vqa_val_0019__source__013",
+        "role": "source",
+        "seed": 863083045685503710
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/014.png",
+        "index": 14,
+        "prompt": "Closer view of a traffic light and road under a heavy, overcast cloud cover.",
+        "prompt_sha256": "de85202df17e8bb7fbc3548193e4bfe94a3f566eea07e66ad3ad2f8d8cd6d741",
+        "reference_id": "vqa__vqa_val_0019__source__014",
+        "role": "source",
+        "seed": 740445781266070601
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/015.png",
+        "index": 15,
+        "prompt": "Pedestrian walking on a sidewalk beneath a grey, overcast sky with buildings.",
+        "prompt_sha256": "d97de9d021ae7be6c3ad2e477f9af49925a5306282066c2e082acf5ba1438f5c",
+        "reference_id": "vqa__vqa_val_0019__source__015",
+        "role": "source",
+        "seed": 560635997856108529
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/016.png",
+        "index": 16,
+        "prompt": "Soft daylight scene of a city street with a tower under an overcast sky.",
+        "prompt_sha256": "72f7ef2179cd22a2e93a77c3f3ef8c9495cd007bbd88ffd2ce427376befc297c",
+        "reference_id": "vqa__vqa_val_0019__source__016",
+        "role": "source",
+        "seed": 406128825300345162
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/017.png",
+        "index": 17,
+        "prompt": "Wider crop of a city avenue with silhouetted buildings and an overcast sky.",
+        "prompt_sha256": "339ccf688454326812d24e45c28df336bdd95958d2570d30ef1c5f4d0368e049",
+        "reference_id": "vqa__vqa_val_0019__source__017",
+        "role": "source",
+        "seed": 897354075106206486
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/018.png",
+        "index": 18,
+        "prompt": "Mild side angle of a street with a tower under a grey, overcast sky.",
+        "prompt_sha256": "f3baf13407b3aa142bf0243073f497711d67ef1a842868b2f6bb8ed5e01e7978",
+        "reference_id": "vqa__vqa_val_0019__source__018",
+        "role": "source",
+        "seed": 1071119183439989787
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/source/019.png",
+        "index": 19,
+        "prompt": "Urban street with a fire hydrant and a distant tower under an overcast sky.",
+        "prompt_sha256": "1c4e8b7913626821bf5b7626240f1f5808fef987fa7c37d8f3d236ea5f85a0f8",
+        "reference_id": "vqa__vqa_val_0019__source__019",
+        "role": "source",
+        "seed": 1020742355001929205
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/000.png",
+        "index": 0,
+        "prompt": "Soft daylight scene of a city street, bright tones from a sunny sky.",
+        "prompt_sha256": "29e7ccd84206db0446bdad1c574b1cd6c9d72a3b22211e0ada186c410cb177a6",
+        "reference_id": "vqa__vqa_val_0019__target__000",
+        "role": "target",
+        "seed": 1077032616156006912
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/001.png",
+        "index": 1,
+        "prompt": "Another urban avenue, silhouetted architecture, and a tower under bright sunny light.",
+        "prompt_sha256": "ee9f7acb12f51d744a31cabaab7156b622a4445a85867672f02af1d1d5268c90",
+        "reference_id": "vqa__vqa_val_0019__target__001",
+        "role": "target",
+        "seed": 660880494402953714
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/002.png",
+        "index": 2,
+        "prompt": "Natural framing of a city block, buildings and traffic infrastructure, sunny conditions.",
+        "prompt_sha256": "e842ce6b4603f7dbfe2e0d15b883f5c47f6c440a67a8a2c7603522624c58e8d6",
+        "reference_id": "vqa__vqa_val_0019__target__002",
+        "role": "target",
+        "seed": 690693868227633959
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/003.png",
+        "index": 3,
+        "prompt": "Natural candid composition of a street vendor, urban backdrop, sunny lighting.",
+        "prompt_sha256": "8300431796fedb26ce16c6e152dadede10761c8d59d025996d4d2dcea918dd7d",
+        "reference_id": "vqa__vqa_val_0019__target__003",
+        "role": "target",
+        "seed": 835178572315431652
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/004.png",
+        "index": 4,
+        "prompt": "Sunny urban street with silhouetted buildings, a distant tower, and a sky filled with blue.",
+        "prompt_sha256": "c7489f9243dbca492112d70a6bf213117a87c7c76124745778df1d46fd028e1e",
+        "reference_id": "vqa__vqa_val_0019__target__004",
+        "role": "target",
+        "seed": 967931439186633176
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/005.png",
+        "index": 5,
+        "prompt": "Closer view of a road with a distant tower, framed by buildings, under a clear sunny sky.",
+        "prompt_sha256": "809ff3fc8cbb4cb1e98516b81d73c14b2c8ebbf2273566c4dbabc02f0d9a84a7",
+        "reference_id": "vqa__vqa_val_0019__target__005",
+        "role": "target",
+        "seed": 391657115952510345
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/006.png",
+        "index": 6,
+        "prompt": "Sunny city scene with a vertical tower on the horizon, silhouetted architecture, and bright lighting.",
+        "prompt_sha256": "1e9ce817ec36edba7bba53a852dbe6f95b680c62c71a2826134f44a3574dcdf4",
+        "reference_id": "vqa__vqa_val_0019__target__006",
+        "role": "target",
+        "seed": 187855232736103994
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/007.png",
+        "index": 7,
+        "prompt": "Medium framing of a city intersection under a completely clear, sunny sky.",
+        "prompt_sha256": "3f074f88d697f5a255273f8d6ea7f9df7e18e7306cd9db4e476495487670aa21",
+        "reference_id": "vqa__vqa_val_0019__target__007",
+        "role": "target",
+        "seed": 1098268390677419972
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/008.png",
+        "index": 8,
+        "prompt": "Pedestrian walking on a sidewalk beneath a blue, sunny sky with buildings.",
+        "prompt_sha256": "714821bef87219fa12f064f26745482aaa28c1ef66a6b4807d2e57b7c89cf945",
+        "reference_id": "vqa__vqa_val_0019__target__008",
+        "role": "target",
+        "seed": 723060106314744962
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/009.png",
+        "index": 9,
+        "prompt": "Mild side angle of a street with a tower under a bright, sunny sky.",
+        "prompt_sha256": "6cd4bc387678ff4d185a264a58325998461967ab63c0c198f64ce3efa3fe338f",
+        "reference_id": "vqa__vqa_val_0019__target__009",
+        "role": "target",
+        "seed": 502601039009401084
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/010.png",
+        "index": 10,
+        "prompt": "Urban street with a fire hydrant and a distant tower under a clear sunny sky.",
+        "prompt_sha256": "5cb802e4a8dd529d79409bd945048ea191bd40f4fb9617c79e9839f6916fa8e7",
+        "reference_id": "vqa__vqa_val_0019__target__010",
+        "role": "target",
+        "seed": 72330240776777859
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/011.png",
+        "index": 11,
+        "prompt": "Sunny urban street scene looking down a road with a prominent tower in the distance, bright blue sky visible above the buildings.",
+        "prompt_sha256": "cae5fc8daa96d1b25e119169b82ca7439a8e456bcc2ea88bda107bfed289ca39",
+        "reference_id": "vqa__vqa_val_0019__target__011",
+        "role": "target",
+        "seed": 878318666498845995
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/012.png",
+        "index": 12,
+        "prompt": "Medium framing of a city intersection with traffic lights and buildings framing the sky, bright sunny weather with clear blue sky.",
+        "prompt_sha256": "3dbeb270661d384ea46edf8c8f19ad4f0f6e553865c506316266dd6210a49a69",
+        "reference_id": "vqa__vqa_val_0019__target__012",
+        "role": "target",
+        "seed": 127244067840818038
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/013.png",
+        "index": 13,
+        "prompt": "Closer view of a traffic light and road under a bright, sunny sky with clear blue conditions over the urban street.",
+        "prompt_sha256": "fc5019f63836c8a3f873f22babc216ada67511bc101107dcfe645cbbf5591aee",
+        "reference_id": "vqa__vqa_val_0019__target__013",
+        "role": "target",
+        "seed": 128314979888710337
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/014.png",
+        "index": 14,
+        "prompt": "Pedestrian walking on a sidewalk beneath a bright, sunny sky with clear blue conditions, silhouetted buildings nearby.",
+        "prompt_sha256": "8687926e2077504f600962bad3ef228ecca70c31867d8c9e5de9c0d251c27de8",
+        "reference_id": "vqa__vqa_val_0019__target__014",
+        "role": "target",
+        "seed": 438359911978407960
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/015.png",
+        "index": 15,
+        "prompt": "Soft daylight scene of a city street with a tower under a bright, sunny sky with clear blue conditions.",
+        "prompt_sha256": "2960988b58305149340b560ff135c3767f2772b6e34ea0b530a04cece35e5ef9",
+        "reference_id": "vqa__vqa_val_0019__target__015",
+        "role": "target",
+        "seed": 556038529280044975
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/016.png",
+        "index": 16,
+        "prompt": "Wider crop of a city avenue with silhouetted buildings and a bright, sunny sky with clear blue conditions.",
+        "prompt_sha256": "2d0e3a89f506465ca05b5796fd889ce9d6f2a1e3fea7bee2aa345117cb18346d",
+        "reference_id": "vqa__vqa_val_0019__target__016",
+        "role": "target",
+        "seed": 917954330026403095
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/017.png",
+        "index": 17,
+        "prompt": "Mild side angle of a street with a tower under a bright, sunny sky with clear blue conditions.",
+        "prompt_sha256": "7cccd4a14ecccb258a0365dda63271e013ae8aa31b7f33717c3d9ba835336f69",
+        "reference_id": "vqa__vqa_val_0019__target__017",
+        "role": "target",
+        "seed": 456458062599883012
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/018.png",
+        "index": 18,
+        "prompt": "Urban street with a fire hydrant and a distant tower under a bright, sunny sky with clear blue conditions.",
+        "prompt_sha256": "bc82633a928781ec97b9c4cfe1025088fa79e22ab083eed3279040398663fc7d",
+        "reference_id": "vqa__vqa_val_0019__target__018",
+        "role": "target",
+        "seed": 10104764106753059
+      },
+      {
+        "image": "samples/vqa/vqa_val_0019/target/019.png",
+        "index": 19,
+        "prompt": "Natural candid composition of a city street with a tower under a bright, sunny sky with clear blue conditions.",
+        "prompt_sha256": "a572fc71bdb0dd6a6c5de6085674f532e48cc7423f9fb0a8089195df4d2b31f1",
+        "reference_id": "vqa__vqa_val_0019__target__019",
+        "role": "target",
+        "seed": 805414667063301420
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000359.jpg",
+    "original_image_sha256": "a458829bcc51ff72ea90027e4dcb03ba978db9944a8679d3a72cba9d0f050806",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "bcc2a864b51c38172933d2369ebc23f7c13ecc872a3253500d900613c0374735",
+    "sample_id": "vqa_val_0019",
+    "shard": 123,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "Overcast or sunny?",
+      "source_answer": "overcast",
+      "source_answers": [
+        "overcast",
+        "overcast",
+        "overcast",
+        "overcast",
+        "overcast",
+        "overcast",
+        "overcast",
+        "overcast",
+        "overcast",
+        "overcast"
+      ],
+      "target_answer": "sunny"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0019__source__000": {
+      "job_sha256": "0c0c895f84ff7178353aed5002e174a670a384d51f03cbb5143d904feb08c6b1",
+      "sha256": "adffb6f8bde9bc682aa95234730b215d030c31f5cc445eae475019a9308c5e7f",
+      "bytes": 123851,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:58.735363+00:00"
+    },
+    "vqa__vqa_val_0019__source__001": {
+      "job_sha256": "644866ff44bdb18de3ebabf648166c207c09fc17c9289365b10ed0d24e60832b",
+      "sha256": "ff598e8e62314ee7a9a687f69a50d983eb6a0227b74ecbab5ba220e1aa2afc23",
+      "bytes": 151883,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:58.780718+00:00"
+    },
+    "vqa__vqa_val_0019__source__002": {
+      "job_sha256": "4b072af7dcaa780444c028921598f4746c5d2e52c8c8cc49434b0155092491f0",
+      "sha256": "7795d941c1f5e2a2a48632e499c8c18b3b1e98217efe0357e269c91f6d06a591",
+      "bytes": 155869,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:58.823973+00:00"
+    },
+    "vqa__vqa_val_0019__source__003": {
+      "job_sha256": "17b7432447374997210be0b200929707acbea920241472d8c1e3c79c3f465e87",
+      "sha256": "c31631b73f28072896a22c9fc030e7b14aadfc9ed45d7e8e2d6aa51b9da4ed8c",
+      "bytes": 105832,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:58.865288+00:00"
+    },
+    "vqa__vqa_val_0019__source__004": {
+      "job_sha256": "ce826a488965de60fbfdacb3561b03d4a42bb3d781fbd56176b54f11c6cebef0",
+      "sha256": "4f3d1398d61ba4f5839cb25461d6d946220815ced7916e6d65fefe11faf2b1fa",
+      "bytes": 133430,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:58.903088+00:00"
+    },
+    "vqa__vqa_val_0019__source__005": {
+      "job_sha256": "b5e5b996c831134c515fa9bbeb5b14fc4a357a46e20a3578eafafc8d46ae3889",
+      "sha256": "32a7dd8d242e2a6e8c7dc26038ea9aff1bcf014c19338351d3fd5794b14318b1",
+      "bytes": 154582,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:58.945928+00:00"
+    },
+    "vqa__vqa_val_0019__source__006": {
+      "job_sha256": "dadebd804331567ad33871793fbc6d203e379c9f0b5c452879ccfb1b1b0b04fc",
+      "sha256": "e400a52a0242ec4825d5398156ac478c549a3b2f974eddb10b355dcae5acdb97",
+      "bytes": 167505,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:58.990397+00:00"
+    },
+    "vqa__vqa_val_0019__source__007": {
+      "job_sha256": "70a3ed4eb285d68f235c2b4710aaf2d348df8bc5e0b33852ea06bd8a25982e00",
+      "sha256": "224ef6b725d5c97ecd2689bf1a3fd8f7a115d18c967ce76c1ab4f55b6c215bf1",
+      "bytes": 167832,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.038102+00:00"
+    },
+    "vqa__vqa_val_0019__source__008": {
+      "job_sha256": "8f04cbc15324fe967187225203d683453b9e5abeb72729ed76fa36ac52155e56",
+      "sha256": "0300a008ea1a9d2e9403d8bb67269b56eec69310f004643cf5907aa1e6f140af",
+      "bytes": 119699,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.097697+00:00"
+    },
+    "vqa__vqa_val_0019__source__009": {
+      "job_sha256": "1875dee48ceda6d5155b3d4efb8705b1269d27fc1491e1837086b20104682f42",
+      "sha256": "4957d71c3746c682b21071bad28683562f919306ebc11e18e709134a8fd1412e",
+      "bytes": 99176,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.144156+00:00"
+    },
+    "vqa__vqa_val_0019__source__010": {
+      "job_sha256": "9f4b34e0b3e99fc6f913fe2381afabf78804375a64665b1f1de06a37e6400a85",
+      "sha256": "19cc32f55eddf170c6eae8a9d594c1d93cd04719a5fcce82fb1408983f5299c5",
+      "bytes": 135623,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.186406+00:00"
+    },
+    "vqa__vqa_val_0019__source__011": {
+      "job_sha256": "28866698bb163ff734e0b5ec368c53f17fb074881b8827fe5d0a674e21c48491",
+      "sha256": "d3a48fe742b9c1fc7fb7b139f42958ec67f778ae1df779372f7dcd08c4c8ef04",
+      "bytes": 103430,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.232232+00:00"
+    },
+    "vqa__vqa_val_0019__source__012": {
+      "job_sha256": "f6e40613e92626a15f2fc6b28e1ac410341b4a9e4371f23db3299a4f9dd9511a",
+      "sha256": "ddff055d8c406e9355ed41531a39c33f0b6ceab6abe5cf74682a371bfe0c873a",
+      "bytes": 130440,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.270739+00:00"
+    },
+    "vqa__vqa_val_0019__source__013": {
+      "job_sha256": "2727ea0f4937393a1c253a33a5fd55d73e0b4e7cde81c18c08786fe38b07745c",
+      "sha256": "1f57683b45906f61d39d3f84e4917a38a666079fd2eadb70f94aec9226de8f6d",
+      "bytes": 153123,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.311106+00:00"
+    },
+    "vqa__vqa_val_0019__source__014": {
+      "job_sha256": "fb351df5fc37bfe85bacd4c7d1c2b608eabe3e25aaa6a440c6bac7edf2c9ca32",
+      "sha256": "1fc3834090869bcacade8351b04980f57e14defa348573c9df2bf032ac3fe742",
+      "bytes": 103305,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.355529+00:00"
+    },
+    "vqa__vqa_val_0019__source__015": {
+      "job_sha256": "fb8d3d83c9bbc545b399633af9255a534f07b3144b191b12a3cd864d710f9cf8",
+      "sha256": "dfcccea21510aeb9815a6fae979a0adfca066666612f3529c84355722eea918b",
+      "bytes": 152497,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.398683+00:00"
+    },
+    "vqa__vqa_val_0019__source__016": {
+      "job_sha256": "2fac470359b2fadd9add53904bf7c5c5b5a029c97014cfb23111ad093bd24ef3",
+      "sha256": "0e8e75ebec1f35cfb533df487e1267740234da01e4f78cfa43955e4241a84aee",
+      "bytes": 139220,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.442112+00:00"
+    },
+    "vqa__vqa_val_0019__source__017": {
+      "job_sha256": "f32d0be757c24bc9be6bbd233c591a1badefdf50193235edc72ec03ee468056a",
+      "sha256": "e7aaa056215e0547d85de5d3c0cfff1bdea1736b00356ced009822cdd5866372",
+      "bytes": 129858,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.484864+00:00"
+    },
+    "vqa__vqa_val_0019__source__018": {
+      "job_sha256": "6186b63df4d43d486591bfb4bb22159e8b1d23becf24b813e0ce6f764e443281",
+      "sha256": "b9a7c016005555f09ff317ecab67cf9c821bc64fa307a73560fc4498cebd6f4a",
+      "bytes": 130899,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.523840+00:00"
+    },
+    "vqa__vqa_val_0019__source__019": {
+      "job_sha256": "19bf77eb1cddeb249641f065b10561a8cfb32313b9bbc31cbc3637d4ffafbdbe",
+      "sha256": "696f49b1faec7bc317f831ca703072a78ce7eab1033525198111c102995e93a6",
+      "bytes": 144383,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.565941+00:00"
+    },
+    "vqa__vqa_val_0019__target__000": {
+      "job_sha256": "7600b29302262c965cbefbe9c2a27cca732e3953a55a415fd7a41e7538996c44",
+      "sha256": "56170bb881d85ab8438bad36309dc7e510a3fed40641250e5c41808786a1fb18",
+      "bytes": 151982,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.617918+00:00"
+    },
+    "vqa__vqa_val_0019__target__001": {
+      "job_sha256": "0405234d398be4f23b99a19eac677ce37c41e9a15dad5bb0a6242570bbd0c956",
+      "sha256": "f33805e5302606cace88f8cfbe2856355b4a126b355dc1d8961485c9c762eb2d",
+      "bytes": 115171,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.660505+00:00"
+    },
+    "vqa__vqa_val_0019__target__002": {
+      "job_sha256": "0ec38e823f8c9d0818b7eecbe24ffe91bdb417263adb648c5510347f20b0f501",
+      "sha256": "02f6113ba5fc4c0869934b6cb47bb3e31545d62b8a9522f91898a4e4c278f707",
+      "bytes": 141702,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.699629+00:00"
+    },
+    "vqa__vqa_val_0019__target__003": {
+      "job_sha256": "ce8785bd9b827a25f5549ae7559349812e2dde6cd93fc7de0ee7680033c9f2ae",
+      "sha256": "c6850ff7abfc509bd5359589e35f0922fd965814f8173c87972367ac5d49a013",
+      "bytes": 172126,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.746255+00:00"
+    },
+    "vqa__vqa_val_0019__target__004": {
+      "job_sha256": "b6400f118ad637a331578ea6d0d9a745ae246f3fdc007440fb13fb4bdc790d49",
+      "sha256": "9977a6177bc4d44da93c3fdeb1674665033bd90c5a119d9bcd7c08b44a54827c",
+      "bytes": 132277,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.786790+00:00"
+    },
+    "vqa__vqa_val_0019__target__005": {
+      "job_sha256": "02b1370f17467221977a2d2e547886bde4b47248d0b9e856cb76ed6c235493f5",
+      "sha256": "e4f4d4cb3557464bfeffc1ac6b653ac98ec253f57b8e72d99f585cd8287c138f",
+      "bytes": 122122,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.832670+00:00"
+    },
+    "vqa__vqa_val_0019__target__006": {
+      "job_sha256": "0cdb264dea25e92c8a27c30994c45c7d8ae6e8f3ca052db17f1df1e612df2418",
+      "sha256": "e10fcbd54143b5dfecf8b507429d6dbe7d3d227ffea1ded534d797fc224f749d",
+      "bytes": 99962,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.872760+00:00"
+    },
+    "vqa__vqa_val_0019__target__007": {
+      "job_sha256": "49ca5f16dd4f62286062408a12f8dc2686ca3b7118d62d91e204d938119cb353",
+      "sha256": "50ec42c0af730f993fabfea05b1dfb3ed6ea8015a5c0df236eb124a16f734ce8",
+      "bytes": 147741,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.917655+00:00"
+    },
+    "vqa__vqa_val_0019__target__008": {
+      "job_sha256": "b642b4d3584ac6e81aa80821a2be5461037c3b0b87960b8364621d2da67c439b",
+      "sha256": "3293b7a293e4a8251391bb03c71acb948646e52056fc4ec65d5d53fbe66d332b",
+      "bytes": 163259,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:31:59.958448+00:00"
+    },
+    "vqa__vqa_val_0019__target__009": {
+      "job_sha256": "0549719c69b33f4dc17ae42609c3c8052e21527e65e2f37378fb313c93e38951",
+      "sha256": "610e007c020d2d323b859d548b48535b01a24045e8a8f77df310e3c42a2de42e",
+      "bytes": 126563,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.001581+00:00"
+    },
+    "vqa__vqa_val_0019__target__010": {
+      "job_sha256": "decdf8c64a919784bd6c9e9e79c95d945334cc2c9978a361642db38c3a53f39a",
+      "sha256": "88f566b2867acd8a877912751e3b2973ccd243860f25d2850a3108c37f4ed6ba",
+      "bytes": 159916,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.046170+00:00"
+    },
+    "vqa__vqa_val_0019__target__011": {
+      "job_sha256": "5d662cf97df66d6b09317bf182b65e791692a9ca103dca4b59341fb7bd0831d1",
+      "sha256": "fa732c0cb9fc47fb72a1870bb14e27e7306a6a239cd5bad3eda9809b1e6f51e4",
+      "bytes": 161336,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.082726+00:00"
+    },
+    "vqa__vqa_val_0019__target__012": {
+      "job_sha256": "65e234cdd67eb9bd876c1ee68a927321106fa36ef0706c2cc0b1c90f9995f8bc",
+      "sha256": "073d8a5899e09e7362812c7ab5802daa0c75f539cbfd0f811025f0790a3de77b",
+      "bytes": 158538,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.127999+00:00"
+    },
+    "vqa__vqa_val_0019__target__013": {
+      "job_sha256": "a25629a15a5eb8299519aef6f2a0be8156d8f2889ae44d22a4b488d87e1f5296",
+      "sha256": "19a9c27a880e00d38d45911f2b5d4c4f33f7e291d7caa04b149b5fa7d9222363",
+      "bytes": 112268,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.169790+00:00"
+    },
+    "vqa__vqa_val_0019__target__014": {
+      "job_sha256": "9a1c16c2061160a8c3e4da1a8e57a47993b5c8cb24d9f05feac7159514fd9a8f",
+      "sha256": "f7f3efb2258ec6c3717915783e793518c36b0f3fb26524e09c2ddbf347cbd780",
+      "bytes": 134521,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.219759+00:00"
+    },
+    "vqa__vqa_val_0019__target__015": {
+      "job_sha256": "4449725ed78c0a57ab5dfe4a581726c5b3c7785ecf5003a345a16b36043bee78",
+      "sha256": "febc419fb290eb6b695d40d2d5b0bb48bf5533b823b02fd5553eb56f0e558cc5",
+      "bytes": 135023,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.259834+00:00"
+    },
+    "vqa__vqa_val_0019__target__016": {
+      "job_sha256": "389d44d26d657ef75a68016845ee39787621da417d8b9a010df8fb74d8db2aea",
+      "sha256": "95676d416eeca9379ae171f3fefa06896a1354a51dc2e7ec132294042f0eb477",
+      "bytes": 121479,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.299536+00:00"
+    },
+    "vqa__vqa_val_0019__target__017": {
+      "job_sha256": "bf3402db8b3ac616db424178856629c06d88fa4e91f56529d438de361b800c59",
+      "sha256": "bf323b82f30748e011fe4c0daabcf71a225242005fab30db84416279b0ba81ce",
+      "bytes": 134956,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.344485+00:00"
+    },
+    "vqa__vqa_val_0019__target__018": {
+      "job_sha256": "a36a6cc12d768347c41c0554ec525b8cb75207bc3873e0a3f1700e7bdf5beadd",
+      "sha256": "cb289acc7d89c8619e28f5f272c2dc5db3fd0e2f4266f019956b3e8c54a58e01",
+      "bytes": 153064,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.384454+00:00"
+    },
+    "vqa__vqa_val_0019__target__019": {
+      "job_sha256": "fa90d6c8f111f6a63da13f48f4874bf77382dbb5dc01ec1ecb8444e83b040625",
+      "sha256": "ad956bae0cbd01f7d88049f507aa26bdcf7dd5505ab605ac7813d797656e3521",
+      "bytes": 176762,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 28.306685370393097,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:32:00.426863+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:32:00.426883+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

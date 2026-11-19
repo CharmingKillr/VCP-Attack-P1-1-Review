@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "8a27821323e338b47116f89ba3e5bf2afd61646362f91272bf8a9cfc479ec56f",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "73f7bfbb50a82198a43b9ad4b95d1185d71118c882140b852963199dd281fa63",
+      "notes": "Source entails an adult and children watching the ocean at an evening boardwalk. Several source prompts mentioned only one child or unspecified family members; edited them to show an adult plus at least two children. Replaced a target with a stroller that could imply an unseen child by a clearly solitary adult; daytime alone remains contradiction.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/000.png",
+        "index": 0,
+        "prompt": "A mother and two young children sit together on a pier bench, watching the sunset fade over the water.",
+        "prompt_sha256": "d479ad6d324069b49e2cad76793c13887dd86522f544166841d18083b1ca65eb",
+        "reference_id": "ve__snli_ve_test_0009__source__000",
+        "role": "source",
+        "seed": 2382993494725067
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of two parents and their two children on a boardwalk, all facing the sea as the sky turns purple.",
+        "prompt_sha256": "d8358ac195181f064942369e950971b14dd56ec83f5122a91c6a85ffbdc0f918",
+        "reference_id": "ve__snli_ve_test_0009__source__001",
+        "role": "source",
+        "seed": 427163547966822444
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a family of four on a boardwalk, all facing the sea as the sky turns purple.",
+        "prompt_sha256": "7e5856baf574e61b260604ff241d3aa3ff4b3a27d05d12791b4d59a837531e2f",
+        "reference_id": "ve__snli_ve_test_0009__source__002",
+        "role": "source",
+        "seed": 839424325127975163
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/003.png",
+        "index": 3,
+        "prompt": "A grandfather and two grandchildren lean on the railing of a boardwalk, observing the evening ocean view.",
+        "prompt_sha256": "eecd35cea1dc8e4923a55c6cc7606146b63402e4d88eff3139501aea41afc7e1",
+        "reference_id": "ve__snli_ve_test_0009__source__003",
+        "role": "source",
+        "seed": 457093440326074656
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/004.png",
+        "index": 4,
+        "prompt": "A couple and two children stand on the boardwalk at dusk, watching the darkening water together.",
+        "prompt_sha256": "6f2792237fc4e28b720776bb415fa7b8652fb6e143b498193ef87b95d7897ea2",
+        "reference_id": "ve__snli_ve_test_0009__source__004",
+        "role": "source",
+        "seed": 970427699430504736
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/005.png",
+        "index": 5,
+        "prompt": "A couple with a baby stroller stands on the boardwalk, dressed in light jackets, watching the dusk water.",
+        "prompt_sha256": "ea5e141cce8315c8954dfeda5e3d6974967e329d774f5cd169c983261c7bce34",
+        "reference_id": "ve__snli_ve_test_0009__source__005",
+        "role": "source",
+        "seed": 985560885169407937
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/006.png",
+        "index": 6,
+        "prompt": "A man and two boys stand on a pier, silhouetted against the fading light over the sea.",
+        "prompt_sha256": "ceef33f0bce1592b2b191a64ba7ae8d21313200de04f7582d0e726e2eb0bd212",
+        "reference_id": "ve__snli_ve_test_0009__source__006",
+        "role": "source",
+        "seed": 818681759155057210
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/007.png",
+        "index": 7,
+        "prompt": "A mother, father, and two children walk on a wooden boardwalk in early evening as lamps begin to glow near the water.",
+        "prompt_sha256": "d5201b42ce62cdb77657b3a229e5ebf168ea39b095e9c04efb144e1d48212bce",
+        "reference_id": "ve__snli_ve_test_0009__source__007",
+        "role": "source",
+        "seed": 428980077992150388
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/008.png",
+        "index": 8,
+        "prompt": "A woman stands with her son and daughter on the boardwalk, all looking toward the horizon at dusk.",
+        "prompt_sha256": "4aea34292b1ab233119bda526ccc01608d9c75ed86c1c38b7cb1846e9e901a58",
+        "reference_id": "ve__snli_ve_test_0009__source__008",
+        "role": "source",
+        "seed": 392423830317569756
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/009.png",
+        "index": 9,
+        "prompt": "An uncle and two nephews stand on a pier at nightfall, the ocean stretching out before them.",
+        "prompt_sha256": "640edbd650d3d7ab07db85ee3090f45cc15ab986118429fdeaef13e579488002",
+        "reference_id": "ve__snli_ve_test_0009__source__009",
+        "role": "source",
+        "seed": 639932168828277814
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/010.png",
+        "index": 10,
+        "prompt": "A stepmother and two stepchildren stand on a wooden boardwalk at dusk, watching the boats on the water.",
+        "prompt_sha256": "2327b18f5af6f288483ed82ed175f6833f56b2240f16c9bc12029d14de8e77a0",
+        "reference_id": "ve__snli_ve_test_0009__source__010",
+        "role": "source",
+        "seed": 513552696268302635
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/011.png",
+        "index": 11,
+        "prompt": "A grandmother and two granddaughters sit together on a pier bench, facing the sunset over the sea.",
+        "prompt_sha256": "e8cdec592ed01a1612b4aaf1c9ce2638c000e74890242e8a7958839e38651870",
+        "reference_id": "ve__snli_ve_test_0009__source__011",
+        "role": "source",
+        "seed": 897898508301866317
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/012.png",
+        "index": 12,
+        "prompt": "A father, mother, and two children stand on a boardwalk, all turned toward the evening ocean.",
+        "prompt_sha256": "c4b23261911e5076a64f4282251b7f65d6b27c649465d5653e8614274babf43d",
+        "reference_id": "ve__snli_ve_test_0009__source__012",
+        "role": "source",
+        "seed": 364544665358326036
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/013.png",
+        "index": 13,
+        "prompt": "Several families, including visible adults and children, stand on a crowded boardwalk at dusk watching the water.",
+        "prompt_sha256": "86ec5cd5ad3cd8b718a2b8fef870b61407b94db92d24c0215e3ccf05f5a6d95d",
+        "reference_id": "ve__snli_ve_test_0009__source__013",
+        "role": "source",
+        "seed": 348687659993459615
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/014.png",
+        "index": 14,
+        "prompt": "A single mother and her two daughters stand on a pier at twilight, looking out at the calm sea.",
+        "prompt_sha256": "55ca68f070604bdd54aefe30723f1d511cb962e4c9cbd73f3854a705ad5f8fe0",
+        "reference_id": "ve__snli_ve_test_0009__source__014",
+        "role": "source",
+        "seed": 823292118236399016
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/015.png",
+        "index": 15,
+        "prompt": "Two parents and their children stand on a wooden walkway at dusk, with a few distant lights in the background.",
+        "prompt_sha256": "3114eecbd04c2172b9bbb9e51ea9b853c97bfd39a80f849d5659627eb23714b3",
+        "reference_id": "ve__snli_ve_test_0009__source__015",
+        "role": "source",
+        "seed": 779438002601879420
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/016.png",
+        "index": 16,
+        "prompt": "A couple and their two children stand on the boardwalk, facing the ocean as the sun sets.",
+        "prompt_sha256": "eb75d125db5632f2426c38e54b100009f6800f03e0c60f9a729fc72291dc52a6",
+        "reference_id": "ve__snli_ve_test_0009__source__016",
+        "role": "source",
+        "seed": 579484215132415939
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/017.png",
+        "index": 17,
+        "prompt": "A family with two children stands on a pier at late evening, the sky deep blue and water reflecting the last light.",
+        "prompt_sha256": "1179ed51d8a8dfd97ac1d84d584b30af7ea906ea134fc4cb7dff82deb274f3bf",
+        "reference_id": "ve__snli_ve_test_0009__source__017",
+        "role": "source",
+        "seed": 464860846683083765
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/018.png",
+        "index": 18,
+        "prompt": "A father and his daughter and son stand on a boardwalk, all gazing at the ocean at dusk.",
+        "prompt_sha256": "d60a1ab43bfaddbb0476ca4f5c71906f0389c72d776daeb9fc2ffff0eaf525bb",
+        "reference_id": "ve__snli_ve_test_0009__source__018",
+        "role": "source",
+        "seed": 195778502500113683
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/source/019.png",
+        "index": 19,
+        "prompt": "A large family group, including adults and children, stands together on a wooden pier at dusk looking out to sea.",
+        "prompt_sha256": "d2893b0c66659d998ca63dcf6397e4bc70855e89a8d15e338e7c5e49de2ff5e1",
+        "reference_id": "ve__snli_ve_test_0009__source__019",
+        "role": "source",
+        "seed": 997585051735695737
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/000.png",
+        "index": 0,
+        "prompt": "A single adult man stands alone on a wooden boardwalk during the day, gazing at the bright blue ocean horizon.",
+        "prompt_sha256": "4cd4544ad1431bae399deb57f8711beb3c1376414b00d2a517aba464341f3598",
+        "reference_id": "ve__snli_ve_test_0009__target__000",
+        "role": "target",
+        "seed": 520502320515104698
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a single adult on a boardwalk, facing the sea under a bright midday sky with no children present.",
+        "prompt_sha256": "6460b9ccc2e7ccf451c1bdd347f1a5b5f65efe380cdbbda95e8d14bb76d5882b",
+        "reference_id": "ve__snli_ve_test_0009__target__001",
+        "role": "target",
+        "seed": 334335288253835443
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/002.png",
+        "index": 2,
+        "prompt": "Wide view of a wooden pier in daylight with one adult standing alone looking out at the waves.",
+        "prompt_sha256": "17ceb85039a655c1179c872eb3b44cc3d5350f8147a482b8a68243b4a04082a5",
+        "reference_id": "ve__snli_ve_test_0009__target__002",
+        "role": "target",
+        "seed": 640788747327560074
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/003.png",
+        "index": 3,
+        "prompt": "A single grandfather leans on the railing of a boardwalk, observing the bright daytime ocean view without any grandchild.",
+        "prompt_sha256": "4db0a8e3f13990fd6a6148d088d5cabd5b9108c1fef78b91531a446c69e518cc",
+        "reference_id": "ve__snli_ve_test_0009__target__003",
+        "role": "target",
+        "seed": 104373211625684333
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/004.png",
+        "index": 4,
+        "prompt": "A single adult man stands alone on a boardwalk by the ocean in daylight, with empty hands and no children, stroller, or other people visible.",
+        "prompt_sha256": "3d0fcdb01483f804cbcdf09c74e45ec430f2ca7b573ea6aae919eadcf165d0ee",
+        "reference_id": "ve__snli_ve_test_0009__target__004",
+        "role": "target",
+        "seed": 912015591560643197
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/005.png",
+        "index": 5,
+        "prompt": "Side angle of a single man on a pier, silhouetted against the bright daylight over the sea, with no boys present.",
+        "prompt_sha256": "07362205df613b999b5e9f2d94e9fa625c5bc7edb387952d35f97bfe78e55384",
+        "reference_id": "ve__snli_ve_test_0009__target__005",
+        "role": "target",
+        "seed": 108172557761074121
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/006.png",
+        "index": 6,
+        "prompt": "A single adult on a wooden walkway at midday, with street lamps off and the sun high in the sky.",
+        "prompt_sha256": "1c0b7d264c5a35d2b9a39d8f6b20c8b896e9e690827316b36eaba4c543d34f76",
+        "reference_id": "ve__snli_ve_test_0009__target__006",
+        "role": "target",
+        "seed": 654759560823777260
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/007.png",
+        "index": 7,
+        "prompt": "Close-up of a lone woman on the boardwalk, looking toward the horizon under a bright daytime sky.",
+        "prompt_sha256": "9541a6519a1dcf097073d8ee04047420b0584ae66237ff66a78472a360165623",
+        "reference_id": "ve__snli_ve_test_0009__target__007",
+        "role": "target",
+        "seed": 617786650337677636
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/008.png",
+        "index": 8,
+        "prompt": "A lone stepmother on a wooden boardwalk at midday, watching the boats on the water without any children.",
+        "prompt_sha256": "3d857bb8ea2b675fa25a2a9fa1e7d097f9b7fd4aeb2e09cd5d66524a168a9513",
+        "reference_id": "ve__snli_ve_test_0009__target__008",
+        "role": "target",
+        "seed": 1080677894657713290
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/009.png",
+        "index": 9,
+        "prompt": "A single grandmother sits on a bench on the pier, facing the bright daytime sea with no granddaughters present.",
+        "prompt_sha256": "3cfcd3d3958fd8f0a35692e4b34fe3898f604c9466ed6a6cfc721109f6e78f87",
+        "reference_id": "ve__snli_ve_test_0009__target__009",
+        "role": "target",
+        "seed": 516713529277703396
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/010.png",
+        "index": 10,
+        "prompt": "Medium shot of a single father on a boardwalk, turned toward the daytime ocean under a clear sky.",
+        "prompt_sha256": "91a60ad18799237850ecf41cec76030779df604dcbd80857861a645cda9681e9",
+        "reference_id": "ve__snli_ve_test_0009__target__010",
+        "role": "target",
+        "seed": 19843310565587307
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/011.png",
+        "index": 11,
+        "prompt": "Wide angle of a quiet boardwalk in daylight, with one adult standing alone and watching the water.",
+        "prompt_sha256": "fe1e04064567e2d3eed48d8604a6547156458c4be9f881fd3e821c4e84c61ad7",
+        "reference_id": "ve__snli_ve_test_0009__target__011",
+        "role": "target",
+        "seed": 652924974137106854
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/012.png",
+        "index": 12,
+        "prompt": "A single adult in casual clothes on a wooden walkway at noon, with a few distant lights in the background.",
+        "prompt_sha256": "629bc360d5696bc21262dd00034f1b22b2097989b3bd79b08376b655c0736fe2",
+        "reference_id": "ve__snli_ve_test_0009__target__012",
+        "role": "target",
+        "seed": 801547510365728286
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/013.png",
+        "index": 13,
+        "prompt": "Side view of a lone man on the boardwalk, facing the ocean under a bright daytime sky with no child.",
+        "prompt_sha256": "654910822e578adfd02ee00806f82c6afc1389405239e46ec2c0bcb1d2ac55da",
+        "reference_id": "ve__snli_ve_test_0009__target__013",
+        "role": "target",
+        "seed": 6769886108996611
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/014.png",
+        "index": 14,
+        "prompt": "A single adult on a pier at midday, the sky bright blue, with the water reflecting the sun.",
+        "prompt_sha256": "c56cde2cb1bcccaac60ad0598cfaa780b31cec237cd7548bf92bba420de36714",
+        "reference_id": "ve__snli_ve_test_0009__target__014",
+        "role": "target",
+        "seed": 57489538248021810
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/015.png",
+        "index": 15,
+        "prompt": "Close shot of a lone father on the boardwalk, gazing at the ocean under a bright daytime sky.",
+        "prompt_sha256": "a5bb56d5e160a894027694e369b0b5970bf2876474fc54bc8cf4ce8471e7ec20",
+        "reference_id": "ve__snli_ve_test_0009__target__015",
+        "role": "target",
+        "seed": 181039733456892461
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/016.png",
+        "index": 16,
+        "prompt": "A single adult on a wooden pier at midday, standing alone and looking out at the sea.",
+        "prompt_sha256": "7f7e01b3e3d4336ac73de934627251940ca38aa4dc4876eab0fa271cddba7ca7",
+        "reference_id": "ve__snli_ve_test_0009__target__016",
+        "role": "target",
+        "seed": 898681380384463182
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/017.png",
+        "index": 17,
+        "prompt": "A single adult man stands alone on a wooden pier during the daytime, looking out at the calm ocean with no children nearby.",
+        "prompt_sha256": "b16915232220c0eba8685fb5f848ff7849f6aff1517e7939e67c54b432b5203b",
+        "reference_id": "ve__snli_ve_test_0009__target__017",
+        "role": "target",
+        "seed": 888270609049894628
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/018.png",
+        "index": 18,
+        "prompt": "Close-up view of one woman standing by the railing on a boardwalk in daylight, gazing at the water with no kids present.",
+        "prompt_sha256": "b736715b0a7442af462e3dc77b127dd4736527dc23fca2b203433dc5d029fcc4",
+        "reference_id": "ve__snli_ve_test_0009__target__018",
+        "role": "target",
+        "seed": 1078303905429451673
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0009/target/019.png",
+        "index": 19,
+        "prompt": "Medium shot of a solitary adult on a wooden walkway near the sea at midday, standing alone with no family members visible.",
+        "prompt_sha256": "e591b3ac70442948614f1963ef3ba1fb8b17a3ba22b9861fd4078c1cca7e490c",
+        "reference_id": "ve__snli_ve_test_0009__target__019",
+        "role": "target",
+        "seed": 206189364439723989
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1089755335.jpg",
+    "original_image_sha256": "871304c3425957f3ecce6684a3a4d508ffd84bd942a84d42ccba0c0b9e50b286",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "8a27821323e338b47116f89ba3e5bf2afd61646362f91272bf8a9cfc479ec56f",
+    "sample_id": "snli_ve_test_0009",
+    "shard": 9,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "During the evening, an adult and kids watch the ocean from the boardwalk.",
+      "premise_caption": "A woman stands with children on a boardwalk at night overlooking the sea.",
+      "source_label": "entailment",
+      "target_label": "contradiction"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0009__source__000": {
+      "job_sha256": "2534bfac6a00204362900c47d9ea6ac19f428cd39d0c7f61b9f286b32bec40f9",
+      "sha256": "f761b6550dffd23a4e2d56059b75711854a7f08772ca56c7c07bf438dc720f97",
+      "bytes": 116852,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.347056+00:00"
+    },
+    "ve__snli_ve_test_0009__source__001": {
+      "job_sha256": "301d457cdd244f9833c20f60f899e99f6b2887890d2c424e5fdcf62f9f655cfb",
+      "sha256": "00cd0fe574c2e7a969f972f841800582eb7d08faa597727b5c5625c5e8c93c35",
+      "bytes": 128382,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.387340+00:00"
+    },
+    "ve__snli_ve_test_0009__source__002": {
+      "job_sha256": "7bcb9226d90071402ce795c79147448b7055501b22c7d3e778490974429d86af",
+      "sha256": "12dd3685b11a02c7fb5815d64b586972cca7c32357e72727788f878ba3473532",
+      "bytes": 123401,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.438656+00:00"
+    },
+    "ve__snli_ve_test_0009__source__003": {
+      "job_sha256": "e3803f74348bb3df4981fff86030796110842f8f19154200ae83d0ae0d65a719",
+      "sha256": "f9ac3a923326da046481162c35dc751bde0c3e29f2f204876433510a884a8886",
+      "bytes": 136753,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.481444+00:00"
+    },
+    "ve__snli_ve_test_0009__source__004": {
+      "job_sha256": "e4757379fb14b86f4af1386f9d0fd035c323d58690660b6f4f7d3128c38e5b38",
+      "sha256": "be3ffd1635a63b1b77991d68d74950a3c512361de5526b1e84a4bbffedb2e040",
+      "bytes": 122695,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.520080+00:00"
+    },
+    "ve__snli_ve_test_0009__source__005": {
+      "job_sha256": "d29dfd2cedb7758242304a7042b48896ed966817d9bc9b057922514cbd193885",
+      "sha256": "db72af656a713e6dbc23e0fea46605c3477fb4454fac7ebb1d056d49b3aaa6b4",
+      "bytes": 138617,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.566764+00:00"
+    },
+    "ve__snli_ve_test_0009__source__006": {
+      "job_sha256": "06e3256f1256ac86e9380bf10265b2cc6e2aa748e3a65f1aa16496c4069785dd",
+      "sha256": "60d2dabd68e95121bf26f50dc5d23dc6aa53a9352e3bb4a7416e2d523cbf134f",
+      "bytes": 121351,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.608641+00:00"
+    },
+    "ve__snli_ve_test_0009__source__007": {
+      "job_sha256": "9b92c7a376c9e28228cc13b7d217912395115b523dc37cb0ce4dcb1a937693e4",
+      "sha256": "676d446c4a6446784741c1e69368330957e2971db71657d0df5a8e66f0d53365",
+      "bytes": 120942,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.649040+00:00"
+    },
+    "ve__snli_ve_test_0009__source__008": {
+      "job_sha256": "3ae4f3fd011a4bf24f12bf4219b6bfee2fce425cfd2c54f7ebc75327da4c22d0",
+      "sha256": "c9d9d76fad7ee315afc2c32fdb5ed41f1e9ab794b700654acdc81a6f971424ca",
+      "bytes": 127023,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.690323+00:00"
+    },
+    "ve__snli_ve_test_0009__source__009": {
+      "job_sha256": "f429de14dc315ba4ed31ee8c936689d7892d9ab7471ec958dce0cdcedd0c3d7e",
+      "sha256": "4f2258b322d0c68c21de1e710644b7053650d8fdfbffa6d16b7453d434de9a6e",
+      "bytes": 149582,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.744846+00:00"
+    },
+    "ve__snli_ve_test_0009__source__010": {
+      "job_sha256": "5ea4f6d96bf2c90cb4ab49caaf1acb97611109edff204ba98d9a857a305cf341",
+      "sha256": "3bc6403362bede4d83a5195edfe73f479ee4af6beaf4a87b6408dd96e0169740",
+      "bytes": 138891,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.778402+00:00"
+    },
+    "ve__snli_ve_test_0009__source__011": {
+      "job_sha256": "5428faf1d09cb23b1a61e0bb95630113cffd79bc7a0e6dfb4425750f7cf9ceae",
+      "sha256": "3cf56797ccb875a6232e2e6cd7e47dbec731d360d22323329dc6a6e0cd08f965",
+      "bytes": 127885,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.817745+00:00"
+    },
+    "ve__snli_ve_test_0009__source__012": {
+      "job_sha256": "addff7f02722a4ca3d2c885d3751f87b8294d851550408f2a698327641400908",
+      "sha256": "90829a2b1993530b9ff226ed8dbe2971e35c77b807e393cb753440885888fdd4",
+      "bytes": 128307,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.857974+00:00"
+    },
+    "ve__snli_ve_test_0009__source__013": {
+      "job_sha256": "5aa0bc6d2e0454cd9302687d44f6482030c9d558d2430615ddc465d80ea06d81",
+      "sha256": "bf1f48d33be1dda80d703ff4e6bc267a60cd46ef5eed46568ee30f6e122485f8",
+      "bytes": 137255,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.902214+00:00"
+    },
+    "ve__snli_ve_test_0009__source__014": {
+      "job_sha256": "4a38397f285e8a8bf62d2acf7b13177fe4f9e12b1744c73da3534df343ee9934",
+      "sha256": "2be6a129ce702201c56891179584148ac7dc0cf1944823c7b4e59923eb07c6d0",
+      "bytes": 117900,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.953101+00:00"
+    },
+    "ve__snli_ve_test_0009__source__015": {
+      "job_sha256": "6130b95d189df7a0080708520a668c48d4cb60bf370a2b94878ba2993aeaaad9",
+      "sha256": "35c70bd1858ad05810bacf8381a2df191b48c843c4fdad306a6b2fa2757f434f",
+      "bytes": 129020,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:55.991709+00:00"
+    },
+    "ve__snli_ve_test_0009__source__016": {
+      "job_sha256": "a93819dcc7a6db85fc8214897847998380077d13fcc1345e6ebe2772e3fca93e",
+      "sha256": "ee0c7a6cb5ec8af1fa8a5765e2065d68ca75f6ac78099a21f3a0d5f300191526",
+      "bytes": 133759,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.032190+00:00"
+    },
+    "ve__snli_ve_test_0009__source__017": {
+      "job_sha256": "07f6ab5cfef9899eeedd1d58796e89ea859273f9424372a7c7b60667cae24877",
+      "sha256": "7d3ca0e39b76401c146d3bd5911f96239b222c61b1a9d7d11eeaa741c8634e04",
+      "bytes": 118038,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.066549+00:00"
+    },
+    "ve__snli_ve_test_0009__source__018": {
+      "job_sha256": "76e188bcc35f25bfde25b2f73f8e6b123b0767b187a09454a4a39b4fdfa713c5",
+      "sha256": "0e57c58b8d49d4c26f67ab62879e227b589d25cf644a395f961b5e4e92f4d046",
+      "bytes": 129108,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.100814+00:00"
+    },
+    "ve__snli_ve_test_0009__source__019": {
+      "job_sha256": "5c0a23493cdc1322d364f3f2f5c065836074491a822e84684fea0c6328c1eea7",
+      "sha256": "53330c698e46cf9921ff62b1fc2950182ce4a1fa573fca2fa0da83291b2d6590",
+      "bytes": 126887,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.140401+00:00"
+    },
+    "ve__snli_ve_test_0009__target__000": {
+      "job_sha256": "dba23d26224aa902bf88843317e317d4f3c8aaff82d0bc79639a76bd308254ed",
+      "sha256": "09b9cbf068c1276aaedb8cd551ed72912ff80d6064197828b16902d96eb78998",
+      "bytes": 127813,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.187526+00:00"
+    },
+    "ve__snli_ve_test_0009__target__001": {
+      "job_sha256": "1cf9906ffc485c6f8f8bc866246588706e8a38b320dd2b6fb2de37b4a0643347",
+      "sha256": "2e1133fcb3dadf1e5df18ab5268809a109934c095f3cdbdc47455a7061b5c8af",
+      "bytes": 109863,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.234080+00:00"
+    },
+    "ve__snli_ve_test_0009__target__002": {
+      "job_sha256": "58b39d28e7ddf13513647464318465854541a889af831e8ec5089746fac4db1f",
+      "sha256": "986c1a5e27d7ae09d2a62f364ee9eb58a586ce629f05214bd1be552705dd273f",
+      "bytes": 121351,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.273668+00:00"
+    },
+    "ve__snli_ve_test_0009__target__003": {
+      "job_sha256": "4415f5c5b5e7d854df675c5aaad8446dea1d836f8ead746418842f8d7be9654d",
+      "sha256": "2a9024c355ed8c305df2c4c45646af7e64463ba974dc4ce0c7531eb2ad7ccce3",
+      "bytes": 128212,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.312144+00:00"
+    },
+    "ve__snli_ve_test_0009__target__004": {
+      "job_sha256": "5f1fd927bd03f4d68f6a23ac3ba9775f39f1cfc0b3ed3f57de6928a2b96c1afc",
+      "sha256": "62722d8a9ea15b7a2cd001306927cd91d7a79fdbb5d4431d44246a00d19e06c6",
+      "bytes": 121876,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.352326+00:00"
+    },
+    "ve__snli_ve_test_0009__target__005": {
+      "job_sha256": "0263e5f04cfb1109fe5f6851e78c4441569709354056208c2e90d15d07961ca7",
+      "sha256": "c324a87155ab3fcb6ab2c9990ed21ad869ad9e2b74a97e01f11f1ef4adef13fe",
+      "bytes": 113549,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.390009+00:00"
+    },
+    "ve__snli_ve_test_0009__target__006": {
+      "job_sha256": "71bbaa9f68be43c97fc443b9e000b1e031d6a74d9cbdf544e15ab508e0935b0f",
+      "sha256": "edab3a0bd69820e6d8b3705a2a1008359f210c14ee9c73f641630c5dc52d23f3",
+      "bytes": 120198,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.426923+00:00"
+    },
+    "ve__snli_ve_test_0009__target__007": {
+      "job_sha256": "e9f6449f6d1ea3d31602d16f52cf0d36284c5eeb7a0b6f4701a94a125a7d73d6",
+      "sha256": "3106c43f24257ea1eb4245ab779f675a50dbb794064b5bed708d5c4ec80f8a16",
+      "bytes": 119121,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.462713+00:00"
+    },
+    "ve__snli_ve_test_0009__target__008": {
+      "job_sha256": "c807890dcc9e1ee747c2122277159641407ad3b9ef83cb4b67d6298c58cda322",
+      "sha256": "5a2088de0d5932c6dfd21e95be17c0824e7b7710cd04f63520f0da0119258063",
+      "bytes": 130611,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.506453+00:00"
+    },
+    "ve__snli_ve_test_0009__target__009": {
+      "job_sha256": "aa9bf049ba68575b67a71955feac5ba1e13af41b7ad253f8014a90e621d79358",
+      "sha256": "c1a637258d0b4dc79cd07505b799a6b6f66425ce9011e0c8c365a5f6644f5078",
+      "bytes": 124258,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.548919+00:00"
+    },
+    "ve__snli_ve_test_0009__target__010": {
+      "job_sha256": "648c4eb34214bcecb96fc347cabe3394756d313b799998cd2c416c5718d04ba2",
+      "sha256": "32b6587438b725db54e0531968f1e96fe4158c761dda8f415a20c34ed72f0467",
+      "bytes": 127512,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.584142+00:00"
+    },
+    "ve__snli_ve_test_0009__target__011": {
+      "job_sha256": "7ddaa5d2cf0dbac6c2d3e197157db1c260aeae919a44e5d4fe70c9d7ef9f4eb9",
+      "sha256": "75c18d4a1899cd95fe48ec21ddf2c5f2bf3203ea971af5a8e7f89875784688ce",
+      "bytes": 108959,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.618313+00:00"
+    },
+    "ve__snli_ve_test_0009__target__012": {
+      "job_sha256": "1790de603d9453d5dff5cd88129d12e0de7084f19d4e8f99cf251350cde612f7",
+      "sha256": "ebbc8b00e20833b2d1b6076b5cb4a4ade7ed61ee17be6b3d8a926b2bf2b537ba",
+      "bytes": 132721,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.663675+00:00"
+    },
+    "ve__snli_ve_test_0009__target__013": {
+      "job_sha256": "7ce9146065d051d1b42abb3e480a689f8b0dfd1febcc817186e760cde74597e4",
+      "sha256": "da7a9f5f62a4573efbd041d77db072a1a460cfb34bf409d2ba2e8a29559c0b6d",
+      "bytes": 101319,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.704374+00:00"
+    },
+    "ve__snli_ve_test_0009__target__014": {
+      "job_sha256": "4100e40200576dab12a55a5b46924fd35a5574b1960636f086252cf78bf3324d",
+      "sha256": "74e3befc3d23a00a9629a020c8bc7c70b22009707e350cd790cf4c1bfd0da06f",
+      "bytes": 132596,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.753480+00:00"
+    },
+    "ve__snli_ve_test_0009__target__015": {
+      "job_sha256": "81795bc41ba98c1d752d0e01fedc54999b96427c72f5e770ec89852c915cbb81",
+      "sha256": "96b76450f920585b6ea1028ae9b51e062d83afcc400a4ed3c581e9a0e02b94d9",
+      "bytes": 122197,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.793678+00:00"
+    },
+    "ve__snli_ve_test_0009__target__016": {
+      "job_sha256": "fe9addcabfe1665e635f9a60a219f39378058214176784fe66324eebbecedcbc",
+      "sha256": "0d21706c9ce76924664d5944a1beb56bde1ccbfa97404f3ad6bfea8dd604b5ac",
+      "bytes": 115918,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.832932+00:00"
+    },
+    "ve__snli_ve_test_0009__target__017": {
+      "job_sha256": "83f0d50aa42ee0882ff7a87a7090c474570c7832a60897b05816d35ae8172520",
+      "sha256": "4c4b9480dd43e8e67ed95b39af1d425c19b0058fccfd6fdba4255ec46e9fa73e",
+      "bytes": 110694,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.869177+00:00"
+    },
+    "ve__snli_ve_test_0009__target__018": {
+      "job_sha256": "0be81b952e1594bf767e6274970aa99a6354b81409f8996f3dae82d0743e8395",
+      "sha256": "1c763ad6f0934b35161fdcfb6e18dca921a518fa7d95f4a22887b545fd46040a",
+      "bytes": 152181,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.914476+00:00"
+    },
+    "ve__snli_ve_test_0009__target__019": {
+      "job_sha256": "9ba9565ffa723d4ddce8c1169ee0bff6d5d79c5dc8dac71bb21cbcb3f5f2a583",
+      "sha256": "ac6b98f1d793897fc273af88a1755bf60cf8c21cfad57c156b29caae7aba6e63",
+      "bytes": 110915,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.017567946575582,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:31:56.955269+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:31:56.955287+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

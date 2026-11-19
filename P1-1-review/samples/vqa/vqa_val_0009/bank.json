@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "732bab1999f4cfd181fb5d66a4e490bc3edce2763fe54978ef0bf2b1762b3bc5",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "2b4ead3190fa049f126a64532403efcfed08b6ef62acd3c61f95fb1742807bbd",
+      "notes": "All source prompts depict yellow corn and all targets yellow pasta. Two target prompts are near-duplicates (yellow elbow pasta), but the core food-category contrast remains correct.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0009/source/000.png",
+        "index": 0,
+        "prompt": "A buffet table with a white bowl of yellow corn kernels and other side dishes, viewed from a slightly elevated angle.",
+        "prompt_sha256": "a372f3c1e788c831f28b834aaef58b200aaa9f5725b9d9d5d86f3b542fc3d54d",
+        "reference_id": "vqa__vqa_val_0009__source__000",
+        "role": "source",
+        "seed": 464001131839156699
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a dining table crowded with bowls, featuring a prominent dish of yellow corn in the center.",
+        "prompt_sha256": "6c432a689b38915c0e7bd3a52668720d52423aab9a485ffd3641e566c3daa531",
+        "reference_id": "vqa__vqa_val_0009__source__001",
+        "role": "source",
+        "seed": 90363171399496653
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a buffet spread where a bowl of bright yellow corn kernels sits next to a salad tray.",
+        "prompt_sha256": "6cf451f0437f2469ec36af54eca60819b846f1c2c536fad167a748de03d5b015",
+        "reference_id": "vqa__vqa_val_0009__source__002",
+        "role": "source",
+        "seed": 1148783122137207124
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/003.png",
+        "index": 3,
+        "prompt": "A potluck table with various ceramic bowls, one containing loose yellow corn kernels, arranged casually on wood.",
+        "prompt_sha256": "85f3b09987c23bd8f8f43af3112f66d07bf151c6373c567c21cab8d611941815",
+        "reference_id": "vqa__vqa_val_0009__source__003",
+        "role": "source",
+        "seed": 298358611904426010
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminating a community meal table with a clear bowl of yellow corn and surrounding casseroles.",
+        "prompt_sha256": "a7c44ed6c5bd0913741b06cc64f8ba98f0413a27e2b7b5e9f7c8f01274014723",
+        "reference_id": "vqa__vqa_val_0009__source__004",
+        "role": "source",
+        "seed": 839615271548628904
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/005.png",
+        "index": 5,
+        "prompt": "Wide crop of a long table set for a meal, showing a bowl of yellow corn among other serving dishes.",
+        "prompt_sha256": "4bc9f66a1b43b68816167f50032fc65749ea0b90f89c2c590fee02f63ef85528",
+        "reference_id": "vqa__vqa_val_0009__source__005",
+        "role": "source",
+        "seed": 470566437542822851
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/006.png",
+        "index": 6,
+        "prompt": "Side angle of a buffet table displaying a white bowl filled with yellow corn kernels and bread rolls.",
+        "prompt_sha256": "0431705d0f00871b83a861e359d5850b318553f020d4f7669a6d2697c22f4a4c",
+        "reference_id": "vqa__vqa_val_0009__source__006",
+        "role": "source",
+        "seed": 254903453149567865
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/007.png",
+        "index": 7,
+        "prompt": "A dining setup with a background of plain walls, featuring a central bowl of yellow corn and green salad.",
+        "prompt_sha256": "f69cee31fdc5fdb19b7f188f3d4766f6273d73bfffb1c5f4fc48f53321950257",
+        "reference_id": "vqa__vqa_val_0009__source__007",
+        "role": "source",
+        "seed": 373039394832730592
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a family dinner table with a bowl of yellow corn kernels and other sides in natural light.",
+        "prompt_sha256": "e9b981fa40a1f1667502ddf134913d2ae35096776c8605fa7b50154da35d4160",
+        "reference_id": "vqa__vqa_val_0009__source__008",
+        "role": "source",
+        "seed": 928450800886929302
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/009.png",
+        "index": 9,
+        "prompt": "Another buffet arrangement with a metal tray of yellow corn kernels and assorted side dishes on a table.",
+        "prompt_sha256": "4cac171cd7b9e1d37f23d16b8f6eb03d2edf509539db55dedcc898685de73dcc",
+        "reference_id": "vqa__vqa_val_0009__source__009",
+        "role": "source",
+        "seed": 727417449211910515
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/010.png",
+        "index": 10,
+        "prompt": "A high-angle shot of a wooden buffet table with a white bowl of yellow corn kernels and a green salad tray.",
+        "prompt_sha256": "c2fa68a7179600dfb36be45ba412997b316b2bf91d353fd26f8a57c88ce2b394",
+        "reference_id": "vqa__vqa_val_0009__source__010",
+        "role": "source",
+        "seed": 608532295191309720
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/011.png",
+        "index": 11,
+        "prompt": "Medium framing of a potluck spread featuring a ceramic bowl of yellow corn kernels surrounded by casseroles.",
+        "prompt_sha256": "4d6e98f6c8e3782fe180f779995dc5db266166c9ad1d84b730d1ffaf06809da1",
+        "reference_id": "vqa__vqa_val_0009__source__011",
+        "role": "source",
+        "seed": 130196410578435653
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/012.png",
+        "index": 12,
+        "prompt": "Close-up view of a white bowl filled with yellow corn kernels on a crowded dining table with side dishes.",
+        "prompt_sha256": "7e3cf64d421f8bda513a3910b8f146377504810f8b3a044798eec79f9bf42c0b",
+        "reference_id": "vqa__vqa_val_0009__source__012",
+        "role": "source",
+        "seed": 771838253601059264
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/013.png",
+        "index": 13,
+        "prompt": "A buffet table with a white bowl of yellow corn kernels positioned slightly to the left of a large salad.",
+        "prompt_sha256": "0ebcc1598e1d52f21b20ae343a8f8b179217d16813e06087f992d411cb52b513",
+        "reference_id": "vqa__vqa_val_0009__source__013",
+        "role": "source",
+        "seed": 459445207892664457
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/014.png",
+        "index": 14,
+        "prompt": "Soft daylight illuminating a community meal table where a white bowl of yellow corn kernels sits among other sides.",
+        "prompt_sha256": "e3bf11856c4a75b689bf948b71f253f4842bcb1251ac717cc9e8d9fb6344a17b",
+        "reference_id": "vqa__vqa_val_0009__source__014",
+        "role": "source",
+        "seed": 924676308467932608
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/015.png",
+        "index": 15,
+        "prompt": "A wide crop of a long dining table set with a bowl of yellow corn kernels and various hot and cold dishes.",
+        "prompt_sha256": "c0c4b0464486ae17e39c71d84979c4e6710732f4737388636a56458c8762d020",
+        "reference_id": "vqa__vqa_val_0009__source__015",
+        "role": "source",
+        "seed": 352696438783461089
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/016.png",
+        "index": 16,
+        "prompt": "Side angle of a buffet table displaying a white bowl of yellow corn kernels next to a tray of bread rolls.",
+        "prompt_sha256": "4b480b58bfbbc18b1cb7f7706478a56421d3bb49e8854aa221017ad9a29226ad",
+        "reference_id": "vqa__vqa_val_0009__source__016",
+        "role": "source",
+        "seed": 1046129375090066203
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/017.png",
+        "index": 17,
+        "prompt": "A dining setup with a background of a brick wall, featuring a white bowl of yellow corn kernels in the foreground.",
+        "prompt_sha256": "184dd31df14fbca12f22964710c5f059104d095531b42ae9fedd7e7713a04654",
+        "reference_id": "vqa__vqa_val_0009__source__017",
+        "role": "source",
+        "seed": 305426478172197720
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/018.png",
+        "index": 18,
+        "prompt": "Candid composition of a potluck spread with a white bowl of yellow corn kernels and a green salad in the center.",
+        "prompt_sha256": "b208d8b91c798393caa1981e73f69b064e93580be1ca2d8d35bb1852b3bad053",
+        "reference_id": "vqa__vqa_val_0009__source__018",
+        "role": "source",
+        "seed": 1120178000403762358
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/source/019.png",
+        "index": 19,
+        "prompt": "Another ordinary instance of a buffet table with a white bowl of yellow corn kernels and a casserole dish nearby.",
+        "prompt_sha256": "d29b5dae8ea533646dcd200a76e845da7e5ec1c31bb60f1ababfcaf79aa70dfd",
+        "reference_id": "vqa__vqa_val_0009__source__019",
+        "role": "source",
+        "seed": 36055320850482265
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/000.png",
+        "index": 0,
+        "prompt": "A buffet table with a white bowl of yellow pasta and other side dishes, viewed from a slightly elevated angle.",
+        "prompt_sha256": "782180983aaca4b78570b6e823ddcf763defa94d13c95d28809aff59e39db26f",
+        "reference_id": "vqa__vqa_val_0009__target__000",
+        "role": "target",
+        "seed": 1031676109393728552
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a dining table crowded with bowls, featuring a prominent dish of yellow pasta in the center.",
+        "prompt_sha256": "f32240cef7b5368c1ee93b2b333988f95ba79402a6188d49770d5ff639d2be2a",
+        "reference_id": "vqa__vqa_val_0009__target__001",
+        "role": "target",
+        "seed": 238976960100905276
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a buffet spread where a bowl of bright yellow pasta sits next to a salad tray.",
+        "prompt_sha256": "5f4064df4724fea74e8d7c25a4274d9335337499dd92d9cfb6a9a7bff961172d",
+        "reference_id": "vqa__vqa_val_0009__target__002",
+        "role": "target",
+        "seed": 398298160382053841
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/003.png",
+        "index": 3,
+        "prompt": "A potluck table with various ceramic bowls, one containing loose yellow pasta, arranged casually on wood.",
+        "prompt_sha256": "8d98a2c20d2465d0a49f54553171a7b06a873f3f5eede8ce018f7e8a9f015e60",
+        "reference_id": "vqa__vqa_val_0009__target__003",
+        "role": "target",
+        "seed": 331042799194078314
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminating a community meal table with a clear bowl of yellow pasta and surrounding casseroles.",
+        "prompt_sha256": "4dce2b7d4474cbe5d371d9a0b7f4e2d7a49f9caeea51caf52575d8547be78cad",
+        "reference_id": "vqa__vqa_val_0009__target__004",
+        "role": "target",
+        "seed": 1129912248780253153
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/005.png",
+        "index": 5,
+        "prompt": "Wide crop of a long table set for a meal, showing a bowl of yellow pasta among other serving dishes.",
+        "prompt_sha256": "9ee7a991887ca94d31c35f4ec4e49dfaf915dd08456c6a56eba5388febb0cb27",
+        "reference_id": "vqa__vqa_val_0009__target__005",
+        "role": "target",
+        "seed": 959511347013400287
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/006.png",
+        "index": 6,
+        "prompt": "Side angle of a buffet table displaying a white bowl filled with yellow pasta and bread rolls.",
+        "prompt_sha256": "b4398cd623c602604f753ba6ae0d9ad1477c8df0a8bbac3e89462bb9903b2115",
+        "reference_id": "vqa__vqa_val_0009__target__006",
+        "role": "target",
+        "seed": 528528452346603459
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/007.png",
+        "index": 7,
+        "prompt": "A dining setup with a background of plain walls, featuring a central bowl of yellow pasta and green salad.",
+        "prompt_sha256": "6dd8bedc5ec6ce2d1027f55cb2296c0e9ba67ef5c18c9560978f890072a519d9",
+        "reference_id": "vqa__vqa_val_0009__target__007",
+        "role": "target",
+        "seed": 612906893803595151
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a family dinner table with a bowl of yellow pasta and other sides in natural light.",
+        "prompt_sha256": "ec863e21ec3aba1091b8f1743a7aeff3ba2c49fa5b95da0275b6ac38036d73a6",
+        "reference_id": "vqa__vqa_val_0009__target__008",
+        "role": "target",
+        "seed": 452873491201018132
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/009.png",
+        "index": 9,
+        "prompt": "Another buffet arrangement with a metal tray of yellow pasta and assorted side dishes on a table.",
+        "prompt_sha256": "93033c5f22151f1b9a80fe27b29bbb687b96314af20a5cf5c1076cf2742334a5",
+        "reference_id": "vqa__vqa_val_0009__target__009",
+        "role": "target",
+        "seed": 501440255929602052
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/010.png",
+        "index": 10,
+        "prompt": "Medium framing of a potluck spread featuring a ceramic bowl of yellow penne pasta surrounded by casseroles.",
+        "prompt_sha256": "6cfd249e673d0b342f26e178754de51bf261cfcdb7cb47f8b8a48e79669c2ea0",
+        "reference_id": "vqa__vqa_val_0009__target__010",
+        "role": "target",
+        "seed": 1015627544049084203
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/011.png",
+        "index": 11,
+        "prompt": "Close-up view of a white bowl filled with yellow elbow pasta on a crowded dining table with side dishes.",
+        "prompt_sha256": "1481963e00e0e1b7777ac526063d74ee5591ec1985f4729f9cb01114d2c2109a",
+        "reference_id": "vqa__vqa_val_0009__target__011",
+        "role": "target",
+        "seed": 112391427469450437
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/012.png",
+        "index": 12,
+        "prompt": "Close-up view of a white bowl filled with yellow pasta on a crowded dining table with side dishes.",
+        "prompt_sha256": "04321a5ce9b3d8b8c1a0fc85f4faee8f65a03435e403c54bd8d6563e6f2646a5",
+        "reference_id": "vqa__vqa_val_0009__target__012",
+        "role": "target",
+        "seed": 38096841332912081
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/013.png",
+        "index": 13,
+        "prompt": "A buffet table with a white bowl of yellow pasta positioned slightly to the left of a large salad.",
+        "prompt_sha256": "4022858b38a455268f18e6c67b41a583284cab6226ac7e5e869686b68f7b5c99",
+        "reference_id": "vqa__vqa_val_0009__target__013",
+        "role": "target",
+        "seed": 180317003808856823
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/014.png",
+        "index": 14,
+        "prompt": "Soft daylight illuminating a community meal table where a white bowl of yellow pasta sits among other sides.",
+        "prompt_sha256": "b05054558f1d8b8b7d714f0bd0cf6f29673d036bad94668a1f53942efca37edc",
+        "reference_id": "vqa__vqa_val_0009__target__014",
+        "role": "target",
+        "seed": 888250037239752848
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/015.png",
+        "index": 15,
+        "prompt": "A wide crop of a long dining table set with a bowl of yellow pasta and various hot and cold dishes.",
+        "prompt_sha256": "40b085e007daae935a4e46257cf5f79448c8407c5e19ac1a45331833e5778a62",
+        "reference_id": "vqa__vqa_val_0009__target__015",
+        "role": "target",
+        "seed": 423348134102306498
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/016.png",
+        "index": 16,
+        "prompt": "Side angle of a buffet table displaying a white bowl of yellow pasta next to a tray of bread rolls.",
+        "prompt_sha256": "11f2a6b922a5d101addedc1c0e16f83073242d289991d5f3118bdfb62466454c",
+        "reference_id": "vqa__vqa_val_0009__target__016",
+        "role": "target",
+        "seed": 1013293316975635513
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/017.png",
+        "index": 17,
+        "prompt": "A dining setup with a background of a brick wall, featuring a white bowl of yellow pasta in the foreground.",
+        "prompt_sha256": "71e8eb6dabcd53f510b7848e57cb1f00a1381b1a2d517dd95babdd5fe4d70499",
+        "reference_id": "vqa__vqa_val_0009__target__017",
+        "role": "target",
+        "seed": 1049283043576111172
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/018.png",
+        "index": 18,
+        "prompt": "A buffet table with a white bowl of yellow macaroni pasta and a green salad in the center.",
+        "prompt_sha256": "5e5b1272ae37682b53d52cfd8acc48bc238d07f7142fc823b83122a4feb7b840",
+        "reference_id": "vqa__vqa_val_0009__target__018",
+        "role": "target",
+        "seed": 942524703484563441
+      },
+      {
+        "image": "samples/vqa/vqa_val_0009/target/019.png",
+        "index": 19,
+        "prompt": "Another ordinary instance of a buffet table with a white bowl of yellow penne pasta and a casserole dish nearby.",
+        "prompt_sha256": "04c4329c9ca6fd5dc058805c077ec623da74b910bd46d707e4d5aca65a003ad8",
+        "reference_id": "vqa__vqa_val_0009__target__019",
+        "role": "target",
+        "seed": 458541061615599035
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000196.jpg",
+    "original_image_sha256": "b3e948b5204edad6d3a340c941e9e300f3a19db555b52833bbcd95adf478bd8f",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "732bab1999f4cfd181fb5d66a4e490bc3edce2763fe54978ef0bf2b1762b3bc5",
+    "sample_id": "vqa_val_0009",
+    "shard": 113,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What is the yellow food?",
+      "source_answer": "corn",
+      "source_answers": [
+        "corn",
+        "corn",
+        "corn",
+        "corn",
+        "corn",
+        "corn",
+        "corn",
+        "corn",
+        "corn",
+        "corn"
+      ],
+      "target_answer": "pasta"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0009__source__000": {
+      "job_sha256": "e0c7945ed87b490c3b6bf46006002f43d0b3b12cc337942f2196d30a08ca2b0a",
+      "sha256": "36f8c466b8698655a0f468ce6cad4305b64285a30f66bc3579386621002d72c3",
+      "bytes": 168449,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.458380+00:00"
+    },
+    "vqa__vqa_val_0009__source__001": {
+      "job_sha256": "d9ba3352f7450164a238378bfedfd568c58d7950d0657c70ca93587fcbe05c43",
+      "sha256": "40befa0e027cd34a69131ca846a2f113e53ca0dae501e93f08d2da0fb24c2824",
+      "bytes": 157844,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.506212+00:00"
+    },
+    "vqa__vqa_val_0009__source__002": {
+      "job_sha256": "d97af3ca76b5e10417eda5daab7287feb6fc2d75c1b17587d88abd1e4dbe680c",
+      "sha256": "997c127185d2ead6a2fdc852eb4d9c953ebe781af5dedb4a2ff344be9a65e3de",
+      "bytes": 178203,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.542879+00:00"
+    },
+    "vqa__vqa_val_0009__source__003": {
+      "job_sha256": "fb1329f569542152b6cabb72cc534b56ede5df7d3cc0034455e24f5c46cabee6",
+      "sha256": "304491a919871dc79a1fc244167e391896dd71cdad50b518e258906b7b3b31f1",
+      "bytes": 168605,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.579458+00:00"
+    },
+    "vqa__vqa_val_0009__source__004": {
+      "job_sha256": "d00ef9a971d2f3c491017833422c089b90f5cca11e6ccd99603785c08d86a3fc",
+      "sha256": "c4140508e046520e0c87d7a063cc0c6d8a9ee3448f3d950e2955a9aa78349cde",
+      "bytes": 168245,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.617031+00:00"
+    },
+    "vqa__vqa_val_0009__source__005": {
+      "job_sha256": "d2a26228471e12755392c04e54c62f018dfd75f89867ad837e8fbf767d8eea47",
+      "sha256": "88cc750acfb6544b2520a6abbaf8cc049ac53814359b6a23bc0250299d8d64a3",
+      "bytes": 144550,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.660068+00:00"
+    },
+    "vqa__vqa_val_0009__source__006": {
+      "job_sha256": "2e8b956a0c1551a84f1d608e4e56039f7081afdc55e8ce8b5a669ce4a827dee5",
+      "sha256": "61fcf28b80de2cf6d5c12a35f3f735696882cef2720a0e217d4852f48f9b65be",
+      "bytes": 151532,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.703739+00:00"
+    },
+    "vqa__vqa_val_0009__source__007": {
+      "job_sha256": "1ddd31e26a39fb97c907c2a31b8e287fe7268b8d4e5489d24d4cf995eb707832",
+      "sha256": "5269c6aa171347e89b6577ce1f7ce1add5a83f78d6b9e948567e8db403df2f7c",
+      "bytes": 106843,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.747782+00:00"
+    },
+    "vqa__vqa_val_0009__source__008": {
+      "job_sha256": "749d977f455e4943cb1893a1b7c0b469299b8866a9d4c121303ff94c2b572676",
+      "sha256": "95ada562ba784d369413d5f9865b78c0a6ca09604cda659d00357209f682cce2",
+      "bytes": 164960,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.791928+00:00"
+    },
+    "vqa__vqa_val_0009__source__009": {
+      "job_sha256": "c17a0b1d91abd33ede72c12e0b09ab4cb5dfbfe397901444cc254a071dfad68a",
+      "sha256": "5b719e07500c434044aa344d973e6749d43fdc6aff1d138a69c327274dc0483b",
+      "bytes": 178717,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.844157+00:00"
+    },
+    "vqa__vqa_val_0009__source__010": {
+      "job_sha256": "c0d7f9078c0d2f833c5ac124be109828f17b0719318b2f4751f575ce2735eb48",
+      "sha256": "7b883964f0b62d47f2637df916315167ddf34f853fc6d6e9d572204f08104167",
+      "bytes": 174042,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.881396+00:00"
+    },
+    "vqa__vqa_val_0009__source__011": {
+      "job_sha256": "5cfd67e10a2d636b68c7bcf7f81e425ce4fd20ab2a6fe41b12ca9e94e5e3d8fc",
+      "sha256": "7a614fc223a97fb666994c8590f43569c6a1bf0c84cdbef24f70d80efdf72419",
+      "bytes": 185435,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.929758+00:00"
+    },
+    "vqa__vqa_val_0009__source__012": {
+      "job_sha256": "0d87880cbbd3e32ef60389c2df0a2c7738bad04322f2ab934864b052cfae4c15",
+      "sha256": "75b4c8a468968d3e280e712f26bb2b4de5280b4993e4cdc594a4fbfe674541f5",
+      "bytes": 151413,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:32.984042+00:00"
+    },
+    "vqa__vqa_val_0009__source__013": {
+      "job_sha256": "7384b9232d4c95b90d3a5a44fe95dd329edf208530d53503335aa9a210ba2509",
+      "sha256": "08cf0774c50a2a50774109fdbed27c826ede46845e24354def5ff58bc914328f",
+      "bytes": 144991,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.023708+00:00"
+    },
+    "vqa__vqa_val_0009__source__014": {
+      "job_sha256": "e61455f2b4e215b63a6560aa02fabb3c42b3178d876a84d30e94a53d0b403084",
+      "sha256": "d102cd738b4fca6dccc82fd2d1d46a13fb273abc0cc1e63e481334b22fdd9d6f",
+      "bytes": 144154,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.062004+00:00"
+    },
+    "vqa__vqa_val_0009__source__015": {
+      "job_sha256": "3d6ac41a44b67280c176315c98657080196e2714dff90f934c6ed9e361d172bd",
+      "sha256": "b7ce0bb46a470c18b0275a16b81ff2f40c284e3e39e0a83f19948f9b0d3bbad9",
+      "bytes": 149131,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.107974+00:00"
+    },
+    "vqa__vqa_val_0009__source__016": {
+      "job_sha256": "2fc3ad6a38f66c46b43bcb4ecb6f1e0a3035cb4c31a90f1e5add2477c58ce373",
+      "sha256": "8efa47e3ee6fc7b8d8f0775c4107c9f111cb396cda257db9c0c9426b9d8f4deb",
+      "bytes": 151769,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.149546+00:00"
+    },
+    "vqa__vqa_val_0009__source__017": {
+      "job_sha256": "880170339c23e9b4ca76d3ba63f34a6124932790e13c0a75f19e8daf57a2511b",
+      "sha256": "e4cceb0d2bf14db474f41abbd3f9683bb7e792b9729ed34d155024d10a2f0b6e",
+      "bytes": 136622,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.191517+00:00"
+    },
+    "vqa__vqa_val_0009__source__018": {
+      "job_sha256": "f8b36db4a116d74322bb0af00a1e820bdf19f1054a6ea743b8f88cf3d861446a",
+      "sha256": "8082da6f05db36f717d6a3901d39c7333162697f82200892095ec637ecc1278f",
+      "bytes": 168444,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.243403+00:00"
+    },
+    "vqa__vqa_val_0009__source__019": {
+      "job_sha256": "06d19ee686c13d2c119400db3a0ffab259862e7ce76636b8fb6376f317d888df",
+      "sha256": "0a5e53539b6d3f0ceb2b51c7ccf1110c2ad4d8d35fad845ac4b3411f98d30c8c",
+      "bytes": 157330,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.288452+00:00"
+    },
+    "vqa__vqa_val_0009__target__000": {
+      "job_sha256": "960a0167c7e5446ef47ed38f8a794eba15bf1b1ce96d676aa55f319c19b0adb2",
+      "sha256": "228b1dd84b7b5cde3c95293fb1a6ed15ffc856a0b4cbeb6233cb5c0530cce520",
+      "bytes": 150741,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.347708+00:00"
+    },
+    "vqa__vqa_val_0009__target__001": {
+      "job_sha256": "2bdc786a1f12a9751c8d8124b5376cbf07d6867757da8374c8a8f2593b90db63",
+      "sha256": "e1b75144a569b96ccdcd6ec9e4c46bbd89df280b5a633d8b3c3d209da6f200a7",
+      "bytes": 145901,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.390986+00:00"
+    },
+    "vqa__vqa_val_0009__target__002": {
+      "job_sha256": "2a9580b585e6fadb7566de9b36e45d74f1947bf9873dd2b40342af79e0f934aa",
+      "sha256": "500eb15915cad8cc8def1e1dfd78cae4c782a45c62aae28c4979e5f87f4c149a",
+      "bytes": 157981,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.437315+00:00"
+    },
+    "vqa__vqa_val_0009__target__003": {
+      "job_sha256": "4c7a6154f96e3080973ef15abd467ccd78dbc42e79fd59dc1a8428a03437399c",
+      "sha256": "7f21b191e78b525b56cb8a94d67875fb3b812a32ef0f3da84a415d90e19e58c1",
+      "bytes": 164299,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.490046+00:00"
+    },
+    "vqa__vqa_val_0009__target__004": {
+      "job_sha256": "cb0d7186e34b6d9068a7e5d351a2d0df18a73369b77e07ed929286b727ddb0f7",
+      "sha256": "0811171085d7ecb2bf8d1d1871c6b742422608bd288f411c56aa744e2c77094b",
+      "bytes": 164908,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.540342+00:00"
+    },
+    "vqa__vqa_val_0009__target__005": {
+      "job_sha256": "24aa879f6be021751e31beccd2f078f4fed25b15cddd261af4b99ed75dc82b06",
+      "sha256": "f1b45045b90a6604357e049b5deb92cb2cbf5719e630a8774624ac8bdf633902",
+      "bytes": 136678,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.578052+00:00"
+    },
+    "vqa__vqa_val_0009__target__006": {
+      "job_sha256": "34f9b99a8ad2ae2ad3f88bc62b4b252fb56eec8d7aabc2fca567a7b52850e9df",
+      "sha256": "ecaa71c5d3ac794c55c2956e7ee9a83f6d28acae2379d48b025fcc8562efbd9b",
+      "bytes": 141764,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.622023+00:00"
+    },
+    "vqa__vqa_val_0009__target__007": {
+      "job_sha256": "fcdb2f18bbc8a0b75e113aa86ade69f3fba11efa902bb952c729fe8be8cd1785",
+      "sha256": "fe5a40176a31d2f3d01a6c9ccbc402384780ee9c42f75dc7031b03a249f8a42c",
+      "bytes": 122087,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.664602+00:00"
+    },
+    "vqa__vqa_val_0009__target__008": {
+      "job_sha256": "5363cbd94223ccb44ebfdd4d6d76b8f117aac877edb4097c20ccdb02b18e01ed",
+      "sha256": "5a39f61ef0027f5366ef475b3b0c20eb46aaf58ffaa4a17494023ac88299f02d",
+      "bytes": 152322,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.724461+00:00"
+    },
+    "vqa__vqa_val_0009__target__009": {
+      "job_sha256": "598904e148508c1164862563c285770abd8582905f4305bba10bf46ff8f447ec",
+      "sha256": "787bfcf9012848a0bf886113573dc8086dec341cbcd6248796f0cd453d1db66b",
+      "bytes": 177607,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.769044+00:00"
+    },
+    "vqa__vqa_val_0009__target__010": {
+      "job_sha256": "b98729ad8cb6d198278a232b09777cfe0e1972d626f2fcb9777daf58e378eca8",
+      "sha256": "296f9943e8e8195084aa1b713eda5db06668edcedccecf038571c288d82e3140",
+      "bytes": 181708,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.807395+00:00"
+    },
+    "vqa__vqa_val_0009__target__011": {
+      "job_sha256": "0ff5555fa5dd96240aea07c97ed57771e412fea7bd33d0f9f97491fb3ace5571",
+      "sha256": "b08d6a718de9466ecd526c5344905612b818aeb9fa916109ec13769f1a18d471",
+      "bytes": 153732,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.852800+00:00"
+    },
+    "vqa__vqa_val_0009__target__012": {
+      "job_sha256": "56ef0a6a8bc614d0fb3d64ef6e8b34e221250f99d94aa44f5a0e3e697f865077",
+      "sha256": "ab2e052476c20874900b61bcb30c85ebf5a26d567f59543fb740e7f5a65d4376",
+      "bytes": 140523,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.896538+00:00"
+    },
+    "vqa__vqa_val_0009__target__013": {
+      "job_sha256": "bbfd0b5a75c763d2db8e831b71c77c67f55094071f3df3555f8b0c3638a9ccee",
+      "sha256": "a31ff0953bccc7ec4864125fc72c755eb3730102c2271c66a4e86e3b6bc4afad",
+      "bytes": 154920,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.939049+00:00"
+    },
+    "vqa__vqa_val_0009__target__014": {
+      "job_sha256": "d875ab316d7f7b9cfe50ec2d9450f678eef6ad1624ba6008624a29fa17fd2ef3",
+      "sha256": "2f76bb9de9f283aa6f651c9258e03a154a5e6460f16691412eb5f12ef5707658",
+      "bytes": 153004,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:33.993027+00:00"
+    },
+    "vqa__vqa_val_0009__target__015": {
+      "job_sha256": "f3677db758e0344335bca97b25a5a61224a418b021242e4401fe9eac47d27a1f",
+      "sha256": "49d67537725c3d13b96dab0b316d9820ca7dd5ff5f1fb2a038d234e5203c4d88",
+      "bytes": 149016,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:34.039241+00:00"
+    },
+    "vqa__vqa_val_0009__target__016": {
+      "job_sha256": "bd33c002ef59020d762f92b8ad1c4ec08171fea5ec9c461b8d3167cb31e6edb7",
+      "sha256": "799cdd34a748e3cf3c9fb529db6f18eb60cdc3c27b83a2d8c3058e25e3811e6a",
+      "bytes": 146288,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:34.081057+00:00"
+    },
+    "vqa__vqa_val_0009__target__017": {
+      "job_sha256": "47448848efe3a3bf1461e9058514b9f28baf041d6da58b6c8a8e37cbb20100bc",
+      "sha256": "d29dcb05568d5f5bf4685aa28228f4c312e9f82ae764512c44079d636b374629",
+      "bytes": 122689,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:34.123204+00:00"
+    },
+    "vqa__vqa_val_0009__target__018": {
+      "job_sha256": "702902053d1d09d539f5e6fd1bc3a70c8111054c411a8a41522bd7043f85c85a",
+      "sha256": "eebeef7d973865e8ce432a0301f0f2f4615e9b646393479277ab0bfd290d7712",
+      "bytes": 169335,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:34.182624+00:00"
+    },
+    "vqa__vqa_val_0009__target__019": {
+      "job_sha256": "e72dfba7e904f0041d74d9c463faded8c4ab9d8fe671039124e13d1f51026436",
+      "sha256": "bb80599c5f586af50e60e1f5013a21c603a5aebdccc5cf465e0b8b5a572537c7",
+      "bytes": 160045,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.301363584585488,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T22:01:34.226861+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:01:34.226883+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

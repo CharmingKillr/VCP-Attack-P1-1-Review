@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "2e8e74c2e3972723a3e1fa1416e3a69716c36442ceab16bd85630ed373d94fb5",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "703376d0b0a3d409ca0adb64c40dcc91024a72fb8725bbfd8d5e299ddc58ea50",
+      "notes": "Source depicts an elderly/adult man smelling or inspecting flowers, contradicting “A little boy is smelling flowers.” Original target also explicitly described older/adult men, so remained contradiction-like. Replaced all target prompts with people bending toward/looking at flowers while face and age remain indeterminate, leaving the hypothesis unresolved (neutral).",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/000.png",
+        "index": 0,
+        "prompt": "An elderly man in a beige jacket bends to smell a rose bush while a younger man in blue watches nearby.",
+        "prompt_sha256": "c12af64e5c5d678cfa2416917e7e69d6c1e7a8594d21d4568437996419391633",
+        "reference_id": "ve__snli_ve_test_0008__source__000",
+        "role": "source",
+        "seed": 765623238043146829
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/001.png",
+        "index": 1,
+        "prompt": "A middle-aged man crouches to inspect a low hedge, with a second man standing behind him observing the scene.",
+        "prompt_sha256": "4b03a9d60edc3cce18235db3eccb73f3a7f90543b74dad2d3e9044ebc99a3380",
+        "reference_id": "ve__snli_ve_test_0008__source__001",
+        "role": "source",
+        "seed": 477059828882787175
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of two adult men in a garden; one leans over a flowering shrub, the other stands with hands in pockets.",
+        "prompt_sha256": "7a5622519d4657d46e495db1552e11a75f538462084e272ea66e987e7ecb4dd8",
+        "reference_id": "ve__snli_ve_test_0008__source__002",
+        "role": "source",
+        "seed": 891316924527997456
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of a park path where an older man examines a bush and a younger man looks on from a few feet away.",
+        "prompt_sha256": "8ce2725b1486d9dd45f7afe9a2400f8c833ce23f0dbcbf46f7ecd516317e88a0",
+        "reference_id": "ve__snli_ve_test_0008__source__003",
+        "role": "source",
+        "seed": 449666208262272440
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/004.png",
+        "index": 4,
+        "prompt": "Candid photo of a senior man sniffing a flower while a companion in a grey hoodie stands beside him.",
+        "prompt_sha256": "0bf09078008bebea40d167bda7788cdcf4efe239064187fca4f804679c24f9d8",
+        "reference_id": "ve__snli_ve_test_0008__source__004",
+        "role": "source",
+        "seed": 367803014839062044
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/005.png",
+        "index": 5,
+        "prompt": "Two men in a backyard garden; one wears a red shirt and bends to a plant, the other in a green jacket watches.",
+        "prompt_sha256": "60d6eaaeb172653883a32bf5318e277c984b214ba3040c6d25f9f97c733cb59f",
+        "reference_id": "ve__snli_ve_test_0008__source__005",
+        "role": "source",
+        "seed": 778560937031323967
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/006.png",
+        "index": 6,
+        "prompt": "Side angle of an adult man leaning into a bush, with another man standing to the side, both in casual wear.",
+        "prompt_sha256": "cf294922d94545ec9c537a4cf4abe80bab84fe57d8e79a24162a2f904f6dfbf6",
+        "reference_id": "ve__snli_ve_test_0008__source__006",
+        "role": "source",
+        "seed": 434943070495288962
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/007.png",
+        "index": 7,
+        "prompt": "Sunlit garden scene where an elderly man bends to smell a flower, a younger man stands nearby in soft light.",
+        "prompt_sha256": "9b6a8bf95b81a6b1ca839c917792d169b04db8a466eea1cc56ad00a6d96d8103",
+        "reference_id": "ve__snli_ve_test_0008__source__007",
+        "role": "source",
+        "seed": 401172890025807308
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/008.png",
+        "index": 8,
+        "prompt": "Close-up view of two men near a hedge; one is bent over smelling a bloom, the other stands upright.",
+        "prompt_sha256": "796560cfffdd87cfc52d7f3aeaa78372fad78ffddaf7890bba75dfe78fd5ff04",
+        "reference_id": "ve__snli_ve_test_0008__source__008",
+        "role": "source",
+        "seed": 152280429080088243
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/009.png",
+        "index": 9,
+        "prompt": "Ordinary garden scene with an older man inspecting a shrub and a younger man standing close, both in outdoor clothes.",
+        "prompt_sha256": "857ab5e403f693f3fbaa20da6474141e910b1374fd981923117658663fad3381",
+        "reference_id": "ve__snli_ve_test_0008__source__009",
+        "role": "source",
+        "seed": 944689697104177663
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/010.png",
+        "index": 10,
+        "prompt": "A different elderly man in a brown coat bends to smell a daisy, while a man in a navy shirt observes.",
+        "prompt_sha256": "275a812f50631aab833e4320aa6da51ff6507ce2dbccb363ed53ae287cb69b0b",
+        "reference_id": "ve__snli_ve_test_0008__source__010",
+        "role": "source",
+        "seed": 971025470228195408
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/011.png",
+        "index": 11,
+        "prompt": "Viewpoint from behind shows an adult man bending to a flower bed, with another man standing to his left.",
+        "prompt_sha256": "b38811816d0807507f97f94431562fb8c337e3c3f0a463139ae6eb7ab865eddc",
+        "reference_id": "ve__snli_ve_test_0008__source__011",
+        "role": "source",
+        "seed": 869229004405789384
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/012.png",
+        "index": 12,
+        "prompt": "Medium shot capturing two men in a park; one is bent over a bush, the other stands facing the camera.",
+        "prompt_sha256": "037eb7196df3fb74d1e750a38042a110f1d8cb62a1875f3de09194412370f5a6",
+        "reference_id": "ve__snli_ve_test_0008__source__012",
+        "role": "source",
+        "seed": 782172960302618096
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/013.png",
+        "index": 13,
+        "prompt": "Slightly wider frame of a garden path where an older man smells a flower and a younger man watches from afar.",
+        "prompt_sha256": "9dfc90198b4be228a86237b2d87eede6f98ce36ebc1186b78ad082203f03c3ee",
+        "reference_id": "ve__snli_ve_test_0008__source__013",
+        "role": "source",
+        "seed": 1148525372679527552
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/014.png",
+        "index": 14,
+        "prompt": "Candid moment of a man in a plaid shirt bending to a plant, with a friend in a t-shirt standing nearby.",
+        "prompt_sha256": "87dc4022d573cdd32de392604f6a430f1cb16f2fcf680818d5b42a46470004fc",
+        "reference_id": "ve__snli_ve_test_0008__source__014",
+        "role": "source",
+        "seed": 140963360995384314
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/015.png",
+        "index": 15,
+        "prompt": "Two men in a garden; one wears a yellow shirt and bends to a bush, the other in a black jacket looks on.",
+        "prompt_sha256": "b6e6fbc1d01478399d6ed53ed474037ac3e87745651ad1ba9e89d03608561e10",
+        "reference_id": "ve__snli_ve_test_0008__source__015",
+        "role": "source",
+        "seed": 160740177778432140
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/016.png",
+        "index": 16,
+        "prompt": "Side profile of an adult man leaning into a hedge, with a second man standing parallel to him in the background.",
+        "prompt_sha256": "978570a670fb8c9a124520891a3ead16d0d86607523eec5e0cab718b97890d6e",
+        "reference_id": "ve__snli_ve_test_0008__source__016",
+        "role": "source",
+        "seed": 1093475045793037535
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/017.png",
+        "index": 17,
+        "prompt": "Overcast lighting in a garden where an elderly man bends to smell a flower, a younger man stands beside him.",
+        "prompt_sha256": "cbad5fd082945ead94902337297c8219433d00c6d04b4019c274bb85e6ff8acd",
+        "reference_id": "ve__snli_ve_test_0008__source__017",
+        "role": "source",
+        "seed": 1115179730169309657
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/018.png",
+        "index": 18,
+        "prompt": "Familiar composition with two men near a shrub; one is bent over, the other stands close, captured from a moderate distance.",
+        "prompt_sha256": "f649aef4434b09fe9a8881b685ee36c26b4b48efdae863f09c8adf33a0a289da",
+        "reference_id": "ve__snli_ve_test_0008__source__018",
+        "role": "source",
+        "seed": 91630811609681968
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/source/019.png",
+        "index": 19,
+        "prompt": "Another garden scene with an older man in a grey jacket smelling a flower, while a man in a blue shirt watches.",
+        "prompt_sha256": "f31699fe88a7e35a3a7468fe06cee2e129ad9c050ef795a8572cd732f8dd0ede",
+        "reference_id": "ve__snli_ve_test_0008__source__019",
+        "role": "source",
+        "seed": 921175497418547955
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/000.png",
+        "index": 0,
+        "prompt": "A person leans toward a rose in a garden as if smelling it, seen from behind so age and facial details are not discernible.",
+        "prompt_sha256": "2a15740122a2c5101dbf369fad87a058a51ad18807cbd0812aa7fb66fe172805",
+        "reference_id": "ve__snli_ve_test_0008__target__000",
+        "role": "target",
+        "seed": 474832730740596548
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/001.png",
+        "index": 1,
+        "prompt": "A figure bends near a low hedge of flowers; foliage obscures the face and the image gives no clear age cues.",
+        "prompt_sha256": "86f6406ad38a9d5722b302b5309b968164e39f0c59908052c2e4f9442ad20e32",
+        "reference_id": "ve__snli_ve_test_0008__target__001",
+        "role": "target",
+        "seed": 320607385380493338
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/002.png",
+        "index": 2,
+        "prompt": "Medium view of someone leaning toward a blossom on a park path, with the person partly hidden by a flowering shrub.",
+        "prompt_sha256": "9c0f6e0334c7d7d1f41fb2675f99dba51d438e460e79959fa2979daed07e9f70",
+        "reference_id": "ve__snli_ve_test_0008__target__002",
+        "role": "target",
+        "seed": 778478036414356288
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/003.png",
+        "index": 3,
+        "prompt": "A person pauses close to a flower bed in soft light, face turned away and height difficult to judge from the framing.",
+        "prompt_sha256": "720f378d04ecdab124e8b7ac20d0b9219793b8ae2f4231f00248566f6637c05c",
+        "reference_id": "ve__snli_ve_test_0008__target__003",
+        "role": "target",
+        "seed": 356566574909317231
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/004.png",
+        "index": 4,
+        "prompt": "A figure bends toward a daisy in a garden, photographed from a distance with facial features and age unclear.",
+        "prompt_sha256": "272535fc21d908026cb3a813762e503e43b45f21de993fddb651014eab80f4b5",
+        "reference_id": "ve__snli_ve_test_0008__target__004",
+        "role": "target",
+        "seed": 231588196184441296
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/005.png",
+        "index": 5,
+        "prompt": "Side view of someone near a flowering hedge, the face outside the frame and the body partly obscured by leaves.",
+        "prompt_sha256": "47b5a2f4b5a7eec8729e729e1d981aa4ae07e8a9578b2f25a9152313c7b4a298",
+        "reference_id": "ve__snli_ve_test_0008__target__005",
+        "role": "target",
+        "seed": 16312434931273766
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/006.png",
+        "index": 6,
+        "prompt": "A person leans toward a bloom beside a garden path; the image shows the gesture but not enough detail to tell the person’s age.",
+        "prompt_sha256": "6896cf43d0d3f902f89704b91e78a952a10eff1fdaec869efa9499e3e99ab038",
+        "reference_id": "ve__snli_ve_test_0008__target__006",
+        "role": "target",
+        "seed": 661442764313741905
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/007.png",
+        "index": 7,
+        "prompt": "A partly obscured figure stands close to a rose bush in a park, with the face hidden among the leaves.",
+        "prompt_sha256": "8c9f1960163f0122feef536b9a0bc3457cdb45a790114b7a9aa6aa89d7e7eb17",
+        "reference_id": "ve__snli_ve_test_0008__target__007",
+        "role": "target",
+        "seed": 16610920717189601
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/008.png",
+        "index": 8,
+        "prompt": "A person appears to smell flowers in a garden, viewed from behind at a distance with no visible age-defining details.",
+        "prompt_sha256": "b43e73c07e7389da380434755747b805666e2b5d37deee8afebf048ea5f59cf7",
+        "reference_id": "ve__snli_ve_test_0008__target__008",
+        "role": "target",
+        "seed": 905621824914156825
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/009.png",
+        "index": 9,
+        "prompt": "A figure bends near a shrub in a backyard, mostly screened by branches so age cannot be determined.",
+        "prompt_sha256": "67ad385997c7859a3835c36f4436d6fbe77705ef3676d0d4027c91638b0a13fd",
+        "reference_id": "ve__snli_ve_test_0008__target__009",
+        "role": "target",
+        "seed": 762238023355489325
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/010.png",
+        "index": 10,
+        "prompt": "A person in a garden reaches toward a flower, with the head turned away and facial details hidden.",
+        "prompt_sha256": "912aa986c69dcd5cceba866daf9ff18741c91821cab7f05b8942f8c62eca5e21",
+        "reference_id": "ve__snli_ve_test_0008__target__010",
+        "role": "target",
+        "seed": 172568725928702704
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/011.png",
+        "index": 11,
+        "prompt": "A distant figure leans toward flowers along a park walkway; the framing leaves age and identity indeterminate.",
+        "prompt_sha256": "e66e4281d77a0bd5099ba79a99ca7a448818e0e15b78a4bc2b2004281f785a1e",
+        "reference_id": "ve__snli_ve_test_0008__target__011",
+        "role": "target",
+        "seed": 268306609799822509
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/012.png",
+        "index": 12,
+        "prompt": "A person pauses near a flower bed and bends toward a blossom, photographed in silhouette against bright greenery.",
+        "prompt_sha256": "b22586091db53320ab0215a3687117caa782e8e46e4aec7f2d6d4cc1a4a596d0",
+        "reference_id": "ve__snli_ve_test_0008__target__012",
+        "role": "target",
+        "seed": 48202562694288415
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/013.png",
+        "index": 13,
+        "prompt": "A figure is partly concealed by a hedge while leaning close to a flower; the scene does not make the person’s age apparent.",
+        "prompt_sha256": "f9f4aa1418982adbdc762f5232f3dc5eecab4d40f34ef60c2d59b5f5bc907eb5",
+        "reference_id": "ve__snli_ve_test_0008__target__013",
+        "role": "target",
+        "seed": 756011859906277984
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/014.png",
+        "index": 14,
+        "prompt": "A person bends toward a daisy in a garden, cropped at the shoulders so facial and age cues are absent.",
+        "prompt_sha256": "b114d07c54b489b06b7b403cd78db24d76aa747bc23c731430f0a45ee19a8856",
+        "reference_id": "ve__snli_ve_test_0008__target__014",
+        "role": "target",
+        "seed": 56597293073341618
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/015.png",
+        "index": 15,
+        "prompt": "A garden scene shows someone near a flowering plant from behind, with the person’s face and age not visible.",
+        "prompt_sha256": "2c0d85f66f1f818a27e3ef3b577fc9e317ad93fe0405c2bd0b35352b3d7024cd",
+        "reference_id": "ve__snli_ve_test_0008__target__015",
+        "role": "target",
+        "seed": 935330583523889728
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/016.png",
+        "index": 16,
+        "prompt": "A figure leans toward blooms beside a path, partly hidden by foreground leaves and shown at an indistinct distance.",
+        "prompt_sha256": "cfe029c12f6aab09449f8052c7bf499d8ec734e16f0050c1f6673f82328dafac",
+        "reference_id": "ve__snli_ve_test_0008__target__016",
+        "role": "target",
+        "seed": 746806461636432106
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/017.png",
+        "index": 17,
+        "prompt": "A person appears to smell a flower near a garden gate, but the face is turned away and age is visually unclear.",
+        "prompt_sha256": "f24754c81aa00d35f0adc4c9f38d3e38809b6af40fde3520f5ef306906755705",
+        "reference_id": "ve__snli_ve_test_0008__target__017",
+        "role": "target",
+        "seed": 1140189821747309414
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/018.png",
+        "index": 18,
+        "prompt": "A softly focused figure bends near a rose bed; the framing reveals the flower gesture without identifying age.",
+        "prompt_sha256": "aa75c7a14b6b4ef838de6f0179d27c75310a5829c5c8e45ed3c13b54a7f46b13",
+        "reference_id": "ve__snli_ve_test_0008__target__018",
+        "role": "target",
+        "seed": 621523881698871529
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0008/target/019.png",
+        "index": 19,
+        "prompt": "A person stands close to flowers in a park and leans toward them, with facial features obscured by angle and foliage.",
+        "prompt_sha256": "23f9c5a9f8010bde8d0a9306c7f001dc36b43c53e4b89e8f0ecadf00f2a54802",
+        "reference_id": "ve__snli_ve_test_0008__target__019",
+        "role": "target",
+        "seed": 782814966620006061
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1066831905.jpg",
+    "original_image_sha256": "47a777dede8649a98db76ab075750ab1de4ed7da78392432ffb99f1bff397fe0",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "2e8e74c2e3972723a3e1fa1416e3a69716c36442ceab16bd85630ed373d94fb5",
+    "sample_id": "snli_ve_test_0008",
+    "shard": 8,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "A little boy is smelling flowers.",
+      "premise_caption": "Elderly man with cane bends down to look at some plants and is steadied from behind.",
+      "source_label": "contradiction",
+      "target_label": "neutral"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0008__source__000": {
+      "job_sha256": "b5999c965707f8fb37ebf07423ff576d3d8b8ac6bb257dd7673f8d031416eb83",
+      "sha256": "2fe2fe2c4fc6641e2de8582e2ad68932f342efbec6fdd4facb1f249a9be2a478",
+      "bytes": 180075,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.003213+00:00"
+    },
+    "ve__snli_ve_test_0008__source__001": {
+      "job_sha256": "a0da51c347aedd13bd745abea90b772ae065711ac4b8a24d4eedb9a0d53d2a44",
+      "sha256": "f4941331a33dae3f44019450cfd9f3da9bb72bde90217e3cc0246d94f12bb661",
+      "bytes": 175309,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.044543+00:00"
+    },
+    "ve__snli_ve_test_0008__source__002": {
+      "job_sha256": "332d47b05fab485b21790db94fa5cc1140e830f2055b93cedb5cfc97a8a37869",
+      "sha256": "6cc53524e80cabcf5641595c8873820b92dc9844b210c7a77287ad618b692456",
+      "bytes": 181703,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.090760+00:00"
+    },
+    "ve__snli_ve_test_0008__source__003": {
+      "job_sha256": "4b8510df376a397655732bfcd30a6da0978c6562324aa2f6672fceb91f6d2f1c",
+      "sha256": "f40bd57e6484afbe08078da4d74ff16b68efd45774e34170ee6c7ff9896613f0",
+      "bytes": 193737,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.134062+00:00"
+    },
+    "ve__snli_ve_test_0008__source__004": {
+      "job_sha256": "07f9963ca6240a9ef555556dbd10464f05f564db3b7bb2d1616c6336fb2ce460",
+      "sha256": "802de1de2789eb585670f6a4695a7bbd540b6497de373607409cddde569955eb",
+      "bytes": 163328,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.174445+00:00"
+    },
+    "ve__snli_ve_test_0008__source__005": {
+      "job_sha256": "db722fb984a4cfbda5e2af7b88105bc29a3d61a46a25a762bc4a9ea3794f4197",
+      "sha256": "1cc3b3234e6bd99f84c3aade4864bd09874b0b5d3286316fbd4452b3d7808daa",
+      "bytes": 189357,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.218656+00:00"
+    },
+    "ve__snli_ve_test_0008__source__006": {
+      "job_sha256": "bad67da18682b1f573c806c17be159a37a8faff0ba5e4f267ed8e3f6007327ca",
+      "sha256": "5d10dfa347ff5aa71015c39a80ac87e4ab9f14e324a4ba8720252ecddba5b990",
+      "bytes": 194638,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.262224+00:00"
+    },
+    "ve__snli_ve_test_0008__source__007": {
+      "job_sha256": "036f65890e4420452d95fe682cc611c077c6031b64e82721e1f797e8a688d9c0",
+      "sha256": "6086f91ca96342f0d201b3fce62e71a5e30f86bd6dc1e7fca179183eda866f20",
+      "bytes": 189610,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.300013+00:00"
+    },
+    "ve__snli_ve_test_0008__source__008": {
+      "job_sha256": "6a476a757f6ebd6f1930665ca18714841df29aa8abd9c1cfe998c91a71199b0b",
+      "sha256": "a006ae7f9e583f97dab4fff3930084cb7a0bd375c878bff934b46c6cd9091b99",
+      "bytes": 171992,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.344137+00:00"
+    },
+    "ve__snli_ve_test_0008__source__009": {
+      "job_sha256": "29a851542b58b32f5252324ae2ff8ba0cf23d9d1adfcf92d63621c5d8352ca8c",
+      "sha256": "19d43052267ab84466abfd2272508574c5e41a48c7d7d8499ab2c3539d30fcdc",
+      "bytes": 186403,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.386833+00:00"
+    },
+    "ve__snli_ve_test_0008__source__010": {
+      "job_sha256": "e8a5ac32dba4df6d2fadb7d84e9ea486339c4d6c8b19f458cdd78784f7c88ad4",
+      "sha256": "2670f88606639ce87812d41284913d3a9b25ff1479a86ee9d390d62413f63d66",
+      "bytes": 148816,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.428446+00:00"
+    },
+    "ve__snli_ve_test_0008__source__011": {
+      "job_sha256": "dd1ddb8c5845756ee6759b080d2b044a4020619a53d605f4f739bf668ba99364",
+      "sha256": "155a3aa7d1eb4b8854e2deeb7749b170574461e67a65290f4b46801faa82c971",
+      "bytes": 165505,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.475719+00:00"
+    },
+    "ve__snli_ve_test_0008__source__012": {
+      "job_sha256": "f19c79c92521ff9966bc121218bc0fee6424f57f522be58add8a379319ba1674",
+      "sha256": "aa0aaaa8a7906f3c3ee017b5adabf65d69930d2e1c05da85a8701928a35dbe09",
+      "bytes": 173352,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.517591+00:00"
+    },
+    "ve__snli_ve_test_0008__source__013": {
+      "job_sha256": "a193c2f7bd701ea2efc40d814f6c99cc8316c46394492d7abdd9991950fe8d9d",
+      "sha256": "2553965c1bd50d725786cd5a73d0e3eeb52bdd44cb188a137bf175b81ec1c34b",
+      "bytes": 186821,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.565288+00:00"
+    },
+    "ve__snli_ve_test_0008__source__014": {
+      "job_sha256": "1ea451306c3b465398197d29aa512a8e93f54b4f05a39332faf7c3524cc42ced",
+      "sha256": "b62ec5edff674f8b5b5236f717cc0592269a0354f06a04cedd02f68652a8c33e",
+      "bytes": 175238,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.610468+00:00"
+    },
+    "ve__snli_ve_test_0008__source__015": {
+      "job_sha256": "c6ba78b088633dbe79d7e2b5e2f808fa63fb8868b99579580ea92429ae5edc5d",
+      "sha256": "bec8b383edee1d5c1d895ed2ebdeb19635e8e31fe4381185295d8d412495d52c",
+      "bytes": 204771,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.655931+00:00"
+    },
+    "ve__snli_ve_test_0008__source__016": {
+      "job_sha256": "5f3e0295b9d9e5ee340175b95ca8bf1a0eccb5f4cae6e51bc3947a83969caf62",
+      "sha256": "882e5346237d8c7b64075002fe721b973e28677992bce49f6f5e79af23cef6ce",
+      "bytes": 168522,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.697284+00:00"
+    },
+    "ve__snli_ve_test_0008__source__017": {
+      "job_sha256": "d8dfd53038fb4cde5346312a930ea99fd6d678d74e86495ac84ac7afea548f7e",
+      "sha256": "d46de363d75663bb80ef3c343ea51052f50f742879ea167537847420722856fe",
+      "bytes": 189807,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.743004+00:00"
+    },
+    "ve__snli_ve_test_0008__source__018": {
+      "job_sha256": "f4e52b2b98b59edb2326b9b4eeee1905a27add9a972c85f8b422c33f1d201d00",
+      "sha256": "725e0371bd0b85cef634fab0dd0d007cbe841d7ad93d602c8f6481940c7f41b6",
+      "bytes": 175748,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.786267+00:00"
+    },
+    "ve__snli_ve_test_0008__source__019": {
+      "job_sha256": "219d9893abd5f1cbc8db46878a5d471ad35096284dcdd5d2302491e3b5140476",
+      "sha256": "5f55f41cdadc692ae13760640c346e00eeaf3fcbe3d55f12d98df7720f9b9d91",
+      "bytes": 202652,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.835103+00:00"
+    },
+    "ve__snli_ve_test_0008__target__000": {
+      "job_sha256": "9be1a6c1c3655a6e75db3de6b22d8e23c66603725c6da040c1080d32d4d32d40",
+      "sha256": "e4d5aff3d7284b459b62d1fd8efef07ec055b91966a76a1d6974e26d2f75ebc2",
+      "bytes": 143464,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.876827+00:00"
+    },
+    "ve__snli_ve_test_0008__target__001": {
+      "job_sha256": "dbf7a277366885ede9b3924c77e7a3e4e128ac53a050d5df7787b95664f7fcd3",
+      "sha256": "7567b8465c2f81b8e810ea5d892035f1414d1731a01b4e23924a8c99c98969ab",
+      "bytes": 202765,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.920317+00:00"
+    },
+    "ve__snli_ve_test_0008__target__002": {
+      "job_sha256": "c58237bef677b2d501ba0a0f460f8fb0100efea5c6b0c119c5e3f2fffa92067f",
+      "sha256": "1ac83c2b7297bd627094b401dc9a9f68dcb0415480363ea250bccf6920366012",
+      "bytes": 215131,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:14.966647+00:00"
+    },
+    "ve__snli_ve_test_0008__target__003": {
+      "job_sha256": "79846157ad6328e5df9aaca7ada3ea6e7ebbee23ff98176e83f8a49c60fd4113",
+      "sha256": "21549424c5ec9f6fe2602f2c333975879272b8604e652a9b5e1cc36244ea3788",
+      "bytes": 169377,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.009817+00:00"
+    },
+    "ve__snli_ve_test_0008__target__004": {
+      "job_sha256": "33bdc633f43ff2f8a138a22d041a1927d8ecaf792f99012f980ed560660d0880",
+      "sha256": "940ac93e645fe22ec05dd60ab035ed8b2d2092982f79de0c0a6418fb6cc25326",
+      "bytes": 191051,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.055473+00:00"
+    },
+    "ve__snli_ve_test_0008__target__005": {
+      "job_sha256": "110a03b65c468cc876f647fb005e004acf084eafbcff4af20a2aac91092834c6",
+      "sha256": "a9dbd13612248982b8d96cc850e274486c633edd7a6573308443002ca55ac4ef",
+      "bytes": 201413,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.103540+00:00"
+    },
+    "ve__snli_ve_test_0008__target__006": {
+      "job_sha256": "a2252db432e644b2c56c3231b778cf2af8dda99eb21271b96d3a250bd5410122",
+      "sha256": "b546212aefb9f02800814acf97dd689ba850e4302de5795b2a9d5fb874e12d56",
+      "bytes": 188765,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.142244+00:00"
+    },
+    "ve__snli_ve_test_0008__target__007": {
+      "job_sha256": "bc40c97f1a64fa91bf14521ffd7c3c9ae3f18f9381735f974253a4395c3d11c9",
+      "sha256": "ea7ae9d32fd37b39f69b0fe955ef1667e0bc42c93cb5a047d50fb19f5b1f6c75",
+      "bytes": 180234,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.188565+00:00"
+    },
+    "ve__snli_ve_test_0008__target__008": {
+      "job_sha256": "e1cca50bf87eabcd5261b5a7efe61737c97dad77580dcbe7492032904cbccf01",
+      "sha256": "dfb540adbad161b04c7aac45acb28c55ef11577336a7bdf3b0fc878c6b1c96b0",
+      "bytes": 181521,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.233488+00:00"
+    },
+    "ve__snli_ve_test_0008__target__009": {
+      "job_sha256": "f314a089c28812f9876d4e54c5bb241d0eae83e10a6bcedc2ad2d37099477a2a",
+      "sha256": "4c6f274f5d1a43a4f5f9210e36360766335941713b4b01d60df897a0578e3649",
+      "bytes": 192653,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.276059+00:00"
+    },
+    "ve__snli_ve_test_0008__target__010": {
+      "job_sha256": "c642ba12f9de4400c4cfe1872d5172fd1b291914dffe95de7a07fc6842893eb7",
+      "sha256": "f063cb264322f3d0965997832de7d45a9a599955f95e542f1f3e588e74033ef2",
+      "bytes": 154911,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.311918+00:00"
+    },
+    "ve__snli_ve_test_0008__target__011": {
+      "job_sha256": "25d847966fd103755eac619032bd3aa635ac9372fcd82b28d138a2bfca0eb171",
+      "sha256": "0c0734201b7faf1de615d06b3de6ed8abc155f17c259a853142fd5c953abc00e",
+      "bytes": 184186,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.352670+00:00"
+    },
+    "ve__snli_ve_test_0008__target__012": {
+      "job_sha256": "c5cfd47ccd850145b49e59e14a3e20037bd5d4c5c078cf99f8b62e1199fa3357",
+      "sha256": "1f17dabddd4fb2427e87731893ad029934f322d9c441663f7b7a33d674d58ffc",
+      "bytes": 174955,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.390984+00:00"
+    },
+    "ve__snli_ve_test_0008__target__013": {
+      "job_sha256": "2835e5dbd16027d00195d8629ff3e90665a64fc64f3566b849b8edfab2a339bd",
+      "sha256": "c22d73e03f7e98b73d5650f9e18d28f822b546e3242e59797ea9e6004ff0e806",
+      "bytes": 197123,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.439600+00:00"
+    },
+    "ve__snli_ve_test_0008__target__014": {
+      "job_sha256": "7275ea7f85d55cad4212212919f1fdef3e4621424cd3647970205bd3059974bf",
+      "sha256": "796cd5730eb688295aea774f6a1de21c1cf1f8ce1932d0f591c43371815cca14",
+      "bytes": 175691,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.484581+00:00"
+    },
+    "ve__snli_ve_test_0008__target__015": {
+      "job_sha256": "d7772706e993f2c5d48d067289bb76074835e2fdb232372b599ecef48b184865",
+      "sha256": "41c6121301aa43178ed4331512f08bdc1b3e8054e35222bf55a5c47c658d20b3",
+      "bytes": 176056,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.526092+00:00"
+    },
+    "ve__snli_ve_test_0008__target__016": {
+      "job_sha256": "5a8f9eec922e1e35cf6ec7709469d0b09fc31674754be61b4eeb895e7b440b2f",
+      "sha256": "05e09b2e9a260437475823896188c6a3b67460c020aa7d4f9719d10731360310",
+      "bytes": 168762,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.567801+00:00"
+    },
+    "ve__snli_ve_test_0008__target__017": {
+      "job_sha256": "e1eeb13068c966d456e90fe3d4d3e8995bb8026c93225807e65568dafa73c475",
+      "sha256": "b0f9286d7a9fc6d962cd20bcdcff54615a00c0a0788bda3646e9412b77ae46df",
+      "bytes": 170970,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.610001+00:00"
+    },
+    "ve__snli_ve_test_0008__target__018": {
+      "job_sha256": "cc0a5ee32df26512eb0de41105f6fdf1574a79eef3daa7d2a374f18c4338029b",
+      "sha256": "f7df69ce4e7a63d2b4f7b96d2eee79d6c2a70ae8b354ee5fb6129decf76c2336",
+      "bytes": 170271,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.652691+00:00"
+    },
+    "ve__snli_ve_test_0008__target__019": {
+      "job_sha256": "e85d0b4ed74cbdb6d137cda8c5e985506eb1c1ba19af6bb1a081e4a02f3defed",
+      "sha256": "30ad209e89034774f991adafae8feb9906be17547d6d2d6ae2fefb809a897440",
+      "bytes": 160635,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.69323072116822,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:26:15.690954+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:26:15.690974+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

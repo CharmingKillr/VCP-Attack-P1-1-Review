@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "c2660f5ba2677f12943b8b920b2106c11c11fe284fbaa0bf812c9653162d1d37",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "a278a775e05effd6f09137a3d5f7516f388d9b25f68941759d70d18fb6ec3f82",
+      "notes": "Source prompts depict living rooms/offices; target prompts should depict a bedroom. Added an explicit bed/nightstand/headboard cue to every target prompt, including office-like layouts, so the target room class is unambiguous.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0017/source/000.png",
+        "index": 0,
+        "prompt": "A living room with a sofa and coffee table, two people standing near the window, beige walls.",
+        "prompt_sha256": "6e64dfe91705c5e94470a8289660210d4a8c9f259b2c86f0f8f06e8a0f46b4e6",
+        "reference_id": "vqa__vqa_val_0017__source__000",
+        "role": "source",
+        "seed": 45021492279571547
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of an office with a desk and chair, two people sitting and talking, natural light.",
+        "prompt_sha256": "e2d37c53548b0c3c03879ff89877cf71fb6109ec353c6db954df085060cc8a83",
+        "reference_id": "vqa__vqa_val_0017__source__001",
+        "role": "source",
+        "seed": 208663753863855411
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/002.png",
+        "index": 2,
+        "prompt": "Close view of a living room with a TV stand, two people leaning against the wall, casual pose.",
+        "prompt_sha256": "9d56bc46ef972c41463f3cb5b14f2944ab94474ed794e809afd4f02db845a87d",
+        "reference_id": "vqa__vqa_val_0017__source__002",
+        "role": "source",
+        "seed": 912869803255663195
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/003.png",
+        "index": 3,
+        "prompt": "An office with a bookshelf and desk, two people standing near the door, one gesturing.",
+        "prompt_sha256": "e7fd3d3afc438e671195b020a0129f18df440280f014c186006f962b6773973d",
+        "reference_id": "vqa__vqa_val_0017__source__003",
+        "role": "source",
+        "seed": 564083065705517921
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/004.png",
+        "index": 4,
+        "prompt": "A bright living room with a rug and armchair, two people sitting on the sofa, soft daylight.",
+        "prompt_sha256": "67ff9392cfe977ab69fa585eb3dddeb4a9ebf4321f9b5895bcdd58d4bd26d4aa",
+        "reference_id": "vqa__vqa_val_0017__source__004",
+        "role": "source",
+        "seed": 166107311867354547
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/005.png",
+        "index": 5,
+        "prompt": "Wide shot of a living room with a large window, two people standing in the center, blue walls.",
+        "prompt_sha256": "a8be8c916bcd33c7651236fe0b2760f9e8adcd83a515801a5b226509b1c73d8f",
+        "reference_id": "vqa__vqa_val_0017__source__005",
+        "role": "source",
+        "seed": 204303455748223892
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/006.png",
+        "index": 6,
+        "prompt": "Side angle of an office with a whiteboard, two people looking at the screen, focused expression.",
+        "prompt_sha256": "f35c09f793160eaf12338627173459db0b016e79db093e83d56d33e99d6a20ff",
+        "reference_id": "vqa__vqa_val_0017__source__006",
+        "role": "source",
+        "seed": 664293188935349139
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/007.png",
+        "index": 7,
+        "prompt": "A living room with a potted plant in the corner, two people standing near the bookshelf, green walls.",
+        "prompt_sha256": "d963e6b07cb6dd6de89b1a6658aea29ff27c4964384237b00619138d4288b4a1",
+        "reference_id": "vqa__vqa_val_0017__source__007",
+        "role": "source",
+        "seed": 69055937254047761
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a living room with a cat on the sofa, two people laughing, relaxed atmosphere.",
+        "prompt_sha256": "6fabbd5010179e66e691a3e175878347d1de1e2d0b0afac52705ce030ab4d686",
+        "reference_id": "vqa__vqa_val_0017__source__008",
+        "role": "source",
+        "seed": 956728943140577279
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/009.png",
+        "index": 9,
+        "prompt": "An office with a filing cabinet and desk, two people standing near the printer, busy scene.",
+        "prompt_sha256": "195ce0db6afc63c61ab6e1ce6a4038820040b5bd1c8501530b389ea3d2292af9",
+        "reference_id": "vqa__vqa_val_0017__source__009",
+        "role": "source",
+        "seed": 1139774085403708791
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/010.png",
+        "index": 10,
+        "prompt": "Living room with a fireplace and mantel, two people standing near the window, warm lighting.",
+        "prompt_sha256": "04d6e6d628c5977ae59d7d9dd3021b59a2747a13cc0a5f948da04962cf1d7ad4",
+        "reference_id": "vqa__vqa_val_0017__source__010",
+        "role": "source",
+        "seed": 380177953708629668
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/011.png",
+        "index": 11,
+        "prompt": "Medium framing of a home office with a computer, two people sitting at the desk, working together.",
+        "prompt_sha256": "3b72ed9a2d2af92025b2af128e61bac11311d5ee670ef7e3ca02037f40ce24a2",
+        "reference_id": "vqa__vqa_val_0017__source__011",
+        "role": "source",
+        "seed": 1050089566407665257
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/012.png",
+        "index": 12,
+        "prompt": "Close-up of a living room with a side table, two people standing near the couch, intimate space.",
+        "prompt_sha256": "dbbda253c656b18fd9425c10e0fff4015e85a661635ad2f17d3780283997ee00",
+        "reference_id": "vqa__vqa_val_0017__source__012",
+        "role": "source",
+        "seed": 602807662919702046
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/013.png",
+        "index": 13,
+        "prompt": "An office with a large window and blinds, two people standing near the desk, one pointing.",
+        "prompt_sha256": "761643c9e111d2a7486004aa7b7f7e3f7b6017c092be2e34ad3568ddd49703d5",
+        "reference_id": "vqa__vqa_val_0017__source__013",
+        "role": "source",
+        "seed": 599600076942490744
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/014.png",
+        "index": 14,
+        "prompt": "A living room with a flat-screen TV, two people sitting on the floor, casual clothing.",
+        "prompt_sha256": "f0552a2b72e457c28c7c250757e5f2584ad510efec3e8566bae5bd82c6c3fcd6",
+        "reference_id": "vqa__vqa_val_0017__source__014",
+        "role": "source",
+        "seed": 1031864905988699852
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/015.png",
+        "index": 15,
+        "prompt": "Wide angle of an office with a conference table, two people standing at the far end, neutral tones.",
+        "prompt_sha256": "35d315d9644ab3e02aefee32edd0816e38f703120361bd0f61e630c18d997149",
+        "reference_id": "vqa__vqa_val_0017__source__015",
+        "role": "source",
+        "seed": 499746688061982042
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/016.png",
+        "index": 16,
+        "prompt": "Side view of a living room with a recliner, two people standing near the entryway, relaxed pose.",
+        "prompt_sha256": "23dc6644bfa3bbe68c8a3b00001c0c7244a26956c07ae4230ded23008d82fb14",
+        "reference_id": "vqa__vqa_val_0017__source__016",
+        "role": "source",
+        "seed": 229668053596976600
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/017.png",
+        "index": 17,
+        "prompt": "Candid photo of an office with a desk lamp, two people leaning on the desk, natural interaction.",
+        "prompt_sha256": "46c23ed608f64d19b6c249aee6ccfff05986736cb1084cb81be0e5826e8a1f87",
+        "reference_id": "vqa__vqa_val_0017__source__017",
+        "role": "source",
+        "seed": 536746750024879786
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/018.png",
+        "index": 18,
+        "prompt": "A living room with a bookcase and lamp, two people standing near the balcony door, evening light.",
+        "prompt_sha256": "d9a46400b5fa7686dfd2d4ec10f67b6fd71aa2595e18493a81092c6b4215ead5",
+        "reference_id": "vqa__vqa_val_0017__source__018",
+        "role": "source",
+        "seed": 1073484143313228536
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/source/019.png",
+        "index": 19,
+        "prompt": "A wide-angle view of a home office with two people standing near a large window, surrounded by bookshelves and a wooden desk.",
+        "prompt_sha256": "c7fad2685ff09b667ef0945527c313d062317247fdca0299b04a5f1ea14c66a8",
+        "reference_id": "vqa__vqa_val_0017__source__019",
+        "role": "source",
+        "seed": 642444817627410646
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/000.png",
+        "index": 0,
+        "prompt": "A bedroom with a clearly visible bed and nightstand, two people standing near the window, beige walls.",
+        "prompt_sha256": "d0747ba7d14f307f682a1e027295d9869d5c8d2e3054a6ae16bb66a3d2934cf0",
+        "reference_id": "vqa__vqa_val_0017__target__000",
+        "role": "target",
+        "seed": 191388786364105630
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a bedroom with a bed, dresser, and two people sitting on the edge of the bed in natural light.",
+        "prompt_sha256": "95e46f015784c3ebf8007a7f39457116225d3332af21e27fdb7227b10a47ed01",
+        "reference_id": "vqa__vqa_val_0017__target__001",
+        "role": "target",
+        "seed": 329333228064613301
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/002.png",
+        "index": 2,
+        "prompt": "Close view of a bedroom with a made bed beneath a bedside lamp, two people leaning near the wall.",
+        "prompt_sha256": "4e47f3af422c33e4693fccc8edf5fa67da31d294d9b312c6f9c694ecb0413599",
+        "reference_id": "vqa__vqa_val_0017__target__002",
+        "role": "target",
+        "seed": 125567554610948432
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/003.png",
+        "index": 3,
+        "prompt": "A bedroom with a bed, wardrobe, and rug; two people stand near the door, one gesturing.",
+        "prompt_sha256": "138e251ec67178aaa06c9e9df97623ead3918529fb3b7b4b4f4410529e5f0486",
+        "reference_id": "vqa__vqa_val_0017__target__003",
+        "role": "target",
+        "seed": 584716352058746276
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/004.png",
+        "index": 4,
+        "prompt": "A bright bedroom with a headboard, made bed, and mirror, two people sitting on the floor in soft daylight.",
+        "prompt_sha256": "8a38f3db3648f8b4c92007c574b05be0e31048f9393d73661d133f5aa676a41d",
+        "reference_id": "vqa__vqa_val_0017__target__004",
+        "role": "target",
+        "seed": 740831852605025355
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/005.png",
+        "index": 5,
+        "prompt": "Wide shot of a bedroom with a clearly visible bed under a large window, two people standing in the center.",
+        "prompt_sha256": "48049c604fb698a704003baa2d3face3b6fca3125a3975fe9534a71a37ce9633",
+        "reference_id": "vqa__vqa_val_0017__target__005",
+        "role": "target",
+        "seed": 801053004030418960
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/006.png",
+        "index": 6,
+        "prompt": "Side angle of a bedroom with a bed and vanity, two people looking at the mirror.",
+        "prompt_sha256": "03879ca100d174cb37f7065d5b1e794c31aa4a23dd5f544b3723b145a684d319",
+        "reference_id": "vqa__vqa_val_0017__target__006",
+        "role": "target",
+        "seed": 114824476185179568
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/007.png",
+        "index": 7,
+        "prompt": "A bedroom with a bed and potted plant in the corner, two people standing near the closet.",
+        "prompt_sha256": "8f6f4a52dc15eb7d4a5fed33e2f3bed7c92dfd767a53eba531d3b870fcfea4ba",
+        "reference_id": "vqa__vqa_val_0017__target__007",
+        "role": "target",
+        "seed": 957297358769404339
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a bedroom with a cat on the bed and two people laughing nearby.",
+        "prompt_sha256": "1082f4017dada215d8998ed62297eeda79ca3fe9adba493c67f3d114140e5051",
+        "reference_id": "vqa__vqa_val_0017__target__008",
+        "role": "target",
+        "seed": 1111749767910045828
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/009.png",
+        "index": 9,
+        "prompt": "A bedroom with a bed, desk, and chair; two people stand near the desk and printer.",
+        "prompt_sha256": "312594b8429696e31decd1678d82beb25f401ba0a594429ae11aa10deff46598",
+        "reference_id": "vqa__vqa_val_0017__target__009",
+        "role": "target",
+        "seed": 345337913076649645
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/010.png",
+        "index": 10,
+        "prompt": "A bedroom with a bed and fireplace mantel, two people standing near the window in warm light.",
+        "prompt_sha256": "d39e2a699bacf51617d51a25396433409a0526400dfa30398efdaae278e2a198",
+        "reference_id": "vqa__vqa_val_0017__target__010",
+        "role": "target",
+        "seed": 318103870073079446
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/011.png",
+        "index": 11,
+        "prompt": "Medium framing of a bedroom with a bed and computer desk, two people sitting at the desk.",
+        "prompt_sha256": "f9ad31f1ea3528aae2cd33797658820fce89cfe5443df63a7f25f1952da4a2b7",
+        "reference_id": "vqa__vqa_val_0017__target__011",
+        "role": "target",
+        "seed": 297063174130918382
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/012.png",
+        "index": 12,
+        "prompt": "Close view of a bedroom with a bed and side table, two people standing near the bed.",
+        "prompt_sha256": "e8f0ab2e0f1f48305b0b783a40a15bb213308abcab5c410afb5f8dd88aa081fb",
+        "reference_id": "vqa__vqa_val_0017__target__012",
+        "role": "target",
+        "seed": 825868317748338622
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/013.png",
+        "index": 13,
+        "prompt": "A bedroom with a bed beneath a large window with blinds, two people standing near a desk.",
+        "prompt_sha256": "fd6772e6cf409c9c9ca1acda58668e8cb96f66905b9f41f5629e7407db82dba2",
+        "reference_id": "vqa__vqa_val_0017__target__013",
+        "role": "target",
+        "seed": 280334102386480823
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/014.png",
+        "index": 14,
+        "prompt": "A bedroom with a bed and flat-screen TV, two people sitting on the floor in casual clothes.",
+        "prompt_sha256": "d5ff54989230fab12d68519672c32b14653e807fc02497e0b42442c34e89c30b",
+        "reference_id": "vqa__vqa_val_0017__target__014",
+        "role": "target",
+        "seed": 1108755611796283842
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/015.png",
+        "index": 15,
+        "prompt": "Wide angle of a bedroom with a bed, small writing desk, and two people standing near the far wall.",
+        "prompt_sha256": "6db82bb6d20e7d9545cd681d250871d230a71e9e5efd45e14f8d939b9ed8da93",
+        "reference_id": "vqa__vqa_val_0017__target__015",
+        "role": "target",
+        "seed": 689912505166370268
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/016.png",
+        "index": 16,
+        "prompt": "Side view of a bedroom with a bed and recliner, two people standing near the entryway.",
+        "prompt_sha256": "1e60e126f2b886af652c4ed9473d491381f978b8ff72cadf02567dc365e0429c",
+        "reference_id": "vqa__vqa_val_0017__target__016",
+        "role": "target",
+        "seed": 7385483715929518
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/017.png",
+        "index": 17,
+        "prompt": "Candid photo of a bedroom with a bed and desk lamp, two people leaning on the desk.",
+        "prompt_sha256": "0c2aa3fd7cdc89273420583b929e8e99c0a9530a5548b627a45ecc4bee7bfa08",
+        "reference_id": "vqa__vqa_val_0017__target__017",
+        "role": "target",
+        "seed": 573992644699345102
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/018.png",
+        "index": 18,
+        "prompt": "A bedroom with a bookcase, lamp, and clearly visible bed; two people stand near the balcony door.",
+        "prompt_sha256": "d4081759922f773b0ea2cc5f29908e9a3d11c2d390a8e1be015ad30ddbdb93d8",
+        "reference_id": "vqa__vqa_val_0017__target__018",
+        "role": "target",
+        "seed": 1001283759038337870
+      },
+      {
+        "image": "samples/vqa/vqa_val_0017/target/019.png",
+        "index": 19,
+        "prompt": "A bedroom with two people by a large window, a bed, bookshelves, and a wooden desk clearly visible.",
+        "prompt_sha256": "544f8b939a1c118ce25e8cf47ab9696f6cf74918f4520055c1c3951be07bccd9",
+        "reference_id": "vqa__vqa_val_0017__target__019",
+        "role": "target",
+        "seed": 1141412285696744306
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000338.jpg",
+    "original_image_sha256": "e1ab2ec78f9f84c5971ac6021213a9ec6a9360b6fb1d3216f09850c8d053144f",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "c2660f5ba2677f12943b8b920b2106c11c11fe284fbaa0bf812c9653162d1d37",
+    "sample_id": "vqa_val_0017",
+    "shard": 121,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "Is this a bedroom?",
+      "source_answer": "no",
+      "source_answers": [
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no",
+        "no"
+      ],
+      "target_answer": "yes"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0017__source__000": {
+      "job_sha256": "327c06ed9b271a9d3a7ac29289ce5ddef61231f2e2faf648820e17a1535495f8",
+      "sha256": "faa5c1e5624736994c61dd50f5b253cf4b85e9d6ad6d241e52afe1e9f67aee0f",
+      "bytes": 119921,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:26.877796+00:00"
+    },
+    "vqa__vqa_val_0017__source__001": {
+      "job_sha256": "4882e6391574fe78a84109abdc776fb24d621ae9a2c6a83d94aad56cbea36ddb",
+      "sha256": "84ab667db580705c9be34a7d2a313b897c89101f1c1c34e4f382881de41eaadb",
+      "bytes": 130908,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:26.922260+00:00"
+    },
+    "vqa__vqa_val_0017__source__002": {
+      "job_sha256": "343df512c99b7c6c78fa9211c672db861750f62ce05ade539f8e1993445a1f0e",
+      "sha256": "df826c929bb489727ea92ba4a083e65d798ebc55e967be85784b5832bfd85655",
+      "bytes": 132321,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:26.967556+00:00"
+    },
+    "vqa__vqa_val_0017__source__003": {
+      "job_sha256": "da6699578c0fd475ce5ca8af0ad2ebd13ab4aa8dd678e16c39a4231563d48bf3",
+      "sha256": "6b3d7c3472699fe38db17bdcbf6bc9b23e7eb9d2d16d4143779f9f4e4fb8988d",
+      "bytes": 142019,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.014000+00:00"
+    },
+    "vqa__vqa_val_0017__source__004": {
+      "job_sha256": "9ace1bb7c66af276976db9ab2a92a982387e37aaeb73e720ca431013560ac856",
+      "sha256": "9b52cc8f88a8c9bf0747fbcf388e16f97d772f2cc0d68bd4df54cb79d9efae43",
+      "bytes": 118466,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.056135+00:00"
+    },
+    "vqa__vqa_val_0017__source__005": {
+      "job_sha256": "90b8d70d586e2db1177da344bd9c949e910eb4f9b73183aaeebef0fb2b81a3ea",
+      "sha256": "7f192b4b7bb89b506e4a508d2925bb046bb12214825261e91d48a8f67183e88b",
+      "bytes": 127442,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.092246+00:00"
+    },
+    "vqa__vqa_val_0017__source__006": {
+      "job_sha256": "16ee07f0ce498c971c4540cd20e65dcdae1bd79bc4b7457ea55f2c6c13a07bf9",
+      "sha256": "de6a5ac0a1caf1472f486b21607887a577bacc807c837eb67d5c0941046211f5",
+      "bytes": 120051,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.133335+00:00"
+    },
+    "vqa__vqa_val_0017__source__007": {
+      "job_sha256": "bed06b84402ffa664ad1064e3f4d6a2b516a5e99418a27366d93da29e60f4d66",
+      "sha256": "870bdfaa6af17c500ab2410368a5c285ab791df9470251951423bfbfafa9a8e8",
+      "bytes": 146730,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.176592+00:00"
+    },
+    "vqa__vqa_val_0017__source__008": {
+      "job_sha256": "5e2aead2055ad9593e214c3ee14f2c58268297ebac40b480bdfc195a0788ba5f",
+      "sha256": "bfbe6c09d86d3f8193b311808a40f2b5530cd7bb31e61103e3af1a380daa312f",
+      "bytes": 147265,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.218744+00:00"
+    },
+    "vqa__vqa_val_0017__source__009": {
+      "job_sha256": "456934d90dafebdb156cd86f4ee21fb017f23954fce401ab1adfc782b514b998",
+      "sha256": "c779d6482c50b6fb3bb0df331fe8e8c1c068eaf7cf0b11998f68ca1ac9f7724b",
+      "bytes": 136771,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.284881+00:00"
+    },
+    "vqa__vqa_val_0017__source__010": {
+      "job_sha256": "ad58981ed787941afde24a7bd970621d42ae4c4dc30fb8e9634e19340bf0ba74",
+      "sha256": "fc2314333e1b54cbb73e00ff29718d7413f18b3ebea61972ac39db4841cb7e16",
+      "bytes": 136652,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.334048+00:00"
+    },
+    "vqa__vqa_val_0017__source__011": {
+      "job_sha256": "6317fe2bd66abf586bd311ba686fe0a8d2d124a219ee76014c8488ac51dddac7",
+      "sha256": "3731b4458e1294c0b9453c874c8ba59e869265390cb11e40f8ffe563ba91f198",
+      "bytes": 133350,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.380691+00:00"
+    },
+    "vqa__vqa_val_0017__source__012": {
+      "job_sha256": "d533d3895597194304b108f654a5b86546ce613de8aa6085845f3806dc48caf1",
+      "sha256": "f4d9739f062433b9992f06d139a81c8377e7b4afd470d98ed7c2942e5e05daf4",
+      "bytes": 127489,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.421569+00:00"
+    },
+    "vqa__vqa_val_0017__source__013": {
+      "job_sha256": "fcf8c5cd0af5e0516419e70cd34755864f71c24e567f6d66e7a8c224e1744c29",
+      "sha256": "d47c6206761e8a21ad743a892d96746d798dde7a88680aa5732e65cf33691213",
+      "bytes": 119360,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.463257+00:00"
+    },
+    "vqa__vqa_val_0017__source__014": {
+      "job_sha256": "172073c72e44f8dd443cef146cfef567995c3c5693d2c2e1f857bc36dbf4edbb",
+      "sha256": "7573901612c705da473f92d79a0d6566ee7b42e033d1abca4853e2f1341c4192",
+      "bytes": 125470,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.506750+00:00"
+    },
+    "vqa__vqa_val_0017__source__015": {
+      "job_sha256": "5a2488e71f7c6c1a436c4d95079c3d1e52c61635d826a156e3746d1efd726b7e",
+      "sha256": "c94919e8f52655437d638efd3e18aa61b14478e655547b829f263627f3f6cc28",
+      "bytes": 122278,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.548636+00:00"
+    },
+    "vqa__vqa_val_0017__source__016": {
+      "job_sha256": "8b19da0a3777404fd3b7d153654f365fdd00089839ad5b6af3ea210816a40474",
+      "sha256": "5f2966310411e9b676334cdb56a94feb509cc2d44c8a2617072846dc631604fa",
+      "bytes": 145281,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.592627+00:00"
+    },
+    "vqa__vqa_val_0017__source__017": {
+      "job_sha256": "473f607c200303603f0f4d40f378a42deac1bdeac47a08ed6c5020a1e3841a72",
+      "sha256": "8e3557c977a70427350cdb387d36b9bc466284ae4831f16c4810ed1381664861",
+      "bytes": 143894,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.633186+00:00"
+    },
+    "vqa__vqa_val_0017__source__018": {
+      "job_sha256": "695f0aae3831f53624fa13c2d999df37c0420b8bf1e79b9eea8dce08ec988e75",
+      "sha256": "b1621aae69c8cf40434caf9aef48d1d3e3c592a6cd2e0320de6ca9b2e1eea2aa",
+      "bytes": 140768,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.677526+00:00"
+    },
+    "vqa__vqa_val_0017__source__019": {
+      "job_sha256": "efd8145fac47c8811319b1bb30ac6f802a9e2035177f45f25796903e027c4c7e",
+      "sha256": "d6d9bb79a15e193b900406bf1713e43feb9505065ebb4497e9587114b96d8979",
+      "bytes": 145774,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.721688+00:00"
+    },
+    "vqa__vqa_val_0017__target__000": {
+      "job_sha256": "9c2ab88a0ba8f9caf478a07dc74438c70b64b3b7483a2634ab9955f4b1613182",
+      "sha256": "621ac438867ec15655bbb89edaedaf6dc7d8b16009279112acefec17082939cb",
+      "bytes": 120770,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.770560+00:00"
+    },
+    "vqa__vqa_val_0017__target__001": {
+      "job_sha256": "5745ef2ae2e61e9b7a49fd5811386156a88c94e0551533efc9df22a517efbad2",
+      "sha256": "3fdbe24f8ffbb3f05203099cc75efe9bb58f01ae3cf15bd5e9f27b5ef5d7369e",
+      "bytes": 138522,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.812060+00:00"
+    },
+    "vqa__vqa_val_0017__target__002": {
+      "job_sha256": "9f995a65a4c5e60dc9a3bb28e53f6e49283504d2f1a6dd0e138b70a595fa79cb",
+      "sha256": "57bee1ab54951b639c8d314f22ab4d2f1f8a346179c6e98ef790ce4bbf616f45",
+      "bytes": 122239,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.857478+00:00"
+    },
+    "vqa__vqa_val_0017__target__003": {
+      "job_sha256": "c47101ddf7f6ea4999817059491def7db76692ff35b8b056c860ddad65e69260",
+      "sha256": "c221811254c44d60bed5de74aa9ab12ebea1f5ea72cc05a8deb0f57da3d35902",
+      "bytes": 124358,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.898405+00:00"
+    },
+    "vqa__vqa_val_0017__target__004": {
+      "job_sha256": "26af78453cdc417a94b0f6337f5f8f2173deccf708a10f1c1482a3a48859f548",
+      "sha256": "2460c6de7b8e84abab4c520d906049125ec5121c8bdb70bd693ef32f685bef48",
+      "bytes": 129515,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.943600+00:00"
+    },
+    "vqa__vqa_val_0017__target__005": {
+      "job_sha256": "9c673fd33ee0eefd32ccd90f084380ba54396d589a0b67c2d48c763a458caed2",
+      "sha256": "62777617ff832fa0a51e6681f93fd7ec5d6760324f3bf4dbef7a34d8e61c3014",
+      "bytes": 116645,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:27.987199+00:00"
+    },
+    "vqa__vqa_val_0017__target__006": {
+      "job_sha256": "23392c4416bc01e735e5aae9fdf680b4983c6bbc50ff614dae43342704fbc82e",
+      "sha256": "dd3a2111be969cf08a11e653ac296065f1514275b2e65299e0624fc91ab831ee",
+      "bytes": 123543,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.028687+00:00"
+    },
+    "vqa__vqa_val_0017__target__007": {
+      "job_sha256": "bde74796493270daaf51774a2fbdd8946d42580da53354b4ed7696c728be288d",
+      "sha256": "69ff855634b65a2386aad8a3005f6ada91a241503b1d5b9f14dfd484521caa6a",
+      "bytes": 128264,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.072387+00:00"
+    },
+    "vqa__vqa_val_0017__target__008": {
+      "job_sha256": "57e659bc9cae804df6c5f4bc3d59a6e95f66c9e52bbbc015c3594403f6d24822",
+      "sha256": "bec6c814d16d91505ef30e64ff1aab71b8e0a2c5c5ed8488ac6c5024b6850b6f",
+      "bytes": 134549,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.112994+00:00"
+    },
+    "vqa__vqa_val_0017__target__009": {
+      "job_sha256": "b30eeeb45514dd9b62d1415f290ff69b268fbbe2b10bc1ac66229489930af902",
+      "sha256": "5128b5ab602dc1b2731a32d6b2e771e3dca5f614dd61cb93ff6d34ff62deac9b",
+      "bytes": 134736,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.151377+00:00"
+    },
+    "vqa__vqa_val_0017__target__010": {
+      "job_sha256": "cc55f664319eb8c6d8a8a599a9d49813586eefe9120092b349f0ab19ad3fe00b",
+      "sha256": "5a07930436070ff580c8ce8bc923694008fb0452ad8c2f8bdfbb95026f2057b9",
+      "bytes": 130152,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.196214+00:00"
+    },
+    "vqa__vqa_val_0017__target__011": {
+      "job_sha256": "90d5e1be05d8d34b971bfb3d2821bc4b47c7fc30ac84c5888abbacebe66a2445",
+      "sha256": "10e9b52b41b106b22a0ea93e70f2c54eca95ba73f41dfc7ca324338b091750e9",
+      "bytes": 123767,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.239486+00:00"
+    },
+    "vqa__vqa_val_0017__target__012": {
+      "job_sha256": "d591d537a0a0ea5d4f594daf28ff375696946e9a242e40020b9537df5eb5024f",
+      "sha256": "c71b5453a2f4100f495c34d6a20f9d8138084e7fcd99deee005825e73f4ea1ef",
+      "bytes": 128920,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.283581+00:00"
+    },
+    "vqa__vqa_val_0017__target__013": {
+      "job_sha256": "83fade72ed60bda36776289574eae39467bdcc1053678272f3796e2629813078",
+      "sha256": "3c535848c490cdbc7e79660b844da9ff2ddd8fef9c49d753478f38155313ba4c",
+      "bytes": 123205,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.334185+00:00"
+    },
+    "vqa__vqa_val_0017__target__014": {
+      "job_sha256": "b89702211f9df9436b29b6fea51d148a068ab16bdf4a50ce402aecdd51a828b6",
+      "sha256": "51221233e81319f08e0cef2e8f10cc77c3f5cd6820118c35784f75cec5e2c371",
+      "bytes": 120319,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.381195+00:00"
+    },
+    "vqa__vqa_val_0017__target__015": {
+      "job_sha256": "bf25d44dcf7032f82d42350bc5e35d0ef0363b215d2b6048ad623b828d5c533c",
+      "sha256": "1b789d59cb78e94fabcee9842db0a7b6adc5d368197c0d93f1a2c6e5dea4d164",
+      "bytes": 106412,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.418448+00:00"
+    },
+    "vqa__vqa_val_0017__target__016": {
+      "job_sha256": "8411ee8e1e2bdcefe1c5582159ddced1791e5d69bed564bd80408c20a5a0411f",
+      "sha256": "3072a068611c5c00e692769581509edfadeb4ca70095c35c9b9927d41f9074ba",
+      "bytes": 122452,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.459103+00:00"
+    },
+    "vqa__vqa_val_0017__target__017": {
+      "job_sha256": "fa5be9130554fd269967b8d90572057c0c3558f40b6a01c5ecb8d4fdbe727886",
+      "sha256": "827dab8e9fd6d052a336775f315c7cd2589d92a54023f9f92d7f8ec5399bf90e",
+      "bytes": 127276,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.500298+00:00"
+    },
+    "vqa__vqa_val_0017__target__018": {
+      "job_sha256": "6ca4ddc6ce559fb7906a79e79b5aaf2c2de3a89be7ce3633a1a95ab9fccd46fd",
+      "sha256": "97bc42b37793021c72e5642b2bc7fe8cdd459a5d0844123f8f4debe9f94363d1",
+      "bytes": 129731,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.563577+00:00"
+    },
+    "vqa__vqa_val_0017__target__019": {
+      "job_sha256": "a58e286b75664e7007bca077a971ddd1238c97f7cbca35b1541df1f4e38ad2ef",
+      "sha256": "a07f02286ce3736825a81733191777ae54d4f824add421edac72efb6c000c297",
+      "bytes": 137505,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 27.551583892665803,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:15:28.609266+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:15:28.609303+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "d9062ecf0954fb0834c908d16d90e75d901345f229dfad2068c6fec40aa13ae2",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "9068183ce1c03c24dde0972c261e0f94d25b0e6db6f52c0ed2bb8490c3b237dc",
+      "notes": "Source bank consistently shows the toddler crying, contradicting “The toddler is laughing.” Target bank depicts a calm/neutral expression without crying or laughter, leaving the hypothesis unresolved (neutral).",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/000.png",
+        "index": 0,
+        "prompt": "A toddler in denim overalls stands on beige carpet, face scrunched and mouth open in a loud cry, with a red toy nearby.",
+        "prompt_sha256": "e47ea3ab9c47f5df2933f055ade22f81b5d2087e8491ebd765b70ab860ecf1ed",
+        "reference_id": "ve__snli_ve_test_0014__source__000",
+        "role": "source",
+        "seed": 206637325754002020
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/001.png",
+        "index": 1,
+        "prompt": "A young child in overalls is captured from a low angle on beige carpet, eyes squeezed shut and brow furrowed in distress.",
+        "prompt_sha256": "a52e0279871f20414a55f1c5866922d6ffde02489a86cbd905dd02a2dd16bafd",
+        "reference_id": "ve__snli_ve_test_0014__source__001",
+        "role": "source",
+        "seed": 957354998191614615
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of a toddler in overalls on beige carpet, visibly crying with a wet face and open mouth, a chair leg in the background.",
+        "prompt_sha256": "a6d3ab3ec8ec1cb9a05feeaedda729660d588cef40a633acd7b11962c12c042d",
+        "reference_id": "ve__snli_ve_test_0014__source__002",
+        "role": "source",
+        "seed": 490708897963602124
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of a toddler in overalls standing on beige carpet, crying with hands at sides, a rug edge visible in the corner.",
+        "prompt_sha256": "17dc64b6f10370fca53314c1204a09f813e2f9eabd41e6b02fe82fa6d6d647e0",
+        "reference_id": "ve__snli_ve_test_0014__source__003",
+        "role": "source",
+        "seed": 155080086147326029
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/004.png",
+        "index": 4,
+        "prompt": "Candid photo of a toddler in overalls on beige carpet, face contorted in sadness, mouth wide open, with a wall behind them.",
+        "prompt_sha256": "c268d13ec85aaf1bec91520f12e8425a7f6001044e7cc976ecf814931446a7a3",
+        "reference_id": "ve__snli_ve_test_0014__source__004",
+        "role": "source",
+        "seed": 841537361882991266
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/005.png",
+        "index": 5,
+        "prompt": "A toddler in striped overalls stands on beige carpet, crying with a scrunched face, a blue toy block near their feet.",
+        "prompt_sha256": "a174cb528836eefda3882c87095f15875f18734d91af86de7ca01b901cae0e03",
+        "reference_id": "ve__snli_ve_test_0014__source__005",
+        "role": "source",
+        "seed": 518117298556207973
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/006.png",
+        "index": 6,
+        "prompt": "Side view of a toddler in overalls on beige carpet, crying with head tilted down, furrowed brow and open mouth visible.",
+        "prompt_sha256": "7f7897f43873db9f865a42da2b55ef7247ab8b4c486aadfea178d1325c981ac4",
+        "reference_id": "ve__snli_ve_test_0014__source__006",
+        "role": "source",
+        "seed": 204262483156250645
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/007.png",
+        "index": 7,
+        "prompt": "Toddler in overalls on beige carpet crying under soft window light, face scrunched, mouth open, a toy car nearby.",
+        "prompt_sha256": "667cfdd19234882209da009f68e44af0a048261840de4ce6b8e1d883b7ae19cd",
+        "reference_id": "ve__snli_ve_test_0014__source__007",
+        "role": "source",
+        "seed": 371746024916314245
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/008.png",
+        "index": 8,
+        "prompt": "Close-up of a toddler in overalls on beige carpet, crying with a red face and open mouth, background slightly blurred.",
+        "prompt_sha256": "2b202850903048d734ce10f45b8c31735ae573a6d7a7599008e9a7d033cbb9b3",
+        "reference_id": "ve__snli_ve_test_0014__source__008",
+        "role": "source",
+        "seed": 602013194025329314
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/009.png",
+        "index": 9,
+        "prompt": "A toddler in overalls stands on beige carpet, crying with a distressed expression, a wooden toy visible on the floor.",
+        "prompt_sha256": "3546fc3f3765e24d65e3e36fc137682900196dabc7ae425082580a5163c82380",
+        "reference_id": "ve__snli_ve_test_0014__source__009",
+        "role": "source",
+        "seed": 868891158620379664
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/010.png",
+        "index": 10,
+        "prompt": "Another toddler in overalls on beige carpet, face scrunched and crying, a green toy nearby, standing near a wall.",
+        "prompt_sha256": "71d18dc169cbf1ef0184668718dd69b343b12b9dd970edca7aa6eca70f460aea",
+        "reference_id": "ve__snli_ve_test_0014__source__010",
+        "role": "source",
+        "seed": 527679643989134341
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/011.png",
+        "index": 11,
+        "prompt": "Low angle shot of a toddler in overalls on beige carpet, crying with eyes shut and mouth open, a chair leg visible.",
+        "prompt_sha256": "86657648fde1536cffec6bef7cad14e4d6d87aabed6533480d5708df5a931e8d",
+        "reference_id": "ve__snli_ve_test_0014__source__011",
+        "role": "source",
+        "seed": 584432805589950656
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/012.png",
+        "index": 12,
+        "prompt": "Medium shot of a toddler in overalls on beige carpet, crying with a wet face, a rug edge visible in the foreground.",
+        "prompt_sha256": "7c77f0e045b87eb1217223888496e123875d79774658e8feaebe28d2e552f0bb",
+        "reference_id": "ve__snli_ve_test_0014__source__012",
+        "role": "source",
+        "seed": 807398133055291826
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/013.png",
+        "index": 13,
+        "prompt": "Wide shot of a toddler in overalls on beige carpet, crying with hands at sides, a wall in the background.",
+        "prompt_sha256": "190e5c699f6a330b631d470b46ed79f8a096aeb7ac6503b15172d089e18030d1",
+        "reference_id": "ve__snli_ve_test_0014__source__013",
+        "role": "source",
+        "seed": 980616323833798074
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/014.png",
+        "index": 14,
+        "prompt": "Candid moment of a toddler in overalls on beige carpet, crying with a scrunched face, a toy nearby.",
+        "prompt_sha256": "6f17d3199109ee14418e5250e73de5a5b1bc8086b0b790676333195a575b2253",
+        "reference_id": "ve__snli_ve_test_0014__source__014",
+        "role": "source",
+        "seed": 732118441911687057
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/015.png",
+        "index": 15,
+        "prompt": "Toddler in plaid overalls on beige carpet, crying with a distressed face, a small toy block near their feet.",
+        "prompt_sha256": "a9c8ce337d0bfd4d35593f3704f0759723a76bf5bfe96d519ec154ebdc476311",
+        "reference_id": "ve__snli_ve_test_0014__source__015",
+        "role": "source",
+        "seed": 898464485275213283
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/016.png",
+        "index": 16,
+        "prompt": "Side angle of a toddler in overalls on beige carpet, crying with head down, furrowed brow and open mouth.",
+        "prompt_sha256": "0d0a6e58cb8b6cc0f8ac2534c218604ee10206580dbc84878434547f0d0940d0",
+        "reference_id": "ve__snli_ve_test_0014__source__016",
+        "role": "source",
+        "seed": 210973983485714666
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/017.png",
+        "index": 17,
+        "prompt": "Toddler in overalls on beige carpet crying under warm lamp light, face scrunched, mouth open, a toy nearby.",
+        "prompt_sha256": "65a6433f6f766cbc34e5e23cc7781f46aa69242136b4506c3bdace708bf2cd36",
+        "reference_id": "ve__snli_ve_test_0014__source__017",
+        "role": "source",
+        "seed": 223394467756581234
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/018.png",
+        "index": 18,
+        "prompt": "Close view of a toddler in overalls on beige carpet, crying with a red face and open mouth, background neutral.",
+        "prompt_sha256": "15063efe467f7538cb2f49c5f6ff7076670227dad710932f6f476fa300e7819f",
+        "reference_id": "ve__snli_ve_test_0014__source__018",
+        "role": "source",
+        "seed": 928443458678283756
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/source/019.png",
+        "index": 19,
+        "prompt": "A toddler in denim overalls stands on beige carpet with a chair leg nearby, face scrunched and mouth open in distress.",
+        "prompt_sha256": "36c817247625e993d37a5b748d02ab7147fec3328f0f34f5cd965a34205662d6",
+        "reference_id": "ve__snli_ve_test_0014__source__019",
+        "role": "source",
+        "seed": 425465199377681318
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/000.png",
+        "index": 0,
+        "prompt": "A toddler in denim overalls stands on beige carpet, face relaxed with a closed mouth and neutral eyes, with a red toy nearby.",
+        "prompt_sha256": "40374e2d6f4ba2ca45b8a04ff7d35d761c224107dfdcf45ec4bd86f19d109574",
+        "reference_id": "ve__snli_ve_test_0014__target__000",
+        "role": "target",
+        "seed": 215410180841707959
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a toddler in overalls on beige carpet, face neutral with a closed mouth, a chair leg in the background.",
+        "prompt_sha256": "59e2efb12a1963c139d1a6ccb932170f0772696745d91b5d0c60fffc064fb19a",
+        "reference_id": "ve__snli_ve_test_0014__target__001",
+        "role": "target",
+        "seed": 799505971125153985
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/002.png",
+        "index": 2,
+        "prompt": "Candid photo of a toddler in overalls on beige carpet, face calm and neutral, mouth closed, with a wall behind them.",
+        "prompt_sha256": "54c6fe7fb5c733eb37f6694d2e680270a1673e55f42c4230fbb50d4cf96dbc34",
+        "reference_id": "ve__snli_ve_test_0014__target__002",
+        "role": "target",
+        "seed": 994062696059904685
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/003.png",
+        "index": 3,
+        "prompt": "A toddler in striped overalls stands on beige carpet, expression neutral with a closed mouth, a blue toy block near their feet.",
+        "prompt_sha256": "a18b0844b2c58043503194024c78877388bf9d685769746ada0e9f98c6a6ae72",
+        "reference_id": "ve__snli_ve_test_0014__target__003",
+        "role": "target",
+        "seed": 970395388899994064
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/004.png",
+        "index": 4,
+        "prompt": "Side view of a toddler in overalls on beige carpet, head level, eyes open and calm, mouth closed, neutral expression.",
+        "prompt_sha256": "8596d79d27d3c1f77ccf15cbcd71e52c2e33618c1cee71c9c68a4d2e7ad14d1a",
+        "reference_id": "ve__snli_ve_test_0014__target__004",
+        "role": "target",
+        "seed": 890713049443536308
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/005.png",
+        "index": 5,
+        "prompt": "Toddler in overalls on beige carpet under soft window light, face neutral, mouth closed, a toy car nearby.",
+        "prompt_sha256": "2e2e3f430f00aae30c8dc9921bc7c8b87368c4e23ae63128428dcebccc21c53b",
+        "reference_id": "ve__snli_ve_test_0014__target__005",
+        "role": "target",
+        "seed": 1140814115474718406
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/006.png",
+        "index": 6,
+        "prompt": "Close-up of a toddler in overalls on beige carpet, face calm with a closed mouth, background slightly blurred.",
+        "prompt_sha256": "d8d5f300ff041a09791d9518fcd1e456b97a44e77345ae975da8e02922cc6fa8",
+        "reference_id": "ve__snli_ve_test_0014__target__006",
+        "role": "target",
+        "seed": 760091997949075598
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/007.png",
+        "index": 7,
+        "prompt": "A toddler in overalls stands on beige carpet, expression neutral, a wooden toy visible on the floor.",
+        "prompt_sha256": "bfedb730de11fb89fa1e92f865c83850c615cb9d0c88c985d53b46d2be49e747",
+        "reference_id": "ve__snli_ve_test_0014__target__007",
+        "role": "target",
+        "seed": 376250417031493600
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/008.png",
+        "index": 8,
+        "prompt": "Another toddler in overalls on beige carpet, face neutral, mouth closed, a green toy nearby, standing near a wall.",
+        "prompt_sha256": "e473ffa34ff732316676c7df19a1ac3f819b0d84757ce9a98da118a8ae578a38",
+        "reference_id": "ve__snli_ve_test_0014__target__008",
+        "role": "target",
+        "seed": 922696054584937691
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/009.png",
+        "index": 9,
+        "prompt": "Low angle shot of a toddler in overalls on beige carpet, eyes open and calm, mouth closed, a chair leg visible.",
+        "prompt_sha256": "0cd4ba25403b767fc7f0f39ff196dfe3409459b4f04920a09efa30c352fa119d",
+        "reference_id": "ve__snli_ve_test_0014__target__009",
+        "role": "target",
+        "seed": 542624543326910403
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/010.png",
+        "index": 10,
+        "prompt": "Medium shot of a toddler in overalls on beige carpet, face neutral, a rug edge visible in the foreground.",
+        "prompt_sha256": "fe8f8c52183e9d01257aabfeb5639f6c7c531d616f1e25d37ae5e9287d2651be",
+        "reference_id": "ve__snli_ve_test_0014__target__010",
+        "role": "target",
+        "seed": 836126491610999831
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/011.png",
+        "index": 11,
+        "prompt": "Candid moment of a toddler in overalls on beige carpet, face neutral, mouth closed, a toy nearby.",
+        "prompt_sha256": "c38f7647a9fe02fea3f931b88618913d95de82bfd6338ef6b31eefdd6b52f770",
+        "reference_id": "ve__snli_ve_test_0014__target__011",
+        "role": "target",
+        "seed": 615697138552540747
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/012.png",
+        "index": 12,
+        "prompt": "Toddler in plaid overalls on beige carpet, expression neutral, a small toy block near their feet.",
+        "prompt_sha256": "91ddb61e70883a9541257cf9962f5cf65cae67705aba51b70003dcbd2e8fea43",
+        "reference_id": "ve__snli_ve_test_0014__target__012",
+        "role": "target",
+        "seed": 806924039873063122
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/013.png",
+        "index": 13,
+        "prompt": "Side angle of a toddler in overalls on beige carpet, head level, eyes open and calm, mouth closed.",
+        "prompt_sha256": "bb29c2fc3a4e04dafaff3cf3662ad2e95839d13aa998e2ff7db9168fa646d1f6",
+        "reference_id": "ve__snli_ve_test_0014__target__013",
+        "role": "target",
+        "seed": 463884608157221565
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/014.png",
+        "index": 14,
+        "prompt": "Toddler in overalls on beige carpet under warm lamp light, face neutral, mouth closed, a toy nearby.",
+        "prompt_sha256": "9dfa0999aab619946b5fb5ce88cd0b03bc6601d591e75919eb250fe4d73473f5",
+        "reference_id": "ve__snli_ve_test_0014__target__014",
+        "role": "target",
+        "seed": 663312459090556991
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/015.png",
+        "index": 15,
+        "prompt": "Close view of a toddler in overalls on beige carpet, face calm with a closed mouth, background neutral.",
+        "prompt_sha256": "5a13715163105852f0d6d8ef8b3a2f80e8b3ec3585b714103dfa1e10e3f712d0",
+        "reference_id": "ve__snli_ve_test_0014__target__015",
+        "role": "target",
+        "seed": 804236030887974000
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/016.png",
+        "index": 16,
+        "prompt": "A toddler in denim overalls stands on beige carpet with a chair leg nearby, face neutral, mouth closed, calm eyes.",
+        "prompt_sha256": "051e433c24bfa85818d0ae3d69ca96b137db473345c70ac1eb8133fe30f569a7",
+        "reference_id": "ve__snli_ve_test_0014__target__016",
+        "role": "target",
+        "seed": 854120772999770167
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/017.png",
+        "index": 17,
+        "prompt": "Toddler in overalls on beige carpet with a toy nearby, face relaxed and mouth closed, eyes open and calm, showing no strong emotion.",
+        "prompt_sha256": "03b1a7f9c0f4f26948e4d547b9caeedc114035e1adb0161e67d760742c102ad9",
+        "reference_id": "ve__snli_ve_test_0014__target__017",
+        "role": "target",
+        "seed": 742182667322062799
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/018.png",
+        "index": 18,
+        "prompt": "Close view of a toddler in overalls on beige carpet, neutral expression with smooth brow and closed mouth, background neutral.",
+        "prompt_sha256": "11ad65161363ee1516157abed891c97e88a0102112e4f864d9efd0bed92162c4",
+        "reference_id": "ve__snli_ve_test_0014__target__018",
+        "role": "target",
+        "seed": 389638928143312353
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0014/target/019.png",
+        "index": 19,
+        "prompt": "A toddler in denim overalls stands on beige carpet with a chair leg nearby, face relaxed and mouth closed, showing no distress.",
+        "prompt_sha256": "46a1bef65706da8e6e8875c408bf5139fd25155af4e72297b5911ee6cc73405a",
+        "reference_id": "ve__snli_ve_test_0014__target__019",
+        "role": "target",
+        "seed": 914357245733113634
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/11551286.jpg",
+    "original_image_sha256": "60867e58aaa763bdd9141b9e0af09759f936549d13864ce945605bde36ad4839",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "d9062ecf0954fb0834c908d16d90e75d901345f229dfad2068c6fec40aa13ae2",
+    "sample_id": "snli_ve_test_0014",
+    "shard": 14,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "The toddler is laughing.",
+      "premise_caption": "A little toddler boy is crying while walking.",
+      "source_label": "contradiction",
+      "target_label": "neutral"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0014__source__000": {
+      "job_sha256": "f552489734b639d08ae21c0fa594630cd0080c4bf0c53149fce51a0a075cffd4",
+      "sha256": "9ea9dde55bf58c6739b06d103bd678f0f6da8cd15103f5f8867a4301c0a4dfe1",
+      "bytes": 132831,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.554648+00:00"
+    },
+    "ve__snli_ve_test_0014__source__001": {
+      "job_sha256": "6d6d584b4879659253249b20c32c25d995cf1c36d8e482f63bc721337750f7e7",
+      "sha256": "42ddcf0fe3dbee15e890462251c1a90051f1c94c9d83dcef62a51689748e50cf",
+      "bytes": 136795,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.597367+00:00"
+    },
+    "ve__snli_ve_test_0014__source__002": {
+      "job_sha256": "7973ed00f0e0f76fc884646c39f4d0acc2ec8e073221e746b838ef37d64ca0e3",
+      "sha256": "511aa6eb0ec930321f7f9650c73ebe4fc1c91b37da5992da12f9349cd434469d",
+      "bytes": 147055,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.638161+00:00"
+    },
+    "ve__snli_ve_test_0014__source__003": {
+      "job_sha256": "369e020e607d060d00f99b38533d0033fc71261a9ab904921cbee42c39b3b7fb",
+      "sha256": "84f298b2cfb3814c0ea24126193d87f1621baa41cdef043c0ca541ca3e963d68",
+      "bytes": 134777,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.680926+00:00"
+    },
+    "ve__snli_ve_test_0014__source__004": {
+      "job_sha256": "9eb00ed9e900c9d83d930c92b93cd798d22e2e09cc688396253ff73e3689790a",
+      "sha256": "7fbe011a6686f1ae44b7e8ed89942bb714d22bb446b46c163d44796eeff2b4a8",
+      "bytes": 123241,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.719703+00:00"
+    },
+    "ve__snli_ve_test_0014__source__005": {
+      "job_sha256": "0663db3b6fffa01870ef8f831f1a73810bcb85df7af508ccd0f75a4d7128e0e4",
+      "sha256": "467baed9d81fa3caf797fcb06ecfa0147fb4704dfa937476f8f0cbcadbf78d32",
+      "bytes": 128219,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.759923+00:00"
+    },
+    "ve__snli_ve_test_0014__source__006": {
+      "job_sha256": "4263cdac633887db3773fdb70c7d04aba6233d6e429dbba5c08a9ec0f74e7790",
+      "sha256": "343b3c58d7ceb8c3a89a315e284c86d7c38bfe385153747e8a0f59d32c1f6446",
+      "bytes": 145368,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.801501+00:00"
+    },
+    "ve__snli_ve_test_0014__source__007": {
+      "job_sha256": "ce9541d2f9e0a69217271716a1d36893c34e12c2a9f73052822b1a967b58b941",
+      "sha256": "5cbcfef1cdcaddc55958f3fbf71624a1efc887843cbc6821d8ca4bf2301b6c10",
+      "bytes": 125605,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.852970+00:00"
+    },
+    "ve__snli_ve_test_0014__source__008": {
+      "job_sha256": "30e7a136b1dfb09044c9ea42fe77a92371418a7175d2e5d8f26a0cb98127500e",
+      "sha256": "fcca7bf9889a8815b21d9adc1ecda131fd2f3bbc5674c84ae2b9c581861973b0",
+      "bytes": 143829,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.890677+00:00"
+    },
+    "ve__snli_ve_test_0014__source__009": {
+      "job_sha256": "cdd3eb2ad4117af5514dbe5196663fa8833508ea9bcb1105138db3b0a24482d0",
+      "sha256": "f97392797bebead1f99b8b9d5578d0822017e6e2ec1e425556583272f6693b26",
+      "bytes": 134373,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.926072+00:00"
+    },
+    "ve__snli_ve_test_0014__source__010": {
+      "job_sha256": "7c9a3fdaba0ee9711435d9aac34f390a056b12fd2900887113db6bef7e680f03",
+      "sha256": "db087f282cdf8c8f9237e1186d8ef7ec4732188a532a0f00ddd95d7f3f238fe5",
+      "bytes": 126584,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:52.966620+00:00"
+    },
+    "ve__snli_ve_test_0014__source__011": {
+      "job_sha256": "22f8f653101a5f4c35dde431b7c673d03b3f3c8a918f80cd7c9d55932751a0ce",
+      "sha256": "552e77a7467d5ee2d76c397df8e11e6611cffa875b5acdcecfcfcdea7caf367a",
+      "bytes": 144888,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.018003+00:00"
+    },
+    "ve__snli_ve_test_0014__source__012": {
+      "job_sha256": "627d40efd2b73b2301069e78c463537a0fe6308817728ed37535dc034d5d30c1",
+      "sha256": "9b34a4c3dd9e247c731c977a3dc033331f1f8436ad75796efa55235442f81560",
+      "bytes": 147677,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.070448+00:00"
+    },
+    "ve__snli_ve_test_0014__source__013": {
+      "job_sha256": "5c0b465f90ac362fb3acb0541422216ab63bb249883154d4eb851fdced5b7b6f",
+      "sha256": "d5ed998e3ed808ab7de51e17fe8ef79dd5baf90eb1e5a8ba3f4cbacd01801656",
+      "bytes": 120140,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.105379+00:00"
+    },
+    "ve__snli_ve_test_0014__source__014": {
+      "job_sha256": "aad72611219d5cd26ec6cc01325f9ef96a176538ccdea46d4187f61ca2d2af16",
+      "sha256": "8a93390b5b681825083ecfa7c4101e3066fec21b5af5855315f3a16e5dfb8d61",
+      "bytes": 150619,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.152823+00:00"
+    },
+    "ve__snli_ve_test_0014__source__015": {
+      "job_sha256": "1629629eb14bc1d591040cdff7632e8da81883ec6575545799f733f97b6905a2",
+      "sha256": "13659f1b3cb0bf7403adb78e6415eb67c43c60ac52a7312a94ace4293ec0237d",
+      "bytes": 145703,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.197034+00:00"
+    },
+    "ve__snli_ve_test_0014__source__016": {
+      "job_sha256": "06732f3acbf4052796e066a8975f8e79040f58bbf0675f688a635610e66c4e52",
+      "sha256": "113b32cfec75b42e9d1dce350462cdbd233da19f9ea7a3bfef13f9a24bfa7c59",
+      "bytes": 140448,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.244523+00:00"
+    },
+    "ve__snli_ve_test_0014__source__017": {
+      "job_sha256": "aa3f7933ff893fad1d47d88faac2de7d353d195dd728a9d3da898c263bc240a7",
+      "sha256": "0459c549d5c703c65a7128504cb83ef2094c51c92768ae6096cc4db52878da95",
+      "bytes": 131854,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.286847+00:00"
+    },
+    "ve__snli_ve_test_0014__source__018": {
+      "job_sha256": "f5452989033165670bd9206f2abf6e50a4065b54c660f8af2fe71f2f0887a375",
+      "sha256": "90563050d335873d3430a83cc6e4f65695dfffb94b3a9cc4c8949b81f7075b11",
+      "bytes": 140528,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.336268+00:00"
+    },
+    "ve__snli_ve_test_0014__source__019": {
+      "job_sha256": "0a76a82b9a97442013b4ef2d886285879b138d313d048880f3b64f5291e46b3e",
+      "sha256": "c43c32eb48451c1705d3da3d75b51f2de0e1f85b94d713988ed8ea297ec5ddf2",
+      "bytes": 135078,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.385555+00:00"
+    },
+    "ve__snli_ve_test_0014__target__000": {
+      "job_sha256": "e929cfa8aef808d998050bb2effd54e71ba3966419525bd8ab73cd6e00a22f13",
+      "sha256": "285e103eb2eedd9106d60bb329dfcb2fb76b4b4857542864b2cca40e09161b9e",
+      "bytes": 128567,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.431812+00:00"
+    },
+    "ve__snli_ve_test_0014__target__001": {
+      "job_sha256": "b904a8f617a25f35f0cb1e4c1631011be026ca2680b76b8f7edcca02e05a6810",
+      "sha256": "be7a70eec88b1894556e3f4c866d91d4f78380c6a125ca69ae712b06ec6f49d5",
+      "bytes": 152619,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.476640+00:00"
+    },
+    "ve__snli_ve_test_0014__target__002": {
+      "job_sha256": "b4f36042c812431d6d15de21920eaea3f4e0ab59e0e127ce49774b2719a0243c",
+      "sha256": "3c036d9082ef3a47a9fa50fe37dda0aa335f695757418e7c494fd8632928caef",
+      "bytes": 138744,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.519322+00:00"
+    },
+    "ve__snli_ve_test_0014__target__003": {
+      "job_sha256": "585eb99db1c750b55e2ffee298aee99eb67b71fe9d923aa12c86664d5068db2a",
+      "sha256": "698012aa9b892abf7cca5d65e27dff1e5d348f8c9809000ea319a6a68718c3e1",
+      "bytes": 132048,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.563421+00:00"
+    },
+    "ve__snli_ve_test_0014__target__004": {
+      "job_sha256": "073a4d6c9e6d0a169061d81c34e8bfa33c0ef26d222dbb90b7b7bd92620a244a",
+      "sha256": "3edbf3ec9db997f47e4983782ccfd9e9f3bc0e99dee89101bf3d303e15032057",
+      "bytes": 137183,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.606478+00:00"
+    },
+    "ve__snli_ve_test_0014__target__005": {
+      "job_sha256": "c482bc223c360768f3a0e2795e1a2caaf855fbbcb4a2a5aae7ac5a0d9b938b7f",
+      "sha256": "2a33af0c96b2e0876dbbdecc41013b0381990073f126ddeed1f80226444b3b11",
+      "bytes": 124894,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.649778+00:00"
+    },
+    "ve__snli_ve_test_0014__target__006": {
+      "job_sha256": "b84c90cd38b6173296d41ca72dfe9e7c6ce09d865bd813ad7b6b3e4131d092b3",
+      "sha256": "bc1596071988fcae65015633ee33a260c01fa665aeecd17b37c1381a976046c2",
+      "bytes": 145591,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.685455+00:00"
+    },
+    "ve__snli_ve_test_0014__target__007": {
+      "job_sha256": "7d103ab69ab32343225dd38415169879ed4b88be08694ea26adc2769727cdfef",
+      "sha256": "b87b1855b0620c9771d6656c5554b7541c365f1dca1120666402381860be0bc7",
+      "bytes": 133177,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.736423+00:00"
+    },
+    "ve__snli_ve_test_0014__target__008": {
+      "job_sha256": "a6c07e480dbc7619752cfdf80291327a4a2fe268620463f94f49301958403aef",
+      "sha256": "b29395a4defbac7e1c8ab17a47e725e8f5bdd5e9bfaca0a1e3e3fe2450f4367a",
+      "bytes": 130511,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.773999+00:00"
+    },
+    "ve__snli_ve_test_0014__target__009": {
+      "job_sha256": "263a4d26db6ef5b1edc2d837263f1881b092373876a434cf5b706472b90487b7",
+      "sha256": "7a643d27d9e2ef6551c91926197b915b66a6523d22f02a0cb59b593d3afcdf8d",
+      "bytes": 160763,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.812023+00:00"
+    },
+    "ve__snli_ve_test_0014__target__010": {
+      "job_sha256": "75bb5c88ba7f619895e1a324e9440c064a9f46eed15e4926c11f15f77de96d28",
+      "sha256": "026190f322d5ec6f440ff9bc51f066723ccc70a04b3a4328be6b26df5052a5c4",
+      "bytes": 146208,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.848593+00:00"
+    },
+    "ve__snli_ve_test_0014__target__011": {
+      "job_sha256": "1874860518f94b3d5b4725cf782f9953a271cf05ddc168e15d942bb6fcdc6a2d",
+      "sha256": "9be27715b8b68ad87bf22854837898573c53ce83ad1d3e79128146c1197e3aea",
+      "bytes": 171730,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.890362+00:00"
+    },
+    "ve__snli_ve_test_0014__target__012": {
+      "job_sha256": "d5312439146d5fdd19bb0f8ddc50e008bbcda3b5b30844623933c9c099b23569",
+      "sha256": "82185249dce31a86ee91534e7e70f02f4734f901582390d53e3309baba559988",
+      "bytes": 142080,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.934102+00:00"
+    },
+    "ve__snli_ve_test_0014__target__013": {
+      "job_sha256": "2ed5db18c7df61450c18ad19616c220115a42b7413403c68ec8f60635bfcbb7b",
+      "sha256": "f376cb64973cbaa1973081d39fada94b16548a96f9802fb3cf9d458c24092b50",
+      "bytes": 144388,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:53.973069+00:00"
+    },
+    "ve__snli_ve_test_0014__target__014": {
+      "job_sha256": "773500db52979c79a7c735b390ff2095df8f33c51de3442e98107457cb262040",
+      "sha256": "52f0c24b2b7751526135cf48e54fe6c8d7615e1b28454081cf27e44d20e3afde",
+      "bytes": 142311,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:54.019182+00:00"
+    },
+    "ve__snli_ve_test_0014__target__015": {
+      "job_sha256": "2fe8f1f54f3f7bcf5f0c28642edf677dbc52a783ba0cec3387a0c497b8dedb4f",
+      "sha256": "8e29dcb8f1c62f5fdabc9d300ba12bb2e713e9561f7c1a34763dd54571dc5fdf",
+      "bytes": 135842,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:54.065083+00:00"
+    },
+    "ve__snli_ve_test_0014__target__016": {
+      "job_sha256": "ea8a3aadc3b2200e6645583b5783bf0d9485faeecf87a667288ca86bdabd0fcb",
+      "sha256": "77baa4042f1b43abbf3f110fae42ed995d0f4bc24e3f17c950bf9a8ff88be770",
+      "bytes": 138175,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:54.108996+00:00"
+    },
+    "ve__snli_ve_test_0014__target__017": {
+      "job_sha256": "e30678cf003df7a0295b29dbbcaaaaf7e45672d1dd391799b9ee28ef34787f17",
+      "sha256": "26d91ca64711eb1c78219b891bba4d8263dcf108fcfb3895186a8e37fc577a97",
+      "bytes": 156612,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:54.153872+00:00"
+    },
+    "ve__snli_ve_test_0014__target__018": {
+      "job_sha256": "3d89fefdfcffc8467833bd119d881ec3bc7a08e7fda629607da03d8e0a421f05",
+      "sha256": "52b965a114ff4df8f09cc604ce11222897eac72ed75fe1dc690d44f7cde17bc6",
+      "bytes": 138162,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:54.193404+00:00"
+    },
+    "ve__snli_ve_test_0014__target__019": {
+      "job_sha256": "972cce95b1f2122488e11529c24fd85ee42b835de5ba71f6cc5a64823b01fabd",
+      "sha256": "0ea524f1ab0d59aff5fd2d9fc2db646129b83e1164dd51a71671e9ab3b1f8b74",
+      "bytes": 153079,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171023_b199cc99",
+      "batch_size": 40,
+      "batch_sec": 27.719115413725376,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.841796875,
+      "generated_utc": "2026-10-25T17:41:54.235740+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:41:54.235762+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

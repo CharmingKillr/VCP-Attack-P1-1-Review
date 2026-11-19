@@ -1,0 +1,1000 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "3db6dbbbcf9578cc974eadf606ffb0a926ccd5a8e8a5cdc907c67217c3596703",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "f8085a23fd83cfcea3c8ee2cf5d65f5623578ae80aebff4d05d927239bce3f49",
+      "notes": "Original prompt banks showed only two adult women and did not express the premise of three girls; targets also lacked reunion/memorial context. Rewrote source as three girls walking on a wooded wooden bridge, without family/reunion cues. Rewrote targets as three sisters reuniting with memorial flowers/family photo to visually cue the hypothesis. The historical fact that their parents died cannot be proven from a static image; the prompt only supplies a memorial cue, so this row remains intrinsically weak/ambiguous for visual evaluation.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR_WITH_LIMITATION",
+      "target_count": 20
+    },
+    "dataset": "SNLI-VE",
+    "jobs": [
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/000.png",
+        "index": 0,
+        "prompt": "Three girls walk together across a wooden bridge surrounded by leafy trees, seen from a distance.",
+        "prompt_sha256": "885351a908c42920ee3559ae1ee76a2b47e187dca5935af18f7996fc8457fa09",
+        "reference_id": "ve__snli_ve_test_0016__source__000",
+        "role": "source",
+        "seed": 737591207439261165
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/001.png",
+        "index": 1,
+        "prompt": "Three young girls cross a timber footbridge in a wooded park, walking side by side.",
+        "prompt_sha256": "a2a6b14f810281451bfd21b9018582a7631d88b60ff93059aafe41f4e7de4bbc",
+        "reference_id": "ve__snli_ve_test_0016__source__001",
+        "role": "source",
+        "seed": 187197387913320487
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/002.png",
+        "index": 2,
+        "prompt": "Medium shot of three girls walking over a wooden garden bridge with green trees behind them.",
+        "prompt_sha256": "754aebe223e72e367fc1280ce33f7556e373552fcb10f765d19f3c40514ff7c9",
+        "reference_id": "ve__snli_ve_test_0016__source__002",
+        "role": "source",
+        "seed": 976462621659408038
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/003.png",
+        "index": 3,
+        "prompt": "Wide view of three girls crossing a rustic wooden bridge among tall trees and ferns.",
+        "prompt_sha256": "9250e4186d05d5d118fed3d282e37aec44b420696b12dfcb4feac617b2168995",
+        "reference_id": "ve__snli_ve_test_0016__source__003",
+        "role": "source",
+        "seed": 148424210049649738
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/004.png",
+        "index": 4,
+        "prompt": "Three girls walk along a tree-lined wooden bridge in soft daylight, viewed from the side.",
+        "prompt_sha256": "a0aeb9747b83657981694560e9b461e7b5198d1f1b9d175af7f05a9e2adde096",
+        "reference_id": "ve__snli_ve_test_0016__source__004",
+        "role": "source",
+        "seed": 180041209649139141
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/005.png",
+        "index": 5,
+        "prompt": "A candid scene of three girls crossing a wooden bridge above a small stream in a forest.",
+        "prompt_sha256": "a186034391ddc4452916c6aca973b6a6c8a8dcf0916987e147d8cd814848fa91",
+        "reference_id": "ve__snli_ve_test_0016__source__005",
+        "role": "source",
+        "seed": 610580111906506574
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/006.png",
+        "index": 6,
+        "prompt": "Three girls in casual jackets walk across a timber bridge surrounded by dense greenery.",
+        "prompt_sha256": "14a1c7d028ca34ef88be18a36da140330d55dd94fc5b1e755e4759fff6f7756d",
+        "reference_id": "ve__snli_ve_test_0016__source__006",
+        "role": "source",
+        "seed": 425086885680131427
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/007.png",
+        "index": 7,
+        "prompt": "A wooden bridge through a wooded park with three girls walking across it under an overcast sky.",
+        "prompt_sha256": "731090d6917441b49992f617febd7e3c26bab03e406b7c0db91778e6ca9508c3",
+        "reference_id": "ve__snli_ve_test_0016__source__007",
+        "role": "source",
+        "seed": 364747640249580175
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/008.png",
+        "index": 8,
+        "prompt": "Close view of three girls walking together on a wooden bridge, trees visible around the railings.",
+        "prompt_sha256": "a2d5afbd12513715ca81210b43965373a768feb20f0242f4cc29f2d40eeb841b",
+        "reference_id": "ve__snli_ve_test_0016__source__008",
+        "role": "source",
+        "seed": 261134501968069461
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/009.png",
+        "index": 9,
+        "prompt": "Three girls cross a wooden footbridge in a forest, with moss and foliage along the banks.",
+        "prompt_sha256": "8a5f860e4557b4fe89860afb4e85db0a6849856b6635439454ad11691d8cce89",
+        "reference_id": "ve__snli_ve_test_0016__source__009",
+        "role": "source",
+        "seed": 696511699444992287
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/010.png",
+        "index": 10,
+        "prompt": "A trio of girls walks across a wooden garden bridge framed by trees and flowers.",
+        "prompt_sha256": "004151be96d608014ea83e899fa5121bd9890051b931bd9429f05db3b365d9e8",
+        "reference_id": "ve__snli_ve_test_0016__source__010",
+        "role": "source",
+        "seed": 995702483716230223
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/011.png",
+        "index": 11,
+        "prompt": "Three girls walk across a wooden bridge, one pointing toward the path ahead, woodland in the background.",
+        "prompt_sha256": "32356e45175840bf105ffafccc86460b1f831ac7c3b06ec94a29dd8917c566b9",
+        "reference_id": "ve__snli_ve_test_0016__source__011",
+        "role": "source",
+        "seed": 301833867162362862
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/012.png",
+        "index": 12,
+        "prompt": "Medium view of three girls crossing a timber bridge in a park, with a trail beyond it.",
+        "prompt_sha256": "9d2666064d9bae6fd9b377d8c49af23cdb07be135f2f8c1692c4a2c915099638",
+        "reference_id": "ve__snli_ve_test_0016__source__012",
+        "role": "source",
+        "seed": 234633378529537960
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/013.png",
+        "index": 13,
+        "prompt": "Wide angle of three girls walking over a wooden bridge spanning a narrow creek beneath trees.",
+        "prompt_sha256": "6ff18f151f8d675fca64767c886383a7e3152cd600caaee3e5329f9d539a4b27",
+        "reference_id": "ve__snli_ve_test_0016__source__013",
+        "role": "source",
+        "seed": 888524575083135823
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/014.png",
+        "index": 14,
+        "prompt": "Three girls walk across a wooden bridge in a quiet forest, captured in natural light.",
+        "prompt_sha256": "a62d7acd12a972704080d27044c4d509acc5f6e29ae43dcbf361d60718b6e340",
+        "reference_id": "ve__snli_ve_test_0016__source__014",
+        "role": "source",
+        "seed": 579180820132789985
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/015.png",
+        "index": 15,
+        "prompt": "A trio of girls in colorful coats crosses a wooden bridge with a stream and trees below.",
+        "prompt_sha256": "4dc34a57ff80996a8bbd36e573f811a2c687d504ee70a05386c4d8d975de6741",
+        "reference_id": "ve__snli_ve_test_0016__source__015",
+        "role": "source",
+        "seed": 59967873406421299
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/016.png",
+        "index": 16,
+        "prompt": "Side view of three girls walking along a timber bridge surrounded by bushes and tree trunks.",
+        "prompt_sha256": "66e5209bab26764d25d86810dcc0193ece877a66cfdd086d4d3ab88e2b36b54a",
+        "reference_id": "ve__snli_ve_test_0016__source__016",
+        "role": "source",
+        "seed": 908199790735275048
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/017.png",
+        "index": 17,
+        "prompt": "Three girls cross a wooden bridge at golden hour, with long shadows among the trees.",
+        "prompt_sha256": "e4f66b16c7df6ca16e71dfb120a1d9a2385eb17d055ae40311defea3720a43b2",
+        "reference_id": "ve__snli_ve_test_0016__source__017",
+        "role": "source",
+        "seed": 202181057557409194
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/018.png",
+        "index": 18,
+        "prompt": "A close framing of three girls walking on a wooden bridge, hands on the railing and trees behind.",
+        "prompt_sha256": "f60543d0a438fe9475e55bffca0b5f107c74a2c378b2fc7ff08ee7c307a43b0c",
+        "reference_id": "ve__snli_ve_test_0016__source__018",
+        "role": "source",
+        "seed": 42227200543801926
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/source/019.png",
+        "index": 19,
+        "prompt": "Three girls walk together across a rustic bridge in a wooded park, with minimal background detail.",
+        "prompt_sha256": "61d9e97be4d6e6b994ccd53d682759c80895ef18650b59d0a84a4cbb46af7534",
+        "reference_id": "ve__snli_ve_test_0016__source__019",
+        "role": "source",
+        "seed": 61586545823768142
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/000.png",
+        "index": 0,
+        "prompt": "Three sisters reunite in an emotional embrace on a wooded wooden bridge, beside a small family memorial with flowers and a framed photograph.",
+        "prompt_sha256": "8decb3db9be52b8a76d460f1bc3d246d94d0ab0189e1bf639886d4cff8104b81",
+        "reference_id": "ve__snli_ve_test_0016__target__000",
+        "role": "target",
+        "seed": 931710166620972430
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/001.png",
+        "index": 1,
+        "prompt": "A reunion portrait of three sisters hugging on a timber bridge among trees, with memorial flowers arranged by the railing.",
+        "prompt_sha256": "0b4f178519e8de8d31432d86b84620313eae8f3fd41e1abaca8b01f8860e8bda",
+        "reference_id": "ve__snli_ve_test_0016__target__001",
+        "role": "target",
+        "seed": 1149095371748415307
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/002.png",
+        "index": 2,
+        "prompt": "Three sisters meet again on a forest bridge and embrace; a quiet tribute of flowers and a framed family photo rests nearby.",
+        "prompt_sha256": "b927afb999191d0bf0d897be6bd7a64ba6cef59a31ebfe31d5e622debb0dadd0",
+        "reference_id": "ve__snli_ve_test_0016__target__002",
+        "role": "target",
+        "seed": 489493125802048865
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/003.png",
+        "index": 3,
+        "prompt": "Wide scene of three sisters reuniting on a wooden bridge, holding one another with a small memorial display beside them.",
+        "prompt_sha256": "ef3377978aa98c75c14e0ac2b163741a9e636626e9ea4160d17d8f7d18c55101",
+        "reference_id": "ve__snli_ve_test_0016__target__003",
+        "role": "target",
+        "seed": 755911427424192240
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/004.png",
+        "index": 4,
+        "prompt": "Three sisters embrace on a tree-lined bridge during a reunion, with flowers placed near a family remembrance photograph.",
+        "prompt_sha256": "a8e053ab8d80d5dc5e7552651c23124b6062d57cfbf15532897f2a29211fbe72",
+        "reference_id": "ve__snli_ve_test_0016__target__004",
+        "role": "target",
+        "seed": 148789275204570601
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/005.png",
+        "index": 5,
+        "prompt": "A candid reunion of three sisters on a wooden footbridge, standing close beside a modest memorial arrangement.",
+        "prompt_sha256": "83137b7c68b89a54284b100d92d8e6a3d44b69167740943013a5508262778890",
+        "reference_id": "ve__snli_ve_test_0016__target__005",
+        "role": "target",
+        "seed": 594970982293633268
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/006.png",
+        "index": 6,
+        "prompt": "Three sisters greet one another with a warm embrace on a bridge surrounded by foliage, flowers and a framed family picture at the rail.",
+        "prompt_sha256": "bf8fb4421e7261b16e4b9403f6f2ed8adf62721d5d8ddb09821c7899c875939d",
+        "reference_id": "ve__snli_ve_test_0016__target__006",
+        "role": "target",
+        "seed": 116365134325088222
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/007.png",
+        "index": 7,
+        "prompt": "A family reunion scene on a rustic bridge: three sisters hug, with a small memorial bouquet and photograph nearby.",
+        "prompt_sha256": "44ad59dfd97a7e13f60065a6acaab548d54d12c201e39d1a3c82c5a15dfe5d19",
+        "reference_id": "ve__snli_ve_test_0016__target__007",
+        "role": "target",
+        "seed": 704226005773773074
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/008.png",
+        "index": 8,
+        "prompt": "Close view of three sisters embracing on a wooden bridge, a remembrance bouquet visible beside the railing.",
+        "prompt_sha256": "bac7ca698f6037c578dca874088545e989a4196824ef64dc041d850acb07c335",
+        "reference_id": "ve__snli_ve_test_0016__target__008",
+        "role": "target",
+        "seed": 323845513473625871
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/009.png",
+        "index": 9,
+        "prompt": "Three sisters reunite on a forest footbridge, one holding a framed family photograph as flowers sit nearby.",
+        "prompt_sha256": "03b67d07bcff080116b5dccff81d96152efba22a296ecfc2005289275e4348bb",
+        "reference_id": "ve__snli_ve_test_0016__target__009",
+        "role": "target",
+        "seed": 697707862874154463
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/010.png",
+        "index": 10,
+        "prompt": "A trio of sisters meets again on a wooden garden bridge and hugs beside a small family memorial.",
+        "prompt_sha256": "1d194ae3ddf2c222f9416ac91c567d9724070037d8a297d45eeca2f2712c651c",
+        "reference_id": "ve__snli_ve_test_0016__target__010",
+        "role": "target",
+        "seed": 764075605481018802
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/011.png",
+        "index": 11,
+        "prompt": "Three sisters embrace on a park bridge, with a quiet memorial of flowers and a family photo set near the path.",
+        "prompt_sha256": "45be1e3d7ef7b28554ed47d66b62488d5117bc62f836a2add80c53bf3c4e7da7",
+        "reference_id": "ve__snli_ve_test_0016__target__011",
+        "role": "target",
+        "seed": 716753640866163148
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/012.png",
+        "index": 12,
+        "prompt": "Medium shot of three sisters reuniting on a timber bridge, holding hands and leaning together beside remembrance flowers.",
+        "prompt_sha256": "f8b415d95db3531090859628184a93c9be30a8bf90f8adc8aece292dc4226442",
+        "reference_id": "ve__snli_ve_test_0016__target__012",
+        "role": "target",
+        "seed": 317853704380204541
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/013.png",
+        "index": 13,
+        "prompt": "Three sisters reunite over a wooded creek on a wooden bridge, with a small framed family photo and bouquet at the rail.",
+        "prompt_sha256": "bdb6405bc76e8406028c96b8e7b456ac7fa2d3b2451f75a2f7191cfcffcd727a",
+        "reference_id": "ve__snli_ve_test_0016__target__013",
+        "role": "target",
+        "seed": 61259917120030204
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/014.png",
+        "index": 14,
+        "prompt": "A candid photo of three sisters hugging on a bridge, with a simple memorial bouquet placed on the bridge railing.",
+        "prompt_sha256": "53259570e7a356dfc829b1644d23bb64e77dd24c65949ee115a5e13e56c3c144",
+        "reference_id": "ve__snli_ve_test_0016__target__014",
+        "role": "target",
+        "seed": 50873184201581989
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/015.png",
+        "index": 15,
+        "prompt": "Three sisters stand together after a reunion on a wooden bridge, embracing beside flowers and a family remembrance picture.",
+        "prompt_sha256": "76355cc848ea8a9270ff9ee39bfa63a0402c8bed2d9f89c51de2c1ee98ca08af",
+        "reference_id": "ve__snli_ve_test_0016__target__015",
+        "role": "target",
+        "seed": 1118354668542548528
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/016.png",
+        "index": 16,
+        "prompt": "Side view of three sisters meeting again on a bridge, arms around each other with a small memorial arrangement nearby.",
+        "prompt_sha256": "709d25d4a22d0dc0e8ff7371bbb6634f024b17819161981fa8705e30ca72433f",
+        "reference_id": "ve__snli_ve_test_0016__target__016",
+        "role": "target",
+        "seed": 74698748226466125
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/017.png",
+        "index": 17,
+        "prompt": "Three sisters reunite at golden hour on a wooden bridge, embracing by a bouquet and framed family photograph.",
+        "prompt_sha256": "cd7b5c6c0490bfe0b91d6c54c86b48311874bb27d7f8eb0ba90eb4224190a9cc",
+        "reference_id": "ve__snli_ve_test_0016__target__017",
+        "role": "target",
+        "seed": 1107227725725693955
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/018.png",
+        "index": 18,
+        "prompt": "Close framing of three sisters holding one another on a bridge, with a remembrance bouquet visible in the background.",
+        "prompt_sha256": "b401bcc665cd2e55986fcdbf664207b89b5a0f0b3b925c30d7b8d1e6bd46f55a",
+        "reference_id": "ve__snli_ve_test_0016__target__018",
+        "role": "target",
+        "seed": 727330760359929945
+      },
+      {
+        "image": "samples/ve/snli_ve_test_0016/target/019.png",
+        "index": 19,
+        "prompt": "Three sisters meet and embrace on a rustic wooded bridge beside a modest family memorial display.",
+        "prompt_sha256": "40a7eb5f2359b7780bef025b9dca3f9c9c013a0e510639b255e07e4dec9afe31",
+        "reference_id": "ve__snli_ve_test_0016__target__019",
+        "role": "target",
+        "seed": 1147380374103944593
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/flickr30k-images/1160441615.jpg",
+    "original_image_sha256": "aa7189afd2453e957758aa4a4183f579326c26532215ae886aa17d878176d124",
+    "prompt_review_status": "assistant_review_pass_after_repair_with_limitation",
+    "sample_fingerprint": "3db6dbbbcf9578cc974eadf606ffb0a926ccd5a8e8a5cdc907c67217c3596703",
+    "sample_id": "snli_ve_test_0016",
+    "shard": 16,
+    "split": "test",
+    "task": "ve",
+    "task_fields": {
+      "hypothesis": "These sisters reuniting on the bridge where there parents died",
+      "premise_caption": "Three girls are walking across a bridge covered with wood and surrounded by trees.",
+      "source_label": "neutral",
+      "target_label": "entailment"
+    },
+    "task_type": "snli_ve"
+  },
+  "generated": {
+    "ve__snli_ve_test_0016__source__000": {
+      "job_sha256": "cf10538458941e52841d9752b184db9bac8b934b8377d20f780bb9d2e2655084",
+      "sha256": "d8b6579feb92389f5732bed57c41c5fc7a1cea637f0eac540b9f22c5515446d1",
+      "bytes": 192587,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:43.582049+00:00"
+    },
+    "ve__snli_ve_test_0016__source__001": {
+      "job_sha256": "20989f4abfbb9d4a1222d529b0adf02dd1aaa279cd107f2621c8862a9d57427d",
+      "sha256": "198c099d4c632dddff129e67b9e8191ef6e43afed42ad288cfc12a1eaf54227f",
+      "bytes": 177616,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:43.625890+00:00"
+    },
+    "ve__snli_ve_test_0016__source__002": {
+      "job_sha256": "07d7a73442ea178e27c6a9d65417c0e82c50c8ae56ee47ae140bc5438d43de38",
+      "sha256": "e5720a939b241ead0d8b9fa0be48b6b5d980bde332c29dfee0cfe2e97e103e37",
+      "bytes": 196249,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:43.668190+00:00"
+    },
+    "ve__snli_ve_test_0016__source__003": {
+      "job_sha256": "7c9c26b8ca9cd8bc2d72ae37cad1ed29d2146fd8b7fdafc496e917d279f751db",
+      "sha256": "6ea986260ac022b85191e2c1a1f5add4e0790af73bc258526e45ac7f1f3fc280",
+      "bytes": 194044,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:43.706701+00:00"
+    },
+    "ve__snli_ve_test_0016__source__004": {
+      "job_sha256": "c26e1e9e8380f7d910c070934fae7084566093042f6f54d28e2ad1b531a127f3",
+      "sha256": "223732f3e81037e2014d2a30082b25b3aa31c61c25b4a18ecf916a68070549da",
+      "bytes": 177195,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:43.749205+00:00"
+    },
+    "ve__snli_ve_test_0016__source__005": {
+      "job_sha256": "67033ded10e1877a9ec6bdb74776f5078e26b075d496ced660cad4e72ffd0565",
+      "sha256": "b22c996ff1cdc8ab05730ce90105e4f0ecc040628225342a5557fe17c734b059",
+      "bytes": 200785,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:43.798334+00:00"
+    },
+    "ve__snli_ve_test_0016__source__006": {
+      "job_sha256": "f80b21fee907a66d88d9b5ef0f2db6595d7eb52afccf2b3bb58ab4dd3a46bd80",
+      "sha256": "d3685017f271d1be51572f10c491a6b20ed3a55cdc9e838ddae71c74f7d8bb40",
+      "bytes": 191243,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:43.841497+00:00"
+    },
+    "ve__snli_ve_test_0016__source__007": {
+      "job_sha256": "50ae97eb09fb086ce2ba897333c8c6b2e659bbd6ce09ff8cfcbf74e6022dc020",
+      "sha256": "70f3cdc77b61eeba109052647c7685bdc8287c9be6091581f5e542b84b53e4da",
+      "bytes": 182852,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:43.883510+00:00"
+    },
+    "ve__snli_ve_test_0016__source__008": {
+      "job_sha256": "fa275571ee1ff6f496d11a93c8850c51c1201a5bef9e80633a20f12d4cb1602c",
+      "sha256": "b3861e0f6db26416eb7d543ed486e518b99df10e17e809742cb34c46228995a9",
+      "bytes": 180516,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:43.926983+00:00"
+    },
+    "ve__snli_ve_test_0016__source__009": {
+      "job_sha256": "51916303f1641ed4cc9e750e7f8c088ac2df75982cb9d5c48ca3f15973b9891d",
+      "sha256": "fa9cb2fff8f7958742f7825dc0de7fdb56015e25807dd537f69a968bed78bea2",
+      "bytes": 192028,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:43.972998+00:00"
+    },
+    "ve__snli_ve_test_0016__source__010": {
+      "job_sha256": "0c62b00c4af897f6e860df16d3c63353a963f0339e709c4b408447bf4e3f2ba2",
+      "sha256": "77b8304349c2293a827192d5be320e57be405a289967e119973b4264c3391f25",
+      "bytes": 195740,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.014946+00:00"
+    },
+    "ve__snli_ve_test_0016__source__011": {
+      "job_sha256": "ae89da64f186cbeb95514bbdde730c55ebcac33df386ad5826ca28bb4a87c3e5",
+      "sha256": "048bdbf3ab1991070cb2f36099425e5b775e248c1bf571de78031ebbcee7b420",
+      "bytes": 180705,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.061115+00:00"
+    },
+    "ve__snli_ve_test_0016__source__012": {
+      "job_sha256": "e2c13c9133e66a4d5c4eadd582c5f0d7e5193f8613336b813d1598603ce22071",
+      "sha256": "9ac52a240598f7f352b86c45e1ead5e009858133795f570b3834c4a785c179cf",
+      "bytes": 174767,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.103941+00:00"
+    },
+    "ve__snli_ve_test_0016__source__013": {
+      "job_sha256": "fcb4ad47542ab500a53d4746c84cea193ad8d85312319071e7e356eb416e3d90",
+      "sha256": "eba6c3569f2a162a98fe2472d729a906382a56ec6d2412bebdc4fcb491be16bc",
+      "bytes": 190572,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.149440+00:00"
+    },
+    "ve__snli_ve_test_0016__source__014": {
+      "job_sha256": "e80835c8cc3587fc6c0178440888f46db50efde5e8f6ffb19b652775b47845d9",
+      "sha256": "ad2c34a9a0b0acfd7366e462b18ed0f57843a63ab2b3660d99ca4f371ea3e983",
+      "bytes": 172996,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.189515+00:00"
+    },
+    "ve__snli_ve_test_0016__source__015": {
+      "job_sha256": "cd46d5cfac42ff6aae07df9e4f3232d22c30285d0f7d782e2bcf4f6b0fd22323",
+      "sha256": "0cb219abe273cf45b9faeab1649a2ffda3decca39d5222b960f2639bf96c60ec",
+      "bytes": 183259,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.229997+00:00"
+    },
+    "ve__snli_ve_test_0016__source__016": {
+      "job_sha256": "9285047699baf95577cf237d66827e78fdceff5bb5acce0e9377e19c6ecdd383",
+      "sha256": "570e505871e1b3d371562fe957594170a0c7a6104796e94d6d29abf8dc692ef0",
+      "bytes": 196497,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.272742+00:00"
+    },
+    "ve__snli_ve_test_0016__source__017": {
+      "job_sha256": "e707f0a41b5b198d6d28fac67566f17e3a7d5c0a253a419e8c69d1288c3ef17c",
+      "sha256": "9531ae52ce218f0d1ec5d44346487ca9513aa83795b7c44a2f1d158444853003",
+      "bytes": 162530,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.315566+00:00"
+    },
+    "ve__snli_ve_test_0016__source__018": {
+      "job_sha256": "29325de0016b12350904d4566b1d803780af9aa3d7feddac58bb1f27e22f833e",
+      "sha256": "09257c1c44b54324a0733e7c15a0855770de7b903e8a3bf6bf8f31ab154ee55d",
+      "bytes": 177139,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.357201+00:00"
+    },
+    "ve__snli_ve_test_0016__source__019": {
+      "job_sha256": "e7a102856f0a91f204a5da8cf3d09e13c5b5ead783a3932788a82e983e73bc2d",
+      "sha256": "c501742a71a5d502d8a9f799eebf57bc0e4baada96b9638b6c11a0da1793b60d",
+      "bytes": 148960,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.396395+00:00"
+    },
+    "ve__snli_ve_test_0016__target__000": {
+      "job_sha256": "b44794d015cb9c60841e8e3a84daf621a2618edf0a36fc4f454034b3844aeae8",
+      "sha256": "487361268689188030ce17b09300ee4caf8bd44e4d9d8d8be0d989e5e59cb171",
+      "bytes": 172393,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.444263+00:00"
+    },
+    "ve__snli_ve_test_0016__target__001": {
+      "job_sha256": "27fb1281fa58eb9929da38086d6c2fd9b0bf30fb98d74032cd9141dcffdb1123",
+      "sha256": "ecaf3e12314cba8a39f04bf29458dff29e5d22c574dc5fbad83722ddc0b8bf19",
+      "bytes": 188258,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.492773+00:00"
+    },
+    "ve__snli_ve_test_0016__target__002": {
+      "job_sha256": "e3179b41fc6d7ab4e7a326b9340c9fbfcac3b079952c0790bd38acbf77676671",
+      "sha256": "65afb11dd0d8be46a1be1d4a4851adf49c04ff9067b36f7a065684007cd39466",
+      "bytes": 173501,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.534326+00:00"
+    },
+    "ve__snli_ve_test_0016__target__003": {
+      "job_sha256": "2eec2c0c63cce964cf06ed9c77394a39443d802ae17219278d5a4fee51859f9e",
+      "sha256": "65afd9e4d15458614b027db808102785933188b606d50b2544346ffae97493ff",
+      "bytes": 107517,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.570230+00:00"
+    },
+    "ve__snli_ve_test_0016__target__004": {
+      "job_sha256": "71d89e7eea651447c06e34f8cc53114dbdb7121903751e098fbc80ff6a646153",
+      "sha256": "d1f4e9bf109487fa779d3defd60a0de23e43cd7b2cd2c8e509935dc22787e3b2",
+      "bytes": 176480,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.620088+00:00"
+    },
+    "ve__snli_ve_test_0016__target__005": {
+      "job_sha256": "6e09a73d19c1b934b0738188a91f540a73f9c07269a0fcc3f815f81a463b4c5b",
+      "sha256": "7b00e21b0c4671a2aebbe5bbb2e85418aff2d6912540a933d6043b15e9469fa0",
+      "bytes": 184555,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.662425+00:00"
+    },
+    "ve__snli_ve_test_0016__target__006": {
+      "job_sha256": "654bf884180409439b28b41a1ee6a8d340253e56f448cf2fcac7e1c1d924640f",
+      "sha256": "ee33f95b691b7d63533de3f5b9dbf7fe1cbd586d23409531165f9ee5c112e051",
+      "bytes": 176184,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.698681+00:00"
+    },
+    "ve__snli_ve_test_0016__target__007": {
+      "job_sha256": "548005d97b2a6b2d41dbc1190aac1f5865704edec62cabd515651446e565357e",
+      "sha256": "7d00346bede8cca98059c88755fb1d0bd523757043d944557938c1384427a0b1",
+      "bytes": 174017,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.740546+00:00"
+    },
+    "ve__snli_ve_test_0016__target__008": {
+      "job_sha256": "c71693bc0f3201b621b0c5f839cc7a17281006c209b621c7116fbad307c1239f",
+      "sha256": "7ad828bd9c1860f386133e5547eb16f97c5fc2f8d86e5d6c72f756a8083e1954",
+      "bytes": 165372,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.794547+00:00"
+    },
+    "ve__snli_ve_test_0016__target__009": {
+      "job_sha256": "10c16f365e772f7e051f2a57699d52a9d546a7e109770036cf3b9c3633a7168e",
+      "sha256": "e2c04768dfbbd9d6df9852e155fa32de8f545193a9050a3082d5e7cf008b27d5",
+      "bytes": 185107,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.837864+00:00"
+    },
+    "ve__snli_ve_test_0016__target__010": {
+      "job_sha256": "07f5d37ac9aba12e5f1aa250599b43d10f9a4bd5943db7e2d49092de7173217a",
+      "sha256": "06aadc2de0652fd448855cd39434bff758097f70cd81fc96c7138583a357298d",
+      "bytes": 190117,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.882167+00:00"
+    },
+    "ve__snli_ve_test_0016__target__011": {
+      "job_sha256": "6a149752b450ebe8f1c6a416afbdd48950a600565e5e9cc23493fef7b57110da",
+      "sha256": "7c3f29bcd96eed8122080b50ff30e6aef0903c15dbae2b0a55e0ad308f4308d2",
+      "bytes": 161800,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.933385+00:00"
+    },
+    "ve__snli_ve_test_0016__target__012": {
+      "job_sha256": "29befe74f90e51084564e7b1e1edfe8c0c45677a9e5b731da64e49adeba66c74",
+      "sha256": "3951196290184c7c336d2cae39b6d3f4f35607be77c389252445b042ae6e6ce6",
+      "bytes": 177939,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:44.978662+00:00"
+    },
+    "ve__snli_ve_test_0016__target__013": {
+      "job_sha256": "812de1d848c42873fe512bfd1b6f43038d520b6a965b177d7abb86054a54be11",
+      "sha256": "306f63b6872bbe07aba850532e7932d86b29a992d4fa79858913787602e6801c",
+      "bytes": 203082,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:45.024239+00:00"
+    },
+    "ve__snli_ve_test_0016__target__014": {
+      "job_sha256": "21b91fdaf952d8d3d2eeec75354f9f429283f42da0a1d3d5cbc8a0f652b638dd",
+      "sha256": "f8a30b9f5a9a1247c89ddac1481506845a624b4df36d698af8fc726136116e2f",
+      "bytes": 122706,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:45.065260+00:00"
+    },
+    "ve__snli_ve_test_0016__target__015": {
+      "job_sha256": "7558e1f87f002c5c8c289349dede1cb7f2ef94f1695ca29037a38181cfa70a7b",
+      "sha256": "382bf2f4a46b7692bdbf6252838333e177a9fb6da0e34ee07c9afbe5f7d941ab",
+      "bytes": 182256,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:45.117735+00:00"
+    },
+    "ve__snli_ve_test_0016__target__016": {
+      "job_sha256": "7b279a3967afd78533efe907d871292aafaf0adf9ad1df66ea9c334367d6c1b0",
+      "sha256": "fa9076bee4a216e9fab960aaddbb170cf382b8c9ce84fb1feacf9a5648e4f0e6",
+      "bytes": 140133,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:45.152929+00:00"
+    },
+    "ve__snli_ve_test_0016__target__017": {
+      "job_sha256": "7e1d98a6637e42a0accc148138a5acf458fa5349bdc0f30ef33be0f53448fdcb",
+      "sha256": "b9d5bdd75eeba80c70e6b82e75bb0a407e5ff671637b85481ffc3f522ab571e7",
+      "bytes": 141942,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:45.192873+00:00"
+    },
+    "ve__snli_ve_test_0016__target__018": {
+      "job_sha256": "66b6c5b02e6fadec05981f2a66a281535967f80f793d79b85533203af01a9d94",
+      "sha256": "6b3bc425aad6c3d9236b1fd786d2295512254b28d987f3522bf2a5ee2602c35d",
+      "bytes": 139076,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:45.231382+00:00"
+    },
+    "ve__snli_ve_test_0016__target__019": {
+      "job_sha256": "7878569c4e19632e0abb3432d5bef45131c13651a39c77b3a60e2649e6c850d1",
+      "sha256": "a9fd62d867970d5cbdc59af7379bf04a8be40ff238a84541eaf16ce0a5f3efb3",
+      "bytes": 186256,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T171001_c2e0ccbf",
+      "batch_size": 40,
+      "batch_sec": 27.957691460847855,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.845703125,
+      "generated_utc": "2026-10-25T17:48:45.270851+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:48:45.270872+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

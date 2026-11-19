@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "087d7e0781306b270ade3900b921bee0cfb48012ac3c9cba8f4ba3f4f19fea20",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "e3449241c408d1fbfbc87cfbc32660627ddab550b9f8af93ee692722140419b4",
+      "notes": "All 20 source prompts specify the plate text SV 6260 and all 20 targets SV 6261, consistently matching the license-number question and source/target answers. Exact alphanumeric rendering is a downstream image-generator risk, not a prompt-direction mismatch.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0001/source/000.png",
+        "index": 0,
+        "prompt": "A vintage motorcycle parked on asphalt near a white building, front fender plate clearly reading sv 6260.",
+        "prompt_sha256": "901837b577f23d357940b04da999c712fc1b83c4418b7400cdbbb93599afbfde",
+        "reference_id": "vqa__vqa_val_0001__source__000",
+        "role": "source",
+        "seed": 1057464647110500405
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a classic bike on a paved street, green bushes nearby, license plate sv 6260 visible.",
+        "prompt_sha256": "b337473b2eecf7bdc474f5f0a5f5fba8dfb85dc5eb81cfba9c4967f27f9b6781",
+        "reference_id": "vqa__vqa_val_0001__source__001",
+        "role": "source",
+        "seed": 1009676084514102785
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/002.png",
+        "index": 2,
+        "prompt": "Close-up of the front fender of a vintage motorcycle, black plate displaying sv 6260 in white text.",
+        "prompt_sha256": "08025b80f0a05cab23437c4686ba16de7d1df5aa6ed33cfd928633d0be322f46",
+        "reference_id": "vqa__vqa_val_0001__source__002",
+        "role": "source",
+        "seed": 657655214960541003
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/003.png",
+        "index": 3,
+        "prompt": "A motorcycle angled slightly on a driveway, fence in background, front plate sv 6260 fully legible.",
+        "prompt_sha256": "d68e0b43d2058fa9ee85f008ae68ce3d6ad7f75df7ad282bbe3e5253e24e33ee",
+        "reference_id": "vqa__vqa_val_0001__source__003",
+        "role": "source",
+        "seed": 782950515965380714
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a vintage motorcycle on a road, brick wall behind, plate sv 6260 sharp.",
+        "prompt_sha256": "a33c95ecad5334cdb5e4eb55f2f80a6d85966cdce428ee58757310b65613822f",
+        "reference_id": "vqa__vqa_val_0001__source__004",
+        "role": "source",
+        "seed": 1058993441948220435
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/005.png",
+        "index": 5,
+        "prompt": "Wide view of a motorcycle parked on asphalt, white building in distance, front plate sv 6260 clear.",
+        "prompt_sha256": "605953c1c4883793440f550e1e5c88343040bdb2a81e3ccc046e562b8adf3c0f",
+        "reference_id": "vqa__vqa_val_0001__source__005",
+        "role": "source",
+        "seed": 953651662742227423
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/006.png",
+        "index": 6,
+        "prompt": "Side angle of a classic motorcycle on a street, greenery nearby, license plate sv 6260 readable.",
+        "prompt_sha256": "fa1c0c61123c86a192a767199a2def43186b13c62988c111ec87c85b0f0ff287",
+        "reference_id": "vqa__vqa_val_0001__source__006",
+        "role": "source",
+        "seed": 196266835022014878
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/007.png",
+        "index": 7,
+        "prompt": "Vintage motorcycle on a driveway, small potted plant beside it, front fender plate sv 6260 distinct.",
+        "prompt_sha256": "6049d8744cc6dfb8e5e0a4a0cc1ca79b3bbdc42f8362105250ae907152cc44f0",
+        "reference_id": "vqa__vqa_val_0001__source__007",
+        "role": "source",
+        "seed": 692293428157864542
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a motorcycle parked on a road, brick wall background, plate sv 6260 unobstructed.",
+        "prompt_sha256": "330c15f43fcf1ece9529908a55f08fd682d358d6949d9d2f6f04aa193c11f7b1",
+        "reference_id": "vqa__vqa_val_0001__source__008",
+        "role": "source",
+        "seed": 151245598683467820
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/009.png",
+        "index": 9,
+        "prompt": "Another vintage motorcycle on asphalt, white building backdrop, front plate sv 6260 prominently displayed.",
+        "prompt_sha256": "2dc7df12a7005e88c3a83bac8b42da99684ee022405e9a9e8f027f46f1243f00",
+        "reference_id": "vqa__vqa_val_0001__source__009",
+        "role": "source",
+        "seed": 993630235132051989
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/010.png",
+        "index": 10,
+        "prompt": "Slight tilt view of a motorcycle on a paved street, bushes nearby, license plate sv 6260 visible.",
+        "prompt_sha256": "7dd674810cdb8a73775d38fda75c955cf763f08331a031e85e1c7a3eb3c0b1bd",
+        "reference_id": "vqa__vqa_val_0001__source__010",
+        "role": "source",
+        "seed": 653857990688740172
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/011.png",
+        "index": 11,
+        "prompt": "Medium framing of a classic bike on a driveway, fence behind, front plate sv 6260 clearly shown.",
+        "prompt_sha256": "0df79e232e1fd7eaad825ddf190301e5567f976aff4ecabfe8c90d782db47505",
+        "reference_id": "vqa__vqa_val_0001__source__011",
+        "role": "source",
+        "seed": 633822974305656259
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/012.png",
+        "index": 12,
+        "prompt": "Near view of a motorcycle front fender on a road, brick wall background, plate sv 6260 legible.",
+        "prompt_sha256": "39fe114cfd4fd77d61a931911f73d63483226f965d4faf0929361789ee236f3b",
+        "reference_id": "vqa__vqa_val_0001__source__012",
+        "role": "source",
+        "seed": 313889084665865863
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/013.png",
+        "index": 13,
+        "prompt": "Vintage motorcycle positioned on asphalt, white building in rear, front plate sv 6260 sharp and clear.",
+        "prompt_sha256": "25898b1e00bcc2a7f2173d12d60b82f46f872ddb1f8499d629a6aeb8bdeee1da",
+        "reference_id": "vqa__vqa_val_0001__source__013",
+        "role": "source",
+        "seed": 1074683092919490454
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/014.png",
+        "index": 14,
+        "prompt": "Gentle sunlight on a motorcycle parked on a street, green bushes, license plate sv 6260 readable.",
+        "prompt_sha256": "bd130e9030a24844699440d50bf888334dee7d8d0a45a21145106941148b3b94",
+        "reference_id": "vqa__vqa_val_0001__source__014",
+        "role": "source",
+        "seed": 489304165887837037
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/015.png",
+        "index": 15,
+        "prompt": "Broad crop of a motorcycle on a driveway, fence in background, front fender plate sv 6260 visible.",
+        "prompt_sha256": "db695c4d90ecc703637b45c56dbbaae27c0644c78876e4a8783b56686b7d6577",
+        "reference_id": "vqa__vqa_val_0001__source__015",
+        "role": "source",
+        "seed": 909209217699004647
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/016.png",
+        "index": 16,
+        "prompt": "Oblique side view of a classic motorcycle on a road, brick wall behind, plate sv 6260 distinct.",
+        "prompt_sha256": "49f555cc8ef408decc123782bd89d6880741a3125d078e477317e547402052fa",
+        "reference_id": "vqa__vqa_val_0001__source__016",
+        "role": "source",
+        "seed": 869182334350847722
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/017.png",
+        "index": 17,
+        "prompt": "Motorcycle on asphalt with a small sign nearby, white building backdrop, front plate sv 6260 clear.",
+        "prompt_sha256": "810de2fe430e179d59e6b12c9217868ff4161df29f5a5009782886100b3921b0",
+        "reference_id": "vqa__vqa_val_0001__source__017",
+        "role": "source",
+        "seed": 281347078647390215
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/018.png",
+        "index": 18,
+        "prompt": "Natural composition of a vintage motorcycle on a paved street, bushes, license plate sv 6260 shown.",
+        "prompt_sha256": "ad0712f6941a951a14d3f8a594804738d688bc1340a73b9f6d408b227300a4c1",
+        "reference_id": "vqa__vqa_val_0001__source__018",
+        "role": "source",
+        "seed": 657518239934339838
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/source/019.png",
+        "index": 19,
+        "prompt": "Classic motorcycle parked on a driveway, fence background, front plate sv 6260 plainly visible.",
+        "prompt_sha256": "58eda89789d7d42ababcde2f410038c991064d195094f4ce1cf02cca4f0b0633",
+        "reference_id": "vqa__vqa_val_0001__source__019",
+        "role": "source",
+        "seed": 965184371030095133
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/000.png",
+        "index": 0,
+        "prompt": "Vintage motorcycle parked on asphalt near a white building, front fender plate clearly reading sv 6261.",
+        "prompt_sha256": "07fe3ff29a1d55036bb4eb73bd6375b97d5f48b7812a887e7d95fce7ae2836a4",
+        "reference_id": "vqa__vqa_val_0001__target__000",
+        "role": "target",
+        "seed": 1150719287494831281
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a classic bike on a paved street, green bushes nearby, license plate sv 6261 visible.",
+        "prompt_sha256": "9fd024d44dd0a483fb53a119266bfe45ebc130f4c47033e8be280db9b484e69c",
+        "reference_id": "vqa__vqa_val_0001__target__001",
+        "role": "target",
+        "seed": 326108020355404201
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/002.png",
+        "index": 2,
+        "prompt": "Close-up of the front fender of a vintage motorcycle, black plate displaying sv 6261 in white text.",
+        "prompt_sha256": "189ec18af4a301c40533acfd69912c4a4ffd83ffacb3e6789ba7796c479c2629",
+        "reference_id": "vqa__vqa_val_0001__target__002",
+        "role": "target",
+        "seed": 371564265081210796
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/003.png",
+        "index": 3,
+        "prompt": "A motorcycle angled slightly on a driveway, fence in background, front plate sv 6261 fully legible.",
+        "prompt_sha256": "ce1972a81d9f8876272d5e8254ae05cf95049ba1381158fef94a5088e189022b",
+        "reference_id": "vqa__vqa_val_0001__target__003",
+        "role": "target",
+        "seed": 1004292276788013887
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminates a vintage motorcycle on a road, brick wall behind, plate sv 6261 sharp.",
+        "prompt_sha256": "7a1d650b4eecb1861fd9d045b37b20c4a3082bcece2490ac25eb5d497ea5989b",
+        "reference_id": "vqa__vqa_val_0001__target__004",
+        "role": "target",
+        "seed": 1020074666435050646
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/005.png",
+        "index": 5,
+        "prompt": "Wide view of a motorcycle parked on asphalt, white building in distance, front plate sv 6261 clear.",
+        "prompt_sha256": "329e55e6995d6148b3e10d5ef444ed5eff068c0fb84a714efa1ace6a49cf689e",
+        "reference_id": "vqa__vqa_val_0001__target__005",
+        "role": "target",
+        "seed": 90390595261799244
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/006.png",
+        "index": 6,
+        "prompt": "Side angle of a classic motorcycle on a street, greenery nearby, license plate sv 6261 readable.",
+        "prompt_sha256": "22a8a47d96f4ccd7c7f7151bfcc06ca0f79efd5ed7e3ce01c772063648ad4c72",
+        "reference_id": "vqa__vqa_val_0001__target__006",
+        "role": "target",
+        "seed": 1113303121565230135
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/007.png",
+        "index": 7,
+        "prompt": "Vintage motorcycle on a driveway, small potted plant beside it, front fender plate sv 6261 distinct.",
+        "prompt_sha256": "a730110b2202e5fd3975e2649574ae7d0215574c77d5d1d674a35285d10beadf",
+        "reference_id": "vqa__vqa_val_0001__target__007",
+        "role": "target",
+        "seed": 241951168406607334
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a motorcycle parked on a road, brick wall background, plate sv 6261 unobstructed.",
+        "prompt_sha256": "f1bab198d172c454aba7f30a61e56bde4d6e0111321780b573682efeaf7fdaf0",
+        "reference_id": "vqa__vqa_val_0001__target__008",
+        "role": "target",
+        "seed": 603430452822036430
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/009.png",
+        "index": 9,
+        "prompt": "Another vintage motorcycle on asphalt, white building backdrop, front plate sv 6261 prominently displayed.",
+        "prompt_sha256": "1e9fb7336ec6969d3ffe5b68cdfd69c43d502e547fec6215019644a009858f72",
+        "reference_id": "vqa__vqa_val_0001__target__009",
+        "role": "target",
+        "seed": 823178757676333620
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/010.png",
+        "index": 10,
+        "prompt": "Slight tilt view of a motorcycle on a paved street, bushes nearby, license plate sv 6261 visible.",
+        "prompt_sha256": "26f61acafd279a625eb0b75a06bea9369187b6f193424737f9adf1e2976a14ac",
+        "reference_id": "vqa__vqa_val_0001__target__010",
+        "role": "target",
+        "seed": 617447935184210268
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/011.png",
+        "index": 11,
+        "prompt": "Medium framing of a classic bike on a driveway, fence behind, front plate sv 6261 clearly shown.",
+        "prompt_sha256": "d02c37f46ed90c90fb90c43b67f5c1394ea8bf3bf114798abfed2a237f023a93",
+        "reference_id": "vqa__vqa_val_0001__target__011",
+        "role": "target",
+        "seed": 1039338046602657410
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/012.png",
+        "index": 12,
+        "prompt": "Near view of a motorcycle front fender on a road, brick wall background, plate sv 6261 legible.",
+        "prompt_sha256": "6e708c7a94df910beaaea89a0a3db90f1b81a0861d078eb03bfda0f9c1186941",
+        "reference_id": "vqa__vqa_val_0001__target__012",
+        "role": "target",
+        "seed": 711074090683377101
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/013.png",
+        "index": 13,
+        "prompt": "Vintage motorcycle positioned on asphalt, white building in rear, front plate sv 6261 sharp and clear.",
+        "prompt_sha256": "faf5979585f1cb22d17f236d033418d9a5159c83366c9fd9af00efff615f1040",
+        "reference_id": "vqa__vqa_val_0001__target__013",
+        "role": "target",
+        "seed": 675700004119437534
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/014.png",
+        "index": 14,
+        "prompt": "Gentle sunlight on a motorcycle parked on a street, green bushes, license plate sv 6261 readable.",
+        "prompt_sha256": "98b56cbb346293c9840f0c009891499c618e9d590a46941d5c486f8664581fd1",
+        "reference_id": "vqa__vqa_val_0001__target__014",
+        "role": "target",
+        "seed": 1152750547493001302
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/015.png",
+        "index": 15,
+        "prompt": "Broad crop of a motorcycle on a driveway, fence in background, front fender plate sv 6261 visible.",
+        "prompt_sha256": "f049fbe8285f0ca9a44b9a50a20312e49dbfc5057e0d6309659247b01b924988",
+        "reference_id": "vqa__vqa_val_0001__target__015",
+        "role": "target",
+        "seed": 888414849172409387
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/016.png",
+        "index": 16,
+        "prompt": "Oblique side view of a classic motorcycle on a road, brick wall behind, plate sv 6261 distinct.",
+        "prompt_sha256": "155936dc384397f68df7a1e7825146e97be111271b3d319d63ee72ee84de771f",
+        "reference_id": "vqa__vqa_val_0001__target__016",
+        "role": "target",
+        "seed": 917296572795160479
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/017.png",
+        "index": 17,
+        "prompt": "Motorcycle on asphalt with a small sign nearby, white building backdrop, front plate sv 6261 clear.",
+        "prompt_sha256": "c42e8f64c50aa7745e9520059ab0308da69b478c88737dbb4fe37a0680485aa7",
+        "reference_id": "vqa__vqa_val_0001__target__017",
+        "role": "target",
+        "seed": 586784216389991320
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/018.png",
+        "index": 18,
+        "prompt": "Natural composition of a vintage motorcycle on a paved street, bushes, license plate sv 6261 shown.",
+        "prompt_sha256": "0a23ea16a05cd06247ef623acc5f5b07a33daf82831771ed2731ae9635cf5a11",
+        "reference_id": "vqa__vqa_val_0001__target__018",
+        "role": "target",
+        "seed": 1090121217180428540
+      },
+      {
+        "image": "samples/vqa/vqa_val_0001/target/019.png",
+        "index": 19,
+        "prompt": "Classic motorcycle parked on a driveway, fence background, front plate sv 6261 plainly visible.",
+        "prompt_sha256": "1d7d381b58898f30f579321e8c1b48bbbe7f6e0c27bd4e6302878436c5783258",
+        "reference_id": "vqa__vqa_val_0001__target__019",
+        "role": "target",
+        "seed": 532543526982921199
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000073.jpg",
+    "original_image_sha256": "a202bf8a3327508e135aa7a2ba01014f67cd68253d2eed33dd7a5e1e24523aef",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "087d7e0781306b270ade3900b921bee0cfb48012ac3c9cba8f4ba3f4f19fea20",
+    "sample_id": "vqa_val_0001",
+    "shard": 105,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What is the license number?",
+      "source_answer": "sv 6260",
+      "source_answers": [
+        "sv 6260",
+        "sv 6260",
+        "sv 6260",
+        "6260",
+        "sv 6260",
+        "6260",
+        "sv 6260",
+        "sv 6260",
+        "sv 6260",
+        "sv 6260"
+      ],
+      "target_answer": "sv 6261"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0001__source__000": {
+      "job_sha256": "383634aa9d6bd6096f6541900e7efb315a2563906e86b8981fc7475441e408a2",
+      "sha256": "8f49105d4f40fccd65b7cf50c93f6d94802d16fbb2863a5019b0dbd79a12e2e6",
+      "bytes": 155861,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.513589+00:00"
+    },
+    "vqa__vqa_val_0001__source__001": {
+      "job_sha256": "14c991dcf7d8080f48bb3aad553cf8b6badf66288643b9ac4a095816242e70ed",
+      "sha256": "081a099bd05af9533cd882f40569217d1afde378dbf9e9cb9d5c46368d6c65d2",
+      "bytes": 188386,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.556684+00:00"
+    },
+    "vqa__vqa_val_0001__source__002": {
+      "job_sha256": "71ce107911dd07f55fba1ef1accd3e01980a6c414aa266eddd60a9ff0fa6f780",
+      "sha256": "579899e0a381e2c0df6e893abb6b20dea0644e9a9f5986495d69d0bcea273bb9",
+      "bytes": 149779,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.598059+00:00"
+    },
+    "vqa__vqa_val_0001__source__003": {
+      "job_sha256": "42183f2a57daa69d9348141f76f568430c807e09dbdd8c7390bd5cb8a419c9ec",
+      "sha256": "22b28ee93ea4ba9dfe6c52f2386a5661a0654b8a81f6984a348d109da57ee1f4",
+      "bytes": 154331,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.642719+00:00"
+    },
+    "vqa__vqa_val_0001__source__004": {
+      "job_sha256": "9d83a08605178d2871bde502408d0b4ed76bfdfdb2057d1a6cc45e07d76e8f0e",
+      "sha256": "298179d027c4160755454648eadf30729711286daca7fe32da06bc73582417e9",
+      "bytes": 186427,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.684456+00:00"
+    },
+    "vqa__vqa_val_0001__source__005": {
+      "job_sha256": "081b53fa306140681a31e68efddffaa70e81956286e5a01fa499d19deebfdb13",
+      "sha256": "525be6c8c61743f61d73e990274d465700acce468decb228a17ee298270a2fcf",
+      "bytes": 131826,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.727156+00:00"
+    },
+    "vqa__vqa_val_0001__source__006": {
+      "job_sha256": "1a83cef56b2527751f44e03ad45d1e5cf36c484f2b7afa6b07a68cf7104c8a75",
+      "sha256": "dafb1e9f4830580a38d1bbe76dd8f13a15a2e4ff2064793f2fabae7148346f6c",
+      "bytes": 204749,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.771439+00:00"
+    },
+    "vqa__vqa_val_0001__source__007": {
+      "job_sha256": "602e9c6c0deea6637f71f257630e37640afa93e35cd400f27f792d8762de532f",
+      "sha256": "fd8d44e9473d1163b275bebff68d91f2c9321586c7bae6b0b1b9faa932eaa78e",
+      "bytes": 172579,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.823552+00:00"
+    },
+    "vqa__vqa_val_0001__source__008": {
+      "job_sha256": "f70b4c17ca9dd02a9f527262465a9a7f1ade826d5697dc01744d9a170bc023da",
+      "sha256": "264468f296bfe102d0e17a942d9a0111287139b3497e502429649ea8207185d3",
+      "bytes": 184024,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.867881+00:00"
+    },
+    "vqa__vqa_val_0001__source__009": {
+      "job_sha256": "3286f8226d03afda1eb8ce9b8d1e5a69e04835c03bfc25d0d27838253542e285",
+      "sha256": "3d548f16436e0bb30c6a2ea53471c2d1eb0f1b73e50c56e3e36db3e9a144a5d8",
+      "bytes": 158957,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.911524+00:00"
+    },
+    "vqa__vqa_val_0001__source__010": {
+      "job_sha256": "b49a6cab06321c3756f729130c5cd31c1c45e486d1383154ba195bf2dcb044aa",
+      "sha256": "4157a41fc08cc997e744b3ecd51ee7dba3ea822892a05d1c69bd6ee42529e352",
+      "bytes": 180443,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:41.956886+00:00"
+    },
+    "vqa__vqa_val_0001__source__011": {
+      "job_sha256": "d1bad42ccb1fabea286884f02d266c5eb2f8a288520efe9412e15c7212580a5f",
+      "sha256": "55c685202d00efb8528473b3649446454c6c3f44d6ca020511892aa146e1c2c8",
+      "bytes": 165531,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.000850+00:00"
+    },
+    "vqa__vqa_val_0001__source__012": {
+      "job_sha256": "7588f676f94c14ba2c4f6cf21c0fcbe554873edfbe26d3fb4eda8ed45f6eed33",
+      "sha256": "863f030ff92a2084b5df78f03d56ab50e8b5afb60f88e7fd9419b73f8b99c23a",
+      "bytes": 172042,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.049006+00:00"
+    },
+    "vqa__vqa_val_0001__source__013": {
+      "job_sha256": "f1c57a5ab0b063c69750c60454939586f93dc7872e737fc4ff454ab68bc1901b",
+      "sha256": "10072879d87a5611da941b50c9471787b27aae74d4351c8b3bed38e5c8adf416",
+      "bytes": 156419,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.093769+00:00"
+    },
+    "vqa__vqa_val_0001__source__014": {
+      "job_sha256": "28a57fb2ae9dd172c205a9af7837af38fa0be1b63b80e60cf0e70a90724b29ff",
+      "sha256": "3acd2ddad3cc4043e151f31306e0474ec6f768a7d77048a1faf63cf3c04a1ef9",
+      "bytes": 198779,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.138736+00:00"
+    },
+    "vqa__vqa_val_0001__source__015": {
+      "job_sha256": "7767dc1fac5e94e595bf52606ddfa4428ffe01e09fba3c77320ca3f4a0571f5a",
+      "sha256": "5ae17060dd7b7ce42085d298b139fc995a48eacb3ad2d35a89ea5dae559f2a07",
+      "bytes": 150503,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.185282+00:00"
+    },
+    "vqa__vqa_val_0001__source__016": {
+      "job_sha256": "7a697839c2ee20cf74ea0085d7dfc0a1e859bc4d673903323b8ec0903b6fbc16",
+      "sha256": "5feb81220cc2d0c8dc6b1e89b4e9c88f7b0eb8183e5e8321e2e0839ba6debb26",
+      "bytes": 181754,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.229224+00:00"
+    },
+    "vqa__vqa_val_0001__source__017": {
+      "job_sha256": "786ec01537f7b6abca14a936a242a62ebf5a3fa5eb60f5abff3ea9dcad7296c4",
+      "sha256": "45e26738879326d9ca1c840ad928acf781b9cd3f74ff1175042693de5e04a8ea",
+      "bytes": 145765,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.270070+00:00"
+    },
+    "vqa__vqa_val_0001__source__018": {
+      "job_sha256": "24b1b62194310f8992ed81a8b9cea1badef322b1810f213df8762a837d01c152",
+      "sha256": "86d02376a677d8d321824ecacc8d5a36fd3ba4ef0fcd5c5a9f67ada329f3f0b9",
+      "bytes": 190228,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.321157+00:00"
+    },
+    "vqa__vqa_val_0001__source__019": {
+      "job_sha256": "788d503280764dac0fca36ee00151cf8429bca16a23199f72b5c499a05cef72a",
+      "sha256": "3283f430c280f169d8e6873f089fc926cd1d76290ccfd2a91189239ae7720b7b",
+      "bytes": 169984,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.368179+00:00"
+    },
+    "vqa__vqa_val_0001__target__000": {
+      "job_sha256": "7a0eaef91ac999372e81a300023fd5f0682265b828c037de2a5abb3e4f9207b9",
+      "sha256": "7b0a4f5e1137c66bb983cdef0ab7e5cbc013c46490c3a867344d6218fd366920",
+      "bytes": 157293,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.413281+00:00"
+    },
+    "vqa__vqa_val_0001__target__001": {
+      "job_sha256": "0ccb21d0be2109357abb8dc9e9163d86f92083d733caae5f5c22c0c9b53c072e",
+      "sha256": "f748706b133e7022bc16772ecb156c566cac8a2dede363bee43eed15d45fe250",
+      "bytes": 179699,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.456350+00:00"
+    },
+    "vqa__vqa_val_0001__target__002": {
+      "job_sha256": "7fddb58d7c2cccfe55e1d48a1d9660be659716b624db5b1d7da03db5a6213f3c",
+      "sha256": "640fcb2cda9c45d50e92b796761d7c7b0d84ea1d7fd2de6ae3567ab73c014546",
+      "bytes": 147490,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.497268+00:00"
+    },
+    "vqa__vqa_val_0001__target__003": {
+      "job_sha256": "c5defc59860e6b7dcfb4116c56031279e32f58522418bc8262f03fcdced79a76",
+      "sha256": "8b74420eb3019aa72fecd065056360785609e644dec5e0b12dfb8e387f84dd10",
+      "bytes": 171783,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.546806+00:00"
+    },
+    "vqa__vqa_val_0001__target__004": {
+      "job_sha256": "9c823b3170765ca0a5ba59dc2fd8290eb57dd0d8ec1904e5ca388e793ad956da",
+      "sha256": "9fd6316fee026ceb29e4f96ba24f5c572bbbf1cac1819969ee595af2f5fc0bef",
+      "bytes": 191816,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.584800+00:00"
+    },
+    "vqa__vqa_val_0001__target__005": {
+      "job_sha256": "01ab3d89537b89272a9094f43c15a1f91b36c52350b7715b1371ceeadb6b6b5b",
+      "sha256": "abc446c24bad9ad3dc65a13c0fda7c26cae6faa58743f5714f5f83350a5bc81c",
+      "bytes": 135493,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.624616+00:00"
+    },
+    "vqa__vqa_val_0001__target__006": {
+      "job_sha256": "91d0141266a9bcd7d4f6564e479c31b797a2f4f3c97b223d08941836ad95f7e3",
+      "sha256": "4d60b770b2a3d794a5a322947f998dfee599740f3498763ccdb9761b38907df1",
+      "bytes": 198136,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.679861+00:00"
+    },
+    "vqa__vqa_val_0001__target__007": {
+      "job_sha256": "b1d07f27779fd3f89bcc74f0dc9788179e48a94b680b43c02a92a25c05a83274",
+      "sha256": "d80920b518c9bcdab61f5a7457a01a349768875c693bef5d644174bfa83b0aad",
+      "bytes": 178253,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.721914+00:00"
+    },
+    "vqa__vqa_val_0001__target__008": {
+      "job_sha256": "9edbf1a285a294c85675cc88fc6941829a50bc18890558550add912a8b4fd2ef",
+      "sha256": "b6e4cf880553a2c3518dbd7e4aa5bfffe375e1fdd14d533b2cab3d98c66679eb",
+      "bytes": 188725,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.764118+00:00"
+    },
+    "vqa__vqa_val_0001__target__009": {
+      "job_sha256": "4b79552ee262551b00ab3b0c3411d4afe6c9ab120a4cf6648c51a5a4bc8c88cd",
+      "sha256": "5a3141c0f5a23caf944cc561be94b79a2d4b8a5751f8379d31852237e5c31389",
+      "bytes": 163404,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.814816+00:00"
+    },
+    "vqa__vqa_val_0001__target__010": {
+      "job_sha256": "d6472dd8c18ce00c6512c43ef938915f3471e9253c8705d306cf88812e8b4ed0",
+      "sha256": "54f8ce4dacda5fc1478a3d9dda09cddeffe4e4233e2f710986cf9adf43c6c882",
+      "bytes": 183405,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.852360+00:00"
+    },
+    "vqa__vqa_val_0001__target__011": {
+      "job_sha256": "c64480a2f938045bc7a913c0859de833b471493ff8a2d3440f3b5df4bbd360ed",
+      "sha256": "847629398bdb481c5cc3e6423f13262cb6c11285271420465c953f3203d93c19",
+      "bytes": 175943,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.893702+00:00"
+    },
+    "vqa__vqa_val_0001__target__012": {
+      "job_sha256": "ef9e985e15d21569aa524ce32de0899c23ae81851aed46c71f90fb5415a5f963",
+      "sha256": "27e880c1b668889ae72f51bd4cccf041c02740040d3db01de7dbb6596e976ea9",
+      "bytes": 164047,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.934504+00:00"
+    },
+    "vqa__vqa_val_0001__target__013": {
+      "job_sha256": "72598dea65280b2eccb15185a091f466ca726abd1d4e3731a92f3932a363d1c4",
+      "sha256": "6edaf6f148b2b55f1f5295b10ab8f39d0c6280f29716cad530c47b5de848f856",
+      "bytes": 147678,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:42.977244+00:00"
+    },
+    "vqa__vqa_val_0001__target__014": {
+      "job_sha256": "84455b38e84e3d556ab915ec6dcae8d5cbfdd782089574b754ef4b68d38a4253",
+      "sha256": "ec9174700d3de537aa2e027ff93b58ab5f0819022effbb210dd1180965a9215b",
+      "bytes": 202628,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:43.024217+00:00"
+    },
+    "vqa__vqa_val_0001__target__015": {
+      "job_sha256": "2965181b6457f42c44e0cdd0432e575ab09fd5cef24648a8ea3a9848f0a5c1aa",
+      "sha256": "8a1b67b03447b97c67d256a02ba6c3d39df78e592b388c59b89325e0496dc60b",
+      "bytes": 156556,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:43.063147+00:00"
+    },
+    "vqa__vqa_val_0001__target__016": {
+      "job_sha256": "3ed68538fa918c2c36c6c5918ccb0355362755a8faf64a7a11b805d3eb6d3817",
+      "sha256": "f235085c37ebb1d424783b1ae26fd92e70578b5d98e7b4c53f043ca7a3c6428f",
+      "bytes": 190891,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:43.107864+00:00"
+    },
+    "vqa__vqa_val_0001__target__017": {
+      "job_sha256": "a998f2456ce9c501024eadfb61923efe25edb6997de78e7dff8c201f44e4916e",
+      "sha256": "84393e00e9304e337a5df6d8f75a4d169e794ae993e3d906247adbc230b1cffb",
+      "bytes": 145437,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:43.149690+00:00"
+    },
+    "vqa__vqa_val_0001__target__018": {
+      "job_sha256": "c576accbcbe24ca4b94849a05120cdbf351f88a0dfc5689054bb93c40f88d859",
+      "sha256": "0017c1d01b05115475ae5bb04c74a5fb5d1121d23b022d687fcd37c867148b94",
+      "bytes": 195429,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:43.191773+00:00"
+    },
+    "vqa__vqa_val_0001__target__019": {
+      "job_sha256": "f241f6354caee8920bbfabad4819113e2a598b3bf4b518fd15262717d54a8b15",
+      "sha256": "db788a8adcf5df0b50ad371d4228ceaec00f76a41540108a8801a8ab4e11ef82",
+      "bytes": 168633,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T165930_b921dfca",
+      "batch_size": 40,
+      "batch_sec": 31.393005059100688,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.8359375,
+      "generated_utc": "2026-10-25T17:03:43.232463+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T17:03:43.232482+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

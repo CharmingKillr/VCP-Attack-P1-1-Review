@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "54d0ecabcd3949f5a604455cb9ebde286bd5a1ededd4e689e8afec58a40e60d7",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "e567bf7608b975421c240a20dac26c1138ea82aa7dc67ba980539fae400673c7",
+      "notes": "All 20 source prompts clearly depict baseball and all 20 target prompts tennis, matching the sport question and answers.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0008/source/000.png",
+        "index": 0,
+        "prompt": "A baseball batter standing at home plate on a grass field, viewed from behind the catcher.",
+        "prompt_sha256": "84b22ef0235365bc55091e30ee95e665c3f5783ad624cd2a13941a951aaacc93",
+        "reference_id": "vqa__vqa_val_0008__source__000",
+        "role": "source",
+        "seed": 137571150847492261
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a baseball player swinging a bat on a dirt infield with green grass.",
+        "prompt_sha256": "7c433991528acb6049f013994c9bdc5d542ed2ef0b53e6b74784544768c62fc1",
+        "reference_id": "vqa__vqa_val_0008__source__001",
+        "role": "source",
+        "seed": 1800575820381159
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/002.png",
+        "index": 2,
+        "prompt": "Close-up of a baseball catcher crouching behind home plate with mitt ready.",
+        "prompt_sha256": "17025950504452d4295af97d59c9affd09a2501734728ab36e6742f513c4573f",
+        "reference_id": "vqa__vqa_val_0008__source__002",
+        "role": "source",
+        "seed": 910084889274974807
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/003.png",
+        "index": 3,
+        "prompt": "A baseball pitcher in mid-throw on a dirt mound, facing the camera directly.",
+        "prompt_sha256": "cb966411c448ae5f97af0a50cceb47caaa0e823f76bc26d1bc42c5b1c09e1996",
+        "reference_id": "vqa__vqa_val_0008__source__003",
+        "role": "source",
+        "seed": 390040773111279082
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminating a baseball game with players on a grass field.",
+        "prompt_sha256": "1f2e98cf565d7f99480c8d7061096296f3ca90e2d7d27acda6a887de3128c401",
+        "reference_id": "vqa__vqa_val_0008__source__004",
+        "role": "source",
+        "seed": 592725927852896344
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/005.png",
+        "index": 5,
+        "prompt": "Wide view of a baseball diamond showing the infield dirt and outfield grass.",
+        "prompt_sha256": "b825e84e2c1423b3573f042ac828934cfa45fa08f1ed52c8226fed491daea1ff",
+        "reference_id": "vqa__vqa_val_0008__source__005",
+        "role": "source",
+        "seed": 947462523284981437
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/006.png",
+        "index": 6,
+        "prompt": "Side angle of a baseball runner sliding into second base on a dirt path.",
+        "prompt_sha256": "86d6c0bbfe7ec8c937de826d2254dc5ecc0c9b1834305ce10c6acd10c3e3a32e",
+        "reference_id": "vqa__vqa_val_0008__source__006",
+        "role": "source",
+        "seed": 1047515753708606060
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/007.png",
+        "index": 7,
+        "prompt": "A baseball umpire standing behind the plate with a crowd visible in the background.",
+        "prompt_sha256": "3fdd401d87de84173d4dcfac996a3fc10303ab10fa0a5a3ce14c2dbfc3f04d97",
+        "reference_id": "vqa__vqa_val_0008__source__007",
+        "role": "source",
+        "seed": 1035314182698299596
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a baseball player catching a fly ball in an outfield glove.",
+        "prompt_sha256": "120a8a56ac79969c454ad0606862e76e261b1efd6d1c4a133aee73fe27481cea",
+        "reference_id": "vqa__vqa_val_0008__source__008",
+        "role": "source",
+        "seed": 1046954377460146521
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/009.png",
+        "index": 9,
+        "prompt": "Another instance of a baseball game with a batter and pitcher on a field.",
+        "prompt_sha256": "7cc2d90abb922316851645b7c34f051483f0c2f6286c4d476e300363470086e7",
+        "reference_id": "vqa__vqa_val_0008__source__009",
+        "role": "source",
+        "seed": 1016295002012190026
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/010.png",
+        "index": 10,
+        "prompt": "Baseball scene from a high angle showing the batter and catcher at home plate.",
+        "prompt_sha256": "3937e906730fbb2cf8f46ad99298549a5ef65fd057b6fb64ab4ac9ead55e449f",
+        "reference_id": "vqa__vqa_val_0008__source__010",
+        "role": "source",
+        "seed": 547293799531544611
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/011.png",
+        "index": 11,
+        "prompt": "Natural medium framing of a baseball team huddling on the grass field.",
+        "prompt_sha256": "c1299e3a0f3fc81810557e647699039801be1caf615336ae71a88e699e7979a6",
+        "reference_id": "vqa__vqa_val_0008__source__011",
+        "role": "source",
+        "seed": 1053278148862673814
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/012.png",
+        "index": 12,
+        "prompt": "Slightly closer view of a baseball umpire signaling a strike behind the plate.",
+        "prompt_sha256": "694beb8ddea28e0e7af8acb6e571f8dbf2722179854224ddf6c364fadd22661a",
+        "reference_id": "vqa__vqa_val_0008__source__012",
+        "role": "source",
+        "seed": 776176260248024577
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/013.png",
+        "index": 13,
+        "prompt": "A baseball shortstop in a ready stance on the dirt infield, facing the camera.",
+        "prompt_sha256": "009ce73b3c9ef52f6970be4d09c954d8ccbc09431e0654835a8796ceb0a5eee8",
+        "reference_id": "vqa__vqa_val_0008__source__013",
+        "role": "source",
+        "seed": 341010014915349544
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/014.png",
+        "index": 14,
+        "prompt": "Ordinary soft daylight on a baseball field with players in uniform.",
+        "prompt_sha256": "f3099859f3c64036d6b0f64a30c6c79bed7e1459e1b1b0db11941928152ef76b",
+        "reference_id": "vqa__vqa_val_0008__source__014",
+        "role": "source",
+        "seed": 558680277030632256
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/015.png",
+        "index": 15,
+        "prompt": "Subtly wider crop of a baseball game showing the bases and outfield.",
+        "prompt_sha256": "ebbfb53ba2dbf0c3b0b790de40d5f4c26408c0ab4e027f9dc7aa9cb9e2825df6",
+        "reference_id": "vqa__vqa_val_0008__source__015",
+        "role": "source",
+        "seed": 82899224675428466
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of a baseball batter taking a lead off first base.",
+        "prompt_sha256": "3a2c4281d272c84bb968a11d36505851234015730161f08bebbe4b2fbc549675",
+        "reference_id": "vqa__vqa_val_0008__source__016",
+        "role": "source",
+        "seed": 994843825421305074
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/017.png",
+        "index": 17,
+        "prompt": "Baseball scene with a small detail of a base coach pointing from the dugout.",
+        "prompt_sha256": "e6660d5dfa4dddf0fbd346838dc7d33408293e3c850f14d1d16447cc3190b5e4",
+        "reference_id": "vqa__vqa_val_0008__source__017",
+        "role": "source",
+        "seed": 421851800068984161
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/018.png",
+        "index": 18,
+        "prompt": "Natural candid composition of a baseball player celebrating a home run.",
+        "prompt_sha256": "984827bd0d018acf281402d4edc70f6555a4a00f8485f383fa673f2c1c05e23e",
+        "reference_id": "vqa__vqa_val_0008__source__018",
+        "role": "source",
+        "seed": 958466975451027494
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/source/019.png",
+        "index": 19,
+        "prompt": "Another ordinary baseball match with athletes on a grass field and dirt infield.",
+        "prompt_sha256": "0b289c6f17e809dd2f62ad7ab8cb545b34443dd4637fd2c4033d298a81ae781a",
+        "reference_id": "vqa__vqa_val_0008__source__019",
+        "role": "source",
+        "seed": 213611457048982367
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/000.png",
+        "index": 0,
+        "prompt": "A tennis player standing at the baseline on a grass court, viewed from behind the net.",
+        "prompt_sha256": "e529fb0c52c81c8e6348c5d60228d8e97fcf98fe93b94863b737bf77618b3f92",
+        "reference_id": "vqa__vqa_val_0008__target__000",
+        "role": "target",
+        "seed": 963157427095796158
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a tennis player hitting a forehand on a hard court with a net in foreground.",
+        "prompt_sha256": "f6371ce05e20d66a16286fb4f5c051274f8ad32bb120584f09bce4aa36cd59d8",
+        "reference_id": "vqa__vqa_val_0008__target__001",
+        "role": "target",
+        "seed": 505381315831893231
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/002.png",
+        "index": 2,
+        "prompt": "Close-up of a tennis player crouching low to return a low ball on a clay court.",
+        "prompt_sha256": "bc587d2349d2155cdd218c8b1e841f86a396302c4204c21673ffcc9fe91483bd",
+        "reference_id": "vqa__vqa_val_0008__target__002",
+        "role": "target",
+        "seed": 104861046405817868
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/003.png",
+        "index": 3,
+        "prompt": "A tennis server in mid-motion on a grass court, facing the camera directly.",
+        "prompt_sha256": "5927fd4d79b7d09cf3b289dc51e4a217bac5eb1870abac636438c31d4aec37af",
+        "reference_id": "vqa__vqa_val_0008__target__003",
+        "role": "target",
+        "seed": 260795972560988197
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/004.png",
+        "index": 4,
+        "prompt": "Soft daylight illuminating a tennis match with players on a hard court and net.",
+        "prompt_sha256": "0bc0d516b4f5928ee1adbf99a1b93296f1edcc877fb27eb8e8b39ee1dca36ced",
+        "reference_id": "vqa__vqa_val_0008__target__004",
+        "role": "target",
+        "seed": 11245537147142948
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/005.png",
+        "index": 5,
+        "prompt": "Wide view of a tennis court showing the baseline, net, and surrounding grass.",
+        "prompt_sha256": "8333b29226227d67e5492d979632f76babe7fc001be7f62c9ab2d86b5fafd587",
+        "reference_id": "vqa__vqa_val_0008__target__005",
+        "role": "target",
+        "seed": 1091145318372643065
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/006.png",
+        "index": 6,
+        "prompt": "Side angle of a tennis player lunging to reach a ball near the sideline on clay.",
+        "prompt_sha256": "864b5097543c770473785592a2249a2a6ccc5b34f027935036179d5d585d6bea",
+        "reference_id": "vqa__vqa_val_0008__target__006",
+        "role": "target",
+        "seed": 77722212431087143
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/007.png",
+        "index": 7,
+        "prompt": "A tennis line judge standing at the baseline with a crowd visible in the background.",
+        "prompt_sha256": "22760cf12fa3674dd7fee2420bfe6534f47e46c25ef61276343955ddd0e8b549",
+        "reference_id": "vqa__vqa_val_0008__target__007",
+        "role": "target",
+        "seed": 892055590279935469
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a tennis player jumping to smash a high ball on a grass court.",
+        "prompt_sha256": "48ce9e6a25049668f4da5b75235eb12b10f0717712b92bf540a3e46b3d9fdea7",
+        "reference_id": "vqa__vqa_val_0008__target__008",
+        "role": "target",
+        "seed": 198962961601354545
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/009.png",
+        "index": 9,
+        "prompt": "Another instance of a tennis match with a player serving on a hard court.",
+        "prompt_sha256": "71684bcfec6e5fbfe94ab89630963fd8bc27d8d43f62756de9abbe82320437da",
+        "reference_id": "vqa__vqa_val_0008__target__009",
+        "role": "target",
+        "seed": 1007755602469819926
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/010.png",
+        "index": 10,
+        "prompt": "Tennis scene from a high angle showing the player and net on a grass court.",
+        "prompt_sha256": "9eee86e3e6258838f029bd02ba01e6ec21c5b043e8480c036bfdcc68a0a5b57a",
+        "reference_id": "vqa__vqa_val_0008__target__010",
+        "role": "target",
+        "seed": 671315230684551163
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/011.png",
+        "index": 11,
+        "prompt": "Natural medium framing of a tennis team huddling on the grass surrounding the court.",
+        "prompt_sha256": "f2a8c469411ec58b92c29d73b218e92dc4b2db1e06cd93f28b6f6643efb6daad",
+        "reference_id": "vqa__vqa_val_0008__target__011",
+        "role": "target",
+        "seed": 142751393289379083
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/012.png",
+        "index": 12,
+        "prompt": "Slightly closer view of a tennis umpire signaling a fault behind the net.",
+        "prompt_sha256": "11fd76d7aa9fbb20251c10eed82bbb4f3e869f0936e19997607b6a006e877c2a",
+        "reference_id": "vqa__vqa_val_0008__target__012",
+        "role": "target",
+        "seed": 71141019626472890
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/013.png",
+        "index": 13,
+        "prompt": "A tennis player in a ready stance on a clay court, facing the camera directly.",
+        "prompt_sha256": "2999080ea7bd504e6a883e9a0cb072463c45887771dc1a6bcd382f95d7790214",
+        "reference_id": "vqa__vqa_val_0008__target__013",
+        "role": "target",
+        "seed": 974399796785858641
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/014.png",
+        "index": 14,
+        "prompt": "Ordinary soft daylight on a tennis court with players in athletic wear.",
+        "prompt_sha256": "1216c17dbb42df91bd2e29c0753be989dd9af8673e3a5e7cbf6745f1174437b0",
+        "reference_id": "vqa__vqa_val_0008__target__014",
+        "role": "target",
+        "seed": 518792214438514610
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/015.png",
+        "index": 15,
+        "prompt": "Subtly wider crop of a tennis game showing the service boxes and net.",
+        "prompt_sha256": "bb14159f28fa27df0fcb3e4166494b7340d6515a42e4468f7daac683ff48255f",
+        "reference_id": "vqa__vqa_val_0008__target__015",
+        "role": "target",
+        "seed": 613014063919700148
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/016.png",
+        "index": 16,
+        "prompt": "Mild side angle of a tennis player taking a step to return a serve.",
+        "prompt_sha256": "58af96c52b4087f14263f81ca304b637621e645f53e5f3593f26bf84473ae9ab",
+        "reference_id": "vqa__vqa_val_0008__target__016",
+        "role": "target",
+        "seed": 60527637029477997
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/017.png",
+        "index": 17,
+        "prompt": "Tennis scene with a small detail of a ball boy holding a basket near the net.",
+        "prompt_sha256": "2359d160c79c75d2881b5489252289e35e66de4bba1648da110e097cd75f1e6a",
+        "reference_id": "vqa__vqa_val_0008__target__017",
+        "role": "target",
+        "seed": 315614568227765316
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/018.png",
+        "index": 18,
+        "prompt": "Natural candid composition of a tennis player celebrating a point on a hard court.",
+        "prompt_sha256": "e7816bbeb8f509ecf23f9f704f950bd61654b8bf3877b413146ec310cbbdf96a",
+        "reference_id": "vqa__vqa_val_0008__target__018",
+        "role": "target",
+        "seed": 1046458046554554514
+      },
+      {
+        "image": "samples/vqa/vqa_val_0008/target/019.png",
+        "index": 19,
+        "prompt": "Another ordinary tennis match with athletes on a grass court and net.",
+        "prompt_sha256": "c404c9a9d2a8eaea97e837efedab45756349f8edea858d062deb78cede5272dd",
+        "reference_id": "vqa__vqa_val_0008__target__019",
+        "role": "target",
+        "seed": 180710647670824225
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000192.jpg",
+    "original_image_sha256": "146520b06866c3b199697a6525a3d3d86cd6a5a99d175d7fc887319fafd7b62c",
+    "prompt_review_status": "assistant_review_pass",
+    "sample_fingerprint": "54d0ecabcd3949f5a604455cb9ebde286bd5a1ededd4e689e8afec58a40e60d7",
+    "sample_id": "vqa_val_0008",
+    "shard": 112,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What sport is being played?",
+      "source_answer": "baseball",
+      "source_answers": [
+        "baseball",
+        "baseball",
+        "baseball",
+        "baseball",
+        "baseball",
+        "baseball",
+        "baseball",
+        "baseball",
+        "baseball",
+        "baseball"
+      ],
+      "target_answer": "tennis"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0008__source__000": {
+      "job_sha256": "10a80886226cc3b31aa04fd56207ffb1017663c6d1992187eb085979303bd11a",
+      "sha256": "587d0f3d027ef77bdbd3886ba8686b12d5d190f04f646f935239e3bf1bd2a824",
+      "bytes": 169275,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.165263+00:00"
+    },
+    "vqa__vqa_val_0008__source__001": {
+      "job_sha256": "40cd0008006f202c475554e233567742a89e299fd8c37f857abdcfdc47efcecd",
+      "sha256": "38163e48932b93e31a27bbbc42dd3be4f3b91f78eadcc021b7fcfc1a1351f148",
+      "bytes": 161055,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.206505+00:00"
+    },
+    "vqa__vqa_val_0008__source__002": {
+      "job_sha256": "e0eb511996787d79d5094c9da6a461f1c3771cac73499466db258c31797da737",
+      "sha256": "6e35a3dd6105605815ba91d35cf8d4e71cb3dcc42a7cf7244ff35744fcd18870",
+      "bytes": 163292,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.253789+00:00"
+    },
+    "vqa__vqa_val_0008__source__003": {
+      "job_sha256": "88ce74f183af3a7cd86654397bd718a91ba4cece521e114bebf8c485eed9f501",
+      "sha256": "239ab9100be292aa64bdf0e17b4bb9ba7ee3c3cae82fc7661a4598bf2631fade",
+      "bytes": 142499,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.298763+00:00"
+    },
+    "vqa__vqa_val_0008__source__004": {
+      "job_sha256": "7c4a8733e6e9a1eee7beaaae962fc8a071ee3d8d6652cfd4f2b415718d37b8a8",
+      "sha256": "344a2e333fd0796f4fe77e1a0127c00794be70685b09d8fe0033a53bd0636053",
+      "bytes": 155162,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.343366+00:00"
+    },
+    "vqa__vqa_val_0008__source__005": {
+      "job_sha256": "58e9ecfdd6a8c5062cfbec8e9b4acdbbad0627bb8f544481972f94408ab9902d",
+      "sha256": "2ca534251f81f292abb46f151431c47f8b90a4aa378d3cd706a9f969698454f4",
+      "bytes": 144824,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.381702+00:00"
+    },
+    "vqa__vqa_val_0008__source__006": {
+      "job_sha256": "3676255382fc89184dd1b28b348279c6291eded4a9cc6b3e31793c72cd49a66b",
+      "sha256": "12ba1e9dde7bd6e84d51962090c6a7774e782546f1f22361716f87a744aa477a",
+      "bytes": 134954,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.422290+00:00"
+    },
+    "vqa__vqa_val_0008__source__007": {
+      "job_sha256": "accbe880a122c6a15a09fcb0c29fe697c6cc48452a734b4e314e9500c5477586",
+      "sha256": "8e78804d0d6af6c461a8f4b046e0b808286cf98292f9d1c720ed23a3fa28b2d6",
+      "bytes": 165801,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.465460+00:00"
+    },
+    "vqa__vqa_val_0008__source__008": {
+      "job_sha256": "6c86879246581c54567bbe68c80bc3364f655a8b52327008ddc95e279ac57f40",
+      "sha256": "b59a185d2ef4dc69cdf15ceb64d31bd629364347bd0ce5156acaf20b3d8a7335",
+      "bytes": 134224,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.505063+00:00"
+    },
+    "vqa__vqa_val_0008__source__009": {
+      "job_sha256": "b81c3159998075b5e27608ec71037f9da83b44b9ca4aef9915cec1e81d488d08",
+      "sha256": "b8af32908a4523a79142eb93ccf0327fa555fba2972d030c40132c978f1a07ba",
+      "bytes": 153055,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.545941+00:00"
+    },
+    "vqa__vqa_val_0008__source__010": {
+      "job_sha256": "ab2f0007388aa6205ce797f782a944566dd538c75e24705ca6e8b3c40727db2a",
+      "sha256": "3deb09e0591c77aadfcaef2c1d756eedae369937fed2da0554199265102b1bc9",
+      "bytes": 179858,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.589154+00:00"
+    },
+    "vqa__vqa_val_0008__source__011": {
+      "job_sha256": "b136d47a68a5b7975cc2891ed3bee861533c8b20be8622220822a297cb4a6e53",
+      "sha256": "eb475a9165a99c20131c44269cdd4a67c2e0a09cf6bafff7ee2610ad6ad07f93",
+      "bytes": 148073,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.629840+00:00"
+    },
+    "vqa__vqa_val_0008__source__012": {
+      "job_sha256": "4c7475c6f58883bef99b3c7e1f4d199b8af5dd2ecf5b0c413234a91c59e5491a",
+      "sha256": "75af6aa9676f1ce8d9011ce50feea3f16851beae7311ad2520cdeb587a5e277e",
+      "bytes": 147484,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.680028+00:00"
+    },
+    "vqa__vqa_val_0008__source__013": {
+      "job_sha256": "399e16ef0379d30142ff99c77c49679018a4c8c458c3c1d4f81fac678653cb25",
+      "sha256": "caf2d47e2eb2c388256ac68f84973e709f5f362b81f254dd9e56e996f21a8d0a",
+      "bytes": 136914,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.722288+00:00"
+    },
+    "vqa__vqa_val_0008__source__014": {
+      "job_sha256": "f44f011408d0bd5d32a4ec67a00bb7c6269ca79746b7d191cb7f984700d1594d",
+      "sha256": "2498ca77d0e2bacd47fe5fc09b003d7025cd93620bf53d2ca064ba8f587aad9f",
+      "bytes": 158433,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.763116+00:00"
+    },
+    "vqa__vqa_val_0008__source__015": {
+      "job_sha256": "7e17a02984d59fdcfd39b4e4afd6f44a4ff0b2ba2f543dac877f0b27dd07cd30",
+      "sha256": "8be82b54985e6d2530d7f46aa7741352e9770c35ff90795f835eb19072b2ed38",
+      "bytes": 137097,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.801622+00:00"
+    },
+    "vqa__vqa_val_0008__source__016": {
+      "job_sha256": "ba6eb98bcc26fc07fd43f2dcf7535a0956fb9e80b9f821776e12bbc86cb98216",
+      "sha256": "0ab898ee65bdfb2ad31ecd920da1753878bbcb838e197a4ae3d4ae6fcc6fc5cf",
+      "bytes": 146193,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.846348+00:00"
+    },
+    "vqa__vqa_val_0008__source__017": {
+      "job_sha256": "50dfd048402d5654a22a233d60e04fb3fcef32e119e12d8bd77ad25e33a3bd3c",
+      "sha256": "9b31558d14492c5a87728a37ef52dcca5f7d9f74c0e1e7e7d216b2e3023a8ae7",
+      "bytes": 141847,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.884435+00:00"
+    },
+    "vqa__vqa_val_0008__source__018": {
+      "job_sha256": "2489769daf7e8ec2171f148683926871737dc4dd3efdff793c77d7a579c6289d",
+      "sha256": "9df3ce4b6ef38502bc8aeec31c95c430668bbcca1abb8049db00693f624cec56",
+      "bytes": 142264,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.924510+00:00"
+    },
+    "vqa__vqa_val_0008__source__019": {
+      "job_sha256": "f2774dd220e7d30429cc1bbb35a610872ec7b1bf00e37af67042d1ab749a1793",
+      "sha256": "b1e65de4e0803e84fe9676cefbf101e2f2bcb07ab1eee511b6b62c93628953de",
+      "bytes": 154496,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:35.965918+00:00"
+    },
+    "vqa__vqa_val_0008__target__000": {
+      "job_sha256": "b1d8be5448294a30501f730a71b118935e2bbabb84b1a11486219139f620771e",
+      "sha256": "a99a044ae8a0b990bb8b3423228a64786e405f30ee39ecd26f3c35c2e6f4dca3",
+      "bytes": 171017,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.019434+00:00"
+    },
+    "vqa__vqa_val_0008__target__001": {
+      "job_sha256": "8f599e47335f2e5433805e61ea23bab8608de4aaafe95642f9e9575f6f4df427",
+      "sha256": "d46b896e1a27fb0a7ad31419bcdd8a16be6bab3ac10f8cf261feb7752b5f6db4",
+      "bytes": 138935,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.060856+00:00"
+    },
+    "vqa__vqa_val_0008__target__002": {
+      "job_sha256": "6ba7a6167f6f82934830b75ecf2cbf1cd843ec46f31045919601f920799fb02c",
+      "sha256": "148dcea333ae549c9c1c571e1695d20692f3c911b7d439e89b41543074880e49",
+      "bytes": 154827,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.101742+00:00"
+    },
+    "vqa__vqa_val_0008__target__003": {
+      "job_sha256": "ed0c6706bed81af079623708890dde865376b1fb036cc4e7c8e5400c274af01e",
+      "sha256": "dad3f059a67186524c50f802d1095d3631797caf6792a9ae332978da0b8b8150",
+      "bytes": 133772,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.141435+00:00"
+    },
+    "vqa__vqa_val_0008__target__004": {
+      "job_sha256": "2d5272cf9dee62ec3e2d90cc6dfba6f229f6fd2c9d2bb1c5876d4e0f0834f04b",
+      "sha256": "833c13e3f2d03ea3ab03a63072b9f191e9e023878360864cbdb561ab2e986613",
+      "bytes": 148320,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.181771+00:00"
+    },
+    "vqa__vqa_val_0008__target__005": {
+      "job_sha256": "bdf38d9e7f60dce9f2c77062081341b5e3a4091a5731438f02b0018e33eaa138",
+      "sha256": "480e65da1c6085b3ada1463432efb5fc7e67d9adf23272d36cd01a72e3ef90d1",
+      "bytes": 144330,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.224352+00:00"
+    },
+    "vqa__vqa_val_0008__target__006": {
+      "job_sha256": "7419dd69fa2c1486c05e8fcdf7fc69fd482ba7be38a17331641ba10d02b1b730",
+      "sha256": "8a38559ab1937673c28497a291026dc3dd801d01a3d6d22e97e41c15674ac022",
+      "bytes": 146486,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.265880+00:00"
+    },
+    "vqa__vqa_val_0008__target__007": {
+      "job_sha256": "b2d6bafbffb6392bc13be3eb59856cac469dc815190a841b68e92598cb8d7af1",
+      "sha256": "a9c84c85d0dee3922f16ed0dfc379c7277e090baeb04254c4cc9bd8aa3bd441d",
+      "bytes": 165436,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.309485+00:00"
+    },
+    "vqa__vqa_val_0008__target__008": {
+      "job_sha256": "8e8170249dfa8e85d4d75afca4d5361d34d251f915dc562083b36311ecebc6ee",
+      "sha256": "fa0f58a81e170877d1c95317c9fe3966d0143704226bde95f3eb091255b0daea",
+      "bytes": 139969,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.349936+00:00"
+    },
+    "vqa__vqa_val_0008__target__009": {
+      "job_sha256": "941fa79d1c6b06c2872e216488416380d1833e51ff3504f12ebeb7d031b01ab0",
+      "sha256": "4a9e39ea1311b6319ed911af726a3507b9e380431ce3d685f96007ccbce00472",
+      "bytes": 130579,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.406590+00:00"
+    },
+    "vqa__vqa_val_0008__target__010": {
+      "job_sha256": "b1a86a0078397969290a579c31d8a887faccd8444b2d9b1ba253fbaf9e4b72fd",
+      "sha256": "f3abad0bdf0ba227a6f23ac5cb2a1eef77d28802a6e0fed744f40324d9dfdb14",
+      "bytes": 173870,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.452059+00:00"
+    },
+    "vqa__vqa_val_0008__target__011": {
+      "job_sha256": "108a0fc7e3dab14580ce532e22f9235429dace681243260e5f11fcc07e918dc1",
+      "sha256": "ded5669f77a49818de0837ee7ece5509fa86cf51ee6979b8c159aa9de45c374d",
+      "bytes": 174067,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.498299+00:00"
+    },
+    "vqa__vqa_val_0008__target__012": {
+      "job_sha256": "466ad1b82abdab2811585938304d900a862435bf5c9fa8293a0e0d7ebf508fcf",
+      "sha256": "64b7ef2db7884f2402398e7ca482dc6c4d703892c39b74f1a665e588b6ba3a04",
+      "bytes": 142769,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.539641+00:00"
+    },
+    "vqa__vqa_val_0008__target__013": {
+      "job_sha256": "97d339d0e6e928a672a5958036213ec2e560e1ec5f4aeac3f6046d64cfd72515",
+      "sha256": "9fdb0ee57151e9bf790b8727a869a4f06fa29c489baa080a2f86e2a76901bb3e",
+      "bytes": 141299,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.581179+00:00"
+    },
+    "vqa__vqa_val_0008__target__014": {
+      "job_sha256": "a9985eff8b3c1c9fb9550e474464970fb10557885cbddc44db00ec3c05e292cc",
+      "sha256": "799b82a744f8184f0a712e9fa9861d62709c3dcb7e304452e323289acffe2fdb",
+      "bytes": 143028,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.619118+00:00"
+    },
+    "vqa__vqa_val_0008__target__015": {
+      "job_sha256": "11122b5d64fa3411058419244cf7eeea132b90af048e850bb4ee9a272a77309a",
+      "sha256": "d9e4de31c1c8d2da4d2fdc6ea38e72251a5a559085b9c547a99c27a9938adcb5",
+      "bytes": 127841,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.658654+00:00"
+    },
+    "vqa__vqa_val_0008__target__016": {
+      "job_sha256": "ccdb7e31b5f3615d286a6142e71e9c6506043087c5f22ea78faa7fd79becb77e",
+      "sha256": "1d771ee6083801193940825a9fed317eff81f20eaeced91aa330c9a4db176e24",
+      "bytes": 132137,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.701382+00:00"
+    },
+    "vqa__vqa_val_0008__target__017": {
+      "job_sha256": "da95b99d9fc2f06b1f8ff1095307bd43cae347555c747628d3a8ce6d9d904699",
+      "sha256": "bf6ee026b2da85121e2c586df56135ee1b74f9c7b4fcb8e391ae2e281700a1c3",
+      "bytes": 160827,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.738936+00:00"
+    },
+    "vqa__vqa_val_0008__target__018": {
+      "job_sha256": "3e47b118ec7444dd6f71c5f3fede579fd6f5c383eb6b2dc6614fe847d4ac6370",
+      "sha256": "0a505dded10ec1b609edf01ba01ceaa871f24346aef9ce18e5ffe003d96c881f",
+      "bytes": 148061,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.781964+00:00"
+    },
+    "vqa__vqa_val_0008__target__019": {
+      "job_sha256": "e639fb95451af8f98b449f3aac5ddc04c03da31602f8873bf9303a4c718163af",
+      "sha256": "0f2f538968568595969ee5be9a40b14bafa697fa31ccaada9b5031afe2629f6d",
+      "bytes": 162082,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 26.614604950882494,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T21:53:36.829213+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T21:53:36.829242+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}

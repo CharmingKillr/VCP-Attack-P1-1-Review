@@ -1,0 +1,1011 @@
+{
+  "schema": "vcp_portable_reference_bank_v1",
+  "bank_id": "028bfe00c1f530bdc7fc3d9bbdc0e994479db8a49e398e7f5c6088a8a5f6f90b",
+  "sample_fingerprint": "7a9ad7e78f06b11785d396cda668f62ab134c681bac8ffe6a70fc2680738ba38",
+  "sample": {
+    "assistant_review": {
+      "core_bank_sha256": "80e35b33312a68cea941dc9361d4e69aab005dfef17078f15b760ddfe8728fdc",
+      "notes": "Source answer chair; changed two source prompts that incorrectly said bench. All target prompts use bench.",
+      "review_date": "2026-10-23",
+      "reviewer": "current_assistant_direct_text_review",
+      "source_count": 20,
+      "status": "PASS_AFTER_REPAIR",
+      "target_count": 20
+    },
+    "dataset": "VQAv2",
+    "jobs": [
+      {
+        "image": "samples/vqa/vqa_val_0011/source/000.png",
+        "index": 0,
+        "prompt": "A man in a blue shirt sits on a wooden chair in a living room, facing forward with a sofa visible behind him.",
+        "prompt_sha256": "b0c4c9979142abbf3056e4b38f20648e721f376ccf64fb38481122baad0ed693",
+        "reference_id": "vqa__vqa_val_0011__source__000",
+        "role": "source",
+        "seed": 564696485779668025
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a person seated on a beige armchair in a cozy living room, with a coffee table in the foreground.",
+        "prompt_sha256": "fc5391f2a515deb46e5c32d1f9ba0aeae15b19871f32328db4c1bc6feb9d3017",
+        "reference_id": "vqa__vqa_val_0011__source__001",
+        "role": "source",
+        "seed": 754365900015652766
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a man sitting on a green upholstered chair, his legs crossed, with a window and blinds in the background.",
+        "prompt_sha256": "95c0c05f74424d2fd070fceaef3cac2218003e23da6ed0a48ebcde6eedaf2fa0",
+        "reference_id": "vqa__vqa_val_0011__source__002",
+        "role": "source",
+        "seed": 1138201787669164860
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/003.png",
+        "index": 3,
+        "prompt": "A woman sits on a white plastic chair in a living room, leaning slightly forward, with a potted plant nearby.",
+        "prompt_sha256": "eb1c665de2a51a7a1deefdf0276a10a4462ab1289e5c1d4d53cdd27c97f9285d",
+        "reference_id": "vqa__vqa_val_0011__source__003",
+        "role": "source",
+        "seed": 444297521249169353
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/004.png",
+        "index": 4,
+        "prompt": "A man in a grey sweater sits on a brown leather chair in soft daylight, with a bookshelf visible in the background.",
+        "prompt_sha256": "ef976732a8cc20ae17d4524c61ca6946ebd54328c4350dda7cc373ae17c63304",
+        "reference_id": "vqa__vqa_val_0011__source__004",
+        "role": "source",
+        "seed": 35850516872237062
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/005.png",
+        "index": 5,
+        "prompt": "Wide shot of a person sitting on a wooden chair in a living room, with a large sofa and rug filling the space.",
+        "prompt_sha256": "309898c9dbcd5fa5b2e7701526d8012a29071a64771cc1450fdc08a31c531280",
+        "reference_id": "vqa__vqa_val_0011__source__005",
+        "role": "source",
+        "seed": 578327322683499716
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/006.png",
+        "index": 6,
+        "prompt": "Side angle view of a man sitting on a metal chair in a room, with a window letting in natural light.",
+        "prompt_sha256": "2f7ca67da5c5d7bdadec49fe04b426bdc8c9ca0b98fc060eb067f9642c9d203d",
+        "reference_id": "vqa__vqa_val_0011__source__006",
+        "role": "source",
+        "seed": 330380320523183178
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/007.png",
+        "index": 7,
+        "prompt": "A person sits on a cushioned chair in a living room, with a framed picture hanging on the wall behind them.",
+        "prompt_sha256": "9ee97c9bdfe6b300d912c15b8b10ca8888b362d65e10784430a162f7eacbfe5c",
+        "reference_id": "vqa__vqa_val_0011__source__007",
+        "role": "source",
+        "seed": 282787220447060969
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/008.png",
+        "index": 8,
+        "prompt": "Candid shot of a man sitting on a wooden chair in a living room, looking relaxed, with a TV stand in the background.",
+        "prompt_sha256": "5c5a852fd2456d0f5623bb5b60d777948c65f20120716df5a40164df246337ea",
+        "reference_id": "vqa__vqa_val_0011__source__008",
+        "role": "source",
+        "seed": 615111809398314990
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/009.png",
+        "index": 9,
+        "prompt": "A woman sits on a fabric chair in a living room, with a small side table and lamp next to her.",
+        "prompt_sha256": "711ee06ab7e31c88cd3d91b87d284108660a10bee9dddfb385f5534711cc50a4",
+        "reference_id": "vqa__vqa_val_0011__source__009",
+        "role": "source",
+        "seed": 458751248475237553
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/010.png",
+        "index": 10,
+        "prompt": "A man in a navy shirt sits on a wooden chair in a living room with a sofa behind him.",
+        "prompt_sha256": "852f95a80d26364fb56e4b25012bfd91916bb5a72de48f183993116fd5ca78a4",
+        "reference_id": "vqa__vqa_val_0011__source__010",
+        "role": "source",
+        "seed": 927817442147474800
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/011.png",
+        "index": 11,
+        "prompt": "Medium shot of a person seated on a fabric chair in a cozy living room with soft lighting.",
+        "prompt_sha256": "ebae2582ea212cc4797b07c4f42be1c475240c89f4264c1c454a7581e0c0b638",
+        "reference_id": "vqa__vqa_val_0011__source__011",
+        "role": "source",
+        "seed": 430137577947432367
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/012.png",
+        "index": 12,
+        "prompt": "Close-up view of a man sitting on a cushioned armchair with a window and blinds in the background.",
+        "prompt_sha256": "15d651f0fcce0d6693dee2fe935159887ebf8a32566ad77c2466197abba9e669",
+        "reference_id": "vqa__vqa_val_0011__source__012",
+        "role": "source",
+        "seed": 1088488816270682184
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/013.png",
+        "index": 13,
+        "prompt": "A woman in a red dress sits on a metal chair in a room with a potted plant nearby.",
+        "prompt_sha256": "0cfbc89e066b6b2606d4e0e48424683c257e4698a2c99a8bf8aa70fb9af306f9",
+        "reference_id": "vqa__vqa_val_0011__source__013",
+        "role": "source",
+        "seed": 149755757276728930
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/014.png",
+        "index": 14,
+        "prompt": "A person in a grey sweater sits on a wooden chair in a living room with soft daylight streaming in.",
+        "prompt_sha256": "eb99ca79f0e1dd4b9555d1720270e52fb7cebf1172c14d70689fc8061e3adf48",
+        "reference_id": "vqa__vqa_val_0011__source__014",
+        "role": "source",
+        "seed": 467029522857156083
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/015.png",
+        "index": 15,
+        "prompt": "Wide angle shot of a man sitting on a wooden chair in a living room with a sofa and rug visible.",
+        "prompt_sha256": "66015a716ddace2e2f6d5d3e6f35a4100803f2ca36c7adbab007d1570ee4d82f",
+        "reference_id": "vqa__vqa_val_0011__source__015",
+        "role": "source",
+        "seed": 101970186856837732
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/016.png",
+        "index": 16,
+        "prompt": "Side view of a person sitting on a green upholstered chair in a living room with a picture frame on the wall.",
+        "prompt_sha256": "2ef6cc50db4e4a215d3c725ce433465e2dec19e7983d5618144bab4035df02d7",
+        "reference_id": "vqa__vqa_val_0011__source__016",
+        "role": "source",
+        "seed": 482686900509609071
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/017.png",
+        "index": 17,
+        "prompt": "A man in a blue shirt sits on a white plastic chair in a living room with a small table beside him.",
+        "prompt_sha256": "7d732c0f05a6fdbe3e1797998f3d1b0a11140e4531e1ba35913fadce4b9ba1d7",
+        "reference_id": "vqa__vqa_val_0011__source__017",
+        "role": "source",
+        "seed": 909575134434215236
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/018.png",
+        "index": 18,
+        "prompt": "Candid shot of a person sitting on a brown leather chair in a living room with a bookshelf in the background.",
+        "prompt_sha256": "32a6a683b7976bfe80ead7ab99e5ef69812fabdef5a813b6064fb94d50a2168b",
+        "reference_id": "vqa__vqa_val_0011__source__018",
+        "role": "source",
+        "seed": 564810566042749344
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/source/019.png",
+        "index": 19,
+        "prompt": "A person in a beige jacket sits on a wooden chair in a living room with a window and curtains visible.",
+        "prompt_sha256": "8fd4ea87e8cfe1b775ca2e3a05b06173ec3fdbf026206dfa2193a2f052b16e09",
+        "reference_id": "vqa__vqa_val_0011__source__019",
+        "role": "source",
+        "seed": 975465395434131021
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/000.png",
+        "index": 0,
+        "prompt": "A man in a blue shirt sits on a wooden bench in a living room, facing forward with a sofa visible behind him.",
+        "prompt_sha256": "7148d42dfc826e2c20acf19376afc0850cfcc210353ff4875c2c5a09230e88f2",
+        "reference_id": "vqa__vqa_val_0011__target__000",
+        "role": "target",
+        "seed": 1142590146561334852
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/001.png",
+        "index": 1,
+        "prompt": "Medium shot of a person seated on a beige bench in a cozy living room, with a coffee table in the foreground.",
+        "prompt_sha256": "b7e06a575ceba3696540a3e16078caf1ad3a4b139c6cf1dff1d92b42f25b1ab4",
+        "reference_id": "vqa__vqa_val_0011__target__001",
+        "role": "target",
+        "seed": 689298256629994275
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/002.png",
+        "index": 2,
+        "prompt": "Close-up view of a man sitting on a green upholstered bench, his legs crossed, with a window and blinds in the background.",
+        "prompt_sha256": "1f26bfe6af40dc62139699ab3f88fc465643454af5d0b9af4410f1e6915e6aee",
+        "reference_id": "vqa__vqa_val_0011__target__002",
+        "role": "target",
+        "seed": 484882814617315491
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/003.png",
+        "index": 3,
+        "prompt": "A woman sits on a white plastic bench in a living room, leaning slightly forward, with a potted plant nearby.",
+        "prompt_sha256": "c2c51528cdbe6d6a71da61a3e260b0ee4aff922e72d12d5bf5ec264c287f5fa8",
+        "reference_id": "vqa__vqa_val_0011__target__003",
+        "role": "target",
+        "seed": 4553673178498030
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/004.png",
+        "index": 4,
+        "prompt": "A man in a grey sweater sits on a brown leather bench in soft daylight, with a bookshelf visible in the background.",
+        "prompt_sha256": "ffd2fc5fcf85e8e1482b647c444efc333176631244ecbb47e2900cc465213c07",
+        "reference_id": "vqa__vqa_val_0011__target__004",
+        "role": "target",
+        "seed": 129915478921896867
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/005.png",
+        "index": 5,
+        "prompt": "Side angle view of a man sitting on a metal bench in a room, with a window letting in natural light.",
+        "prompt_sha256": "a389c0cdd1734bf68907b789ce99f6f5ee90f1a76efcfbd7ca7edc67b97767e4",
+        "reference_id": "vqa__vqa_val_0011__target__005",
+        "role": "target",
+        "seed": 350894850886148217
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/006.png",
+        "index": 6,
+        "prompt": "A person sits on a cushioned bench in a living room, with a framed picture hanging on the wall behind them.",
+        "prompt_sha256": "991fcc65521a2446238069359378ea77ae5a02ee230be1a977a6709d931ab507",
+        "reference_id": "vqa__vqa_val_0011__target__006",
+        "role": "target",
+        "seed": 525785553368320279
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/007.png",
+        "index": 7,
+        "prompt": "Candid shot of a man sitting on a wooden bench in a living room, looking relaxed, with a TV stand in the background.",
+        "prompt_sha256": "7e6ead456aa6e7c452164343ab93462b6d1570b20f9362734648481d1f4989cc",
+        "reference_id": "vqa__vqa_val_0011__target__007",
+        "role": "target",
+        "seed": 1035800939116232418
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/008.png",
+        "index": 8,
+        "prompt": "A woman sits on a fabric bench in a living room, with a small side table and lamp next to her.",
+        "prompt_sha256": "8c90b56fe22d03ad90c40e3777bbcb064bad25f3087709304b5724cdafff76cd",
+        "reference_id": "vqa__vqa_val_0011__target__008",
+        "role": "target",
+        "seed": 959001387327346066
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/009.png",
+        "index": 9,
+        "prompt": "A man sits on a wooden bench in a living room, with a large sofa and rug filling the space.",
+        "prompt_sha256": "6e75b3541e53b9bf6b40c467ddacdf08ff73f1a5ecc3d3d6b9703677173d23d8",
+        "reference_id": "vqa__vqa_val_0011__target__009",
+        "role": "target",
+        "seed": 121827139977654374
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/010.png",
+        "index": 10,
+        "prompt": "A man in a navy shirt sits on a wooden bench in a living room with a sofa behind him.",
+        "prompt_sha256": "fe3dde92d9853d7cfdee5d0898f5e6ee6cf17d006294c321f1226b543a666d6a",
+        "reference_id": "vqa__vqa_val_0011__target__010",
+        "role": "target",
+        "seed": 894756296241466765
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/011.png",
+        "index": 11,
+        "prompt": "Medium shot of a person seated on a fabric bench in a cozy living room with soft lighting.",
+        "prompt_sha256": "d99dce2c3d4e3a2a06eb91c5c414fb53812c615f710cd2ee5e7febff1a468de9",
+        "reference_id": "vqa__vqa_val_0011__target__011",
+        "role": "target",
+        "seed": 252380274659431155
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/012.png",
+        "index": 12,
+        "prompt": "Close-up view of a man sitting on a cushioned bench with a window and blinds in the background.",
+        "prompt_sha256": "02861e3bbcb2dbc206c92c6a820a9bce12c7afa942b820408e7879571193b650",
+        "reference_id": "vqa__vqa_val_0011__target__012",
+        "role": "target",
+        "seed": 35610987050972128
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/013.png",
+        "index": 13,
+        "prompt": "A woman in a red dress sits on a metal bench in a room with a potted plant nearby.",
+        "prompt_sha256": "c337e827fe704d5f0d56009a08614f8272da800ce5d272acb46a35c32bcab71f",
+        "reference_id": "vqa__vqa_val_0011__target__013",
+        "role": "target",
+        "seed": 950623365920923549
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/014.png",
+        "index": 14,
+        "prompt": "A person in a grey sweater sits on a wooden bench in a living room with soft daylight streaming in.",
+        "prompt_sha256": "407332c14ceb46a441645d11b4699935eefa4b2064af9ac09a756e4eae3f859b",
+        "reference_id": "vqa__vqa_val_0011__target__014",
+        "role": "target",
+        "seed": 27606142801427882
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/015.png",
+        "index": 15,
+        "prompt": "Side view of a person sitting on a green upholstered bench in a living room with a picture frame on the wall.",
+        "prompt_sha256": "8f9b180db8a232d2bf2e9c4f07a3081fdcb8018c823d3f3aaa1c3a5530422d89",
+        "reference_id": "vqa__vqa_val_0011__target__015",
+        "role": "target",
+        "seed": 163107378554899367
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/016.png",
+        "index": 16,
+        "prompt": "A man in a blue shirt sits on a white plastic bench in a living room with a small table beside him.",
+        "prompt_sha256": "70614a15923eadf7d9dddee7b18fc61f823f711ce1c90993079acbec6b27c138",
+        "reference_id": "vqa__vqa_val_0011__target__016",
+        "role": "target",
+        "seed": 456034015374884907
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/017.png",
+        "index": 17,
+        "prompt": "Candid shot of a person sitting on a brown leather bench in a living room with a bookshelf in the background.",
+        "prompt_sha256": "827c200d8f9bf1e77c2b6110b5edd58975f092d52e66b17ec1760f018f665248",
+        "reference_id": "vqa__vqa_val_0011__target__017",
+        "role": "target",
+        "seed": 764865310779864003
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/018.png",
+        "index": 18,
+        "prompt": "A person in a beige jacket sits on a wooden bench in a living room with a window and curtains visible.",
+        "prompt_sha256": "4c0ff2044893a15b952852a4df2d1d014a744d54541c13689944ce952275ed1a",
+        "reference_id": "vqa__vqa_val_0011__target__018",
+        "role": "target",
+        "seed": 743667189952128128
+      },
+      {
+        "image": "samples/vqa/vqa_val_0011/target/019.png",
+        "index": 19,
+        "prompt": "A man in a beige jacket sits on a wooden bench in a living room with a window and curtains visible.",
+        "prompt_sha256": "643e398333faeffa91fbbc52eaf8edc0cec81b6b36dba9a0cfef41cfd3bffd03",
+        "reference_id": "vqa__vqa_val_0011__target__019",
+        "role": "target",
+        "seed": 101908393524506772
+      }
+    ],
+    "original_image_path": "/home/nfs_storage/jw_backup/dataset/val2014/COCO_val2014_000000000241.jpg",
+    "original_image_sha256": "39df957040ee07907626207f3f80ae92e599b7b871034b1c4d677eda06a8bf1a",
+    "prompt_review_status": "assistant_review_pass_after_repair",
+    "sample_fingerprint": "7a9ad7e78f06b11785d396cda668f62ab134c681bac8ffe6a70fc2680738ba38",
+    "sample_id": "vqa_val_0011",
+    "shard": 115,
+    "split": "val2014",
+    "task": "vqa",
+    "task_fields": {
+      "question": "What is he sitting on?",
+      "source_answer": "chair",
+      "source_answers": [
+        "couch",
+        "sofa",
+        "sofa",
+        "chair",
+        "chair",
+        "couch",
+        "couch",
+        "chair",
+        "chair",
+        "chair"
+      ],
+      "target_answer": "bench"
+    },
+    "task_type": "vqa_vqav2"
+  },
+  "generated": {
+    "vqa__vqa_val_0011__source__000": {
+      "job_sha256": "ec8c412750ce4a4e52718e4cd5d2acd1ae049f73c123136a150c9349d530314f",
+      "sha256": "de66fcc228844ecc3966dc56357c1a28f59e127b7e6a4dc578cd0a9b395437ee",
+      "bytes": 143415,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.288357+00:00"
+    },
+    "vqa__vqa_val_0011__source__001": {
+      "job_sha256": "b72450e3a4a0727c75e79b76c6fbd36b61bbca6101babde87aac319e9b5d5f26",
+      "sha256": "604b21ad46d12ac52c24d4b931273324c8c883b992a18d720eebf89230175e6d",
+      "bytes": 141265,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.326632+00:00"
+    },
+    "vqa__vqa_val_0011__source__002": {
+      "job_sha256": "8c106e38c84fd449ce25c34784a0c8025103f78ba9ef7c783efdb7c0f79ec251",
+      "sha256": "401101640b85d0c27152ebc5b7b42a19112d76a6b41215e52e354e05063d0655",
+      "bytes": 132895,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.367837+00:00"
+    },
+    "vqa__vqa_val_0011__source__003": {
+      "job_sha256": "2823a83f3dcae4cf4f4c5bc7bde2287c36f4a6c15860fe381630212129b0cd7b",
+      "sha256": "e7951c8faf01255657d8e4005c568b2616dd6da5209f0e198a3ae36548c6544c",
+      "bytes": 140562,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.410063+00:00"
+    },
+    "vqa__vqa_val_0011__source__004": {
+      "job_sha256": "e64953524b4bbf7f0e7fd1d088d2067adc10e4e950d1f067760d6bfb9e545ffb",
+      "sha256": "f7389a0e9f765387eb53dfc290ffd8b0c6fdcdde9b817acfba3c89aeba7ac2d4",
+      "bytes": 155013,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.452723+00:00"
+    },
+    "vqa__vqa_val_0011__source__005": {
+      "job_sha256": "1a7db7cd73088485e273971cdfe086548e1d952776ce8cb2344c1cd6b8f2c6d8",
+      "sha256": "88fb2dd59558560e02397a00a841bab99d475028b4f8f5b476927fdd790fb00a",
+      "bytes": 132886,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.497833+00:00"
+    },
+    "vqa__vqa_val_0011__source__006": {
+      "job_sha256": "ea89318dacb3b8051b17dfd09b887d12f41acba351585116d95eb08242dc2728",
+      "sha256": "00882c33f9faf30b004a7ae75eb6cf0c39701c7c4fc060da4535bbf1c594936d",
+      "bytes": 98838,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.536553+00:00"
+    },
+    "vqa__vqa_val_0011__source__007": {
+      "job_sha256": "05b190508249898e3821117d1281692ede36a211dcf5b8d066ca364b196e1df3",
+      "sha256": "97015fbe76f53ec0a926977cd7e4a54e335b5fe3c018734c9c3f9cacf2f46a54",
+      "bytes": 118445,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.573532+00:00"
+    },
+    "vqa__vqa_val_0011__source__008": {
+      "job_sha256": "423c72ae52658c8499971cae659c564e10c0c7b2f13af8548ca1a4dfb88d33f1",
+      "sha256": "12e211cab1a7fdd37f6bc362210bc9e9bfe4b92290d84e44483674274608bbbd",
+      "bytes": 133149,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.610106+00:00"
+    },
+    "vqa__vqa_val_0011__source__009": {
+      "job_sha256": "82291427ac09d14e86d04706741e6529aeb0daedbfad892beb9fe22bc9e41b18",
+      "sha256": "55f716626bcbf7a22f92e133aceab76254b645bccf0941ff5c8b4fc331285277",
+      "bytes": 123324,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.646223+00:00"
+    },
+    "vqa__vqa_val_0011__source__010": {
+      "job_sha256": "30abbf358e9ac9509e9cc06333dfff619f2679981bc3844663c28c0689f2a820",
+      "sha256": "dbf4275f713673d5f068a5f88d8c72701fdb4fc978fd0fd0c518e078b014219d",
+      "bytes": 141196,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.685369+00:00"
+    },
+    "vqa__vqa_val_0011__source__011": {
+      "job_sha256": "d8a33a11e3cff76671642523c4eaaf0de587c1dbbfca7dd7ce9db3e408db0b91",
+      "sha256": "ae2e96ff49df546e58a7d9cba32add959aa029ccc1afd99f02109501f032322b",
+      "bytes": 133014,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.729866+00:00"
+    },
+    "vqa__vqa_val_0011__source__012": {
+      "job_sha256": "ddc74be9068cb0ed736916d71a940523098b76407ea58c866ef69f027bf6fa16",
+      "sha256": "42bd42db7411058ea30a66304927409221e472e50d7e023d2271027141973667",
+      "bytes": 129324,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.787491+00:00"
+    },
+    "vqa__vqa_val_0011__source__013": {
+      "job_sha256": "d4a23e944d99f02d724616c45df7d39b33339ab57f00e77a8490c61bc67165d7",
+      "sha256": "29e6193cc73a391153dc8fbf5af6bcaa21e8a8d935ee6c934e9eac6d8c1b880d",
+      "bytes": 149143,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.833013+00:00"
+    },
+    "vqa__vqa_val_0011__source__014": {
+      "job_sha256": "e3dea818d0749848040b262928b7d3ba7e583d11374e35b88551df5821735e58",
+      "sha256": "3ce292a1de2feac34cd9a3f32a55d263aa43c15982e95416e124f385c6454e29",
+      "bytes": 148947,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.875548+00:00"
+    },
+    "vqa__vqa_val_0011__source__015": {
+      "job_sha256": "e753df466acded87a6143cdbf14ae554e66d958886fd749a35811d8a0ef84108",
+      "sha256": "335cda96f4fbb5a3a1042768f6b5c4f5e344d3094b548b0a5bfd11ef7a873ba5",
+      "bytes": 121907,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.920233+00:00"
+    },
+    "vqa__vqa_val_0011__source__016": {
+      "job_sha256": "7fbccef47c346648878ba3fddde5b8f0c86028b8634a4b53c041eeb96dbde026",
+      "sha256": "029d636ed00f6b4feaacd9b342ff29939b176f7db97cd575898b94719e5e12c6",
+      "bytes": 125031,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:58.965427+00:00"
+    },
+    "vqa__vqa_val_0011__source__017": {
+      "job_sha256": "0c1223129f16dd6c611dc89da337680cc319ff7d5bcd51f05712839af8f51cb9",
+      "sha256": "b36556124472fcdf4c6fe1ab57d79a30cfe572f0ac1cea0cc69d4426e4ecbe58",
+      "bytes": 143992,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.008088+00:00"
+    },
+    "vqa__vqa_val_0011__source__018": {
+      "job_sha256": "859a98ab9811aa4b5ac949203a1e314b05d60dbee59b6102b9814b82c0d58180",
+      "sha256": "0445de07fcc22b6015359947286067b26bf711ca38f0d83bb48f3fe4cecd10a9",
+      "bytes": 147288,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.056821+00:00"
+    },
+    "vqa__vqa_val_0011__source__019": {
+      "job_sha256": "f38eb089ec7b0355cff63b8fc0e2e5328b537a09dcd1ee048c57c790a82db6b5",
+      "sha256": "9d7024f6f873c9ef4dad2b74f4677497c8dd22a2b03a94ad50c592bc978b1d8c",
+      "bytes": 136572,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.100869+00:00"
+    },
+    "vqa__vqa_val_0011__target__000": {
+      "job_sha256": "8819d6c95554aa0efe761c6a6f5bf5cc806b5aa23812be2f68c4e52d03a9e57b",
+      "sha256": "6c48a24dd98586ad3acfef85693171f22bb733b242181aee08f5fcf848fd5b60",
+      "bytes": 138049,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.146048+00:00"
+    },
+    "vqa__vqa_val_0011__target__001": {
+      "job_sha256": "ee62eaf81fe717f2d904db817a9b301f10973f808057202aec0b7c2241efde18",
+      "sha256": "2a4b09a0339931012bfc682c0cf459f3dbf117c01ed5a1e34caa8c914eda8f22",
+      "bytes": 139567,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.189124+00:00"
+    },
+    "vqa__vqa_val_0011__target__002": {
+      "job_sha256": "6ddbbf482b9db9be45010bbb7df65f2061cd6c73f4b0cf39e5beb433423dbc1e",
+      "sha256": "7fc1822a940b6e4d7e92441b1c4d26f3d58789a1263948c5bcc20a83e1d3b6d1",
+      "bytes": 119635,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.233265+00:00"
+    },
+    "vqa__vqa_val_0011__target__003": {
+      "job_sha256": "0061476300daeb2b5792a725bbb41e4d3c534c55b8e7c47c55b9eb2f2270be6b",
+      "sha256": "e8a6811b2fe4b88a1f23d6449b2628ab727ae264ecb38bebc001eecfc85fc892",
+      "bytes": 133077,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.270130+00:00"
+    },
+    "vqa__vqa_val_0011__target__004": {
+      "job_sha256": "72f6b5d4eb6191b83969d22eb6ac41e621d6f6d71637b7de3ece0be6080fdfca",
+      "sha256": "ca7807252f2ffb451917a1074c6cfbe931e8a4d55ca2f9c04ca0a6c2def65b9a",
+      "bytes": 164000,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.313794+00:00"
+    },
+    "vqa__vqa_val_0011__target__005": {
+      "job_sha256": "0ea6ed277cb285441fbda79c0fe49acb2f16b0635780bed8069e5fe84c4c1b0c",
+      "sha256": "83410109a3db4090c6698b63a82eb7e5b733b1ca3788f42f37315c74060945e0",
+      "bytes": 126431,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.352175+00:00"
+    },
+    "vqa__vqa_val_0011__target__006": {
+      "job_sha256": "147e77948fdd48fbe092bec4b741ce630ec2e0e5fbfd7901665e769aa0977ccc",
+      "sha256": "7ba93bc42afb57ca93facae3ceaefaa232249831e2dfd7db1bb693a3e7ee81c3",
+      "bytes": 113890,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.390297+00:00"
+    },
+    "vqa__vqa_val_0011__target__007": {
+      "job_sha256": "913ef7ff6bd23cf077289d80c564544361455ab5da9d12c723f0f3f4bc3c5793",
+      "sha256": "e2ae8f3d14aa1e66f8ba286d9f255ace3c1659731d96ede5bb394444490ba34d",
+      "bytes": 131440,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.440318+00:00"
+    },
+    "vqa__vqa_val_0011__target__008": {
+      "job_sha256": "f831e2cc71c4dedd19532bfbec6360a122d65efee5313f03f264a079e5864f1a",
+      "sha256": "3bad82b6a5d593bc9a73ed074f673e52fced488b5d03b1d69deadd8e9a12b908",
+      "bytes": 131836,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.479780+00:00"
+    },
+    "vqa__vqa_val_0011__target__009": {
+      "job_sha256": "5e57b13069d2a5787191f810620a265696cfca0649b2ae44bd21ccc3db75b512",
+      "sha256": "8ccf35f76decf5183e2705413ea2aee0c3bd40fe3ff88a772fa60b345355a091",
+      "bytes": 145222,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.521834+00:00"
+    },
+    "vqa__vqa_val_0011__target__010": {
+      "job_sha256": "29159d4b43cb39947e831ba9d23f8e2a92d25932215bc2915df1c9bafd7e64c9",
+      "sha256": "34ddf90d969cb758029b555776a473c332267f8823aea4fa60800900f7427fb7",
+      "bytes": 148983,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.569636+00:00"
+    },
+    "vqa__vqa_val_0011__target__011": {
+      "job_sha256": "413ee18d891ec2d9d9189541caaeb76a917bae8e3e62f4f72a337e86c21d4ff0",
+      "sha256": "dfb7737482d76861a5017dcc62ca50301e6cb8b30aac1cfc868f1a2c16206211",
+      "bytes": 132299,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.613097+00:00"
+    },
+    "vqa__vqa_val_0011__target__012": {
+      "job_sha256": "bb4043976dfcbf461f53773dd43d78d3d090be8f93bf40d27165ad63c7923757",
+      "sha256": "dc6d1c250eb093f21a8ff1ee8d18c0f5fa2452ea0dea099a8f023d8145171029",
+      "bytes": 118285,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.652901+00:00"
+    },
+    "vqa__vqa_val_0011__target__013": {
+      "job_sha256": "c2cdc35b4511ac1002f99efd2736868c4ca241da517d6e4c2a070c94932e5abf",
+      "sha256": "cb99418ddad43e24269fdbc1529d2ba9ac28d6264d52e5862afef98b08327b48",
+      "bytes": 146449,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.695132+00:00"
+    },
+    "vqa__vqa_val_0011__target__014": {
+      "job_sha256": "0691308f440b64e94fa43bec1e0fef27989fa90cd21e5deb1715d9663c24dda5",
+      "sha256": "5de879f9e5b2673aa8e4e26bf26451bfd48172f615b8dfe2aca812d0eea044ac",
+      "bytes": 146742,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.732243+00:00"
+    },
+    "vqa__vqa_val_0011__target__015": {
+      "job_sha256": "6b98a64e4d8981dac44343b5d75ddba14eb72b805bbba693040dd033605d82be",
+      "sha256": "88ea648b76b44b63c277fecd644b50cf7bb4ad4ad32464a2eae2813424cfb239",
+      "bytes": 124528,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.774673+00:00"
+    },
+    "vqa__vqa_val_0011__target__016": {
+      "job_sha256": "99c73c007317835a92c7bd28b0a67e3790f633d68ab37dfb88934f1758c1893d",
+      "sha256": "b5e4e7a047e54471eb58c2918437189f962a5e419370361407252c570725ab5a",
+      "bytes": 133727,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.816900+00:00"
+    },
+    "vqa__vqa_val_0011__target__017": {
+      "job_sha256": "a38eecbae88b5a48d8f1d0a7b14377119bed0bb55b1665eaf9cf2bd499f3048a",
+      "sha256": "517c2ae05edcb87870574ffa5ea890bf601e0049283a10641f1fc3c660ec88cb",
+      "bytes": 144569,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.858993+00:00"
+    },
+    "vqa__vqa_val_0011__target__018": {
+      "job_sha256": "33ed2fa50fcd65ca1da5f7cb711994e50272317ba916fe0b44e1841576be6032",
+      "sha256": "d6671bd2a84fc94d80e5af5fbd88128ae58f64361cf47daffc471abcbdd0dbb3",
+      "bytes": 141651,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.900710+00:00"
+    },
+    "vqa__vqa_val_0011__target__019": {
+      "job_sha256": "757623303232b9ff8d648a62ac41ea9e5b88491bad6a153c69ed0a0bd2aa7fb6",
+      "sha256": "b5968b99bfa92481e34eb91418c98bfecd9c3014010c80c1a46437d2af8a1ac9",
+      "bytes": 131108,
+      "size": [
+        299,
+        299
+      ],
+      "run_id": "20261025T170934_5cf5cb8b",
+      "batch_size": 40,
+      "batch_sec": 28.068878521211445,
+      "peak_allocated_gib": 26.93557596206665,
+      "peak_reserved_gib": 40.849609375,
+      "generated_utc": "2026-10-25T22:00:59.947081+00:00"
+    }
+  },
+  "recovery_history": [],
+  "updated_utc": "2026-10-25T22:00:59.947104+00:00",
+  "generated_count": 40,
+  "generation_complete": true
+}
